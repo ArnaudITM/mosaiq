@@ -1,0 +1,910 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Mosaiq</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Mosaiq — l'essentiel de l'actualité chaque matin, avec des regards croisés sur la géopolitique et un espace football détaillé.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout : site d'actualité — barre de rubriques collante, Une, puis pages de rubrique, d'article, de championnat et de club rendues côté client */
+:root{
+  --bg:#F3F4F6; --surface:#FFFFFF; --ink:#12151C; --soft:#5A6070; --faint:#8A90A0; --line:#E1E3E9;
+  --land:#DCDFE6; --sea:#EEF1F6;
+  --c-fr:#2D4BD8; --c-geo:#0E7C86; --c-af:#D9822B; --c-tech:#7A4CE0; --c-eco:#1E8A5A; --c-sport:#D23F5C;
+  --pos:#1E8A5A; --neg:#C2412D; --warm:#E8A23A;
+  --s-football:#1E9150; --s-nba:#E46B1F; --s-nfl:#7A4B23; --s-tennis:#8FA300; --s-f1:#D7141A; --s-rugby:#1F4FA3;
+  --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --read:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --body:"Inter",-apple-system,"Segoe UI",system-ui,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --s-football:#3DBA74; --s-nba:#F58A45; --s-nfl:#C08654; --s-tennis:#C4D83A; --s-f1:#FF4A4F; --s-rugby:#6E9BEA;
+  --bg:#0E1117; --surface:#171B23; --ink:#ECEEF3; --soft:#A0A7B6; --faint:#6E7586; --line:#2A303C; --land:#2C323E; --sea:#141821;
+  --c-fr:#7D93FF; --c-geo:#3FC1C9; --c-af:#F0A050; --c-tech:#A98BFF; --c-eco:#4CC38A; --c-sport:#F06A84; --pos:#4CC38A; --neg:#F0745F; --warm:#F2B65A; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --s-football:#3DBA74; --s-nba:#F58A45; --s-nfl:#C08654; --s-tennis:#C4D83A; --s-f1:#FF4A4F; --s-rugby:#6E9BEA;
+  --bg:#0E1117; --surface:#171B23; --ink:#ECEEF3; --soft:#A0A7B6; --faint:#6E7586; --line:#2A303C; --land:#2C323E; --sea:#141821;
+  --c-fr:#7D93FF; --c-geo:#3FC1C9; --c-af:#F0A050; --c-tech:#A98BFF; --c-eco:#4CC38A; --c-sport:#F06A84; --pos:#4CC38A; --neg:#F0745F; --warm:#F2B65A; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15.5px;line-height:1.55}
+a{color:inherit}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--c-fr);outline-offset:2px}
+.in{max-width:1080px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--surface)}
+/* masthead */
+.mast{background:var(--surface);border-bottom:1px solid var(--line)}
+.mast .in{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;padding-block:16px 10px}
+.brand{font-family:var(--display);font-weight:800;font-size:30px;letter-spacing:-.02em;text-decoration:none;display:flex;align-items:baseline;gap:8px}
+.mast .tagline{color:var(--soft);font-size:13.5px}
+.mast .ed{margin-left:auto;font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--soft)}
+/* nav filter */
+nav.rub{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--surface);border-bottom:1px solid var(--line)}
+nav.rub .in{display:flex;gap:6px;overflow-x:auto;padding-block:9px;scrollbar-width:none}
+nav.rub a{flex:none;text-decoration:none;font-size:14.5px;font-weight:700;padding:7px 14px 7px 9px;border-radius:999px;border:1px solid var(--line);display:inline-flex;align-items:center;gap:8px;white-space:nowrap}
+nav.rub a .ic{width:24px;height:24px;border-radius:50%;display:grid;place-items:center;color:var(--surface);background:var(--rc)}
+nav.rub a .ic svg{width:15px;height:15px}
+nav.rub a[aria-current="page"]{background:var(--rc);color:var(--surface);border-color:var(--rc)}
+nav.rub a[aria-current="page"] .ic{background:var(--surface);color:var(--rc)}
+.subnav{display:flex;gap:8px;overflow-x:auto;padding:4px 0 14px;margin-bottom:8px;border-bottom:1px solid var(--line);scrollbar-width:none}
+.subnav a{flex:none;text-decoration:none;display:flex;flex-direction:column;align-items:center;gap:6px;min-width:84px;padding:10px 12px;border-radius:12px;border:1px solid var(--line);background:var(--surface);font-size:13.5px;font-weight:700}
+.subnav a svg{width:30px;height:30px;color:var(--sc,var(--c-sport))}
+.subnav a[aria-current="page"]{background:var(--sc,var(--c-sport));border-color:var(--sc,var(--c-sport));color:var(--surface)}
+.subnav a[aria-current="page"] svg{color:var(--surface)}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0 18px}
+.tabs a{text-decoration:none;font-size:13.5px;font-weight:600;padding:6px 14px;border-radius:8px;border:1px solid var(--line);background:var(--surface)}
+.tabs a[aria-current="page"]{background:var(--ink);color:var(--surface);border-color:var(--ink)}
+.hico{width:40px;height:40px;border-radius:11px;display:grid;place-items:center;color:var(--surface);background:var(--rc);flex:none}
+.hico svg{width:24px;height:24px}
+.title-row{display:flex;align-items:center;gap:14px}
+.title-row h1.page{margin:4px 0}
+.cal-day{margin:18px 0 6px;font-family:var(--display);font-weight:700;font-size:17px}
+.cal-day::first-letter{text-transform:uppercase}
+.cal-row{display:grid;grid-template-columns:54px minmax(0,1fr) auto;gap:10px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:9px 12px;margin-bottom:6px;font-size:14px}
+.cal-row .t{font-family:var(--mono);font-size:12.5px;color:var(--soft)}
+.cal-row .m{font-weight:600;min-width:0}
+.cal-row .c{font-size:11.5px;font-weight:600;padding:2px 8px;border-radius:999px;border:1px solid var(--line);color:var(--soft);white-space:nowrap}
+.pill{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;padding:2px 8px;border-radius:999px;color:var(--surface)}
+.pill.officiel{background:var(--pos)}.pill.avance{background:var(--warm)}.pill.rumeur{background:var(--faint)}
+.trs{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.tr{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:grid;gap:6px;min-width:0}
+.tr .mv{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-weight:700;font-family:var(--display);font-size:17px}
+.tr .mv span{font-family:var(--body);font-size:13px;font-weight:600;color:var(--soft)}
+.tr p{margin:0;font-size:14px;color:var(--soft)}
+.hub{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}
+.hub a{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 12px;align-items:center;text-decoration:none;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px}
+.hub a:hover{border-color:var(--soft)}
+.hub a .hico{grid-row:span 2}
+.hub b{font-family:var(--display);font-size:18px}
+.hub span.s{font-size:13px;color:var(--soft)}
+main{padding-block:26px 60px;min-height:60vh}
+footer{border-top:1px solid var(--line);background:var(--surface);color:var(--soft);font-size:12.5px}
+footer .in{padding-block:22px;display:grid;gap:6px}
+/* generic */
+.eyebrow{font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--soft)}
+h1.page{font-family:var(--display);font-weight:800;font-size:clamp(30px,5vw,48px);line-height:1.05;letter-spacing:-.02em;margin:6px 0 10px;text-wrap:balance}
+.lede{font-family:var(--read);font-size:18.5px;line-height:1.5;color:var(--soft);max-width:64ch;margin:0}
+.grid2{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:20px;align-items:start}
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px 18px;min-width:0}
+.panel h3{margin:0 0 2px;font-size:12.5px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--soft)}
+.sub{font-size:12.5px;color:var(--soft);margin:0 0 12px}
+.stack{display:grid;gap:16px;min-width:0}
+.sec-h{display:flex;align-items:center;gap:10px;margin:40px 0 14px}
+.sec-h .hico{width:34px;height:34px;border-radius:9px}.sec-h .hico svg{width:20px;height:20px}
+.sec-h h2{font-family:var(--display);font-size:27px;font-weight:700;margin:0;letter-spacing:-.01em}
+.sec-h .more{margin-left:auto;font-size:13px;font-weight:600;text-decoration:none;color:var(--soft);white-space:nowrap}
+.sec-h .more:hover{color:var(--ink)}
+.bar{width:5px;height:24px;border-radius:3px}
+/* cards */
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.card{display:flex;flex-direction:column;gap:6px;text-decoration:none;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;min-width:0;transition:border-color .15s}
+.card:hover{border-color:var(--soft)}
+.card b{font-family:var(--display);font-size:17px;line-height:1.25;text-wrap:balance}
+.card p{margin:0;color:var(--soft);font-size:14px}
+.card .go{font-size:12.5px;font-weight:600;margin-top:auto;padding-top:4px}
+.tag{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase}
+/* une */
+.une{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:24px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:22px}
+.legend{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12.5px;color:var(--soft);margin-top:6px}
+/* article */
+.art{max-width:720px}
+.art .corps p{font-family:var(--read);font-size:18px;line-height:1.65;margin:0 0 1em}
+.stats{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px;margin:18px 0}
+.stat{border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:var(--surface)}
+.stat b{display:block;font-family:var(--display);font-size:23px;line-height:1.1;font-variant-numeric:tabular-nums}
+.stat span{font-size:12.5px;color:var(--soft)}
+.verif{border-left:3px solid var(--warm);background:var(--surface);padding:10px 14px;font-size:13.5px;color:var(--soft);border-radius:0 8px 8px 0;margin:16px 0}
+.src{font-size:13px;color:var(--soft);margin-top:14px}
+.src a{color:var(--soft)}
+.crumb{font-size:13px;color:var(--soft);text-decoration:none}
+.crumb:hover{color:var(--ink)}
+/* geo */
+.regards{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:12px}
+.regard{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;border-top:4px solid var(--rc,var(--c-geo))}
+.regard h4{margin:0 0 2px;font-family:var(--display);font-size:17px}
+.regard .angle{font-weight:600;font-size:14px;margin:0 0 6px}
+.regard p{margin:0 0 8px;font-size:14px;color:var(--soft)}
+.medias{display:flex;flex-wrap:wrap;gap:6px}
+.medias a{font-size:12px;text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:3px 9px;display:inline-flex;gap:6px;align-items:center}
+.medias a:hover{border-color:var(--soft)}
+.medias small{font-size:10px;text-transform:uppercase;letter-spacing:.06em;color:var(--faint)}
+.faits{margin:0;padding-left:18px;display:grid;gap:6px;font-size:14.5px}
+.friction{display:grid;gap:8px}
+.friction div{background:var(--surface);border:1px dashed var(--line);border-radius:10px;padding:10px 12px;font-size:14px}
+/* tables */
+.tw{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums;font-size:14px}
+th{font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:var(--soft);font-weight:600;text-align:right;padding:6px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:7px 6px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap}
+th.l,td.l{text-align:left}
+tr:last-child td{border-bottom:0}
+td.pos{font-family:var(--mono);color:var(--soft);text-align:center;width:30px}
+td a{text-decoration:none;font-weight:600}
+td a:hover{text-decoration:underline}
+tr.me td{background:color-mix(in srgb,var(--c-sport) 10%,transparent)}
+.zone{display:inline-block;width:4px;height:16px;border-radius:2px;vertical-align:-3px;margin-right:8px}
+.forme{display:inline-flex;gap:3px}
+.forme i{width:16px;height:16px;border-radius:4px;font-style:normal;font-size:9.5px;font-weight:700;display:grid;place-items:center;color:var(--surface)}
+.forme .V{background:var(--pos)}.forme .N{background:var(--faint)}.forme .D{background:var(--neg)}
+.scores{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px}
+.sc{border:1px solid var(--line);border-radius:10px;padding:8px 10px;font-size:13.5px;font-variant-numeric:tabular-nums;background:var(--surface)}
+.sc div{display:flex;justify-content:space-between;gap:6px}
+.sc .w{font-weight:700}.sc .lo{color:var(--soft)}
+.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px}
+.leagues{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+.league{display:grid;gap:4px;text-decoration:none;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.league:hover{border-color:var(--soft)}
+.league b{font-family:var(--display);font-size:19px}
+.league span{font-size:13px;color:var(--soft)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+.chips button{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:3px 10px;font-size:12.5px;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
+.chips button[aria-pressed="false"]{opacity:.45}
+.chips i{width:10px;height:3px;border-radius:2px;display:inline-block}
+.arch{display:grid;gap:8px}
+.arch a{display:flex;gap:14px;align-items:baseline;text-decoration:none;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.arch a:hover{border-color:var(--soft)}
+.arch .dt{font-family:var(--mono);font-size:12.5px;color:var(--soft);white-space:nowrap}
+.loading{color:var(--soft);padding:40px 0}
+svg text{font-family:var(--body)}
+@media (max-width:820px){.grid2,.une{grid-template-columns:minmax(0,1fr)}.grid3{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:540px){.two{grid-template-columns:minmax(0,1fr)}.mast .ed{margin-left:0;width:100%}}
+
+/* logo */
+.brand{gap:9px!important;align-items:center!important}
+.brand .mark{width:40px;height:auto;flex:none}
+.brand .wm{font-family:var(--display);font-weight:800;letter-spacing:-.045em;font-size:30px;line-height:1;display:inline-flex;align-items:baseline}
+.brand .wm .ii{position:relative;display:inline-block}
+.brand .wm .ii i{position:absolute;left:50%;top:.11em;width:.22em;height:.22em;border-radius:.04em;background:var(--c-af);transform:translate(-50%,0) rotate(12deg)}
+
+/* survols */
+.card,.league,.hub a,.arch a,.tr,.regard,.subnav a,nav.rub a,.tabs a,.chips button,.sc,.stat{transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease,background-color .18s ease}
+a.card:hover,.league:hover,.hub a:hover,.arch a:hover,.tr:hover,.regard:hover{transform:translateY(-3px);box-shadow:0 10px 24px -14px rgba(20,24,33,.35)}
+.sc:hover,.stat:hover{transform:translateY(-2px)}
+a.card .go{transition:letter-spacing .2s ease}
+a.card:hover .go{letter-spacing:.02em}
+nav.rub a:hover{transform:translateY(-1px)}
+nav.rub a:hover .ic svg{animation:wig .45s ease}
+@keyframes wig{0%{transform:rotate(0)}30%{transform:rotate(-14deg) scale(1.1)}70%{transform:rotate(10deg) scale(1.1)}100%{transform:rotate(0)}}
+.subnav a:hover{transform:translateY(-3px)}
+.subnav a[data-s="football"]:hover svg{animation:spin .7s ease}
+.subnav a[data-s="nba"]:hover svg,.subnav a[data-s="tennis"]:hover svg{animation:bounce .6s ease}
+.subnav a[data-s="nfl"]:hover svg,.subnav a[data-s="rugby"]:hover svg{animation:wig .5s ease}
+.subnav a[data-s="f1"]:hover svg{animation:wave .6s ease}
+.subnav a[data-s="sport"]:hover svg{animation:bounce .6s ease}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes bounce{0%,100%{transform:translateY(0)}35%{transform:translateY(-6px)}65%{transform:translateY(1px)}}
+@keyframes wave{0%,100%{transform:skewY(0)}30%{transform:skewY(-8deg)}70%{transform:skewY(6deg)}}
+tbody tr{transition:background-color .15s}
+tbody tr:hover td{background:color-mix(in srgb,var(--ink) 5%,transparent)}
+svg rect{transition:opacity .15s}
+svg:hover rect[rx="3"]{opacity:.75}
+svg rect[rx="3"]:hover{opacity:1}
+
+/* glossaire */
+abbr.gl{text-decoration:underline dotted var(--c-geo) 1.5px;text-underline-offset:3px;cursor:help;position:relative}
+abbr.gl:hover::after,abbr.gl:focus::after{content:attr(data-def);position:absolute;left:0;top:calc(100% + 6px);z-index:20;width:min(320px,80vw);background:var(--ink);color:var(--surface);font:500 13px/1.45 var(--body);padding:9px 11px;border-radius:8px;box-shadow:0 10px 24px -10px rgba(0,0,0,.4);white-space:normal}
+/* pluralité */
+.dv{display:grid;grid-template-columns:auto auto auto minmax(0,1fr);gap:14px 22px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.dv-n b{display:block;font-family:var(--display);font-size:26px;line-height:1}
+.dv-n span{font-size:12.5px;color:var(--soft)}
+.dv-bar{display:flex;height:12px;border-radius:6px;overflow:hidden;gap:2px}
+@media (max-width:700px){.dv{grid-template-columns:repeat(3,minmax(0,1fr))}.dv-legend{grid-column:1/-1}}
+/* dossier */
+.dz-card{display:grid;gap:6px;text-decoration:none;background:linear-gradient(135deg,color-mix(in srgb,var(--c-geo) 14%,var(--surface)),var(--surface));border:1px solid color-mix(in srgb,var(--c-geo) 35%,var(--line));border-radius:14px;padding:18px 20px;margin-bottom:14px;transition:transform .18s ease,box-shadow .18s ease}
+.dz-card:hover{transform:translateY(-3px);box-shadow:0 12px 26px -16px rgba(20,24,33,.4)}
+.dz-card b{font-family:var(--display);font-size:22px;line-height:1.2}
+.dz-card p{margin:0;color:var(--soft)}
+.dz-card .go{font-size:13px;font-weight:600}
+.dz-hero{max-width:820px;margin:8px 0 6px}
+.dz-pts{margin:8px 0 0;padding-left:22px;display:grid;gap:8px;font-size:14px}
+.dz-pts li{padding:6px 8px;border-radius:8px;transition:background-color .15s}
+.dz-pts li span{display:block;color:var(--soft);font-size:13px}
+.dz-pts li.on{background:color-mix(in srgb,var(--c-geo) 14%,transparent)}
+.focus .pt circle{fill:var(--ink);stroke:var(--surface);stroke-width:1.5;vector-effect:non-scaling-stroke;cursor:pointer;transition:fill .15s}
+.focus .pt text{fill:var(--surface);font-weight:700;pointer-events:none;font-family:var(--body)}
+.focus .pt.on circle,.focus .pt:focus circle{fill:var(--warm)}
+.tl{list-style:none;margin:0;padding:0 0 0 18px;border-left:2px solid var(--line);display:grid;gap:14px}
+.tl li{position:relative;display:grid;grid-template-columns:120px minmax(0,1fr);gap:14px}
+.tl li::before{content:"";position:absolute;left:-25px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--surface);border:2px solid var(--c-geo);transition:background-color .2s,transform .2s}
+.tl li:hover::before{background:var(--c-geo);transform:scale(1.25)}
+.tl time{font-family:var(--mono);font-size:12.5px;color:var(--soft);padding-top:2px}
+.tl b{font-family:var(--display);font-size:17px}
+.tl p{margin:2px 0 4px;font-size:14.5px;color:var(--soft)}
+.tl a{font-size:12px;color:var(--faint)}
+@media (max-width:600px){.tl li{grid-template-columns:minmax(0,1fr);gap:2px}}
+/* audio */
+.listen{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:16px}
+.listen button{display:inline-flex;align-items:center;gap:10px;border:0;background:var(--ink);color:var(--surface);font-weight:700;font-size:14px;padding:10px 16px;border-radius:999px;cursor:pointer;transition:transform .15s}
+.listen button:hover{transform:translateY(-1px)}
+.listen button:disabled{opacity:.5;cursor:not-allowed}
+.eq{display:inline-flex;gap:2px;align-items:flex-end;height:14px}
+.eq i{width:3px;height:6px;background:currentColor;border-radius:1px}
+.listen button.playing .eq i{animation:eq .9s ease-in-out infinite}
+.listen button.playing .eq i:nth-child(2){animation-delay:.2s}.listen button.playing .eq i:nth-child(3){animation-delay:.4s}
+@keyframes eq{0%,100%{height:4px}50%{height:14px}}
+
+/* animation du logo Mosaiq : tuiles qui se posent, soleil qui se lève, point du i qui tombe ; respiration ensuite */
+.anim .mk-w{transform-box:view-box;transform-origin:24px 25px;animation:mq-in .65s cubic-bezier(.3,1.5,.5,1) both,mq-wave 7s ease-in-out infinite;animation-delay:calc(var(--i)*90ms + .15s),calc(var(--i)*.22s + 1.6s)}
+.anim .mk-w:nth-of-type(1){--i:0;--dx:-.966;--dy:-.259}.anim .mk-w:nth-of-type(2){--i:1;--dx:-.707;--dy:-.707}.anim .mk-w:nth-of-type(3){--i:2;--dx:-.259;--dy:-.966}
+.anim .mk-w:nth-of-type(4){--i:3;--dx:.259;--dy:-.966}.anim .mk-w:nth-of-type(5){--i:4;--dx:.707;--dy:-.707}.anim .mk-w:nth-of-type(6){--i:5;--dx:.966;--dy:-.259}
+.anim .mk-core{transform-box:view-box;animation:mq-rise .7s cubic-bezier(.2,.9,.3,1) .05s both}
+@keyframes mq-in{from{opacity:0;transform:translate(calc(var(--dx)*9px),calc(var(--dy)*9px)) scale(.3) rotate(calc(var(--dx)*40deg))}to{opacity:1;transform:none}}
+@keyframes mq-wave{0%,70%,100%{transform:none}80%{transform:translate(calc(var(--dx)*1.6px),calc(var(--dy)*1.6px))}}
+@keyframes mq-rise{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:none}}
+.anim:hover .mk-w{animation:mq-pop .55s cubic-bezier(.3,1.6,.5,1) both;animation-delay:calc(var(--i)*45ms)}
+@keyframes mq-pop{0%{transform:none}45%{transform:translate(calc(var(--dx)*3.5px),calc(var(--dy)*3.5px)) scale(1.06)}100%{transform:none}}
+.anim .ii i{animation:mq-drop .9s cubic-bezier(.3,1.3,.5,1) .75s both,mq-hop 8s ease-in-out 3s infinite}
+.anim:hover .ii i{animation:mq-hop1 .6s ease-out both}
+@keyframes mq-drop{0%{opacity:0;transform:translate(-50%,-1.3em) rotate(-120deg)}55%{opacity:1;transform:translate(-50%,.05em) rotate(24deg)}75%{transform:translate(-50%,-.1em) rotate(6deg)}100%{transform:translate(-50%,0) rotate(12deg)}}
+@keyframes mq-hop{0%,86%,100%{transform:translate(-50%,0) rotate(12deg)}90%{transform:translate(-50%,-.22em) rotate(-14deg)}94%{transform:translate(-50%,.03em) rotate(20deg)}97%{transform:translate(-50%,-.03em) rotate(10deg)}}
+@keyframes mq-hop1{0%{transform:translate(-50%,0) rotate(12deg)}40%{transform:translate(-50%,-.3em) rotate(-30deg)}70%{transform:translate(-50%,.03em) rotate(22deg)}100%{transform:translate(-50%,0) rotate(12deg)}}
+@media (prefers-reduced-motion:reduce){.anim .mk-w,.anim .mk-core,.anim .ii i{animation:none!important}}
+
+/* ---------- téléphone ---------- */
+@media (max-width:640px){
+  .mast .in{padding-block:10px 6px;gap:2px 10px;align-items:center}
+  .brand .wm{font-size:26px}.brand .mark{width:34px}
+  .mast .tagline{font-size:12.5px;flex-basis:100%}
+  .mast .ed{display:none}
+  nav.rub .in{gap:5px;padding-block:7px;mask-image:linear-gradient(90deg,#000 88%,transparent);-webkit-mask-image:linear-gradient(90deg,#000 88%,transparent)}
+  nav.rub a{font-size:13.5px;padding:5px 11px 5px 6px;gap:6px}
+  nav.rub a .ic{width:22px;height:22px}nav.rub a .ic svg{width:13px;height:13px}
+  main{padding-block:16px 48px}
+  h1.page{font-size:30px}
+  .lede{font-size:17px}
+  .une{padding:16px;gap:16px;border-radius:14px}
+  .sec-h{flex-wrap:wrap;gap:8px 10px;margin:30px 0 12px}
+  .sec-h h2{font-size:21px;flex:1;min-width:0}
+  .sec-h .more{margin-left:0;flex-basis:100%;order:3;padding-left:44px;font-size:12.5px}
+  .sec-h .hico{width:30px;height:30px}
+  .panel{padding:14px}
+  .cards{gap:10px}
+  .card{padding:13px 14px}
+  .subnav{gap:6px;margin-bottom:4px;mask-image:linear-gradient(90deg,#000 85%,transparent);-webkit-mask-image:linear-gradient(90deg,#000 85%,transparent)}
+  .subnav a{min-width:72px;padding:8px 10px;font-size:12.5px;gap:4px}.subnav a svg{width:24px;height:24px}
+  .hico{width:34px;height:34px}.hico svg{width:20px;height:20px}
+  .title-row{gap:10px}
+  .cal-row{grid-template-columns:46px minmax(0,1fr);row-gap:4px;padding:9px 11px}
+  .cal-row .c{grid-column:2;justify-self:start;white-space:normal;font-size:11px}
+  .scores{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .sc{font-size:13px;padding:7px 9px}
+  .hide-m{display:none}
+  .stats{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .stat b{font-size:20px}
+  .art .corps p{font-size:17px}
+  .tabs a{padding:6px 11px;font-size:13px}
+  .chips button{font-size:12px}
+  .dv{gap:10px 14px;padding:12px}.dv-n b{font-size:22px}
+  .tl li{grid-template-columns:minmax(0,1fr)}
+  .listen{margin-top:12px}
+  footer .in{font-size:12px}
+}
+
+/* carte focus */
+.focus{position:relative;border-radius:12px;overflow:hidden;background:var(--sea);aspect-ratio:16/10}
+.focus svg{display:block;width:100%;height:100%}
+.focus path{fill:var(--land);stroke:var(--surface);stroke-width:.6;vector-effect:non-scaling-stroke;transition:fill .2s}
+.focus path:hover{fill:color-mix(in srgb,var(--land) 70%,var(--ink))}
+.focus path.hit{fill:var(--hc)}
+.focus .lbl{position:absolute;left:12px;bottom:10px;display:flex;flex-wrap:wrap;gap:6px;opacity:0;transform:translateY(6px);transition:opacity .4s ease,transform .4s ease}
+.focus.done .lbl{opacity:1;transform:none}
+.focus .lbl span{background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:3px 10px;font-size:12.5px;font-weight:700}
+.focus .ring{fill:none;stroke:var(--hc);stroke-width:2;vector-effect:non-scaling-stroke;opacity:0}
+.focus.done .ring{animation:ping 1.6s ease-out 2}
+@keyframes ping{0%{opacity:.9;r:2}100%{opacity:0;r:30}}
+.focus .tip{position:absolute;pointer-events:none;background:var(--ink);color:var(--surface);font-size:12px;padding:3px 8px;border-radius:6px;opacity:0;transition:opacity .1s}
+@media (prefers-reduced-motion:reduce){*,*::before{animation:none!important;transition:none!important}}
+
+</style>
+
+<header class="mast"><div class="in">
+  <a class="brand anim" href="#accueil" aria-label="Mosaiq, accueil"><svg viewBox="0 0 48 31" class="mark" aria-hidden="true"><path class="mk-w" d="M4.00,24.62A20,20 0 0 1 6.49,15.33L15.16,20.12A10.1,10.1 0 0 0 13.90,24.81Z" fill="var(--c-fr)"/><path class="mk-w" d="M6.87,14.67A20,20 0 0 1 13.67,7.87L18.78,16.35A10.1,10.1 0 0 0 15.35,19.78Z" fill="var(--c-geo)"/><path class="mk-w" d="M14.33,7.49A20,20 0 0 1 23.62,5.00L23.81,14.90A10.1,10.1 0 0 0 19.12,16.16Z" fill="var(--c-af)"/><path class="mk-w" d="M24.38,5.00A20,20 0 0 1 33.67,7.49L28.88,16.16A10.1,10.1 0 0 0 24.19,14.90Z" fill="var(--c-tech)"/><path class="mk-w" d="M34.33,7.87A20,20 0 0 1 41.13,14.67L32.65,19.78A10.1,10.1 0 0 0 29.22,16.35Z" fill="var(--c-eco)"/><path class="mk-w" d="M41.51,15.33A20,20 0 0 1 44.00,24.62L34.10,24.81A10.1,10.1 0 0 0 32.84,20.12Z" fill="var(--c-sport)"/><path class="mk-core" d="M15.5,25A8.5,8.5 0 0 1 32.5,25Z" fill="var(--ink)"/><rect x="1" y="27.2" width="46" height="2.6" rx="1.3" fill="var(--ink)"/></svg><span class="wm">mosa<span class="ii">ı<i></i></span>q</span></a>
+  <span class="tagline">Le monde à 7 h. Tous les regards.</span>
+  <span class="ed" id="ed-label"></span>
+</div></header>
+<nav class="rub" aria-label="Rubriques"><div class="in" id="nav"></div></nav>
+<main><div class="in" id="app"><p class="loading">Chargement de l'édition du jour…</p></div></main>
+<footer><div class="in">
+  <div><b>Mosaiq</b> · prototype. Les articles sont rédigés avec l'aide d'une IA à partir des sources citées sous chaque texte, puis signalés quand une information reste à confirmer.</div>
+  <div>Cartes, graphiques et illustrations réalisés par la rédaction. Aucune photo de presse n'est reproduite.</div>
+  <div><b>mosaiq.news</b> · bientôt en ligne à cette adresse.</div>
+  <div><a href="https://claude.ai/artifact/3mhQ272CXR6v8zbj6Lkaoo" target="_blank" rel="noopener" style="font-weight:700;color:var(--ink)">Donner mon avis sur le site (5 minutes) ↗</a></div>
+</div></footer>
+
+<script>
+(function(){
+/* ---------- icônes (24×24, trait) ---------- */
+var IC={
+ une:'<path d="M4 5h13v14H6a2 2 0 0 1-2-2z"/><path d="M17 9h3v8a2 2 0 0 1-2 2"/><path d="M7 9h7M7 12.5h7M7 16h4"/>',
+ france:'<path d="M12 3l7.5 4.3v9.4L12 21l-7.5-4.3V7.3z"/>',
+ outremer:'<circle cx="16.5" cy="7" r="2.5"/><path d="M3 15c2 0 2-1.5 4.5-1.5S9.5 15 12 15s2.5-1.5 4.5-1.5S19 15 21 15"/><path d="M3 19c2 0 2-1.5 4.5-1.5S9.5 19 12 19s2.5-1.5 4.5-1.5S19 19 21 19"/><path d="M8 12.5V7.5M8 7.5c-1.5-1.8-3.5-1.8-4.5-.8M8 7.5c1.2-1.9 3.3-2.1 4.5-1.2M8 7.5c-.3-2 .8-3.6 2.4-4"/>',
+ geopolitique:'<circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c2.6 2.6 3.8 5.6 3.8 9s-1.2 6.4-3.8 9c-2.6-2.6-3.8-5.6-3.8-9S9.4 5.6 12 3z"/>',
+ afrique:'<path d="M8.5 3.5l4.5.3 2.2 2.4 3.6.9-.6 3.4-2.4 2.4-.6 3.9-2.7 3.4-1.9-.5.8-3.8-1.9-2.7-3.1-.9-1.8-3 .6-3.1z"/>',
+ tech:'<rect x="7" y="7" width="10" height="10" rx="1.5"/><path d="M10 3v4M14 3v4M10 17v4M14 17v4M3 10h4M3 14h4M17 10h4M17 14h4"/>',
+ eco:'<path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/>',
+ sport:'<path d="M8 4h8v5a4 4 0 0 1-8 0z"/><path d="M8 6H5a3 3 0 0 0 3 4M16 6h3a3 3 0 0 1-3 4"/><path d="M12 13v4M8.5 20h7M10 17h4"/>',
+ archives:'<rect x="3.5" y="4" width="17" height="4.5" rx="1"/><path d="M5 8.5v10a1.5 1.5 0 0 0 1.5 1.5h11a1.5 1.5 0 0 0 1.5-1.5v-10"/><path d="M10 12.5h4"/>',
+ football:'<circle cx="12" cy="12" r="9"/><path d="M12 7.5l3.8 2.8-1.5 4.4H9.7l-1.5-4.4z"/><path d="M12 3v4.5M15.8 10.3l4.4-1.6M14.3 14.7l2.7 3.8M9.7 14.7L7 18.5M8.2 10.3L3.8 8.7"/>',
+ nba:'<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3v18"/><path d="M5.6 5.6c2.4 1.9 3.6 4 3.6 6.4s-1.2 4.5-3.6 6.4M18.4 5.6c-2.4 1.9-3.6 4-3.6 6.4s1.2 4.5 3.6 6.4"/>',
+ nfl:'<path d="M5.2 18.8C3 16.6 3.4 10.6 7 7s9.6-4 11.8-1.8S20.6 13.4 17 17s-9.6 4-11.8 1.8z"/><path d="M9.5 14.5l5-5M10.8 10.6l2.6 2.6M12.6 8.8l2.6 2.6M8.9 12.4l2.6 2.6"/>',
+ tennis:'<circle cx="12" cy="12" r="9"/><path d="M5.5 5.8c3.2 3.2 3.2 9.2 0 12.4M18.5 5.8c-3.2 3.2-3.2 9.2 0 12.4"/>',
+ f1:'<path d="M5 21V4"/><path d="M5 4h14v9H5"/><path d="M8.5 4v9M12 4v9M15.5 4v9M5 8.5h14" stroke-width="1.2"/><path d="M5 4h3.5v4.5H5zM12 4h3.5v4.5H12zM8.5 8.5H12V13H8.5zM15.5 8.5H19V13h-3.5z" fill="currentColor" stroke="none"/>',
+ rugby:'<path d="M5 3v18M19 3v18M5 9h14"/><ellipse cx="12" cy="15.5" rx="2.6" ry="4.2" transform="rotate(35 12 15.5)"/>',
+ calendrier:'<rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/>',
+ transferts:'<path d="M4 8h14l-3-3M20 16H6l3 3"/>'
+};
+function ico(k,cls){return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"'+(cls?' class="'+cls+'"':'')+'>'+(IC[k]||'')+'</svg>';}
+
+var RUB=[
+  {id:'accueil',nom:'À la une',c:'var(--ink)',i:'une'},
+  {id:'france',nom:'France',c:'var(--c-fr)',i:'france'},
+  {id:'geopolitique',nom:'Géopolitique',c:'var(--c-geo)',i:'geopolitique'},
+  {id:'afrique',nom:'Afrique',c:'var(--c-af)',i:'afrique'},
+  {id:'tech',nom:'Tech & IA',c:'var(--c-tech)',i:'tech'},
+  {id:'eco',nom:'Économie',c:'var(--c-eco)',i:'eco'},
+  {id:'sport',nom:'Sport',c:'var(--c-sport)',i:'sport'},
+  {id:'archives',nom:'Archives',c:'var(--faint)',i:'archives'},
+  {id:'outremer',nom:'Outre-mer',c:'var(--c-fr)',i:'outremer',hidden:true}
+];
+var SPORTS=[
+  {id:'sport',nom:'Vue d\'ensemble',i:'sport',c:'var(--c-sport)'},
+  {id:'football',nom:'Football',i:'football',c:'var(--s-football)'},
+  {id:'nba',nom:'NBA',i:'nba',c:'var(--s-nba)'},
+  {id:'nfl',nom:'NFL',i:'nfl',c:'var(--s-nfl)'},
+  {id:'tennis',nom:'Tennis',i:'tennis',c:'var(--s-tennis)'},
+  {id:'f1',nom:'Formule 1',i:'f1',c:'var(--s-f1)'},
+  {id:'rugby',nom:'Rugby',i:'rugby',c:'var(--s-rugby)'}
+];
+var LEAGUES=[
+  {id:'ligue-1',nom:'Ligue 1',zones:[[1,3,'var(--c-fr)','Ligue des champions'],[4,4,'var(--c-geo)','Barrage C1'],[5,5,'var(--warm)','Ligue Europa'],[16,16,'var(--warm)','Barrage'],[17,18,'var(--neg)','Relégation']]},
+  {id:'premier-league',nom:'Premier League',zones:[[1,4,'var(--c-fr)','Ligue des champions'],[5,5,'var(--warm)','Ligue Europa'],[18,20,'var(--neg)','Relégation']]},
+  {id:'liga',nom:'Liga',zones:[[1,4,'var(--c-fr)','Ligue des champions'],[5,5,'var(--warm)','Ligue Europa'],[18,20,'var(--neg)','Relégation']]},
+  {id:'serie-a',nom:'Serie A',zones:[[1,4,'var(--c-fr)','Ligue des champions'],[5,5,'var(--warm)','Ligue Europa'],[18,20,'var(--neg)','Relégation']]},
+  {id:'bundesliga',nom:'Bundesliga',zones:[[1,4,'var(--c-fr)','Ligue des champions'],[5,5,'var(--warm)','Ligue Europa'],[16,16,'var(--warm)','Barrage'],[17,18,'var(--neg)','Relégation']]},
+  {id:'ligue-des-champions',nom:'Ligue des champions',zones:[[1,8,'var(--c-fr)','Huitièmes directs'],[9,24,'var(--warm)','Barrages'],[25,36,'var(--neg)','Éliminés']]}
+];
+var PALETTE=['var(--c-sport)','var(--c-fr)','var(--c-eco)','var(--c-af)','var(--c-tech)','var(--c-geo)'];
+var REG_COL={'Occident':'var(--c-fr)','Europe et Occident':'var(--c-fr)','Afrique':'var(--c-af)','Asie':'var(--c-tech)','Moyen-Orient':'var(--c-geo)','Amérique latine':'var(--c-eco)'};
+function sc(k){for(var i=0;i<SPORTS.length;i++)if(SPORTS[i].i===k)return SPORTS[i].c;return 'var(--c-sport)';}
+var JOURS=['dimanche','lundi','mardi','mercredi','jeudi','vendredi','samedi'],MOIS=['janvier','février','mars','avril','mai','juin','juillet','août','septembre','octobre','novembre','décembre'];
+var state={index:null,editions:{},current:null,foot:{},sp:{}};
+
+function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
+function url(u){u=String(u||'');return /^https?:\/\//.test(u)?esc(u):'#';}
+function slug(s){return String(s).normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');}
+function rub(id){for(var i=0;i<RUB.length;i++)if(RUB[i].id===id)return RUB[i];return RUB[0];}
+function getJSON(p){return fetch(p).then(function(r){if(!r.ok)throw new Error(p);return r.json();});}
+function sources(list){list=(list||[]).filter(Boolean);if(!list.length)return '';return '<p class="src">Sources : '+list.map(function(s){return '<a href="'+url(s.url)+'" target="_blank" rel="noopener">'+esc(s.nom)+'</a>';}).join(' · ')+'</p>';}
+function stats(list){if(!list||!list.length)return '';return '<div class="stats">'+list.map(function(c){return '<div class="stat"><b>'+esc(c.valeur)+'</b><span>'+esc(c.label)+'</span></div>';}).join('')+'</div>';}
+function hico(i,c){return '<span class="hico" style="--rc:'+c+'">'+ico(i)+'</span>';}
+function secH(id,title,more,iconKey,color){var r=rub(id);return '<div class="sec-h">'+hico(iconKey||r.i,color||r.c)+'<h2>'+esc(title||r.nom)+'</h2>'+(more?'<a class="more" href="#'+(more.href||id)+'">'+esc(more.t||more)+' →</a>':'')+'</div>';}
+function titleRow(i,c,eyebrow,title){return '<span class="eyebrow">'+esc(eyebrow)+'</span><div class="title-row">'+hico(i,c)+'<h1 class="page">'+esc(title)+'</h1></div>';}
+function card(href,tag,color,title,text,go){return '<a class="card" href="'+href+'"><span class="tag" style="color:'+color+'">'+esc(tag)+'</span><b>'+esc(title)+'</b><p>'+esc(text)+'</p><span class="go" style="color:'+color+'">'+esc(go||'Lire l\'article')+' →</span></a>';}
+function arts(r){return state.current.articles.filter(function(a){return a.rubrique===r;});}
+function frDate(iso){var d=new Date(iso+'T12:00:00');if(isNaN(d))return iso;return JOURS[d.getDay()]+' '+d.getDate()+' '+MOIS[d.getMonth()];}
+function infos(list){if(!list||!list.length)return '';return '<div class="cards">'+list.map(function(n){return '<div class="card" style="cursor:default"><b>'+esc(n.titre)+'</b><p>'+esc(n.texte)+'</p>'+(n.source?'<a class="go" href="'+url(n.source.url)+'" target="_blank" rel="noopener" style="color:var(--soft)">'+esc(n.source.nom)+' ↗</a>':'')+'</div>';}).join('')+'</div>';}
+
+/* ---------- graphiques ---------- */
+function hbars(rows,o){
+  var w=380,rh=26,lw=o.labelW||110,h=rows.length*rh+6,max=o.max||Math.max.apply(null,rows.map(function(r){return Math.abs(r[1]);}))*1.25,span=w-lw-74;
+  var s='<svg viewBox="0 0 '+w+' '+h+'" width="100%" role="img" aria-label="'+esc(o.aria||'')+'">';
+  rows.forEach(function(r,i){var y=i*rh+4,len=Math.abs(r[1])/max*span,col=r[2]||(r[1]>=0?'var(--pos)':'var(--neg)');
+    s+='<text x="'+(lw-8)+'" y="'+(y+13)+'" text-anchor="end" font-size="12" fill="var(--ink)">'+esc(r[0])+'</text>';
+    s+='<rect x="'+lw+'" y="'+y+'" width="'+Math.max(len,2).toFixed(1)+'" height="16" rx="3" fill="'+col+'"/>';
+    s+='<text x="'+(lw+len+6).toFixed(1)+'" y="'+(y+13)+'" font-size="12" font-weight="600" fill="var(--soft)">'+esc(o.fmt?o.fmt(r[1]):r[1])+'</text>';});
+  return s+'</svg>';
+}
+function lines(ev,o){
+  var J=ev.journees,names=Object.keys(ev.clubs).filter(function(n){return !o.show||o.show[n];});
+  if(!J.length||!names.length)return '<p class="sub">Aucune série à afficher.</p>';
+  var W=640,H=280,L=36,R=110,T=12,B=30,all=[];names.forEach(function(n){all=all.concat(ev.clubs[n]);});
+  var rank=ev.type==='rang',mn=rank?1:Math.min.apply(null,all),mx=Math.max.apply(null,all);
+  if(!rank){var unit=mx>100?50:5;mn=Math.max(0,Math.floor(mn/unit)*unit);mx=Math.ceil(mx/unit)*unit||unit;}
+  var x=function(i){return L+(J.length===1?0:(W-L-R)*i/(J.length-1));};
+  var y=function(v){return rank?T+(H-T-B)*(v-1)/Math.max(mx-1,1):T+(H-T-B)*(1-(v-mn)/Math.max(mx-mn,1));};
+  var s='<svg viewBox="0 0 '+W+' '+H+'" width="100%" role="img" aria-label="'+esc(o.aria||'Évolution')+'">';
+  var step=rank?Math.max(1,Math.ceil((mx-1)/5)):(mx>100?Math.ceil((mx-mn)/5/50)*50:Math.max(5,Math.ceil((mx-mn)/5/5)*5));
+  for(var v=(rank?1:mn);v<=mx;v+=step){s+='<line x1="'+L+'" x2="'+(W-R)+'" y1="'+y(v).toFixed(1)+'" y2="'+y(v).toFixed(1)+'" stroke="var(--line)"/><text x="'+(L-6)+'" y="'+(y(v)+4).toFixed(1)+'" text-anchor="end" font-size="11" fill="var(--faint)">'+v+'</text>';}
+  var pre=o.prefix==null?'J':o.prefix,every=J.length>12?2:1;
+  J.forEach(function(j,i){if((i%every===0&&!(every>1&&i===J.length-2))||i===J.length-1)s+='<text x="'+x(i).toFixed(1)+'" y="'+(H-10)+'" text-anchor="middle" font-size="10.5" fill="var(--faint)">'+esc(pre+j)+'</text>';});
+  var labels=[];
+  names.forEach(function(n){var d=ev.clubs[n],c=o.colors[n]||'var(--soft)',sw=o.focus===n?3.2:(o.focus?1.4:2.2),op=o.focus&&o.focus!==n?.55:1;
+    s+='<polyline fill="none" stroke="'+c+'" stroke-width="'+sw+'" stroke-linejoin="round" stroke-linecap="round" opacity="'+op+'" points="'+d.map(function(v,i){return x(i).toFixed(1)+','+y(v).toFixed(1);}).join(' ')+'"/>';
+    var li=d.length-1;s+='<circle cx="'+x(li).toFixed(1)+'" cy="'+y(d[li]).toFixed(1)+'" r="3.5" fill="'+c+'" opacity="'+op+'"/>';
+    labels.push({n:o.short?o.short(n):n,y:y(d[li]),c:c,v:d[li]});});
+  labels.sort(function(a,b){return a.y-b.y;});for(var i=1;i<labels.length;i++)if(labels[i].y-labels[i-1].y<13)labels[i].y=labels[i-1].y+13;
+  labels.forEach(function(l){s+='<text x="'+(W-R+8)+'" y="'+(l.y+4).toFixed(1)+'" font-size="11.5" font-weight="600" fill="'+l.c+'">'+esc(l.n)+' '+l.v+'</text>';});
+  return s+'</svg>';
+}
+function mountToggle(boxId,chipsId,ev,colors,opts){
+  var box=document.getElementById(boxId),chips=document.getElementById(chipsId);if(!box||!ev)return;
+  var show={};Object.keys(ev.clubs).forEach(function(n){show[n]=true;});
+  function draw(){box.innerHTML=lines(ev,Object.assign({show:show,colors:colors},opts||{}));chips.innerHTML=Object.keys(ev.clubs).map(function(n){return '<button type="button" aria-pressed="'+show[n]+'" data-c="'+esc(n)+'"><i style="background:'+colors[n]+'"></i>'+esc(n)+'</button>';}).join('');}
+  chips.addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;var n=b.getAttribute('data-c');show[n]=!show[n];if(!Object.keys(show).some(function(k){return show[k];}))show[n]=true;draw();});
+  draw();
+}
+function scoreBox(a,sa,b,sb,note){var w=sa>sb;return '<div class="sc"><div class="'+(w?'w':'lo')+'"><span>'+esc(a)+'</span><span>'+esc(sa)+'</span></div><div class="'+(w?'lo':'w')+'"><span>'+esc(b)+'</span><span>'+esc(sb)+'</span></div>'+(note?'<em style="font-style:normal;font-size:11px;color:var(--soft)">'+esc(note)+'</em>':'')+'</div>';}
+function forme(f){if(!f)return '';return '<span class="forme">'+f.split('').map(function(c){return '<i class="'+esc(c)+'">'+esc(c)+'</i>';}).join('')+'</span>';}
+function frise(items){var col={fait:'var(--neg)',prochain:'var(--c-fr)','a-venir':'var(--c-fr)',limite:'var(--warm)'};var h=56,s='<svg viewBox="0 0 320 '+(items.length*h)+'" width="100%" role="img" aria-label="Calendrier">';s+='<line x1="16" y1="10" x2="16" y2="'+(items.length*h-14)+'" stroke="var(--line)" stroke-width="2"/>';
+  items.forEach(function(it,i){var y=12+i*h,full=it.etat==='fait'||it.etat==='prochain';s+='<circle cx="16" cy="'+y+'" r="7" fill="'+(full?col[it.etat]:'var(--surface)')+'" stroke="'+col[it.etat]+'" stroke-width="2"/><text x="34" y="'+(y+4)+'" font-size="13" font-weight="600" fill="var(--ink)">'+esc(it.date)+'</text><text x="34" y="'+(y+21)+'" font-size="12" fill="var(--soft)">'+esc(it.texte)+'</text>';});return s+'</svg>';}
+/* calendrier : rows [{date ISO, heure, m (texte), c (badge), href?}] */
+function calendar(rows){
+  rows=rows.slice().sort(function(a,b){return (a.date+(a.heure||'99')).localeCompare(b.date+(b.heure||'99'));});
+  var h='',day='';rows.forEach(function(r){if(r.date!==day){day=r.date;h+='<div class="cal-day">'+esc(frDate(day))+'</div>';}
+    h+='<div class="cal-row"><span class="t">'+esc(r.heure||'—')+'</span><span class="m">'+(r.href?'<a href="'+r.href+'" style="text-decoration:none">'+esc(r.m)+'</a>':esc(r.m))+(r.tv?' <span style="font-weight:400;color:var(--soft);font-size:12.5px">· '+esc(r.tv)+'</span>':'')+'</span><span class="c">'+esc(r.c)+'</span></div>';});
+  return h||'<p class="sub">Aucun match programmé.</p>';
+}
+
+
+/* ---------- carte focus (zoom animé) ---------- */
+var FR={'France':'France','Ghana':'Ghana','South Africa':'Afrique du Sud','Dem. Rep. Congo':'RD Congo','Guinea':'Guinée','Burkina Faso':'Burkina Faso','Mali':'Mali','Gambia':'Gambie','Senegal':'Sénégal',"Côte d'Ivoire":"Côte d'Ivoire",'Nigeria':'Nigeria','Cameroon':'Cameroun','Zimbabwe':'Zimbabwe','United States of America':'États-Unis','China':'Chine','Russia':'Russie','Ukraine':'Ukraine','United Arab Emirates':'Émirats arabes unis','Iran':'Iran','Turkey':'Turquie','India':'Inde','Brazil':'Brésil','Germany':'Allemagne','United Kingdom':'Royaume-Uni','Italy':'Italie','Qatar':'Qatar','Saudi Arabia':'Arabie saoudite','Israel':'Israël','Japan':'Japon','South Korea':'Corée du Sud','Pakistan':'Pakistan','Australia':'Australie','Bangladesh':'Bangladesh','Kenya':'Kenya','Morocco':'Maroc','Algeria':'Algérie','Egypt':'Égypte'};
+var ALIAS={'United States':'United States of America','USA':'United States of America'};
+var baseMap=null;
+function focusMap(names,color,max,zn,lieu,pts){names=(names||[]).map(function(n){return ALIAS[n]||n;});if(max)names=names.slice(0,max);if(lieu&&lieu.x!=null)pts=[lieu];var ptsAttr=pts&&pts.length?' data-xy="'+esc(pts.map(function(p){return p.x+','+p.y;}).join(';'))+'"':'';if(!names.length&&!ptsAttr)return '';var lbls=names.length?names:(pts||[]).map(function(p){return p.nom;});return '<div class="focus"'+ptsAttr+' data-n="'+esc(names.join('|'))+'" data-z="'+(zn||1)+'" style="--hc:'+color+'" role="img" aria-label="Carte : '+esc(names.map(function(n){return FR[n]||n;}).join(', '))+'"><div class="tip"></div><div class="lbl">'+lbls.map(function(n){return '<span>'+esc(FR[n]||n)+'</span>';}).join('')+'</div></div>';}
+function mountFocus(){
+  var boxes=document.querySelectorAll('.focus[data-n]');if(!boxes.length)return;
+  (baseMap?Promise.resolve(baseMap):fetch('monde.svg').then(function(r){return r.text();}).then(function(t){baseMap=t;return t;})).then(function(svgText){
+    [].forEach.call(boxes,function(box){
+      var names=box.getAttribute('data-n').split('|');box.insertAdjacentHTML('afterbegin',svgText);var svg=box.querySelector('svg');svg.setAttribute('preserveAspectRatio','xMidYMid slice');
+      var zn=+box.getAttribute('data-z')||1,paths={};[].forEach.call(svg.querySelectorAll('path'),function(p){var n=p.getAttribute('data-n');if(names.indexOf(n)>=0){p.classList.add('hit');if(names.indexOf(n)>=zn)p.style.opacity=.55;(paths[n]=paths[n]||[]).push(p);}});
+      function boxOf(list){var bb=null;list.forEach(function(n){(paths[n]||[]).forEach(function(p){var q=(p.getAttribute('data-b')||'').split(',').map(Number),b=q.length===4?{x:q[0],y:q[1],width:q[2],height:q[3]}:p.getBBox();if(b.width>300)return;bb=bb?{x:Math.min(bb.x,b.x),y:Math.min(bb.y,b.y),x2:Math.max(bb.x2,b.x+b.width),y2:Math.max(bb.y2,b.y+b.height)}:{x:b.x,y:b.y,x2:b.x+b.width,y2:b.y+b.height};});});return bb;}
+      var bb=boxOf(names.slice(0,zn));if(!xy&&bb&&bb.x2-bb.x>420)bb=boxOf(names.slice(0,1));
+      var pts=box.getAttribute('data-pts')==='dossier'?mountDossierPoints(svg,box):null;if(pts)bb=pts.bb;
+      var xy=box.getAttribute('data-xy');if(xy){var P=xy.split(';').map(function(q){return q.split(',').map(Number);});var xs=P.map(function(p){return p[0];}),ys=P.map(function(p){return p[1];});
+        bb=P.length===1?{x:P[0][0]-14,y:P[0][1]-9,x2:P[0][0]+14,y2:P[0][1]+9}:{x:Math.min.apply(null,xs)-20,y:Math.min.apply(null,ys)-20,x2:Math.max.apply(null,xs)+20,y2:Math.max.apply(null,ys)+20};
+        pts={bb:bb,draw:function(w){var NS='http://www.w3.org/2000/svg',r=w/(P.length===1?40:70);P.forEach(function(p,i){var g=document.createElementNS(NS,'g');g.setAttribute('class','pt');var c=document.createElementNS(NS,'circle');c.setAttribute('cx',p[0]);c.setAttribute('cy',p[1]);c.setAttribute('r',r);c.style.fill='var(--hc)';g.appendChild(c);if(P.length>1){var t=document.createElementNS(NS,'text');t.setAttribute('x',p[0]);t.setAttribute('y',p[1]+r*.38);t.setAttribute('font-size',r*1.1);t.setAttribute('text-anchor','middle');t.textContent=i+1;g.appendChild(t);}svg.appendChild(g);});}};}
+      if(!bb){var p0=(paths[names[0]]||[])[0];if(p0){var b0=p0.getBBox();bb={x:b0.x,y:b0.y,x2:b0.x+b0.width,y2:b0.y+b0.height};}}
+      if(!bb)return;
+      var cx=(bb.x+bb.x2)/2,cy=(bb.y+bb.y2)/2,w=Math.max((bb.x2-bb.x)*1.9,70),hh=Math.max((bb.y2-bb.y)*1.9,44),ar=box.clientWidth/box.clientHeight||1.6;if(w/hh<ar)w=hh*ar;else hh=w/ar;
+      var end=[cx-w/2,cy-hh/2,w,hh],start=[0,0,1000,520];
+      var ring=document.createElementNS('http://www.w3.org/2000/svg','circle');ring.setAttribute('class','ring');if(xy&&xy.indexOf(';')>=0)ring.style.display='none';var pb=(xy?null:boxOf(names.slice(0,1)))||bb;ring.setAttribute('cx',(pb.x+pb.x2)/2);ring.setAttribute('cy',(pb.y+pb.y2)/2);ring.setAttribute('r',2);svg.appendChild(ring);
+      var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches,t0=null,D=1500;
+      function ease(t){return t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2;}
+      function frame(ts){if(!t0)t0=ts;var k=reduce?1:Math.min(1,(ts-t0)/D),e=ease(k);svg.setAttribute('viewBox',start.map(function(v,i){return (v+(end[i]-v)*e).toFixed(2);}).join(' '));if(k<1)requestAnimationFrame(frame);else{box.classList.add('done');if(pts&&!box._pts){box._pts=1;pts.draw(end[2]);}}}
+      svg.setAttribute('viewBox',start.join(' '));setTimeout(function(){requestAnimationFrame(frame);},reduce?0:250);
+      var tip=box.querySelector('.tip');svg.addEventListener('mousemove',function(ev){var p=ev.target.closest('path');if(!p){tip.style.opacity=0;return;}var n=p.getAttribute('data-n');tip.textContent=FR[n]||n;var r=box.getBoundingClientRect();tip.style.left=(ev.clientX-r.left+10)+'px';tip.style.top=(ev.clientY-r.top+10)+'px';tip.style.opacity=1;});
+      svg.addEventListener('mouseleave',function(){tip.style.opacity=0;});
+    });
+  }).catch(function(){});
+}
+
+
+/* ---------- glossaire (infobulles sur les sigles) ---------- */
+function applyGlossary(root){
+  var G=state.sp.glo;if(!G||!root)return;
+  var terms=G.termes.slice().sort(function(a,b){return b.terme.length-a.terme.length;}),used={};
+  var targets=root.querySelectorAll('.corps p,.faits li,.regard p,.lede,.friction div,.dz-txt');
+  [].forEach.call(targets,function(el){
+    var walker=document.createTreeWalker(el,NodeFilter.SHOW_TEXT,null),nodes=[],n;while((n=walker.nextNode()))nodes.push(n);
+    nodes.forEach(function(node){
+      if(node.parentNode&&node.parentNode.closest&&node.parentNode.closest('abbr'))return;
+      var txt=node.nodeValue;
+      for(var i=0;i<terms.length;i++){var t=terms[i];if(used[t.terme])continue;
+        var re=new RegExp('(^|[^\\wÀ-ÿ])('+t.terme.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')(?![\\wÀ-ÿ])',/^[A-Z0-9 .]+$/.test(t.terme)?'':'i'),m=re.exec(txt);
+        if(!m)continue;used[t.terme]=1;
+        var start=m.index+m[1].length,before=document.createTextNode(txt.slice(0,start)),after=document.createTextNode(txt.slice(start+m[2].length));
+        var ab=document.createElement('abbr');ab.className='gl';ab.tabIndex=0;ab.textContent=m[2];ab.setAttribute('data-def',t.terme+' : '+t.definition);ab.setAttribute('aria-label',m[2]+'. '+t.definition);
+        node.parentNode.insertBefore(before,node);node.parentNode.insertBefore(ab,node);node.parentNode.insertBefore(after,node);node.parentNode.removeChild(node);node=after;txt=after.nodeValue;
+      }
+    });
+  });
+}
+/* ---------- indicateur de pluralité des sources ---------- */
+function diversity(regards,compact){
+  var meds=[],regs=regards.length;regards.forEach(function(r){meds=meds.concat(r.medias||[]);});
+  var c={mainstream:0,niche:0,"média d'État":0};meds.forEach(function(m){if(c[m.type]!=null)c[m.type]++;});
+  var tot=meds.length||1,seg=[['mainstream','Grands médias','var(--c-fr)'],['niche','Médias de niche','var(--c-geo)'],["média d'État","Médias d'État",'var(--warm)']];
+  var bar='<div class="dv-bar">'+seg.map(function(s){return c[s[0]]?'<span style="flex:'+c[s[0]]+';background:'+s[2]+'" title="'+esc(s[1])+' : '+c[s[0]]+'"></span>':'';}).join('')+'</div>';
+  return '<div class="dv'+(compact?' dv-c':'')+'"><div class="dv-n"><b>'+regs+'</b><span>régions du monde</span></div><div class="dv-n"><b>'+meds.length+'</b><span>médias cités</span></div><div class="dv-n"><b>'+Math.round(c.niche/tot*100)+' %</b><span>de médias de niche</span></div><div class="dv-legend">'+bar+'<div class="legend">'+seg.map(function(s){return '<span><span class="zone" style="background:'+s[2]+'"></span>'+esc(s[1])+' ('+c[s[0]]+')</span>';}).join('')+'</div></div></div>';
+}
+/* ---------- dossier de la semaine ---------- */
+function pageDossier(){
+  var d=state.sp.dossier;if(!d)return notFound();
+  var h='<a class="crumb" href="#geopolitique">← Géopolitique</a><div class="dz-hero"><span class="tag" style="color:var(--c-geo)">Le dossier de la semaine</span><h1 class="page">'+esc(d.titre)+'</h1><p class="lede" style="color:var(--ink)">'+esc(d.sous_titre)+'</p><p class="lede" style="margin-top:10px">'+esc(d.chapeau)+'</p></div>';
+  h+=stats(d.chiffres);
+  h+='<div class="grid2" style="margin-top:6px"><div class="panel"><h3>La carte</h3><p class="sub">Survolez ou touchez un lieu numéroté</p>'+focusMap(d.pays,'var(--c-geo)',6,2).replace('<div class="focus"','<div class="focus" data-pts="dossier"').replace('style="--hc:','style="aspect-ratio:4/3.4;--hc:')+'</div><div class="panel"><h3>Les lieux clés</h3><ol class="dz-pts" id="dz-pts">'+d.carte.points.map(function(p,i){return '<li data-i="'+i+'"><b>'+esc(p.label)+'</b><span>'+esc(p.texte)+'</span></li>';}).join('')+'</ol></div></div>';
+  h+=secH('geopolitique','Chronologie')+'<ol class="tl">'+d.chronologie.map(function(e){return '<li><time>'+esc(fmtMonth(e.date))+'</time><div><b>'+esc(e.titre)+'</b><p class="dz-txt">'+esc(e.texte)+'</p>'+(e.source?'<a href="'+url(e.source.url)+'" target="_blank" rel="noopener">'+esc(e.source.nom)+' ↗</a>':'')+'</div></li>';}).join('')+'</ol>';
+  h+=secH('geopolitique','Les acteurs')+'<div class="cards">'+d.acteurs.map(function(a){return '<div class="card" style="cursor:default"><b>'+esc(a.nom)+'</b><p class="dz-txt">'+esc(a.position)+'</p></div>';}).join('')+'</div>';
+  h+=secH('geopolitique','Les enjeux')+'<div class="cards">'+d.enjeux.map(function(a){return '<div class="card" style="cursor:default;border-top:4px solid var(--c-geo)"><b>'+esc(a.titre)+'</b><p class="dz-txt">'+esc(a.texte)+'</p></div>';}).join('')+'</div>';
+  h+=secH('geopolitique','Comment le monde le raconte')+diversity(d.regards)+'<div class="regards" style="margin-top:12px">'+d.regards.map(regardCard).join('')+'</div>';
+  h+='<div class="grid2" style="margin-top:28px"><div><div class="sec-h" style="margin-top:0">'+hico('geopolitique','var(--warm)')+'<h2>Là où les lectures divergent</h2></div><div class="friction">'+d.points_de_friction.map(function(p){return '<div>'+esc(p)+'</div>';}).join('')+'</div></div><div class="panel"><h3>À suivre</h3><ul style="margin:8px 0 0;padding-left:18px;display:grid;gap:6px">'+d.a_suivre.map(function(x){return '<li>'+esc(x)+'</li>';}).join('')+'</ul></div></div>';
+  return h+sources(d.sources);
+}
+function fmtMonth(s){var p=String(s).split('-');if(p.length===2)return MOIS[+p[1]-1]+' '+p[0];if(p.length===3&&/^\d+$/.test(p[2]))return (+p[2])+' '+MOIS[+p[1]-1].slice(0,4)+(MOIS[+p[1]-1].length>4?'.':'')+' '+p[0];return s;}
+function regardCard(r){var c=REG_COL[r.region]||'var(--c-geo)';return '<div class="regard" style="--rc:'+c+'"><h4>'+esc(r.region)+'</h4><p class="angle">'+esc(r.angle)+'</p><p>'+esc(r.texte)+'</p><div class="medias">'+r.medias.map(function(m){return '<a href="'+url(m.url)+'" target="_blank" rel="noopener">'+esc(m.nom)+'<small>'+esc(m.type)+'</small></a>';}).join('')+'</div></div>';}
+function mountDossierPoints(svg,box){
+  var d=state.sp.dossier;if(!d)return null;var P=d.carte.points,xs=P.map(function(p){return p.x;}),ys=P.map(function(p){return p.y;});
+  var bb={x:Math.min.apply(null,xs)-6,y:Math.min.apply(null,ys)-6,x2:Math.max.apply(null,xs)+6,y2:Math.max.apply(null,ys)+6};
+  return {bb:bb,draw:function(w){var r=w/80,NS='http://www.w3.org/2000/svg',list=document.getElementById('dz-pts');
+    P.forEach(function(p,i){var g=document.createElementNS(NS,'g');g.setAttribute('class','pt');g.setAttribute('data-i',i);g.setAttribute('tabindex','0');
+      var c=document.createElementNS(NS,'circle');c.setAttribute('cx',p.x);c.setAttribute('cy',p.y);c.setAttribute('r',r);
+      var t=document.createElementNS(NS,'text');t.setAttribute('x',p.x);t.setAttribute('y',p.y+r*.38);t.setAttribute('font-size',r*1.1);t.setAttribute('text-anchor','middle');t.textContent=i+1;
+      var ti=document.createElementNS(NS,'title');ti.textContent=p.label;g.appendChild(ti);g.appendChild(c);g.appendChild(t);svg.appendChild(g);
+      function on(v){g.classList.toggle('on',v);var li=list&&list.querySelector('li[data-i="'+i+'"]');if(li)li.classList.toggle('on',v);}
+      g.addEventListener('mouseenter',function(){on(true);});g.addEventListener('mouseleave',function(){on(false);});g.addEventListener('focus',function(){on(true);});g.addEventListener('blur',function(){on(false);});
+      var li=list&&list.querySelector('li[data-i="'+i+'"]');if(li){li.addEventListener('mouseenter',function(){on(true);});li.addEventListener('mouseleave',function(){on(false);});}
+    });}};
+}
+/* ---------- marchés : courbes 30 jours ---------- */
+function marketChart(){
+  var m=state.sp.marches;if(!m)return '';
+  return '<div class="panel"><h3>Les marchés sur un mois</h3><p class="sub">Base 100 au '+esc(frDate(m.series[0].points[0][0]))+' · '+esc(m.maj)+'</p><div class="chips" id="mk-chips"></div><div id="mk-chart"></div>'+sources(m.sources.slice(0,3))+'</div>';
+}
+function mountMarkets(){
+  var m=state.sp.marches,box=document.getElementById('mk-chart');if(!m||!box)return;
+  var cols={'CAC 40':'var(--c-fr)','S&P 500':'var(--c-eco)','Nasdaq Composite':'var(--c-tech)'},show={},ev={type:'points',journees:[],clubs:{}};
+  m.series.filter(function(s){return cols[s.nom];}).forEach(function(s){var b=s.points[0][1];ev.clubs[s.nom]=s.points.map(function(p){return +(p[1]/b*100).toFixed(1);});ev.journees=s.points.map(function(p){var d=p[0].split('-');return (+d[2])+'/'+(+d[1]);});});
+  var chips=document.getElementById('mk-chips');Object.keys(ev.clubs).forEach(function(n){show[n]=true;});
+  function draw(){var vals=[];Object.keys(ev.clubs).forEach(function(n){if(show[n])vals=vals.concat(ev.clubs[n]);});box.innerHTML=lines100(ev,show,cols,vals);chips.innerHTML=Object.keys(ev.clubs).map(function(n){return '<button type="button" aria-pressed="'+show[n]+'" data-c="'+esc(n)+'"><i style="background:'+cols[n]+'"></i>'+esc(n)+'</button>';}).join('');}
+  chips.addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;var n=b.getAttribute('data-c');show[n]=!show[n];if(!Object.keys(show).some(function(k){return show[k];}))show[n]=true;draw();});draw();
+}
+function lines100(ev,show,cols,vals){
+  var J=ev.journees,W=640,H=250,L=40,R=120,T=12,B=28,mn=Math.floor(Math.min.apply(null,vals)-1),mx=Math.ceil(Math.max.apply(null,vals)+1);
+  var x=function(i){return L+(W-L-R)*i/(J.length-1);},y=function(v){return T+(H-T-B)*(1-(v-mn)/(mx-mn));};
+  var s='<svg viewBox="0 0 '+W+' '+H+'" width="100%" role="img" aria-label="Indices base 100">',step=Math.max(1,Math.round((mx-mn)/5));
+  for(var v=mn;v<=mx;v+=step)s+='<line x1="'+L+'" x2="'+(W-R)+'" y1="'+y(v).toFixed(1)+'" y2="'+y(v).toFixed(1)+'" stroke="'+(v===100?'var(--soft)':'var(--line)')+'"'+(v===100?' stroke-dasharray="3 3"':'')+'/><text x="'+(L-6)+'" y="'+(y(v)+4).toFixed(1)+'" text-anchor="end" font-size="11" fill="var(--faint)">'+v+'</text>';
+  J.forEach(function(j,i){if(i%4===0||i===J.length-1)s+='<text x="'+x(i).toFixed(1)+'" y="'+(H-8)+'" text-anchor="middle" font-size="10.5" fill="var(--faint)">'+esc(j)+'</text>';});
+  var lab=[];Object.keys(ev.clubs).forEach(function(n){if(!show[n])return;var d=ev.clubs[n];s+='<polyline fill="none" stroke="'+cols[n]+'" stroke-width="2.2" stroke-linejoin="round" points="'+d.map(function(v,i){return x(i).toFixed(1)+','+y(v).toFixed(1);}).join(' ')+'"/>';var li=d.length-1,ch=(d[li]-100);s+='<circle cx="'+x(li).toFixed(1)+'" cy="'+y(d[li]).toFixed(1)+'" r="3.5" fill="'+cols[n]+'"/>';lab.push({n:n.replace(' Composite',''),y:y(d[li]),c:cols[n],t:(ch>0?'+':'')+ch.toFixed(1).replace('.',',')+' %'});});
+  lab.sort(function(a,b){return a.y-b.y;});for(var i=1;i<lab.length;i++)if(lab[i].y-lab[i-1].y<14)lab[i].y=lab[i-1].y+14;
+  lab.forEach(function(l){s+='<text x="'+(W-R+8)+'" y="'+(l.y+4).toFixed(1)+'" font-size="11.5" font-weight="600" fill="'+l.c+'">'+esc(l.n)+' '+esc(l.t)+'</text>';});
+  return s+'</svg>';
+}
+var TYPE_COL={'indicateur':'var(--c-fr)','banque centrale':'var(--c-eco)','résultats':'var(--c-tech)','politique':'var(--warm)'};
+function agendaEco(limit){
+  var a=state.sp.agenda;if(!a)return '';var ev=a.evenements.slice().sort(function(x,y){return (x.date+(x.heure||'99')).localeCompare(y.date+(y.heure||'99'));});if(limit)ev=ev.filter(function(e){return e.date>=state.current.date;}).slice(0,limit);
+  var h='',day='';ev.forEach(function(e){if(e.date!==day){day=e.date;h+='<div class="cal-day">'+esc(frDate(day))+'</div>';}
+    h+='<div class="cal-row" style="grid-template-columns:54px minmax(0,1fr) auto"><span class="t">'+esc(e.heure||'—')+'</span><span class="m">'+esc(e.titre)+' <span style="font-weight:400;color:var(--soft);font-size:12.5px">· '+esc(e.pays)+'</span>'+(e.enjeu&&!limit?'<span style="display:block;font-weight:400;color:var(--soft);font-size:13px;margin-top:2px">'+esc(e.enjeu)+'</span>':'')+'</span><span class="c" style="color:'+(TYPE_COL[e.type]||'var(--soft)')+';border-color:currentColor">'+esc(e.type)+'</span></div>';});
+  return h;
+}
+function pageAgenda(){var a=state.sp.agenda;if(!a)return notFound();return '<a class="crumb" href="#eco">← Économie</a>'+titleRow('calendrier','var(--c-eco)',a.semaine,'L\'agenda de la semaine')+'<p class="sub" style="font-size:13.5px">'+esc(a.fuseau||'Heures de Paris')+'</p>'+agendaEco()+(a.hors_fenetre&&a.hors_fenetre.length?'<div class="verif"><b>Hors de la semaine.</b> '+a.hors_fenetre.map(function(x){return esc(x.date+' : '+x.titre);}).join(' · ')+'</div>':'')+sources(a.evenements.map(function(e){return e.source;}).filter(function(s,i,arr){return s&&arr.findIndex(function(o){return o&&o.url===s.url;})===i;}).slice(0,8));}
+/* ---------- Afrique : marchés ---------- */
+function afriqueMarches(){
+  var a=state.sp.afm;if(!a)return '';
+  var neg=function(v){return /^-|^−/.test(String(v));};
+  var h=secH('afrique','Les marchés africains',null,'eco','var(--c-af)')+'<p class="sub" style="font-size:13.5px">'+esc(a.maj)+'. '+esc(a.convention||'')+'</p><div class="grid2"><div class="panel"><h3>Devises face au dollar</h3><div class="tw"><table><thead><tr><th class="l">Devise</th><th class="l">Pays</th><th>Pour 1 $</th><th>Sur 1 mois</th></tr></thead><tbody>'+a.devises.map(function(d){return '<tr><td class="l"><b>'+esc(d.code)+'</b> <span style="color:var(--soft)">'+esc(d.nom)+'</span></td><td class="l" style="white-space:normal;min-width:110px;font-size:13px;color:var(--soft)">'+esc(d.pays)+'</td><td>'+Number(d.usd).toLocaleString('fr-FR')+'</td><td style="color:'+(d.var_1m?(neg(d.var_1m)?'var(--neg)':'var(--pos)'):'var(--faint)')+';font-weight:600">'+esc(d.var_1m||'n.d.')+'</td></tr>';}).join('')+'</tbody></table></div></div><div class="stack"><div class="panel"><h3>Matières premières</h3><div style="display:grid;gap:8px;margin-top:8px">'+a.matieres.map(function(m){return '<div style="display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 10px;border-bottom:1px dashed var(--line);padding-bottom:8px"><b>'+esc(m.nom)+'</b><span style="font-weight:700;font-variant-numeric:tabular-nums">'+(m.valeur!=null?Number(m.valeur).toLocaleString('fr-FR')+' '+esc(m.unite):'n.d.')+(m.var_1m?' <span style="color:'+(neg(m.var_1m)?'var(--neg)':'var(--pos)')+'">'+esc(m.var_1m)+'</span>':'')+'</span><span style="grid-column:1/-1;font-size:13px;color:var(--soft)">'+esc(m.enjeu||'')+'</span></div>';}).join('')+'</div></div></div></div>';
+  h+='<div class="panel" style="margin-top:16px"><h3>Taux directeurs</h3><div class="tw"><table><thead><tr><th class="l">Pays / zone</th><th class="l">Banque centrale</th><th>Taux</th><th class="l">Dernière décision</th><th class="l">Prochaine</th></tr></thead><tbody>'+a.taux.map(function(t){return '<tr><td class="l">'+esc(t.pays)+'</td><td class="l">'+esc(t.banque)+'</td><td><b>'+esc(t.taux)+'</b></td><td class="l" style="white-space:normal;color:var(--soft)">'+esc(t.derniere||'')+'</td><td class="l">'+esc(t.prochaine||'n.d.')+'</td></tr>';}).join('')+'</tbody></table></div></div>';
+  return h+sources(a.sources.slice(0,6));
+}
+/* ---------- audio : le briefing à écouter ---------- */
+var audio={on:false,parts:[],i:0};
+function briefScript(){
+  var e=state.current,p=['Bonjour. Voici Mosaiq, l\'édition du '+e.date_longue+'.',e.une.chapeau];
+  p.push('Géopolitique.');e.geopolitique.forEach(function(g){p.push(g.titre+'. '+g.chapeau.split('. ')[0]+'.');});
+  [['france','En France.'],['outremer','Dans les Outre-mer.'],['afrique','En Afrique.'],['tech','Tech et intelligence artificielle.'],['eco','Économie.']].forEach(function(r){p.push(r[1]);arts(r[0]).forEach(function(a){p.push(a.titre+'. '+a.resume);});});
+  p.push('Sport.');e.sport.breves.forEach(function(b){p.push(b.titre+'. '+b.texte.split('. ')[0]+'.');});
+  p.push('C\'était Mosaiq. Bonne journée.');
+  return p.map(function(t){return t.replace(/–/g,', ').replace(/\s+/g,' ');});
+}
+function audioBtn(){var ok='speechSynthesis' in window;return '<div class="listen"><button type="button" id="listen" '+(ok?'':'disabled')+' aria-pressed="false"><span class="eq" aria-hidden="true"><i></i><i></i><i></i></span><span id="listen-t">Écouter le briefing</span></button><span class="sub" id="listen-s" style="margin:0">'+(ok?'Environ 6 minutes, lu par la voix de votre appareil':'La lecture audio n\'est pas disponible sur ce navigateur')+'</span></div>';}
+function mountAudio(){
+  var b=document.getElementById('listen');if(!b||!('speechSynthesis' in window))return;
+  b.addEventListener('click',function(){
+    if(audio.on){speechSynthesis.cancel();audio.on=false;upd();return;}
+    audio.parts=briefScript();audio.i=0;audio.on=true;upd();speakNext();
+  });
+  function voice(){var v=speechSynthesis.getVoices().filter(function(x){return /^fr/i.test(x.lang);});return v.filter(function(x){return /Google|Amélie|Thomas|Audrey|Natural/i.test(x.name);})[0]||v[0];}
+  function speakNext(){if(!audio.on)return;if(audio.i>=audio.parts.length){audio.on=false;upd();return;}var u=new SpeechSynthesisUtterance(audio.parts[audio.i]);u.lang='fr-FR';var v=voice();if(v)u.voice=v;u.rate=1.03;u.onend=function(){audio.i++;upd();speakNext();};u.onerror=function(){audio.on=false;upd();};speechSynthesis.speak(u);}
+  function upd(){var t=document.getElementById('listen-t'),s=document.getElementById('listen-s');if(!t)return;b.setAttribute('aria-pressed',audio.on);b.classList.toggle('playing',audio.on);t.textContent=audio.on?'Arrêter la lecture':'Écouter le briefing';if(s)s.textContent=audio.on?'Lecture : partie '+Math.min(audio.i+1,audio.parts.length)+' sur '+audio.parts.length:'Environ 6 minutes, lu par la voix de votre appareil';}
+}
+
+/* ---------- pages éditoriales ---------- */
+function pageAccueil(){
+  var e=state.current,u=e.une,h='';
+  h+='<section class="une"><div><span class="eyebrow">'+esc(e.date_longue)+'</span><h1 class="page">'+esc(u.titre)+'</h1><p class="lede">'+esc(u.chapeau)+'</p>'+audioBtn()+'</div><div><a href="#geopolitique" aria-label="Voir les regards croisés" style="display:block">'+u.carte_monde+'</a><div class="legend">'+u.legende_monde.map(function(l){return '<span>'+esc(l)+'</span>';}).join('')+'</div></div></section>';
+  h+=secH('geopolitique','Géopolitique · regards croisés',{t:'Tous les regards'});
+  var dz=state.sp.dossier;if(dz)h+='<a class="dz-card" href="#dossier"><span class="tag" style="color:var(--c-geo)">Le dossier de la semaine</span><b>'+esc(dz.titre)+'</b><p>'+esc(dz.sous_titre)+'</p><span class="go" style="color:var(--c-geo)">Chronologie, carte, acteurs et '+dz.regards.length+' regards →</span></a>';
+  h+='<div class="cards">'+e.geopolitique.map(function(g){return card('#g-'+g.id,g.regards.length+' regards','var(--c-geo)',g.titre,g.chapeau.split('. ')[0]+'.','Comparer les points de vue');}).join('')+'</div>';
+  ['france','afrique','tech','eco'].forEach(function(id){var r=rub(id);
+    h+=secH(id,r.nom,{t:'Toute la rubrique'});
+    h+='<div class="cards">'+arts(id).map(function(a){return card('#a-'+a.id,r.nom,r.c,a.titre,a.resume);}).join('')+'</div>';
+    if(id==='france'&&arts('outremer').length)h+='<div class="sec-h" style="margin-top:22px">'+hico('outremer','var(--c-fr)')+'<h2 style="font-size:20px">Outre-mer</h2><a class="more" href="#outremer">Toute la sous-rubrique →</a></div><div class="cards">'+arts('outremer').map(function(a){return card('#a-'+a.id,a.territoire,'var(--c-fr)',a.titre,a.resume);}).join('')+'</div>';});
+  h+=secH('sport','Sport',{t:'Tous les sports'});
+  var map={'france-italie':'football','championnats':'football','nba':'nba','nfl':'nfl','tennis':'tennis'};
+  h+='<div class="cards">'+e.sport.breves.map(function(b){var t=map[b.id]||'sport',sp=SPORTS.filter(function(x){return x.id===t;})[0];return card('#'+t,b.discipline,'var(--c-sport)',b.titre,b.texte.split('. ')[0]+'.','Ouvrir '+sp.nom);}).join('')+'</div>';
+  if(e.a_verifier&&e.a_verifier.length)h+='<div class="verif" style="margin-top:32px"><b>À vérifier dans cette édition.</b> '+e.a_verifier.map(esc).join(' ')+'</div>';
+  return h;
+}
+function franceTabs(a){var t=[['france','Actualité nationale','france'],['outremer','Outre-mer','outremer']];return '<div class="tabs" style="margin-top:12px">'+t.map(function(x){return '<a href="#'+x[0]+'"'+(x[0]===a?' aria-current="page"':'')+' style="display:inline-flex;align-items:center;gap:6px">'+ico(x[2]).replace('<svg ','<svg width="16" height="16" ')+esc(x[1])+'</a>';}).join('')+'</div>';}
+function pageRubrique(id){
+  var r=rub(id),h=titleRow(r.i,r.c,state.current.date_longue,id==='outremer'?'France · Outre-mer':r.nom);
+  if(id==='france'||id==='outremer')h+=franceTabs(id);
+  h+='<div class="grid2" style="margin-top:14px"><div class="stack">'+arts(id).map(function(a){return '<article class="panel"><span class="tag" style="color:'+r.c+'">'+esc(a.territoire||r.nom)+'</span><h2 style="font-family:var(--display);font-size:22px;line-height:1.2;margin:6px 0 8px"><a href="#a-'+a.id+'" style="text-decoration:none">'+esc(a.titre)+'</a></h2><p style="font-family:var(--read);font-size:16.5px;margin:0 0 8px">'+esc(a.resume)+'</p><a href="#a-'+a.id+'" style="font-size:13px;font-weight:600;color:'+r.c+'">Lire l\'article complet →</a></article>';}).join('')+'</div><div class="stack">'+aside(id)+'</div></div>';
+  if(id==='eco')h+='<div style="margin-top:20px">'+marketChart()+'</div>';
+  if(id==='afrique')h+=afriqueMarches();
+  return h;
+}
+function aside(id){
+  var e=state.current,h='';
+  if(id==='outremer'){var om=arts('outremer');h+='<div class="panel"><h3>Les territoires du jour</h3><p class="sub">Les numéros suivent l\'ordre des articles</p>'+focusMap([],'var(--c-fr)',0,1,null,om.filter(function(a){return a.lieu;}).map(function(a){return {x:a.lieu.x,y:a.lieu.y,nom:a.territoire};}))+'<div class="legend" style="margin-top:8px">'+om.map(function(a,i){return '<span><b>'+(i+1)+'</b> '+esc(a.territoire)+'</span>';}).join('')+'</div></div>';
+    if(e.outremer_agenda&&e.outremer_agenda.length)h+='<div class="panel"><h3>Agenda des Outre-mer</h3>'+e.outremer_agenda.map(function(x){return '<div style="border-bottom:1px dashed var(--line);padding:7px 0;font-size:14px"><b>'+esc(frDate(x.date))+' · '+esc(x.territoire)+'</b><br><span style="color:var(--soft)">'+esc(x.texte)+'</span></div>';}).join('')+'</div>';}
+  if(id==='france')h+='<div class="panel"><h3>Budget 2027 : le calendrier</h3><p class="sub">Projet de loi de finances</p>'+frise(e.france_frise)+'</div>';
+  if(id==='afrique'){h+='<div class="panel"><h3>Les pays à la une</h3><p class="sub">Les numéros suivent l\'ordre des articles</p><div style="max-width:340px;margin:0 auto">'+e.carte_afrique+'</div></div>';
+    h+='<div class="panel"><h3>Éliminatoires CAN 2027</h3><p class="sub">Affiches de la semaine</p>'+e.sport.can.map(function(m){return '<div style="display:flex;justify-content:space-between;gap:8px;border-bottom:1px dashed var(--line);padding:6px 0;font-size:14px"><b>'+esc(m[0])+' – '+esc(m[1])+'</b><span style="color:var(--soft);font-size:12.5px;white-space:nowrap">'+esc(m[2])+'</span></div>';}).join('')+'</div>';}
+  if(id==='eco'&&state.sp.agenda)h+='<div class="panel"><h3>Agenda des prochains jours</h3>'+agendaEco(6)+'<a href="#agenda" style="display:inline-block;margin-top:10px;font-size:13px;font-weight:600;color:var(--c-eco)">Tout l\'agenda de la semaine →</a></div>';
+  if(id==='eco'){h+='<div class="panel"><h3>'+esc(e.eco.indices.titre)+'</h3><p class="sub">Variation en %</p>'+hbars(e.eco.indices.valeurs,{labelW:90,max:2,fmt:function(v){return (v>0?'+':'')+String(v.toFixed(2)).replace('.',',')+' %';},aria:'Variation des indices'})+'</div>';
+    h+='<div class="panel"><h3>Matières premières, taux, crypto</h3>'+stats(e.eco.chiffres)+'</div>';}
+  if(id==='tech'){var ipo=e.articles.filter(function(a){return a.id==='anthropic-ipo';})[0];if(ipo)h+='<div class="panel"><h3>L\'IPO d\'Anthropic en chiffres</h3>'+stats(ipo.chiffres)+'</div>';}
+  return h;
+}
+function pageArticle(id){
+  var a=state.current.articles.filter(function(x){return x.id===id;})[0];if(!a)return notFound();
+  var r=rub(a.rubrique),h='<a class="crumb" href="#'+r.id+'">← '+esc(r.nom)+'</a><div class="grid2" style="margin-top:10px"><article class="art"><span class="tag" style="color:'+r.c+'">'+esc(a.territoire?'Outre-mer · '+a.territoire:r.nom)+' · '+esc(state.current.date_longue)+'</span><h1 class="page">'+esc(a.titre)+'</h1><p class="lede" style="margin-bottom:18px">'+esc(a.resume)+'</p>'+stats(a.chiffres)+'<div class="corps">'+a.corps.map(function(p){return '<p>'+esc(p)+'</p>';}).join('')+'</div>';
+  if(a.a_verifier)h+='<div class="verif"><b>À vérifier.</b> '+esc(a.a_verifier)+'</div>';
+  h+=sources(a.sources)+'</article><div class="stack">'+((a.pays&&a.pays.length)||a.lieu?'<div class="panel"><h3>Où ça se passe'+(a.lieu?' · '+esc(a.lieu.nom):'')+'</h3><p class="sub">'+(a.lieu?'Zoom sur le lieu de l\'article':'Zoom sur le pays principal, les autres pays cités en clair')+'</p>'+focusMap(a.pays,r.c,4,1,a.lieu)+'</div>':'')+aside(a.rubrique);
+  var others=arts(a.rubrique).filter(function(x){return x.id!==a.id;});
+  if(others.length)h+='<div class="panel"><h3>Dans la même rubrique</h3><div style="display:grid;gap:10px;margin-top:10px">'+others.map(function(o){return '<a href="#a-'+o.id+'" style="text-decoration:none;font-weight:600;font-size:14.5px">'+esc(o.titre)+'</a>';}).join('')+'</div></div>';
+  return h+'</div></div>';
+}
+function pageGeo(){
+  var e=state.current,h=titleRow('geopolitique','var(--c-geo)',e.date_longue,'Géopolitique · regards croisés')+'<p class="lede">Pour chaque sujet, les faits établis, puis la manière dont les médias de différentes régions du monde le racontent : grands titres et médias de niche, médias d\'État signalés comme tels. Les lectures sont présentées et attribuées, pas validées.</p>';
+  var dz=state.sp.dossier;if(dz)h+='<a class="dz-card" href="#dossier" style="margin-top:20px"><span class="tag" style="color:var(--c-geo)">Le dossier de la semaine</span><b>'+esc(dz.titre)+'</b><p>'+esc(dz.sous_titre)+'</p><span class="go" style="color:var(--c-geo)">Ouvrir le dossier →</span></a>';
+  var allR=[];e.geopolitique.forEach(function(g){allR=allR.concat(g.regards);});if(dz)allR=allR.concat(dz.regards);
+  h+='<div class="sec-h">'+hico('geopolitique','var(--c-geo)')+'<h2>La pluralité des sources cette semaine</h2></div>'+diversity(allR);
+  h+='<div class="cards" style="margin-top:22px">'+e.geopolitique.map(function(g){return '<a class="card" href="#g-'+g.id+'"><div style="max-height:150px;overflow:hidden;border-radius:8px">'+g.carte+'</div><b>'+esc(g.titre)+'</b><p>'+esc(g.regards.map(function(r){return r.region;}).join(' · '))+'</p><span class="go" style="color:var(--c-geo)">Comparer les '+g.regards.length+' regards →</span></a>';}).join('')+'</div>';
+  return h;
+}
+function pageSujet(id){
+  var g=state.current.geopolitique.filter(function(x){return x.id===id;})[0];if(!g)return notFound();
+  var h='<a class="crumb" href="#geopolitique">← Géopolitique</a><div class="grid2" style="margin-top:10px"><div><span class="tag" style="color:var(--c-geo)">Regards croisés · '+esc(state.current.date_longue)+'</span><h1 class="page">'+esc(g.titre)+'</h1><p class="lede">'+esc(g.chapeau)+'</p></div><div class="panel"><h3>Les pays au cœur du sujet</h3>'+focusMap(g.pays,'var(--c-geo)',4,2)+'<p class="sub" style="margin:8px 0 0">Les quatre premiers pays concernés. Survolez la carte pour le nom des pays.</p></div></div>';
+  h+=secH('geopolitique','Les faits')+'<div class="panel"><ul class="faits">'+g.faits.map(function(f){return '<li>'+esc(f)+'</li>';}).join('')+'</ul></div>';
+  h+=secH('geopolitique','Comment le monde le raconte')+diversity(g.regards)+'<div class="regards" style="margin-top:12px">'+g.regards.map(function(r){var c=REG_COL[r.region]||'var(--c-geo)';return '<div class="regard" style="--rc:'+c+'"><h4>'+esc(r.region)+'</h4><p class="angle">'+esc(r.angle)+'</p><p>'+esc(r.texte)+'</p><div class="medias">'+r.medias.map(function(m){return '<a href="'+url(m.url)+'" target="_blank" rel="noopener">'+esc(m.nom)+'<small>'+esc(m.type)+'</small></a>';}).join('')+'</div></div>';}).join('')+'</div>';
+  h+='<div class="grid2" style="margin-top:28px"><div><div class="sec-h" style="margin-top:0">'+hico('eco','var(--warm)').replace(IC.eco,'<path d="M12 4v16M4 12h16"/>')+'<h2>Là où les lectures divergent</h2></div><div class="friction">'+g.points_de_friction.map(function(p){return '<div>'+esc(p)+'</div>';}).join('')+'</div></div><div class="panel"><h3>À suivre</h3><p style="margin:6px 0 0;font-family:var(--read);font-size:16.5px">'+esc(g.a_suivre)+'</p></div></div>';
+  return h;
+}
+function pageArchives(){
+  var h=titleRow('archives','var(--faint)','Toutes les éditions','Archives')+'<p class="lede">Chaque matin, une nouvelle édition s\'ajoute ici. Les données sportives affichées sont toujours les plus récentes.</p><div class="arch" style="margin-top:20px">';
+  h+=state.index.editions.map(function(e){return '<a href="#edition-'+esc(e.date)+'"><span class="dt">'+esc(e.date)+'</span><span><b>'+esc(e.date_longue)+'</b><br><span style="color:var(--soft);font-size:14px">'+esc(e.titre)+'</span></span></a>';}).join('');
+  return h+'</div>';
+}
+function notFound(){return '<h1 class="page">Page introuvable</h1><p><a href="#accueil">Revenir à la une</a></p>';}
+
+/* ---------- sport : cadre ---------- */
+function sportNav(active){return '<nav class="subnav" aria-label="Sports">'+SPORTS.map(function(s){return '<a href="#'+s.id+'" data-s="'+s.id+'" style="--sc:'+s.c+'"'+(s.id===active?' aria-current="page"':'')+'>'+ico(s.i)+'<span>'+esc(s.nom)+'</span></a>';}).join('')+'</nav>';}
+function footTabs(active){var t=[['football','Championnats'],['foot-calendrier','Calendrier'],['foot-transferts','Transferts']];return '<div class="tabs">'+t.map(function(x){return '<a href="#'+x[0]+'"'+(x[0]===active?' aria-current="page"':'')+'>'+esc(x[1])+'</a>';}).join('')+'</div>';}
+function sportHead(i,title,sub){return '<div class="title-row" style="margin-top:6px">'+hico(i,sc(i))+'<h1 class="page">'+esc(title)+'</h1></div>'+(sub?'<p class="sub" style="font-size:13.5px">'+esc(sub)+'</p>':'');}
+function footRows(){var c=state.sp.cal;if(!c)return [];var rows=[];c.competitions.forEach(function(comp){comp.matchs.forEach(function(m){rows.push({date:m.date,heure:m.heure,m:m.dom+' – '+m.ext,c:comp.nom,tv:m.tv,comp:comp.id});});});return rows;}
+function upcomingAll(){var rows=footRows();
+  var n=state.sp.nba;if(n)n.a_venir.forEach(function(m){rows.push({date:m.date,heure:m.heure_paris,m:m.ext+' @ '+m.dom,c:'NBA',href:'#nba'});});
+  var f=state.sp.nfl;if(f)f.a_venir.matchs.forEach(function(m){rows.push({date:m.date,heure:m.heure_paris,m:m.ext+' @ '+m.dom,c:'NFL',href:'#nfl'});});
+  return rows;}
+
+function pageSport(){
+  var e=state.current,h=sportHead('sport','Sport',e.date_longue);
+  var heads={football:'Ligue 1, Premier League, Liga, Serie A, Bundesliga, C1',nba:state.sp.nba?'En tête : '+state.sp.nba.ouest[0].equipe+' ('+state.sp.nba.ouest[0].v+'-'+state.sp.nba.ouest[0].d+') et '+state.sp.nba.est[0].equipe:'',nfl:state.sp.nfl?state.sp.nfl.a_venir.semaine+' cette semaine':'',tennis:'Masters de Turin, classements ATP et WTA',f1:state.sp.f1?'Champion : '+state.sp.f1.pilotes[0].pilote:'',rugby:'Top 14 et tests du XV de France'};
+  h+='<div class="hub" style="margin-top:8px">'+SPORTS.slice(1).map(function(s){return '<a href="#'+s.id+'">'+hico(s.i,s.c)+'<b>'+esc(s.nom)+'</b><span class="s">'+esc(heads[s.id]||'')+'</span></a>';}).join('')+'</div>';
+  h+=secH('sport','Les brèves du jour');
+  h+='<div class="cards">'+e.sport.breves.map(function(b){return '<div class="card" style="cursor:default"><span class="tag" style="color:var(--c-sport)">'+esc(b.discipline)+'</span><b>'+esc(b.titre)+'</b><p>'+esc(b.texte)+'</p></div>';}).join('')+'</div>';
+  var cnt={},rows=upcomingAll().filter(function(r){if(r.date>addDays(e.date,3))return false;var fr=/France/.test(r.m);if(r.comp==='selections')return fr;var k=r.c+r.date;cnt[k]=(cnt[k]||0)+1;return cnt[k]<=3;});
+  var rb=state.sp.rugby;if(rb)rb.tests.a_venir.slice(0,1).forEach(function(m){if(/13 novembre/.test(m.date))rows.push({date:'2026-11-13',heure:(m.heure_paris||'').replace('h',':'),m:m.dom+' – '+m.ext,c:'Rugby',href:'#rugby'});});
+  h+=secH('sport','À ne pas manquer d\'ici dimanche',null,'calendrier','var(--c-sport)')+'<div class="panel">'+calendar(rows)+'</div>';
+  return h;
+}
+function addDays(iso,n){var d=new Date(iso+'T12:00:00');d.setDate(d.getDate()+n);return d.toISOString().slice(0,10);}
+
+/* ---------- football ---------- */
+function leagueCards(){return '<div class="leagues">'+LEAGUES.map(function(l){var d=state.foot[l.id],lead=d&&d.classement[0];return '<a class="league" href="#foot-'+l.id+'"><b>'+esc(l.nom)+'</b><span>'+(lead?'En tête : '+esc(lead.club)+' ('+lead.pts+' pts)':'Classement, buteurs, passeurs')+'</span>'+(d?'<span style="font-size:12px;color:var(--faint)">'+esc(d.maj)+'</span>':'')+'</a>';}).join('')+'</div>';}
+function pageFootball(){
+  var h=sportHead('football','Football','Classements complets, buteurs, passeurs, courbes, fiches clubs, calendrier et transferts.')+footTabs('football')+leagueCards();
+  var tr=state.sp.tr;if(tr){h+=secH('sport','Derniers mouvements',{t:'Tous les transferts',href:'foot-transferts'},'transferts',sc('football'))+'<div class="trs">'+tr.items.slice(0,3).map(trCard).join('')+'</div>';}
+  var rows=footRows();if(rows.length){var first=rows.map(function(r){return r.date;}).sort()[0];h+=secH('sport','Prochains matchs',{t:'Tout le calendrier',href:'foot-calendrier'},'calendrier',sc('football'))+'<div class="panel">'+calendar(rows.filter(function(r){return r.date===first;}))+'</div>';}
+  return h;
+}
+function pageFootCal(){
+  var c=state.sp.cal;if(!c)return notFound();
+  var h=sportHead('football','Calendrier','Programme '+c.maj+'. Heures de Paris. Filtrez par compétition.')+footTabs('foot-calendrier');
+  h+='<div class="chips" id="cal-f"><button type="button" aria-pressed="true" data-c="all">Toutes</button>'+c.competitions.map(function(x){return '<button type="button" aria-pressed="false" data-c="'+esc(x.id)+'">'+esc(x.nom)+(x.journee?' · '+esc(x.journee):'')+'</button>';}).join('')+'</div><div id="cal-box">'+calendar(footRows())+'</div>'+sources(c.sources);
+  return h;
+}
+function mountFootCal(){var f=document.getElementById('cal-f');if(!f)return;f.addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;var id=b.getAttribute('data-c');[].forEach.call(f.querySelectorAll('button'),function(x){x.setAttribute('aria-pressed',x===b);});document.getElementById('cal-box').innerHTML=calendar(footRows().filter(function(r){return id==='all'||r.comp===id;}));});}
+var ST={officiel:'Officiel','avancé':'Avancé',rumeur:'Rumeur'};
+function trCard(t){var cls=t.statut==='avancé'?'avance':esc(t.statut);var lg=LEAGUES.filter(function(l){return l.id===t.championnat;})[0];
+  return '<div class="tr" data-l="'+esc(t.championnat)+'" data-s="'+esc(t.statut)+'"><div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap"><span class="pill '+cls+'">'+esc(ST[t.statut]||t.statut)+'</span><span class="tag" style="color:var(--soft)">'+esc(t.type)+(lg?' · '+esc(lg.nom):'')+'</span>'+(t.montant?'<b style="margin-left:auto;font-size:13px">'+esc(t.montant)+'</b>':'')+'</div><div class="mv">'+esc(t.joueur)+'<span>'+esc(t.de||'')+(t.vers?' → '+esc(t.vers):'')+'</span></div><p>'+esc(t.texte)+'</p>'+(t.source?'<a href="'+url(t.source.url)+'" target="_blank" rel="noopener" style="font-size:12.5px;color:var(--soft)">'+esc(t.source.nom)+(t.date?' · '+esc(frDate(t.date)):'')+' ↗</a>':'')+'</div>';}
+function pageTransferts(){
+  var t=state.sp.tr;if(!t)return notFound();
+  var h=sportHead('football','Transferts',t.fenetre)+footTabs('foot-transferts');
+  if(t.dates_fenetre&&t.dates_fenetre.length)h+='<div class="stats">'+t.dates_fenetre.map(function(d){return '<div class="stat"><b style="font-size:17px">'+esc(frDate(d.ouverture))+' → '+esc(String(d.fermeture).split(' ')[0]?frDate(String(d.fermeture).split(' ')[0]):'')+'</b><span>'+esc(d.pays)+'</span></div>';}).join('')+'</div>';
+  h+='<div class="chips" id="tr-f"><button type="button" aria-pressed="true" data-k="all">Tout</button>'+['officiel','avancé','rumeur'].map(function(s){return '<button type="button" aria-pressed="false" data-k="s:'+s+'">'+ST[s]+'</button>';}).join('')+LEAGUES.slice(0,5).map(function(l){return '<button type="button" aria-pressed="false" data-k="l:'+l.id+'">'+esc(l.nom)+'</button>';}).join('')+'</div>';
+  h+='<div class="trs" id="tr-box">'+t.items.map(trCard).join('')+'</div><p class="sub" style="margin-top:14px">Officiel : annoncé par le club. Avancé : négociations rapportées par plusieurs médias fiables. Rumeur : information d\'un seul média, attribuée.</p>';
+  return h;
+}
+function mountTransferts(){var f=document.getElementById('tr-f');if(!f)return;f.addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;var k=b.getAttribute('data-k');[].forEach.call(f.querySelectorAll('button'),function(x){x.setAttribute('aria-pressed',x===b);});
+  [].forEach.call(document.querySelectorAll('#tr-box .tr'),function(c){var ok=k==='all'||(k.indexOf('s:')===0&&c.getAttribute('data-s')===k.slice(2))||(k.indexOf('l:')===0&&c.getAttribute('data-l')===k.slice(2));c.hidden=!ok;});});}
+function zoneOf(l,pos){for(var i=0;i<l.zones.length;i++){var z=l.zones[i];if(pos>=z[0]&&pos<=z[1])return z;}return null;}
+function clubColors(d){var m={};Object.keys(d.evolution&&d.evolution.clubs||{}).forEach(function(n,i){m[n]=PALETTE[i%PALETTE.length];});return m;}
+function nextMatch(lid,club){var c=state.sp.cal;if(!c)return null;var comp=c.competitions.filter(function(x){return x.id===lid;})[0];if(!comp)return null;return comp.matchs.filter(function(m){return m.dom===club||m.ext===club;})[0];}
+function pageLeague(lid){
+  var l=LEAGUES.filter(function(x){return x.id===lid;})[0],d=state.foot[lid];if(!l||!d)return notFound();
+  var h='<a class="crumb" href="#football">← Football</a>'+sportHead('football',d.nom,(d.pays?d.pays+' · ':'')+'saison '+d.saison+' · classement '+d.maj+'. Cliquez sur un club pour sa fiche.');
+  h+='<div class="grid2"><div class="panel"><h3>Classement</h3><div class="tw" style="margin-top:8px"><table><thead><tr><th>#</th><th class="l">Club</th><th>J</th><th class="hide-m">G</th><th class="hide-m">N</th><th class="hide-m">P</th><th>Diff</th><th>Pts</th><th class="l hide-m">Forme</th></tr></thead><tbody>'+d.classement.map(function(r){var z=zoneOf(l,r.pos),diff=r.bp-r.bc;return '<tr><td class="pos">'+r.pos+'</td><td class="l"><span class="zone" style="background:'+(z?z[2]:'transparent')+'"></span><a href="#club-'+lid+'-'+slug(r.club)+'">'+esc(r.club)+'</a></td><td>'+r.j+'</td><td class="hide-m">'+r.g+'</td><td class="hide-m">'+r.n+'</td><td class="hide-m">'+r.p+'</td><td>'+(diff>0?'+':'')+diff+'</td><td><b>'+r.pts+'</b></td><td class="l hide-m">'+forme(r.forme)+'</td></tr>';}).join('')+'</tbody></table></div><div class="legend" style="margin-top:10px">'+l.zones.map(function(z){return '<span><span class="zone" style="background:'+z[2]+'"></span>'+esc(z[3])+'</span>';}).join('')+'</div></div><div class="stack">';
+  h+='<div class="panel"><h3>Meilleurs buteurs</h3>'+hbars(d.buteurs.map(function(b){return [b.joueur+' ('+b.club+')',b.buts,'var(--c-sport)'];}),{labelW:205,fmt:function(v){return v+' buts';},aria:'Meilleurs buteurs'})+'</div>';
+  h+='<div class="panel"><h3>Meilleurs passeurs</h3>'+hbars(d.passeurs.map(function(b){return [b.joueur+' ('+b.club+')',b.passes,'var(--c-fr)'];}),{labelW:205,fmt:function(v){return v+' passes';},aria:'Meilleurs passeurs'})+'</div></div></div>';
+  var ev=d.evolution;
+  if(ev&&Object.keys(ev.clubs||{}).length)h+='<div class="panel" style="margin-top:18px"><h3>Course au titre</h3><p class="sub">'+(ev.type==='rang'?'Classement':'Points cumulés')+' des 6 premiers, journées '+ev.journees[0]+' à '+ev.journees[ev.journees.length-1]+'. Touchez un club pour l\'afficher ou le masquer.</p><div class="chips" id="ev-chips"></div><div id="ev-chart"></div></div>';
+  var c=state.sp.cal&&state.sp.cal.competitions.filter(function(x){return x.id===lid;})[0];
+  h+='<div class="grid2" style="margin-top:18px">';
+  if(d.derniere_journee&&d.derniere_journee.matchs.length)h+='<div class="panel"><h3>'+esc(d.derniere_journee.label)+'</h3><div class="scores" style="margin-top:10px">'+d.derniere_journee.matchs.map(function(m){var p=String(m.score).split('-').map(Number);return scoreBox(m.dom,p[0],m.ext,p[1]);}).join('')+'</div></div>';
+  if(c)h+='<div class="panel"><h3>À venir · '+esc(c.journee||'prochaine journée')+'</h3>'+calendar(c.matchs.map(function(m){return {date:m.date,heure:m.heure,m:m.dom+' – '+m.ext,c:m.tv||c.nom};}))+'</div>';
+  return h+'</div>'+sources(d.sources);
+}
+function pageClub(lid,cs){
+  var d=state.foot[lid],l=LEAGUES.filter(function(x){return x.id===lid;})[0];if(!d)return notFound();
+  var r=d.classement.filter(function(x){return slug(x.club)===cs;})[0];if(!r)return notFound();
+  var lead=d.classement[0],z=zoneOf(l,r.pos),diff=r.bp-r.bc;
+  var h='<a class="crumb" href="#foot-'+lid+'">← '+esc(d.nom)+'</a>'+sportHead('football',r.club,'Fiche club · '+d.nom+' '+d.saison);
+  h+='<div class="stats"><div class="stat"><b>'+r.pos+(r.pos===1?'er':'e')+'</b><span>au classement'+(z?' · '+esc(z[3]):'')+'</span></div><div class="stat"><b>'+r.pts+' pts</b><span>'+(r.pos===1?(d.classement[1]?'+'+(r.pts-d.classement[1].pts)+' sur le 2e':''):(lead.pts-r.pts)+' pts du leader')+'</span></div><div class="stat"><b>'+r.g+'-'+r.n+'-'+r.p+'</b><span>victoires, nuls, défaites</span></div><div class="stat"><b>'+r.bp+' : '+r.bc+'</b><span>buts pour et contre ('+(diff>0?'+':'')+diff+')</span></div></div>';
+  if(r.forme)h+='<p style="display:flex;gap:10px;align-items:center;font-size:14px;flex-wrap:wrap"><b>Forme récente</b>'+forme(r.forme)+'<span class="sub" style="margin:0">du plus ancien au plus récent</span></p>';
+  var bt=d.buteurs.filter(function(b){return b.club===r.club;}),ps=d.passeurs.filter(function(b){return b.club===r.club;});
+  var m=(d.derniere_journee&&d.derniere_journee.matchs||[]).filter(function(x){return x.dom===r.club||x.ext===r.club;})[0],nx=nextMatch(lid,r.club);
+  h+='<div class="grid2" style="margin-top:16px"><div class="stack">';
+  var ev=d.evolution;
+  if(ev&&ev.clubs&&ev.clubs[r.club]){var sub={type:ev.type,journees:ev.journees,clubs:{}};sub.clubs[r.club]=ev.clubs[r.club];if(lead.club!==r.club&&ev.clubs[lead.club])sub.clubs[lead.club]=ev.clubs[lead.club];var col={};col[r.club]='var(--c-sport)';if(lead.club!==r.club)col[lead.club]='var(--faint)';
+    h+='<div class="panel"><h3>Parcours</h3><p class="sub">'+(ev.type==='rang'?'Classement':'Points cumulés')+(lead.club!==r.club?', comparé au leader':'')+'</p>'+lines(sub,{colors:col,focus:r.club,aria:'Parcours du club'})+'</div>';}
+  else h+='<div class="panel"><h3>Parcours</h3><p class="sub">La courbe journée par journée n\'est suivie que pour les six premiers. Elle se complétera au fil des éditions.</p></div>';
+  h+='<div class="panel"><h3>Position dans le championnat</h3><div class="tw" style="margin-top:8px"><table><tbody>'+d.classement.filter(function(x){return Math.abs(x.pos-r.pos)<=3;}).map(function(x){return '<tr class="'+(x.club===r.club?'me':'')+'"><td class="pos">'+x.pos+'</td><td class="l"><a href="#club-'+lid+'-'+slug(x.club)+'">'+esc(x.club)+'</a></td><td>'+x.j+' j</td><td><b>'+x.pts+'</b> pts</td></tr>';}).join('')+'</tbody></table></div></div></div><div class="stack">';
+  if(nx)h+='<div class="panel"><h3>Prochain match</h3><p style="font-family:var(--display);font-size:22px;margin:8px 0 2px">'+esc(nx.dom)+' – '+esc(nx.ext)+'</p><p class="sub" style="margin:0">'+esc(frDate(nx.date))+(nx.heure?' · '+esc(nx.heure):'')+(nx.tv?' · '+esc(nx.tv):'')+'</p></div>';
+  if(m)h+='<div class="panel"><h3>Dernier match · '+esc(d.derniere_journee.label)+'</h3><p style="font-family:var(--display);font-size:22px;margin:8px 0 0">'+esc(m.dom)+' '+esc(m.score)+' '+esc(m.ext)+'</p></div>';
+  h+='<div class="panel"><h3>Ses joueurs dans les tops</h3>'+(bt.length||ps.length?'<div style="display:grid;gap:6px;margin-top:8px;font-size:14px">'+bt.map(function(b){return '<div><b>'+esc(b.joueur)+'</b> · '+b.buts+' buts</div>';}).join('')+ps.map(function(b){return '<div><b>'+esc(b.joueur)+'</b> · '+b.passes+' passes décisives</div>';}).join('')+'</div>':'<p class="sub" style="margin:6px 0 0">Aucun joueur du club dans les tops buteurs et passeurs.</p>')+'</div>';
+  var trs=(state.sp.tr&&state.sp.tr.items||[]).filter(function(t){return t.de===r.club||t.vers===r.club;});
+  if(trs.length)h+='<div class="panel"><h3>Mercato</h3><div style="display:grid;gap:10px;margin-top:8px">'+trs.map(trCard).join('')+'</div></div>';
+  return h+'</div></div>'+sources(d.sources);
+}
+
+/* ---------- NBA ---------- */
+function confTable(rows){return '<div class="tw"><table><thead><tr><th>#</th><th class="l">Équipe</th><th>V</th><th>D</th><th class="hide-m">%</th><th>Écart</th><th class="hide-m">Série</th></tr></thead><tbody>'+rows.map(function(r){return '<tr><td class="pos">'+r.pos+'</td><td class="l"><span class="zone" style="background:'+(r.pos<=6?'var(--c-fr)':r.pos<=10?'var(--warm)':'transparent')+'"></span><a href="#nba-'+slug(r.equipe)+'">'+esc(r.equipe)+'</a></td><td>'+r.v+'</td><td>'+r.d+'</td><td class="hide-m">'+esc(r.pct)+'</td><td>'+esc(r.ecart)+'</td><td class="hide-m">'+esc(r.serie||'')+'</td></tr>';}).join('')+'</tbody></table></div>';}
+function pageNBA(){
+  var n=state.sp.nba;if(!n)return notFound();
+  var h=sportHead('nba','NBA','Saison 2026-27 · '+n.maj+'. Cliquez sur une équipe pour sa fiche.');
+  h+='<div class="panel"><h3>Résultats de la nuit</h3><div class="scores" style="margin-top:10px">'+n.derniers.map(function(m){return scoreBox(m.ext,m.score_ext,m.dom,m.score_dom,'à '+m.dom);}).join('')+'</div></div>';
+  h+='<div class="two" style="margin-top:18px"><div class="panel"><h3>Conférence Est</h3>'+confTable(n.est)+'</div><div class="panel"><h3>Conférence Ouest</h3>'+confTable(n.ouest)+'</div></div><div class="legend" style="margin-top:8px"><span><span class="zone" style="background:var(--c-fr)"></span>Playoffs directs (1-6)</span><span><span class="zone" style="background:var(--warm)"></span>Play-in (7-10)</span></div>';
+  var L=n.leaders;h+=secH('sport','Leaders statistiques',null,'nba',sc('nba'))+'<div class="leagues" style="grid-template-columns:repeat(auto-fill,minmax(320px,1fr))"><div class="panel"><h3>Points par match</h3>'+hbars(L.points.map(function(p){return [p.joueur,p.valeur,'var(--c-sport)'];}),{labelW:170,fmt:function(v){return String(v).replace('.',',');}})+'</div><div class="panel"><h3>Rebonds</h3>'+hbars(L.rebonds.map(function(p){return [p.joueur,p.valeur,'var(--c-fr)'];}),{labelW:170,fmt:function(v){return String(v).replace('.',',');}})+'</div><div class="panel"><h3>Passes</h3>'+hbars(L.passes.map(function(p){return [p.joueur,p.valeur,'var(--c-eco)'];}),{labelW:170,fmt:function(v){return String(v).replace('.',',');}})+'</div></div>';
+  if(n.francais&&n.francais.length)h+=secH('sport','Les Français en NBA',null,'france','var(--c-fr)')+'<div class="cards">'+n.francais.map(function(p){return '<div class="card" style="cursor:default"><span class="tag" style="color:var(--c-fr)">'+esc(p.equipe)+'</span><b>'+esc(p.joueur)+'</b><p style="color:var(--ink);font-weight:600">'+esc(p.stats)+'</p><p>'+esc(p.texte)+'</p></div>';}).join('')+'</div>';
+  h+=secH('sport','Prochains matchs',null,'calendrier',sc('football'))+'<div class="panel">'+calendar(n.a_venir.map(function(m){return {date:m.date,heure:m.heure_paris,m:m.ext+' @ '+m.dom,c:'NBA'};}))+'</div>';
+  h+=secH('sport','Les infos',null,'nba',sc('nba'))+infos(n.infos);
+  return h+sources(n.sources);
+}
+function pageNBATeam(sl){
+  var n=state.sp.nba;if(!n)return notFound();var conf='Est',r=n.est.filter(function(x){return slug(x.equipe)===sl;})[0];if(!r){conf='Ouest';r=n.ouest.filter(function(x){return slug(x.equipe)===sl;})[0];}if(!r)return notFound();
+  var h='<a class="crumb" href="#nba">← NBA</a>'+sportHead('nba',r.ville+' '+r.equipe,'Fiche équipe · conférence '+conf);
+  h+='<div class="stats"><div class="stat"><b>'+r.pos+(r.pos===1?'er':'e')+'</b><span>conférence '+conf+'</span></div><div class="stat"><b>'+r.v+'-'+r.d+'</b><span>bilan ('+esc(r.pct)+')</span></div><div class="stat"><b>'+esc(r.ecart)+'</b><span>matchs du 1er</span></div><div class="stat"><b>'+esc(r.serie||'—')+'</b><span>série en cours</span></div></div>';
+  var last=n.derniers.filter(function(m){return m.dom===r.equipe||m.ext===r.equipe;})[0],nx=n.a_venir.filter(function(m){return m.dom===r.equipe||m.ext===r.equipe;})[0];
+  var pl=[].concat(n.leaders.points.map(function(p){return p.equipe===r.equipe?p.joueur+' · '+String(p.valeur).replace('.',',')+' pts':null;}),n.leaders.rebonds.map(function(p){return p.equipe===r.equipe?p.joueur+' · '+String(p.valeur).replace('.',',')+' rbd':null;}),n.leaders.passes.map(function(p){return p.equipe===r.equipe?p.joueur+' · '+String(p.valeur).replace('.',',')+' pd':null;})).filter(Boolean);
+  var fr=(n.francais||[]).filter(function(p){return p.equipe===r.equipe;});
+  h+='<div class="grid3" style="margin-top:12px">';
+  h+='<div class="panel"><h3>Dernier match</h3>'+(last?'<div style="margin-top:10px">'+scoreBox(last.ext,last.score_ext,last.dom,last.score_dom,'à '+last.dom)+'</div>':'<p class="sub" style="margin:6px 0 0">Pas de match cette nuit.</p>')+'</div>';
+  h+='<div class="panel"><h3>Prochain match</h3>'+(nx?'<p style="font-family:var(--display);font-size:20px;margin:8px 0 2px">'+esc(nx.ext)+' @ '+esc(nx.dom)+'</p><p class="sub" style="margin:0">'+esc(frDate(nx.date))+' · '+esc(nx.heure_paris)+' (Paris)</p>':'<p class="sub" style="margin:6px 0 0">Pas de match dans les deux prochaines nuits.</p>')+'</div>';
+  h+='<div class="panel"><h3>Joueurs en vue</h3>'+(pl.length||fr.length?'<div style="display:grid;gap:6px;margin-top:8px;font-size:14px">'+pl.map(function(x){return '<div>'+esc(x)+'</div>';}).join('')+fr.map(function(p){return '<div><b>'+esc(p.joueur)+'</b> (FRA) · '+esc(p.stats)+'</div>';}).join('')+'</div>':'<p class="sub" style="margin:6px 0 0">Aucun joueur dans les tops de la ligue.</p>')+'</div></div>';
+  var rows=conf==='Est'?n.est:n.ouest;h+='<div class="panel" style="margin-top:16px"><h3>Autour d\'eux au classement</h3><div class="tw"><table><tbody>'+rows.filter(function(x){return Math.abs(x.pos-r.pos)<=3;}).map(function(x){return '<tr class="'+(x===r?'me':'')+'"><td class="pos">'+x.pos+'</td><td class="l"><a href="#nba-'+slug(x.equipe)+'">'+esc(x.equipe)+'</a></td><td>'+x.v+'-'+x.d+'</td><td>'+esc(x.ecart)+'</td></tr>';}).join('')+'</tbody></table></div></div>';
+  return h;
+}
+
+/* ---------- NFL ---------- */
+function pageNFL(){
+  var f=state.sp.nfl;if(!f)return notFound();
+  var h=sportHead('nfl','NFL','Saison 2026 · '+f.maj+'. Cliquez sur une équipe pour sa fiche.');
+  h+='<div class="panel"><h3>'+esc(f.a_venir.semaine)+' · le programme</h3><p class="sub">Heures de Paris'+(f.a_venir.exempts?' · Au repos : '+esc(f.a_venir.exempts.join(', ')):'')+'</p>'+calendar(f.a_venir.matchs.map(function(m){return {date:m.date,heure:m.heure_paris,m:m.ext+' @ '+m.dom,c:m.tv_us||'NFL'};}))+'</div>';
+  h+=secH('sport','Classement par division',null,'nfl',sc('nfl'))+'<div class="leagues" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))">'+f.divisions.map(function(d){var t=d.equipes.slice().sort(function(a,b){return (b.v+b.n/2)/(b.v+b.d+b.n||1)-(a.v+a.n/2)/(a.v+a.d+a.n||1);});return '<div class="panel"><h3>'+esc(d.nom)+'</h3><table><tbody>'+t.map(function(e,i){return '<tr><td class="l"><span class="zone" style="background:'+(i===0?'var(--c-fr)':'transparent')+'"></span><a href="#nfl-'+slug(e.equipe)+'">'+esc(e.equipe)+'</a></td><td>'+e.v+'-'+e.d+(e.n?'-'+e.n:'')+'</td></tr>';}).join('')+'</tbody></table></div>';}).join('')+'</div>';
+  var L=f.leaders,fmt=function(v){return Number(v).toLocaleString('fr-FR');};
+  h+=secH('sport','Leaders statistiques',null,'nfl',sc('nfl'))+'<div class="two"><div class="panel"><h3>Yards à la passe</h3>'+hbars(L.passes_yards.map(function(p){return [p.joueur+' ('+p.equipe+')',p.valeur,'var(--c-sport)'];}),{labelW:190,fmt:fmt})+'</div><div class="panel"><h3>Yards à la course</h3>'+hbars(L.course_yards.map(function(p){return [p.joueur+' ('+p.equipe+')',p.valeur,'var(--c-fr)'];}),{labelW:190,fmt:fmt})+'</div><div class="panel"><h3>Yards à la réception</h3>'+hbars(L.reception_yards.map(function(p){return [p.joueur+' ('+p.equipe+')',p.valeur,'var(--c-eco)'];}),{labelW:190,fmt:fmt})+'</div><div class="panel"><h3>Sacks</h3>'+hbars(L.sacks.map(function(p){return [p.joueur+' ('+p.equipe+')',p.valeur,'var(--c-af)'];}),{labelW:190,fmt:function(v){return String(v).replace('.',',');}})+'</div></div>';
+  h+=secH('sport','Derniers résultats',null,'nfl',sc('nfl'))+'<div class="scores">'+f.derniers.map(function(m){return scoreBox(m.ext,m.score_ext,m.dom,m.score_dom,'à '+m.dom);}).join('')+'</div>';
+  h+=secH('sport','Les infos',null,'nfl',sc('nfl'))+infos(f.infos);
+  return h+sources(f.sources);
+}
+function pageNFLTeam(sl){
+  var f=state.sp.nfl;if(!f)return notFound();var div,t;f.divisions.forEach(function(d){d.equipes.forEach(function(e){if(slug(e.equipe)===sl){div=d;t=e;}});});if(!t)return notFound();
+  var h='<a class="crumb" href="#nfl">← NFL</a>'+sportHead('nfl',t.equipe,'Fiche équipe · '+div.nom);
+  var last=f.derniers.filter(function(m){return m.dom===t.equipe||m.ext===t.equipe;})[0],nx=f.a_venir.matchs.filter(function(m){return m.dom===t.equipe||m.ext===t.equipe;})[0];
+  var L=f.leaders,pl=[];[['passes_yards','yards à la passe'],['course_yards','yards à la course'],['reception_yards','yards à la réception'],['sacks','sacks']].forEach(function(k){L[k[0]].forEach(function(p){if(p.equipe===t.equipe)pl.push(p.joueur+' · '+String(p.valeur).replace('.',',')+' '+k[1]);});});
+  h+='<div class="stats"><div class="stat"><b>'+t.v+'-'+t.d+(t.n?'-'+t.n:'')+'</b><span>bilan</span></div><div class="stat"><b>'+esc(div.nom)+'</b><span>division</span></div></div>';
+  h+='<div class="grid3"><div class="panel"><h3>Dernier match</h3>'+(last?'<div style="margin-top:10px">'+scoreBox(last.ext,last.score_ext,last.dom,last.score_dom,'à '+last.dom)+'</div>':'<p class="sub" style="margin:6px 0 0">Au repos la semaine dernière.</p>')+'</div><div class="panel"><h3>Prochain match</h3>'+(nx?'<p style="font-family:var(--display);font-size:20px;margin:8px 0 2px">'+esc(nx.ext)+' @ '+esc(nx.dom)+'</p><p class="sub" style="margin:0">'+esc(frDate(nx.date))+' · '+esc(nx.heure_paris)+' (Paris)</p>':'<p class="sub" style="margin:6px 0 0">Au repos cette semaine.</p>')+'</div><div class="panel"><h3>Joueurs en vue</h3>'+(pl.length?'<div style="display:grid;gap:6px;margin-top:8px;font-size:14px">'+pl.map(function(x){return '<div>'+esc(x)+'</div>';}).join('')+'</div>':'<p class="sub" style="margin:6px 0 0">Aucun joueur dans les tops de la ligue.</p>')+'</div></div>';
+  h+='<div class="panel" style="margin-top:16px"><h3>'+esc(div.nom)+'</h3><table><tbody>'+div.equipes.map(function(e){return '<tr class="'+(e===t?'me':'')+'"><td class="l"><a href="#nfl-'+slug(e.equipe)+'">'+esc(e.equipe)+'</a></td><td>'+e.v+'-'+e.d+(e.n?'-'+e.n:'')+'</td></tr>';}).join('')+'</tbody></table></div>';
+  return h;
+}
+
+/* ---------- Tennis ---------- */
+function pageTennis(){
+  var t=state.sp.tennis;if(!t)return notFound();
+  var h=sportHead('tennis','Tennis','Mis à jour le '+t.maj+'.'),ev=t.evenement;
+  if(ev)h+='<div class="panel"><span class="tag" style="color:var(--c-sport)">À l\'affiche</span><h2 style="font-family:var(--display);font-size:24px;margin:4px 0 4px">'+esc(ev.nom)+' · '+esc(ev.lieu)+'</h2><p class="sub">'+esc(ev.dates)+'</p><p style="margin:0 0 10px">'+esc(ev.texte)+'</p>'+(ev.groupes&&ev.groupes.length?'<div class="two">'+ev.groupes.map(function(g){return '<div><b>'+esc(g.nom)+'</b><div style="font-size:14px;color:var(--soft)">'+g.joueurs.map(esc).join(' · ')+'</div></div>';}).join('')+'</div>':(ev.qualifies?'<p style="font-size:14px;margin:0"><b>Qualifiés :</b> '+ev.qualifies.map(esc).join(', ')+(ev.groupes_note?'<br><span style="color:var(--soft)">'+esc(ev.groupes_note)+'</span>':'')+'</p>':''))+'</div>';
+  var fr=function(p){return p.pays==='FRA'?'var(--c-fr)':'var(--c-sport)';};
+  h+='<div class="two" style="margin-top:18px"><div class="panel"><h3>Classement ATP · top 20</h3><p class="sub">'+esc(t.atp.date)+'. Français en bleu.</p>'+hbars(t.atp.top.map(function(p){return [p.rang+'. '+p.joueur,p.points,fr(p)];}),{labelW:185,fmt:function(v){return v.toLocaleString('fr-FR');}})+'</div><div class="panel"><h3>Classement WTA · top 20</h3><p class="sub">'+esc(t.wta.date)+'</p>'+hbars(t.wta.top.map(function(p){return [p.rang+'. '+p.joueur,p.points,fr(p)];}),{labelW:185,fmt:function(v){return v.toLocaleString('fr-FR');}})+'</div></div>';
+  h+=secH('sport','Les Français dans le top 100',null,'france','var(--c-fr)')+'<div class="two"><div class="panel"><h3>ATP</h3><table><tbody>'+t.francais.atp.map(function(p){return '<tr><td class="pos">'+p.rang+'</td><td class="l">'+esc(p.joueur)+'</td><td>'+p.points.toLocaleString('fr-FR')+' pts</td></tr>';}).join('')+'</tbody></table></div><div class="panel"><h3>WTA</h3><table><tbody>'+t.francais.wta.map(function(p){return '<tr><td class="pos">'+p.rang+'</td><td class="l">'+esc(p.joueur)+'</td><td>'+p.points.toLocaleString('fr-FR')+' pts</td></tr>';}).join('')+'</tbody></table></div></div>';
+  h+=secH('sport','Calendrier',null,'calendrier',sc('football'))+'<div class="stack">'+t.calendrier.map(function(c){return '<div class="cal-row" style="grid-template-columns:150px minmax(0,1fr) auto"><span class="t">'+esc(c.dates)+'</span><span class="m">'+esc(c.nom)+' <span style="font-weight:400;color:var(--soft);font-size:12.5px">· '+esc(c.lieu)+'</span></span><span class="c">'+esc(c.type)+'</span></div>';}).join('')+'</div>';
+  h+=secH('sport','Les infos',null,'tennis',sc('tennis'))+infos(t.infos);
+  return h+sources(t.sources);
+}
+/* ---------- F1 ---------- */
+function pageF1(){
+  var f=state.sp.f1;if(!f)return notFound();
+  var h=sportHead('f1','Formule 1','Saison 2026 · classements '+f.maj+'.');
+  h+='<div class="panel"><span class="tag" style="color:var(--c-sport)">Le titre</span><p style="font-family:var(--read);font-size:17.5px;margin:6px 0 0">'+esc(f.titre)+'</p>'+(f.francais?'<p class="sub" style="margin:8px 0 0;font-size:14px">'+esc(f.francais)+'</p>':'')+'</div>';
+  var ev=f.evolution;if(ev&&ev.pilotes&&Object.keys(ev.pilotes).length){var cols={};Object.keys(ev.pilotes).forEach(function(n,i){cols[n]=PALETTE[i];});
+    h+='<div class="panel" style="margin-top:16px"><h3>Course au titre pilotes</h3><p class="sub">Points cumulés après chaque Grand Prix (sprints inclus)</p><div class="chips" id="f1-chips"></div><div id="f1-chart"></div></div>';}
+  h+='<div class="two" style="margin-top:16px"><div class="panel"><h3>Pilotes</h3>'+hbars(f.pilotes.slice(0,12).map(function(p){return [p.pos+'. '+p.pilote,p.points,/Gasly|Ocon|Hadjar/.test(p.pilote)?'var(--c-fr)':'var(--c-sport)'];}),{labelW:160,fmt:function(v){return v+' pts';}})+'</div><div class="panel"><h3>Constructeurs</h3>'+hbars(f.constructeurs.map(function(p){return [p.pos+'. '+p.ecurie,p.points,'var(--c-tech)'];}),{labelW:160,fmt:function(v){return v+' pts';}})+'</div></div>';
+  var g=f.dernier_gp;h+='<div class="two" style="margin-top:16px"><div class="panel"><h3>Dernier Grand Prix</h3><p style="font-family:var(--display);font-size:20px;margin:6px 0">'+esc(g.nom)+'</p><p class="sub">'+esc(g.date)+'</p><ol style="margin:0 0 8px;padding-left:20px;font-weight:600">'+g.podium.map(function(p){return '<li>'+esc(p)+'</li>';}).join('')+'</ol><p style="margin:0;font-size:14px;color:var(--soft)">'+esc(g.texte)+'</p></div><div class="panel"><h3>Calendrier</h3><div style="display:grid;gap:6px;margin-top:8px">'+f.calendrier.map(function(c){return '<div style="display:flex;justify-content:space-between;gap:10px;font-size:14px;'+(c.fait?'color:var(--faint)':'font-weight:600')+'"><span>'+esc(c.gp)+'</span><span style="white-space:nowrap">'+esc(c.date)+'</span></div>';}).join('')+'</div></div></div>';
+  return h+sources(f.sources);
+}
+/* ---------- Rugby ---------- */
+function pageRugby(){
+  var r=state.sp.rugby;if(!r)return notFound();var T=r.top14,X=r.tests;
+  var h=sportHead('rugby','Rugby','Top 14 et XV de France.');
+  h+='<div class="panel"><span class="tag" style="color:var(--c-sport)">XV de France · '+esc(X.nom)+'</span><p style="font-family:var(--read);font-size:17px;margin:6px 0 10px">'+esc(X.texte)+'</p><div class="two"><div><h3>À venir</h3>'+X.a_venir.map(function(m){return '<div class="cal-row" style="grid-template-columns:minmax(0,1fr) auto"><span class="m">'+esc(m.dom)+' – '+esc(m.ext)+(m.lieu?' <span style="font-weight:400;color:var(--soft);font-size:12.5px">· '+esc(m.lieu)+'</span>':'')+'</span><span class="c">'+esc(m.date)+(m.heure_paris?' · '+esc(m.heure_paris):'')+'</span></div>';}).join('')+'</div><div><h3>Derniers résultats</h3><div class="scores" style="margin-top:6px">'+X.resultats.map(function(m){var p=String(m.score).split('-').map(Number);return scoreBox(m.dom,p[0],m.ext,p[1],m.date);}).join('')+'</div></div></div></div>';
+  h+='<div class="grid2" style="margin-top:16px"><div class="panel"><h3>Top 14 · classement</h3><p class="sub">'+esc(T.maj)+'</p><div class="tw"><table><thead><tr><th>#</th><th class="l">Club</th><th>J</th><th>Diff</th><th>Pts</th></tr></thead><tbody>'+T.classement.map(function(c){return '<tr><td class="pos">'+c.pos+'</td><td class="l"><span class="zone" style="background:'+(c.pos<=2?'var(--c-fr)':c.pos<=6?'var(--c-geo)':c.pos===13?'var(--warm)':c.pos===14?'var(--neg)':'transparent')+'"></span>'+esc(c.club)+'</td><td>'+c.j+'</td><td>'+(c.diff>0?'+':'')+c.diff+'</td><td><b>'+c.pts+'</b></td></tr>';}).join('')+'</tbody></table></div><div class="legend" style="margin-top:8px"><span><span class="zone" style="background:var(--c-fr)"></span>Demi-finales directes</span><span><span class="zone" style="background:var(--c-geo)"></span>Barrages</span><span><span class="zone" style="background:var(--warm)"></span>Access match</span><span><span class="zone" style="background:var(--neg)"></span>Relégation</span></div></div><div class="stack"><div class="panel"><h3>'+esc(T.prochaine.journee)+'</h3><div style="display:grid;gap:6px;margin-top:8px">'+T.prochaine.matchs.map(function(m){return '<div style="font-size:14px"><b>'+esc(m.dom)+' – '+esc(m.ext)+'</b><br><span style="color:var(--soft);font-size:12.5px">'+esc(m.date)+'</span></div>';}).join('')+'</div></div></div></div>';
+  h+=secH('sport','Les infos',null,'rugby',sc('rugby'))+infos(r.infos);
+  return h+sources(r.sources);
+}
+
+/* ---------- routeur ---------- */
+function nav(active){document.getElementById('nav').innerHTML=RUB.filter(function(r){return !r.hidden;}).map(function(r){return '<a href="#'+r.id+'" style="--rc:'+r.c+'"'+(r.id===active?' aria-current="page"':'')+'><span class="ic">'+ico(r.i)+'</span>'+esc(r.nom)+'</a>';}).join('');
+  var cur=document.querySelector('nav.rub a[aria-current]');if(cur&&cur.scrollIntoView)cur.scrollIntoView({block:'nearest',inline:'nearest'});}
+function loadEdition(date){if(state.editions[date])return Promise.resolve(state.editions[date]);return getJSON(''+date+'.json').then(function(e){state.editions[date]=e;return e;});}
+function route(){if(audio.on&&window.speechSynthesis){speechSynthesis.cancel();audio.on=false;}
+  var h=(location.hash||'#accueil').slice(1)||'accueil',app=document.getElementById('app'),active=h,html='',after=null,sp=null,p;
+  var go=function(){
+    document.getElementById('ed-label').textContent='Édition du '+state.current.date_longue;
+    if(h==='accueil'||h.indexOf('edition-')===0){active='accueil';html=pageAccueil();}
+    else if(['france','afrique','tech','eco'].indexOf(h)>=0)html=pageRubrique(h);
+    else if(h==='outremer'){active='france';html=pageRubrique('outremer');}
+    else if(h==='geopolitique')html=pageGeo();
+    else if(h.indexOf('g-')===0){active='geopolitique';html=pageSujet(h.slice(2));}
+    else if(h.indexOf('a-')===0){var a=state.current.articles.filter(function(x){return x.id===h.slice(2);})[0];active=a?(a.rubrique==='outremer'?'france':a.rubrique):'accueil';html=pageArticle(h.slice(2));}
+    else if(h==='archives')html=pageArchives();
+    else if(h==='dossier'){active='geopolitique';html=pageDossier();}
+    else if(h==='agenda'){active='eco';html=pageAgenda();}
+    else{active='sport';
+      if(h==='sport'){sp='sport';html=pageSport();}
+      else if(h==='football'){sp='football';html=pageFootball();}
+      else if(h==='foot-calendrier'){sp='football';html=pageFootCal();after=mountFootCal;}
+      else if(h==='foot-transferts'){sp='football';html=pageTransferts();after=mountTransferts;}
+      else if(h.indexOf('foot-')===0){sp='football';var lid=h.slice(5);html=pageLeague(lid);after=function(){var d=state.foot[lid];if(d&&d.evolution)mountToggle('ev-chart','ev-chips',d.evolution,clubColors(d));};}
+      else if(h.indexOf('club-')===0){sp='football';var rest=h.slice(5),lg=LEAGUES.filter(function(l){return rest.indexOf(l.id+'-')===0;}).sort(function(a,b){return b.id.length-a.id.length;})[0];html=lg?pageClub(lg.id,rest.slice(lg.id.length+1)):notFound();}
+      else if(h==='nba'){sp='nba';html=pageNBA();}
+      else if(h.indexOf('nba-')===0){sp='nba';html=pageNBATeam(h.slice(4));}
+      else if(h==='nfl'){sp='nfl';html=pageNFL();}
+      else if(h.indexOf('nfl-')===0){sp='nfl';html=pageNFLTeam(h.slice(4));}
+      else if(h==='tennis'){sp='tennis';html=pageTennis();}
+      else if(h==='f1'){sp='f1';html=pageF1();after=function(){var f=state.sp.f1,ev=f&&f.evolution;if(!ev||!ev.pilotes)return;var cols={};Object.keys(ev.pilotes).forEach(function(n,i){cols[n]=PALETTE[i];});mountToggle('f1-chart','f1-chips',{type:'points',journees:ev.gps,clubs:ev.pilotes},cols,{prefix:'',short:function(n){return n.split(' ').slice(-1)[0];}});};}
+      else if(h==='rugby'){sp='rugby';html=pageRugby();}
+      else{active='accueil';html=notFound();}
+      if(sp)html=sportNav(sp)+html;
+    }
+    nav(active);app.innerHTML=html;if(after)after();mountFocus();applyGlossary(app);mountMarkets();mountAudio();window.scrollTo(0,0);
+  };
+  if(h.indexOf('edition-')===0){p=loadEdition(h.slice(8)).then(function(e){state.current=e;});}else p=Promise.resolve();
+  p.then(go).catch(function(err){if(window.console)console.error(err);app.innerHTML='<p class="loading">Cette page n\'a pas pu être chargée. <a href="#accueil">Revenir à la une</a></p>';});
+}
+function opt(path,key,obj){return getJSON(path).then(function(d){obj[key]=d;}).catch(function(){});}
+getJSON('index.json').then(function(ix){
+  state.index=ix;var latest=ix.editions[0].date;
+  var jobs=[loadEdition(latest)];
+  LEAGUES.forEach(function(l){jobs.push(opt(''+l.id+'.json',l.id,state.foot));});
+  jobs.push(opt('calendrier.json','cal',state.sp),opt('transferts.json','tr',state.sp));
+  ['nba','nfl','tennis','f1','rugby'].forEach(function(k){jobs.push(opt(''+k+'.json',k,state.sp));});
+  [['dossier','dossier'],['glossaire','glo'],['marches','marches'],['agenda_eco','agenda'],['afrique_marches','afm']].forEach(function(k){jobs.push(opt(''+k[0]+'.json',k[1],state.sp));});
+  return Promise.all(jobs);
+}).then(function(r){state.current=r[0];route();window.addEventListener('hashchange',route);})
+.catch(function(){document.getElementById('app').innerHTML='<p class="loading">L\'édition du jour n\'a pas pu être chargée. Réessayez dans un instant.</p>';});
+})();
+</script>
+
+</body></html>
