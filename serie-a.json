@@ -1,0 +1,491 @@
+{
+ "id": "serie-a",
+ "nom": "Serie A",
+ "pays": "Italie",
+ "saison": "2026-27",
+ "maj": "après la 11e journée (8 novembre 2026)",
+ "classement": [
+  {
+   "pos": 1,
+   "club": "Lazio",
+   "j": 11,
+   "g": 9,
+   "n": 2,
+   "p": 0,
+   "bp": 25,
+   "bc": 9,
+   "pts": 29,
+   "forme": "VVVVN"
+  },
+  {
+   "pos": 2,
+   "club": "Inter",
+   "j": 11,
+   "g": 9,
+   "n": 1,
+   "p": 1,
+   "bp": 28,
+   "bc": 13,
+   "pts": 28,
+   "forme": "VVVDV"
+  },
+  {
+   "pos": 3,
+   "club": "Roma",
+   "j": 11,
+   "g": 8,
+   "n": 3,
+   "p": 0,
+   "bp": 31,
+   "bc": 10,
+   "pts": 27,
+   "forme": "VNVVV"
+  },
+  {
+   "pos": 4,
+   "club": "Milan",
+   "j": 11,
+   "g": 7,
+   "n": 3,
+   "p": 1,
+   "bp": 23,
+   "bc": 13,
+   "pts": 24,
+   "forme": "VVDVV"
+  },
+  {
+   "pos": 5,
+   "club": "Côme",
+   "j": 11,
+   "g": 7,
+   "n": 2,
+   "p": 2,
+   "bp": 18,
+   "bc": 10,
+   "pts": 23,
+   "forme": "VVVVD"
+  },
+  {
+   "pos": 6,
+   "club": "Frosinone",
+   "j": 11,
+   "g": 6,
+   "n": 2,
+   "p": 3,
+   "bp": 24,
+   "bc": 15,
+   "pts": 20,
+   "forme": "VNVVD"
+  },
+  {
+   "pos": 7,
+   "club": "Juventus",
+   "j": 11,
+   "g": 5,
+   "n": 3,
+   "p": 3,
+   "bp": 15,
+   "bc": 12,
+   "pts": 18,
+   "forme": "DVDVN"
+  },
+  {
+   "pos": 8,
+   "club": "Bologne",
+   "j": 11,
+   "g": 5,
+   "n": 2,
+   "p": 4,
+   "bp": 16,
+   "bc": 14,
+   "pts": 17,
+   "forme": "DVVVV"
+  },
+  {
+   "pos": 9,
+   "club": "Cagliari",
+   "j": 11,
+   "g": 5,
+   "n": 1,
+   "p": 5,
+   "bp": 10,
+   "bc": 15,
+   "pts": 16,
+   "forme": "DDDDV"
+  },
+  {
+   "pos": 10,
+   "club": "Naples",
+   "j": 11,
+   "g": 4,
+   "n": 3,
+   "p": 4,
+   "bp": 18,
+   "bc": 14,
+   "pts": 15,
+   "forme": "DNVDN"
+  },
+  {
+   "pos": 11,
+   "club": "Torino",
+   "j": 11,
+   "g": 4,
+   "n": 2,
+   "p": 5,
+   "bp": 15,
+   "bc": 17,
+   "pts": 14,
+   "forme": "VVDDN"
+  },
+  {
+   "pos": 12,
+   "club": "Atalanta",
+   "j": 11,
+   "g": 4,
+   "n": 2,
+   "p": 5,
+   "bp": 17,
+   "bc": 20,
+   "pts": 14,
+   "forme": "DNNDV"
+  },
+  {
+   "pos": 13,
+   "club": "Genoa",
+   "j": 11,
+   "g": 4,
+   "n": 1,
+   "p": 6,
+   "bp": 11,
+   "bc": 16,
+   "pts": 13,
+   "forme": "DVVVD"
+  },
+  {
+   "pos": 14,
+   "club": "Lecce",
+   "j": 11,
+   "g": 3,
+   "n": 1,
+   "p": 7,
+   "bp": 12,
+   "bc": 22,
+   "pts": 10,
+   "forme": "VDDDN"
+  },
+  {
+   "pos": 15,
+   "club": "Fiorentina",
+   "j": 11,
+   "g": 2,
+   "n": 3,
+   "p": 6,
+   "bp": 17,
+   "bc": 25,
+   "pts": 9,
+   "forme": "DDNVN"
+  },
+  {
+   "pos": 16,
+   "club": "Parme",
+   "j": 11,
+   "g": 2,
+   "n": 2,
+   "p": 7,
+   "bp": 9,
+   "bc": 17,
+   "pts": 8,
+   "forme": "DDNVD"
+  },
+  {
+   "pos": 17,
+   "club": "Sassuolo",
+   "j": 11,
+   "g": 2,
+   "n": 2,
+   "p": 7,
+   "bp": 16,
+   "bc": 29,
+   "pts": 8,
+   "forme": "DDDDD"
+  },
+  {
+   "pos": 18,
+   "club": "Monza",
+   "j": 11,
+   "g": 2,
+   "n": 1,
+   "p": 8,
+   "bp": 17,
+   "bc": 25,
+   "pts": 7,
+   "forme": "VDDDD"
+  },
+  {
+   "pos": 19,
+   "club": "Venise",
+   "j": 11,
+   "g": 2,
+   "n": 0,
+   "p": 9,
+   "bp": 8,
+   "bc": 21,
+   "pts": 6,
+   "forme": "VDDDV"
+  },
+  {
+   "pos": 20,
+   "club": "Udinese",
+   "j": 11,
+   "g": 1,
+   "n": 2,
+   "p": 8,
+   "bp": 12,
+   "bc": 25,
+   "pts": 5,
+   "forme": "DDNDD"
+  }
+ ],
+ "buteurs": [
+  {
+   "joueur": "Gustavo Varela",
+   "club": "Monza",
+   "buts": 9
+  },
+  {
+   "joueur": "Donyell Malen",
+   "club": "Roma",
+   "buts": 8
+  },
+  {
+   "joueur": "Antonio Raimondo",
+   "club": "Frosinone",
+   "buts": 8
+  },
+  {
+   "joueur": "Nikola Krstović",
+   "club": "Atalanta",
+   "buts": 7
+  },
+  {
+   "joueur": "Marcus Thuram",
+   "club": "Inter",
+   "buts": 6
+  },
+  {
+   "joueur": "Alphadjo Cissé",
+   "club": "Milan",
+   "buts": 5
+  },
+  {
+   "joueur": "Adrien Rabiot",
+   "club": "Milan",
+   "buts": 5
+  },
+  {
+   "joueur": "Ché Adams",
+   "club": "Torino",
+   "buts": 5
+  },
+  {
+   "joueur": "Daniel Maldini",
+   "club": "Cagliari",
+   "buts": 5
+  },
+  {
+   "joueur": "Anastasios Douvikas",
+   "club": "Côme",
+   "buts": 5
+  },
+  {
+   "joueur": "Giacomo Calò",
+   "club": "Frosinone",
+   "buts": 5
+  }
+ ],
+ "passeurs": [
+  {
+   "joueur": "Juan Miranda",
+   "club": "Bologne",
+   "passes": 5
+  },
+  {
+   "joueur": "Mattia Zaccagni",
+   "club": "Lazio",
+   "passes": 5
+  },
+  {
+   "joueur": "Andy Diouf",
+   "club": "Inter",
+   "passes": 4
+  },
+  {
+   "joueur": "Tijjani Noslin",
+   "club": "Lazio",
+   "passes": 4
+  },
+  {
+   "joueur": "Adrien Rabiot",
+   "club": "Milan",
+   "passes": 4
+  },
+  {
+   "joueur": "Romano Schmid",
+   "club": "Frosinone",
+   "passes": 4
+  },
+  {
+   "joueur": "Paulo Dybala",
+   "club": "Roma",
+   "passes": 4
+  },
+  {
+   "joueur": "Giorgi Kvernadze",
+   "club": "Frosinone",
+   "passes": 4
+  },
+  {
+   "joueur": "Fares Ghedjemis",
+   "club": "Frosinone",
+   "passes": 4
+  }
+ ],
+ "derniere_journee": {
+  "label": "11e journée",
+  "matchs": [
+   {
+    "dom": "Venise",
+    "ext": "Udinese",
+    "score": "2-1"
+   },
+   {
+    "dom": "Cagliari",
+    "ext": "Frosinone",
+    "score": "1-0"
+   },
+   {
+    "dom": "Torino",
+    "ext": "Lecce",
+    "score": "1-1"
+   },
+   {
+    "dom": "Parme",
+    "ext": "Bologne",
+    "score": "1-2"
+   },
+   {
+    "dom": "Roma",
+    "ext": "Sassuolo",
+    "score": "3-0"
+   },
+   {
+    "dom": "Naples",
+    "ext": "Lazio",
+    "score": "1-1"
+   },
+   {
+    "dom": "Genoa",
+    "ext": "Milan",
+    "score": "1-2"
+   },
+   {
+    "dom": "Monza",
+    "ext": "Atalanta",
+    "score": "0-1"
+   },
+   {
+    "dom": "Inter",
+    "ext": "Côme",
+    "score": "2-0"
+   },
+   {
+    "dom": "Fiorentina",
+    "ext": "Juventus",
+    "score": "2-2"
+   }
+  ]
+ },
+ "evolution": {
+  "type": "points",
+  "journees": [
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "clubs": {
+   "Lazio": [
+    16,
+    19,
+    22,
+    25,
+    28,
+    29
+   ],
+   "Inter": [
+    16,
+    19,
+    22,
+    25,
+    25,
+    28
+   ],
+   "Roma": [
+    14,
+    17,
+    18,
+    21,
+    24,
+    27
+   ],
+   "Milan": [
+    12,
+    15,
+    18,
+    18,
+    21,
+    24
+   ],
+   "Côme": [
+    11,
+    14,
+    17,
+    20,
+    23,
+    23
+   ],
+   "Frosinone": [
+    10,
+    13,
+    14,
+    17,
+    20,
+    20
+   ]
+  }
+ },
+ "sources": [
+  {
+   "nom": "Sports Infos – Serie A 2026/2027, classement après J11",
+   "url": "https://www.ski-nordique.net/serie-a-20262027-classement-apres-j11-la-lazio-accrochee-a-naples-linter-revient-a-un-point.6751889-581149.html"
+  },
+  {
+   "nom": "Foot Mercato – Classement Serie A 2026/2027",
+   "url": "https://www.footmercato.net/italie/serie-a/classement"
+  },
+  {
+   "nom": "Sports Infos – Serie A 2026/2027, buteurs après J11",
+   "url": "https://www.ski-nordique.net/serie-a-20262027-classement-des-buteurs-apres-j11-gustavo-varela-reste-seul-en-tete-thuram-remonte-a-6-buts.6751890-72348.html"
+  },
+  {
+   "nom": "Foot Direct – Classement passeurs Serie A",
+   "url": "https://www.foot-direct.com/italie/serie-a/classement-passeurs"
+  },
+  {
+   "nom": "Futbol24 – Résultats Serie A 2026/27",
+   "url": "https://www.futbol24.com/national/Italy/Serie-A/2026-2027/results"
+  }
+ ]
+}

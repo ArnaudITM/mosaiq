@@ -1,0 +1,457 @@
+{
+ "id": "bundesliga",
+ "nom": "Bundesliga",
+ "pays": "Allemagne",
+ "saison": "2026-27",
+ "maj": "après la 9e journée (8 novembre 2026)",
+ "classement": [
+  {
+   "pos": 1,
+   "club": "Bayern",
+   "j": 9,
+   "g": 6,
+   "n": 3,
+   "p": 0,
+   "bp": 29,
+   "bc": 9,
+   "pts": 21,
+   "forme": "NVVNV"
+  },
+  {
+   "pos": 2,
+   "club": "Dortmund",
+   "j": 9,
+   "g": 6,
+   "n": 3,
+   "p": 0,
+   "bp": 16,
+   "bc": 7,
+   "pts": 21,
+   "forme": "NNVNV"
+  },
+  {
+   "pos": 3,
+   "club": "Fribourg",
+   "j": 9,
+   "g": 6,
+   "n": 1,
+   "p": 2,
+   "bp": 20,
+   "bc": 10,
+   "pts": 19,
+   "forme": "VDDVV"
+  },
+  {
+   "pos": 4,
+   "club": "Leipzig",
+   "j": 9,
+   "g": 6,
+   "n": 0,
+   "p": 3,
+   "bp": 27,
+   "bc": 13,
+   "pts": 18,
+   "forme": "VDVVV"
+  },
+  {
+   "pos": 5,
+   "club": "Leverkusen",
+   "j": 9,
+   "g": 5,
+   "n": 1,
+   "p": 3,
+   "bp": 20,
+   "bc": 17,
+   "pts": 16,
+   "forme": "VVDDV"
+  },
+  {
+   "pos": 6,
+   "club": "Brême",
+   "j": 9,
+   "g": 4,
+   "n": 3,
+   "p": 2,
+   "bp": 17,
+   "bc": 15,
+   "pts": 15,
+   "forme": "NNVVD"
+  },
+  {
+   "pos": 7,
+   "club": "Elversberg",
+   "j": 9,
+   "g": 4,
+   "n": 1,
+   "p": 4,
+   "bp": 17,
+   "bc": 18,
+   "pts": 13,
+   "forme": "DVDVD"
+  },
+  {
+   "pos": 8,
+   "club": "Stuttgart",
+   "j": 9,
+   "g": 4,
+   "n": 0,
+   "p": 5,
+   "bp": 15,
+   "bc": 15,
+   "pts": 12,
+   "forme": "VDDVV"
+  },
+  {
+   "pos": 9,
+   "club": "Hoffenheim",
+   "j": 9,
+   "g": 4,
+   "n": 0,
+   "p": 5,
+   "bp": 16,
+   "bc": 17,
+   "pts": 12,
+   "forme": "DVVDV"
+  },
+  {
+   "pos": 10,
+   "club": "Francfort",
+   "j": 9,
+   "g": 3,
+   "n": 3,
+   "p": 3,
+   "bp": 15,
+   "bc": 20,
+   "pts": 12,
+   "forme": "DVDVN"
+  },
+  {
+   "pos": 11,
+   "club": "Hambourg",
+   "j": 9,
+   "g": 4,
+   "n": 0,
+   "p": 5,
+   "bp": 10,
+   "bc": 20,
+   "pts": 12,
+   "forme": "VVDDV"
+  },
+  {
+   "pos": 12,
+   "club": "Mayence",
+   "j": 9,
+   "g": 3,
+   "n": 1,
+   "p": 5,
+   "bp": 18,
+   "bc": 19,
+   "pts": 10,
+   "forme": "DVDDD"
+  },
+  {
+   "pos": 13,
+   "club": "Paderborn",
+   "j": 9,
+   "g": 2,
+   "n": 4,
+   "p": 3,
+   "bp": 8,
+   "bc": 11,
+   "pts": 10,
+   "forme": "DNVNN"
+  },
+  {
+   "pos": 14,
+   "club": "Augsbourg",
+   "j": 9,
+   "g": 2,
+   "n": 3,
+   "p": 4,
+   "bp": 20,
+   "bc": 20,
+   "pts": 9,
+   "forme": "NDNDD"
+  },
+  {
+   "pos": 15,
+   "club": "Cologne",
+   "j": 9,
+   "g": 2,
+   "n": 3,
+   "p": 4,
+   "bp": 10,
+   "bc": 14,
+   "pts": 9,
+   "forme": "VDNND"
+  },
+  {
+   "pos": 16,
+   "club": "Union Berlin",
+   "j": 9,
+   "g": 1,
+   "n": 4,
+   "p": 4,
+   "bp": 7,
+   "bc": 21,
+   "pts": 7,
+   "forme": "VNNND"
+  },
+  {
+   "pos": 17,
+   "club": "Schalke",
+   "j": 9,
+   "g": 1,
+   "n": 3,
+   "p": 5,
+   "bp": 5,
+   "bc": 11,
+   "pts": 6,
+   "forme": "DDNDD"
+  },
+  {
+   "pos": 18,
+   "club": "Gladbach",
+   "j": 9,
+   "g": 1,
+   "n": 1,
+   "p": 7,
+   "bp": 12,
+   "bc": 25,
+   "pts": 4,
+   "forme": "DDVND"
+  }
+ ],
+ "buteurs": [
+  {
+   "joueur": "Niclas Füllkrug",
+   "club": "Brême",
+   "buts": 9
+  },
+  {
+   "joueur": "Patrik Schick",
+   "club": "Leverkusen",
+   "buts": 8
+  },
+  {
+   "joueur": "Michael Olise",
+   "club": "Bayern",
+   "buts": 6
+  },
+  {
+   "joueur": "Younes Ebnoutalib",
+   "club": "Francfort",
+   "buts": 6
+  },
+  {
+   "joueur": "Phillip Tietz",
+   "club": "Mayence",
+   "buts": 6
+  },
+  {
+   "joueur": "Christopher Nkunku",
+   "club": "Leipzig",
+   "buts": 5
+  },
+  {
+   "joueur": "Rômulo",
+   "club": "Leipzig",
+   "buts": 5
+  },
+  {
+   "joueur": "Michael Gregoritsch",
+   "club": "Augsbourg",
+   "buts": 5
+  },
+  {
+   "joueur": "Yuito Suzuki",
+   "club": "Fribourg",
+   "buts": 5
+  },
+  {
+   "joueur": "Jonathan Burkardt",
+   "club": "Francfort",
+   "buts": 5
+  },
+  {
+   "joueur": "Ermedin Demirović",
+   "club": "Stuttgart",
+   "buts": 5
+  }
+ ],
+ "passeurs": [
+  {
+   "joueur": "Harry Kane",
+   "club": "Bayern",
+   "passes": 8
+  },
+  {
+   "joueur": "Marco Grüll",
+   "club": "Brême",
+   "passes": 7
+  },
+  {
+   "joueur": "Antonio Nusa",
+   "club": "Leipzig",
+   "passes": 7
+  },
+  {
+   "joueur": "Fabian Rieder",
+   "club": "Augsbourg",
+   "passes": 5
+  },
+  {
+   "joueur": "Miguel Gutiérrez",
+   "club": "Leverkusen",
+   "passes": 4
+  },
+  {
+   "joueur": "Brajan Gruda",
+   "club": "Leipzig",
+   "passes": 4
+  },
+  {
+   "joueur": "Albert Grønbæk",
+   "club": "Hambourg",
+   "passes": 4
+  },
+  {
+   "joueur": "Sheraldo Becker",
+   "club": "Mayence",
+   "passes": 4
+  }
+ ],
+ "derniere_journee": {
+  "label": "9e journée",
+  "matchs": [
+   {
+    "dom": "Hambourg",
+    "ext": "Gladbach",
+    "score": "3-1"
+   },
+   {
+    "dom": "Mayence",
+    "ext": "Bayern",
+    "score": "1-2"
+   },
+   {
+    "dom": "Dortmund",
+    "ext": "Elversberg",
+    "score": "2-1"
+   },
+   {
+    "dom": "Leipzig",
+    "ext": "Augsbourg",
+    "score": "5-2"
+   },
+   {
+    "dom": "Paderborn",
+    "ext": "Francfort",
+    "score": "2-2"
+   },
+   {
+    "dom": "Stuttgart",
+    "ext": "Brême",
+    "score": "1-0"
+   },
+   {
+    "dom": "Cologne",
+    "ext": "Leverkusen",
+    "score": "1-2"
+   },
+   {
+    "dom": "Fribourg",
+    "ext": "Union Berlin",
+    "score": "2-0"
+   },
+   {
+    "dom": "Hoffenheim",
+    "ext": "Schalke",
+    "score": "2-1"
+   }
+  ]
+ },
+ "evolution": {
+  "type": "points",
+  "journees": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "clubs": {
+   "Bayern": [
+    10,
+    11,
+    14,
+    17,
+    18,
+    21
+   ],
+   "Dortmund": [
+    12,
+    13,
+    14,
+    17,
+    18,
+    21
+   ],
+   "Fribourg": [
+    10,
+    13,
+    13,
+    13,
+    16,
+    19
+   ],
+   "Leipzig": [
+    6,
+    9,
+    9,
+    12,
+    15,
+    18
+   ],
+   "Leverkusen": [
+    7,
+    10,
+    13,
+    13,
+    13,
+    16
+   ],
+   "Brême": [
+    7,
+    8,
+    9,
+    12,
+    15,
+    15
+   ]
+  }
+ },
+ "sources": [
+  {
+   "nom": "Sports Infos – Bundesliga 2026/2027, classement après J9",
+   "url": "https://www.ski-nordique.net/bundesliga-20262027-classement-apres-j9-bayern-et-dortmund-toujours-au-coude-a-coude-leipzig-en-demonstration.6752243-581149.html"
+  },
+  {
+   "nom": "Foot Mercato – Classement Bundesliga 2026/2027",
+   "url": "https://www.footmercato.net/allemagne/bundesliga/classement"
+  },
+  {
+   "nom": "Sports Infos – Bundesliga 2026/2027, buteurs après J9",
+   "url": "https://www.ski-nordique.net/bundesliga-20262027-classement-des-buteurs-apres-j9-fullkrug-reste-en-tete-schick-revient-a-un-but.6752244-605274.html"
+  },
+  {
+   "nom": "Foot Direct – Classement passeurs Bundesliga",
+   "url": "https://www.foot-direct.com/allemagne/bundesliga/classement-passeurs"
+  },
+  {
+   "nom": "Futbol24 – Résultats Bundesliga 2026/27",
+   "url": "https://www.futbol24.com/national/Germany/Bundesliga/2026-2027/results"
+  }
+ ]
+}

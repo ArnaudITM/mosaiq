@@ -1,0 +1,474 @@
+{
+ "id": "ligue-1",
+ "nom": "Ligue 1",
+ "pays": "France",
+ "saison": "2026-27",
+ "maj": "après la 10e journée (8 novembre 2026)",
+ "classement": [
+  {
+   "pos": 1,
+   "club": "PSG",
+   "j": 10,
+   "g": 7,
+   "n": 2,
+   "p": 1,
+   "bp": 22,
+   "bc": 10,
+   "pts": 23,
+   "forme": "VVVVV"
+  },
+  {
+   "pos": 2,
+   "club": "Lille",
+   "j": 10,
+   "g": 6,
+   "n": 3,
+   "p": 1,
+   "bp": 14,
+   "bc": 7,
+   "pts": 21,
+   "forme": "VNNVV"
+  },
+  {
+   "pos": 3,
+   "club": "Paris FC",
+   "j": 10,
+   "g": 6,
+   "n": 2,
+   "p": 2,
+   "bp": 17,
+   "bc": 10,
+   "pts": 20,
+   "forme": "DVDVV"
+  },
+  {
+   "pos": 4,
+   "club": "OM",
+   "j": 10,
+   "g": 6,
+   "n": 0,
+   "p": 4,
+   "bp": 22,
+   "bc": 14,
+   "pts": 18,
+   "forme": "VVVVV"
+  },
+  {
+   "pos": 5,
+   "club": "OL",
+   "j": 10,
+   "g": 5,
+   "n": 2,
+   "p": 3,
+   "bp": 15,
+   "bc": 9,
+   "pts": 17,
+   "forme": "DVDVD"
+  },
+  {
+   "pos": 6,
+   "club": "Nice",
+   "j": 10,
+   "g": 5,
+   "n": 2,
+   "p": 3,
+   "bp": 15,
+   "bc": 12,
+   "pts": 17,
+   "forme": "VDVVV"
+  },
+  {
+   "pos": 7,
+   "club": "Monaco",
+   "j": 10,
+   "g": 4,
+   "n": 4,
+   "p": 2,
+   "bp": 13,
+   "bc": 11,
+   "pts": 16,
+   "forme": "NDNDN"
+  },
+  {
+   "pos": 8,
+   "club": "Rennes",
+   "j": 10,
+   "g": 5,
+   "n": 1,
+   "p": 4,
+   "bp": 21,
+   "bc": 21,
+   "pts": 16,
+   "forme": "VDVDD"
+  },
+  {
+   "pos": 9,
+   "club": "Brest",
+   "j": 10,
+   "g": 4,
+   "n": 3,
+   "p": 3,
+   "bp": 18,
+   "bc": 12,
+   "pts": 15,
+   "forme": "VNDVV"
+  },
+  {
+   "pos": 10,
+   "club": "Lorient",
+   "j": 10,
+   "g": 4,
+   "n": 3,
+   "p": 3,
+   "bp": 9,
+   "bc": 8,
+   "pts": 15,
+   "forme": "VVNDV"
+  },
+  {
+   "pos": 11,
+   "club": "Lens",
+   "j": 10,
+   "g": 4,
+   "n": 1,
+   "p": 5,
+   "bp": 17,
+   "bc": 15,
+   "pts": 13,
+   "forme": "VVVDD"
+  },
+  {
+   "pos": 12,
+   "club": "Toulouse",
+   "j": 10,
+   "g": 3,
+   "n": 4,
+   "p": 3,
+   "bp": 15,
+   "bc": 14,
+   "pts": 13,
+   "forme": "NVNDV"
+  },
+  {
+   "pos": 13,
+   "club": "Strasbourg",
+   "j": 10,
+   "g": 3,
+   "n": 1,
+   "p": 6,
+   "bp": 18,
+   "bc": 22,
+   "pts": 10,
+   "forme": "DDDVD"
+  },
+  {
+   "pos": 14,
+   "club": "Auxerre",
+   "j": 10,
+   "g": 3,
+   "n": 1,
+   "p": 6,
+   "bp": 13,
+   "bc": 24,
+   "pts": 10,
+   "forme": "DVNDD"
+  },
+  {
+   "pos": 15,
+   "club": "Le Mans",
+   "j": 10,
+   "g": 1,
+   "n": 5,
+   "p": 4,
+   "bp": 12,
+   "bc": 19,
+   "pts": 8,
+   "forme": "DDNDN"
+  },
+  {
+   "pos": 16,
+   "club": "Angers",
+   "j": 10,
+   "g": 2,
+   "n": 2,
+   "p": 6,
+   "bp": 9,
+   "bc": 19,
+   "pts": 8,
+   "forme": "DDNDD"
+  },
+  {
+   "pos": 17,
+   "club": "Troyes",
+   "j": 10,
+   "g": 2,
+   "n": 2,
+   "p": 6,
+   "bp": 7,
+   "bc": 17,
+   "pts": 8,
+   "forme": "DDNVD"
+  },
+  {
+   "pos": 18,
+   "club": "Le Havre",
+   "j": 10,
+   "g": 0,
+   "n": 2,
+   "p": 8,
+   "bp": 9,
+   "bc": 22,
+   "pts": 2,
+   "forme": "DDDDD"
+  }
+ ],
+ "buteurs": [
+  {
+   "joueur": "Lassine Sinayoko",
+   "club": "Paris FC",
+   "buts": 9
+  },
+  {
+   "joueur": "Esteban Lepaul",
+   "club": "Rennes",
+   "buts": 7
+  },
+  {
+   "joueur": "Amine Gouiri",
+   "club": "OM",
+   "buts": 7
+  },
+  {
+   "joueur": "Elye Wahi",
+   "club": "Nice",
+   "buts": 6
+  },
+  {
+   "joueur": "Cameron Archer",
+   "club": "Auxerre",
+   "buts": 6
+  },
+  {
+   "joueur": "B. Dia",
+   "club": "Rennes",
+   "buts": 5
+  },
+  {
+   "joueur": "Casper Tengstedt",
+   "club": "Toulouse",
+   "buts": 5
+  },
+  {
+   "joueur": "Florian Thauvin",
+   "club": "Lens",
+   "buts": 5
+  }
+ ],
+ "passeurs": [
+  {
+   "joueur": "Florian Thauvin",
+   "club": "Lens",
+   "passes": 7
+  },
+  {
+   "joueur": "Cristian Cásseres",
+   "club": "Toulouse",
+   "passes": 6
+  },
+  {
+   "joueur": "Lassine Sinayoko",
+   "club": "Paris FC",
+   "passes": 5
+  },
+  {
+   "joueur": "P. Katseris",
+   "club": "Lorient",
+   "passes": 3
+  },
+  {
+   "joueur": "Pavel Šulc",
+   "club": "OL",
+   "passes": 3
+  },
+  {
+   "joueur": "Sebastian Nanasi",
+   "club": "Strasbourg",
+   "passes": 3
+  },
+  {
+   "joueur": "S. Diop",
+   "club": "Nice",
+   "passes": 3
+  },
+  {
+   "joueur": "G. Hein",
+   "club": "Nice",
+   "passes": 3
+  }
+ ],
+ "derniere_journee": {
+  "label": "10e journée",
+  "matchs": [
+   {
+    "dom": "Toulouse",
+    "ext": "Strasbourg",
+    "score": "3-1"
+   },
+   {
+    "dom": "PSG",
+    "ext": "Troyes",
+    "score": "1-0"
+   },
+   {
+    "dom": "Auxerre",
+    "ext": "Paris FC",
+    "score": "0-1"
+   },
+   {
+    "dom": "Lens",
+    "ext": "OM",
+    "score": "1-2"
+   },
+   {
+    "dom": "Angers",
+    "ext": "Nice",
+    "score": "0-2"
+   },
+   {
+    "dom": "Brest",
+    "ext": "OL",
+    "score": "2-0"
+   },
+   {
+    "dom": "Le Havre",
+    "ext": "Lorient",
+    "score": "0-2"
+   },
+   {
+    "dom": "Le Mans",
+    "ext": "Monaco",
+    "score": "1-1"
+   },
+   {
+    "dom": "Rennes",
+    "ext": "Lille",
+    "score": "1-2"
+   }
+  ]
+ },
+ "evolution": {
+  "type": "points",
+  "journees": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "clubs": {
+   "PSG": [
+    1,
+    2,
+    2,
+    5,
+    8,
+    11,
+    14,
+    17,
+    20,
+    23
+   ],
+   "Lille": [
+    3,
+    4,
+    7,
+    10,
+    10,
+    13,
+    14,
+    15,
+    18,
+    21
+   ],
+   "Paris FC": [
+    1,
+    4,
+    7,
+    8,
+    11,
+    11,
+    14,
+    14,
+    17,
+    20
+   ],
+   "OM": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    6,
+    9,
+    12,
+    15,
+    18
+   ],
+   "OL": [
+    3,
+    4,
+    7,
+    8,
+    11,
+    11,
+    14,
+    14,
+    17,
+    17
+   ],
+   "Nice": [
+    1,
+    1,
+    2,
+    2,
+    5,
+    8,
+    8,
+    11,
+    14,
+    17
+   ]
+  }
+ },
+ "sources": [
+  {
+   "nom": "Foot Mercato – classement Ligue 1 2026/2027",
+   "url": "https://www.footmercato.net/france/ligue-1/classement"
+  },
+  {
+   "nom": "Foot Mercato – buteurs Ligue 1 2026/2027",
+   "url": "https://www.footmercato.net/france/ligue-1/buteur"
+  },
+  {
+   "nom": "Foot Mercato – passeurs Ligue 1 2026/2027",
+   "url": "https://www.footmercato.net/france/ligue-1/passeur"
+  },
+  {
+   "nom": "Maxifoot – résultats Ligue 1 2026-2027",
+   "url": "https://www.maxifoot.fr/resultat-ligue-1-france.htm"
+  },
+  {
+   "nom": "VAVEL – résultats Ligue 1 2026/27 (journées 1 à 10)",
+   "url": "https://www.vavel.com/en/data/ligue-1/results/"
+  },
+  {
+   "nom": "Wikipedia – 2026–27 Ligue 1",
+   "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Ligue_1"
+  }
+ ]
+}

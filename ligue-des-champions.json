@@ -1,0 +1,689 @@
+{
+ "id": "ligue-des-champions",
+ "nom": "Ligue des champions",
+ "pays": "Europe",
+ "saison": "2026-27",
+ "maj": "après la 4e journée de la phase de ligue (4 novembre 2026)",
+ "classement": [
+  {
+   "pos": 1,
+   "club": "PSG",
+   "j": 4,
+   "g": 4,
+   "n": 0,
+   "p": 0,
+   "bp": 20,
+   "bc": 5,
+   "pts": 12,
+   "forme": "VVVV"
+  },
+  {
+   "pos": 2,
+   "club": "Real Madrid",
+   "j": 4,
+   "g": 4,
+   "n": 0,
+   "p": 0,
+   "bp": 13,
+   "bc": 7,
+   "pts": 12,
+   "forme": "VVVV"
+  },
+  {
+   "pos": 3,
+   "club": "Arsenal",
+   "j": 4,
+   "g": 3,
+   "n": 1,
+   "p": 0,
+   "bp": 8,
+   "bc": 3,
+   "pts": 10,
+   "forme": "VVNV"
+  },
+  {
+   "pos": 4,
+   "club": "Côme",
+   "j": 4,
+   "g": 3,
+   "n": 0,
+   "p": 1,
+   "bp": 19,
+   "bc": 6,
+   "pts": 9,
+   "forme": "VDVV"
+  },
+  {
+   "pos": 5,
+   "club": "Barcelone",
+   "j": 4,
+   "g": 3,
+   "n": 0,
+   "p": 1,
+   "bp": 14,
+   "bc": 6,
+   "pts": 9,
+   "forme": "VVDV"
+  },
+  {
+   "pos": 6,
+   "club": "Aston Villa",
+   "j": 4,
+   "g": 3,
+   "n": 0,
+   "p": 1,
+   "bp": 12,
+   "bc": 6,
+   "pts": 9,
+   "forme": "VVVD"
+  },
+  {
+   "pos": 7,
+   "club": "Man City",
+   "j": 4,
+   "g": 3,
+   "n": 0,
+   "p": 1,
+   "bp": 12,
+   "bc": 7,
+   "pts": 9,
+   "forme": "VDVV"
+  },
+  {
+   "pos": 8,
+   "club": "Liverpool",
+   "j": 4,
+   "g": 3,
+   "n": 0,
+   "p": 1,
+   "bp": 14,
+   "bc": 10,
+   "pts": 9,
+   "forme": "VVVD"
+  },
+  {
+   "pos": 9,
+   "club": "Club Bruges",
+   "j": 4,
+   "g": 3,
+   "n": 0,
+   "p": 1,
+   "bp": 11,
+   "bc": 7,
+   "pts": 9,
+   "forme": "DVVV"
+  },
+  {
+   "pos": 10,
+   "club": "Sporting",
+   "j": 4,
+   "g": 3,
+   "n": 0,
+   "p": 1,
+   "bp": 8,
+   "bc": 4,
+   "pts": 9,
+   "forme": "VVDV"
+  },
+  {
+   "pos": 11,
+   "club": "Betis",
+   "j": 4,
+   "g": 3,
+   "n": 0,
+   "p": 1,
+   "bp": 8,
+   "bc": 6,
+   "pts": 9,
+   "forme": "VVVD"
+  },
+  {
+   "pos": 12,
+   "club": "Dortmund",
+   "j": 4,
+   "g": 3,
+   "n": 0,
+   "p": 1,
+   "bp": 7,
+   "bc": 5,
+   "pts": 9,
+   "forme": "VDVV"
+  },
+  {
+   "pos": 13,
+   "club": "Bayern Munich",
+   "j": 4,
+   "g": 2,
+   "n": 2,
+   "p": 0,
+   "bp": 12,
+   "bc": 5,
+   "pts": 8,
+   "forme": "VNNV"
+  },
+  {
+   "pos": 14,
+   "club": "Stuttgart",
+   "j": 4,
+   "g": 2,
+   "n": 1,
+   "p": 1,
+   "bp": 7,
+   "bc": 4,
+   "pts": 7,
+   "forme": "VVND"
+  },
+  {
+   "pos": 15,
+   "club": "Inter",
+   "j": 4,
+   "g": 2,
+   "n": 0,
+   "p": 2,
+   "bp": 8,
+   "bc": 6,
+   "pts": 6,
+   "forme": "DDVV"
+  },
+  {
+   "pos": 16,
+   "club": "LASK",
+   "j": 4,
+   "g": 2,
+   "n": 0,
+   "p": 2,
+   "bp": 10,
+   "bc": 9,
+   "pts": 6,
+   "forme": "DDVV"
+  },
+  {
+   "pos": 17,
+   "club": "Man United",
+   "j": 4,
+   "g": 2,
+   "n": 0,
+   "p": 2,
+   "bp": 8,
+   "bc": 8,
+   "pts": 6,
+   "forme": "VDDV"
+  },
+  {
+   "pos": 18,
+   "club": "Galatasaray",
+   "j": 4,
+   "g": 2,
+   "n": 0,
+   "p": 2,
+   "bp": 8,
+   "bc": 9,
+   "pts": 6,
+   "forme": "DDVV"
+  },
+  {
+   "pos": 19,
+   "club": "Fenerbahçe",
+   "j": 4,
+   "g": 1,
+   "n": 2,
+   "p": 1,
+   "bp": 6,
+   "bc": 11,
+   "pts": 5,
+   "forme": "NDNV"
+  },
+  {
+   "pos": 20,
+   "club": "Rome",
+   "j": 4,
+   "g": 1,
+   "n": 1,
+   "p": 2,
+   "bp": 10,
+   "bc": 8,
+   "pts": 4,
+   "forme": "NDVD"
+  },
+  {
+   "pos": 21,
+   "club": "Shakhtar",
+   "j": 4,
+   "g": 1,
+   "n": 1,
+   "p": 2,
+   "bp": 4,
+   "bc": 4,
+   "pts": 4,
+   "forme": "NVDD"
+  },
+  {
+   "pos": 22,
+   "club": "Viking",
+   "j": 4,
+   "g": 1,
+   "n": 1,
+   "p": 2,
+   "bp": 9,
+   "bc": 10,
+   "pts": 4,
+   "forme": "DNDV"
+  },
+  {
+   "pos": 23,
+   "club": "Atlético",
+   "j": 4,
+   "g": 1,
+   "n": 1,
+   "p": 2,
+   "bp": 4,
+   "bc": 5,
+   "pts": 4,
+   "forme": "DVND"
+  },
+  {
+   "pos": 24,
+   "club": "PSV",
+   "j": 4,
+   "g": 1,
+   "n": 1,
+   "p": 2,
+   "bp": 3,
+   "bc": 4,
+   "pts": 4,
+   "forme": "NDVD"
+  },
+  {
+   "pos": 25,
+   "club": "Bodø/Glimt",
+   "j": 4,
+   "g": 1,
+   "n": 1,
+   "p": 2,
+   "bp": 4,
+   "bc": 9,
+   "pts": 4,
+   "forme": "DVDN"
+  },
+  {
+   "pos": 26,
+   "club": "Porto",
+   "j": 4,
+   "g": 1,
+   "n": 0,
+   "p": 3,
+   "bp": 6,
+   "bc": 7,
+   "pts": 3,
+   "forme": "DDDV"
+  },
+  {
+   "pos": 27,
+   "club": "Naples",
+   "j": 4,
+   "g": 1,
+   "n": 0,
+   "p": 3,
+   "bp": 6,
+   "bc": 11,
+   "pts": 3,
+   "forme": "DDVD"
+  },
+  {
+   "pos": 28,
+   "club": "Villarreal",
+   "j": 4,
+   "g": 1,
+   "n": 0,
+   "p": 3,
+   "bp": 8,
+   "bc": 14,
+   "pts": 3,
+   "forme": "DVDD"
+  },
+  {
+   "pos": 29,
+   "club": "AEK",
+   "j": 4,
+   "g": 1,
+   "n": 0,
+   "p": 3,
+   "bp": 5,
+   "bc": 11,
+   "pts": 3,
+   "forme": "VDDD"
+  },
+  {
+   "pos": 30,
+   "club": "Leipzig",
+   "j": 4,
+   "g": 1,
+   "n": 0,
+   "p": 3,
+   "bp": 5,
+   "bc": 11,
+   "pts": 3,
+   "forme": "DVDD"
+  },
+  {
+   "pos": 31,
+   "club": "Sabah",
+   "j": 4,
+   "g": 1,
+   "n": 0,
+   "p": 3,
+   "bp": 4,
+   "bc": 10,
+   "pts": 3,
+   "forme": "DVDD"
+  },
+  {
+   "pos": 32,
+   "club": "Feyenoord",
+   "j": 4,
+   "g": 1,
+   "n": 0,
+   "p": 3,
+   "bp": 4,
+   "bc": 11,
+   "pts": 3,
+   "forme": "DVDD"
+  },
+  {
+   "pos": 33,
+   "club": "Lens",
+   "j": 4,
+   "g": 1,
+   "n": 0,
+   "p": 3,
+   "bp": 4,
+   "bc": 16,
+   "pts": 3,
+   "forme": "VDDD"
+  },
+  {
+   "pos": 34,
+   "club": "Slavia",
+   "j": 4,
+   "g": 0,
+   "n": 1,
+   "p": 3,
+   "bp": 5,
+   "bc": 9,
+   "pts": 1,
+   "forme": "DDND"
+  },
+  {
+   "pos": 35,
+   "club": "Lille",
+   "j": 4,
+   "g": 0,
+   "n": 1,
+   "p": 3,
+   "bp": 4,
+   "bc": 10,
+   "pts": 1,
+   "forme": "DDDN"
+  },
+  {
+   "pos": 36,
+   "club": "Slovan",
+   "j": 4,
+   "g": 0,
+   "n": 0,
+   "p": 4,
+   "bp": 1,
+   "bc": 17,
+   "pts": 0,
+   "forme": "DDDD"
+  }
+ ],
+ "buteurs": [
+  {
+   "joueur": "Tasos Douvikas",
+   "club": "Côme",
+   "buts": 6
+  },
+  {
+   "joueur": "Erling Haaland",
+   "club": "Man City",
+   "buts": 5
+  },
+  {
+   "joueur": "Nicolò Tresoldi",
+   "club": "Club Bruges",
+   "buts": 5
+  },
+  {
+   "joueur": "Ermedin Demirović",
+   "club": "Stuttgart",
+   "buts": 4
+  },
+  {
+   "joueur": "Raphinha",
+   "club": "Barcelone",
+   "buts": 4
+  },
+  {
+   "joueur": "Serhou Guirassy",
+   "club": "Dortmund",
+   "buts": 4
+  },
+  {
+   "joueur": "A. Batrakov",
+   "club": "Galatasaray",
+   "buts": 4
+  },
+  {
+   "joueur": "Donyell Malen",
+   "club": "Rome",
+   "buts": 4
+  }
+ ],
+ "passeurs": [
+  {
+   "joueur": "Nico Paz",
+   "club": "Côme",
+   "passes": 5
+  },
+  {
+   "joueur": "Lamine Yamal",
+   "club": "Barcelone",
+   "passes": 4
+  },
+  {
+   "joueur": "Brahim Díaz",
+   "club": "Real Madrid",
+   "passes": 3
+  },
+  {
+   "joueur": "Ousmane Dembélé",
+   "club": "PSG",
+   "passes": 3
+  },
+  {
+   "joueur": "Maghnes Akliouche",
+   "club": "PSG",
+   "passes": 3
+  },
+  {
+   "joueur": "Kostas Tsimikas",
+   "club": "Liverpool",
+   "passes": 3
+  },
+  {
+   "joueur": "Y. Dibango",
+   "club": "LASK",
+   "passes": 3
+  },
+  {
+   "joueur": "Z. Tripić",
+   "club": "Viking",
+   "passes": 3
+  }
+ ],
+ "derniere_journee": {
+  "label": "4e journée (3-4 novembre 2026)",
+  "matchs": [
+   {
+    "dom": "LASK",
+    "ext": "Slovan",
+    "score": "4-0"
+   },
+   {
+    "dom": "Bodø/Glimt",
+    "ext": "Lille",
+    "score": "0-0"
+   },
+   {
+    "dom": "Feyenoord",
+    "ext": "Inter",
+    "score": "0-3"
+   },
+   {
+    "dom": "Villarreal",
+    "ext": "PSG",
+    "score": "0-6"
+   },
+   {
+    "dom": "Man United",
+    "ext": "Rome",
+    "score": "3-2"
+   },
+   {
+    "dom": "Atlético",
+    "ext": "Bayern Munich",
+    "score": "0-2"
+   },
+   {
+    "dom": "Barcelone",
+    "ext": "Aston Villa",
+    "score": "3-0"
+   },
+   {
+    "dom": "Shakhtar",
+    "ext": "Sporting",
+    "score": "0-1"
+   },
+   {
+    "dom": "Galatasaray",
+    "ext": "Stuttgart",
+    "score": "2-0"
+   },
+   {
+    "dom": "Lens",
+    "ext": "Côme",
+    "score": "1-9"
+   },
+   {
+    "dom": "PSV",
+    "ext": "Club Bruges",
+    "score": "1-2"
+   },
+   {
+    "dom": "Viking",
+    "ext": "Sabah",
+    "score": "4-1"
+   },
+   {
+    "dom": "Porto",
+    "ext": "Naples",
+    "score": "4-1"
+   },
+   {
+    "dom": "Dortmund",
+    "ext": "Betis",
+    "score": "2-1"
+   },
+   {
+    "dom": "Slavia",
+    "ext": "Arsenal",
+    "score": "1-2"
+   },
+   {
+    "dom": "Leipzig",
+    "ext": "Man City",
+    "score": "2-3"
+   },
+   {
+    "dom": "AEK",
+    "ext": "Real Madrid",
+    "score": "2-3"
+   },
+   {
+    "dom": "Fenerbahçe",
+    "ext": "Liverpool",
+    "score": "3-2"
+   }
+  ]
+ },
+ "evolution": {
+  "type": "points",
+  "journees": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "clubs": {
+   "PSG": [
+    3,
+    6,
+    9,
+    12
+   ],
+   "Real Madrid": [
+    3,
+    6,
+    9,
+    12
+   ],
+   "Arsenal": [
+    3,
+    6,
+    7,
+    10
+   ],
+   "Côme": [
+    3,
+    3,
+    6,
+    9
+   ],
+   "Barcelone": [
+    3,
+    6,
+    6,
+    9
+   ],
+   "Aston Villa": [
+    3,
+    6,
+    9,
+    9
+   ]
+  }
+ },
+ "sources": [
+  {
+   "nom": "Foot Mercato – classement Ligue des champions 2026/2027",
+   "url": "https://www.footmercato.net/europe/ligue-des-champions-uefa/classement"
+  },
+  {
+   "nom": "Foot Mercato – buteurs Ligue des champions 2026/2027",
+   "url": "https://www.footmercato.net/europe/ligue-des-champions-uefa/buteur"
+  },
+  {
+   "nom": "Foot Mercato – passeurs Ligue des champions 2026/2027",
+   "url": "https://www.footmercato.net/europe/ligue-des-champions-uefa/passeur"
+  },
+  {
+   "nom": "VAVEL – résultats Ligue des champions 2026/27 (journées 1 à 4)",
+   "url": "https://www.vavel.com/en/data/champions-league/results/"
+  },
+  {
+   "nom": "Wikipedia – 2026–27 UEFA Champions League league phase",
+   "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_UEFA_Champions_League_league_phase"
+  }
+ ]
+}

@@ -1,0 +1,499 @@
+{
+ "id": "premier-league",
+ "nom": "Premier League",
+ "pays": "Angleterre",
+ "saison": "2026-27",
+ "maj": "après la 10e journée (8 novembre 2026)",
+ "classement": [
+  {
+   "pos": 1,
+   "club": "Arsenal",
+   "j": 10,
+   "g": 9,
+   "n": 0,
+   "p": 1,
+   "bp": 15,
+   "bc": 5,
+   "pts": 27,
+   "forme": "VVVVV"
+  },
+  {
+   "pos": 2,
+   "club": "Brighton",
+   "j": 10,
+   "g": 7,
+   "n": 1,
+   "p": 2,
+   "bp": 26,
+   "bc": 7,
+   "pts": 22,
+   "forme": "VVDVV"
+  },
+  {
+   "pos": 3,
+   "club": "Man City",
+   "j": 10,
+   "g": 7,
+   "n": 0,
+   "p": 3,
+   "bp": 21,
+   "bc": 13,
+   "pts": 21,
+   "forme": "VVDDD"
+  },
+  {
+   "pos": 4,
+   "club": "Liverpool",
+   "j": 10,
+   "g": 5,
+   "n": 3,
+   "p": 2,
+   "bp": 14,
+   "bc": 10,
+   "pts": 18,
+   "forme": "DVVDV"
+  },
+  {
+   "pos": 5,
+   "club": "Chelsea",
+   "j": 10,
+   "g": 5,
+   "n": 1,
+   "p": 4,
+   "bp": 19,
+   "bc": 16,
+   "pts": 16,
+   "forme": "VVDVD"
+  },
+  {
+   "pos": 6,
+   "club": "Everton",
+   "j": 10,
+   "g": 4,
+   "n": 4,
+   "p": 2,
+   "bp": 12,
+   "bc": 10,
+   "pts": 16,
+   "forme": "NDDVV"
+  },
+  {
+   "pos": 7,
+   "club": "Bournemouth",
+   "j": 10,
+   "g": 4,
+   "n": 3,
+   "p": 3,
+   "bp": 16,
+   "bc": 14,
+   "pts": 15,
+   "forme": "DVVVV"
+  },
+  {
+   "pos": 8,
+   "club": "Brentford",
+   "j": 10,
+   "g": 3,
+   "n": 5,
+   "p": 2,
+   "bp": 16,
+   "bc": 11,
+   "pts": 14,
+   "forme": "NDNVD"
+  },
+  {
+   "pos": 9,
+   "club": "Leeds",
+   "j": 10,
+   "g": 3,
+   "n": 5,
+   "p": 2,
+   "bp": 10,
+   "bc": 8,
+   "pts": 14,
+   "forme": "DNNDV"
+  },
+  {
+   "pos": 10,
+   "club": "Aston Villa",
+   "j": 10,
+   "g": 3,
+   "n": 4,
+   "p": 3,
+   "bp": 14,
+   "bc": 17,
+   "pts": 13,
+   "forme": "NVVNN"
+  },
+  {
+   "pos": 11,
+   "club": "Tottenham",
+   "j": 10,
+   "g": 3,
+   "n": 3,
+   "p": 4,
+   "bp": 10,
+   "bc": 11,
+   "pts": 12,
+   "forme": "NVVVD"
+  },
+  {
+   "pos": 12,
+   "club": "Newcastle",
+   "j": 10,
+   "g": 3,
+   "n": 3,
+   "p": 4,
+   "bp": 13,
+   "bc": 16,
+   "pts": 12,
+   "forme": "DDVDN"
+  },
+  {
+   "pos": 13,
+   "club": "Hull",
+   "j": 10,
+   "g": 2,
+   "n": 5,
+   "p": 3,
+   "bp": 11,
+   "bc": 11,
+   "pts": 11,
+   "forme": "NDNND"
+  },
+  {
+   "pos": 14,
+   "club": "Ipswich",
+   "j": 10,
+   "g": 3,
+   "n": 2,
+   "p": 5,
+   "bp": 15,
+   "bc": 20,
+   "pts": 11,
+   "forme": "VDNND"
+  },
+  {
+   "pos": 15,
+   "club": "Fulham",
+   "j": 10,
+   "g": 2,
+   "n": 4,
+   "p": 4,
+   "bp": 10,
+   "bc": 12,
+   "pts": 10,
+   "forme": "DVVNN"
+  },
+  {
+   "pos": 16,
+   "club": "Nottingham Forest",
+   "j": 10,
+   "g": 2,
+   "n": 3,
+   "p": 5,
+   "bp": 9,
+   "bc": 13,
+   "pts": 9,
+   "forme": "DDNDV"
+  },
+  {
+   "pos": 17,
+   "club": "Coventry",
+   "j": 10,
+   "g": 3,
+   "n": 0,
+   "p": 7,
+   "bp": 10,
+   "bc": 19,
+   "pts": 9,
+   "forme": "VDDVD"
+  },
+  {
+   "pos": 18,
+   "club": "Man United",
+   "j": 10,
+   "g": 1,
+   "n": 5,
+   "p": 4,
+   "bp": 14,
+   "bc": 19,
+   "pts": 8,
+   "forme": "NNDDN"
+  },
+  {
+   "pos": 19,
+   "club": "Sunderland",
+   "j": 10,
+   "g": 2,
+   "n": 2,
+   "p": 6,
+   "bp": 8,
+   "bc": 17,
+   "pts": 8,
+   "forme": "DDNDV"
+  },
+  {
+   "pos": 20,
+   "club": "Crystal Palace",
+   "j": 10,
+   "g": 2,
+   "n": 1,
+   "p": 7,
+   "bp": 10,
+   "bc": 24,
+   "pts": 7,
+   "forme": "VDDDD"
+  }
+ ],
+ "buteurs": [
+  {
+   "joueur": "Erling Haaland",
+   "club": "Man City",
+   "buts": 9
+  },
+  {
+   "joueur": "Alexander Isak",
+   "club": "Liverpool",
+   "buts": 7
+  },
+  {
+   "joueur": "Nicolas Jackson",
+   "club": "Aston Villa",
+   "buts": 6
+  },
+  {
+   "joueur": "Thierno Barry",
+   "club": "Everton",
+   "buts": 6
+  },
+  {
+   "joueur": "João Pedro",
+   "club": "Chelsea",
+   "buts": 5
+  },
+  {
+   "joueur": "Rayan Cherki",
+   "club": "Man City",
+   "buts": 5
+  },
+  {
+   "joueur": "Evanilson",
+   "club": "Bournemouth",
+   "buts": 5
+  },
+  {
+   "joueur": "Marcus Tavernier",
+   "club": "Bournemouth",
+   "buts": 5
+  }
+ ],
+ "passeurs": [
+  {
+   "joueur": "Declan Rice",
+   "club": "Arsenal",
+   "passes": 5
+  },
+  {
+   "joueur": "John McGinn",
+   "club": "Aston Villa",
+   "passes": 4
+  },
+  {
+   "joueur": "Evanilson",
+   "club": "Bournemouth",
+   "passes": 4
+  },
+  {
+   "joueur": "Pascal Groß",
+   "club": "Brighton",
+   "passes": 4
+  },
+  {
+   "joueur": "J. Manzambi",
+   "club": "Aston Villa",
+   "passes": 3
+  },
+  {
+   "joueur": "João Pedro",
+   "club": "Chelsea",
+   "passes": 3
+  },
+  {
+   "joueur": "Ben White",
+   "club": "Arsenal",
+   "passes": 3
+  },
+  {
+   "joueur": "Mohammed Kudus",
+   "club": "Tottenham",
+   "passes": 3
+  }
+ ],
+ "derniere_journee": {
+  "label": "10e journée",
+  "matchs": [
+   {
+    "dom": "Man United",
+    "ext": "Aston Villa",
+    "score": "4-4"
+   },
+   {
+    "dom": "Brighton",
+    "ext": "Brentford",
+    "score": "2-0"
+   },
+   {
+    "dom": "Crystal Palace",
+    "ext": "Liverpool",
+    "score": "1-3"
+   },
+   {
+    "dom": "Ipswich",
+    "ext": "Bournemouth",
+    "score": "1-2"
+   },
+   {
+    "dom": "Sunderland",
+    "ext": "Chelsea",
+    "score": "1-0"
+   },
+   {
+    "dom": "Nottingham Forest",
+    "ext": "Man City",
+    "score": "3-1"
+   },
+   {
+    "dom": "Arsenal",
+    "ext": "Hull",
+    "score": "1-0"
+   },
+   {
+    "dom": "Fulham",
+    "ext": "Newcastle",
+    "score": "1-1"
+   },
+   {
+    "dom": "Leeds",
+    "ext": "Tottenham",
+    "score": "1-0"
+   },
+   {
+    "dom": "Everton",
+    "ext": "Coventry",
+    "score": "3-1"
+   }
+  ]
+ },
+ "evolution": {
+  "type": "points",
+  "journees": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "clubs": {
+   "Arsenal": [
+    3,
+    6,
+    9,
+    12,
+    12,
+    15,
+    18,
+    21,
+    24,
+    27
+   ],
+   "Brighton": [
+    3,
+    3,
+    4,
+    7,
+    10,
+    13,
+    16,
+    16,
+    19,
+    22
+   ],
+   "Man City": [
+    3,
+    6,
+    9,
+    12,
+    15,
+    18,
+    21,
+    21,
+    21,
+    21
+   ],
+   "Liverpool": [
+    1,
+    2,
+    5,
+    6,
+    9,
+    9,
+    12,
+    15,
+    15,
+    18
+   ],
+   "Chelsea": [
+    3,
+    6,
+    6,
+    7,
+    7,
+    10,
+    13,
+    13,
+    16,
+    16
+   ],
+   "Everton": [
+    3,
+    4,
+    5,
+    6,
+    9,
+    10,
+    10,
+    10,
+    13,
+    16
+   ]
+  }
+ },
+ "sources": [
+  {
+   "nom": "Foot Mercato – classement Premier League 2026/2027",
+   "url": "https://www.footmercato.net/angleterre/premier-league/classement"
+  },
+  {
+   "nom": "Foot Mercato – buteurs Premier League 2026/2027",
+   "url": "https://www.footmercato.net/angleterre/premier-league/buteur"
+  },
+  {
+   "nom": "Foot Mercato – passeurs Premier League 2026/2027",
+   "url": "https://www.footmercato.net/angleterre/premier-league/passeur"
+  },
+  {
+   "nom": "VAVEL – résultats Premier League 2026/27 (journées 1 à 10)",
+   "url": "https://www.vavel.com/en/data/premier-league/results/"
+  },
+  {
+   "nom": "Wikipedia – 2026–27 Premier League",
+   "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+  }
+ ]
+}
