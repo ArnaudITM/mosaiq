@@ -1,143 +1,664 @@
 {
-  "maj": "après la semaine 9 (semaine 10 du 12 au 16 novembre à venir)",
+  "maj": "semaine 10 en cours (Commanders-Giants joué dans la nuit du 12 au 13 novembre ; leaders arrêtés après la semaine 9)",
   "divisions": [
-    {"nom": "AFC Est", "equipes": [
-      {"equipe": "Bills", "v": 7, "d": 1, "n": 0},
-      {"equipe": "Patriots", "v": 5, "d": 4, "n": 0},
-      {"equipe": "Jets", "v": 2, "d": 7, "n": 0},
-      {"equipe": "Dolphins", "v": 1, "d": 7, "n": 0}
-    ]},
-    {"nom": "AFC Nord", "equipes": [
-      {"equipe": "Steelers", "v": 6, "d": 2, "n": 0},
-      {"equipe": "Bengals", "v": 6, "d": 2, "n": 0},
-      {"equipe": "Browns", "v": 5, "d": 4, "n": 0},
-      {"equipe": "Ravens", "v": 4, "d": 5, "n": 0}
-    ]},
-    {"nom": "AFC Sud", "equipes": [
-      {"equipe": "Jaguars", "v": 6, "d": 2, "n": 0},
-      {"equipe": "Texans", "v": 3, "d": 5, "n": 0},
-      {"equipe": "Colts", "v": 2, "d": 7, "n": 0},
-      {"equipe": "Titans", "v": 1, "d": 7, "n": 0}
-    ]},
-    {"nom": "AFC Ouest", "equipes": [
-      {"equipe": "Broncos", "v": 7, "d": 2, "n": 0},
-      {"equipe": "Chiefs", "v": 6, "d": 2, "n": 0},
-      {"equipe": "Raiders", "v": 4, "d": 5, "n": 0},
-      {"equipe": "Chargers", "v": 0, "d": 8, "n": 0}
-    ]},
-    {"nom": "NFC Est", "equipes": [
-      {"equipe": "Giants", "v": 5, "d": 2, "n": 1},
-      {"equipe": "Cowboys", "v": 4, "d": 5, "n": 0},
-      {"equipe": "Commanders", "v": 2, "d": 5, "n": 1},
-      {"equipe": "Eagles", "v": 2, "d": 7, "n": 0}
-    ]},
-    {"nom": "NFC Nord", "equipes": [
-      {"equipe": "Bears", "v": 7, "d": 2, "n": 0},
-      {"equipe": "Lions", "v": 6, "d": 2, "n": 0},
-      {"equipe": "Vikings", "v": 6, "d": 2, "n": 0},
-      {"equipe": "Packers", "v": 6, "d": 3, "n": 0}
-    ]},
-    {"nom": "NFC Sud", "equipes": [
-      {"equipe": "Panthers", "v": 3, "d": 5, "n": 0},
-      {"equipe": "Saints", "v": 3, "d": 5, "n": 0},
-      {"equipe": "Buccaneers", "v": 3, "d": 6, "n": 0},
-      {"equipe": "Falcons", "v": 3, "d": 6, "n": 0}
-    ]},
-    {"nom": "NFC Ouest", "equipes": [
-      {"equipe": "49ers", "v": 7, "d": 1, "n": 0},
-      {"equipe": "Seahawks", "v": 5, "d": 4, "n": 0},
-      {"equipe": "Rams", "v": 5, "d": 4, "n": 0},
-      {"equipe": "Cardinals", "v": 3, "d": 6, "n": 0}
-    ]}
+    {
+      "nom": "AFC Est",
+      "equipes": [
+        {
+          "equipe": "Bills",
+          "v": 7,
+          "d": 1,
+          "n": 0
+        },
+        {
+          "equipe": "Patriots",
+          "v": 5,
+          "d": 4,
+          "n": 0
+        },
+        {
+          "equipe": "Jets",
+          "v": 2,
+          "d": 7,
+          "n": 0
+        },
+        {
+          "equipe": "Dolphins",
+          "v": 1,
+          "d": 7,
+          "n": 0
+        }
+      ]
+    },
+    {
+      "nom": "AFC Nord",
+      "equipes": [
+        {
+          "equipe": "Steelers",
+          "v": 6,
+          "d": 2,
+          "n": 0
+        },
+        {
+          "equipe": "Bengals",
+          "v": 6,
+          "d": 2,
+          "n": 0
+        },
+        {
+          "equipe": "Browns",
+          "v": 5,
+          "d": 4,
+          "n": 0
+        },
+        {
+          "equipe": "Ravens",
+          "v": 4,
+          "d": 5,
+          "n": 0
+        }
+      ]
+    },
+    {
+      "nom": "AFC Sud",
+      "equipes": [
+        {
+          "equipe": "Jaguars",
+          "v": 6,
+          "d": 2,
+          "n": 0
+        },
+        {
+          "equipe": "Texans",
+          "v": 3,
+          "d": 5,
+          "n": 0
+        },
+        {
+          "equipe": "Colts",
+          "v": 2,
+          "d": 7,
+          "n": 0
+        },
+        {
+          "equipe": "Titans",
+          "v": 1,
+          "d": 7,
+          "n": 0
+        }
+      ]
+    },
+    {
+      "nom": "AFC Ouest",
+      "equipes": [
+        {
+          "equipe": "Broncos",
+          "v": 7,
+          "d": 2,
+          "n": 0
+        },
+        {
+          "equipe": "Chiefs",
+          "v": 6,
+          "d": 2,
+          "n": 0
+        },
+        {
+          "equipe": "Raiders",
+          "v": 4,
+          "d": 5,
+          "n": 0
+        },
+        {
+          "equipe": "Chargers",
+          "v": 0,
+          "d": 8,
+          "n": 0
+        }
+      ]
+    },
+    {
+      "nom": "NFC Est",
+      "equipes": [
+        {
+          "equipe": "Giants",
+          "v": 5,
+          "d": 3,
+          "n": 1
+        },
+        {
+          "equipe": "Cowboys",
+          "v": 4,
+          "d": 5,
+          "n": 0
+        },
+        {
+          "equipe": "Commanders",
+          "v": 3,
+          "d": 5,
+          "n": 1
+        },
+        {
+          "equipe": "Eagles",
+          "v": 2,
+          "d": 7,
+          "n": 0
+        }
+      ]
+    },
+    {
+      "nom": "NFC Nord",
+      "equipes": [
+        {
+          "equipe": "Bears",
+          "v": 7,
+          "d": 2,
+          "n": 0
+        },
+        {
+          "equipe": "Lions",
+          "v": 6,
+          "d": 2,
+          "n": 0
+        },
+        {
+          "equipe": "Vikings",
+          "v": 6,
+          "d": 2,
+          "n": 0
+        },
+        {
+          "equipe": "Packers",
+          "v": 6,
+          "d": 3,
+          "n": 0
+        }
+      ]
+    },
+    {
+      "nom": "NFC Sud",
+      "equipes": [
+        {
+          "equipe": "Panthers",
+          "v": 3,
+          "d": 5,
+          "n": 0
+        },
+        {
+          "equipe": "Saints",
+          "v": 3,
+          "d": 5,
+          "n": 0
+        },
+        {
+          "equipe": "Buccaneers",
+          "v": 3,
+          "d": 6,
+          "n": 0
+        },
+        {
+          "equipe": "Falcons",
+          "v": 3,
+          "d": 6,
+          "n": 0
+        }
+      ]
+    },
+    {
+      "nom": "NFC Ouest",
+      "equipes": [
+        {
+          "equipe": "49ers",
+          "v": 7,
+          "d": 1,
+          "n": 0
+        },
+        {
+          "equipe": "Seahawks",
+          "v": 5,
+          "d": 4,
+          "n": 0
+        },
+        {
+          "equipe": "Rams",
+          "v": 5,
+          "d": 4,
+          "n": 0
+        },
+        {
+          "equipe": "Cardinals",
+          "v": 3,
+          "d": 6,
+          "n": 0
+        }
+      ]
+    }
   ],
   "leaders": {
     "passes_yards": [
-      {"joueur": "Jordan Love", "equipe": "Packers", "valeur": 2618},
-      {"joueur": "Joe Burrow", "equipe": "Bengals", "valeur": 2386},
-      {"joueur": "Dak Prescott", "equipe": "Cowboys", "valeur": 2381},
-      {"joueur": "Matthew Stafford", "equipe": "Rams", "valeur": 2374},
-      {"joueur": "Kirk Cousins", "equipe": "Vikings", "valeur": 2340}
+      {
+        "joueur": "Jordan Love",
+        "equipe": "Packers",
+        "valeur": 2618
+      },
+      {
+        "joueur": "Joe Burrow",
+        "equipe": "Bengals",
+        "valeur": 2386
+      },
+      {
+        "joueur": "Dak Prescott",
+        "equipe": "Cowboys",
+        "valeur": 2381
+      },
+      {
+        "joueur": "Matthew Stafford",
+        "equipe": "Rams",
+        "valeur": 2374
+      },
+      {
+        "joueur": "Kirk Cousins",
+        "equipe": "Vikings",
+        "valeur": 2340
+      }
     ],
     "course_yards": [
-      {"joueur": "Bijan Robinson", "equipe": "Falcons", "valeur": 880},
-      {"joueur": "Kenneth Walker III", "equipe": "Chiefs", "valeur": 872},
-      {"joueur": "Jahmyr Gibbs", "equipe": "Lions", "valeur": 847},
-      {"joueur": "Bucky Irving", "equipe": "Buccaneers", "valeur": 825},
-      {"joueur": "James Cook III", "equipe": "Bills", "valeur": 814}
+      {
+        "joueur": "Bijan Robinson",
+        "equipe": "Falcons",
+        "valeur": 880
+      },
+      {
+        "joueur": "Kenneth Walker III",
+        "equipe": "Chiefs",
+        "valeur": 872
+      },
+      {
+        "joueur": "Jahmyr Gibbs",
+        "equipe": "Lions",
+        "valeur": 847
+      },
+      {
+        "joueur": "Bucky Irving",
+        "equipe": "Buccaneers",
+        "valeur": 825
+      },
+      {
+        "joueur": "James Cook III",
+        "equipe": "Bills",
+        "valeur": 814
+      }
     ],
     "reception_yards": [
-      {"joueur": "Jaxon Smith-Njigba", "equipe": "Seahawks", "valeur": 1036},
-      {"joueur": "CeeDee Lamb", "equipe": "Cowboys", "valeur": 904},
-      {"joueur": "Christian Watson", "equipe": "Packers", "valeur": 879},
-      {"joueur": "Matthew Golden", "equipe": "Packers", "valeur": 783},
-      {"joueur": "Tee Higgins", "equipe": "Bengals", "valeur": 758}
+      {
+        "joueur": "Jaxon Smith-Njigba",
+        "equipe": "Seahawks",
+        "valeur": 1036
+      },
+      {
+        "joueur": "CeeDee Lamb",
+        "equipe": "Cowboys",
+        "valeur": 904
+      },
+      {
+        "joueur": "Christian Watson",
+        "equipe": "Packers",
+        "valeur": 879
+      },
+      {
+        "joueur": "Matthew Golden",
+        "equipe": "Packers",
+        "valeur": 783
+      },
+      {
+        "joueur": "Tee Higgins",
+        "equipe": "Bengals",
+        "valeur": 758
+      }
     ],
     "sacks": [
-      {"joueur": "Will Anderson Jr.", "equipe": "Texans", "valeur": 9.5},
-      {"joueur": "Chase Young", "equipe": "Saints", "valeur": 8.0},
-      {"joueur": "Greg Rousseau", "equipe": "Bills", "valeur": 8.0},
-      {"joueur": "T.J. Watt", "equipe": "Steelers", "valeur": 7.5},
-      {"joueur": "Andrew Van Ginkel", "equipe": "Vikings", "valeur": 7.5},
-      {"joueur": "Carl Granderson", "equipe": "Saints", "valeur": 7.5}
+      {
+        "joueur": "Will Anderson Jr.",
+        "equipe": "Texans",
+        "valeur": 9.5
+      },
+      {
+        "joueur": "Chase Young",
+        "equipe": "Saints",
+        "valeur": 8.0
+      },
+      {
+        "joueur": "Greg Rousseau",
+        "equipe": "Bills",
+        "valeur": 8.0
+      },
+      {
+        "joueur": "T.J. Watt",
+        "equipe": "Steelers",
+        "valeur": 7.5
+      },
+      {
+        "joueur": "Andrew Van Ginkel",
+        "equipe": "Vikings",
+        "valeur": 7.5
+      },
+      {
+        "joueur": "Carl Granderson",
+        "equipe": "Saints",
+        "valeur": 7.5
+      }
     ]
   },
   "derniers": [
-    {"date": "2026-11-05", "dom": "Ravens", "ext": "Jaguars", "score_dom": 10, "score_ext": 33},
-    {"date": "2026-11-08", "dom": "Falcons", "ext": "Bengals", "score_dom": 17, "score_ext": 34, "lieu": "Madrid"},
-    {"date": "2026-11-08", "dom": "Colts", "ext": "Cowboys", "score_dom": 23, "score_ext": 27},
-    {"date": "2026-11-08", "dom": "Chiefs", "ext": "Jets", "score_dom": 35, "score_ext": 12},
-    {"date": "2026-11-08", "dom": "Dolphins", "ext": "Lions", "score_dom": 9, "score_ext": 19},
-    {"date": "2026-11-08", "dom": "Saints", "ext": "Browns", "score_dom": 23, "score_ext": 22, "prolongation": true},
-    {"date": "2026-11-08", "dom": "Eagles", "ext": "Giants", "score_dom": 11, "score_ext": 19},
-    {"date": "2026-11-08", "dom": "Commanders", "ext": "Rams", "score_dom": 13, "score_ext": 20},
-    {"date": "2026-11-08", "dom": "Panthers", "ext": "Broncos", "score_dom": 21, "score_ext": 26},
-    {"date": "2026-11-08", "dom": "Chargers", "ext": "Texans", "score_dom": 22, "score_ext": 44},
-    {"date": "2026-11-08", "dom": "Patriots", "ext": "Packers", "score_dom": 27, "score_ext": 45},
-    {"date": "2026-11-08", "dom": "49ers", "ext": "Raiders", "score_dom": 38, "score_ext": 17},
-    {"date": "2026-11-08", "dom": "Seahawks", "ext": "Cardinals", "score_dom": 17, "score_ext": 3},
-    {"date": "2026-11-08", "dom": "Bears", "ext": "Buccaneers", "score_dom": 27, "score_ext": 24},
-    {"date": "2026-11-09", "dom": "Vikings", "ext": "Bills", "score_dom": 6, "score_ext": 23}
+    {
+      "date": "2026-11-13",
+      "dom": "Giants",
+      "ext": "Commanders",
+      "score_dom": 21,
+      "score_ext": 24
+    },
+    {
+      "date": "2026-11-05",
+      "dom": "Ravens",
+      "ext": "Jaguars",
+      "score_dom": 10,
+      "score_ext": 33
+    },
+    {
+      "date": "2026-11-08",
+      "dom": "Falcons",
+      "ext": "Bengals",
+      "score_dom": 17,
+      "score_ext": 34,
+      "lieu": "Madrid"
+    },
+    {
+      "date": "2026-11-08",
+      "dom": "Colts",
+      "ext": "Cowboys",
+      "score_dom": 23,
+      "score_ext": 27
+    },
+    {
+      "date": "2026-11-08",
+      "dom": "Chiefs",
+      "ext": "Jets",
+      "score_dom": 35,
+      "score_ext": 12
+    },
+    {
+      "date": "2026-11-08",
+      "dom": "Dolphins",
+      "ext": "Lions",
+      "score_dom": 9,
+      "score_ext": 19
+    },
+    {
+      "date": "2026-11-08",
+      "dom": "Saints",
+      "ext": "Browns",
+      "score_dom": 23,
+      "score_ext": 22,
+      "prolongation": true
+    },
+    {
+      "date": "2026-11-08",
+      "dom": "Eagles",
+      "ext": "Giants",
+      "score_dom": 11,
+      "score_ext": 19
+    },
+    {
+      "date": "2026-11-08",
+      "dom": "Commanders",
+      "ext": "Rams",
+      "score_dom": 13,
+      "score_ext": 20
+    },
+    {
+      "date": "2026-11-08",
+      "dom": "Panthers",
+      "ext": "Broncos",
+      "score_dom": 21,
+      "score_ext": 26
+    },
+    {
+      "date": "2026-11-08",
+      "dom": "Chargers",
+      "ext": "Texans",
+      "score_dom": 22,
+      "score_ext": 44
+    },
+    {
+      "date": "2026-11-08",
+      "dom": "Patriots",
+      "ext": "Packers",
+      "score_dom": 27,
+      "score_ext": 45
+    },
+    {
+      "date": "2026-11-08",
+      "dom": "49ers",
+      "ext": "Raiders",
+      "score_dom": 38,
+      "score_ext": 17
+    },
+    {
+      "date": "2026-11-08",
+      "dom": "Seahawks",
+      "ext": "Cardinals",
+      "score_dom": 17,
+      "score_ext": 3
+    },
+    {
+      "date": "2026-11-08",
+      "dom": "Bears",
+      "ext": "Buccaneers",
+      "score_dom": 27,
+      "score_ext": 24
+    },
+    {
+      "date": "2026-11-09",
+      "dom": "Vikings",
+      "ext": "Bills",
+      "score_dom": 6,
+      "score_ext": 23
+    }
   ],
   "a_venir": {
     "semaine": "Semaine 10",
     "matchs": [
-      {"date": "2026-11-13", "heure_paris": "02:15", "dom": "Giants", "ext": "Commanders", "tv_us": "Prime Video (TNF)"},
-      {"date": "2026-11-15", "heure_paris": "15:30", "dom": "Lions", "ext": "Patriots", "lieu": "Munich"},
-      {"date": "2026-11-15", "heure_paris": "19:00", "dom": "Falcons", "ext": "Chiefs"},
-      {"date": "2026-11-15", "heure_paris": "19:00", "dom": "Browns", "ext": "Texans"},
-      {"date": "2026-11-15", "heure_paris": "19:00", "dom": "Packers", "ext": "Vikings"},
-      {"date": "2026-11-15", "heure_paris": "19:00", "dom": "Colts", "ext": "Dolphins"},
-      {"date": "2026-11-15", "heure_paris": "19:00", "dom": "Saints", "ext": "Panthers"},
-      {"date": "2026-11-15", "heure_paris": "19:00", "dom": "Jets", "ext": "Bills"},
-      {"date": "2026-11-15", "heure_paris": "19:00", "dom": "Titans", "ext": "Jaguars"},
-      {"date": "2026-11-15", "heure_paris": "22:05", "dom": "Raiders", "ext": "Seahawks"},
-      {"date": "2026-11-15", "heure_paris": "22:05", "dom": "Cardinals", "ext": "Rams"},
-      {"date": "2026-11-15", "heure_paris": "22:25", "dom": "Cowboys", "ext": "49ers"},
-      {"date": "2026-11-16", "heure_paris": "02:20", "dom": "Bengals", "ext": "Steelers", "tv_us": "NBC (SNF)"},
-      {"date": "2026-11-17", "heure_paris": "02:15", "dom": "Ravens", "ext": "Chargers", "tv_us": "ESPN (MNF)"}
+      {
+        "date": "2026-11-15",
+        "heure_paris": "15:30",
+        "dom": "Lions",
+        "ext": "Patriots",
+        "lieu": "Munich"
+      },
+      {
+        "date": "2026-11-15",
+        "heure_paris": "19:00",
+        "dom": "Falcons",
+        "ext": "Chiefs"
+      },
+      {
+        "date": "2026-11-15",
+        "heure_paris": "19:00",
+        "dom": "Browns",
+        "ext": "Texans"
+      },
+      {
+        "date": "2026-11-15",
+        "heure_paris": "19:00",
+        "dom": "Packers",
+        "ext": "Vikings"
+      },
+      {
+        "date": "2026-11-15",
+        "heure_paris": "19:00",
+        "dom": "Colts",
+        "ext": "Dolphins"
+      },
+      {
+        "date": "2026-11-15",
+        "heure_paris": "19:00",
+        "dom": "Saints",
+        "ext": "Panthers"
+      },
+      {
+        "date": "2026-11-15",
+        "heure_paris": "19:00",
+        "dom": "Jets",
+        "ext": "Bills"
+      },
+      {
+        "date": "2026-11-15",
+        "heure_paris": "19:00",
+        "dom": "Titans",
+        "ext": "Jaguars"
+      },
+      {
+        "date": "2026-11-15",
+        "heure_paris": "22:05",
+        "dom": "Raiders",
+        "ext": "Seahawks"
+      },
+      {
+        "date": "2026-11-15",
+        "heure_paris": "22:05",
+        "dom": "Cardinals",
+        "ext": "Rams"
+      },
+      {
+        "date": "2026-11-15",
+        "heure_paris": "22:25",
+        "dom": "Cowboys",
+        "ext": "49ers"
+      },
+      {
+        "date": "2026-11-16",
+        "heure_paris": "02:20",
+        "dom": "Bengals",
+        "ext": "Steelers",
+        "tv_us": "NBC (SNF)"
+      },
+      {
+        "date": "2026-11-17",
+        "heure_paris": "02:15",
+        "dom": "Ravens",
+        "ext": "Chargers",
+        "tv_us": "ESPN (MNF)"
+      }
     ],
-    "exempts": ["Bears", "Broncos", "Eagles", "Buccaneers"]
+    "exempts": [
+      "Bears",
+      "Broncos",
+      "Eagles",
+      "Buccaneers"
+    ]
   },
   "infos": [
-    {"titre": "Trade deadline : Cousins aux Vikings, Jacksonville frappe fort", "texte": "Minnesota a récupéré Kirk Cousins auprès des Raiders contre un 3e tour 2027, tandis que les Jaguars ont enchaîné trois échanges (dont Jordan Davis et Jessie Bates). Les Colts ont envoyé Keenan Allen aux 49ers et Josh Downs aux Chiefs.", "source": {"nom": "NFL.com", "url": "https://www.nfl.com/news/nfl-power-rankings-week-10-2026-nfl-season"}},
-    {"titre": "Les Bills dominent Minnesota au Monday Night", "texte": "Buffalo s'est imposé 23-6 chez les Vikings lundi et grimpe à 7-1, à égalité de bilan avec San Francisco.", "source": {"nom": "ESPN", "url": "https://www.espn.com/nfl/scoreboard/_/week/9/year/2026/seasontype/2"}},
-    {"titre": "Mahomes touché au coude", "texte": "Patrick Mahomes souffre d'une élongation au coude droit et est jugé au jour le jour ; Andy Reid parle d'une IRM « plutôt positive ». Justin Fields est en back-up avant le déplacement à Atlanta.", "source": {"nom": "DK Network", "url": "https://dknetwork.draftkings.com/2026/11/10/nfl-injury-report-week-10/"}},
-    {"titre": "Puka Nacua absent au moins un mois", "texte": "Le receveur des Rams (entorse MCL/PCL au genou droit et turf toe) devrait être placé sur la liste des blessés. Côté Seahawks, Sam Darnold est forfait et Drew Lock devrait débuter.", "source": {"nom": "NFL.com", "url": "https://www.nfl.com/news/nfl-power-rankings-week-10-2026-nfl-season"}},
-    {"titre": "Lions-Patriots à Munich, Goff sur le rapport médical", "texte": "Jared Goff est apparu limité (poitrine) sur le premier rapport de blessures de la semaine, sans indication qu'il puisse manquer le match de dimanche en Allemagne.", "source": {"nom": "Sports Illustrated", "url": "https://www.si.com/nfl/lions/onsi/detroit-lions-jared-goff-surprisingly-lands-week-10-injury-report-2026"}}
+    {
+      "titre": "Washington fait tomber les Giants au Thursday Night",
+      "texte": "Les Commanders ont battu les Giants 24-21 dans la nuit de jeudi à vendredi au MetLife Stadium. New York (5-3-1) reste en tête de la NFC Est ; Washington remonte à 3-5-1.",
+      "source": {
+        "nom": "ESPN – Semaine 10 2026",
+        "url": "https://www.espn.com/nfl/scoreboard/_/week/10/year/2026/seasontype/2"
+      }
+    },
+    {
+      "titre": "Trade deadline : Cousins aux Vikings, Jacksonville frappe fort",
+      "texte": "Minnesota a récupéré Kirk Cousins auprès des Raiders contre un 3e tour 2027, tandis que les Jaguars ont enchaîné trois échanges (dont Jordan Davis et Jessie Bates). Les Colts ont envoyé Keenan Allen aux 49ers et Josh Downs aux Chiefs.",
+      "source": {
+        "nom": "NFL.com",
+        "url": "https://www.nfl.com/news/nfl-power-rankings-week-10-2026-nfl-season"
+      }
+    },
+    {
+      "titre": "Les Bills dominent Minnesota au Monday Night",
+      "texte": "Buffalo s'est imposé 23-6 chez les Vikings lundi et grimpe à 7-1, à égalité de bilan avec San Francisco.",
+      "source": {
+        "nom": "ESPN",
+        "url": "https://www.espn.com/nfl/scoreboard/_/week/9/year/2026/seasontype/2"
+      }
+    },
+    {
+      "titre": "Mahomes touché au coude",
+      "texte": "Patrick Mahomes souffre d'une élongation au coude droit et est jugé au jour le jour ; Andy Reid parle d'une IRM « plutôt positive ». Justin Fields est en back-up avant le déplacement à Atlanta.",
+      "source": {
+        "nom": "DK Network",
+        "url": "https://dknetwork.draftkings.com/2026/11/10/nfl-injury-report-week-10/"
+      }
+    },
+    {
+      "titre": "Puka Nacua absent au moins un mois",
+      "texte": "Le receveur des Rams (entorse MCL/PCL au genou droit et turf toe) devrait être placé sur la liste des blessés. Côté Seahawks, Sam Darnold est forfait et Drew Lock devrait débuter.",
+      "source": {
+        "nom": "NFL.com",
+        "url": "https://www.nfl.com/news/nfl-power-rankings-week-10-2026-nfl-season"
+      }
+    },
+    {
+      "titre": "Lions-Patriots à Munich, Goff sur le rapport médical",
+      "texte": "Jared Goff est apparu limité (poitrine) sur le premier rapport de blessures de la semaine, sans indication qu'il puisse manquer le match de dimanche en Allemagne.",
+      "source": {
+        "nom": "Sports Illustrated",
+        "url": "https://www.si.com/nfl/lions/onsi/detroit-lions-jared-goff-surprisingly-lands-week-10-injury-report-2026"
+      }
+    }
   ],
   "sources": [
-    {"nom": "NFL.com – Classement 2026", "url": "https://www.nfl.com/standings/league/2026/reg"},
-    {"nom": "FOX Sports – Classement NFL par division", "url": "https://www.foxsports.com/nfl/standings"},
-    {"nom": "ESPN – Résultats semaine 9 2026", "url": "https://www.espn.com/nfl/scoreboard/_/week/9/year/2026/seasontype/2"},
-    {"nom": "ESPN – Programme semaine 10 2026", "url": "https://www.espn.com/nfl/scoreboard/_/week/10/year/2026/seasontype/2"},
-    {"nom": "NFL Playoff Pass – Horaires semaine 10", "url": "https://nflplayoffpass.com/nfl-week-10-schedule/"},
-    {"nom": "ESPN – Leaders statistiques 2026", "url": "https://www.espn.com/nfl/stats"},
-    {"nom": "FOX Sports – Leaders passes", "url": "https://www.foxsports.com/nfl/stats?category=passing&sort=p_yds&season=2026&seasonType=reg&sortOrder=desc"},
-    {"nom": "FOX Sports – Leaders course", "url": "https://www.foxsports.com/nfl/stats?category=rushing&season=2026&seasonType=reg"},
-    {"nom": "FOX Sports – Leaders réception", "url": "https://www.foxsports.com/nfl/stats?category=receiving&season=2026&seasonType=reg"},
-    {"nom": "FOX Sports – Leaders sacks", "url": "https://www.foxsports.com/nfl/stats?category=defense&sort=def_sck&season=2026&seasonType=reg&sortOrder=desc"},
-    {"nom": "NFL.com – Power Rankings semaine 10", "url": "https://www.nfl.com/news/nfl-power-rankings-week-10-2026-nfl-season"},
-    {"nom": "DK Network – Blessures semaine 10", "url": "https://dknetwork.draftkings.com/2026/11/10/nfl-injury-report-week-10/"},
-    {"nom": "Sports Illustrated – Lions", "url": "https://www.si.com/nfl/lions/onsi/detroit-lions-jared-goff-surprisingly-lands-week-10-injury-report-2026"}
+    {
+      "nom": "NFL.com – Classement 2026",
+      "url": "https://www.nfl.com/standings/league/2026/reg"
+    },
+    {
+      "nom": "FOX Sports – Classement NFL par division",
+      "url": "https://www.foxsports.com/nfl/standings"
+    },
+    {
+      "nom": "ESPN – Résultats semaine 9 2026",
+      "url": "https://www.espn.com/nfl/scoreboard/_/week/9/year/2026/seasontype/2"
+    },
+    {
+      "nom": "ESPN – Programme semaine 10 2026",
+      "url": "https://www.espn.com/nfl/scoreboard/_/week/10/year/2026/seasontype/2"
+    },
+    {
+      "nom": "NFL Playoff Pass – Horaires semaine 10",
+      "url": "https://nflplayoffpass.com/nfl-week-10-schedule/"
+    },
+    {
+      "nom": "ESPN – Leaders statistiques 2026",
+      "url": "https://www.espn.com/nfl/stats"
+    },
+    {
+      "nom": "FOX Sports – Leaders passes",
+      "url": "https://www.foxsports.com/nfl/stats?category=passing&sort=p_yds&season=2026&seasonType=reg&sortOrder=desc"
+    },
+    {
+      "nom": "FOX Sports – Leaders course",
+      "url": "https://www.foxsports.com/nfl/stats?category=rushing&season=2026&seasonType=reg"
+    },
+    {
+      "nom": "FOX Sports – Leaders réception",
+      "url": "https://www.foxsports.com/nfl/stats?category=receiving&season=2026&seasonType=reg"
+    },
+    {
+      "nom": "FOX Sports – Leaders sacks",
+      "url": "https://www.foxsports.com/nfl/stats?category=defense&sort=def_sck&season=2026&seasonType=reg&sortOrder=desc"
+    },
+    {
+      "nom": "NFL.com – Power Rankings semaine 10",
+      "url": "https://www.nfl.com/news/nfl-power-rankings-week-10-2026-nfl-season"
+    },
+    {
+      "nom": "DK Network – Blessures semaine 10",
+      "url": "https://dknetwork.draftkings.com/2026/11/10/nfl-injury-report-week-10/"
+    },
+    {
+      "nom": "Sports Illustrated – Lions",
+      "url": "https://www.si.com/nfl/lions/onsi/detroit-lions-jared-goff-surprisingly-lands-week-10-injury-report-2026"
+    }
   ]
 }

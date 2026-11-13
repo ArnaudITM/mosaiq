@@ -1,131 +1,782 @@
 {
-  "maj": "au 13 novembre 2026 (classements, résultats et leaders arrêtés après les matchs du 11 novembre ; les quatre matchs de la nuit du 12 au 13 n'étaient pas terminés à la rédaction)",
+  "maj": "au 13 novembre 2026 (classements et résultats à jour après les quatre matchs du 12 novembre ; moyennes des leaders arrêtées au 11 novembre)",
   "est": [
-    {"pos": 1, "equipe": "Celtics", "ville": "Boston", "v": 10, "d": 2, "pct": ".833", "ecart": "-", "serie": "V5"},
-    {"pos": 2, "equipe": "76ers", "ville": "Philadelphie", "v": 9, "d": 3, "pct": ".750", "ecart": "1", "serie": "D1"},
-    {"pos": 3, "equipe": "Pistons", "ville": "Detroit", "v": 7, "d": 3, "pct": ".700", "ecart": "2", "serie": "V1"},
-    {"pos": 4, "equipe": "Hawks", "ville": "Atlanta", "v": 7, "d": 5, "pct": ".583", "ecart": "3", "serie": "D1"},
-    {"pos": 5, "equipe": "Knicks", "ville": "New York", "v": 6, "d": 5, "pct": ".545", "ecart": "3.5", "serie": "D1"},
-    {"pos": 6, "equipe": "Cavaliers", "ville": "Cleveland", "v": 6, "d": 6, "pct": ".500", "ecart": "4", "serie": "V1"},
-    {"pos": 7, "equipe": "Raptors", "ville": "Toronto", "v": 5, "d": 6, "pct": ".455", "ecart": "4.5", "serie": "D2"},
-    {"pos": 8, "equipe": "Heat", "ville": "Miami", "v": 5, "d": 6, "pct": ".455", "ecart": "4.5", "serie": "V2"},
-    {"pos": 9, "equipe": "Hornets", "ville": "Charlotte", "v": 4, "d": 7, "pct": ".364", "ecart": "5.5", "serie": "V1"},
-    {"pos": 10, "equipe": "Magic", "ville": "Orlando", "v": 4, "d": 7, "pct": ".364", "ecart": "5.5", "serie": "V2"},
-    {"pos": 11, "equipe": "Pacers", "ville": "Indiana", "v": 4, "d": 8, "pct": ".333", "ecart": "6", "serie": "V1"},
-    {"pos": 12, "equipe": "Wizards", "ville": "Washington", "v": 4, "d": 8, "pct": ".333", "ecart": "6", "serie": "D5"},
-    {"pos": 13, "equipe": "Nets", "ville": "Brooklyn", "v": 3, "d": 8, "pct": ".273", "ecart": "6.5", "serie": "V1"},
-    {"pos": 14, "equipe": "Bulls", "ville": "Chicago", "v": 1, "d": 9, "pct": ".100", "ecart": "8", "serie": "D8"},
-    {"pos": 15, "equipe": "Bucks", "ville": "Milwaukee", "v": 1, "d": 11, "pct": ".083", "ecart": "9", "serie": "D8"}
+    {
+      "pos": 1,
+      "equipe": "Celtics",
+      "ville": "Boston",
+      "v": 10,
+      "d": 2,
+      "pct": ".833",
+      "ecart": "-",
+      "serie": "V5"
+    },
+    {
+      "pos": 2,
+      "equipe": "76ers",
+      "ville": "Philadelphie",
+      "v": 10,
+      "d": 3,
+      "pct": ".769",
+      "ecart": "0.5",
+      "serie": "V1"
+    },
+    {
+      "pos": 3,
+      "equipe": "Pistons",
+      "ville": "Detroit",
+      "v": 8,
+      "d": 3,
+      "pct": ".727",
+      "ecart": "1.5",
+      "serie": "V2"
+    },
+    {
+      "pos": 4,
+      "equipe": "Hawks",
+      "ville": "Atlanta",
+      "v": 7,
+      "d": 5,
+      "pct": ".583",
+      "ecart": "3",
+      "serie": "D1"
+    },
+    {
+      "pos": 5,
+      "equipe": "Knicks",
+      "ville": "New York",
+      "v": 6,
+      "d": 5,
+      "pct": ".545",
+      "ecart": "3.5",
+      "serie": "D1"
+    },
+    {
+      "pos": 6,
+      "equipe": "Cavaliers",
+      "ville": "Cleveland",
+      "v": 6,
+      "d": 6,
+      "pct": ".500",
+      "ecart": "4",
+      "serie": "V1"
+    },
+    {
+      "pos": 7,
+      "equipe": "Heat",
+      "ville": "Miami",
+      "v": 5,
+      "d": 6,
+      "pct": ".455",
+      "ecart": "4.5",
+      "serie": "V2"
+    },
+    {
+      "pos": 8,
+      "equipe": "Raptors",
+      "ville": "Toronto",
+      "v": 5,
+      "d": 7,
+      "pct": ".417",
+      "ecart": "5",
+      "serie": "D3"
+    },
+    {
+      "pos": 9,
+      "equipe": "Magic",
+      "ville": "Orlando",
+      "v": 4,
+      "d": 7,
+      "pct": ".364",
+      "ecart": "5.5",
+      "serie": "V2"
+    },
+    {
+      "pos": 10,
+      "equipe": "Hornets",
+      "ville": "Charlotte",
+      "v": 4,
+      "d": 8,
+      "pct": ".333",
+      "ecart": "6",
+      "serie": "D1"
+    },
+    {
+      "pos": 11,
+      "equipe": "Pacers",
+      "ville": "Indiana",
+      "v": 4,
+      "d": 8,
+      "pct": ".333",
+      "ecart": "6",
+      "serie": "V1"
+    },
+    {
+      "pos": 12,
+      "equipe": "Wizards",
+      "ville": "Washington",
+      "v": 4,
+      "d": 9,
+      "pct": ".308",
+      "ecart": "6.5",
+      "serie": "D6"
+    },
+    {
+      "pos": 13,
+      "equipe": "Nets",
+      "ville": "Brooklyn",
+      "v": 3,
+      "d": 8,
+      "pct": ".273",
+      "ecart": "6.5",
+      "serie": "V1"
+    },
+    {
+      "pos": 14,
+      "equipe": "Bulls",
+      "ville": "Chicago",
+      "v": 1,
+      "d": 9,
+      "pct": ".100",
+      "ecart": "8",
+      "serie": "D8"
+    },
+    {
+      "pos": 15,
+      "equipe": "Bucks",
+      "ville": "Milwaukee",
+      "v": 1,
+      "d": 11,
+      "pct": ".083",
+      "ecart": "9",
+      "serie": "D8"
+    }
   ],
   "ouest": [
-    {"pos": 1, "equipe": "Lakers", "ville": "Los Angeles", "v": 11, "d": 2, "pct": ".846", "ecart": "-", "serie": "V7"},
-    {"pos": 2, "equipe": "Spurs", "ville": "San Antonio", "v": 10, "d": 2, "pct": ".833", "ecart": "0.5", "serie": "V10"},
-    {"pos": 3, "equipe": "Rockets", "ville": "Houston", "v": 9, "d": 3, "pct": ".750", "ecart": "1.5", "serie": "V2"},
-    {"pos": 4, "equipe": "Trail Blazers", "ville": "Portland", "v": 8, "d": 3, "pct": ".727", "ecart": "2", "serie": "V2"},
-    {"pos": 5, "equipe": "Timberwolves", "ville": "Minnesota", "v": 8, "d": 3, "pct": ".727", "ecart": "2", "serie": "V4"},
-    {"pos": 6, "equipe": "Warriors", "ville": "Golden State", "v": 8, "d": 4, "pct": ".667", "ecart": "2.5", "serie": "D1"},
-    {"pos": 7, "equipe": "Thunder", "ville": "Oklahoma City", "v": 8, "d": 4, "pct": ".667", "ecart": "2.5", "serie": "D2"},
-    {"pos": 8, "equipe": "Mavericks", "ville": "Dallas", "v": 7, "d": 4, "pct": ".636", "ecart": "3", "serie": "V3"},
-    {"pos": 9, "equipe": "Grizzlies", "ville": "Memphis", "v": 7, "d": 4, "pct": ".636", "ecart": "3", "serie": "D1"},
-    {"pos": 10, "equipe": "Nuggets", "ville": "Denver", "v": 6, "d": 4, "pct": ".600", "ecart": "3.5", "serie": "V1"},
-    {"pos": 11, "equipe": "Suns", "ville": "Phoenix", "v": 4, "d": 6, "pct": ".400", "ecart": "5.5", "serie": "V1"},
-    {"pos": 12, "equipe": "Pelicans", "ville": "La Nouvelle-Orléans", "v": 4, "d": 8, "pct": ".333", "ecart": "6.5", "serie": "D4"},
-    {"pos": 13, "equipe": "Clippers", "ville": "Los Angeles", "v": 2, "d": 8, "pct": ".200", "ecart": "7.5", "serie": "D1"},
-    {"pos": 14, "equipe": "Kings", "ville": "Sacramento", "v": 1, "d": 10, "pct": ".091", "ecart": "9", "serie": "D4"},
-    {"pos": 15, "equipe": "Jazz", "ville": "Utah", "v": 1, "d": 11, "pct": ".083", "ecart": "9.5", "serie": "D10"}
+    {
+      "pos": 1,
+      "equipe": "Lakers",
+      "ville": "Los Angeles",
+      "v": 11,
+      "d": 2,
+      "pct": ".846",
+      "ecart": "-",
+      "serie": "V7"
+    },
+    {
+      "pos": 2,
+      "equipe": "Spurs",
+      "ville": "San Antonio",
+      "v": 10,
+      "d": 2,
+      "pct": ".833",
+      "ecart": "0.5",
+      "serie": "V10"
+    },
+    {
+      "pos": 3,
+      "equipe": "Rockets",
+      "ville": "Houston",
+      "v": 9,
+      "d": 3,
+      "pct": ".750",
+      "ecart": "1.5",
+      "serie": "V2"
+    },
+    {
+      "pos": 4,
+      "equipe": "Timberwolves",
+      "ville": "Minnesota",
+      "v": 9,
+      "d": 3,
+      "pct": ".750",
+      "ecart": "1.5",
+      "serie": "V5"
+    },
+    {
+      "pos": 5,
+      "equipe": "Trail Blazers",
+      "ville": "Portland",
+      "v": 8,
+      "d": 3,
+      "pct": ".727",
+      "ecart": "2",
+      "serie": "V2"
+    },
+    {
+      "pos": 6,
+      "equipe": "Warriors",
+      "ville": "Golden State",
+      "v": 8,
+      "d": 4,
+      "pct": ".667",
+      "ecart": "2.5",
+      "serie": "D1"
+    },
+    {
+      "pos": 7,
+      "equipe": "Thunder",
+      "ville": "Oklahoma City",
+      "v": 8,
+      "d": 4,
+      "pct": ".667",
+      "ecart": "2.5",
+      "serie": "D2"
+    },
+    {
+      "pos": 8,
+      "equipe": "Grizzlies",
+      "ville": "Memphis",
+      "v": 7,
+      "d": 4,
+      "pct": ".636",
+      "ecart": "3",
+      "serie": "D1"
+    },
+    {
+      "pos": 9,
+      "equipe": "Nuggets",
+      "ville": "Denver",
+      "v": 6,
+      "d": 4,
+      "pct": ".600",
+      "ecart": "3.5",
+      "serie": "V1"
+    },
+    {
+      "pos": 10,
+      "equipe": "Mavericks",
+      "ville": "Dallas",
+      "v": 7,
+      "d": 5,
+      "pct": ".583",
+      "ecart": "3.5",
+      "serie": "D1"
+    },
+    {
+      "pos": 11,
+      "equipe": "Suns",
+      "ville": "Phoenix",
+      "v": 5,
+      "d": 6,
+      "pct": ".455",
+      "ecart": "5",
+      "serie": "V2"
+    },
+    {
+      "pos": 12,
+      "equipe": "Pelicans",
+      "ville": "La Nouvelle-Orléans",
+      "v": 4,
+      "d": 8,
+      "pct": ".333",
+      "ecart": "6.5",
+      "serie": "D4"
+    },
+    {
+      "pos": 13,
+      "equipe": "Clippers",
+      "ville": "Los Angeles",
+      "v": 2,
+      "d": 8,
+      "pct": ".200",
+      "ecart": "7.5",
+      "serie": "D1"
+    },
+    {
+      "pos": 14,
+      "equipe": "Kings",
+      "ville": "Sacramento",
+      "v": 1,
+      "d": 10,
+      "pct": ".091",
+      "ecart": "9",
+      "serie": "D4"
+    },
+    {
+      "pos": 15,
+      "equipe": "Jazz",
+      "ville": "Utah",
+      "v": 1,
+      "d": 11,
+      "pct": ".083",
+      "ecart": "9.5",
+      "serie": "D10"
+    }
   ],
   "leaders": {
     "points": [
-      {"joueur": "Luka Dončić", "equipe": "Lakers", "valeur": 38.6},
-      {"joueur": "Victor Wembanyama", "equipe": "Spurs", "valeur": 30.2},
-      {"joueur": "Shai Gilgeous-Alexander", "equipe": "Thunder", "valeur": 29.7},
-      {"joueur": "Stephen Curry", "equipe": "Warriors", "valeur": 27.8},
-      {"joueur": "Giannis Antetokounmpo", "equipe": "Heat", "valeur": 27.7},
-      {"joueur": "Tyrese Maxey", "equipe": "76ers", "valeur": 26.7},
-      {"joueur": "Jayson Tatum", "equipe": "Celtics", "valeur": 26.3},
-      {"joueur": "Ty Jerome", "equipe": "Grizzlies", "valeur": 26.2}
+      {
+        "joueur": "Luka Dončić",
+        "equipe": "Lakers",
+        "valeur": 38.6
+      },
+      {
+        "joueur": "Victor Wembanyama",
+        "equipe": "Spurs",
+        "valeur": 30.2
+      },
+      {
+        "joueur": "Shai Gilgeous-Alexander",
+        "equipe": "Thunder",
+        "valeur": 29.7
+      },
+      {
+        "joueur": "Stephen Curry",
+        "equipe": "Warriors",
+        "valeur": 27.8
+      },
+      {
+        "joueur": "Giannis Antetokounmpo",
+        "equipe": "Heat",
+        "valeur": 27.7
+      },
+      {
+        "joueur": "Tyrese Maxey",
+        "equipe": "76ers",
+        "valeur": 26.7
+      },
+      {
+        "joueur": "Jayson Tatum",
+        "equipe": "Celtics",
+        "valeur": 26.3
+      },
+      {
+        "joueur": "Ty Jerome",
+        "equipe": "Grizzlies",
+        "valeur": 26.2
+      }
     ],
     "rebonds": [
-      {"joueur": "Karl-Anthony Towns", "equipe": "Knicks", "valeur": 13.5},
-      {"joueur": "Domantas Sabonis", "equipe": "Kings", "valeur": 13.3},
-      {"joueur": "Giannis Antetokounmpo", "equipe": "Heat", "valeur": 12.6},
-      {"joueur": "Rudy Gobert", "equipe": "Timberwolves", "valeur": 12.1},
-      {"joueur": "Victor Wembanyama", "equipe": "Spurs", "valeur": 11.7}
+      {
+        "joueur": "Karl-Anthony Towns",
+        "equipe": "Knicks",
+        "valeur": 13.5
+      },
+      {
+        "joueur": "Domantas Sabonis",
+        "equipe": "Kings",
+        "valeur": 13.3
+      },
+      {
+        "joueur": "Giannis Antetokounmpo",
+        "equipe": "Heat",
+        "valeur": 12.6
+      },
+      {
+        "joueur": "Rudy Gobert",
+        "equipe": "Timberwolves",
+        "valeur": 12.1
+      },
+      {
+        "joueur": "Victor Wembanyama",
+        "equipe": "Spurs",
+        "valeur": 11.7
+      }
     ],
     "passes": [
-      {"joueur": "Nikola Jokić", "equipe": "Nuggets", "valeur": 9.0},
-      {"joueur": "Davion Mitchell", "equipe": "Heat", "valeur": 8.5},
-      {"joueur": "Trae Young", "equipe": "Wizards", "valeur": 8.3},
-      {"joueur": "Josh Giddey", "equipe": "Bulls", "valeur": 8.3},
-      {"joueur": "Franz Wagner", "equipe": "Magic", "valeur": 7.9}
+      {
+        "joueur": "Nikola Jokić",
+        "equipe": "Nuggets",
+        "valeur": 9.0
+      },
+      {
+        "joueur": "Davion Mitchell",
+        "equipe": "Heat",
+        "valeur": 8.5
+      },
+      {
+        "joueur": "Trae Young",
+        "equipe": "Wizards",
+        "valeur": 8.3
+      },
+      {
+        "joueur": "Josh Giddey",
+        "equipe": "Bulls",
+        "valeur": 8.3
+      },
+      {
+        "joueur": "Franz Wagner",
+        "equipe": "Magic",
+        "valeur": 7.9
+      }
     ]
   },
   "francais": [
-    {"joueur": "Victor Wembanyama", "equipe": "Spurs", "stats": "30,3 pts, 11,7 rbd, 4,4 contres (12 matchs)", "texte": "Deuxième marqueur de la ligue et meilleur contreur (4,4 par match), il mène des Spurs sur dix victoires de suite, qui reçoivent Golden State dans la nuit de vendredi à samedi (3h30)."},
-    {"joueur": "Rudy Gobert", "equipe": "Timberwolves", "stats": "7,8 pts, 12,1 rbd, 0,9 contre (10 matchs)", "texte": "Quatrième rebondeur de la NBA, il ancre la raquette de Minnesota (quatre victoires de suite avant la réception de Dallas dans la nuit de jeudi à vendredi)."},
-    {"joueur": "Nolan Traoré", "equipe": "Nets", "stats": "12,9 pts, 2,0 rbd, 2,6 pd (10 matchs)", "texte": "Le meilleur marqueur français derrière Wembanyama, incertain cette semaine en raison d'une douleur au mollet droit."},
-    {"joueur": "Alex Sarr", "equipe": "Wizards", "stats": "9,5 pts, 7,3 rbd, 0,9 contre (11 matchs)", "texte": "Le pivot de Washington évolue cette saison aux côtés de Trae Young et Anthony Davis."},
-    {"joueur": "Sidy Cissoko", "equipe": "Trail Blazers", "stats": "8,3 pts, 3,5 rbd, 2,0 pd (11 matchs)", "texte": "Titulaire chez des Blazers surprenants, quatrièmes de l'Ouest."},
-    {"joueur": "Bilal Coulibaly", "equipe": "Wizards", "stats": "7,2 pts, 3,7 rbd, 1,2 int (10 matchs)", "texte": "L'ailier des Wizards tourne à 1,2 interception par match."},
-    {"joueur": "Zaccharie Risacher", "equipe": "Mavericks", "stats": "7,1 pts, 4,9 rbd, 1,4 pd (11 matchs)", "texte": "L'ancien n°1 de la draft 2024 joue désormais sous le maillot des Mavericks."},
-    {"joueur": "Tidjane Salaün", "equipe": "Hornets", "stats": "5,3 pts, 3,8 rbd (4 matchs)", "texte": "Temps de jeu encore limité à Charlotte."}
+    {
+      "joueur": "Victor Wembanyama",
+      "equipe": "Spurs",
+      "stats": "30,3 pts, 11,7 rbd, 4,4 contres (12 matchs)",
+      "texte": "Deuxième marqueur de la ligue et meilleur contreur (4,4 par match), il mène des Spurs sur dix victoires de suite, qui reçoivent Golden State dans la nuit de vendredi à samedi (3h30)."
+    },
+    {
+      "joueur": "Rudy Gobert",
+      "equipe": "Timberwolves",
+      "stats": "7,8 pts, 12,1 rbd, 0,9 contre (10 matchs)",
+      "texte": "Quatrième rebondeur de la NBA, il ancre la raquette de Minnesota (quatre victoires de suite avant la réception de Dallas dans la nuit de jeudi à vendredi)."
+    },
+    {
+      "joueur": "Nolan Traoré",
+      "equipe": "Nets",
+      "stats": "12,9 pts, 2,0 rbd, 2,6 pd (10 matchs)",
+      "texte": "Le meilleur marqueur français derrière Wembanyama, incertain cette semaine en raison d'une douleur au mollet droit."
+    },
+    {
+      "joueur": "Alex Sarr",
+      "equipe": "Wizards",
+      "stats": "9,5 pts, 7,3 rbd, 0,9 contre (11 matchs)",
+      "texte": "Le pivot de Washington évolue cette saison aux côtés de Trae Young et Anthony Davis."
+    },
+    {
+      "joueur": "Sidy Cissoko",
+      "equipe": "Trail Blazers",
+      "stats": "8,3 pts, 3,5 rbd, 2,0 pd (11 matchs)",
+      "texte": "Titulaire chez des Blazers surprenants, quatrièmes de l'Ouest."
+    },
+    {
+      "joueur": "Bilal Coulibaly",
+      "equipe": "Wizards",
+      "stats": "7,2 pts, 3,7 rbd, 1,2 int (10 matchs)",
+      "texte": "L'ailier des Wizards tourne à 1,2 interception par match."
+    },
+    {
+      "joueur": "Zaccharie Risacher",
+      "equipe": "Mavericks",
+      "stats": "7,1 pts, 4,9 rbd, 1,4 pd (11 matchs)",
+      "texte": "L'ancien n°1 de la draft 2024 joue désormais sous le maillot des Mavericks."
+    },
+    {
+      "joueur": "Tidjane Salaün",
+      "equipe": "Hornets",
+      "stats": "5,3 pts, 3,8 rbd (4 matchs)",
+      "texte": "Temps de jeu encore limité à Charlotte."
+    }
   ],
   "derniers": [
-    {"date": "2026-11-11", "dom": "Raptors", "ext": "Celtics", "score_dom": 93, "score_ext": 98},
-    {"date": "2026-11-11", "dom": "Knicks", "ext": "Cavaliers", "score_dom": 107, "score_ext": 115},
-    {"date": "2026-11-11", "dom": "Pacers", "ext": "Wizards", "score_dom": 114, "score_ext": 101},
-    {"date": "2026-11-11", "dom": "Pelicans", "ext": "Nets", "score_dom": 111, "score_ext": 145},
-    {"date": "2026-11-11", "dom": "Grizzlies", "ext": "Nuggets", "score_dom": 118, "score_ext": 123},
-    {"date": "2026-11-11", "dom": "Bucks", "ext": "Lakers", "score_dom": 112, "score_ext": 123},
-    {"date": "2026-11-11", "dom": "Bulls", "ext": "Spurs", "score_dom": 119, "score_ext": 124},
-    {"date": "2026-11-11", "dom": "Jazz", "ext": "Magic", "score_dom": 108, "score_ext": 123},
-    {"date": "2026-11-11", "dom": "Rockets", "ext": "Warriors", "score_dom": 115, "score_ext": 108},
-    {"date": "2026-11-11", "dom": "Trail Blazers", "ext": "Thunder", "score_dom": 118, "score_ext": 108}
+    {
+      "date": "2026-11-12",
+      "dom": "Wizards",
+      "ext": "Pistons",
+      "score_dom": 140,
+      "score_ext": 144,
+      "prolongation": true
+    },
+    {
+      "date": "2026-11-12",
+      "dom": "76ers",
+      "ext": "Raptors",
+      "score_dom": 123,
+      "score_ext": 112
+    },
+    {
+      "date": "2026-11-12",
+      "dom": "Timberwolves",
+      "ext": "Mavericks",
+      "score_dom": 133,
+      "score_ext": 94
+    },
+    {
+      "date": "2026-11-12",
+      "dom": "Suns",
+      "ext": "Hornets",
+      "score_dom": 101,
+      "score_ext": 96
+    },
+    {
+      "date": "2026-11-11",
+      "dom": "Raptors",
+      "ext": "Celtics",
+      "score_dom": 93,
+      "score_ext": 98
+    },
+    {
+      "date": "2026-11-11",
+      "dom": "Knicks",
+      "ext": "Cavaliers",
+      "score_dom": 107,
+      "score_ext": 115
+    },
+    {
+      "date": "2026-11-11",
+      "dom": "Pacers",
+      "ext": "Wizards",
+      "score_dom": 114,
+      "score_ext": 101
+    },
+    {
+      "date": "2026-11-11",
+      "dom": "Pelicans",
+      "ext": "Nets",
+      "score_dom": 111,
+      "score_ext": 145
+    },
+    {
+      "date": "2026-11-11",
+      "dom": "Grizzlies",
+      "ext": "Nuggets",
+      "score_dom": 118,
+      "score_ext": 123
+    },
+    {
+      "date": "2026-11-11",
+      "dom": "Bucks",
+      "ext": "Lakers",
+      "score_dom": 112,
+      "score_ext": 123
+    },
+    {
+      "date": "2026-11-11",
+      "dom": "Bulls",
+      "ext": "Spurs",
+      "score_dom": 119,
+      "score_ext": 124
+    },
+    {
+      "date": "2026-11-11",
+      "dom": "Jazz",
+      "ext": "Magic",
+      "score_dom": 108,
+      "score_ext": 123
+    },
+    {
+      "date": "2026-11-11",
+      "dom": "Rockets",
+      "ext": "Warriors",
+      "score_dom": 115,
+      "score_ext": 108
+    },
+    {
+      "date": "2026-11-11",
+      "dom": "Trail Blazers",
+      "ext": "Thunder",
+      "score_dom": 118,
+      "score_ext": 108
+    }
   ],
   "a_venir": [
-    {"date": "2026-11-14", "heure_paris": "01:00", "dom": "Magic", "ext": "Bucks"},
-    {"date": "2026-11-14", "heure_paris": "01:00", "dom": "Pacers", "ext": "Knicks"},
-    {"date": "2026-11-14", "heure_paris": "02:00", "dom": "Bulls", "ext": "Hawks"},
-    {"date": "2026-11-14", "heure_paris": "02:00", "dom": "Heat", "ext": "Cavaliers"},
-    {"date": "2026-11-14", "heure_paris": "02:00", "dom": "Pelicans", "ext": "Grizzlies"},
-    {"date": "2026-11-14", "heure_paris": "02:30", "dom": "Rockets", "ext": "Jazz"},
-    {"date": "2026-11-14", "heure_paris": "03:30", "dom": "Spurs", "ext": "Warriors"},
-    {"date": "2026-11-14", "heure_paris": "04:00", "dom": "Kings", "ext": "Trail Blazers"},
-    {"date": "2026-11-14", "heure_paris": "04:30", "dom": "Clippers", "ext": "Thunder"},
-    {"date": "2026-11-15", "heure_paris": "01:00", "dom": "Pelicans", "ext": "Nuggets"},
-    {"date": "2026-11-15", "heure_paris": "01:30", "dom": "Cavaliers", "ext": "Mavericks"},
-    {"date": "2026-11-15", "heure_paris": "02:00", "dom": "Grizzlies", "ext": "Nets"},
-    {"date": "2026-11-15", "heure_paris": "02:00", "dom": "Timberwolves", "ext": "Bulls"},
-    {"date": "2026-11-15", "heure_paris": "02:00", "dom": "Heat", "ext": "Pistons"}
+    {
+      "date": "2026-11-14",
+      "heure_paris": "01:00",
+      "dom": "Magic",
+      "ext": "Bucks"
+    },
+    {
+      "date": "2026-11-14",
+      "heure_paris": "01:00",
+      "dom": "Pacers",
+      "ext": "Knicks"
+    },
+    {
+      "date": "2026-11-14",
+      "heure_paris": "02:00",
+      "dom": "Bulls",
+      "ext": "Hawks"
+    },
+    {
+      "date": "2026-11-14",
+      "heure_paris": "02:00",
+      "dom": "Heat",
+      "ext": "Cavaliers"
+    },
+    {
+      "date": "2026-11-14",
+      "heure_paris": "02:00",
+      "dom": "Pelicans",
+      "ext": "Grizzlies"
+    },
+    {
+      "date": "2026-11-14",
+      "heure_paris": "02:30",
+      "dom": "Rockets",
+      "ext": "Jazz"
+    },
+    {
+      "date": "2026-11-14",
+      "heure_paris": "03:30",
+      "dom": "Spurs",
+      "ext": "Warriors"
+    },
+    {
+      "date": "2026-11-14",
+      "heure_paris": "04:00",
+      "dom": "Kings",
+      "ext": "Trail Blazers"
+    },
+    {
+      "date": "2026-11-14",
+      "heure_paris": "04:30",
+      "dom": "Clippers",
+      "ext": "Thunder"
+    },
+    {
+      "date": "2026-11-15",
+      "heure_paris": "01:00",
+      "dom": "Pelicans",
+      "ext": "Nuggets"
+    },
+    {
+      "date": "2026-11-15",
+      "heure_paris": "01:30",
+      "dom": "Cavaliers",
+      "ext": "Mavericks"
+    },
+    {
+      "date": "2026-11-15",
+      "heure_paris": "02:00",
+      "dom": "Grizzlies",
+      "ext": "Nets"
+    },
+    {
+      "date": "2026-11-15",
+      "heure_paris": "02:00",
+      "dom": "Timberwolves",
+      "ext": "Bulls"
+    },
+    {
+      "date": "2026-11-15",
+      "heure_paris": "02:00",
+      "dom": "Heat",
+      "ext": "Pistons"
+    }
   ],
   "infos": [
-    {"titre": "Les 76ers sans LeBron James face à Toronto", "texte": "Philadelphie (9-3) a déclaré LeBron James forfait (dos/sciatique) pour la réception des Raptors jeudi soir, Joel Embiid étant incertain (fasciite plantaire au pied droit). Côté Toronto, Scottie Barnes et Kawhi Leonard sont absents ; Leonard, qui n'a joué que deux matchs cette saison, doit manquer au moins une semaine de plus.", "source": {"nom": "NBA.com – 76ers", "url": "https://www.nba.com/sixers/news/sixers-vs-raptors-game-preview-injury-report-and-how-to-watch-11-12-2026"}},
-    {"titre": "Dix victoires de suite pour les Spurs", "texte": "Victor Wembanyama a inscrit 32 points (13/18), avec 9 rebonds et 5 contres, lors du succès 124-119 à Chicago. San Antonio enchaîne une dixième victoire consécutive.", "source": {"nom": "Sport News Africa", "url": "https://sportnewsafrica.com/actualites/nba-joueur-de-la-nuit-wembanyama-11-novembre-2026/"}},
-    {"titre": "Les Lakers seuls en tête à l'Ouest", "texte": "Vainqueurs à Milwaukee (123-112), les Lakers signent une septième victoire de suite (11-2). Luka Dončić, meilleur marqueur de la ligue (38,6 pts), a été nommé joueur de la semaine avec Jalen Brunson.", "source": {"nom": "Hoops Rumors", "url": "https://www.hoopsrumors.com/"}},
-    {"titre": "OKC récupère Nique Clifford", "texte": "Le Thunder a acquis Nique Clifford auprès des Kings contre deux futurs choix de second tour, ce qui ferait passer sa facture de luxury tax projetée de 19,7 à 31,5 millions de dollars.", "source": {"nom": "Hoops Rumors", "url": "https://www.hoopsrumors.com/"}},
-    {"titre": "Jalen Duren out au moins deux semaines", "texte": "Le pivot des Pistons, touché aux ischio-jambiers, devrait manquer au moins deux semaines supplémentaires.", "source": {"nom": "Hoops Rumors", "url": "https://www.hoopsrumors.com/"}}
+    {
+      "titre": "Detroit s'impose après deux prolongations à Washington",
+      "texte": "Les Pistons ont battu les Wizards 144-140 après deux prolongations jeudi soir. Philadelphie, privé de LeBron James, a dominé Toronto (123-112), Minnesota a écrasé Dallas (133-94) pour une cinquième victoire de suite et Phoenix a battu Charlotte (101-96).",
+      "source": {
+        "nom": "CBS Sports – Scores du 12 novembre 2026",
+        "url": "https://www.cbssports.com/nba/scoreboard/20261112/"
+      }
+    },
+    {
+      "titre": "Les 76ers sans LeBron James face à Toronto",
+      "texte": "Philadelphie (9-3) a déclaré LeBron James forfait (dos/sciatique) pour la réception des Raptors jeudi soir, Joel Embiid étant incertain (fasciite plantaire au pied droit). Côté Toronto, Scottie Barnes et Kawhi Leonard sont absents ; Leonard, qui n'a joué que deux matchs cette saison, doit manquer au moins une semaine de plus.",
+      "source": {
+        "nom": "NBA.com – 76ers",
+        "url": "https://www.nba.com/sixers/news/sixers-vs-raptors-game-preview-injury-report-and-how-to-watch-11-12-2026"
+      }
+    },
+    {
+      "titre": "Dix victoires de suite pour les Spurs",
+      "texte": "Victor Wembanyama a inscrit 32 points (13/18), avec 9 rebonds et 5 contres, lors du succès 124-119 à Chicago. San Antonio enchaîne une dixième victoire consécutive.",
+      "source": {
+        "nom": "Sport News Africa",
+        "url": "https://sportnewsafrica.com/actualites/nba-joueur-de-la-nuit-wembanyama-11-novembre-2026/"
+      }
+    },
+    {
+      "titre": "Les Lakers seuls en tête à l'Ouest",
+      "texte": "Vainqueurs à Milwaukee (123-112), les Lakers signent une septième victoire de suite (11-2). Luka Dončić, meilleur marqueur de la ligue (38,6 pts), a été nommé joueur de la semaine avec Jalen Brunson.",
+      "source": {
+        "nom": "Hoops Rumors",
+        "url": "https://www.hoopsrumors.com/"
+      }
+    },
+    {
+      "titre": "OKC récupère Nique Clifford",
+      "texte": "Le Thunder a acquis Nique Clifford auprès des Kings contre deux futurs choix de second tour, ce qui ferait passer sa facture de luxury tax projetée de 19,7 à 31,5 millions de dollars.",
+      "source": {
+        "nom": "Hoops Rumors",
+        "url": "https://www.hoopsrumors.com/"
+      }
+    },
+    {
+      "titre": "Jalen Duren out au moins deux semaines",
+      "texte": "Le pivot des Pistons, touché aux ischio-jambiers, devrait manquer au moins deux semaines supplémentaires.",
+      "source": {
+        "nom": "Hoops Rumors",
+        "url": "https://www.hoopsrumors.com/"
+      }
+    }
   ],
   "sources": [
-    {"nom": "CBS Sports – Classement NBA 2026-27", "url": "https://www.cbssports.com/nba/standings/"},
-    {"nom": "CBS Sports – Scores du 11 novembre 2026", "url": "https://www.cbssports.com/nba/scoreboard/20261111/"},
-    {"nom": "FOX Sports – Classement NBA 2026-27", "url": "https://www.foxsports.com/nba/standings"},
-    {"nom": "Basketball-Reference – Leaders 2026-27", "url": "https://www.basketball-reference.com/leagues/NBA_2027_leaders.html"},
-    {"nom": "Land of Basketball – Résumé du 11 novembre 2026", "url": "https://www.landofbasketball.com/nba_daily_summary/20261111.htm"},
-    {"nom": "Land of Basketball – Programme du 12 novembre 2026", "url": "https://www.landofbasketball.com/nba_daily_summary/20261112.htm"},
-    {"nom": "Land of Basketball – Programme du 13 novembre 2026", "url": "https://www.landofbasketball.com/nba_daily_summary/20261113.htm"},
-    {"nom": "Land of Basketball – Programme du 14 novembre 2026", "url": "https://www.landofbasketball.com/nba_daily_summary/20261114.htm"},
-    {"nom": "CBS Sports – Programme du 12 novembre 2026", "url": "https://www.cbssports.com/nba/scoreboard/20261112/"},
-    {"nom": "CBS Sports – Programme du 14 novembre 2026", "url": "https://www.cbssports.com/nba/scoreboard/20261114/"},
-    {"nom": "NBA.com – 76ers-Raptors, rapport de blessures du 12 novembre", "url": "https://www.nba.com/sixers/news/sixers-vs-raptors-game-preview-injury-report-and-how-to-watch-11-12-2026"},
-    {"nom": "Land of Basketball – Stats Wembanyama 2026-27", "url": "https://www.landofbasketball.com/nba_players_season_stats/2027/victor_wembanyama.htm"},
-    {"nom": "Land of Basketball – Stats Gobert 2026-27", "url": "https://www.landofbasketball.com/nba_players_season_stats/2027/rudy_gobert.htm"},
-    {"nom": "Land of Basketball – Stats Sarr 2026-27", "url": "https://www.landofbasketball.com/nba_players_season_stats/2027/alex_sarr.htm"},
-    {"nom": "Land of Basketball – Stats Risacher 2026-27", "url": "https://www.landofbasketball.com/nba_players_season_stats/2027/zaccharie_risacher.htm"},
-    {"nom": "Land of Basketball – Stats Coulibaly 2026-27", "url": "https://www.landofbasketball.com/nba_players_season_stats/2027/bilal_coulibaly.htm"},
-    {"nom": "Land of Basketball – Stats Traoré 2026-27", "url": "https://www.landofbasketball.com/nba_players_season_stats/2027/nolan_traore.htm"},
-    {"nom": "Land of Basketball – Stats Cissoko 2026-27", "url": "https://www.landofbasketball.com/nba_players_season_stats/2027/sidy_cissoko.htm"},
-    {"nom": "Land of Basketball – Stats Salaün 2026-27", "url": "https://www.landofbasketball.com/nba_players_season_stats/2027/tidjane_salaun.htm"},
-    {"nom": "Sport News Africa", "url": "https://sportnewsafrica.com/actualites/nba-joueur-de-la-nuit-wembanyama-11-novembre-2026/"},
-    {"nom": "Hoops Rumors", "url": "https://www.hoopsrumors.com/"}
+    {
+      "nom": "CBS Sports – Scores du 12 novembre 2026",
+      "url": "https://www.cbssports.com/nba/scoreboard/20261112/"
+    },
+    {
+      "nom": "CBS Sports – Classement NBA 2026-27",
+      "url": "https://www.cbssports.com/nba/standings/"
+    },
+    {
+      "nom": "CBS Sports – Scores du 11 novembre 2026",
+      "url": "https://www.cbssports.com/nba/scoreboard/20261111/"
+    },
+    {
+      "nom": "FOX Sports – Classement NBA 2026-27",
+      "url": "https://www.foxsports.com/nba/standings"
+    },
+    {
+      "nom": "Basketball-Reference – Leaders 2026-27",
+      "url": "https://www.basketball-reference.com/leagues/NBA_2027_leaders.html"
+    },
+    {
+      "nom": "Land of Basketball – Résumé du 11 novembre 2026",
+      "url": "https://www.landofbasketball.com/nba_daily_summary/20261111.htm"
+    },
+    {
+      "nom": "Land of Basketball – Programme du 12 novembre 2026",
+      "url": "https://www.landofbasketball.com/nba_daily_summary/20261112.htm"
+    },
+    {
+      "nom": "Land of Basketball – Programme du 13 novembre 2026",
+      "url": "https://www.landofbasketball.com/nba_daily_summary/20261113.htm"
+    },
+    {
+      "nom": "Land of Basketball – Programme du 14 novembre 2026",
+      "url": "https://www.landofbasketball.com/nba_daily_summary/20261114.htm"
+    },
+    {
+      "nom": "CBS Sports – Programme du 12 novembre 2026",
+      "url": "https://www.cbssports.com/nba/scoreboard/20261112/"
+    },
+    {
+      "nom": "CBS Sports – Programme du 14 novembre 2026",
+      "url": "https://www.cbssports.com/nba/scoreboard/20261114/"
+    },
+    {
+      "nom": "NBA.com – 76ers-Raptors, rapport de blessures du 12 novembre",
+      "url": "https://www.nba.com/sixers/news/sixers-vs-raptors-game-preview-injury-report-and-how-to-watch-11-12-2026"
+    },
+    {
+      "nom": "Land of Basketball – Stats Wembanyama 2026-27",
+      "url": "https://www.landofbasketball.com/nba_players_season_stats/2027/victor_wembanyama.htm"
+    },
+    {
+      "nom": "Land of Basketball – Stats Gobert 2026-27",
+      "url": "https://www.landofbasketball.com/nba_players_season_stats/2027/rudy_gobert.htm"
+    },
+    {
+      "nom": "Land of Basketball – Stats Sarr 2026-27",
+      "url": "https://www.landofbasketball.com/nba_players_season_stats/2027/alex_sarr.htm"
+    },
+    {
+      "nom": "Land of Basketball – Stats Risacher 2026-27",
+      "url": "https://www.landofbasketball.com/nba_players_season_stats/2027/zaccharie_risacher.htm"
+    },
+    {
+      "nom": "Land of Basketball – Stats Coulibaly 2026-27",
+      "url": "https://www.landofbasketball.com/nba_players_season_stats/2027/bilal_coulibaly.htm"
+    },
+    {
+      "nom": "Land of Basketball – Stats Traoré 2026-27",
+      "url": "https://www.landofbasketball.com/nba_players_season_stats/2027/nolan_traore.htm"
+    },
+    {
+      "nom": "Land of Basketball – Stats Cissoko 2026-27",
+      "url": "https://www.landofbasketball.com/nba_players_season_stats/2027/sidy_cissoko.htm"
+    },
+    {
+      "nom": "Land of Basketball – Stats Salaün 2026-27",
+      "url": "https://www.landofbasketball.com/nba_players_season_stats/2027/tidjane_salaun.htm"
+    },
+    {
+      "nom": "Sport News Africa",
+      "url": "https://sportnewsafrica.com/actualites/nba-joueur-de-la-nuit-wembanyama-11-novembre-2026/"
+    },
+    {
+      "nom": "Hoops Rumors",
+      "url": "https://www.hoopsrumors.com/"
+    }
   ]
 }

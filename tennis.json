@@ -3,71 +3,327 @@
   "atp": {
     "date": "9 novembre 2026",
     "top": [
-      {"rang": 1, "joueur": "Alexander Zverev", "pays": "GER", "points": 9550},
-      {"rang": 2, "joueur": "Jannik Sinner", "pays": "ITA", "points": 9450},
-      {"rang": 3, "joueur": "Carlos Alcaraz", "pays": "ESP", "points": 7100},
-      {"rang": 4, "joueur": "Ben Shelton", "pays": "USA", "points": 5170},
-      {"rang": 5, "joueur": "Daniil Medvedev", "pays": "RUS", "points": 3820},
-      {"rang": 6, "joueur": "Flavio Cobolli", "pays": "ITA", "points": 3680},
-      {"rang": 7, "joueur": "Arthur Fils", "pays": "FRA", "points": 3625},
-      {"rang": 8, "joueur": "Frances Tiafoe", "pays": "USA", "points": 3390},
-      {"rang": 9, "joueur": "Alex de Minaur", "pays": "AUS", "points": 3370},
-      {"rang": 10, "joueur": "Taylor Fritz", "pays": "USA", "points": 3285},
-      {"rang": 11, "joueur": "Rafael Jódar", "pays": "ESP", "points": 3234},
-      {"rang": 12, "joueur": "Novak Djokovic", "pays": "SRB", "points": 2940},
-      {"rang": 13, "joueur": "Tommy Paul", "pays": "USA", "points": 2925},
-      {"rang": 14, "joueur": "Félix Auger-Aliassime", "pays": "CAN", "points": 2865},
-      {"rang": 15, "joueur": "Jiří Lehečka", "pays": "CZE", "points": 2540},
-      {"rang": 16, "joueur": "Jakub Menšík", "pays": "CZE", "points": 2500},
-      {"rang": 17, "joueur": "Alejandro Davidovich Fokina", "pays": "ESP", "points": 2500},
-      {"rang": 18, "joueur": "Casper Ruud", "pays": "NOR", "points": 2435},
-      {"rang": 19, "joueur": "Brandon Nakashima", "pays": "USA", "points": 2360},
-      {"rang": 20, "joueur": "Francisco Cerúndolo", "pays": "ARG", "points": 2220}
+      {
+        "rang": 1,
+        "joueur": "Alexander Zverev",
+        "pays": "GER",
+        "points": 9550
+      },
+      {
+        "rang": 2,
+        "joueur": "Jannik Sinner",
+        "pays": "ITA",
+        "points": 9450
+      },
+      {
+        "rang": 3,
+        "joueur": "Carlos Alcaraz",
+        "pays": "ESP",
+        "points": 7100
+      },
+      {
+        "rang": 4,
+        "joueur": "Ben Shelton",
+        "pays": "USA",
+        "points": 5170
+      },
+      {
+        "rang": 5,
+        "joueur": "Daniil Medvedev",
+        "pays": "RUS",
+        "points": 3820
+      },
+      {
+        "rang": 6,
+        "joueur": "Flavio Cobolli",
+        "pays": "ITA",
+        "points": 3680
+      },
+      {
+        "rang": 7,
+        "joueur": "Arthur Fils",
+        "pays": "FRA",
+        "points": 3625
+      },
+      {
+        "rang": 8,
+        "joueur": "Frances Tiafoe",
+        "pays": "USA",
+        "points": 3390
+      },
+      {
+        "rang": 9,
+        "joueur": "Alex de Minaur",
+        "pays": "AUS",
+        "points": 3370
+      },
+      {
+        "rang": 10,
+        "joueur": "Taylor Fritz",
+        "pays": "USA",
+        "points": 3285
+      },
+      {
+        "rang": 11,
+        "joueur": "Rafael Jódar",
+        "pays": "ESP",
+        "points": 3234
+      },
+      {
+        "rang": 12,
+        "joueur": "Novak Djokovic",
+        "pays": "SRB",
+        "points": 2940
+      },
+      {
+        "rang": 13,
+        "joueur": "Tommy Paul",
+        "pays": "USA",
+        "points": 2925
+      },
+      {
+        "rang": 14,
+        "joueur": "Félix Auger-Aliassime",
+        "pays": "CAN",
+        "points": 2865
+      },
+      {
+        "rang": 15,
+        "joueur": "Jiří Lehečka",
+        "pays": "CZE",
+        "points": 2540
+      },
+      {
+        "rang": 16,
+        "joueur": "Jakub Menšík",
+        "pays": "CZE",
+        "points": 2500
+      },
+      {
+        "rang": 17,
+        "joueur": "Alejandro Davidovich Fokina",
+        "pays": "ESP",
+        "points": 2500
+      },
+      {
+        "rang": 18,
+        "joueur": "Casper Ruud",
+        "pays": "NOR",
+        "points": 2435
+      },
+      {
+        "rang": 19,
+        "joueur": "Brandon Nakashima",
+        "pays": "USA",
+        "points": 2360
+      },
+      {
+        "rang": 20,
+        "joueur": "Francisco Cerúndolo",
+        "pays": "ARG",
+        "points": 2220
+      }
     ]
   },
   "wta": {
     "date": "5 novembre 2026 (mise à jour ESPN)",
     "top": [
-      {"rang": 1, "joueur": "Elena Rybakina", "pays": "KAZ", "points": 8099},
-      {"rang": 2, "joueur": "Aryna Sabalenka", "pays": "BLR", "points": 6485},
-      {"rang": 3, "joueur": "Mirra Andreeva", "pays": "RUS", "points": 6306},
-      {"rang": 4, "joueur": "Coco Gauff", "pays": "USA", "points": 5763},
-      {"rang": 5, "joueur": "Jessica Pegula", "pays": "USA", "points": 5760},
-      {"rang": 6, "joueur": "Elina Svitolina", "pays": "UKR", "points": 5121},
-      {"rang": 7, "joueur": "Karolína Muchová", "pays": "CZE", "points": 4665},
-      {"rang": 8, "joueur": "Linda Nosková", "pays": "CZE", "points": 4343},
-      {"rang": 9, "joueur": "Iga Świątek", "pays": "POL", "points": 4188},
-      {"rang": 10, "joueur": "Marta Kostyuk", "pays": "UKR", "points": 3910},
-      {"rang": 11, "joueur": "Diana Shnaider", "pays": "RUS", "points": 3238},
-      {"rang": 12, "joueur": "Maja Chwalińska", "pays": "POL", "points": 3016},
-      {"rang": 13, "joueur": "Iva Jovic", "pays": "USA", "points": 2941},
-      {"rang": 14, "joueur": "Elise Mertens", "pays": "BEL", "points": 2540},
-      {"rang": 15, "joueur": "Alexandra Eala", "pays": "PHI", "points": 2392},
-      {"rang": 16, "joueur": "Sorana Cîrstea", "pays": "ROU", "points": 2386},
-      {"rang": 17, "joueur": "Naomi Osaka", "pays": "JPN", "points": 2315},
-      {"rang": 18, "joueur": "Leylah Fernandez", "pays": "CAN", "points": 2201},
-      {"rang": 19, "joueur": "Madison Keys", "pays": "USA", "points": 2175},
-      {"rang": 20, "joueur": "Belinda Bencic", "pays": "SUI", "points": 2168}
+      {
+        "rang": 1,
+        "joueur": "Elena Rybakina",
+        "pays": "KAZ",
+        "points": 8099
+      },
+      {
+        "rang": 2,
+        "joueur": "Aryna Sabalenka",
+        "pays": "BLR",
+        "points": 6485
+      },
+      {
+        "rang": 3,
+        "joueur": "Mirra Andreeva",
+        "pays": "RUS",
+        "points": 6306
+      },
+      {
+        "rang": 4,
+        "joueur": "Coco Gauff",
+        "pays": "USA",
+        "points": 5763
+      },
+      {
+        "rang": 5,
+        "joueur": "Jessica Pegula",
+        "pays": "USA",
+        "points": 5760
+      },
+      {
+        "rang": 6,
+        "joueur": "Elina Svitolina",
+        "pays": "UKR",
+        "points": 5121
+      },
+      {
+        "rang": 7,
+        "joueur": "Karolína Muchová",
+        "pays": "CZE",
+        "points": 4665
+      },
+      {
+        "rang": 8,
+        "joueur": "Linda Nosková",
+        "pays": "CZE",
+        "points": 4343
+      },
+      {
+        "rang": 9,
+        "joueur": "Iga Świątek",
+        "pays": "POL",
+        "points": 4188
+      },
+      {
+        "rang": 10,
+        "joueur": "Marta Kostyuk",
+        "pays": "UKR",
+        "points": 3910
+      },
+      {
+        "rang": 11,
+        "joueur": "Diana Shnaider",
+        "pays": "RUS",
+        "points": 3238
+      },
+      {
+        "rang": 12,
+        "joueur": "Maja Chwalińska",
+        "pays": "POL",
+        "points": 3016
+      },
+      {
+        "rang": 13,
+        "joueur": "Iva Jovic",
+        "pays": "USA",
+        "points": 2941
+      },
+      {
+        "rang": 14,
+        "joueur": "Elise Mertens",
+        "pays": "BEL",
+        "points": 2540
+      },
+      {
+        "rang": 15,
+        "joueur": "Alexandra Eala",
+        "pays": "PHI",
+        "points": 2392
+      },
+      {
+        "rang": 16,
+        "joueur": "Sorana Cîrstea",
+        "pays": "ROU",
+        "points": 2386
+      },
+      {
+        "rang": 17,
+        "joueur": "Naomi Osaka",
+        "pays": "JPN",
+        "points": 2315
+      },
+      {
+        "rang": 18,
+        "joueur": "Leylah Fernandez",
+        "pays": "CAN",
+        "points": 2201
+      },
+      {
+        "rang": 19,
+        "joueur": "Madison Keys",
+        "pays": "USA",
+        "points": 2175
+      },
+      {
+        "rang": 20,
+        "joueur": "Belinda Bencic",
+        "pays": "SUI",
+        "points": 2168
+      }
     ]
   },
   "francais": {
     "atp": [
-      {"rang": 7, "joueur": "Arthur Fils", "points": 3625},
-      {"rang": 34, "joueur": "Luca Van Assche", "points": 1492},
-      {"rang": 39, "joueur": "Ugo Humbert", "points": 1320},
-      {"rang": 45, "joueur": "Quentin Halys", "points": 1214},
-      {"rang": 47, "joueur": "Arthur Géa", "points": 1146},
-      {"rang": 58, "joueur": "Arthur Rinderknech", "points": 920},
-      {"rang": 61, "joueur": "Adrian Mannarino", "points": 898},
-      {"rang": 75, "joueur": "Terence Atmane", "points": 787},
-      {"rang": 81, "joueur": "Titouan Droguet", "points": 732},
-      {"rang": 85, "joueur": "Kyrian Jacquet", "points": 684},
-      {"rang": 91, "joueur": "Benjamin Bonzi", "points": 657}
+      {
+        "rang": 7,
+        "joueur": "Arthur Fils",
+        "points": 3625
+      },
+      {
+        "rang": 34,
+        "joueur": "Luca Van Assche",
+        "points": 1492
+      },
+      {
+        "rang": 39,
+        "joueur": "Ugo Humbert",
+        "points": 1320
+      },
+      {
+        "rang": 45,
+        "joueur": "Quentin Halys",
+        "points": 1214
+      },
+      {
+        "rang": 47,
+        "joueur": "Arthur Géa",
+        "points": 1146
+      },
+      {
+        "rang": 58,
+        "joueur": "Arthur Rinderknech",
+        "points": 920
+      },
+      {
+        "rang": 61,
+        "joueur": "Adrian Mannarino",
+        "points": 898
+      },
+      {
+        "rang": 75,
+        "joueur": "Terence Atmane",
+        "points": 787
+      },
+      {
+        "rang": 81,
+        "joueur": "Titouan Droguet",
+        "points": 732
+      },
+      {
+        "rang": 85,
+        "joueur": "Kyrian Jacquet",
+        "points": 684
+      },
+      {
+        "rang": 91,
+        "joueur": "Benjamin Bonzi",
+        "points": 657
+      }
     ],
     "wta": [
-      {"rang": 34, "joueur": "Diane Parry", "points": 1521},
-      {"rang": 89, "joueur": "Léolia Jeanjean", "points": 841},
-      {"rang": 98, "joueur": "Fiona Ferro", "points": 795}
+      {
+        "rang": 34,
+        "joueur": "Diane Parry",
+        "points": 1521
+      },
+      {
+        "rang": 89,
+        "joueur": "Léolia Jeanjean",
+        "points": 841
+      },
+      {
+        "rang": 98,
+        "joueur": "Fiona Ferro",
+        "points": 795
+      }
     ]
   },
   "evenement": {
@@ -75,70 +331,205 @@
     "lieu": "Turin (Inalpi Arena)",
     "dates": "15-22 novembre 2026",
     "groupes": [
-      {"nom": "Groupe John McEnroe", "joueurs": ["Alexander Zverev (1)", "Ben Shelton (3)", "Arthur Fils (6)", "Rafael Jódar (8)"]},
-      {"nom": "Groupe Ivan Lendl", "joueurs": ["Carlos Alcaraz (2)", "Daniil Medvedev (4)", "Flavio Cobolli (5)", "Frances Tiafoe (7)"]}
+      {
+        "nom": "Groupe John McEnroe",
+        "joueurs": [
+          "Alexander Zverev (1)",
+          "Ben Shelton (3)",
+          "Arthur Fils (6)",
+          "Rafael Jódar (8)"
+        ]
+      },
+      {
+        "nom": "Groupe Ivan Lendl",
+        "joueurs": [
+          "Carlos Alcaraz (2)",
+          "Daniil Medvedev (4)",
+          "Flavio Cobolli (5)",
+          "Frances Tiafoe (7)"
+        ]
+      }
     ],
     "groupes_note": "Tirage au sort effectué le jeudi 12 novembre à Turin ; les deux premiers de chaque groupe accèdent aux demi-finales. Ordre des matchs du dimanche 15 novembre non encore publié dans les sources consultées.",
-    "qualifies": ["Alexander Zverev", "Carlos Alcaraz", "Ben Shelton", "Daniil Medvedev", "Flavio Cobolli", "Arthur Fils", "Frances Tiafoe", "Rafael Jódar"],
-    "remplacants": ["Alex de Minaur", "Taylor Fritz"],
+    "qualifies": [
+      "Alexander Zverev",
+      "Carlos Alcaraz",
+      "Ben Shelton",
+      "Daniil Medvedev",
+      "Flavio Cobolli",
+      "Arthur Fils",
+      "Frances Tiafoe",
+      "Rafael Jódar"
+    ],
+    "remplacants": [
+      "Alex de Minaur",
+      "Taylor Fritz"
+    ],
     "programme": [
-      {"date": "15-20 novembre", "matchs": ["Phase de groupes (simples à 14h et pas avant 20h30)"]},
-      {"date": "21 novembre", "matchs": ["Demi-finales (simples à 14h30 et 20h30)"]},
-      {"date": "22 novembre", "matchs": ["Finale du simple (18h)"]}
+      {
+        "date": "15-20 novembre",
+        "matchs": [
+          "Phase de groupes (simples à 14h et pas avant 20h30)"
+        ]
+      },
+      {
+        "date": "21 novembre",
+        "matchs": [
+          "Demi-finales (simples à 14h30 et 20h30)"
+        ]
+      },
+      {
+        "date": "22 novembre",
+        "matchs": [
+          "Finale du simple (18h)"
+        ]
+      }
     ],
     "resultats": [],
     "texte": "Le tirage au sort a placé Arthur Fils, qui dispute ses premières ATP Finals, dans le groupe John McEnroe avec Alexander Zverev, Ben Shelton et Rafael Jódar. Selon l'ATP, Zverev mène 5-2 dans ses face-à-face avec le Français, Shelton 2-1 et Jódar 2-1. L'autre groupe réunit Carlos Alcaraz, Daniil Medvedev, Flavio Cobolli et Frances Tiafoe. Le tournoi se joue sans le double tenant du titre Jannik Sinner, forfait sur blessure au genou. En double, Théo Arribagé et Albano Olivetti sont dans le groupe Todd Woodbridge avec les tenants du titre Heliövaara/Patten, Arévalo/Pavić et Luz/Matos."
   },
   "calendrier": [
-    {"dates": "8-15 novembre 2026", "nom": "WTA Finals", "lieu": "Indian Wells (États-Unis)", "type": "WTA Finals"},
-    {"dates": "15-22 novembre 2026", "nom": "Nitto ATP Finals", "lieu": "Turin (Italie)", "type": "ATP Finals"},
-    {"dates": "24-29 novembre 2026", "nom": "Coupe Davis – Final 8", "lieu": "Bologne (Italie)", "type": "Coupe Davis"},
-    {"dates": "1-10 janvier 2027", "nom": "United Cup", "lieu": "Perth et Sydney (Australie)", "type": "United Cup"},
-    {"dates": "17-31 janvier 2027 (Opening Week dès le 11 janvier)", "nom": "Open d'Australie", "lieu": "Melbourne Park (Australie)", "type": "Grand Chelem"}
+    {
+      "dates": "8-15 novembre 2026",
+      "nom": "WTA Finals",
+      "lieu": "Indian Wells (États-Unis)",
+      "type": "WTA Finals"
+    },
+    {
+      "dates": "15-22 novembre 2026",
+      "nom": "Nitto ATP Finals",
+      "lieu": "Turin (Italie)",
+      "type": "ATP Finals"
+    },
+    {
+      "dates": "24-29 novembre 2026",
+      "nom": "Coupe Davis – Final 8",
+      "lieu": "Bologne (Italie)",
+      "type": "Coupe Davis"
+    },
+    {
+      "dates": "1-10 janvier 2027",
+      "nom": "United Cup",
+      "lieu": "Perth et Sydney (Australie)",
+      "type": "United Cup"
+    },
+    {
+      "dates": "17-31 janvier 2027 (Opening Week dès le 11 janvier)",
+      "nom": "Open d'Australie",
+      "lieu": "Melbourne Park (Australie)",
+      "type": "Grand Chelem"
+    }
   ],
   "infos": [
     {
-      "titre": "ATP Finals : Fils avec Zverev et Shelton",
-      "texte": "Le tirage au sort de Turin a placé Arthur Fils (6e tête de série) dans le groupe John McEnroe, avec Alexander Zverev, Ben Shelton et Rafael Jódar, que Tennis 365 juge « sans doute le plus relevé ». Zverev retrouve Shelton, qu'il a battu en finale de l'US Open en septembre ; il mène 6-0 dans leurs confrontations.",
-      "source": {"nom": "Tennis Majors", "url": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/atp-finals-draw-zverev-gets-us-open-final-rematch-with-shelton-alcaraz-drawn-with-medvedev-866813.html"}
+      "titre": "WTA Finals : Pegula sauve une balle de match et élimine Gauff",
+      "texte": "Jessica Pegula a battu Linda Nosková 7-6 (2), 4-6, 7-5 jeudi soir à Indian Wells, après avoir sauvé une balle de match, et rejoint les demi-finales. Gauff, victorieuse de Marta Kostyuk (6-4, 7-5) plus tôt dans la journée, est éliminée au pourcentage de sets malgré un bilan de 2-1, comme Nosková et Pegula. Pegula affrontera Mirra Andreeva samedi ; Sabalenka et Svitolina se disputent vendredi la dernière place.",
+      "source": {
+        "nom": "Tennis Majors",
+        "url": "https://www.tennismajors.com/wta-tour-news/wta-finals/pegula-saves-match-point-against-noskova-to-reach-wta-finals-semi-finals-and-knock-out-gauff-866862.html"
+      }
     },
     {
-      "titre": "WTA Finals : Gauff renverse Kostyuk",
-      "texte": "Menée 5-1 dans la deuxième manche, Coco Gauff a battu Marta Kostyuk, remplaçante d'Elena Rybakina, 6-4, 7-5 jeudi à Indian Wells. Elle a besoin d'une victoire de Linda Nosková, déjà qualifiée, face à Jessica Pegula pour rejoindre les demi-finales. Dans l'autre groupe, Sabalenka et Svitolina se disputent vendredi la place restante aux côtés de Mirra Andreeva ; demi-finales samedi 14, finale dimanche 15 novembre.",
-      "source": {"nom": "Tennis Majors", "url": "https://www.tennismajors.com/wta-tour-news/wta-finals/gauff-wins-six-straight-games-from-5-1-down-to-beat-kostyuk-and-keep-wta-finals-hopes-alive-866841.html"}
+      "titre": "ATP Finals : Fils avec Zverev et Shelton",
+      "texte": "Le tirage au sort de Turin a placé Arthur Fils (6e tête de série) dans le groupe John McEnroe, avec Alexander Zverev, Ben Shelton et Rafael Jódar, que Tennis 365 juge « sans doute le plus relevé ». Zverev retrouve Shelton, qu'il a battu en finale de l'US Open en septembre ; il mène 6-0 dans leurs confrontations.",
+      "source": {
+        "nom": "Tennis Majors",
+        "url": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/atp-finals-draw-zverev-gets-us-open-final-rematch-with-shelton-alcaraz-drawn-with-medvedev-866813.html"
+      }
     },
     {
       "titre": "Alcaraz remporte le Rolex Paris Masters",
       "texte": "Carlos Alcaraz s'est imposé en finale à Paris face à Ben Shelton (7-6 (5), 7-5), une semaine avant les ATP Finals.",
-      "source": {"nom": "Tennis Majors", "url": "https://www.tennismajors.com/atp/breaking-news-rolex-paris-masters-alcaraz-lifts-the-trophy-866414.html"}
+      "source": {
+        "nom": "Tennis Majors",
+        "url": "https://www.tennismajors.com/atp/breaking-news-rolex-paris-masters-alcaraz-lifts-the-trophy-866414.html"
+      }
     },
     {
       "titre": "Sinner forfait pour Turin",
       "texte": "Blessé au genou, Jannik Sinner a confirmé le 10 novembre à Milan qu'il ne défendrait pas son titre ; il espère revenir pour l'Open d'Australie 2027 sans précipiter sa convalescence.",
-      "source": {"nom": "Tico Times", "url": "https://ticotimes.net/2026/11/10/atp-finals-2026-turin-field-sinner-absence"}
+      "source": {
+        "nom": "Tico Times",
+        "url": "https://ticotimes.net/2026/11/10/atp-finals-2026-turin-field-sinner-absence"
+      }
     },
     {
       "titre": "Coupe Davis : la France absente du Final 8",
       "texte": "Battus 3-1 par le Canada à Québec en septembre, les Bleus ne seront pas à Bologne, où l'Italie, double tenante, affronte la Corée du Sud en quart de finale le 25 novembre.",
-      "source": {"nom": "Wikipedia – 2026 Davis Cup", "url": "https://en.wikipedia.org/wiki/2026_Davis_Cup"}
+      "source": {
+        "nom": "Wikipedia – 2026 Davis Cup",
+        "url": "https://en.wikipedia.org/wiki/2026_Davis_Cup"
+      }
     }
   ],
   "sources": [
-    {"nom": "Tennis Explorer – classement ATP du 09.11.2026", "url": "https://www.tennisexplorer.com/ranking/atp-men/"},
-    {"nom": "ESPN – classement WTA", "url": "https://www.espn.com/tennis/rankings/_/type/wta"},
-    {"nom": "ATP Tour – Nitto ATP Finals 2026 : dates et programme", "url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-history-draw-schedule"},
-    {"nom": "Wikipedia – 2026 ATP Finals", "url": "https://en.wikipedia.org/wiki/2026_ATP_Finals"},
-    {"nom": "Tico Times – ATP Finals sans Sinner", "url": "https://ticotimes.net/2026/11/10/atp-finals-2026-turin-field-sinner-absence"},
-    {"nom": "Tennis Uptodate – WTA Finals 2026", "url": "https://tennisuptodate.com/wta/wta-finals-2026-results-schedule-draw-field-prize-money-history-and-format"},
-    {"nom": "Univers Tennis – WTA Finals", "url": "https://www.universtennis.com/2026/11/12/wta-finals-2026-andreeva-humilie-sabalenka-et-file-en-demi-finales-svitolina-elimine-muchova/"},
-    {"nom": "Tennis TourTalk – programme Coupe Davis Final 8", "url": "https://tennistourtalk.com/137708/schedule-confirmed-for-2026-davis-cup-final-8"},
-    {"nom": "Tennis TourTalk – United Cup 2027", "url": "https://tennistourtalk.com/?p=138801"},
-    {"nom": "Ministry of Sport – dates Open d'Australie 2027", "url": "https://ministryofsport.com/australian-open-2027-dates-confirmed-following-record-breaking-2026/"},
-    {"nom": "Tennis Majors – tirage au sort des ATP Finals", "url": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/atp-finals-draw-zverev-gets-us-open-final-rematch-with-shelton-alcaraz-drawn-with-medvedev-866813.html"},
-    {"nom": "ATP Tour – groupes et face-à-face des ATP Finals", "url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-draw-resource-page"},
-    {"nom": "Tennis 365 – tirage des ATP Finals", "url": "https://www.tennis365.com/tennis-news/atp-finals-draw-alexander-zverev-ben-shelton-carlos-alcaraz-daniil-medvedev"},
-    {"nom": "Tennis Majors – Gauff-Kostyuk aux WTA Finals", "url": "https://www.tennismajors.com/wta-tour-news/wta-finals/gauff-wins-six-straight-games-from-5-1-down-to-beat-kostyuk-and-keep-wta-finals-hopes-alive-866841.html"},
-    {"nom": "WTA – programme du 5e jour des WTA Finals", "url": "https://www.wtatennis.com/news/4607847/fage-wta-finals-day-5-preview-coco-gauff-jessica-pegula-battling-for-spots-in-indian-wells-semis"},
-    {"nom": "Tennis Majors – finale Paris Masters", "url": "https://www.tennismajors.com/atp/breaking-news-rolex-paris-masters-alcaraz-lifts-the-trophy-866414.html"}
+    {
+      "nom": "Tennis Explorer – classement ATP du 09.11.2026",
+      "url": "https://www.tennisexplorer.com/ranking/atp-men/"
+    },
+    {
+      "nom": "ESPN – classement WTA",
+      "url": "https://www.espn.com/tennis/rankings/_/type/wta"
+    },
+    {
+      "nom": "ATP Tour – Nitto ATP Finals 2026 : dates et programme",
+      "url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-history-draw-schedule"
+    },
+    {
+      "nom": "Wikipedia – 2026 ATP Finals",
+      "url": "https://en.wikipedia.org/wiki/2026_ATP_Finals"
+    },
+    {
+      "nom": "Tico Times – ATP Finals sans Sinner",
+      "url": "https://ticotimes.net/2026/11/10/atp-finals-2026-turin-field-sinner-absence"
+    },
+    {
+      "nom": "Tennis Uptodate – WTA Finals 2026",
+      "url": "https://tennisuptodate.com/wta/wta-finals-2026-results-schedule-draw-field-prize-money-history-and-format"
+    },
+    {
+      "nom": "Univers Tennis – WTA Finals",
+      "url": "https://www.universtennis.com/2026/11/12/wta-finals-2026-andreeva-humilie-sabalenka-et-file-en-demi-finales-svitolina-elimine-muchova/"
+    },
+    {
+      "nom": "Tennis TourTalk – programme Coupe Davis Final 8",
+      "url": "https://tennistourtalk.com/137708/schedule-confirmed-for-2026-davis-cup-final-8"
+    },
+    {
+      "nom": "Tennis TourTalk – United Cup 2027",
+      "url": "https://tennistourtalk.com/?p=138801"
+    },
+    {
+      "nom": "Ministry of Sport – dates Open d'Australie 2027",
+      "url": "https://ministryofsport.com/australian-open-2027-dates-confirmed-following-record-breaking-2026/"
+    },
+    {
+      "nom": "Tennis Majors – tirage au sort des ATP Finals",
+      "url": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/atp-finals-draw-zverev-gets-us-open-final-rematch-with-shelton-alcaraz-drawn-with-medvedev-866813.html"
+    },
+    {
+      "nom": "ATP Tour – groupes et face-à-face des ATP Finals",
+      "url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-draw-resource-page"
+    },
+    {
+      "nom": "Tennis 365 – tirage des ATP Finals",
+      "url": "https://www.tennis365.com/tennis-news/atp-finals-draw-alexander-zverev-ben-shelton-carlos-alcaraz-daniil-medvedev"
+    },
+    {
+      "nom": "Tennis Majors – Gauff-Kostyuk aux WTA Finals",
+      "url": "https://www.tennismajors.com/wta-tour-news/wta-finals/gauff-wins-six-straight-games-from-5-1-down-to-beat-kostyuk-and-keep-wta-finals-hopes-alive-866841.html"
+    },
+    {
+      "nom": "WTA – programme du 5e jour des WTA Finals",
+      "url": "https://www.wtatennis.com/news/4607847/fage-wta-finals-day-5-preview-coco-gauff-jessica-pegula-battling-for-spots-in-indian-wells-semis"
+    },
+    {
+      "nom": "Tennis Majors – finale Paris Masters",
+      "url": "https://www.tennismajors.com/atp/breaking-news-rolex-paris-masters-alcaraz-lifts-the-trophy-866414.html"
+    },
+    {
+      "nom": "Tennis Majors – Pegula-Nosková aux WTA Finals",
+      "url": "https://www.tennismajors.com/wta-tour-news/wta-finals/pegula-saves-match-point-against-noskova-to-reach-wta-finals-semi-finals-and-knock-out-gauff-866862.html"
+    }
   ]
 }
