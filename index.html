@@ -1,5 +1,4 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
-<title>Mosaiq</title>
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style></head><body><title>Mosaiq</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <meta name="description" content="Mosaiq — l'essentiel de l'actualité chaque matin, avec des regards croisés sur la géopolitique et un espace football détaillé.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,6 +10,7 @@
   --land:#DCDFE6; --sea:#EEF1F6;
   --c-fr:#2D4BD8; --c-geo:#0E7C86; --c-af:#D9822B; --c-tech:#7A4CE0; --c-eco:#1E8A5A; --c-sport:#D23F5C;
   --pos:#1E8A5A; --neg:#C2412D; --warm:#E8A23A;
+  --z-eu:#3557D6; --z-ea:#A8433F; --z-mo:#B7791F; --z-af:#D9822B; --z-as:#7A4CE0; --z-am:#1E8A5A;
   --s-football:#1E9150; --s-nba:#E46B1F; --s-nfl:#7A4B23; --s-tennis:#8FA300; --s-f1:#D7141A; --s-rugby:#1F4FA3;
   --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
   --read:"Source Serif 4",Georgia,"Times New Roman",serif;
@@ -20,11 +20,11 @@
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --s-football:#3DBA74; --s-nba:#F58A45; --s-nfl:#C08654; --s-tennis:#C4D83A; --s-f1:#FF4A4F; --s-rugby:#6E9BEA;
   --bg:#0E1117; --surface:#171B23; --ink:#ECEEF3; --soft:#A0A7B6; --faint:#6E7586; --line:#2A303C; --land:#2C323E; --sea:#141821;
-  --c-fr:#7D93FF; --c-geo:#3FC1C9; --c-af:#F0A050; --c-tech:#A98BFF; --c-eco:#4CC38A; --c-sport:#F06A84; --pos:#4CC38A; --neg:#F0745F; --warm:#F2B65A; color-scheme:dark}}
+  --c-fr:#7D93FF; --c-geo:#3FC1C9; --c-af:#F0A050; --c-tech:#A98BFF; --c-eco:#4CC38A; --c-sport:#F06A84; --pos:#4CC38A; --neg:#F0745F; --warm:#F2B65A; --z-eu:#8096FF; --z-ea:#F08A84; --z-mo:#E3B04E; --z-af:#F0A050; --z-as:#A98BFF; --z-am:#4CC38A; color-scheme:dark}}
 :root[data-theme="dark"]{
   --s-football:#3DBA74; --s-nba:#F58A45; --s-nfl:#C08654; --s-tennis:#C4D83A; --s-f1:#FF4A4F; --s-rugby:#6E9BEA;
   --bg:#0E1117; --surface:#171B23; --ink:#ECEEF3; --soft:#A0A7B6; --faint:#6E7586; --line:#2A303C; --land:#2C323E; --sea:#141821;
-  --c-fr:#7D93FF; --c-geo:#3FC1C9; --c-af:#F0A050; --c-tech:#A98BFF; --c-eco:#4CC38A; --c-sport:#F06A84; --pos:#4CC38A; --neg:#F0745F; --warm:#F2B65A; color-scheme:dark}
+  --c-fr:#7D93FF; --c-geo:#3FC1C9; --c-af:#F0A050; --c-tech:#A98BFF; --c-eco:#4CC38A; --c-sport:#F06A84; --pos:#4CC38A; --neg:#F0745F; --warm:#F2B65A; --z-eu:#8096FF; --z-ea:#F08A84; --z-mo:#E3B04E; --z-af:#F0A050; --z-as:#A98BFF; --z-am:#4CC38A; color-scheme:dark}
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15.5px;line-height:1.55}
 a{color:inherit}
@@ -316,6 +316,30 @@ abbr.gl:hover::after,abbr.gl:focus::after{content:attr(data-def);position:absolu
 .focus .tip{position:absolute;pointer-events:none;background:var(--ink);color:var(--surface);font-size:12px;padding:3px 8px;border-radius:6px;opacity:0;transition:opacity .1s}
 @media (prefers-reduced-motion:reduce){*,*::before{animation:none!important;transition:none!important}}
 
+.ztabs{display:flex;gap:6px;margin:8px 0 18px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
+.ztabs::-webkit-scrollbar{display:none}
+.ztabs a{flex:none;display:inline-flex;align-items:center;gap:7px;text-decoration:none;font-size:13.5px;font-weight:600;padding:7px 13px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink);transition:transform .18s ease,border-color .18s ease,background-color .18s ease}
+.ztabs a i{width:9px;height:9px;border-radius:50%;background:var(--zc)}
+.ztabs a:hover{transform:translateY(-2px);border-color:var(--zc)}
+.ztabs a[aria-current="page"]{background:var(--zc);border-color:var(--zc);color:#fff}
+.ztabs a[aria-current="page"] i{background:#fff}
+.zhero{border-left:5px solid var(--zc);padding:4px 0 4px 14px;margin-bottom:8px}
+.suivi{display:grid;gap:8px;text-decoration:none;color:inherit;background:var(--surface);border:1px solid var(--line);border-top:4px solid var(--zc);border-radius:12px;padding:16px;transition:transform .18s ease,box-shadow .18s ease}
+.suivi:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(0,0,0,.08)}
+.suivi .st{font-size:12.5px;color:var(--soft)}
+.suivi .last{font-size:13px;border-top:1px dashed var(--line);padding-top:8px}
+.suivi .last time{font-family:var(--mono);font-size:11.5px;color:var(--zc);margin-right:6px}
+.kfig{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px}
+.kfig div{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px}
+.kfig b{display:block;font-family:var(--display);font-size:24px;color:var(--zc)}
+.kfig span{font-size:12.5px;color:var(--soft)}
+.kfig small{display:block;font-size:11px;color:var(--faint);margin-top:4px}
+.lect{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}
+.lect>div{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px}
+.lect h4{margin:0 0 6px;font-family:var(--display);font-size:16px}
+.lect .medias a small{display:block}
+.zbadge{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:600;color:var(--zc)}
+.zbadge i{width:8px;height:8px;border-radius:50%;background:var(--zc)}
 </style>
 
 <header class="mast"><div class="in">
@@ -329,7 +353,7 @@ abbr.gl:hover::after,abbr.gl:focus::after{content:attr(data-def);position:absolu
   <div><b>Mosaiq</b> · prototype. Les articles sont rédigés avec l'aide d'une IA à partir des sources citées sous chaque texte, puis signalés quand une information reste à confirmer.</div>
   <div>Cartes, graphiques et illustrations réalisés par la rédaction. Aucune photo de presse n'est reproduite.</div>
   <div><b>mosaiq.news</b> · en ligne.</div>
-  <div><a href="https://claude.ai/artifact/3mhQ272CXR6v8zbj6Lkaoo" target="_blank" rel="noopener" style="font-weight:700;color:var(--ink)">Donner mon avis sur le site (5 minutes) ↗</a></div>
+  <div><a href="https://forms.gle/qWJpvkBTS5HJeT7RA" target="_blank" rel="noopener" style="font-weight:700;color:var(--ink)">Donner mon avis sur le site (5 minutes) ↗</a></div>
 </div></footer>
 
 <script>
@@ -518,6 +542,56 @@ function diversity(regards,compact){
   var bar='<div class="dv-bar">'+seg.map(function(s){return c[s[0]]?'<span style="flex:'+c[s[0]]+';background:'+s[2]+'" title="'+esc(s[1])+' : '+c[s[0]]+'"></span>':'';}).join('')+'</div>';
   return '<div class="dv'+(compact?' dv-c':'')+'"><div class="dv-n"><b>'+regs+'</b><span>régions du monde</span></div><div class="dv-n"><b>'+meds.length+'</b><span>médias cités</span></div><div class="dv-n"><b>'+Math.round(c.niche/tot*100)+' %</b><span>de médias de niche</span></div><div class="dv-legend">'+bar+'<div class="legend">'+seg.map(function(s){return '<span><span class="zone" style="background:'+s[2]+'"></span>'+esc(s[1])+' ('+c[s[0]]+')</span>';}).join('')+'</div></div></div>';
 }
+/* ---------- géopolitique : sous-régions et dossiers suivis ---------- */
+var ZONES=[
+  {id:'europe',nom:'Europe',c:'var(--z-eu)',desc:'Union européenne, Royaume-Uni, Balkans et la guerre en Ukraine.',p:'Albania;Austria;Belgium;Bosnia and Herz.;Bulgaria;Croatia;Cyprus;N. Cyprus;Czechia;Denmark;Estonia;Finland;France;Germany;Greece;Hungary;Iceland;Ireland;Italy;Kosovo;Latvia;Lithuania;Luxembourg;Macedonia;Moldova;Montenegro;Netherlands;Norway;Poland;Portugal;Romania;Serbia;Slovakia;Slovenia;Spain;Sweden;Switzerland;Ukraine;United Kingdom;Greenland'},
+  {id:'eurasie',nom:'Russie et Eurasie',c:'var(--z-ea)',desc:'Russie, Biélorussie, Caucase du Sud et Asie centrale.',p:'Russia;Belarus;Armenia;Azerbaijan;Georgia;Kazakhstan;Uzbekistan;Turkmenistan;Kyrgyzstan;Tajikistan'},
+  {id:'moyen-orient',nom:'Moyen-Orient',c:'var(--z-mo)',desc:'Proche-Orient, golfe Persique, Iran et Turquie.',p:'Iran;Iraq;Syria;Lebanon;Israel;Palestine;Jordan;Saudi Arabia;Yemen;Oman;United Arab Emirates;Qatar;Kuwait;Bahrain;Turkey'},
+  {id:'afrique',nom:'Afrique',c:'var(--z-af)',desc:'Politique, sécurité et diplomatie du continent, avec un suivi permanent du Sahel et de l\'AES.',p:'Algeria;Angola;Benin;Botswana;Burkina Faso;Burundi;Cameroon;Central African Rep.;Chad;Congo;Côte d\'Ivoire;Dem. Rep. Congo;Djibouti;Egypt;Eq. Guinea;Eritrea;Ethiopia;Gabon;Gambia;Ghana;Guinea;Guinea-Bissau;Kenya;Lesotho;Liberia;Libya;Madagascar;Malawi;Mali;Mauritania;Morocco;Mozambique;Namibia;Niger;Nigeria;Rwanda;S. Sudan;Senegal;Sierra Leone;Somalia;Somaliland;South Africa;Sudan;Tanzania;Togo;Tunisia;Uganda;W. Sahara;Zambia;Zimbabwe;eSwatini'},
+  {id:'asie',nom:'Asie-Pacifique',c:'var(--z-as)',desc:'Chine, Taïwan, Japon, péninsule coréenne, Asie du Sud et du Sud-Est, Océanie.',p:'China;Taiwan;Japan;North Korea;South Korea;Mongolia;India;Pakistan;Afghanistan;Bangladesh;Bhutan;Nepal;Sri Lanka;Myanmar;Thailand;Laos;Cambodia;Vietnam;Malaysia;Indonesia;Philippines;Brunei;Timor-Leste;Papua New Guinea;Australia;New Zealand;Fiji;Solomon Is.;Vanuatu;New Caledonia'},
+  {id:'ameriques',nom:'Amériques',c:'var(--z-am)',desc:'États-Unis, Canada, Amérique latine et Caraïbes.',p:'United States of America;Canada;Mexico;Guatemala;Belize;Honduras;El Salvador;Nicaragua;Costa Rica;Panama;Cuba;Haiti;Dominican Rep.;Jamaica;Bahamas;Puerto Rico;Trinidad and Tobago;Colombia;Venezuela;Guyana;Suriname;Ecuador;Peru;Bolivia;Brazil;Paraguay;Uruguay;Argentina;Chile;Falkland Is.'}
+];
+var ZMAP={};ZONES.forEach(function(z){z.p.split(';').forEach(function(n){ZMAP[n]=z.id;});});
+function zone(id){for(var i=0;i<ZONES.length;i++)if(ZONES[i].id===id)return ZONES[i];return null;}
+function geoZone(g){if(g.zone&&zone(g.zone))return g.zone;var ps=g.pays||[];for(var i=0;i<ps.length;i++){var n=ALIAS[ps[i]]||ps[i];if(ZMAP[n])return ZMAP[n];}return 'europe';}
+function zbadge(zid){var z=zone(zid);return z?'<span class="zbadge" style="--zc:'+z.c+'"><i></i>'+esc(z.nom)+'</span>':'';}
+function zoneTabs(a){return '<nav class="ztabs" aria-label="Sous-régions">'+[{id:'geopolitique',nom:'Vue d\'ensemble',c:'var(--c-geo)'}].concat(ZONES).map(function(z){var href=z.id==='geopolitique'?'#geopolitique':'#geo-'+z.id;return '<a href="'+href+'" style="--zc:'+z.c+'"'+(z.id===a?' aria-current="page"':'')+'><i></i>'+esc(z.nom)+'</a>';}).join('')+'</nav>';}
+function suivisOf(zid){var s=state.sp.suivis;return s&&s.zones&&s.zones[zid]||[];}
+function findSuivi(id){var s=state.sp.suivis;if(!s)return null;for(var k in s.zones){var l=s.zones[k];for(var i=0;i<l.length;i++)if(l[i].id===id)return {s:l[i],z:k};}return null;}
+function suiviCard(s,zid,showZone){var z=zone(zid),c=s.chronologie&&s.chronologie[0];return '<a class="suivi" href="#suivi-'+esc(s.id)+'" style="--zc:'+z.c+'">'+(showZone?zbadge(zid):'<span class="tag" style="color:'+z.c+'">Dossier suivi</span>')+'<b style="font-family:var(--display);font-size:17px">'+esc(s.titre)+'</b><p style="margin:0;font-size:14px">'+esc(s.accroche)+'</p>'+(c?'<div class="last"><time>'+esc(fmtDay(c.date))+'</time>'+esc(c.titre)+'</div>':'')+'<span class="go" style="color:'+z.c+'">Ouvrir le dossier →</span></a>';}
+var MC=['janv.','févr.','mars','avr.','mai','juin','juil.','août','sept.','oct.','nov.','déc.'];
+function fmtDay(d){var p=String(d).split('-');if(p.length<3)return fmtMonth(d);return parseInt(p[2],10)+' '+MC[parseInt(p[1],10)-1]+(p[0]!=='2026'?' '+p[0]:'');}
+function sujetCard(g,date){var zid=geoZone(g),z=zone(zid);return '<a class="card" href="#g-'+g.id+'" style="border-top:4px solid '+z.c+'">'+(g.carte?'<div style="max-height:150px;overflow:hidden;border-radius:8px">'+g.carte+'</div>':'')+zbadge(zid)+'<b>'+esc(g.titre)+'</b><p>'+esc((date?date+' · ':'')+g.regards.length+' regards : '+g.regards.map(function(r){return r.lecture||r.region;}).join(' · '))+'</p><span class="go" style="color:'+z.c+'">Comparer les regards →</span></a>';}
+function recentSujets(zid,skip){var out=[],seen={};(state.index&&state.index.editions||[]).slice(0,5).forEach(function(ix){var e=state.editions[ix.date];if(!e||ix.date===skip)return;(e.geopolitique||[]).forEach(function(g){if(geoZone(g)===zid&&!seen[g.titre]){seen[g.titre]=1;out.push({g:g,d:ix.date,dl:ix.date_longue});}});});return out;}
+function pageZone(zid){
+  var z=zone(zid);if(!z)return notFound();var e=state.current,today=(e.geopolitique||[]).filter(function(g){return geoZone(g)===zid;}),sv=suivisOf(zid);
+  var names=[];sv.forEach(function(s){(s.pays||[]).slice(0,2).forEach(function(n){if(names.indexOf(n)<0)names.push(n);});});today.forEach(function(g){var n=ALIAS[g.pays[0]]||g.pays[0];if(ZMAP[n]===zid&&names.indexOf(n)<0)names.push(n);});
+  var h='<a class="crumb" href="#geopolitique">← Géopolitique</a>'+zoneTabs(zid);
+  h+='<div class="grid2" style="--zc:'+z.c+'"><div class="zhero"><span class="eyebrow">Géopolitique · '+esc(e.date_longue)+'</span><h1 class="page" style="margin-top:4px">'+esc(z.nom)+'</h1><p class="lede">'+esc(z.desc)+'</p></div><div class="panel">'+focusMap(names,z.c,6,Math.min(names.length,3)||1)+'<p class="sub" style="margin:8px 0 0">Les pays des sujets et dossiers suivis de la zone.</p></div></div>';
+  h+='<div class="sec-h">'+hico('geopolitique',z.c)+'<h2>Aujourd\'hui</h2></div>';
+  h+=today.length?'<div class="cards">'+today.map(function(g){return sujetCard(g);}).join('')+'</div>':'<div class="panel"><p style="margin:0">Pas de sujet de géopolitique majeur sur cette zone dans l\'édition du jour. Retrouvez ci-dessous les dossiers suivis et les sujets des jours précédents.</p></div>';
+  if(zid==='afrique'){var af=(e.articles||[]).filter(function(x){return x.rubrique==='afrique';});if(af.length)h+='<div class="sec-h">'+hico('afrique',z.c)+'<h2>L\'actualité africaine du jour</h2></div><div class="cards">'+af.slice(0,6).map(function(x){return card('#a-'+x.id,'Afrique',z.c,x.titre,(x.resume||x.chapeau||'').split('. ')[0]+'.','Lire');}).join('')+'</div>';}
+  if(sv.length)h+='<div class="sec-h">'+hico('archives',z.c)+'<h2>Les dossiers suivis</h2></div><div class="cards">'+sv.map(function(s){return suiviCard(s,zid);}).join('')+'</div>';
+  var rec=recentSujets(zid,e.date);if(rec.length)h+='<div class="sec-h">'+hico('calendrier',z.c)+'<h2>Les jours précédents</h2></div><div class="cards">'+rec.slice(0,6).map(function(r){return '<a class="card" href="#edition-'+r.d+'"><span class="tag" style="color:'+z.c+'">'+esc(r.dl)+'</span><b>'+esc(r.g.titre)+'</b><p>'+esc(r.g.chapeau.split('. ')[0]+'.')+'</p><span class="go" style="color:'+z.c+'">Voir l\'édition →</span></a>';}).join('')+'</div>';
+  if(zid==='afrique')h+='<a class="dz-card" href="#afrique" style="margin-top:22px"><span class="tag" style="color:var(--c-af)">Rubrique Afrique</span><b>Économie, société, sport et marchés du continent</b><p>La rubrique Afrique garde l\'actualité du quotidien ; la géopolitique (Sahel, conflits, diplomatie) est suivie ici.</p><span class="go" style="color:var(--c-af)">Aller à la rubrique Afrique →</span></a>';
+  return h;
+}
+function pageSuivi(id){
+  var f=findSuivi(id);if(!f)return notFound();var s=f.s,z=zone(f.z);
+  var h='<a class="crumb" href="#geo-'+z.id+'">← '+esc(z.nom)+'</a><div style="--zc:'+z.c+'">';
+  h+='<div class="grid2" style="margin-top:10px"><div class="zhero"><span class="tag" style="color:'+z.c+'">Dossier suivi · mis à jour le '+esc(state.sp.suivis.maj)+'</span><h1 class="page">'+esc(s.titre)+'</h1><p class="lede" style="color:var(--ink)">'+esc(s.accroche)+'</p><p class="sub" style="margin-top:8px"><b>Où en est-on ?</b> '+esc(s.statut)+'</p></div><div class="panel">'+focusMap(s.pays,z.c,5,1)+'</div></div>';
+  if(s.chiffres&&s.chiffres.length)h+='<div class="kfig" style="margin-top:18px">'+s.chiffres.map(function(c){return '<div><b>'+esc(c.v)+'</b><span>'+esc(c.l)+'</span>'+(c.source?'<small>'+esc(c.source)+'</small>':'')+'</div>';}).join('')+'</div>';
+  h+=secH('geopolitique','Le contexte',null,'geopolitique',z.c)+'<div class="panel">'+(s.resume||[]).map(function(p){return '<p class="dz-txt">'+esc(p)+'</p>';}).join('')+'</div>';
+  h+=secH('geopolitique','Chronologie récente',null,'calendrier',z.c)+'<ol class="tl" style="--c-geo:'+z.c+'">'+s.chronologie.map(function(e){return '<li><time>'+esc(fmtDay(e.date))+'</time><div><b>'+esc(e.titre)+'</b><p class="dz-txt">'+esc(e.texte)+'</p>'+(e.source?'<a href="'+url(e.source.url)+'" target="_blank" rel="noopener">'+esc(e.source.nom)+' ↗</a>':'')+'</div></li>';}).join('')+'</ol>';
+  h+=secH('geopolitique','Les acteurs',null,'geopolitique',z.c)+'<div class="cards">'+s.acteurs.map(function(a){return '<div class="card" style="cursor:default"><b>'+esc(a.nom)+'</b>'+(a.role?'<span class="sub" style="font-size:12.5px">'+esc(a.role)+'</span>':'')+'<p class="dz-txt">'+esc(a.position)+'</p></div>';}).join('')+'</div>';
+  h+=secH('geopolitique','Les grilles de lecture',null,'geopolitique',z.c)+'<p class="sub" style="margin:-4px 0 12px">Les médias sont regroupés par façon de lire le sujet, quelle que soit leur origine. Les lectures sont présentées et attribuées, pas validées.</p><div class="lect">'+s.lectures.map(function(l){return '<div><h4>'+esc(l.lecture)+'</h4><p class="dz-txt">'+esc(l.texte)+'</p><div class="medias">'+l.medias.map(function(m){return '<a href="'+url(m.url)+'" target="_blank" rel="noopener">'+esc(m.nom)+'<small>'+esc([m.type,m.origine].filter(Boolean).join(' · '))+'</small></a>';}).join('')+'</div></div>';}).join('')+'</div>';
+  h+='<div class="grid2" style="margin-top:24px"><div class="panel"><h3>À suivre</h3><ul style="margin:8px 0 0;padding-left:18px;display:grid;gap:6px">'+s.a_suivre.map(function(x){return '<li>'+esc(x)+'</li>';}).join('')+'</ul></div><div class="panel"><h3>Sources</h3><ul style="margin:8px 0 0;padding-left:18px;display:grid;gap:4px;font-size:13px">'+(s.sources||[]).map(function(x){return '<li><a href="'+url(x.url)+'" target="_blank" rel="noopener">'+esc(x.nom)+'</a></li>';}).join('')+'</ul></div></div>';
+  var others=[];ZONES.forEach(function(zz){suivisOf(zz.id).forEach(function(o){if(o.id!==s.id&&zz.id===z.id)others.push([o,zz.id]);});});
+  if(others.length)h+=secH('geopolitique','Dans la même zone',null,'geopolitique',z.c)+'<div class="cards">'+others.map(function(o){return suiviCard(o[0],o[1]);}).join('')+'</div>';
+  return h+'</div>';
+}
+(function(){var x={'Chad':'Tchad','Estonia':'Estonie','Finland':'Finlande','Latvia':'Lettonie','Lebanon':'Liban','Lithuania':'Lituanie','Niger':'Niger','Palestine':'Palestine','Philippines':'Philippines','Poland':'Pologne','Rwanda':'Rwanda','S. Sudan':'Soudan du Sud','Sudan':'Soudan','Taiwan':'Taïwan','Venezuela':'Venezuela','Mali':'Mali','Burkina Faso':'Burkina Faso','Japan':'Japon','China':'Chine','Russia':'Russie','Ukraine':'Ukraine','Israel':'Israël','Iran':'Iran','Qatar':'Qatar','Turkey':'Turquie','Saudi Arabia':'Arabie saoudite','Syria':'Syrie','Iraq':'Irak','Yemen':'Yémen','Belarus':'Biélorussie','Georgia':'Géorgie','Armenia':'Arménie','Azerbaijan':'Azerbaïdjan','Kazakhstan':'Kazakhstan','Germany':'Allemagne','United Kingdom':'Royaume-Uni','Sweden':'Suède','Norway':'Norvège','Denmark':'Danemark','India':'Inde','Pakistan':'Pakistan','North Korea':'Corée du Nord','South Korea':'Corée du Sud','Vietnam':'Viêt Nam','Colombia':'Colombie','Brazil':'Brésil','Mexico':'Mexique','Cuba':'Cuba','Canada':'Canada','Ethiopia':'Éthiopie','Somalia':'Somalie','Libya':'Libye','Egypt':'Égypte','Algeria':'Algérie','Morocco':'Maroc','Nigeria':'Nigeria','Uganda':'Ouganda','Burundi':'Burundi','Jordan':'Jordanie','United Arab Emirates':'Émirats arabes unis','Oman':'Oman','Kuwait':'Koweït','Romania':'Roumanie','Moldova':'Moldavie','Hungary':'Hongrie','Serbia':'Serbie','Afghanistan':'Afghanistan','Myanmar':'Birmanie','Indonesia':'Indonésie','Australia':'Australie','United States of America':'États-Unis','Senegal':'Sénégal','Mauritania':'Mauritanie','Guinea':'Guinée','Togo':'Togo','Benin':'Bénin','Ghana':'Ghana',"Côte d'Ivoire":"Côte d'Ivoire",'Central African Rep.':'Centrafrique','Cameroon':'Cameroun','Eritrea':'Érythrée','Kenya':'Kenya','Tanzania':'Tanzanie','Mozambique':'Mozambique','Argentina':'Argentine','Chile':'Chili','Peru':'Pérou','Bolivia':'Bolivie','Ecuador':'Équateur','Panama':'Panama','Haiti':'Haïti','Greenland':'Groenland'};for(var k in x)if(!FR[k])FR[k]=x[k];ALIAS['Bahrain']=ALIAS['Bahrain']||'Qatar';})();
+
 /* ---------- dossier de la semaine ---------- */
 function pageDossier(){
   var d=state.sp.dossier;if(!d)return notFound();
@@ -532,7 +606,7 @@ function pageDossier(){
   return h+sources(d.sources);
 }
 function fmtMonth(s){var p=String(s).split('-');if(p.length===2)return MOIS[+p[1]-1]+' '+p[0];if(p.length===3&&/^\d+$/.test(p[2]))return (+p[2])+' '+MOIS[+p[1]-1].slice(0,4)+(MOIS[+p[1]-1].length>4?'.':'')+' '+p[0];return s;}
-function regardCard(r){var c=REG_COL[r.region]||'var(--c-geo)';return '<div class="regard" style="--rc:'+c+'"><h4>'+esc(r.region)+'</h4><p class="angle">'+esc(r.angle)+'</p><p>'+esc(r.texte)+'</p><div class="medias">'+r.medias.map(function(m){return '<a href="'+url(m.url)+'" target="_blank" rel="noopener">'+esc(m.nom)+'<small>'+esc(m.type)+'</small></a>';}).join('')+'</div></div>';}
+function regardCard(r){var c=REG_COL[r.region]||'var(--c-geo)';return '<div class="regard" style="--rc:'+c+'"><h4>'+esc(r.lecture||r.region)+'</h4>'+(r.lecture?'<p class="sub" style="margin:-2px 0 6px;font-size:12px">'+esc(r.region)+'</p>':'')+'<p class="angle">'+esc(r.angle)+'</p><p>'+esc(r.texte)+'</p><div class="medias">'+r.medias.map(function(m){return '<a href="'+url(m.url)+'" target="_blank" rel="noopener">'+esc(m.nom)+'<small>'+esc(m.type)+'</small></a>';}).join('')+'</div></div>';}
 function mountDossierPoints(svg,box){
   var d=state.sp.dossier;if(!d)return null;var P=d.carte.points,xs=P.map(function(p){return p.x;}),ys=P.map(function(p){return p.y;});
   var bb={x:Math.min.apply(null,xs)-6,y:Math.min.apply(null,ys)-6,x2:Math.max.apply(null,xs)+6,y2:Math.max.apply(null,ys)+6};
@@ -657,18 +731,19 @@ function pageArticle(id){
   return h+'</div></div>';
 }
 function pageGeo(){
-  var e=state.current,h=titleRow('geopolitique','var(--c-geo)',e.date_longue,'Géopolitique · regards croisés')+'<p class="lede">Pour chaque sujet, les faits établis, puis la manière dont les médias de différentes régions du monde le racontent : grands titres et médias de niche, médias d\'État signalés comme tels. Les lectures sont présentées et attribuées, pas validées.</p>';
+  var e=state.current,h=zoneTabs('geopolitique')+titleRow('geopolitique','var(--c-geo)',e.date_longue,'Géopolitique · regards croisés')+'<p class="lede">Pour chaque sujet, les faits établis, puis la manière dont les médias de différentes régions du monde le racontent : grands titres et médias de niche, médias d\'État signalés comme tels. Les lectures sont présentées et attribuées, pas validées.</p>';
   var dz=state.sp.dossier;if(dz)h+='<a class="dz-card" href="#dossier" style="margin-top:20px"><span class="tag" style="color:var(--c-geo)">Le dossier de la semaine</span><b>'+esc(dz.titre)+'</b><p>'+esc(dz.sous_titre)+'</p><span class="go" style="color:var(--c-geo)">Ouvrir le dossier →</span></a>';
   var allR=[];e.geopolitique.forEach(function(g){allR=allR.concat(g.regards);});if(dz)allR=allR.concat(dz.regards);
   h+='<div class="sec-h">'+hico('geopolitique','var(--c-geo)')+'<h2>La pluralité des sources cette semaine</h2></div>'+diversity(allR);
-  h+='<div class="cards" style="margin-top:22px">'+e.geopolitique.map(function(g){return '<a class="card" href="#g-'+g.id+'"><div style="max-height:150px;overflow:hidden;border-radius:8px">'+g.carte+'</div><b>'+esc(g.titre)+'</b><p>'+esc(g.regards.map(function(r){return r.region;}).join(' · '))+'</p><span class="go" style="color:var(--c-geo)">Comparer les '+g.regards.length+' regards →</span></a>';}).join('')+'</div>';
+  h+='<div class="sec-h">'+hico('geopolitique','var(--c-geo)')+'<h2>Les sujets du jour</h2></div><div class="cards">'+e.geopolitique.map(function(g){return sujetCard(g);}).join('')+'</div>';
+  if(state.sp.suivis){h+='<div class="sec-h">'+hico('archives','var(--c-geo)')+'<h2>Les dossiers suivis, région par région</h2></div><div class="cards">';ZONES.forEach(function(z){suivisOf(z.id).forEach(function(s){h+=suiviCard(s,z.id,true);});});h+='</div>';}
   return h;
 }
 function pageSujet(id){
   var g=state.current.geopolitique.filter(function(x){return x.id===id;})[0];if(!g)return notFound();
-  var h='<a class="crumb" href="#geopolitique">← Géopolitique</a><div class="grid2" style="margin-top:10px"><div><span class="tag" style="color:var(--c-geo)">Regards croisés · '+esc(state.current.date_longue)+'</span><h1 class="page">'+esc(g.titre)+'</h1><p class="lede">'+esc(g.chapeau)+'</p></div><div class="panel"><h3>Les pays au cœur du sujet</h3>'+focusMap(g.pays,'var(--c-geo)',4,2)+'<p class="sub" style="margin:8px 0 0">Les quatre premiers pays concernés. Survolez la carte pour le nom des pays.</p></div></div>';
+  var zz=zone(geoZone(g)),h='<a class="crumb" href="#geo-'+zz.id+'">← '+esc(zz.nom)+'</a><div class="grid2" style="margin-top:10px"><div><span class="tag" style="color:'+zz.c+'">Regards croisés · '+esc(state.current.date_longue)+'</span><h1 class="page">'+esc(g.titre)+'</h1><p class="lede">'+esc(g.chapeau)+'</p></div><div class="panel"><h3>Les pays au cœur du sujet</h3>'+focusMap(g.pays,'var(--c-geo)',4,2)+'<p class="sub" style="margin:8px 0 0">Les quatre premiers pays concernés. Survolez la carte pour le nom des pays.</p></div></div>';
   h+=secH('geopolitique','Les faits')+'<div class="panel"><ul class="faits">'+g.faits.map(function(f){return '<li>'+esc(f)+'</li>';}).join('')+'</ul></div>';
-  h+=secH('geopolitique','Comment le monde le raconte')+diversity(g.regards)+'<div class="regards" style="margin-top:12px">'+g.regards.map(function(r){var c=REG_COL[r.region]||'var(--c-geo)';return '<div class="regard" style="--rc:'+c+'"><h4>'+esc(r.region)+'</h4><p class="angle">'+esc(r.angle)+'</p><p>'+esc(r.texte)+'</p><div class="medias">'+r.medias.map(function(m){return '<a href="'+url(m.url)+'" target="_blank" rel="noopener">'+esc(m.nom)+'<small>'+esc(m.type)+'</small></a>';}).join('')+'</div></div>';}).join('')+'</div>';
+  h+=secH('geopolitique','Comment le monde le raconte')+diversity(g.regards)+'<div class="regards" style="margin-top:12px">'+g.regards.map(function(r){var c=REG_COL[r.region]||'var(--c-geo)';return '<div class="regard" style="--rc:'+c+'"><h4>'+esc(r.lecture||r.region)+'</h4>'+(r.lecture?'<p class="sub" style="margin:-2px 0 6px;font-size:12px">'+esc(r.region)+'</p>':'')+'<p class="angle">'+esc(r.angle)+'</p><p>'+esc(r.texte)+'</p><div class="medias">'+r.medias.map(function(m){return '<a href="'+url(m.url)+'" target="_blank" rel="noopener">'+esc(m.nom)+'<small>'+esc(m.type)+'</small></a>';}).join('')+'</div></div>';}).join('')+'</div>';
   h+='<div class="grid2" style="margin-top:28px"><div><div class="sec-h" style="margin-top:0">'+hico('eco','var(--warm)').replace(IC.eco,'<path d="M12 4v16M4 12h16"/>')+'<h2>Là où les lectures divergent</h2></div><div class="friction">'+g.points_de_friction.map(function(p){return '<div>'+esc(p)+'</div>';}).join('')+'</div></div><div class="panel"><h3>À suivre</h3><p style="margin:6px 0 0;font-family:var(--read);font-size:16.5px">'+esc(g.a_suivre)+'</p></div></div>';
   return h;
 }
@@ -866,6 +941,8 @@ function route(){if(audio.on&&window.speechSynthesis){speechSynthesis.cancel();a
     else if(['france','afrique','tech','eco'].indexOf(h)>=0)html=pageRubrique(h);
     else if(h==='outremer'){active='france';html=pageRubrique('outremer');}
     else if(h==='geopolitique')html=pageGeo();
+    else if(h.indexOf('geo-')===0){active='geopolitique';html=pageZone(h.slice(4));}
+    else if(h.indexOf('suivi-')===0){active='geopolitique';html=pageSuivi(h.slice(6));}
     else if(h.indexOf('g-')===0){active='geopolitique';html=pageSujet(h.slice(2));}
     else if(h.indexOf('a-')===0){var a=state.current.articles.filter(function(x){return x.id===h.slice(2);})[0];active=a?(a.rubrique==='outremer'?'france':a.rubrique):'accueil';html=pageArticle(h.slice(2));}
     else if(h==='archives')html=pageArchives();
@@ -888,9 +965,11 @@ function route(){if(audio.on&&window.speechSynthesis){speechSynthesis.cancel();a
       else{active='accueil';html=notFound();}
       if(sp)html=sportNav(sp)+html;
     }
-    nav(active);app.innerHTML=html;if(after)after();mountFocus();applyGlossary(app);mountMarkets();mountAudio();window.scrollTo(0,0);
+    nav(active);app.innerHTML=html;if(after)after();mountFocus();applyGlossary(app);mountMarkets();mountAudio();window.scrollTo(0,0);var zt=document.querySelector('.ztabs a[aria-current]');if(zt&&zt.parentNode.scrollWidth>zt.parentNode.clientWidth)zt.parentNode.scrollLeft=zt.offsetLeft-zt.parentNode.clientWidth/2+zt.offsetWidth/2;
   };
-  if(h.indexOf('edition-')===0){p=loadEdition(h.slice(8)).then(function(e){state.current=e;});}else p=Promise.resolve();
+  if(h.indexOf('edition-')===0){p=loadEdition(h.slice(8)).then(function(e){state.current=e;});}
+  else if(h.indexOf('geo-')===0&&state.index){p=Promise.all(state.index.editions.slice(0,5).map(function(x){return loadEdition(x.date).catch(function(){});}));}
+  else p=Promise.resolve();
   p.then(go).catch(function(err){if(window.console)console.error(err);app.innerHTML='<p class="loading">Cette page n\'a pas pu être chargée. <a href="#accueil">Revenir à la une</a></p>';});
 }
 function opt(path,key,obj){return getJSON(path).then(function(d){obj[key]=d;}).catch(function(){});}
@@ -900,11 +979,10 @@ getJSON('index.json').then(function(ix){
   LEAGUES.forEach(function(l){jobs.push(opt(''+l.id+'.json',l.id,state.foot));});
   jobs.push(opt('calendrier.json','cal',state.sp),opt('transferts.json','tr',state.sp));
   ['nba','nfl','tennis','f1','rugby'].forEach(function(k){jobs.push(opt(''+k+'.json',k,state.sp));});
-  [['dossier','dossier'],['glossaire','glo'],['marches','marches'],['agenda_eco','agenda'],['afrique_marches','afm']].forEach(function(k){jobs.push(opt(''+k[0]+'.json',k[1],state.sp));});
+  [['dossier','dossier'],['glossaire','glo'],['marches','marches'],['agenda_eco','agenda'],['afrique_marches','afm'],['suivis','suivis']].forEach(function(k){jobs.push(opt(''+k[0]+'.json',k[1],state.sp));});
   return Promise.all(jobs);
 }).then(function(r){state.current=r[0];route();window.addEventListener('hashchange',route);})
 .catch(function(){document.getElementById('app').innerHTML='<p class="loading">L\'édition du jour n\'a pas pu être chargée. Réessayez dans un instant.</p>';});
 })();
 </script>
-
 </body></html>
