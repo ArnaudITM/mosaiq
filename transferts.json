@@ -1,10 +1,35 @@
 {
-  "maj": "13 novembre 2026",
+  "maj": "14 novembre 2026",
   "fenetre": "Mercato d'hiver : ouverture le 1er janvier 2027 (dates selon les pays)",
   "dates_fenetre": [
-    {"pays": "France (Ligue 1)", "ouverture": "2027-01-01", "fermeture": "2027-02-01 19:59", "source": {"nom": "LFP", "url": "https://www.lfp.fr/article/les-dates-du-mercato-2026-2027"}},
-    {"pays": "Angleterre (Premier League)", "ouverture": "2027-01-01", "fermeture": "2027-02-01 23:00 (heure anglaise)", "source": {"nom": "Sports Mole", "url": "https://www.sportsmole.co.uk/football/feature/when-is-the-january-transfer-window-opening-and-closing-dates-for-premier-league_604293.html"}},
-    {"pays": "Italie (Serie A)", "ouverture": "2027-01-02", "fermeture": "2027-02-01 20:00", "note": "Les clubs ont demandé une ouverture anticipée au 28 décembre 2026, en attente du feu vert de la FIFA (Fantacalcio/Sky Sport, 25 sept. 2026).", "source": {"nom": "DAZN Italia", "url": "https://www.dazn.com/it-IT/news/calcio/calciomercato-quando-apre-e-quando-chiude/1g6qfys8ph4xu19ekvjwsh9edr"}}
+    {
+      "pays": "France (Ligue 1)",
+      "ouverture": "2027-01-01",
+      "fermeture": "2027-02-01 19:59",
+      "source": {
+        "nom": "LFP",
+        "url": "https://www.lfp.fr/article/les-dates-du-mercato-2026-2027"
+      }
+    },
+    {
+      "pays": "Angleterre (Premier League)",
+      "ouverture": "2027-01-01",
+      "fermeture": "2027-02-01 23:00 (heure anglaise)",
+      "source": {
+        "nom": "Sports Mole",
+        "url": "https://www.sportsmole.co.uk/football/feature/when-is-the-january-transfer-window-opening-and-closing-dates-for-premier-league_604293.html"
+      }
+    },
+    {
+      "pays": "Italie (Serie A)",
+      "ouverture": "2027-01-02",
+      "fermeture": "2027-02-01 20:00",
+      "note": "Les clubs ont demandé une ouverture anticipée au 28 décembre 2026, en attente du feu vert de la FIFA (Fantacalcio/Sky Sport, 25 sept. 2026).",
+      "source": {
+        "nom": "DAZN Italia",
+        "url": "https://www.dazn.com/it-IT/news/calcio/calciomercato-quando-apre-e-quando-chiude/1g6qfys8ph4xu19ekvjwsh9edr"
+      }
+    }
   ],
   "items": [
     {
@@ -29,7 +54,7 @@
       "type": "entraîneur",
       "statut": "avancé",
       "montant": "clause de 10 M$",
-      "texte": "Selon Sky Sports et Fabrizio Romano, Man United a trouvé un accord avec Pochettino pour un contrat d'environ deux ans et demi, jusqu'à l'été 2029 ; l'annonce officielle était attendue vendredi. Il dirigera d'abord les deux matchs des États-Unis contre Haïti, puis débuterait à Liverpool le 22 novembre.",
+      "texte": "Selon Sky Sports et Fabrizio Romano, Man United a trouvé un accord avec Pochettino pour un contrat d'environ deux ans et demi, jusqu'à l'été 2029. Selon Sports Illustrated (11 novembre), il doit encore diriger les États-Unis contre Haïti samedi et mardi, et United doit négocier une clause d'environ 10 M$ avec la fédération américaine. Aucune annonce officielle n'avait été relevée au matin du 14 novembre ; United joue à Liverpool le 22 novembre.",
       "source": {
         "nom": "Sky Sports",
         "url": "https://www.skysports.com/football/news/13611745/mauricio-pochettino-manchester-united-agree-two-and-a-half-year-deal-with-usa-manager-to-replace-michael-carrick"
@@ -37,16 +62,31 @@
       "date": "2026-11-12"
     },
     {
-      "joueur": "Unai Emery",
-      "de": "Aston Villa",
-      "vers": "Aston Villa",
-      "championnat": "premier-league",
-      "type": "prolongation",
-      "statut": "avancé",
-      "texte": "Selon Fabrizio Romano, cité par Football365, Man United a d'abord ciblé Unai Emery, mais la piste a échoué car l'entraîneur est proche d'un nouveau contrat avec Aston Villa.",
+      "joueur": "Yannick Cahuzac",
+      "de": "Lens",
+      "vers": null,
+      "championnat": "ligue-1",
+      "type": "entraîneur",
+      "statut": "officiel",
+      "texte": "Le RC Lens a officialisé le 12 novembre la fin des fonctions de Yannick Cahuzac, qui avait pris l'intérim à la tête de l'équipe première. Le club « remercie son ancien capitaine et coach pour son investissement » ; aucun successeur n'était annoncé.",
       "source": {
-        "nom": "Football365 (d'après Fabrizio Romano)",
-        "url": "https://www.football365.com/news/pochettino-man-utd-romano-start-date-blow-berrada-already-told-him-transfers"
+        "nom": "Eurofootnews",
+        "url": "https://www.eurofootnews.net/rc-lens-cest-officiel-yannick-cahuzac-est-releve-de-ses-fonctions-dentraineur/12/11/2026/"
+      },
+      "date": "2026-11-12"
+    },
+    {
+      "joueur": "Nicolò Tresoldi",
+      "de": "Club Bruges",
+      "vers": "Milan",
+      "championnat": "serie-a",
+      "type": "transfert",
+      "statut": "rumeur",
+      "montant": "environ 60 M€ (prix fixé par Bruges)",
+      "texte": "Selon La Gazzetta dello Sport, citée par Maxifoot, Bruges réclame environ 60 M€ pour son attaquant de 22 ans (14 buts en 17 matchs cette saison), que le Milan envisage pour janvier. Le Bayern et plusieurs clubs anglais sont aussi cités ; le joueur préférerait Milan.",
+      "source": {
+        "nom": "Maxifoot (d'après La Gazzetta dello Sport)",
+        "url": "https://news.maxifoot.fr/milan/bruges-fixe-le-prix-de-tresoldi-a-60-m-euro-foot-467574.htm"
       },
       "date": "2026-11-12"
     },
@@ -66,20 +106,6 @@
       "date": "2026-11-12"
     },
     {
-      "joueur": "Yannick Cahuzac",
-      "de": "Lens",
-      "vers": null,
-      "championnat": "ligue-1",
-      "type": "entraîneur",
-      "statut": "officiel",
-      "texte": "Le RC Lens a officialisé le 12 novembre la fin des fonctions de Yannick Cahuzac, qui avait pris l'intérim à la tête de l'équipe première. Le club « remercie son ancien capitaine et coach pour son investissement » ; aucun successeur n'était annoncé.",
-      "source": {
-        "nom": "Eurofootnews",
-        "url": "https://www.eurofootnews.net/rc-lens-cest-officiel-yannick-cahuzac-est-releve-de-ses-fonctions-dentraineur/12/11/2026/"
-      },
-      "date": "2026-11-12"
-    },
-    {
       "joueur": "Endrick",
       "de": "Real Madrid",
       "vers": null,
@@ -90,6 +116,20 @@
       "source": {
         "nom": "LiveScore (revue de presse)",
         "url": "https://www.livescore.com/en/news/football/team/real-madrid/daily/thursday-real-madrid-daily-news-20261112/"
+      },
+      "date": "2026-11-12"
+    },
+    {
+      "joueur": "Unai Emery",
+      "de": "Aston Villa",
+      "vers": "Aston Villa",
+      "championnat": "premier-league",
+      "type": "prolongation",
+      "statut": "avancé",
+      "texte": "Selon Fabrizio Romano, cité par Football365, Man United a d'abord ciblé Unai Emery, mais la piste a échoué car l'entraîneur est proche d'un nouveau contrat avec Aston Villa.",
+      "source": {
+        "nom": "Football365 (d'après Fabrizio Romano)",
+        "url": "https://www.football365.com/news/pochettino-man-utd-romano-start-date-blow-berrada-already-told-him-transfers"
       },
       "date": "2026-11-12"
     },
@@ -108,16 +148,30 @@
       "date": "2026-11-11"
     },
     {
-      "joueur": "Didier Digard",
+      "joueur": "Gregor Kobel",
+      "de": "Dortmund",
+      "vers": "PSG",
+      "championnat": "ligue-1",
+      "type": "transfert",
+      "statut": "rumeur",
+      "texte": "Selon Sport Bild, relayé par Maxifoot, le PSG aurait échangé à plusieurs reprises avec le gardien suisse de Dortmund, sous contrat jusqu'en 2028, alors que l'avenir de Lucas Chevalier est incertain. Des discussions de prolongation sont en cours avec le BVB.",
+      "source": {
+        "nom": "Maxifoot (d'après Sport Bild)",
+        "url": "https://news.maxifoot.fr/psg/un-interet-pour-kobel-foot-467512.htm"
+      },
+      "date": "2026-11-11"
+    },
+    {
+      "joueur": "Pierre Sage, Didier Digard, Habib Beye",
       "de": null,
       "vers": "Lens",
       "championnat": "ligue-1",
       "type": "entraîneur",
       "statut": "rumeur",
-      "texte": "Selon Foot Mercato, Didier Digard, limogé par Le Havre le 31 octobre, plaît à la direction lensoise pour succéder à Cahuzac. Selon L'Équipe (cité par But! Football Club, 12 novembre), le nouvel entraîneur est attendu « dans les tout prochains jours », sans qu'un nom soit confirmé.",
+      "texte": "Pour succéder à Cahuzac, Pierre Sage était la priorité du propriétaire Joseph Oughourlian selon L'Équipe (cité par Maxifoot), mais il pencherait pour un refus selon Fabrizio Romano. Didier Digard, libre depuis son départ du Havre, plaît à la direction (Foot Mercato), et L'Équipe cite aussi Habib Beye et Régis Le Bris (Sunderland).",
       "source": {
-        "nom": "Orange Sports (d'après Foot Mercato)",
-        "url": "https://sports.orange.fr/football/mercato/article/lens-digard-pour-remplacer-cahuzac-exclu-CNT000002tEzdh.html"
+        "nom": "Foot01 (d'après Fabrizio Romano et Foot Mercato)",
+        "url": "https://www.foot01.com/lens/pierre-sage-dit-non-lens-bondit-sur-didier-digard"
       },
       "date": "2026-11-10"
     },
@@ -162,48 +216,6 @@
         "url": "https://sport.sky.it/calcio/serie-a/serie-a-2026-2027-allenatori-esonerati"
       },
       "date": "2026-11-09"
-    },
-    {
-      "joueur": "JJ Gabriel",
-      "de": "Man United",
-      "vers": "Real Madrid",
-      "championnat": "liga",
-      "type": "transfert",
-      "statut": "avancé",
-      "texte": "Selon Fabrizio Romano, un accord verbal est presque conclu pour que le jeune talent de 16 ans de l'académie de Man United rejoigne le Real Madrid. David Ornstein évoque une signature en janvier, sous réserve des règlements de la FIFA.",
-      "source": {
-        "nom": "Football365",
-        "url": "https://www.football365.com/news/man-utd-transfer-news-january-here-we-go-coming-jj-gabriel-fabrizio-romano"
-      },
-      "date": "2026-11-06"
-    },
-    {
-      "joueur": "Raphinha",
-      "de": "Barça",
-      "vers": "Barça",
-      "championnat": "liga",
-      "type": "prolongation",
-      "statut": "officiel",
-      "texte": "Le FC Barcelone a officialisé la prolongation de Raphinha jusqu'au 30 juin 2030. Son précédent contrat courait jusqu'en 2028.",
-      "source": {
-        "nom": "ElDesmarque",
-        "url": "https://www.eldesmarque.com/futbol/mercado-de-fichajes/20261105/raphinha-renovacion-fc-barcelona-declaracion-intenciones_18_020629208.html"
-      },
-      "date": "2026-11-05"
-    },
-    {
-      "joueur": "Harry Kane",
-      "de": "Bayern",
-      "vers": "Bayern",
-      "championnat": "bundesliga",
-      "type": "prolongation",
-      "statut": "officiel",
-      "texte": "Le Bayern Munich a annoncé la prolongation de Harry Kane jusqu'en 2029.",
-      "source": {
-        "nom": "Sport1",
-        "url": "https://www.sport1.de/news/fussball/bundesliga/2026/11/fc-bayern-vertrag-mit-harry-kane-verlaengert"
-      },
-      "date": "2026-11-05"
     }
   ]
 }

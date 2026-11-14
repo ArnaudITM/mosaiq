@@ -1,87 +1,281 @@
 {
   "top14": {
-    "maj": "après la 9e journée (saison 2026-2027)",
+    "maj": "après la 9e journée (saison 2026-2027) – pas de journée ce week-end, reprise le 28 novembre",
     "classement": [
-      {"pos": 1, "club": "Toulouse", "j": 9, "pts": 32, "diff": 68},
-      {"pos": 2, "club": "Pau", "j": 9, "pts": 31, "diff": 94},
-      {"pos": 3, "club": "Montpellier", "j": 9, "pts": 27, "diff": 105},
-      {"pos": 4, "club": "Bordeaux-Bègles", "j": 9, "pts": 27, "diff": 66},
-      {"pos": 5, "club": "Toulon", "j": 9, "pts": 26, "diff": 42},
-      {"pos": 6, "club": "Lyon", "j": 9, "pts": 24, "diff": 16},
-      {"pos": 7, "club": "La Rochelle", "j": 9, "pts": 22, "diff": -12},
-      {"pos": 8, "club": "Bayonne", "j": 9, "pts": 20, "diff": -37},
-      {"pos": 9, "club": "Stade Français", "j": 9, "pts": 19, "diff": -20},
-      {"pos": 10, "club": "Clermont", "j": 9, "pts": 16, "diff": -33},
-      {"pos": 11, "club": "Racing 92", "j": 9, "pts": 15, "diff": -61},
-      {"pos": 12, "club": "Perpignan", "j": 9, "pts": 15, "diff": -76},
-      {"pos": 13, "club": "Castres", "j": 9, "pts": 14, "diff": -80},
-      {"pos": 14, "club": "Vannes", "j": 9, "pts": 9, "diff": -72}
+      {
+        "pos": 1,
+        "club": "Toulouse",
+        "j": 9,
+        "pts": 32,
+        "diff": 68
+      },
+      {
+        "pos": 2,
+        "club": "Pau",
+        "j": 9,
+        "pts": 31,
+        "diff": 94
+      },
+      {
+        "pos": 3,
+        "club": "Montpellier",
+        "j": 9,
+        "pts": 27,
+        "diff": 105
+      },
+      {
+        "pos": 4,
+        "club": "Bordeaux-Bègles",
+        "j": 9,
+        "pts": 27,
+        "diff": 66
+      },
+      {
+        "pos": 5,
+        "club": "Toulon",
+        "j": 9,
+        "pts": 26,
+        "diff": 42
+      },
+      {
+        "pos": 6,
+        "club": "Lyon",
+        "j": 9,
+        "pts": 24,
+        "diff": 16
+      },
+      {
+        "pos": 7,
+        "club": "La Rochelle",
+        "j": 9,
+        "pts": 22,
+        "diff": -12
+      },
+      {
+        "pos": 8,
+        "club": "Bayonne",
+        "j": 9,
+        "pts": 20,
+        "diff": -37
+      },
+      {
+        "pos": 9,
+        "club": "Stade Français",
+        "j": 9,
+        "pts": 19,
+        "diff": -20
+      },
+      {
+        "pos": 10,
+        "club": "Clermont",
+        "j": 9,
+        "pts": 16,
+        "diff": -33
+      },
+      {
+        "pos": 11,
+        "club": "Racing 92",
+        "j": 9,
+        "pts": 15,
+        "diff": -61
+      },
+      {
+        "pos": 12,
+        "club": "Perpignan",
+        "j": 9,
+        "pts": 15,
+        "diff": -76
+      },
+      {
+        "pos": 13,
+        "club": "Castres",
+        "j": 9,
+        "pts": 14,
+        "diff": -80
+      },
+      {
+        "pos": 14,
+        "club": "Vannes",
+        "j": 9,
+        "pts": 9,
+        "diff": -72
+      }
     ],
     "prochaine": {
       "journee": "10e journée (reprise après le Championnat des nations)",
       "matchs": [
-        {"date": "samedi 28 novembre, 14h30", "dom": "Bordeaux-Bègles", "ext": "Montpellier"},
-        {"date": "samedi 28 novembre, 16h35", "dom": "Bayonne", "ext": "Castres"},
-        {"date": "samedi 28 novembre, 16h35", "dom": "La Rochelle", "ext": "Perpignan"},
-        {"date": "samedi 28 novembre, 16h35", "dom": "Stade Français", "ext": "Vannes"},
-        {"date": "samedi 28 novembre, 16h35", "dom": "Racing 92", "ext": "Pau"},
-        {"date": "samedi 28 novembre, 21h00", "dom": "Lyon", "ext": "Toulouse"},
-        {"date": "dimanche 29 novembre, 21h05", "dom": "Clermont", "ext": "Toulon"}
+        {
+          "date": "samedi 28 novembre, 14h30",
+          "dom": "Bordeaux-Bègles",
+          "ext": "Montpellier"
+        },
+        {
+          "date": "samedi 28 novembre, 16h35",
+          "dom": "Bayonne",
+          "ext": "Castres"
+        },
+        {
+          "date": "samedi 28 novembre, 16h35",
+          "dom": "La Rochelle",
+          "ext": "Perpignan"
+        },
+        {
+          "date": "samedi 28 novembre, 16h35",
+          "dom": "Stade Français",
+          "ext": "Vannes"
+        },
+        {
+          "date": "samedi 28 novembre, 16h35",
+          "dom": "Racing 92",
+          "ext": "Pau"
+        },
+        {
+          "date": "samedi 28 novembre, 21h00",
+          "dom": "Lyon",
+          "ext": "Toulouse"
+        },
+        {
+          "date": "dimanche 29 novembre, 21h05",
+          "dom": "Clermont",
+          "ext": "Toulon"
+        }
       ]
     }
   },
   "tests": {
     "nom": "Championnat des nations 2026 (Nations Championship)",
     "resultats": [
-      {"date": "4 juillet 2026", "dom": "Nouvelle-Zélande", "ext": "France", "score": "34-32"},
-      {"date": "11 juillet 2026", "dom": "Australie", "ext": "France", "score": "26-42"},
-      {"date": "18 juillet 2026", "dom": "Japon", "ext": "France", "score": "15-42"},
-      {"date": "7 novembre 2026", "dom": "France", "ext": "Fidji", "score": "54-17"}
+      {
+        "date": "4 juillet 2026",
+        "dom": "Nouvelle-Zélande",
+        "ext": "France",
+        "score": "34-32"
+      },
+      {
+        "date": "11 juillet 2026",
+        "dom": "Australie",
+        "ext": "France",
+        "score": "26-42"
+      },
+      {
+        "date": "18 juillet 2026",
+        "dom": "Japon",
+        "ext": "France",
+        "score": "15-42"
+      },
+      {
+        "date": "7 novembre 2026",
+        "dom": "France",
+        "ext": "Fidji",
+        "score": "54-17"
+      },
+      {
+        "date": "13 novembre 2026",
+        "dom": "France",
+        "ext": "Afrique du Sud",
+        "score": "n.c."
+      }
     ],
     "a_venir": [
-      {"date": "vendredi 13 novembre 2026", "heure_paris": "21h10", "dom": "France", "ext": "Afrique du Sud", "lieu": "Stade de France"},
-      {"date": "samedi 21 novembre 2026", "heure_paris": "21h10", "dom": "France", "ext": "Argentine", "lieu": "Stade de France"},
-      {"date": "27-29 novembre 2026", "heure_paris": "à confirmer", "dom": "Finals Weekend", "ext": "adversaire selon classement", "lieu": "Allianz Stadium, Twickenham (Londres)"}
+      {
+        "date": "samedi 21 novembre 2026",
+        "heure_paris": "21h10",
+        "dom": "France",
+        "ext": "Argentine",
+        "lieu": "Stade de France"
+      },
+      {
+        "date": "27-29 novembre 2026",
+        "heure_paris": "à confirmer",
+        "dom": "Finals Weekend",
+        "ext": "adversaire selon classement",
+        "lieu": "Allianz Stadium, Twickenham (Londres)"
+      }
     ],
-    "texte": "Après sa victoire contre les Fidji à Lyon (54-17), le XV de France, en tête du groupe Nord selon RugbyPass, reçoit ce vendredi à 21h10 au Stade de France l'Afrique du Sud, qui a battu l'Italie 66-7 à Turin. Fabien Galthié titularise Antoine Dupont, capitaine, à l'ouverture, avec Maxime Lucu à la mêlée. Les Bleus affronteront ensuite l'Argentine le 21 novembre ; leur classement final déterminera leur adversaire lors du Finals Weekend de Twickenham (27-29 novembre)."
+    "texte": "Après sa victoire contre les Fidji à Lyon (54-17), le XV de France a reçu l'Afrique du Sud vendredi 13 novembre au Stade de France ; le score n'était pas publié par les sources consultées à la rédaction (World Rugby, rugby365). Fabien Galthié avait titularisé Antoine Dupont, capitaine, à l'ouverture, avec Maxime Lucu à la mêlée. Les Bleus affrontent ensuite l'Argentine le samedi 21 novembre au Stade de France (21h10, TF1) ; leur classement final déterminera leur adversaire lors du Finals Weekend de Twickenham (27-29 novembre)."
   },
   "infos": [
     {
       "titre": "Dupont à l'ouverture, retours d'Alldritt et Marchand",
       "texte": "Pour recevoir les Springboks, Fabien Galthié replace Antoine Dupont au poste de demi d'ouverture et Maxime Lucu à la mêlée. Grégory Alldritt, absent de la sélection depuis près d'un an, est titulaire en n°8 et Julien Marchand au talonnage ; Romain Ntamack et Paul Boudehent sont blessés, et le Palois Axel Desperes figure sur le banc.",
-      "source": {"nom": "Rugbyscope", "url": "https://www.rugbyscope.fr/france-afrique-du-sud-compo-des-bleus/"}
+      "source": {
+        "nom": "Rugbyscope",
+        "url": "https://www.rugbyscope.fr/france-afrique-du-sud-compo-des-bleus/"
+      }
     },
     {
       "titre": "Deux changements chez les Springboks, sans Etzebeth",
       "texte": "Rassie Erasmus reconduit l'essentiel de l'équipe victorieuse de l'Italie (66-7) : Wilco Louw remplace Thomas du Toit en première ligne et Cobus Reinach entre sur le banc. Revenu de blessure au genou, Eben Etzebeth n'est pas retenu ; Siya Kolisi est capitaine.",
-      "source": {"nom": "TimesLIVE", "url": "https://www.timeslive.co.za/sport/rugby/2026-11-09-erasmus-opts-for-consistency-as-he-names-boks-xv-for-france-test/"}
+      "source": {
+        "nom": "TimesLIVE",
+        "url": "https://www.timeslive.co.za/sport/rugby/2026-11-09-erasmus-opts-for-consistency-as-he-names-boks-xv-for-france-test/"
+      }
     },
     {
       "titre": "Vannes fait tomber Bordeaux-Bègles",
       "texte": "Lanterne rouge, Vannes s'est offert l'UBB (23-14) lors de la 9e journée, tandis que Pau a écrasé Perpignan 63-26 pour se rapprocher à un point du leader toulousain.",
-      "source": {"nom": "itsrugby.fr", "url": "https://itsrugby.fr/top-14-j9-2026-2027-vannes-bat-ubb-pau-perpignan-resultats-classement/"}
+      "source": {
+        "nom": "itsrugby.fr",
+        "url": "https://itsrugby.fr/top-14-j9-2026-2027-vannes-bat-ubb-pau-perpignan-resultats-classement/"
+      }
     },
     {
       "titre": "Toulouse garde la tête",
       "texte": "Vainqueur de Clermont (28-18), le Stade Toulousain reste en tête du Top 14 avec 32 points avant la pause internationale ; le championnat reprend le 28 novembre.",
-      "source": {"nom": "itsrugby.fr", "url": "https://itsrugby.fr/top-14-j9-2026-2027-vannes-bat-ubb-pau-perpignan-resultats-classement/"}
-    },
-    {
-      "titre": "France-Afrique du Sud en clair sur TF1",
-      "texte": "Le choc face aux champions du monde sera diffusé vendredi 13 novembre à 21h10 sur TF1 et TF1+, comme France-Argentine le 21 novembre.",
-      "source": {"nom": "tv-direct.fr", "url": "https://www.tv-direct.fr/actualites/france-afrique-du-sud-rugby-2026-chaine-tv-heure/"}
+      "source": {
+        "nom": "itsrugby.fr",
+        "url": "https://itsrugby.fr/top-14-j9-2026-2027-vannes-bat-ubb-pau-perpignan-resultats-classement/"
+      }
     }
   ],
   "sources": [
-    {"nom": "itsrugby.fr – Top 14 J9 résultats et classement", "url": "https://itsrugby.fr/top-14-j9-2026-2027-vannes-bat-ubb-pau-perpignan-resultats-classement/"},
-    {"nom": "AllRugby – Top 14, calendrier J10", "url": "https://www.allrugby.com/competitions/top-14/classement.html"},
-    {"nom": "RadioSports – calendrier du XV de France au Nations Championship", "url": "https://radiosports.fr/nations-championship-2026.html"},
-    {"nom": "RugbyPass – France-Fidji", "url": "https://www.rugbypass.com/fr/news/championnat-nations-2026-france-fidji-resultat-stats/"},
-    {"nom": "tv-direct.fr – France-Afrique du Sud", "url": "https://www.tv-direct.fr/actualites/france-afrique-du-sud-rugby-2026-chaine-tv-heure/"},
-    {"nom": "AllRugby – fiche France-Afrique du Sud", "url": "https://www.allrugby.com/saison-2026/matchs/france-afrique-du-sud-25548.html"},
-    {"nom": "Rugbyscope – composition du XV de France", "url": "https://www.rugbyscope.fr/france-afrique-du-sud-compo-des-bleus/"},
-    {"nom": "TimesLIVE – équipe sud-africaine", "url": "https://www.timeslive.co.za/sport/rugby/2026-11-09-erasmus-opts-for-consistency-as-he-names-boks-xv-for-france-test/"},
-    {"nom": "RugbyPass – composition de l'Afrique du Sud", "url": "https://www.rugbypass.com/news/composition-afrique-du-sud-france-2026/"},
-    {"nom": "Wikipedia – 2026 Nations Championship", "url": "https://en.wikipedia.org/wiki/2026_Nations_Championship"}
+    {
+      "nom": "itsrugby.fr – Top 14 J9 résultats et classement",
+      "url": "https://itsrugby.fr/top-14-j9-2026-2027-vannes-bat-ubb-pau-perpignan-resultats-classement/"
+    },
+    {
+      "nom": "AllRugby – Top 14, calendrier J10",
+      "url": "https://www.allrugby.com/competitions/top-14/classement.html"
+    },
+    {
+      "nom": "RadioSports – calendrier du XV de France au Nations Championship",
+      "url": "https://radiosports.fr/nations-championship-2026.html"
+    },
+    {
+      "nom": "RugbyPass – France-Fidji",
+      "url": "https://www.rugbypass.com/fr/news/championnat-nations-2026-france-fidji-resultat-stats/"
+    },
+    {
+      "nom": "tv-direct.fr – France-Afrique du Sud",
+      "url": "https://www.tv-direct.fr/actualites/france-afrique-du-sud-rugby-2026-chaine-tv-heure/"
+    },
+    {
+      "nom": "AllRugby – fiche France-Afrique du Sud",
+      "url": "https://www.allrugby.com/saison-2026/matchs/france-afrique-du-sud-25548.html"
+    },
+    {
+      "nom": "Rugbyscope – composition du XV de France",
+      "url": "https://www.rugbyscope.fr/france-afrique-du-sud-compo-des-bleus/"
+    },
+    {
+      "nom": "TimesLIVE – équipe sud-africaine",
+      "url": "https://www.timeslive.co.za/sport/rugby/2026-11-09-erasmus-opts-for-consistency-as-he-names-boks-xv-for-france-test/"
+    },
+    {
+      "nom": "RugbyPass – composition de l'Afrique du Sud",
+      "url": "https://www.rugbypass.com/news/composition-afrique-du-sud-france-2026/"
+    },
+    {
+      "nom": "Wikipedia – 2026 Nations Championship",
+      "url": "https://en.wikipedia.org/wiki/2026_Nations_Championship"
+    },
+    {
+      "nom": "World Rugby – fiche France-Afrique du Sud (13 nov. 2026)",
+      "url": "https://www.world.rugby/beta/en/match/5dd5bcc0-29dc-4855-bf16-744cc913c569"
+    },
+    {
+      "nom": "rugby365 – France vs South Africa",
+      "url": "https://rugby365.com/live/france-vs-south-africa/"
+    }
   ]
 }

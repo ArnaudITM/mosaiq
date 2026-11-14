@@ -1,5 +1,5 @@
 {
-  "maj": "13 novembre 2026",
+  "maj": "14 novembre 2026",
   "atp": {
     "date": "9 novembre 2026",
     "top": [
@@ -386,7 +386,7 @@
       }
     ],
     "resultats": [],
-    "texte": "Le tirage au sort a placé Arthur Fils, qui dispute ses premières ATP Finals, dans le groupe John McEnroe avec Alexander Zverev, Ben Shelton et Rafael Jódar. Selon l'ATP, Zverev mène 5-2 dans ses face-à-face avec le Français, Shelton 2-1 et Jódar 2-1. L'autre groupe réunit Carlos Alcaraz, Daniil Medvedev, Flavio Cobolli et Frances Tiafoe. Le tournoi se joue sans le double tenant du titre Jannik Sinner, forfait sur blessure au genou. En double, Théo Arribagé et Albano Olivetti sont dans le groupe Todd Woodbridge avec les tenants du titre Heliövaara/Patten, Arévalo/Pavić et Luz/Matos."
+    "texte": "Le tirage au sort a placé Arthur Fils, qui dispute ses premières ATP Finals, dans le groupe John McEnroe avec Alexander Zverev, Ben Shelton et Rafael Jódar. Selon l'ATP, Zverev mène 5-2 dans ses face-à-face avec le Français, Shelton 2-1 et Jódar 2-1. L'autre groupe réunit Carlos Alcaraz, Daniil Medvedev, Flavio Cobolli et Frances Tiafoe. Le tournoi se joue sans le double tenant du titre Jannik Sinner, forfait sur blessure au genou. En double, Théo Arribagé et Albano Olivetti sont dans le groupe Todd Woodbridge avec les tenants du titre Heliövaara/Patten, Arévalo/Pavić et Luz/Matos. Le tournoi débute dimanche 15 novembre ; aucun match n'a encore été joué."
   },
   "calendrier": [
     {
@@ -422,11 +422,11 @@
   ],
   "infos": [
     {
-      "titre": "WTA Finals : Pegula sauve une balle de match et élimine Gauff",
-      "texte": "Jessica Pegula a battu Linda Nosková 7-6 (2), 4-6, 7-5 jeudi soir à Indian Wells, après avoir sauvé une balle de match, et rejoint les demi-finales. Gauff, victorieuse de Marta Kostyuk (6-4, 7-5) plus tôt dans la journée, est éliminée au pourcentage de sets malgré un bilan de 2-1, comme Nosková et Pegula. Pegula affrontera Mirra Andreeva samedi ; Sabalenka et Svitolina se disputent vendredi la dernière place.",
+      "titre": "WTA Finals : Sabalenka éliminée, Pegula qualifiée",
+      "texte": "Selon Tennis Uptodate, Elina Svitolina a battu Aryna Sabalenka 6-3, 3-6, 6-1 et la prive des demi-finales d'Indian Wells. Jessica Pegula s'est qualifiée en battant Linda Nosková 7-6, 4-6, 7-5, ce qui élimine Coco Gauff malgré sa victoire sur Marta Kostyuk. Demi-finales samedi 14 novembre : Nosková-Svitolina et Andreeva-Pegula ; finale dimanche 15.",
       "source": {
-        "nom": "Tennis Majors",
-        "url": "https://www.tennismajors.com/wta-tour-news/wta-finals/pegula-saves-match-point-against-noskova-to-reach-wta-finals-semi-finals-and-knock-out-gauff-866862.html"
+        "nom": "Tennis Uptodate",
+        "url": "https://tennisuptodate.com/wta/wta-finals-2026-results-schedule-draw-field-prize-money-history-and-format"
       }
     },
     {
@@ -484,6 +484,10 @@
       "url": "https://ticotimes.net/2026/11/10/atp-finals-2026-turin-field-sinner-absence"
     },
     {
+      "nom": "Tennis Uptodate – WTA Finals 2026 : résultats (mis à jour le 13 nov.)",
+      "url": "https://tennisuptodate.com/wta/wta-finals-2026-results-schedule-draw-field-prize-money-history-and-format"
+    },
+    {
       "nom": "Tennis Uptodate – WTA Finals 2026",
       "url": "https://tennisuptodate.com/wta/wta-finals-2026-results-schedule-draw-field-prize-money-history-and-format"
     },
@@ -526,10 +530,6 @@
     {
       "nom": "Tennis Majors – finale Paris Masters",
       "url": "https://www.tennismajors.com/atp/breaking-news-rolex-paris-masters-alcaraz-lifts-the-trophy-866414.html"
-    },
-    {
-      "nom": "Tennis Majors – Pegula-Nosková aux WTA Finals",
-      "url": "https://www.tennismajors.com/wta-tour-news/wta-finals/pegula-saves-match-point-against-noskova-to-reach-wta-finals-semi-finals-and-knock-out-gauff-866862.html"
     }
   ]
 }

@@ -1,75 +1,395 @@
 {
-  "maj": "après le Grand Prix de São Paulo (manche 20/23, 8 novembre 2026)",
+  "maj": "14 novembre 2026 – après le Grand Prix de São Paulo (manche 20/23, 8 novembre 2026) ; prochain rendez-vous : Las Vegas, 21 novembre",
   "pilotes": [
-    {"pos": 1, "pilote": "Kimi Antonelli", "ecurie": "Mercedes", "points": 390},
-    {"pos": 2, "pilote": "Max Verstappen", "ecurie": "Red Bull", "points": 279},
-    {"pos": 3, "pilote": "George Russell", "ecurie": "Mercedes", "points": 262},
-    {"pos": 4, "pilote": "Lewis Hamilton", "ecurie": "Ferrari", "points": 261},
-    {"pos": 5, "pilote": "Charles Leclerc", "ecurie": "Ferrari", "points": 249},
-    {"pos": 6, "pilote": "Lando Norris", "ecurie": "McLaren", "points": 246},
-    {"pos": 7, "pilote": "Oscar Piastri", "ecurie": "McLaren", "points": 152},
-    {"pos": 8, "pilote": "Isack Hadjar", "ecurie": "Red Bull", "points": 122},
-    {"pos": 9, "pilote": "Liam Lawson", "ecurie": "Racing Bulls", "points": 89},
-    {"pos": 10, "pilote": "Pierre Gasly", "ecurie": "Alpine", "points": 42},
-    {"pos": 11, "pilote": "Arvid Lindblad", "ecurie": "Racing Bulls", "points": 38},
-    {"pos": 12, "pilote": "Franco Colapinto", "ecurie": "Alpine", "points": 27},
-    {"pos": 13, "pilote": "Oliver Bearman", "ecurie": "Haas", "points": 23},
-    {"pos": 14, "pilote": "Gabriel Bortoleto", "ecurie": "Audi", "points": 14},
-    {"pos": 15, "pilote": "Nico Hülkenberg", "ecurie": "Audi", "points": 14},
-    {"pos": 16, "pilote": "Esteban Ocon", "ecurie": "Haas", "points": 7},
-    {"pos": 17, "pilote": "Fernando Alonso", "ecurie": "Aston Martin", "points": 7},
-    {"pos": 18, "pilote": "Carlos Sainz", "ecurie": "Williams", "points": 7},
-    {"pos": 19, "pilote": "Alexander Albon", "ecurie": "Williams", "points": 5},
-    {"pos": 20, "pilote": "Yuki Tsunoda", "ecurie": "Racing Bulls", "points": 1},
-    {"pos": 21, "pilote": "Ryo Hirakawa", "ecurie": "Haas", "points": 1},
-    {"pos": 22, "pilote": "Lance Stroll", "ecurie": "Aston Martin", "points": 0},
-    {"pos": 23, "pilote": "Valtteri Bottas", "ecurie": "Cadillac", "points": 0},
-    {"pos": 24, "pilote": "Sergio Pérez", "ecurie": "Cadillac", "points": 0},
-    {"pos": 25, "pilote": "Rafael Câmara", "ecurie": "Haas", "points": 0}
+    {
+      "pos": 1,
+      "pilote": "Kimi Antonelli",
+      "ecurie": "Mercedes",
+      "points": 390
+    },
+    {
+      "pos": 2,
+      "pilote": "Max Verstappen",
+      "ecurie": "Red Bull",
+      "points": 279
+    },
+    {
+      "pos": 3,
+      "pilote": "George Russell",
+      "ecurie": "Mercedes",
+      "points": 262
+    },
+    {
+      "pos": 4,
+      "pilote": "Lewis Hamilton",
+      "ecurie": "Ferrari",
+      "points": 261
+    },
+    {
+      "pos": 5,
+      "pilote": "Charles Leclerc",
+      "ecurie": "Ferrari",
+      "points": 249
+    },
+    {
+      "pos": 6,
+      "pilote": "Lando Norris",
+      "ecurie": "McLaren",
+      "points": 246
+    },
+    {
+      "pos": 7,
+      "pilote": "Oscar Piastri",
+      "ecurie": "McLaren",
+      "points": 152
+    },
+    {
+      "pos": 8,
+      "pilote": "Isack Hadjar",
+      "ecurie": "Red Bull",
+      "points": 122
+    },
+    {
+      "pos": 9,
+      "pilote": "Liam Lawson",
+      "ecurie": "Racing Bulls",
+      "points": 89
+    },
+    {
+      "pos": 10,
+      "pilote": "Pierre Gasly",
+      "ecurie": "Alpine",
+      "points": 42
+    },
+    {
+      "pos": 11,
+      "pilote": "Arvid Lindblad",
+      "ecurie": "Racing Bulls",
+      "points": 38
+    },
+    {
+      "pos": 12,
+      "pilote": "Franco Colapinto",
+      "ecurie": "Alpine",
+      "points": 27
+    },
+    {
+      "pos": 13,
+      "pilote": "Oliver Bearman",
+      "ecurie": "Haas",
+      "points": 23
+    },
+    {
+      "pos": 14,
+      "pilote": "Gabriel Bortoleto",
+      "ecurie": "Audi",
+      "points": 14
+    },
+    {
+      "pos": 15,
+      "pilote": "Nico Hülkenberg",
+      "ecurie": "Audi",
+      "points": 14
+    },
+    {
+      "pos": 16,
+      "pilote": "Esteban Ocon",
+      "ecurie": "Haas",
+      "points": 7
+    },
+    {
+      "pos": 17,
+      "pilote": "Fernando Alonso",
+      "ecurie": "Aston Martin",
+      "points": 7
+    },
+    {
+      "pos": 18,
+      "pilote": "Carlos Sainz",
+      "ecurie": "Williams",
+      "points": 7
+    },
+    {
+      "pos": 19,
+      "pilote": "Alexander Albon",
+      "ecurie": "Williams",
+      "points": 5
+    },
+    {
+      "pos": 20,
+      "pilote": "Yuki Tsunoda",
+      "ecurie": "Racing Bulls",
+      "points": 1
+    },
+    {
+      "pos": 21,
+      "pilote": "Ryo Hirakawa",
+      "ecurie": "Haas",
+      "points": 1
+    },
+    {
+      "pos": 22,
+      "pilote": "Lance Stroll",
+      "ecurie": "Aston Martin",
+      "points": 0
+    },
+    {
+      "pos": 23,
+      "pilote": "Valtteri Bottas",
+      "ecurie": "Cadillac",
+      "points": 0
+    },
+    {
+      "pos": 24,
+      "pilote": "Sergio Pérez",
+      "ecurie": "Cadillac",
+      "points": 0
+    },
+    {
+      "pos": 25,
+      "pilote": "Rafael Câmara",
+      "ecurie": "Haas",
+      "points": 0
+    }
   ],
   "constructeurs": [
-    {"pos": 1, "ecurie": "Mercedes", "points": 652},
-    {"pos": 2, "ecurie": "Ferrari", "points": 510},
-    {"pos": 3, "ecurie": "Red Bull", "points": 415},
-    {"pos": 4, "ecurie": "McLaren", "points": 398},
-    {"pos": 5, "ecurie": "Racing Bulls", "points": 114},
-    {"pos": 6, "ecurie": "Alpine", "points": 69},
-    {"pos": 7, "ecurie": "Haas", "points": 31},
-    {"pos": 8, "ecurie": "Audi", "points": 28},
-    {"pos": 9, "ecurie": "Williams", "points": 12},
-    {"pos": 10, "ecurie": "Aston Martin", "points": 7},
-    {"pos": 11, "ecurie": "Cadillac", "points": 0}
+    {
+      "pos": 1,
+      "ecurie": "Mercedes",
+      "points": 652
+    },
+    {
+      "pos": 2,
+      "ecurie": "Ferrari",
+      "points": 510
+    },
+    {
+      "pos": 3,
+      "ecurie": "Red Bull",
+      "points": 415
+    },
+    {
+      "pos": 4,
+      "ecurie": "McLaren",
+      "points": 398
+    },
+    {
+      "pos": 5,
+      "ecurie": "Racing Bulls",
+      "points": 114
+    },
+    {
+      "pos": 6,
+      "ecurie": "Alpine",
+      "points": 69
+    },
+    {
+      "pos": 7,
+      "ecurie": "Haas",
+      "points": 31
+    },
+    {
+      "pos": 8,
+      "ecurie": "Audi",
+      "points": 28
+    },
+    {
+      "pos": 9,
+      "ecurie": "Williams",
+      "points": 12
+    },
+    {
+      "pos": 10,
+      "ecurie": "Aston Martin",
+      "points": 7
+    },
+    {
+      "pos": 11,
+      "ecurie": "Cadillac",
+      "points": 0
+    }
   ],
   "dernier_gp": {
     "nom": "Grand Prix de São Paulo",
     "date": "8 novembre 2026",
-    "podium": ["Lando Norris (McLaren)", "Max Verstappen (Red Bull)", "Isack Hadjar (Red Bull)"],
+    "podium": [
+      "Lando Norris (McLaren)",
+      "Max Verstappen (Red Bull)",
+      "Isack Hadjar (Red Bull)"
+    ],
     "texte": "Sur une piste d'Interlagos tour à tour mouillée et sèche, Lando Norris s'est imposé depuis la pole devant Max Verstappen, remonté de la 21e place sur la grille, et Isack Hadjar. Quatrième et cinquième, Russell et Antonelli ont assuré à Mercedes le titre des constructeurs."
   },
   "calendrier": [
-    {"date": "25 octobre 2026", "gp": "Grand Prix des États-Unis", "circuit": "Circuit of the Americas, Austin", "fait": true},
-    {"date": "1er novembre 2026", "gp": "Grand Prix de Mexico", "circuit": "Autódromo Hermanos Rodríguez", "fait": true},
-    {"date": "8 novembre 2026", "gp": "Grand Prix de São Paulo", "circuit": "Interlagos", "fait": true},
-    {"date": "21 novembre 2026", "gp": "Grand Prix de Las Vegas", "circuit": "Las Vegas Strip Circuit", "fait": false},
-    {"date": "29 novembre 2026", "gp": "Grand Prix du Qatar", "circuit": "Lusail International Circuit", "fait": false},
-    {"date": "6 décembre 2026", "gp": "Grand Prix d'Abu Dhabi", "circuit": "Yas Marina", "fait": false}
+    {
+      "date": "25 octobre 2026",
+      "gp": "Grand Prix des États-Unis",
+      "circuit": "Circuit of the Americas, Austin",
+      "fait": true
+    },
+    {
+      "date": "1er novembre 2026",
+      "gp": "Grand Prix de Mexico",
+      "circuit": "Autódromo Hermanos Rodríguez",
+      "fait": true
+    },
+    {
+      "date": "8 novembre 2026",
+      "gp": "Grand Prix de São Paulo",
+      "circuit": "Interlagos",
+      "fait": true
+    },
+    {
+      "date": "21 novembre 2026",
+      "gp": "Grand Prix de Las Vegas",
+      "circuit": "Las Vegas Strip Circuit",
+      "fait": false
+    },
+    {
+      "date": "29 novembre 2026",
+      "gp": "Grand Prix du Qatar",
+      "circuit": "Lusail International Circuit",
+      "fait": false
+    },
+    {
+      "date": "6 décembre 2026",
+      "gp": "Grand Prix d'Abu Dhabi",
+      "circuit": "Yas Marina",
+      "fait": false
+    }
   ],
   "titre": "Kimi Antonelli (Mercedes) a été sacré champion du monde dès le Grand Prix de Mexico, devenant à 20 ans le plus jeune champion de l'histoire, et Mercedes a bouclé le titre constructeurs à São Paulo. Reste la lutte pour la place de vice-champion : Verstappen (279 pts) devance Russell (262) et Hamilton (261) de 17 et 18 points, avec trois Grands Prix (75 points maximum) à disputer.",
   "francais": "Isack Hadjar (Red Bull) a signé un podium à São Paulo et pointe au 8e rang avec 122 points, devant Pierre Gasly (Alpine, 10e, 42 pts) et Esteban Ocon (Haas, 16e, 7 pts).",
   "evolution": {
-    "gps": ["AUS", "CHN", "JPN", "MIA", "CAN", "MON", "BCN", "AUT", "GBR", "BEL", "HUN", "NED", "ITA", "ESP", "AZE", "BHR", "SIN", "USA", "MXC", "SAP"],
+    "gps": [
+      "AUS",
+      "CHN",
+      "JPN",
+      "MIA",
+      "CAN",
+      "MON",
+      "BCN",
+      "AUT",
+      "GBR",
+      "BEL",
+      "HUN",
+      "NED",
+      "ITA",
+      "ESP",
+      "AZE",
+      "BHR",
+      "SIN",
+      "USA",
+      "MXC",
+      "SAP"
+    ],
     "pilotes": {
-      "Kimi Antonelli": [18, 47, 72, 100, 131, 156, 156, 171, 179, 204, 219, 242, 267, 292, 302, 320, 340, 365, 380, 390],
-      "Max Verstappen": [8, 8, 12, 26, 43, 43, 55, 73, 76, 91, 109, 112, 127, 145, 163, 188, 221, 236, 261, 279],
-      "George Russell": [25, 51, 63, 80, 88, 88, 106, 131, 154, 154, 160, 183, 201, 211, 236, 236, 238, 242, 250, 262],
-      "Lewis Hamilton": [12, 33, 41, 51, 72, 90, 115, 125, 147, 159, 169, 183, 191, 191, 199, 214, 229, 241, 259, 261]
+      "Kimi Antonelli": [
+        18,
+        47,
+        72,
+        100,
+        131,
+        156,
+        156,
+        171,
+        179,
+        204,
+        219,
+        242,
+        267,
+        292,
+        302,
+        320,
+        340,
+        365,
+        380,
+        390
+      ],
+      "Max Verstappen": [
+        8,
+        8,
+        12,
+        26,
+        43,
+        43,
+        55,
+        73,
+        76,
+        91,
+        109,
+        112,
+        127,
+        145,
+        163,
+        188,
+        221,
+        236,
+        261,
+        279
+      ],
+      "George Russell": [
+        25,
+        51,
+        63,
+        80,
+        88,
+        88,
+        106,
+        131,
+        154,
+        154,
+        160,
+        183,
+        201,
+        211,
+        236,
+        236,
+        238,
+        242,
+        250,
+        262
+      ],
+      "Lewis Hamilton": [
+        12,
+        33,
+        41,
+        51,
+        72,
+        90,
+        115,
+        125,
+        147,
+        159,
+        169,
+        183,
+        191,
+        191,
+        199,
+        214,
+        229,
+        241,
+        259,
+        261
+      ]
     },
     "note": "Cumul calculé à partir des résultats course et sprint du tableau Wikipedia (barème 25-18-15-12-10-8-6-4-2-1, sprint 8 à 1) ; les totaux finaux concordent avec le classement officiel."
   },
   "sources": [
-    {"nom": "RacingNews365 – classements après São Paulo", "url": "https://racingnews365.com/2026-f1-championship-standings-after-sao-paulo-grand-prix"},
-    {"nom": "Crash.net – classements après le GP du Brésil", "url": "https://www.crash.net/f1/news/1110014/1/new-f1-championship-standings-after-brazil-grand-prix"},
-    {"nom": "Formula1.com – compte rendu du GP de São Paulo", "url": "https://www.formula1.com/en/latest/article/norris-beats-verstappen-in-wet-sao-paulo-gp-thriller-as-mercedes-win-constructors-championship.7JN7MXLZf5lk5l0C3gfKGI"},
-    {"nom": "Wikipedia – 2026 Formula One World Championship", "url": "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship"}
+    {
+      "nom": "RacingNews365 – classements après São Paulo",
+      "url": "https://racingnews365.com/2026-f1-championship-standings-after-sao-paulo-grand-prix"
+    },
+    {
+      "nom": "Crash.net – classements après le GP du Brésil",
+      "url": "https://www.crash.net/f1/news/1110014/1/new-f1-championship-standings-after-brazil-grand-prix"
+    },
+    {
+      "nom": "Formula1.com – compte rendu du GP de São Paulo",
+      "url": "https://www.formula1.com/en/latest/article/norris-beats-verstappen-in-wet-sao-paulo-gp-thriller-as-mercedes-win-constructors-championship.7JN7MXLZf5lk5l0C3gfKGI"
+    },
+    {
+      "nom": "Wikipedia – 2026 Formula One World Championship",
+      "url": "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship"
+    }
   ]
 }

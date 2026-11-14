@@ -1,5 +1,5 @@
 {
-  "maj": "semaine 10 en cours (Commanders-Giants joué dans la nuit du 12 au 13 novembre ; leaders arrêtés après la semaine 9)",
+  "maj": "14 novembre 2026 – semaine 10 en cours (match du jeudi 12 novembre joué)",
   "divisions": [
     {
       "nom": "AFC Est",
@@ -351,13 +351,6 @@
   },
   "derniers": [
     {
-      "date": "2026-11-13",
-      "dom": "Giants",
-      "ext": "Commanders",
-      "score_dom": 21,
-      "score_ext": 24
-    },
-    {
       "date": "2026-11-05",
       "dom": "Ravens",
       "ext": "Jaguars",
@@ -463,6 +456,13 @@
       "ext": "Bills",
       "score_dom": 6,
       "score_ext": 23
+    },
+    {
+      "date": "2026-11-12",
+      "dom": "Giants",
+      "ext": "Commanders",
+      "score_dom": 21,
+      "score_ext": 24
     }
   ],
   "a_venir": {
@@ -559,35 +559,19 @@
   },
   "infos": [
     {
-      "titre": "Washington fait tomber les Giants au Thursday Night",
-      "texte": "Les Commanders ont battu les Giants 24-21 dans la nuit de jeudi à vendredi au MetLife Stadium. New York (5-3-1) reste en tête de la NFC Est ; Washington remonte à 3-5-1.",
+      "titre": "Washington s'impose chez les Giants",
+      "texte": "Selon ESPN, les Commanders ont battu les Giants 24-21 jeudi soir après avoir mené 17-7 à la pause. Côté New York, J.J. McCarthy a lancé pour 293 yards et Cam Skattebo a marqué deux touchdowns. Les Giants (5-3-1) restent en tête de la NFC Est.",
       "source": {
-        "nom": "ESPN – Semaine 10 2026",
+        "nom": "ESPN",
         "url": "https://www.espn.com/nfl/scoreboard/_/week/10/year/2026/seasontype/2"
       }
     },
     {
-      "titre": "Trade deadline : Cousins aux Vikings, Jacksonville frappe fort",
-      "texte": "Minnesota a récupéré Kirk Cousins auprès des Raiders contre un 3e tour 2027, tandis que les Jaguars ont enchaîné trois échanges (dont Jordan Davis et Jessie Bates). Les Colts ont envoyé Keenan Allen aux 49ers et Josh Downs aux Chiefs.",
+      "titre": "Mahomes s'entraîne normalement",
+      "texte": "Selon le rapport de blessures des Chiefs du 13 novembre, Patrick Mahomes (genou, coude droit) a participé pleinement aux trois entraînements de la semaine et n'a pas de statut pour le déplacement à Atlanta. Le running back Kenneth Walker (aine) est incertain.",
       "source": {
-        "nom": "NFL.com",
-        "url": "https://www.nfl.com/news/nfl-power-rankings-week-10-2026-nfl-season"
-      }
-    },
-    {
-      "titre": "Les Bills dominent Minnesota au Monday Night",
-      "texte": "Buffalo s'est imposé 23-6 chez les Vikings lundi et grimpe à 7-1, à égalité de bilan avec San Francisco.",
-      "source": {
-        "nom": "ESPN",
-        "url": "https://www.espn.com/nfl/scoreboard/_/week/9/year/2026/seasontype/2"
-      }
-    },
-    {
-      "titre": "Mahomes touché au coude",
-      "texte": "Patrick Mahomes souffre d'une élongation au coude droit et est jugé au jour le jour ; Andy Reid parle d'une IRM « plutôt positive ». Justin Fields est en back-up avant le déplacement à Atlanta.",
-      "source": {
-        "nom": "DK Network",
-        "url": "https://dknetwork.draftkings.com/2026/11/10/nfl-injury-report-week-10/"
+        "nom": "Chiefs.com",
+        "url": "https://www.chiefs.com/news/week-10-injury-report-chiefs-vs-falcons-2026"
       }
     },
     {
@@ -605,6 +589,14 @@
         "nom": "Sports Illustrated",
         "url": "https://www.si.com/nfl/lions/onsi/detroit-lions-jared-goff-surprisingly-lands-week-10-injury-report-2026"
       }
+    },
+    {
+      "titre": "Trade deadline : Cousins aux Vikings, Jacksonville frappe fort",
+      "texte": "Minnesota a récupéré Kirk Cousins auprès des Raiders contre un 3e tour 2027, tandis que les Jaguars ont enchaîné trois échanges (dont Jordan Davis et Jessie Bates). Les Colts ont envoyé Keenan Allen aux 49ers et Josh Downs aux Chiefs.",
+      "source": {
+        "nom": "NFL.com",
+        "url": "https://www.nfl.com/news/nfl-power-rankings-week-10-2026-nfl-season"
+      }
     }
   ],
   "sources": [
@@ -619,6 +611,10 @@
     {
       "nom": "ESPN – Résultats semaine 9 2026",
       "url": "https://www.espn.com/nfl/scoreboard/_/week/9/year/2026/seasontype/2"
+    },
+    {
+      "nom": "Chiefs.com – Rapport de blessures semaine 10 (13 nov. 2026)",
+      "url": "https://www.chiefs.com/news/week-10-injury-report-chiefs-vs-falcons-2026"
     },
     {
       "nom": "ESPN – Programme semaine 10 2026",

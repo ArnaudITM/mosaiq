@@ -1,5 +1,5 @@
 {
-  "maj": "au 13 novembre 2026 (classements et résultats à jour après les quatre matchs du 12 novembre ; moyennes des leaders arrêtées au 11 novembre)",
+  "maj": "au 14 novembre 2026, 5h30 (classements et résultats arrêtés après les matchs du 12 novembre ; les neuf matchs de la nuit du 13 au 14 novembre (NBA Cup) n'avaient pas de résultat publié à la rédaction)",
   "est": [
     {
       "pos": 1,
@@ -175,16 +175,6 @@
     },
     {
       "pos": 3,
-      "equipe": "Rockets",
-      "ville": "Houston",
-      "v": 9,
-      "d": 3,
-      "pct": ".750",
-      "ecart": "1.5",
-      "serie": "V2"
-    },
-    {
-      "pos": 4,
       "equipe": "Timberwolves",
       "ville": "Minnesota",
       "v": 9,
@@ -192,6 +182,16 @@
       "pct": ".750",
       "ecart": "1.5",
       "serie": "V5"
+    },
+    {
+      "pos": 4,
+      "equipe": "Rockets",
+      "ville": "Houston",
+      "v": 9,
+      "d": 3,
+      "pct": ".750",
+      "ecart": "1.5",
+      "serie": "V2"
     },
     {
       "pos": 5,
@@ -364,14 +364,14 @@
         "valeur": 12.6
       },
       {
-        "joueur": "Rudy Gobert",
-        "equipe": "Timberwolves",
-        "valeur": 12.1
-      },
-      {
         "joueur": "Victor Wembanyama",
         "equipe": "Spurs",
         "valeur": 11.7
+      },
+      {
+        "joueur": "Rudy Gobert",
+        "equipe": "Timberwolves",
+        "valeur": 11.5
       }
     ],
     "passes": [
@@ -381,14 +381,14 @@
         "valeur": 9.0
       },
       {
+        "joueur": "Trae Young",
+        "equipe": "Wizards",
+        "valeur": 8.8
+      },
+      {
         "joueur": "Davion Mitchell",
         "equipe": "Heat",
         "valeur": 8.5
-      },
-      {
-        "joueur": "Trae Young",
-        "equipe": "Wizards",
-        "valeur": 8.3
       },
       {
         "joueur": "Josh Giddey",
@@ -396,8 +396,8 @@
         "valeur": 8.3
       },
       {
-        "joueur": "Franz Wagner",
-        "equipe": "Magic",
+        "joueur": "Cade Cunningham",
+        "equipe": "Pistons",
         "valeur": 7.9
       }
     ]
@@ -406,14 +406,14 @@
     {
       "joueur": "Victor Wembanyama",
       "equipe": "Spurs",
-      "stats": "30,3 pts, 11,7 rbd, 4,4 contres (12 matchs)",
-      "texte": "Deuxième marqueur de la ligue et meilleur contreur (4,4 par match), il mène des Spurs sur dix victoires de suite, qui reçoivent Golden State dans la nuit de vendredi à samedi (3h30)."
+      "stats": "30,2 pts, 11,7 rbd, 4,4 contres (12 matchs)",
+      "texte": "Deuxième marqueur de la ligue et meilleur contreur (4,4 par match, loin devant Myles Turner, 2,4), il mène des Spurs sur dix victoires de suite. San Antonio recevait Golden State en NBA Cup dans la nuit de vendredi à samedi (résultat non disponible à la rédaction), puis reçoit Utah dimanche (23h)."
     },
     {
       "joueur": "Rudy Gobert",
       "equipe": "Timberwolves",
-      "stats": "7,8 pts, 12,1 rbd, 0,9 contre (10 matchs)",
-      "texte": "Quatrième rebondeur de la NBA, il ancre la raquette de Minnesota (quatre victoires de suite avant la réception de Dallas dans la nuit de jeudi à vendredi)."
+      "stats": "7,9 pts, 11,5 rbd, 1,0 contre (11 matchs)",
+      "texte": "Cinquième rebondeur de la NBA, il a participé à la large victoire de Minnesota à Dallas (133-94), la cinquième de suite des Wolves, qui reçoivent Chicago dans la nuit de samedi à dimanche (2h)."
     },
     {
       "joueur": "Nolan Traoré",
@@ -424,8 +424,8 @@
     {
       "joueur": "Alex Sarr",
       "equipe": "Wizards",
-      "stats": "9,5 pts, 7,3 rbd, 0,9 contre (11 matchs)",
-      "texte": "Le pivot de Washington évolue cette saison aux côtés de Trae Young et Anthony Davis."
+      "stats": "11,2 pts, 7,4 rbd, 0,9 contre (12 matchs)",
+      "texte": "Auteur de 30 points face à Detroit jeudi, défaite des Wizards 144-140 après deux prolongations (sixième revers de suite pour Washington)."
     },
     {
       "joueur": "Sidy Cissoko",
@@ -436,14 +436,14 @@
     {
       "joueur": "Bilal Coulibaly",
       "equipe": "Wizards",
-      "stats": "7,2 pts, 3,7 rbd, 1,2 int (10 matchs)",
+      "stats": "6,8 pts, 4,2 rbd, 1,2 int (12 matchs)",
       "texte": "L'ailier des Wizards tourne à 1,2 interception par match."
     },
     {
       "joueur": "Zaccharie Risacher",
       "equipe": "Mavericks",
-      "stats": "7,1 pts, 4,9 rbd, 1,4 pd (11 matchs)",
-      "texte": "L'ancien n°1 de la draft 2024 joue désormais sous le maillot des Mavericks."
+      "stats": "8,3 pts, 5,0 rbd, 1,5 pd (12 matchs)",
+      "texte": "L'ancien n°1 de la draft 2024, désormais à Dallas, a vu les Mavericks lourdement battus par Minnesota (94-133) jeudi."
     },
     {
       "joueur": "Tidjane Salaün",
@@ -455,11 +455,24 @@
   "derniers": [
     {
       "date": "2026-11-12",
+      "dom": "Suns",
+      "ext": "Hornets",
+      "score_dom": 101,
+      "score_ext": 96
+    },
+    {
+      "date": "2026-11-12",
+      "dom": "Mavericks",
+      "ext": "Timberwolves",
+      "score_dom": 94,
+      "score_ext": 133
+    },
+    {
+      "date": "2026-11-12",
       "dom": "Wizards",
       "ext": "Pistons",
       "score_dom": 140,
-      "score_ext": 144,
-      "prolongation": true
+      "score_ext": 144
     },
     {
       "date": "2026-11-12",
@@ -467,147 +480,9 @@
       "ext": "Raptors",
       "score_dom": 123,
       "score_ext": 112
-    },
-    {
-      "date": "2026-11-12",
-      "dom": "Timberwolves",
-      "ext": "Mavericks",
-      "score_dom": 133,
-      "score_ext": 94
-    },
-    {
-      "date": "2026-11-12",
-      "dom": "Suns",
-      "ext": "Hornets",
-      "score_dom": 101,
-      "score_ext": 96
-    },
-    {
-      "date": "2026-11-11",
-      "dom": "Raptors",
-      "ext": "Celtics",
-      "score_dom": 93,
-      "score_ext": 98
-    },
-    {
-      "date": "2026-11-11",
-      "dom": "Knicks",
-      "ext": "Cavaliers",
-      "score_dom": 107,
-      "score_ext": 115
-    },
-    {
-      "date": "2026-11-11",
-      "dom": "Pacers",
-      "ext": "Wizards",
-      "score_dom": 114,
-      "score_ext": 101
-    },
-    {
-      "date": "2026-11-11",
-      "dom": "Pelicans",
-      "ext": "Nets",
-      "score_dom": 111,
-      "score_ext": 145
-    },
-    {
-      "date": "2026-11-11",
-      "dom": "Grizzlies",
-      "ext": "Nuggets",
-      "score_dom": 118,
-      "score_ext": 123
-    },
-    {
-      "date": "2026-11-11",
-      "dom": "Bucks",
-      "ext": "Lakers",
-      "score_dom": 112,
-      "score_ext": 123
-    },
-    {
-      "date": "2026-11-11",
-      "dom": "Bulls",
-      "ext": "Spurs",
-      "score_dom": 119,
-      "score_ext": 124
-    },
-    {
-      "date": "2026-11-11",
-      "dom": "Jazz",
-      "ext": "Magic",
-      "score_dom": 108,
-      "score_ext": 123
-    },
-    {
-      "date": "2026-11-11",
-      "dom": "Rockets",
-      "ext": "Warriors",
-      "score_dom": 115,
-      "score_ext": 108
-    },
-    {
-      "date": "2026-11-11",
-      "dom": "Trail Blazers",
-      "ext": "Thunder",
-      "score_dom": 118,
-      "score_ext": 108
     }
   ],
   "a_venir": [
-    {
-      "date": "2026-11-14",
-      "heure_paris": "01:00",
-      "dom": "Magic",
-      "ext": "Bucks"
-    },
-    {
-      "date": "2026-11-14",
-      "heure_paris": "01:00",
-      "dom": "Pacers",
-      "ext": "Knicks"
-    },
-    {
-      "date": "2026-11-14",
-      "heure_paris": "02:00",
-      "dom": "Bulls",
-      "ext": "Hawks"
-    },
-    {
-      "date": "2026-11-14",
-      "heure_paris": "02:00",
-      "dom": "Heat",
-      "ext": "Cavaliers"
-    },
-    {
-      "date": "2026-11-14",
-      "heure_paris": "02:00",
-      "dom": "Pelicans",
-      "ext": "Grizzlies"
-    },
-    {
-      "date": "2026-11-14",
-      "heure_paris": "02:30",
-      "dom": "Rockets",
-      "ext": "Jazz"
-    },
-    {
-      "date": "2026-11-14",
-      "heure_paris": "03:30",
-      "dom": "Spurs",
-      "ext": "Warriors"
-    },
-    {
-      "date": "2026-11-14",
-      "heure_paris": "04:00",
-      "dom": "Kings",
-      "ext": "Trail Blazers"
-    },
-    {
-      "date": "2026-11-14",
-      "heure_paris": "04:30",
-      "dom": "Clippers",
-      "ext": "Thunder"
-    },
     {
       "date": "2026-11-15",
       "heure_paris": "01:00",
@@ -637,86 +512,116 @@
       "heure_paris": "02:00",
       "dom": "Heat",
       "ext": "Pistons"
+    },
+    {
+      "date": "2026-11-15",
+      "heure_paris": "19:00",
+      "dom": "76ers",
+      "ext": "Pacers"
+    },
+    {
+      "date": "2026-11-15",
+      "heure_paris": "22:00",
+      "dom": "Suns",
+      "ext": "Lakers"
+    },
+    {
+      "date": "2026-11-15",
+      "heure_paris": "22:30",
+      "dom": "Clippers",
+      "ext": "Hornets"
+    },
+    {
+      "date": "2026-11-15",
+      "heure_paris": "23:00",
+      "dom": "Jazz",
+      "ext": "Spurs"
+    },
+    {
+      "date": "2026-11-16",
+      "heure_paris": "00:00",
+      "dom": "Celtics",
+      "ext": "Mavericks"
+    },
+    {
+      "date": "2026-11-16",
+      "heure_paris": "00:00",
+      "dom": "Raptors",
+      "ext": "Knicks"
+    },
+    {
+      "date": "2026-11-16",
+      "heure_paris": "01:00",
+      "dom": "Wizards",
+      "ext": "Rockets"
+    },
+    {
+      "date": "2026-11-16",
+      "heure_paris": "02:00",
+      "dom": "Bucks",
+      "ext": "Hawks"
+    },
+    {
+      "date": "2026-11-16",
+      "heure_paris": "03:00",
+      "dom": "Kings",
+      "ext": "Thunder"
     }
   ],
   "infos": [
     {
-      "titre": "Detroit s'impose après deux prolongations à Washington",
-      "texte": "Les Pistons ont battu les Wizards 144-140 après deux prolongations jeudi soir. Philadelphie, privé de LeBron James, a dominé Toronto (123-112), Minnesota a écrasé Dallas (133-94) pour une cinquième victoire de suite et Phoenix a battu Charlotte (101-96).",
+      "titre": "52 points pour Cade Cunningham",
+      "texte": "Selon Land of Basketball, Cade Cunningham a inscrit 52 points (avec 11 passes) lors de la victoire de Detroit à Washington (144-140, deux prolongations), malgré 37 points et 14 passes de Trae Young et 30 points chacun d'Anthony Davis et Alex Sarr. Ausar Thompson a réussi un triple-double (17 pts, 11 rbd, 11 pd).",
       "source": {
-        "nom": "CBS Sports – Scores du 12 novembre 2026",
-        "url": "https://www.cbssports.com/nba/scoreboard/20261112/"
+        "nom": "Land of Basketball",
+        "url": "https://www.landofbasketball.com/nba_daily_summary/20261112.htm"
       }
     },
     {
-      "titre": "Les 76ers sans LeBron James face à Toronto",
-      "texte": "Philadelphie (9-3) a déclaré LeBron James forfait (dos/sciatique) pour la réception des Raptors jeudi soir, Joel Embiid étant incertain (fasciite plantaire au pied droit). Côté Toronto, Scottie Barnes et Kawhi Leonard sont absents ; Leonard, qui n'a joué que deux matchs cette saison, doit manquer au moins une semaine de plus.",
+      "titre": "Philadelphie s'impose face à Toronto",
+      "texte": "Les 76ers, privés de LeBron James (dos), ont battu les Raptors 123-112 et remontent à 10-3, deuxièmes de l'Est. Toronto, sans Scottie Barnes ni Kawhi Leonard, enchaîne une troisième défaite malgré 31 points et 14 rebonds de RJ Barrett.",
       "source": {
-        "nom": "NBA.com – 76ers",
-        "url": "https://www.nba.com/sixers/news/sixers-vs-raptors-game-preview-injury-report-and-how-to-watch-11-12-2026"
+        "nom": "Land of Basketball",
+        "url": "https://www.landofbasketball.com/nba_daily_summary/20261112.htm"
+      }
+    },
+    {
+      "titre": "Minnesota écrase Dallas",
+      "texte": "Les Timberwolves ont battu les Mavericks 133-94 à Dallas, cinquième victoire de suite, et occupent la 3e place de l'Ouest. Phoenix a dominé Charlotte 101-96 (30 points de Devin Booker).",
+      "source": {
+        "nom": "Land of Basketball",
+        "url": "https://www.landofbasketball.com/nba_daily_summary/20261112.htm"
+      }
+    },
+    {
+      "titre": "Soirée NBA Cup",
+      "texte": "Les neuf matchs de la nuit du 13 au 14 novembre comptaient pour la phase de groupes de la NBA Cup, dont Golden State-San Antonio et Oklahoma City-Clippers ; les résultats n'étaient pas publiés à la rédaction.",
+      "source": {
+        "nom": "CBS Sports – Programme du 13 novembre 2026",
+        "url": "https://www.cbssports.com/nba/scoreboard/20261113/"
       }
     },
     {
       "titre": "Dix victoires de suite pour les Spurs",
-      "texte": "Victor Wembanyama a inscrit 32 points (13/18), avec 9 rebonds et 5 contres, lors du succès 124-119 à Chicago. San Antonio enchaîne une dixième victoire consécutive.",
+      "texte": "Victor Wembanyama a inscrit 32 points (13/18), avec 9 rebonds et 5 contres, lors du succès 124-119 à Chicago le 11 novembre. San Antonio enchaîne une dixième victoire consécutive.",
       "source": {
         "nom": "Sport News Africa",
         "url": "https://sportnewsafrica.com/actualites/nba-joueur-de-la-nuit-wembanyama-11-novembre-2026/"
-      }
-    },
-    {
-      "titre": "Les Lakers seuls en tête à l'Ouest",
-      "texte": "Vainqueurs à Milwaukee (123-112), les Lakers signent une septième victoire de suite (11-2). Luka Dončić, meilleur marqueur de la ligue (38,6 pts), a été nommé joueur de la semaine avec Jalen Brunson.",
-      "source": {
-        "nom": "Hoops Rumors",
-        "url": "https://www.hoopsrumors.com/"
-      }
-    },
-    {
-      "titre": "OKC récupère Nique Clifford",
-      "texte": "Le Thunder a acquis Nique Clifford auprès des Kings contre deux futurs choix de second tour, ce qui ferait passer sa facture de luxury tax projetée de 19,7 à 31,5 millions de dollars.",
-      "source": {
-        "nom": "Hoops Rumors",
-        "url": "https://www.hoopsrumors.com/"
-      }
-    },
-    {
-      "titre": "Jalen Duren out au moins deux semaines",
-      "texte": "Le pivot des Pistons, touché aux ischio-jambiers, devrait manquer au moins deux semaines supplémentaires.",
-      "source": {
-        "nom": "Hoops Rumors",
-        "url": "https://www.hoopsrumors.com/"
       }
     }
   ],
   "sources": [
     {
-      "nom": "CBS Sports – Scores du 12 novembre 2026",
-      "url": "https://www.cbssports.com/nba/scoreboard/20261112/"
-    },
-    {
       "nom": "CBS Sports – Classement NBA 2026-27",
       "url": "https://www.cbssports.com/nba/standings/"
     },
     {
-      "nom": "CBS Sports – Scores du 11 novembre 2026",
-      "url": "https://www.cbssports.com/nba/scoreboard/20261111/"
-    },
-    {
-      "nom": "FOX Sports – Classement NBA 2026-27",
-      "url": "https://www.foxsports.com/nba/standings"
-    },
-    {
-      "nom": "Basketball-Reference – Leaders 2026-27",
-      "url": "https://www.basketball-reference.com/leagues/NBA_2027_leaders.html"
-    },
-    {
-      "nom": "Land of Basketball – Résumé du 11 novembre 2026",
-      "url": "https://www.landofbasketball.com/nba_daily_summary/20261111.htm"
-    },
-    {
-      "nom": "Land of Basketball – Programme du 12 novembre 2026",
+      "nom": "Land of Basketball – Résumé du 12 novembre 2026",
       "url": "https://www.landofbasketball.com/nba_daily_summary/20261112.htm"
+    },
+    {
+      "nom": "CBS Sports – Programme du 13 novembre 2026 (NBA Cup)",
+      "url": "https://www.cbssports.com/nba/scoreboard/20261113/"
     },
     {
       "nom": "Land of Basketball – Programme du 13 novembre 2026",
@@ -727,16 +632,12 @@
       "url": "https://www.landofbasketball.com/nba_daily_summary/20261114.htm"
     },
     {
-      "nom": "CBS Sports – Programme du 12 novembre 2026",
-      "url": "https://www.cbssports.com/nba/scoreboard/20261112/"
+      "nom": "Land of Basketball – Programme du 15 novembre 2026",
+      "url": "https://www.landofbasketball.com/nba_daily_summary/20261115.htm"
     },
     {
-      "nom": "CBS Sports – Programme du 14 novembre 2026",
-      "url": "https://www.cbssports.com/nba/scoreboard/20261114/"
-    },
-    {
-      "nom": "NBA.com – 76ers-Raptors, rapport de blessures du 12 novembre",
-      "url": "https://www.nba.com/sixers/news/sixers-vs-raptors-game-preview-injury-report-and-how-to-watch-11-12-2026"
+      "nom": "Basketball-Reference – Leaders 2026-27 (13 nov. 2026)",
+      "url": "https://www.basketball-reference.com/leagues/NBA_2027_leaders.html"
     },
     {
       "nom": "Land of Basketball – Stats Wembanyama 2026-27",
@@ -773,10 +674,6 @@
     {
       "nom": "Sport News Africa",
       "url": "https://sportnewsafrica.com/actualites/nba-joueur-de-la-nuit-wembanyama-11-novembre-2026/"
-    },
-    {
-      "nom": "Hoops Rumors",
-      "url": "https://www.hoopsrumors.com/"
     }
   ]
 }
