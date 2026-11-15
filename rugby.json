@@ -1,6 +1,6 @@
 {
   "top14": {
-    "maj": "après la 9e journée (saison 2026-2027) – pas de journée ce week-end, reprise le 28 novembre",
+    "maj": "après la 9e journée (saison 2026-2027) – pas de journée ce week-end, reprise le 28 novembre (vérifié le 15 novembre 2026)",
     "classement": [
       {
         "pos": 1,
@@ -173,7 +173,7 @@
         "date": "13 novembre 2026",
         "dom": "France",
         "ext": "Afrique du Sud",
-        "score": "n.c."
+        "score": "21-19"
       }
     ],
     "a_venir": [
@@ -192,9 +192,17 @@
         "lieu": "Allianz Stadium, Twickenham (Londres)"
       }
     ],
-    "texte": "Après sa victoire contre les Fidji à Lyon (54-17), le XV de France a reçu l'Afrique du Sud vendredi 13 novembre au Stade de France ; le score n'était pas publié par les sources consultées à la rédaction (World Rugby, rugby365). Fabien Galthié avait titularisé Antoine Dupont, capitaine, à l'ouverture, avec Maxime Lucu à la mêlée. Les Bleus affrontent ensuite l'Argentine le samedi 21 novembre au Stade de France (21h10, TF1) ; leur classement final déterminera leur adversaire lors du Finals Weekend de Twickenham (27-29 novembre)."
+    "texte": "Après sa victoire contre les Fidji à Lyon (54-17), le XV de France a battu l'Afrique du Sud 21-19 vendredi 13 novembre au Stade de France, selon rugby365 et RugbyPass ; les Springboks ont réduit l'écart par un essai de Malcolm Marx à la 71e minute, et la transformation de Libbok à la 76e n'a pas été réussie. Les Bleus affrontent ensuite l'Argentine le samedi 21 novembre au Stade de France (21h10, TF1) ; leur classement final déterminera leur adversaire lors du Finals Weekend de Twickenham (27-29 novembre)."
   },
   "infos": [
+    {
+      "titre": "Les Bleus battent les Springboks",
+      "texte": "Le XV de France s'est imposé 21-19 face à l'Afrique du Sud au Stade de France, lors de la 5e journée du Championnat des nations, selon rugby365. Malcolm Marx a inscrit le dernier essai sud-africain à la 71e minute ; Maxime Lucu est crédité de 6 points, selon RugbyPass. L'arbitre était l'Italien Andrea Piardi.",
+      "source": {
+        "nom": "rugby365",
+        "url": "https://rugby365.com/live/france-vs-south-africa/"
+      }
+    },
     {
       "titre": "Dupont à l'ouverture, retours d'Alldritt et Marchand",
       "texte": "Pour recevoir les Springboks, Fabien Galthié replace Antoine Dupont au poste de demi d'ouverture et Maxime Lucu à la mêlée. Grégory Alldritt, absent de la sélection depuis près d'un an, est titulaire en n°8 et Julien Marchand au talonnage ; Romain Ntamack et Paul Boudehent sont blessés, et le Palois Axel Desperes figure sur le banc.",
@@ -276,6 +284,10 @@
     {
       "nom": "rugby365 – France vs South Africa",
       "url": "https://rugby365.com/live/france-vs-south-africa/"
+    },
+    {
+      "nom": "RugbyPass – France-Afrique du Sud en direct (13 nov. 2026)",
+      "url": "https://www.rugbypass.com/fr/live/france-vs-south-africa/?g=949588"
     }
   ]
 }

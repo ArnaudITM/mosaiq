@@ -1,5 +1,5 @@
 {
-  "maj": "14 novembre 2026",
+  "maj": "15 novembre 2026",
   "fenetre": "Mercato d'hiver : ouverture le 1er janvier 2027 (dates selon les pays)",
   "dates_fenetre": [
     {
@@ -33,6 +33,106 @@
   ],
   "items": [
     {
+      "joueur": "Calvin Bassey, Nathan Collins, Antonee Robinson",
+      "de": null,
+      "vers": "Man United",
+      "championnat": "premier-league",
+      "type": "transfert",
+      "statut": "rumeur",
+      "texte": "Selon le journaliste Alex Crook (talkSPORT), cité par Football365, Man United cherche un défenseur central gaucher (Bassey, Collins) et un latéral gauche (Robinson) pour janvier, et Folarin Balogun est évoqué en attaque. Harry Maguire, Luke Shaw et Lisandro Martínez pourraient partir dès cet hiver.",
+      "source": {
+        "nom": "Football365 (d'après Alex Crook, talkSPORT)",
+        "url": "https://www.football365.com/news/man-utd-finalise-six-transfers-january-pochettino-axe-three-stars-ruthless-call"
+      },
+      "date": "2026-11-14"
+    },
+    {
+      "joueur": "Kevin De Bruyne",
+      "de": "Naples",
+      "vers": "PSV Eindhoven",
+      "championnat": "serie-a",
+      "type": "transfert",
+      "statut": "rumeur",
+      "montant": "5 à 10 M€ jugés insuffisants par Naples",
+      "texte": "Selon La Gazzetta dello Sport, citée par Goal, le PSV s'est renseigné sur la situation du milieu belge à Naples, notamment sur l'option d'un an de son contrat. Selon le journaliste Angelo Forgione (Radio Tutto Napoli), Naples n'accepterait pas une vente entre 5 et 10 M€.",
+      "source": {
+        "nom": "Goal (d'après La Gazzetta dello Sport)",
+        "url": "https://www.goal.com/fr/news/le-psv-decouvre-le-prix-etonnant-demande-pour-kevin-de-bruyne-cet-hiver/blt2025b0b7668dd138"
+      },
+      "date": "2026-11-14"
+    },
+    {
+      "joueur": "Evanilson",
+      "de": "Bournemouth",
+      "vers": null,
+      "championnat": "premier-league",
+      "type": "transfert",
+      "statut": "rumeur",
+      "montant": "au moins 60 M€ réclamés",
+      "texte": "Selon Daily Briefing, cité par Top Mercato, Arsenal et Manchester City s'intéressent à l'attaquant brésilien de 27 ans. Bournemouth, qui l'avait recruté 48 M€ à Porto en 2024, en demanderait au moins 60 M€.",
+      "source": {
+        "nom": "Top Mercato (d'après Daily Briefing)",
+        "url": "https://www.topmercato.com/2154781-apres-eli-junior-kroupi-arsenal-pret-a-defier-manchester-city-pour-le-transfert-de-son-compere-offensif/"
+      },
+      "date": "2026-11-14"
+    },
+    {
+      "joueur": "Hugo Oliveira",
+      "de": "Strasbourg",
+      "vers": null,
+      "championnat": "ligue-1",
+      "type": "entraîneur",
+      "statut": "rumeur",
+      "texte": "Arrivé en juillet, l'entraîneur de Strasbourg (3 victoires en 10 journées) ne serait pas limogé pendant la trêve, mais une défaite contre Brest le 21 novembre pourrait lui coûter sa place. Selon L'Équipe, relayé par Top Mercato, le club a pris des contacts avec d'autres entraîneurs.",
+      "source": {
+        "nom": "Top Mercato (d'après L'Équipe)",
+        "url": "https://www.topmercato.com/2155049-mercato-strasbourg-5-entraineurs-susceptibles-de-remplacer-hugo-oliveira-confirme-mais-sur-la-sellette/"
+      },
+      "date": "2026-11-14"
+    },
+    {
+      "joueur": "Mauricio Pochettino",
+      "de": "Sélection des États-Unis",
+      "vers": "Man United",
+      "championnat": "premier-league",
+      "type": "entraîneur",
+      "statut": "officiel",
+      "texte": "Manchester United a officialisé vendredi 13 novembre la nomination de Mauricio Pochettino, pour un contrat de deux ans et demi qui courrait jusqu'à l'été 2029. Sa prise de fonctions est fixée au 18 novembre : d'ici là, il dirige encore les États-Unis contre Haïti samedi et mardi, selon RTÉ. Il succède à Michael Carrick, limogé le 12 novembre.",
+      "source": {
+        "nom": "RTÉ",
+        "url": "https://www.rte.ie/sport/soccer/2026/1113/1599098-pochettino-set-to-join-united-on-two-and-a-half-year-deal/"
+      },
+      "date": "2026-11-13"
+    },
+    {
+      "joueur": "Didier Digard",
+      "de": null,
+      "vers": "Lens",
+      "championnat": "ligue-1",
+      "type": "entraîneur",
+      "statut": "officiel",
+      "texte": "Le RC Lens a nommé Didier Digard, 40 ans, entraîneur de l'équipe première jusqu'en juin 2028, au lendemain de la fin des fonctions de Yannick Cahuzac. Le club évoque « un consensus fort » autour de sa candidature ; il a dirigé sa première séance le 14 novembre.",
+      "source": {
+        "nom": "RC Lens (communiqué)",
+        "url": "https://www.rclens.fr/fr/didier-digard-entraineur-rclens-20261113"
+      },
+      "date": "2026-11-13"
+    },
+    {
+      "joueur": "Successeur de Pochettino",
+      "de": null,
+      "vers": "Sélection des États-Unis",
+      "championnat": null,
+      "type": "entraîneur",
+      "statut": "rumeur",
+      "texte": "La fédération américaine cherche un sélectionneur permanent après le départ de Pochettino ; Pep Guardiola serait en tête de sa liste, selon des informations de presse rapportées par RTÉ.",
+      "source": {
+        "nom": "RTÉ",
+        "url": "https://www.rte.ie/sport/soccer/2026/1113/1599098-pochettino-set-to-join-united-on-two-and-a-half-year-deal/"
+      },
+      "date": "2026-11-13"
+    },
+    {
       "joueur": "Michael Carrick",
       "de": "Man United",
       "vers": null,
@@ -43,35 +143,6 @@
       "source": {
         "nom": "ESPN",
         "url": "https://www.espn.com/soccer/story/_/id/50180844/man-united-michael-carrick-sacked-pochettino"
-      },
-      "date": "2026-11-12"
-    },
-    {
-      "joueur": "Mauricio Pochettino",
-      "de": "Sélection des États-Unis",
-      "vers": "Man United",
-      "championnat": "premier-league",
-      "type": "entraîneur",
-      "statut": "avancé",
-      "montant": "clause de 10 M$",
-      "texte": "Selon Sky Sports et Fabrizio Romano, Man United a trouvé un accord avec Pochettino pour un contrat d'environ deux ans et demi, jusqu'à l'été 2029. Selon Sports Illustrated (11 novembre), il doit encore diriger les États-Unis contre Haïti samedi et mardi, et United doit négocier une clause d'environ 10 M$ avec la fédération américaine. Aucune annonce officielle n'avait été relevée au matin du 14 novembre ; United joue à Liverpool le 22 novembre.",
-      "source": {
-        "nom": "Sky Sports",
-        "url": "https://www.skysports.com/football/news/13611745/mauricio-pochettino-manchester-united-agree-two-and-a-half-year-deal-with-usa-manager-to-replace-michael-carrick"
-      },
-      "date": "2026-11-12"
-    },
-    {
-      "joueur": "Yannick Cahuzac",
-      "de": "Lens",
-      "vers": null,
-      "championnat": "ligue-1",
-      "type": "entraîneur",
-      "statut": "officiel",
-      "texte": "Le RC Lens a officialisé le 12 novembre la fin des fonctions de Yannick Cahuzac, qui avait pris l'intérim à la tête de l'équipe première. Le club « remercie son ancien capitaine et coach pour son investissement » ; aucun successeur n'était annoncé.",
-      "source": {
-        "nom": "Eurofootnews",
-        "url": "https://www.eurofootnews.net/rc-lens-cest-officiel-yannick-cahuzac-est-releve-de-ses-fonctions-dentraineur/12/11/2026/"
       },
       "date": "2026-11-12"
     },
@@ -91,21 +162,6 @@
       "date": "2026-11-12"
     },
     {
-      "joueur": "Vitão",
-      "de": "Atlético Mineiro",
-      "vers": "Brighton",
-      "championnat": "premier-league",
-      "type": "transfert",
-      "statut": "rumeur",
-      "montant": "offre d'environ 14 M€ (clause de 20 M€)",
-      "texte": "Selon le journaliste brésilien Jorge Nicola, Brighton prépare une offre d'environ 14 M€ pour le défenseur central de 18 ans de l'Atlético Mineiro en vue de janvier. Everton est aussi cité parmi les intéressés.",
-      "source": {
-        "nom": "Premier League News Now (d'après Jorge Nicola)",
-        "url": "https://premierleaguenewsnow.com/2026/11/12/vitao-brighton-everton-atletico-mineiro-bid/"
-      },
-      "date": "2026-11-12"
-    },
-    {
       "joueur": "Endrick",
       "de": "Real Madrid",
       "vers": null,
@@ -116,20 +172,6 @@
       "source": {
         "nom": "LiveScore (revue de presse)",
         "url": "https://www.livescore.com/en/news/football/team/real-madrid/daily/thursday-real-madrid-daily-news-20261112/"
-      },
-      "date": "2026-11-12"
-    },
-    {
-      "joueur": "Unai Emery",
-      "de": "Aston Villa",
-      "vers": "Aston Villa",
-      "championnat": "premier-league",
-      "type": "prolongation",
-      "statut": "avancé",
-      "texte": "Selon Fabrizio Romano, cité par Football365, Man United a d'abord ciblé Unai Emery, mais la piste a échoué car l'entraîneur est proche d'un nouveau contrat avec Aston Villa.",
-      "source": {
-        "nom": "Football365 (d'après Fabrizio Romano)",
-        "url": "https://www.football365.com/news/pochettino-man-utd-romano-start-date-blow-berrada-already-told-him-transfers"
       },
       "date": "2026-11-12"
     },
@@ -162,34 +204,6 @@
       "date": "2026-11-11"
     },
     {
-      "joueur": "Pierre Sage, Didier Digard, Habib Beye",
-      "de": null,
-      "vers": "Lens",
-      "championnat": "ligue-1",
-      "type": "entraîneur",
-      "statut": "rumeur",
-      "texte": "Pour succéder à Cahuzac, Pierre Sage était la priorité du propriétaire Joseph Oughourlian selon L'Équipe (cité par Maxifoot), mais il pencherait pour un refus selon Fabrizio Romano. Didier Digard, libre depuis son départ du Havre, plaît à la direction (Foot Mercato), et L'Équipe cite aussi Habib Beye et Régis Le Bris (Sunderland).",
-      "source": {
-        "nom": "Foot01 (d'après Fabrizio Romano et Foot Mercato)",
-        "url": "https://www.foot01.com/lens/pierre-sage-dit-non-lens-bondit-sur-didier-digard"
-      },
-      "date": "2026-11-10"
-    },
-    {
-      "joueur": "Martin Ødegaard, Declan Rice, Jurriën Timber",
-      "de": "Arsenal",
-      "vers": "Arsenal",
-      "championnat": "premier-league",
-      "type": "prolongation",
-      "statut": "rumeur",
-      "texte": "Selon TEAMtalk, Arsenal est proche de prolonger ses trois joueurs, sous contrat jusqu'en 2028, et voudrait conclure avant Noël.",
-      "source": {
-        "nom": "The Hard Tackle (d'après TEAMtalk)",
-        "url": "https://thehardtackle.com/transfer-news/2026/11/10/martin-odegaard-jurrien-timber-declan-rice-set-to-sign-arsenal-renewals-by-january/"
-      },
-      "date": "2026-11-10"
-    },
-    {
       "joueur": "Pierre-Emile Höjbjerg",
       "de": "OM",
       "vers": null,
@@ -200,20 +214,6 @@
       "source": {
         "nom": "Orange Sports (d'après L'Équipe)",
         "url": "https://sports.orange.fr/football/mercato/article/om-le-club-devrait-etre-contraint-de-vendre-des-joueurs-cet-hiver-exclu-CNT000002tDq03.html"
-      },
-      "date": "2026-11-09"
-    },
-    {
-      "joueur": "Roberto D'Aversa",
-      "de": null,
-      "vers": "Sassuolo",
-      "championnat": "serie-a",
-      "type": "entraîneur",
-      "statut": "officiel",
-      "texte": "Sassuolo a limogé Alberto Aquilani après cinq défaites consécutives et l'a remplacé par Roberto D'Aversa, sous contrat jusqu'en juin 2027. C'est le sixième changement d'entraîneur de la saison en Serie A.",
-      "source": {
-        "nom": "Sky Sport Italia",
-        "url": "https://sport.sky.it/calcio/serie-a/serie-a-2026-2027-allenatori-esonerati"
       },
       "date": "2026-11-09"
     }

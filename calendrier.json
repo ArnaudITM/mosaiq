@@ -1,5 +1,5 @@
 {
-  "maj": "14 novembre 2026",
+  "maj": "15 novembre 2026",
   "competitions": [
     {
       "id": "ligue-1",
@@ -515,13 +515,15 @@
           "date": "2026-11-14",
           "heure": "18:00",
           "dom": "Norvège",
-          "ext": "Pays de Galles"
+          "ext": "Pays de Galles",
+          "score": "3-1"
         },
         {
           "date": "2026-11-14",
           "heure": "20:45",
           "dom": "Portugal",
-          "ext": "Danemark"
+          "ext": "Danemark",
+          "score": "1-4"
         },
         {
           "date": "2026-11-15",
@@ -643,6 +645,14 @@
     {
       "nom": "Sky Sports – Serbia vs Germany (13 nov. 2026)",
       "url": "https://www.skysports.com/football/serbia-vs-germany/554099"
+    },
+    {
+      "nom": "Sky Sports – Norway 3-1 Wales (14 nov. 2026)",
+      "url": "https://www.skysports.com/football/norway-vs-wales/report/554107"
+    },
+    {
+      "nom": "Al Jazeera – Portugal 1-4 Denmark (14 nov. 2026)",
+      "url": "https://www.aljazeera.com/sports/2026/11/14/ronaldo-less-portugal-thrashed-4-1-by-denmark-in-the-nations-league"
     }
   ]
 }
