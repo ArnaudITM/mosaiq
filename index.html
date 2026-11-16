@@ -503,6 +503,10 @@ html.mm-open{overflow:hidden}
 .inst-go{font:700 13px var(--body);color:#fff;background:var(--c-fr);border:0;border-radius:9px;padding:8px 12px;cursor:pointer}
 .inst-x{border:0;background:none;font-size:22px;color:var(--soft);cursor:pointer;padding:2px 6px}
 @media (max-width:640px){.mm-btn{position:absolute;right:16px;top:10px;padding:6px 10px}.mm-btn span{display:none}.mm{width:100%}}
+.inst.inst-ios{align-items:flex-start}
+.inst-steps{margin:6px 0 0;padding-left:18px;font-size:13px;line-height:1.45;color:var(--soft)}
+.inst-steps li{margin:3px 0}
+.inst-steps b{display:inline!important;color:var(--ink);font-size:inherit;margin:0}
 @media (prefers-reduced-motion:reduce){.mm,.inst{animation:none;transition:none}}
 </style>
 
@@ -914,9 +918,12 @@ var PWA_HOST=/(^|\.)mosaiq\.news$|^arnauditm\.github\.io$|^localhost$|^127\.0\.0
 var isStandalone=(window.matchMedia&&matchMedia('(display-mode: standalone)').matches)||navigator.standalone===true;
 if(PWA_HOST&&'serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('sw.js').catch(function(){});});}
 (function(){if(!PWA_HOST||isStandalone)return;var K='mq-install-off',until=0;try{until=+localStorage.getItem(K)||0;}catch(e){}if(until>Date.now())return;
-  var ios=/iphone|ipad|ipod/i.test(navigator.userAgent)&&!/crios|fxios|edgios/i.test(navigator.userAgent),deferred=null;
-  function show(mode){if(document.querySelector('.inst'))return;var d=document.createElement('div');d.className='inst';d.setAttribute('role','region');d.setAttribute('aria-label','Installer Mosaiq');
-    d.innerHTML='<img src="icon-192.png" alt="" width="40" height="40"><div><b>Installer Mosaiq sur votre écran d\'accueil</b><span>'+(mode==='ios'?'Touchez <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-label="Partager" style="vertical-align:-2px"><path d="M12 3v12M7 8l5-5 5 5"/><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7"/></svg> Partager, puis « Sur l\'écran d\'accueil ».':'L\'édition du jour en un geste, même hors connexion.')+'</span></div>'+(mode==='ios'?'':'<button type="button" class="inst-go">Installer</button>')+'<button type="button" class="inst-x" aria-label="Ne plus proposer">×</button>';
+  var ua=navigator.userAgent,iosDev=/iphone|ipad|ipod/i.test(ua)||(/macintosh/i.test(ua)&&navigator.maxTouchPoints>1),inapp=/instagram|fban|fbav|fb_iab|messenger|snapchat|tiktok|bytedance|linkedinapp|line\//i.test(ua),ios=iosDev,deferred=null;
+  var SHARE='<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" style="vertical-align:-2px"><path d="M12 3v12M7 8l5-5 5 5"/><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7"/></svg>';
+  function iosSteps(){var other=/crios|fxios|edgios/i.test(ua);if(inapp)return '<ol class="inst-steps"><li>Ce lien s\'est ouvert dans une application : l\'installation n\'y est pas possible.</li><li>Touchez <b>⋯</b> (ou l\'icône boussole), puis <b>Ouvrir dans Safari</b>.</li><li>Dans Safari, suivez les étapes qui s\'afficheront.</li></ol>';
+    return '<ol class="inst-steps"><li>Touchez <b>'+(other?'l\'icône Partager '+SHARE+' dans la barre d\'adresse':'⋯</b> en bas à droite de Safari, puis <b>Partager '+SHARE)+'</b>.</li><li>Faites défiler et choisissez <b>Sur l\'écran d\'accueil</b>.</li><li>Laissez <b>Ouvrir comme app web</b> activé, puis touchez <b>Ajouter</b>.</li></ol>';}
+  function show(mode){if(document.querySelector('.inst'))return;var d=document.createElement('div');d.className='inst'+(mode==='ios'?' inst-ios':'');d.setAttribute('role','region');d.setAttribute('aria-label','Installer Mosaiq');
+    d.innerHTML='<img src="icon-192.png" alt="" width="40" height="40"><div><b>Installer Mosaiq sur votre écran d\'accueil</b>'+(mode==='ios'?iosSteps():'<span>L\'édition du jour en un geste, même hors connexion.</span>')+'</div>'+(mode==='ios'?'':'<button type="button" class="inst-go">Installer</button>')+'<button type="button" class="inst-x" aria-label="Ne plus proposer">×</button>';
     document.body.appendChild(d);requestAnimationFrame(function(){d.classList.add('on');});
     d.querySelector('.inst-x').addEventListener('click',function(){try{localStorage.setItem(K,String(Date.now()+30*864e5));}catch(e){}d.remove();});
     var g=d.querySelector('.inst-go');if(g)g.addEventListener('click',function(){if(!deferred)return;deferred.prompt();deferred.userChoice.then(function(){deferred=null;d.remove();}).catch(function(){d.remove();});});}
