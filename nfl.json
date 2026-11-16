@@ -1,31 +1,31 @@
 {
-  "maj": "15 novembre 2026 – semaine 10 en cours (match du jeudi 12 novembre joué ; classements NFL.com/FOX Sports consultés le 15 novembre)",
+  "maj": "16 novembre 2026, 5h45 – semaine 10 : matchs du dimanche 15 novembre joués (score final de Steelers-Bengals non publié à la rédaction, non compté) ; Ravens-Chargers lundi soir à venir. Bilans recalculés d'après les scores ESPN/eDraft ; leaders statistiques arrêtés avant la semaine 10.",
   "divisions": [
     {
       "nom": "AFC Est",
       "equipes": [
         {
           "equipe": "Bills",
-          "v": 7,
+          "v": 8,
           "d": 1,
           "n": 0
         },
         {
           "equipe": "Patriots",
           "v": 5,
-          "d": 4,
+          "d": 5,
           "n": 0
         },
         {
           "equipe": "Jets",
           "v": 2,
-          "d": 7,
+          "d": 8,
           "n": 0
         },
         {
           "equipe": "Dolphins",
           "v": 1,
-          "d": 7,
+          "d": 8,
           "n": 0
         }
       ]
@@ -47,7 +47,7 @@
         },
         {
           "equipe": "Browns",
-          "v": 5,
+          "v": 6,
           "d": 4,
           "n": 0
         },
@@ -64,26 +64,26 @@
       "equipes": [
         {
           "equipe": "Jaguars",
-          "v": 6,
+          "v": 7,
           "d": 2,
           "n": 0
         },
         {
           "equipe": "Texans",
           "v": 3,
-          "d": 5,
+          "d": 6,
           "n": 0
         },
         {
           "equipe": "Colts",
-          "v": 2,
+          "v": 3,
           "d": 7,
           "n": 0
         },
         {
           "equipe": "Titans",
           "v": 1,
-          "d": 7,
+          "d": 8,
           "n": 0
         }
       ]
@@ -99,14 +99,14 @@
         },
         {
           "equipe": "Chiefs",
-          "v": 6,
+          "v": 7,
           "d": 2,
           "n": 0
         },
         {
           "equipe": "Raiders",
           "v": 4,
-          "d": 5,
+          "d": 6,
           "n": 0
         },
         {
@@ -129,7 +129,7 @@
         {
           "equipe": "Cowboys",
           "v": 4,
-          "d": 5,
+          "d": 6,
           "n": 0
         },
         {
@@ -157,20 +157,20 @@
         },
         {
           "equipe": "Lions",
-          "v": 6,
+          "v": 7,
           "d": 2,
           "n": 0
         },
         {
           "equipe": "Vikings",
-          "v": 6,
+          "v": 7,
           "d": 2,
           "n": 0
         },
         {
           "equipe": "Packers",
           "v": 6,
-          "d": 3,
+          "d": 4,
           "n": 0
         }
       ]
@@ -180,14 +180,14 @@
       "equipes": [
         {
           "equipe": "Panthers",
-          "v": 3,
+          "v": 4,
           "d": 5,
           "n": 0
         },
         {
           "equipe": "Saints",
           "v": 3,
-          "d": 5,
+          "d": 6,
           "n": 0
         },
         {
@@ -199,7 +199,7 @@
         {
           "equipe": "Falcons",
           "v": 3,
-          "d": 6,
+          "d": 7,
           "n": 0
         }
       ]
@@ -209,26 +209,26 @@
       "equipes": [
         {
           "equipe": "49ers",
-          "v": 7,
+          "v": 8,
           "d": 1,
           "n": 0
         },
         {
           "equipe": "Seahawks",
-          "v": 5,
+          "v": 6,
           "d": 4,
           "n": 0
         },
         {
           "equipe": "Rams",
-          "v": 5,
+          "v": 6,
           "d": 4,
           "n": 0
         },
         {
           "equipe": "Cardinals",
           "v": 3,
-          "d": 6,
+          "d": 7,
           "n": 0
         }
       ]
@@ -351,197 +351,94 @@
   },
   "derniers": [
     {
-      "date": "2026-11-05",
-      "dom": "Ravens",
-      "ext": "Jaguars",
-      "score_dom": 10,
-      "score_ext": 33
-    },
-    {
-      "date": "2026-11-08",
-      "dom": "Falcons",
-      "ext": "Bengals",
-      "score_dom": 17,
-      "score_ext": 34,
-      "lieu": "Madrid"
-    },
-    {
-      "date": "2026-11-08",
-      "dom": "Colts",
-      "ext": "Cowboys",
-      "score_dom": 23,
-      "score_ext": 27
-    },
-    {
-      "date": "2026-11-08",
-      "dom": "Chiefs",
-      "ext": "Jets",
-      "score_dom": 35,
-      "score_ext": 12
-    },
-    {
-      "date": "2026-11-08",
-      "dom": "Dolphins",
-      "ext": "Lions",
-      "score_dom": 9,
-      "score_ext": 19
-    },
-    {
-      "date": "2026-11-08",
-      "dom": "Saints",
-      "ext": "Browns",
-      "score_dom": 23,
-      "score_ext": 22,
-      "prolongation": true
-    },
-    {
-      "date": "2026-11-08",
-      "dom": "Eagles",
-      "ext": "Giants",
-      "score_dom": 11,
-      "score_ext": 19
-    },
-    {
-      "date": "2026-11-08",
-      "dom": "Commanders",
-      "ext": "Rams",
-      "score_dom": 13,
-      "score_ext": 20
-    },
-    {
-      "date": "2026-11-08",
-      "dom": "Panthers",
-      "ext": "Broncos",
-      "score_dom": 21,
-      "score_ext": 26
-    },
-    {
-      "date": "2026-11-08",
-      "dom": "Chargers",
-      "ext": "Texans",
-      "score_dom": 22,
-      "score_ext": 44
-    },
-    {
-      "date": "2026-11-08",
-      "dom": "Patriots",
-      "ext": "Packers",
-      "score_dom": 27,
-      "score_ext": 45
-    },
-    {
-      "date": "2026-11-08",
-      "dom": "49ers",
-      "ext": "Raiders",
-      "score_dom": 38,
-      "score_ext": 17
-    },
-    {
-      "date": "2026-11-08",
-      "dom": "Seahawks",
-      "ext": "Cardinals",
-      "score_dom": 17,
-      "score_ext": 3
-    },
-    {
-      "date": "2026-11-08",
-      "dom": "Bears",
-      "ext": "Buccaneers",
-      "score_dom": 27,
-      "score_ext": 24
-    },
-    {
-      "date": "2026-11-09",
-      "dom": "Vikings",
-      "ext": "Bills",
-      "score_dom": 6,
-      "score_ext": 23
-    },
-    {
       "date": "2026-11-12",
       "dom": "Giants",
       "ext": "Commanders",
       "score_dom": 21,
       "score_ext": 24
+    },
+    {
+      "date": "2026-11-15",
+      "dom": "Lions",
+      "ext": "Patriots",
+      "score_dom": 35,
+      "score_ext": 10,
+      "lieu": "Munich"
+    },
+    {
+      "date": "2026-11-15",
+      "dom": "Saints",
+      "ext": "Panthers",
+      "score_dom": 17,
+      "score_ext": 20
+    },
+    {
+      "date": "2026-11-15",
+      "dom": "Colts",
+      "ext": "Dolphins",
+      "score_dom": 24,
+      "score_ext": 22
+    },
+    {
+      "date": "2026-11-15",
+      "dom": "Falcons",
+      "ext": "Chiefs",
+      "score_dom": 13,
+      "score_ext": 35
+    },
+    {
+      "date": "2026-11-15",
+      "dom": "Browns",
+      "ext": "Texans",
+      "score_dom": 27,
+      "score_ext": 24
+    },
+    {
+      "date": "2026-11-15",
+      "dom": "Titans",
+      "ext": "Jaguars",
+      "score_dom": 23,
+      "score_ext": 40
+    },
+    {
+      "date": "2026-11-15",
+      "dom": "Jets",
+      "ext": "Bills",
+      "score_dom": 12,
+      "score_ext": 31
+    },
+    {
+      "date": "2026-11-15",
+      "dom": "Packers",
+      "ext": "Vikings",
+      "score_dom": 10,
+      "score_ext": 30
+    },
+    {
+      "date": "2026-11-15",
+      "dom": "Raiders",
+      "ext": "Seahawks",
+      "score_dom": 13,
+      "score_ext": 21
+    },
+    {
+      "date": "2026-11-15",
+      "dom": "Cardinals",
+      "ext": "Rams",
+      "score_dom": 6,
+      "score_ext": 34
+    },
+    {
+      "date": "2026-11-15",
+      "dom": "Cowboys",
+      "ext": "49ers",
+      "score_dom": 40,
+      "score_ext": 46
     }
   ],
   "a_venir": {
     "semaine": "Semaine 10",
     "matchs": [
-      {
-        "date": "2026-11-15",
-        "heure_paris": "15:30",
-        "dom": "Lions",
-        "ext": "Patriots",
-        "lieu": "Munich"
-      },
-      {
-        "date": "2026-11-15",
-        "heure_paris": "19:00",
-        "dom": "Falcons",
-        "ext": "Chiefs"
-      },
-      {
-        "date": "2026-11-15",
-        "heure_paris": "19:00",
-        "dom": "Browns",
-        "ext": "Texans"
-      },
-      {
-        "date": "2026-11-15",
-        "heure_paris": "19:00",
-        "dom": "Packers",
-        "ext": "Vikings"
-      },
-      {
-        "date": "2026-11-15",
-        "heure_paris": "19:00",
-        "dom": "Colts",
-        "ext": "Dolphins"
-      },
-      {
-        "date": "2026-11-15",
-        "heure_paris": "19:00",
-        "dom": "Saints",
-        "ext": "Panthers"
-      },
-      {
-        "date": "2026-11-15",
-        "heure_paris": "19:00",
-        "dom": "Jets",
-        "ext": "Bills"
-      },
-      {
-        "date": "2026-11-15",
-        "heure_paris": "19:00",
-        "dom": "Titans",
-        "ext": "Jaguars"
-      },
-      {
-        "date": "2026-11-15",
-        "heure_paris": "22:05",
-        "dom": "Raiders",
-        "ext": "Seahawks"
-      },
-      {
-        "date": "2026-11-15",
-        "heure_paris": "22:05",
-        "dom": "Cardinals",
-        "ext": "Rams"
-      },
-      {
-        "date": "2026-11-15",
-        "heure_paris": "22:25",
-        "dom": "Cowboys",
-        "ext": "49ers"
-      },
-      {
-        "date": "2026-11-16",
-        "heure_paris": "02:20",
-        "dom": "Bengals",
-        "ext": "Steelers",
-        "tv_us": "NBC (SNF)"
-      },
       {
         "date": "2026-11-17",
         "heure_paris": "02:15",
@@ -559,43 +456,43 @@
   },
   "infos": [
     {
-      "titre": "Washington s'impose chez les Giants",
-      "texte": "Selon ESPN, les Commanders ont battu les Giants 24-21 jeudi soir après avoir mené 17-7 à la pause. Côté New York, J.J. McCarthy a lancé pour 293 yards et Cam Skattebo a marqué deux touchdowns. Les Giants (5-3-1) restent en tête de la NFC Est.",
+      "titre": "Purdy et McCaffrey font plier Dallas",
+      "texte": "Les 49ers ont battu les Cowboys 46-40 à Arlington, selon CBS Texas. Brock Purdy a lancé pour 389 yards (record personnel), dont deux passes de touchdown de 74 et 66 yards pour Christian McCaffrey, auteur de 223 yards et trois touchdowns. San Francisco passe à 8-1.",
       "source": {
-        "nom": "ESPN",
-        "url": "https://www.espn.com/nfl/scoreboard/_/week/10/year/2026/seasontype/2"
+        "nom": "CBS Texas",
+        "url": "https://www.cbsnews.com/texas/news/49ers-cowboys-46-40-nov-15-2026/"
       }
     },
     {
-      "titre": "Mahomes s'entraîne normalement",
-      "texte": "Selon le rapport de blessures des Chiefs du 13 novembre, Patrick Mahomes (genou, coude droit) a participé pleinement aux trois entraînements de la semaine et n'a pas de statut pour le déplacement à Atlanta. Le running back Kenneth Walker (aine) est incertain.",
-      "source": {
-        "nom": "Chiefs.com",
-        "url": "https://www.chiefs.com/news/week-10-injury-report-chiefs-vs-falcons-2026"
-      }
-    },
-    {
-      "titre": "Puka Nacua absent au moins un mois",
-      "texte": "Le receveur des Rams (entorse MCL/PCL au genou droit et turf toe) devrait être placé sur la liste des blessés. Côté Seahawks, Sam Darnold est forfait et Drew Lock devrait débuter.",
+      "titre": "Detroit domine New England à Munich",
+      "texte": "Les Lions ont battu les Patriots 35-10 en Allemagne, selon NFL.com : Jahmyr Gibbs a cumulé 252 yards et 2 touchdowns, Amon-Ra St. Brown 98 yards et 2 touchdowns en réception.",
       "source": {
         "nom": "NFL.com",
-        "url": "https://www.nfl.com/news/nfl-power-rankings-week-10-2026-nfl-season"
+        "url": "https://www.nfl.com/news/2026-nfl-season-week-10-what-we-learned-from-sunday-s-games"
       }
     },
     {
-      "titre": "Lions-Patriots à Munich, Goff sur le rapport médical",
-      "texte": "Jared Goff est apparu limité (poitrine) sur le premier rapport de blessures de la semaine, sans indication qu'il puisse manquer le match de dimanche en Allemagne.",
+      "titre": "Embouteillage en NFC Nord",
+      "texte": "Victorieux 30-10 à Green Bay, les Vikings (7-2) rejoignent les Lions (7-2) et les Bears (7-2, exemptés) en tête de la division, selon les scores d'eDraft ; les Packers reculent à 6-4. Buffalo (8-1) a battu les Jets 31-12 et Kansas City (7-2) s'est imposé 35-13 à Atlanta.",
       "source": {
-        "nom": "Sports Illustrated",
-        "url": "https://www.si.com/nfl/lions/onsi/detroit-lions-jared-goff-surprisingly-lands-week-10-injury-report-2026"
+        "nom": "eDraft – Scores semaine 10",
+        "url": "https://edraft.com/nfl/scores/week-10"
       }
     },
     {
-      "titre": "Trade deadline : Cousins aux Vikings, Jacksonville frappe fort",
-      "texte": "Minnesota a récupéré Kirk Cousins auprès des Raiders contre un 3e tour 2027, tandis que les Jaguars ont enchaîné trois échanges (dont Jordan Davis et Jessie Bates). Les Colts ont envoyé Keenan Allen aux 49ers et Josh Downs aux Chiefs.",
+      "titre": "Seattle s'impose à Las Vegas",
+      "texte": "Selon Yahoo Sports, les Seahawks ont battu les Raiders 21-13 avec un touchdown de 71 yards de Jaxon Smith-Njigba sur une passe de Drew Lock ; le rookie Fernando Mendoza effectuait sa première titularisation pour Las Vegas. Les Rams ont dominé Arizona 34-6, selon ESPN.",
       "source": {
-        "nom": "NFL.com",
-        "url": "https://www.nfl.com/news/nfl-power-rankings-week-10-2026-nfl-season"
+        "nom": "Yahoo Sports",
+        "url": "https://sports.yahoo.com/articles/seahawks-raiders-score-6-4-000413563.html"
+      }
+    },
+    {
+      "titre": "Sunday Night Football : Cincinnati devant à la pause",
+      "texte": "Les Bengals menaient 24-3 face aux Steelers à la mi-temps dimanche soir, selon NBC Sports ; le score final n'était pas publié à la rédaction. Ravens-Chargers clôt la semaine 10 lundi soir (2h15, heure de Paris, nuit de lundi à mardi).",
+      "source": {
+        "nom": "NBC Sports – ProFootballTalk",
+        "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sunday-night-football-joe-burrow-torching-steelers-bengals-lead-24-3-at-halftime"
       }
     }
   ],
@@ -607,14 +504,6 @@
     {
       "nom": "FOX Sports – Classement NFL par division",
       "url": "https://www.foxsports.com/nfl/standings"
-    },
-    {
-      "nom": "ESPN – Résultats semaine 9 2026",
-      "url": "https://www.espn.com/nfl/scoreboard/_/week/9/year/2026/seasontype/2"
-    },
-    {
-      "nom": "Chiefs.com – Rapport de blessures semaine 10 (13 nov. 2026)",
-      "url": "https://www.chiefs.com/news/week-10-injury-report-chiefs-vs-falcons-2026"
     },
     {
       "nom": "ESPN – Programme semaine 10 2026",
@@ -649,12 +538,28 @@
       "url": "https://www.nfl.com/news/nfl-power-rankings-week-10-2026-nfl-season"
     },
     {
-      "nom": "DK Network – Blessures semaine 10",
-      "url": "https://dknetwork.draftkings.com/2026/11/10/nfl-injury-report-week-10/"
+      "nom": "eDraft – Scores semaine 10 (2026)",
+      "url": "https://edraft.com/nfl/scores/week-10"
     },
     {
-      "nom": "Sports Illustrated – Lions",
-      "url": "https://www.si.com/nfl/lions/onsi/detroit-lions-jared-goff-surprisingly-lands-week-10-injury-report-2026"
+      "nom": "NFL.com – Ce qu'il faut retenir de la semaine 10",
+      "url": "https://www.nfl.com/news/2026-nfl-season-week-10-what-we-learned-from-sunday-s-games"
+    },
+    {
+      "nom": "CBS Texas – 49ers-Cowboys 46-40",
+      "url": "https://www.cbsnews.com/texas/news/49ers-cowboys-46-40-nov-15-2026/"
+    },
+    {
+      "nom": "ESPN – Rams-Cardinals 34-6",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873061/rams-cardinals"
+    },
+    {
+      "nom": "Yahoo Sports – Seahawks-Raiders",
+      "url": "https://sports.yahoo.com/articles/seahawks-raiders-score-6-4-000413563.html"
+    },
+    {
+      "nom": "NBC Sports – Bengals-Steelers à la mi-temps",
+      "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sunday-night-football-joe-burrow-torching-steelers-bengals-lead-24-3-at-halftime"
     }
   ]
 }

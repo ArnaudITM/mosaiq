@@ -1,658 +1,843 @@
 {
-  "maj": "15 novembre 2026",
-  "competitions": [
+ "maj": "16 novembre 2026",
+ "competitions": [
+  {
+   "id": "ligue-1",
+   "nom": "Ligue 1",
+   "journee": "11e journée",
+   "matchs": [
     {
-      "id": "ligue-1",
-      "nom": "Ligue 1",
-      "journee": "11e journée",
-      "matchs": [
-        {
-          "date": "2026-11-20",
-          "heure": "20:45",
-          "dom": "Troyes",
-          "ext": "Le Havre",
-          "tv": "Ligue 1+"
-        },
-        {
-          "date": "2026-11-21",
-          "heure": "17:15",
-          "dom": "Nice",
-          "ext": "PSG",
-          "tv": "Ligue 1+"
-        },
-        {
-          "date": "2026-11-21",
-          "heure": "20:45",
-          "dom": "Lille",
-          "ext": "OL",
-          "tv": "Ligue 1+"
-        },
-        {
-          "date": "2026-11-21",
-          "heure": "20:45",
-          "dom": "Lens",
-          "ext": "Toulouse",
-          "tv": "Ligue 1+"
-        },
-        {
-          "date": "2026-11-21",
-          "heure": "20:45",
-          "dom": "Monaco",
-          "ext": "Auxerre",
-          "tv": "Ligue 1+"
-        },
-        {
-          "date": "2026-11-21",
-          "heure": "20:45",
-          "dom": "Strasbourg",
-          "ext": "Brest",
-          "tv": "Ligue 1+"
-        },
-        {
-          "date": "2026-11-22",
-          "heure": "15:00",
-          "dom": "Paris FC",
-          "ext": "Angers",
-          "tv": "Ligue 1+"
-        },
-        {
-          "date": "2026-11-22",
-          "heure": "17:15",
-          "dom": "Lorient",
-          "ext": "Rennes",
-          "tv": "Ligue 1+"
-        },
-        {
-          "date": "2026-11-22",
-          "heure": "20:45",
-          "dom": "OM",
-          "ext": "Le Mans",
-          "tv": "Ligue 1+"
-        }
-      ]
+     "date": "2026-11-20",
+     "heure": "20:45",
+     "dom": "Troyes",
+     "ext": "Le Havre",
+     "tv": "Ligue 1+"
     },
     {
-      "id": "premier-league",
-      "nom": "Premier League",
-      "journee": "Journée du 21 au 23 novembre",
-      "matchs": [
-        {
-          "date": "2026-11-21",
-          "heure": "13:30",
-          "dom": "Man City",
-          "ext": "Fulham",
-          "tv": "TNT Sports (UK)"
-        },
-        {
-          "date": "2026-11-21",
-          "heure": "16:00",
-          "dom": "Bournemouth",
-          "ext": "Nottingham Forest"
-        },
-        {
-          "date": "2026-11-21",
-          "heure": "16:00",
-          "dom": "Aston Villa",
-          "ext": "Sunderland"
-        },
-        {
-          "date": "2026-11-21",
-          "heure": "16:00",
-          "dom": "Chelsea",
-          "ext": "Leeds"
-        },
-        {
-          "date": "2026-11-21",
-          "heure": "16:00",
-          "dom": "Coventry",
-          "ext": "Crystal Palace"
-        },
-        {
-          "date": "2026-11-21",
-          "heure": "16:00",
-          "dom": "Tottenham",
-          "ext": "Ipswich"
-        },
-        {
-          "date": "2026-11-21",
-          "heure": "18:30",
-          "dom": "Newcastle",
-          "ext": "Arsenal",
-          "tv": "Sky Sports (UK)"
-        },
-        {
-          "date": "2026-11-22",
-          "heure": "15:00",
-          "dom": "Hull City",
-          "ext": "Brighton",
-          "tv": "Sky Sports (UK)"
-        },
-        {
-          "date": "2026-11-22",
-          "heure": "17:30",
-          "dom": "Liverpool",
-          "ext": "Man United",
-          "tv": "Sky Sports (UK)"
-        },
-        {
-          "date": "2026-11-23",
-          "heure": "21:00",
-          "dom": "Brentford",
-          "ext": "Everton",
-          "tv": "Sky Sports (UK)"
-        }
-      ]
+     "date": "2026-11-21",
+     "heure": "17:15",
+     "dom": "Nice",
+     "ext": "PSG",
+     "tv": "Ligue 1+"
     },
     {
-      "id": "liga",
-      "nom": "Liga",
-      "journee": "13e journée",
-      "matchs": [
-        {
-          "date": "2026-11-20",
-          "heure": "21:00",
-          "dom": "Athletic Bilbao",
-          "ext": "Espanyol"
-        },
-        {
-          "date": "2026-11-21",
-          "heure": "14:00",
-          "dom": "Alavés",
-          "ext": "Deportivo La Corogne"
-        },
-        {
-          "date": "2026-11-21",
-          "heure": "16:15",
-          "dom": "Rayo Vallecano",
-          "ext": "Valence"
-        },
-        {
-          "date": "2026-11-21",
-          "heure": "18:30",
-          "dom": "Séville",
-          "ext": "Betis"
-        },
-        {
-          "date": "2026-11-21",
-          "heure": "21:00",
-          "dom": "Real Madrid",
-          "ext": "Celta Vigo"
-        },
-        {
-          "date": "2026-11-22",
-          "heure": "14:00",
-          "dom": "Barça",
-          "ext": "Villarreal"
-        },
-        {
-          "date": "2026-11-22",
-          "heure": "16:15",
-          "dom": "Racing Santander",
-          "ext": "Real Sociedad"
-        },
-        {
-          "date": "2026-11-22",
-          "heure": "18:30",
-          "dom": "Osasuna",
-          "ext": "Malaga"
-        },
-        {
-          "date": "2026-11-22",
-          "heure": "21:00",
-          "dom": "Getafe",
-          "ext": "Atlético"
-        },
-        {
-          "date": "2026-11-23",
-          "heure": "21:00",
-          "dom": "Levante",
-          "ext": "Elche"
-        }
-      ]
+     "date": "2026-11-21",
+     "heure": "20:45",
+     "dom": "Lille",
+     "ext": "OL",
+     "tv": "Ligue 1+"
     },
     {
-      "id": "serie-a",
-      "nom": "Serie A",
-      "journee": "12e journée",
-      "matchs": [
-        {
-          "date": "2026-11-21",
-          "heure": "15:00",
-          "dom": "Côme",
-          "ext": "Cagliari",
-          "tv": "DAZN (Italie)"
-        },
-        {
-          "date": "2026-11-21",
-          "heure": "15:00",
-          "dom": "Lazio",
-          "ext": "Lecce",
-          "tv": "DAZN (Italie)"
-        },
-        {
-          "date": "2026-11-21",
-          "heure": "18:00",
-          "dom": "Parme",
-          "ext": "Roma",
-          "tv": "DAZN (Italie)"
-        },
-        {
-          "date": "2026-11-21",
-          "heure": "20:45",
-          "dom": "Naples",
-          "ext": "Turin",
-          "tv": "DAZN / Sky (Italie)"
-        },
-        {
-          "date": "2026-11-22",
-          "heure": "12:30",
-          "dom": "Juventus",
-          "ext": "Venise",
-          "tv": "DAZN (Italie)"
-        },
-        {
-          "date": "2026-11-22",
-          "heure": "15:00",
-          "dom": "Bologne",
-          "ext": "Udinese",
-          "tv": "DAZN (Italie)"
-        },
-        {
-          "date": "2026-11-22",
-          "heure": "15:00",
-          "dom": "Sassuolo",
-          "ext": "Genoa",
-          "tv": "DAZN (Italie)"
-        },
-        {
-          "date": "2026-11-22",
-          "heure": "18:00",
-          "dom": "Milan",
-          "ext": "Frosinone",
-          "tv": "DAZN / Sky (Italie)"
-        },
-        {
-          "date": "2026-11-22",
-          "heure": "20:45",
-          "dom": "Atalanta",
-          "ext": "Inter",
-          "tv": "DAZN (Italie)"
-        },
-        {
-          "date": "2026-11-23",
-          "heure": "20:45",
-          "dom": "Monza",
-          "ext": "Fiorentina",
-          "tv": "DAZN / Sky (Italie)"
-        }
-      ]
+     "date": "2026-11-21",
+     "heure": "20:45",
+     "dom": "Lens",
+     "ext": "Toulouse",
+     "tv": "Ligue 1+"
     },
     {
-      "id": "bundesliga",
-      "nom": "Bundesliga",
-      "journee": "10e journée",
-      "matchs": [
-        {
-          "date": "2026-11-20",
-          "heure": "20:30",
-          "dom": "Bayern",
-          "ext": "Cologne"
-        },
-        {
-          "date": "2026-11-21",
-          "heure": "15:30",
-          "dom": "Leverkusen",
-          "ext": "Paderborn"
-        },
-        {
-          "date": "2026-11-21",
-          "heure": "15:30",
-          "dom": "Francfort",
-          "ext": "Hoffenheim"
-        },
-        {
-          "date": "2026-11-21",
-          "heure": "15:30",
-          "dom": "Union Berlin",
-          "ext": "Leipzig"
-        },
-        {
-          "date": "2026-11-21",
-          "heure": "15:30",
-          "dom": "Mönchengladbach",
-          "ext": "Dortmund"
-        },
-        {
-          "date": "2026-11-21",
-          "heure": "15:30",
-          "dom": "Elversberg",
-          "ext": "Fribourg"
-        },
-        {
-          "date": "2026-11-21",
-          "heure": "18:30",
-          "dom": "Schalke 04",
-          "ext": "Stuttgart"
-        },
-        {
-          "date": "2026-11-22",
-          "heure": "15:30",
-          "dom": "Augsbourg",
-          "ext": "Mayence"
-        },
-        {
-          "date": "2026-11-22",
-          "heure": "17:30",
-          "dom": "Werder Brême",
-          "ext": "Hambourg"
-        }
-      ]
+     "date": "2026-11-21",
+     "heure": "20:45",
+     "dom": "Monaco",
+     "ext": "Auxerre",
+     "tv": "Ligue 1+"
     },
     {
-      "id": "ligue-des-champions",
-      "nom": "Ligue des champions",
-      "journee": "5e journée (phase de ligue)",
-      "matchs": [
-        {
-          "date": "2026-11-24",
-          "heure": "18:45",
-          "dom": "Bodø/Glimt",
-          "ext": "LASK"
-        },
-        {
-          "date": "2026-11-24",
-          "heure": "18:45",
-          "dom": "Galatasaray",
-          "ext": "Aston Villa"
-        },
-        {
-          "date": "2026-11-24",
-          "heure": "21:00",
-          "dom": "Arsenal",
-          "ext": "Dortmund"
-        },
-        {
-          "date": "2026-11-24",
-          "heure": "21:00",
-          "dom": "Côme",
-          "ext": "AEK Athènes"
-        },
-        {
-          "date": "2026-11-24",
-          "heure": "21:00",
-          "dom": "Feyenoord",
-          "ext": "Porto"
-        },
-        {
-          "date": "2026-11-24",
-          "heure": "21:00",
-          "dom": "Man City",
-          "ext": "Naples"
-        },
-        {
-          "date": "2026-11-24",
-          "heure": "21:00",
-          "dom": "Leipzig",
-          "ext": "Lens"
-        },
-        {
-          "date": "2026-11-24",
-          "heure": "21:00",
-          "dom": "Real Madrid",
-          "ext": "PSV Eindhoven"
-        },
-        {
-          "date": "2026-11-24",
-          "heure": "21:00",
-          "dom": "Slovan Bratislava",
-          "ext": "Betis"
-        },
-        {
-          "date": "2026-11-25",
-          "heure": "18:45",
-          "dom": "Sabah",
-          "ext": "Barça"
-        },
-        {
-          "date": "2026-11-25",
-          "heure": "18:45",
-          "dom": "Slavia Prague",
-          "ext": "Villarreal"
-        },
-        {
-          "date": "2026-11-25",
-          "heure": "21:00",
-          "dom": "Atlético",
-          "ext": "Viking"
-        },
-        {
-          "date": "2026-11-25",
-          "heure": "21:00",
-          "dom": "Club Bruges",
-          "ext": "Liverpool"
-        },
-        {
-          "date": "2026-11-25",
-          "heure": "21:00",
-          "dom": "Inter",
-          "ext": "Stuttgart"
-        },
-        {
-          "date": "2026-11-25",
-          "heure": "21:00",
-          "dom": "Shakhtar Donetsk",
-          "ext": "Fenerbahçe"
-        },
-        {
-          "date": "2026-11-25",
-          "heure": "21:00",
-          "dom": "Lille",
-          "ext": "Bayern"
-        },
-        {
-          "date": "2026-11-25",
-          "heure": "21:00",
-          "dom": "PSG",
-          "ext": "Roma"
-        },
-        {
-          "date": "2026-11-25",
-          "heure": "21:00",
-          "dom": "Sporting CP",
-          "ext": "Man United"
-        }
-      ]
+     "date": "2026-11-21",
+     "heure": "20:45",
+     "dom": "Strasbourg",
+     "ext": "Brest",
+     "tv": "Ligue 1+"
     },
     {
-      "id": "selections",
-      "nom": "Sélections (Ligue des nations, Ligue A)",
-      "journee": "5e et 6e journées",
-      "matchs": [
-        {
-          "date": "2026-11-12",
-          "heure": "18:00",
-          "dom": "Turquie",
-          "ext": "Belgique",
-          "score": "1-2"
-        },
-        {
-          "date": "2026-11-12",
-          "heure": "20:45",
-          "dom": "Italie",
-          "ext": "France",
-          "tv": "TF1 / TF1+",
-          "score": "3-1"
-        },
-        {
-          "date": "2026-11-12",
-          "heure": "20:45",
-          "dom": "Tchéquie",
-          "ext": "Espagne",
-          "score": "0-2"
-        },
-        {
-          "date": "2026-11-12",
-          "heure": "20:45",
-          "dom": "Angleterre",
-          "ext": "Croatie",
-          "score": "2-1"
-        },
-        {
-          "date": "2026-11-13",
-          "heure": "20:45",
-          "dom": "Pays-Bas",
-          "ext": "Grèce",
-          "score": "7-0"
-        },
-        {
-          "date": "2026-11-13",
-          "heure": "20:45",
-          "dom": "Serbie",
-          "ext": "Allemagne",
-          "score": "1-3"
-        },
-        {
-          "date": "2026-11-14",
-          "heure": "18:00",
-          "dom": "Norvège",
-          "ext": "Pays de Galles",
-          "score": "3-1"
-        },
-        {
-          "date": "2026-11-14",
-          "heure": "20:45",
-          "dom": "Portugal",
-          "ext": "Danemark",
-          "score": "1-4"
-        },
-        {
-          "date": "2026-11-15",
-          "heure": "20:45",
-          "dom": "France",
-          "ext": "Turquie",
-          "tv": "TF1 / TF1+"
-        },
-        {
-          "date": "2026-11-15",
-          "heure": "20:45",
-          "dom": "Belgique",
-          "ext": "Italie"
-        },
-        {
-          "date": "2026-11-15",
-          "heure": "20:45",
-          "dom": "Croatie",
-          "ext": "Tchéquie"
-        },
-        {
-          "date": "2026-11-15",
-          "heure": "20:45",
-          "dom": "Espagne",
-          "ext": "Angleterre"
-        },
-        {
-          "date": "2026-11-16",
-          "heure": "20:45",
-          "dom": "Allemagne",
-          "ext": "Pays-Bas"
-        },
-        {
-          "date": "2026-11-16",
-          "heure": "20:45",
-          "dom": "Grèce",
-          "ext": "Serbie"
-        },
-        {
-          "date": "2026-11-17",
-          "heure": "20:45",
-          "dom": "Danemark",
-          "ext": "Norvège"
-        },
-        {
-          "date": "2026-11-17",
-          "heure": "20:45",
-          "dom": "Pays de Galles",
-          "ext": "Portugal"
-        }
-      ]
+     "date": "2026-11-22",
+     "heure": "15:00",
+     "dom": "Paris FC",
+     "ext": "Angers",
+     "tv": "Ligue 1+"
+    },
+    {
+     "date": "2026-11-22",
+     "heure": "17:15",
+     "dom": "Lorient",
+     "ext": "Rennes",
+     "tv": "Ligue 1+"
+    },
+    {
+     "date": "2026-11-22",
+     "heure": "20:45",
+     "dom": "OM",
+     "ext": "Le Mans",
+     "tv": "Ligue 1+"
     }
-  ],
-  "sources": [
+   ]
+  },
+  {
+   "id": "premier-league",
+   "nom": "Premier League",
+   "journee": "Journée du 21 au 23 novembre",
+   "matchs": [
     {
-      "nom": "Ligue 1 – Programmation TV J10 et J11 (3 sept. 2026)",
-      "url": "https://ligue1.com/fr/articles/l1_article_5839-programmation-tv-j10-j11-ligue-1-2026-2027"
+     "date": "2026-11-21",
+     "heure": "13:30",
+     "dom": "Man City",
+     "ext": "Fulham",
+     "tv": "TNT Sports (UK)"
     },
     {
-      "nom": "Premier League – Fixture amendments for November (21 sept. 2026)",
-      "url": "https://www.premierleague.com/en/news/4725574"
+     "date": "2026-11-21",
+     "heure": "16:00",
+     "dom": "Bournemouth",
+     "ext": "Nottingham Forest"
     },
     {
-      "nom": "ElDesmarque – Horaires de la 13e journée de Liga (21 oct. 2026)",
-      "url": "https://www.eldesmarque.com/futbol/liga-1a-division/20261021/fechas-horarios-partidos-jornada-13-laliga_18_020499599.html"
+     "date": "2026-11-21",
+     "heure": "16:00",
+     "dom": "Aston Villa",
+     "ext": "Sunderland"
     },
     {
-      "nom": "Fantamaster – Anticipi e posticipi 12ª-19ª giornata (25 sept. 2026)",
-      "url": "https://www.fantamaster.it/seriea-anticipi-posticipi-date-orari-programmazione-tv-dalla-12-alla-19-giornata/"
+     "date": "2026-11-21",
+     "heure": "16:00",
+     "dom": "Chelsea",
+     "ext": "Leeds"
     },
     {
-      "nom": "anstosszeiten.de – Bundesliga 10. Spieltag",
-      "url": "https://anstosszeiten.de/bundesliga/spieltag-10/"
+     "date": "2026-11-21",
+     "heure": "16:00",
+     "dom": "Coventry",
+     "ext": "Crystal Palace"
     },
     {
-      "nom": "hessenschau.de – Bundesliga 2026/2027, 10. Spieltag",
-      "url": "https://www.hessenschau.de/sport/ergebnisse-tabellen/fussball-1bl100~_matchday-10.html"
+     "date": "2026-11-21",
+     "heure": "16:00",
+     "dom": "Tottenham",
+     "ext": "Ipswich"
     },
     {
-      "nom": "UEFA – Ligue des champions 2026/27 : calendrier de la phase de ligue (4 nov. 2026)",
-      "url": "https://fr.uefa.com/uefachampionsleague/news/02a8-217680c70b8d-878c5efa7b92-1000--ligue-des-champions-2026-27-calendrier-et-resultats-de-la/"
+     "date": "2026-11-21",
+     "heure": "18:30",
+     "dom": "Newcastle",
+     "ext": "Arsenal",
+     "tv": "Sky Sports (UK)"
     },
     {
-      "nom": "UEFA – Nations League league phase fixtures (11 nov. 2026)",
-      "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-uefa-nations-league-all-the-league-phase-fixtures/"
+     "date": "2026-11-22",
+     "heure": "15:00",
+     "dom": "Hull City",
+     "ext": "Brighton",
+     "tv": "Sky Sports (UK)"
     },
     {
-      "nom": "La Télé crève l'écran – Italie/France et France/Turquie sur TF1 (12 nov. 2026)",
-      "url": "https://latelecrevelecran.com/2026/11/football-ligue-des-nations-italie/france-et-france/turquie-les-12-et-15/11/2026-a-20h35-sur-tf1.html"
+     "date": "2026-11-22",
+     "heure": "17:30",
+     "dom": "Liverpool",
+     "ext": "Man United",
+     "tv": "Sky Sports (UK)"
     },
     {
-      "nom": "Yahoo Sports – England reach Nations League quarters as Italy beat Zidane's France (12 nov. 2026)",
-      "url": "https://sports.yahoo.com/articles/england-reach-nations-league-quarters-222529061.html"
-    },
-    {
-      "nom": "Al Jazeera – Italy fight back to beat France 3-1 (12 nov. 2026)",
-      "url": "https://www.aljazeera.com/sports/2026/11/12/italy-fight-back-to-beat-france-3-1-and-move-top-of-nations-league-group"
-    },
-    {
-      "nom": "beIN Sports – Czechia 0-2 Spain (12 nov. 2026)",
-      "url": "https://www.beinsports.com/en-us/soccer/uefa-nations-league/articles/czechia-0-2-spain-world-champions-continue-perfect-nations-league-campaign-2026-11-12"
-    },
-    {
-      "nom": "FFF – France-Turquie, 15 novembre 2026, Stade Atlantique Bordeaux Métropole",
-      "url": "https://www.fff.fr/selection/matchs/3773-france-turquie.html"
-    },
-    {
-      "nom": "Sports Mole – Netherlands 7-0 Greece (13 nov. 2026)",
-      "url": "https://www.sportsmole.co.uk/football/nations-league/netherlands-vs-greece_game_262061.html"
-    },
-    {
-      "nom": "Sky Sports – Netherlands vs Greece (13 nov. 2026)",
-      "url": "https://www.skysports.com/football/netherlands-vs-greece/554097"
-    },
-    {
-      "nom": "Sports Mole – Serbia vs Germany (13 nov. 2026)",
-      "url": "https://www.sportsmole.co.uk/football/germany/uefa-nations-league/preview/serbia-vs-germany-prediction-team-news-lineups_608896.html"
-    },
-    {
-      "nom": "Sky Sports – Serbia vs Germany (13 nov. 2026)",
-      "url": "https://www.skysports.com/football/serbia-vs-germany/554099"
-    },
-    {
-      "nom": "Sky Sports – Norway 3-1 Wales (14 nov. 2026)",
-      "url": "https://www.skysports.com/football/norway-vs-wales/report/554107"
-    },
-    {
-      "nom": "Al Jazeera – Portugal 1-4 Denmark (14 nov. 2026)",
-      "url": "https://www.aljazeera.com/sports/2026/11/14/ronaldo-less-portugal-thrashed-4-1-by-denmark-in-the-nations-league"
+     "date": "2026-11-23",
+     "heure": "21:00",
+     "dom": "Brentford",
+     "ext": "Everton",
+     "tv": "Sky Sports (UK)"
     }
-  ]
+   ]
+  },
+  {
+   "id": "liga",
+   "nom": "Liga",
+   "journee": "13e journée",
+   "matchs": [
+    {
+     "date": "2026-11-20",
+     "heure": "21:00",
+     "dom": "Athletic Bilbao",
+     "ext": "Espanyol"
+    },
+    {
+     "date": "2026-11-21",
+     "heure": "14:00",
+     "dom": "Alavés",
+     "ext": "Deportivo La Corogne"
+    },
+    {
+     "date": "2026-11-21",
+     "heure": "16:15",
+     "dom": "Rayo Vallecano",
+     "ext": "Valence"
+    },
+    {
+     "date": "2026-11-21",
+     "heure": "18:30",
+     "dom": "Séville",
+     "ext": "Betis"
+    },
+    {
+     "date": "2026-11-21",
+     "heure": "21:00",
+     "dom": "Real Madrid",
+     "ext": "Celta Vigo"
+    },
+    {
+     "date": "2026-11-22",
+     "heure": "14:00",
+     "dom": "Barça",
+     "ext": "Villarreal"
+    },
+    {
+     "date": "2026-11-22",
+     "heure": "16:15",
+     "dom": "Racing Santander",
+     "ext": "Real Sociedad"
+    },
+    {
+     "date": "2026-11-22",
+     "heure": "18:30",
+     "dom": "Osasuna",
+     "ext": "Malaga"
+    },
+    {
+     "date": "2026-11-22",
+     "heure": "21:00",
+     "dom": "Getafe",
+     "ext": "Atlético"
+    },
+    {
+     "date": "2026-11-23",
+     "heure": "21:00",
+     "dom": "Levante",
+     "ext": "Elche"
+    }
+   ]
+  },
+  {
+   "id": "serie-a",
+   "nom": "Serie A",
+   "journee": "12e journée",
+   "matchs": [
+    {
+     "date": "2026-11-21",
+     "heure": "15:00",
+     "dom": "Côme",
+     "ext": "Cagliari",
+     "tv": "DAZN (Italie)"
+    },
+    {
+     "date": "2026-11-21",
+     "heure": "15:00",
+     "dom": "Lazio",
+     "ext": "Lecce",
+     "tv": "DAZN (Italie)"
+    },
+    {
+     "date": "2026-11-21",
+     "heure": "18:00",
+     "dom": "Parme",
+     "ext": "Roma",
+     "tv": "DAZN (Italie)"
+    },
+    {
+     "date": "2026-11-21",
+     "heure": "20:45",
+     "dom": "Naples",
+     "ext": "Turin",
+     "tv": "DAZN / Sky (Italie)"
+    },
+    {
+     "date": "2026-11-22",
+     "heure": "12:30",
+     "dom": "Juventus",
+     "ext": "Venise",
+     "tv": "DAZN (Italie)"
+    },
+    {
+     "date": "2026-11-22",
+     "heure": "15:00",
+     "dom": "Bologne",
+     "ext": "Udinese",
+     "tv": "DAZN (Italie)"
+    },
+    {
+     "date": "2026-11-22",
+     "heure": "15:00",
+     "dom": "Sassuolo",
+     "ext": "Genoa",
+     "tv": "DAZN (Italie)"
+    },
+    {
+     "date": "2026-11-22",
+     "heure": "18:00",
+     "dom": "Milan",
+     "ext": "Frosinone",
+     "tv": "DAZN / Sky (Italie)"
+    },
+    {
+     "date": "2026-11-22",
+     "heure": "20:45",
+     "dom": "Atalanta",
+     "ext": "Inter",
+     "tv": "DAZN (Italie)"
+    },
+    {
+     "date": "2026-11-23",
+     "heure": "20:45",
+     "dom": "Monza",
+     "ext": "Fiorentina",
+     "tv": "DAZN / Sky (Italie)"
+    }
+   ]
+  },
+  {
+   "id": "bundesliga",
+   "nom": "Bundesliga",
+   "journee": "10e journée",
+   "matchs": [
+    {
+     "date": "2026-11-20",
+     "heure": "20:30",
+     "dom": "Bayern",
+     "ext": "Cologne"
+    },
+    {
+     "date": "2026-11-21",
+     "heure": "15:30",
+     "dom": "Leverkusen",
+     "ext": "Paderborn"
+    },
+    {
+     "date": "2026-11-21",
+     "heure": "15:30",
+     "dom": "Francfort",
+     "ext": "Hoffenheim"
+    },
+    {
+     "date": "2026-11-21",
+     "heure": "15:30",
+     "dom": "Union Berlin",
+     "ext": "Leipzig"
+    },
+    {
+     "date": "2026-11-21",
+     "heure": "15:30",
+     "dom": "Mönchengladbach",
+     "ext": "Dortmund"
+    },
+    {
+     "date": "2026-11-21",
+     "heure": "15:30",
+     "dom": "Elversberg",
+     "ext": "Fribourg"
+    },
+    {
+     "date": "2026-11-21",
+     "heure": "18:30",
+     "dom": "Schalke 04",
+     "ext": "Stuttgart"
+    },
+    {
+     "date": "2026-11-22",
+     "heure": "15:30",
+     "dom": "Augsbourg",
+     "ext": "Mayence"
+    },
+    {
+     "date": "2026-11-22",
+     "heure": "17:30",
+     "dom": "Werder Brême",
+     "ext": "Hambourg"
+    }
+   ]
+  },
+  {
+   "id": "ligue-des-champions",
+   "nom": "Ligue des champions",
+   "journee": "5e journée (phase de ligue)",
+   "matchs": [
+    {
+     "date": "2026-11-24",
+     "heure": "18:45",
+     "dom": "Bodø/Glimt",
+     "ext": "LASK"
+    },
+    {
+     "date": "2026-11-24",
+     "heure": "18:45",
+     "dom": "Galatasaray",
+     "ext": "Aston Villa"
+    },
+    {
+     "date": "2026-11-24",
+     "heure": "21:00",
+     "dom": "Arsenal",
+     "ext": "Dortmund"
+    },
+    {
+     "date": "2026-11-24",
+     "heure": "21:00",
+     "dom": "Côme",
+     "ext": "AEK Athènes"
+    },
+    {
+     "date": "2026-11-24",
+     "heure": "21:00",
+     "dom": "Feyenoord",
+     "ext": "Porto"
+    },
+    {
+     "date": "2026-11-24",
+     "heure": "21:00",
+     "dom": "Man City",
+     "ext": "Naples"
+    },
+    {
+     "date": "2026-11-24",
+     "heure": "21:00",
+     "dom": "Leipzig",
+     "ext": "Lens"
+    },
+    {
+     "date": "2026-11-24",
+     "heure": "21:00",
+     "dom": "Real Madrid",
+     "ext": "PSV Eindhoven"
+    },
+    {
+     "date": "2026-11-24",
+     "heure": "21:00",
+     "dom": "Slovan Bratislava",
+     "ext": "Betis"
+    },
+    {
+     "date": "2026-11-25",
+     "heure": "18:45",
+     "dom": "Sabah",
+     "ext": "Barça"
+    },
+    {
+     "date": "2026-11-25",
+     "heure": "18:45",
+     "dom": "Slavia Prague",
+     "ext": "Villarreal"
+    },
+    {
+     "date": "2026-11-25",
+     "heure": "21:00",
+     "dom": "Atlético",
+     "ext": "Viking"
+    },
+    {
+     "date": "2026-11-25",
+     "heure": "21:00",
+     "dom": "Club Bruges",
+     "ext": "Liverpool"
+    },
+    {
+     "date": "2026-11-25",
+     "heure": "21:00",
+     "dom": "Inter",
+     "ext": "Stuttgart"
+    },
+    {
+     "date": "2026-11-25",
+     "heure": "21:00",
+     "dom": "Shakhtar Donetsk",
+     "ext": "Fenerbahçe"
+    },
+    {
+     "date": "2026-11-25",
+     "heure": "21:00",
+     "dom": "Lille",
+     "ext": "Bayern"
+    },
+    {
+     "date": "2026-11-25",
+     "heure": "21:00",
+     "dom": "PSG",
+     "ext": "Roma"
+    },
+    {
+     "date": "2026-11-25",
+     "heure": "21:00",
+     "dom": "Sporting CP",
+     "ext": "Man United"
+    }
+   ]
+  },
+  {
+   "id": "selections",
+   "nom": "Sélections (Ligue des nations)",
+   "journee": "5e et 6e journées",
+   "matchs": [
+    {
+     "date": "2026-11-12",
+     "heure": "18:00",
+     "dom": "Turquie",
+     "ext": "Belgique",
+     "score": "1-2"
+    },
+    {
+     "date": "2026-11-12",
+     "heure": "20:45",
+     "dom": "Italie",
+     "ext": "France",
+     "tv": "TF1 / TF1+",
+     "score": "3-1"
+    },
+    {
+     "date": "2026-11-12",
+     "heure": "20:45",
+     "dom": "Tchéquie",
+     "ext": "Espagne",
+     "score": "0-2"
+    },
+    {
+     "date": "2026-11-12",
+     "heure": "20:45",
+     "dom": "Angleterre",
+     "ext": "Croatie",
+     "score": "2-1"
+    },
+    {
+     "date": "2026-11-13",
+     "heure": "20:45",
+     "dom": "Pays-Bas",
+     "ext": "Grèce",
+     "score": "7-0"
+    },
+    {
+     "date": "2026-11-13",
+     "heure": "20:45",
+     "dom": "Serbie",
+     "ext": "Allemagne",
+     "score": "1-3"
+    },
+    {
+     "date": "2026-11-14",
+     "heure": "18:00",
+     "dom": "Norvège",
+     "ext": "Pays de Galles",
+     "score": "3-1"
+    },
+    {
+     "date": "2026-11-14",
+     "heure": "20:45",
+     "dom": "Portugal",
+     "ext": "Danemark",
+     "score": "1-4"
+    },
+    {
+     "date": "2026-11-15",
+     "heure": "20:45",
+     "dom": "France",
+     "ext": "Turquie",
+     "tv": "TF1 / TF1+",
+     "score": "2-1"
+    },
+    {
+     "date": "2026-11-15",
+     "heure": "20:45",
+     "dom": "Belgique",
+     "ext": "Italie",
+     "score": "4-1"
+    },
+    {
+     "date": "2026-11-15",
+     "heure": "20:45",
+     "dom": "Croatie",
+     "ext": "Tchéquie",
+     "score": "2-1"
+    },
+    {
+     "date": "2026-11-15",
+     "heure": "20:45",
+     "dom": "Espagne",
+     "ext": "Angleterre",
+     "score": "2-3"
+    },
+    {
+     "date": "2026-11-16",
+     "heure": "20:45",
+     "dom": "Allemagne",
+     "ext": "Pays-Bas"
+    },
+    {
+     "date": "2026-11-16",
+     "heure": "20:45",
+     "dom": "Grèce",
+     "ext": "Serbie"
+    },
+    {
+     "date": "2026-11-17",
+     "heure": "20:45",
+     "dom": "Danemark",
+     "ext": "Norvège"
+    },
+    {
+     "date": "2026-11-17",
+     "heure": "20:45",
+     "dom": "Pays de Galles",
+     "ext": "Portugal"
+    },
+    {
+     "date": "2026-11-16",
+     "heure": "20:45",
+     "dom": "Suisse",
+     "ext": "Écosse"
+    }
+   ]
+  },
+  {
+   "id": "can-2027",
+   "nom": "Éliminatoires CAN 2027",
+   "journee": "4e journée",
+   "matchs": [
+    {
+     "date": "2026-11-16",
+     "heure": "14:00",
+     "dom": "Soudan",
+     "ext": "Sénégal"
+    },
+    {
+     "date": "2026-11-16",
+     "heure": "14:00",
+     "dom": "Namibie",
+     "ext": "Cameroun"
+    },
+    {
+     "date": "2026-11-16",
+     "heure": "14:00",
+     "dom": "Zimbabwe",
+     "ext": "Guinée équatoriale"
+    },
+    {
+     "date": "2026-11-16",
+     "heure": "16:00",
+     "dom": "Somalie",
+     "ext": "Ghana"
+    },
+    {
+     "date": "2026-11-16",
+     "heure": "17:00",
+     "dom": "Érythrée",
+     "ext": "Guinée"
+    },
+    {
+     "date": "2026-11-16",
+     "heure": "17:00",
+     "dom": "Centrafrique",
+     "ext": "Bénin"
+    },
+    {
+     "date": "2026-11-17",
+     "heure": "14:00",
+     "dom": "Lesotho",
+     "ext": "Gabon"
+    },
+    {
+     "date": "2026-11-17",
+     "heure": "14:00",
+     "dom": "Malawi",
+     "ext": "Égypte"
+    },
+    {
+     "date": "2026-11-17",
+     "heure": "14:00",
+     "dom": "Soudan du Sud",
+     "ext": "Angola"
+    },
+    {
+     "date": "2026-11-17",
+     "heure": "14:00",
+     "dom": "Burundi",
+     "ext": "Zambie"
+    },
+    {
+     "date": "2026-11-17",
+     "heure": "14:00",
+     "dom": "Éthiopie",
+     "ext": "Mozambique"
+    },
+    {
+     "date": "2026-11-17",
+     "heure": "14:00",
+     "dom": "Tanzanie",
+     "ext": "Nigeria"
+    },
+    {
+     "date": "2026-11-17",
+     "heure": "17:00",
+     "dom": "Gambie",
+     "ext": "Côte d'Ivoire"
+    },
+    {
+     "date": "2026-11-17",
+     "heure": "17:00",
+     "dom": "Kenya",
+     "ext": "Afrique du Sud"
+    },
+    {
+     "date": "2026-11-17",
+     "heure": "17:00",
+     "dom": "Sierra Leone",
+     "ext": "RD Congo"
+    },
+    {
+     "date": "2026-11-17",
+     "heure": "17:00",
+     "dom": "Libye",
+     "ext": "Tunisie"
+    },
+    {
+     "date": "2026-11-17",
+     "heure": "17:00",
+     "dom": "Togo",
+     "ext": "Algérie"
+    },
+    {
+     "date": "2026-11-17",
+     "heure": "17:00",
+     "dom": "Guinée-Bissau",
+     "ext": "Madagascar"
+    },
+    {
+     "date": "2026-11-17",
+     "heure": "20:00",
+     "dom": "Mauritanie",
+     "ext": "Burkina Faso"
+    },
+    {
+     "date": "2026-11-17",
+     "heure": "20:00",
+     "dom": "Congo",
+     "ext": "Comores"
+    },
+    {
+     "date": "2026-11-17",
+     "heure": "20:00",
+     "dom": "Botswana",
+     "ext": "Ouganda"
+    },
+    {
+     "date": "2026-11-17",
+     "heure": "20:00",
+     "dom": "Rwanda",
+     "ext": "Mali"
+    },
+    {
+     "date": "2026-11-17",
+     "heure": "20:00",
+     "dom": "Liberia",
+     "ext": "Cap-Vert"
+    },
+    {
+     "date": "2026-11-17",
+     "heure": "21:00",
+     "dom": "Niger",
+     "ext": "Maroc"
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "nom": "Ligue 1 – Programmation TV J10 et J11 (3 sept. 2026)",
+   "url": "https://ligue1.com/fr/articles/l1_article_5839-programmation-tv-j10-j11-ligue-1-2026-2027"
+  },
+  {
+   "nom": "Premier League – Fixture amendments for November (21 sept. 2026)",
+   "url": "https://www.premierleague.com/en/news/4725574"
+  },
+  {
+   "nom": "ElDesmarque – Horaires de la 13e journée de Liga (21 oct. 2026)",
+   "url": "https://www.eldesmarque.com/futbol/liga-1a-division/20261021/fechas-horarios-partidos-jornada-13-laliga_18_020499599.html"
+  },
+  {
+   "nom": "Fantamaster – Anticipi e posticipi 12ª-19ª giornata (25 sept. 2026)",
+   "url": "https://www.fantamaster.it/seriea-anticipi-posticipi-date-orari-programmazione-tv-dalla-12-alla-19-giornata/"
+  },
+  {
+   "nom": "anstosszeiten.de – Bundesliga 10. Spieltag",
+   "url": "https://anstosszeiten.de/bundesliga/spieltag-10/"
+  },
+  {
+   "nom": "hessenschau.de – Bundesliga 2026/2027, 10. Spieltag",
+   "url": "https://www.hessenschau.de/sport/ergebnisse-tabellen/fussball-1bl100~_matchday-10.html"
+  },
+  {
+   "nom": "UEFA – Ligue des champions 2026/27 : calendrier de la phase de ligue (4 nov. 2026)",
+   "url": "https://fr.uefa.com/uefachampionsleague/news/02a8-217680c70b8d-878c5efa7b92-1000--ligue-des-champions-2026-27-calendrier-et-resultats-de-la/"
+  },
+  {
+   "nom": "UEFA – Nations League league phase fixtures (11 nov. 2026)",
+   "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-uefa-nations-league-all-the-league-phase-fixtures/"
+  },
+  {
+   "nom": "La Télé crève l'écran – Italie/France et France/Turquie sur TF1 (12 nov. 2026)",
+   "url": "https://latelecrevelecran.com/2026/11/football-ligue-des-nations-italie/france-et-france/turquie-les-12-et-15/11/2026-a-20h35-sur-tf1.html"
+  },
+  {
+   "nom": "Yahoo Sports – England reach Nations League quarters as Italy beat Zidane's France (12 nov. 2026)",
+   "url": "https://sports.yahoo.com/articles/england-reach-nations-league-quarters-222529061.html"
+  },
+  {
+   "nom": "Al Jazeera – Italy fight back to beat France 3-1 (12 nov. 2026)",
+   "url": "https://www.aljazeera.com/sports/2026/11/12/italy-fight-back-to-beat-france-3-1-and-move-top-of-nations-league-group"
+  },
+  {
+   "nom": "beIN Sports – Czechia 0-2 Spain (12 nov. 2026)",
+   "url": "https://www.beinsports.com/en-us/soccer/uefa-nations-league/articles/czechia-0-2-spain-world-champions-continue-perfect-nations-league-campaign-2026-11-12"
+  },
+  {
+   "nom": "FFF – France-Turquie, 15 novembre 2026, Stade Atlantique Bordeaux Métropole",
+   "url": "https://www.fff.fr/selection/matchs/3773-france-turquie.html"
+  },
+  {
+   "nom": "Sports Mole – Netherlands 7-0 Greece (13 nov. 2026)",
+   "url": "https://www.sportsmole.co.uk/football/nations-league/netherlands-vs-greece_game_262061.html"
+  },
+  {
+   "nom": "Sky Sports – Netherlands vs Greece (13 nov. 2026)",
+   "url": "https://www.skysports.com/football/netherlands-vs-greece/554097"
+  },
+  {
+   "nom": "Sports Mole – Serbia vs Germany (13 nov. 2026)",
+   "url": "https://www.sportsmole.co.uk/football/germany/uefa-nations-league/preview/serbia-vs-germany-prediction-team-news-lineups_608896.html"
+  },
+  {
+   "nom": "Sky Sports – Serbia vs Germany (13 nov. 2026)",
+   "url": "https://www.skysports.com/football/serbia-vs-germany/554099"
+  },
+  {
+   "nom": "Sky Sports – Norway 3-1 Wales (14 nov. 2026)",
+   "url": "https://www.skysports.com/football/norway-vs-wales/report/554107"
+  },
+  {
+   "nom": "Al Jazeera – Portugal 1-4 Denmark (14 nov. 2026)",
+   "url": "https://www.aljazeera.com/sports/2026/11/14/ronaldo-less-portugal-thrashed-4-1-by-denmark-in-the-nations-league"
+  },
+  {
+   "nom": "ESPN – France 2-1 Turquie (15 nov. 2026)",
+   "url": "https://www.espn.com/soccer/report/_/gameId/401861177"
+  },
+  {
+   "nom": "ESPN – Belgique 4-1 Italie (15 nov. 2026)",
+   "url": "https://www.espn.com/soccer/report/_/gameId/401861176"
+  },
+  {
+   "nom": "Fox Sports – Croatie 2-1 Tchéquie (15 nov. 2026)",
+   "url": "https://www.foxsports.com/soccer/nations-league-croatia-vs-czechia-nov-15-2026-game-boxscore-689073"
+  },
+  {
+   "nom": "ESPN – Espagne 2-3 Angleterre (15 nov. 2026)",
+   "url": "https://www.espn.com/soccer/story/_/id/50493712/england-spain-43-game-unbeaten-run"
+  },
+  {
+   "nom": "UEFA – Ligue des nations 2026/27, calendrier et résultats",
+   "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/"
+  },
+  {
+   "nom": "CAF – programme de la 4e journée des éliminatoires CAN 2027 (15 nov. 2026)",
+   "url": "https://www.cafonline.com/afcon2025/news/nine-nations-eye-early-qualification-as-decisive-totalenergies-caf-afcon-pamoja-2027-matchday-4-approaches/"
+  }
+ ]
 }

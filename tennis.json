@@ -1,7 +1,7 @@
 {
-  "maj": "15 novembre 2026",
+  "maj": "16 novembre 2026",
   "atp": {
-    "date": "9 novembre 2026",
+    "date": "9 novembre 2026 (classement du 16 novembre non consulté à la rédaction)",
     "top": [
       {
         "rang": 1,
@@ -126,7 +126,7 @@
     ]
   },
   "wta": {
-    "date": "5 novembre 2026 (mise à jour ESPN)",
+    "date": "5 novembre 2026 (mise à jour ESPN ; classement du 16 novembre après les WTA Finals non consulté)",
     "top": [
       {
         "rang": 1,
@@ -350,7 +350,7 @@
         ]
       }
     ],
-    "groupes_note": "Tirage au sort effectué le jeudi 12 novembre à Turin ; les deux premiers de chaque groupe accèdent aux demi-finales. Ordre des matchs du dimanche 15 novembre (sessions à 14h et pas avant 20h30) non publié dans les sources consultées à la rédaction.",
+    "groupes_note": "Tirage au sort effectué le jeudi 12 novembre à Turin ; les deux premiers de chaque groupe accèdent aux demi-finales. Groupe John McEnroe, 1re journée (15 nov.) : Shelton bat Fils 6-2, 3-6, 6-3 ; Zverev bat Jódar 6-4, 6-4. Le groupe Ivan Lendl entre en lice lundi 16 novembre.",
     "qualifies": [
       "Alexander Zverev",
       "Carlos Alcaraz",
@@ -385,13 +385,28 @@
         ]
       }
     ],
-    "resultats": [],
-    "texte": "Le tournoi débute ce dimanche 15 novembre à Turin ; la phase de groupes se dispute jusqu'au vendredi 20, les demi-finales le samedi 21 et la finale du simple le dimanche 22 novembre à 18h, selon l'ATP. Arthur Fils, qui dispute ses premières ATP Finals, est dans le groupe John McEnroe avec Alexander Zverev, Ben Shelton et Rafael Jódar ; selon l'ATP, Zverev mène 5-2 dans ses face-à-face avec le Français, Shelton 2-1 et Jódar 2-1. L'autre groupe réunit Carlos Alcaraz, Daniil Medvedev, Flavio Cobolli et Frances Tiafoe. Le tournoi se joue sans le double tenant du titre Jannik Sinner, forfait sur blessure au genou. En double, Théo Arribagé et Albano Olivetti sont dans le groupe Todd Woodbridge."
+    "resultats": [
+      {
+        "date": "15 novembre 2026",
+        "groupe": "John McEnroe",
+        "vainqueur": "Ben Shelton",
+        "perdant": "Arthur Fils",
+        "score": "6-2, 3-6, 6-3"
+      },
+      {
+        "date": "15 novembre 2026",
+        "groupe": "John McEnroe",
+        "vainqueur": "Alexander Zverev",
+        "perdant": "Rafael Jódar",
+        "score": "6-4, 6-4"
+      }
+    ],
+    "texte": "Arthur Fils, premier Français qualifié pour les ATP Finals depuis dix ans, a perdu son premier match à Turin dimanche face à Ben Shelton (6-2, 3-6, 6-3 en 1h58), selon l'ATP ; Shelton mène désormais 3-1 dans leurs face-à-face. Dans le même groupe John McEnroe, le n°1 mondial Alexander Zverev a battu Rafael Jódar 6-4, 6-4 (10 aces), selon ANI repris par The Tribune. Le groupe Ivan Lendl (Carlos Alcaraz, Daniil Medvedev, Flavio Cobolli, Frances Tiafoe) débute lundi. La phase de groupes se dispute jusqu'au vendredi 20, les demi-finales le samedi 21 et la finale le dimanche 22 novembre à 18h, selon l'ATP. Le tournoi se joue sans le double tenant du titre Jannik Sinner, blessé au genou."
   },
   "calendrier": [
     {
       "dates": "8-15 novembre 2026",
-      "nom": "WTA Finals",
+      "nom": "WTA Finals (vainqueure : Mirra Andreeva)",
       "lieu": "Indian Wells (États-Unis)",
       "type": "WTA Finals"
     },
@@ -422,27 +437,27 @@
   ],
   "infos": [
     {
-      "titre": "WTA Finals : finale Andreeva-Svitolina",
-      "texte": "Selon Tennis Uptodate, Mirra Andreeva a battu Jessica Pegula 6-3, 6-4 et Elina Svitolina a dominé Linda Nosková 6-2, 6-1 en demi-finales samedi 14 novembre à Indian Wells. Les deux joueuses, qui s'étaient affrontées en phase de groupes (victoire d'Andreeva), se retrouvent en finale dimanche 15 novembre.",
+      "titre": "Mirra Andreeva remporte les WTA Finals",
+      "texte": "Mirra Andreeva a battu Elina Svitolina 7-5, 6-3 en finale à Indian Wells, selon Sofascore et Critical Report ; selon ce dernier, la Russe s'impose sans perdre un set pour sa première participation et doit atteindre la 2e place mondiale, son meilleur classement, Elena Rybakina conservant la 1re place en fin d'année.",
       "source": {
-        "nom": "Tennis Uptodate",
-        "url": "https://tennisuptodate.com/wta/wta-finals-2026-results-schedule-draw-field-prize-money-history-and-format"
+        "nom": "Critical Report",
+        "url": "https://criticalreport.substack.com/p/mirra-andreeva-2026-wta-finals"
       }
     },
     {
-      "titre": "ATP Finals : Fils avec Zverev et Shelton",
-      "texte": "Le tirage au sort de Turin a placé Arthur Fils (6e tête de série) dans le groupe John McEnroe, avec Alexander Zverev, Ben Shelton et Rafael Jódar, que Tennis 365 juge « sans doute le plus relevé ». Zverev retrouve Shelton, qu'il a battu en finale de l'US Open en septembre ; il mène 6-0 dans leurs confrontations.",
+      "titre": "ATP Finals : Fils battu par Shelton d'entrée",
+      "texte": "Arthur Fils s'est incliné 6-2, 3-6, 6-3 face à Ben Shelton en ouverture du tournoi de Turin dimanche, selon l'ATP. Le Français a recollé à un set partout avant de céder son service au début du troisième set. Shelton affrontera mardi Zverev ou Jódar.",
       "source": {
-        "nom": "Tennis Majors",
-        "url": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/atp-finals-draw-zverev-gets-us-open-final-rematch-with-shelton-alcaraz-drawn-with-medvedev-866813.html"
+        "nom": "ATP Tour",
+        "url": "https://www.atptour.com/en/news/shelton-fils-nitto-atp-finals-2026-sunday"
       }
     },
     {
-      "titre": "Alcaraz remporte le Rolex Paris Masters",
-      "texte": "Carlos Alcaraz s'est imposé en finale à Paris face à Ben Shelton (7-6 (5), 7-5), une semaine avant les ATP Finals.",
+      "titre": "Zverev lance sa campagne",
+      "texte": "Le n°1 mondial Alexander Zverev a battu Rafael Jódar 6-4, 6-4 avec 10 aces et sans double faute, selon ANI repris par The Tribune ; c'est sa deuxième victoire sur l'Espagnol cette saison.",
       "source": {
-        "nom": "Tennis Majors",
-        "url": "https://www.tennismajors.com/atp/breaking-news-rolex-paris-masters-alcaraz-lifts-the-trophy-866414.html"
+        "nom": "The Tribune (ANI)",
+        "url": "https://www.tribuneindia.com/news/alexander-zverev/atp-finals-2026-zverev-opens-campaign-with-straight-sets-win-over-jodar-in-turin"
       }
     },
     {
@@ -520,20 +535,28 @@
       "url": "https://www.tennis365.com/tennis-news/atp-finals-draw-alexander-zverev-ben-shelton-carlos-alcaraz-daniil-medvedev"
     },
     {
-      "nom": "Tennis Majors – Gauff-Kostyuk aux WTA Finals",
-      "url": "https://www.tennismajors.com/wta-tour-news/wta-finals/gauff-wins-six-straight-games-from-5-1-down-to-beat-kostyuk-and-keep-wta-finals-hopes-alive-866841.html"
-    },
-    {
-      "nom": "WTA – programme du 5e jour des WTA Finals",
-      "url": "https://www.wtatennis.com/news/4607847/fage-wta-finals-day-5-preview-coco-gauff-jessica-pegula-battling-for-spots-in-indian-wells-semis"
-    },
-    {
       "nom": "Tennis Majors – finale Paris Masters",
       "url": "https://www.tennismajors.com/atp/breaking-news-rolex-paris-masters-alcaraz-lifts-the-trophy-866414.html"
     },
     {
       "nom": "WTA – Andreeva bat Svitolina en phase de groupes",
       "url": "https://wtatennis.com/news/4607100/andreeva-wins-final-seven-games-to-beat-svitolina-in-fage-wta-finals-debut"
+    },
+    {
+      "nom": "ATP Tour – Shelton bat Fils (15 nov. 2026)",
+      "url": "https://www.atptour.com/en/news/shelton-fils-nitto-atp-finals-2026-sunday"
+    },
+    {
+      "nom": "The Tribune – Zverev bat Jódar (16 nov. 2026)",
+      "url": "https://www.tribuneindia.com/news/alexander-zverev/atp-finals-2026-zverev-opens-campaign-with-straight-sets-win-over-jodar-in-turin"
+    },
+    {
+      "nom": "Critical Report – Andreeva, WTA Finals 2026",
+      "url": "https://criticalreport.substack.com/p/mirra-andreeva-2026-wta-finals"
+    },
+    {
+      "nom": "Sofascore – finale des WTA Finals",
+      "url": "https://www.sofascore.com/news/wta-finals-mirra-andreeva-defeats-elina-svitolina-7-5-6-3"
     }
   ]
 }
