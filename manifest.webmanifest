@@ -1,0 +1,19 @@
+{
+  "name": "Mosaiq — Le monde à 7 h",
+  "short_name": "Mosaiq",
+  "description": "L'essentiel de l'actualité chaque matin : France, géopolitique, Afrique, tech, économie, culture et sport. Tous les regards.",
+  "lang": "fr",
+  "dir": "ltr",
+  "start_url": "./#accueil",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#2D4BD8",
+  "background_color": "#F3F4F6",
+  "categories": ["news"],
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}

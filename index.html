@@ -1,4 +1,4 @@
-<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style></head><body><title>Mosaiq</title>
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#2D4BD8"><link rel="icon" type="image/png" sizes="192x192" href="icon-192.png"><link rel="apple-touch-icon" href="apple-touch-icon.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="Mosaiq"><style>:root{color-scheme:light}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style></head><body><title>Mosaiq</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <meta name="description" content="Mosaiq — l'essentiel de l'actualité chaque matin, avec des regards croisés sur la géopolitique et un espace football détaillé.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -438,6 +438,72 @@ abbr.gl:hover::after,abbr.gl:focus::after{content:attr(data-def);position:absolu
 .tess dd{margin:0}
 .tess-why{border-left:3px solid var(--tc);padding-left:10px;color:var(--soft);font-size:13.5px!important}
 .tess-src{font-size:12.5px;color:var(--soft)}
+.mm-btn{display:inline-flex;align-items:center;gap:7px;align-self:center;font:600 13px var(--body);color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:6px 12px;cursor:pointer;transition:border-color .15s ease,transform .15s ease}
+.mm-btn:hover{border-color:var(--c-fr);transform:translateY(-1px)}
+.mast .in{position:relative}
+html.mm-open{overflow:hidden}
+#mm-wrap{position:fixed;inset:0;z-index:80}
+#mm-wrap[hidden]{display:none}
+.mm-back{position:absolute;inset:0;background:rgba(10,12,18,.45)}
+.mm{position:absolute;right:0;top:0;bottom:0;width:min(440px,100%);background:var(--surface);color:var(--ink);box-shadow:-12px 0 40px rgba(0,0,0,.2);overflow:auto;padding:18px 18px 90px;animation:mmin .2s ease}
+@keyframes mmin{from{transform:translateX(30px);opacity:0}to{transform:none;opacity:1}}
+.mm-head{display:flex;align-items:center;justify-content:space-between}
+.mm-head h2{font-family:var(--display);font-size:24px;margin:0}
+.mm-x{border:0;background:none;font-size:28px;line-height:1;color:var(--soft);cursor:pointer;padding:4px 8px}
+.mm h3{font-family:var(--display);font-size:16px;margin:18px 0 2px}
+.mm-hint{margin:0 0 8px;font-size:12.5px}
+.mm-order{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.mm-order li{display:flex;align-items:center;gap:8px;border:1px solid var(--line);border-left:4px solid var(--rc);border-radius:10px;padding:7px 8px;background:var(--bg)}
+.mm-order li.dragging{opacity:.5}
+.mm-grip{color:var(--faint);cursor:grab;font-size:14px;letter-spacing:-2px}
+.mm-order label{flex:1;display:flex;align-items:center;gap:8px;font-weight:600;font-size:14.5px;cursor:pointer}
+.mm-order label svg{color:var(--rc)}
+.mm-order input{width:18px;height:18px;accent-color:var(--rc)}
+.mm-arr{display:flex;gap:4px}
+.mm-arr button{width:34px;height:34px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);font-size:16px;cursor:pointer}
+.mm-arr button:disabled{opacity:.3;cursor:default}
+.mm-chips{display:flex;flex-wrap:wrap;gap:6px}
+.mm-chips button{display:inline-flex;align-items:center;gap:6px;font:600 13px var(--body);color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:6px 11px;cursor:pointer}
+.mm-chips button svg{color:var(--sc)}
+.mm-chips button[aria-pressed="true"]{background:var(--sc);border-color:var(--sc);color:#fff}
+.mm-chips button[aria-pressed="true"] svg{color:#fff}
+.mm-sel{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}
+.mm-team{display:inline-flex;align-items:center;gap:6px;font-weight:600;font-size:13px;background:var(--bg);border:1px solid var(--line);border-radius:999px;padding:4px 4px 4px 11px}
+.mm-team small{color:var(--soft);font-weight:500}
+.mm-team button{border:0;background:var(--line);color:var(--ink);width:22px;height:22px;border-radius:50%;cursor:pointer;line-height:1}
+.mm-q{width:100%;font:15px var(--body);padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink)}
+.mm-res{display:grid;gap:4px;margin-top:6px}
+.mm-res button{text-align:left;font:600 14px var(--body);color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:9px 11px;cursor:pointer}
+.mm-res button:hover,.mm-res button:focus{border-color:var(--c-fr);outline:none}
+.mm-res small{color:var(--soft);font-weight:500;margin-left:6px}
+.mm-foot{position:fixed;bottom:0;right:0;width:min(440px,100%);display:flex;justify-content:space-between;gap:10px;padding:12px 18px;background:var(--surface);border-top:1px solid var(--line)}
+.mm-reset{font:600 13.5px var(--body);color:var(--neg);background:none;border:1px solid var(--line);border-radius:10px;padding:9px 14px;cursor:pointer}
+.mm-ok{font:700 14px var(--body);color:var(--surface);background:var(--ink);border:0;border-radius:10px;padding:9px 20px;cursor:pointer}
+.mm-note{margin-top:20px}
+.mm-note button{font:600 13px var(--body);color:var(--c-fr);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline}
+.yt{margin:0 0 16px}
+.yt-h{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+.yt-h b{font-family:var(--display);font-size:18px}
+.yt-edit{font:600 12.5px var(--body);color:var(--soft);background:none;border:1px solid var(--line);border-radius:999px;padding:4px 10px;cursor:pointer}
+.yt-list{display:flex;gap:10px;overflow-x:auto;scrollbar-width:none;padding-bottom:4px}
+.yt-list::-webkit-scrollbar{display:none}
+.yt-card{flex:none;width:230px;display:grid;gap:3px;text-decoration:none;color:inherit;background:var(--surface);border:1px solid var(--line);border-top:4px solid var(--tc);border-radius:12px;padding:12px 14px;transition:transform .15s ease}
+.yt-card:hover{transform:translateY(-2px)}
+.yt-card b{font-family:var(--display);font-size:17px}
+.yt-r{font-weight:700;font-size:13.5px}
+.yt-l,.yt-n{font-size:12.5px;color:var(--soft)}
+.yt-l i{display:inline-grid;place-items:center;width:18px;height:18px;border-radius:4px;font:700 11px var(--body);font-style:normal;color:#fff;margin-right:6px;background:var(--faint)}
+.yt-l i.w{background:var(--pos)}.yt-l i.l{background:var(--neg)}
+.inst{position:fixed;left:12px;right:12px;bottom:12px;z-index:70;display:flex;align-items:center;gap:12px;max-width:560px;margin:0 auto;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:14px;box-shadow:0 10px 30px rgba(0,0,0,.18);padding:10px 10px 10px 12px;transform:translateY(130%);transition:transform .35s ease}
+.inst.on{transform:none}
+.inst img{border-radius:10px;flex:none}
+.inst div{flex:1;min-width:0}
+.inst b{display:block;font-size:14px}
+.inst span{display:block;font-size:12.5px;color:var(--soft)}
+.inst-go{font:700 13px var(--body);color:#fff;background:var(--c-fr);border:0;border-radius:9px;padding:8px 12px;cursor:pointer}
+.inst-x{border:0;background:none;font-size:22px;color:var(--soft);cursor:pointer;padding:2px 6px}
+@media (max-width:640px){.mm-btn{position:absolute;right:16px;top:10px;padding:6px 10px}.mm-btn span{display:none}.mm{width:100%}}
+@media (prefers-reduced-motion:reduce){.mm,.inst{animation:none;transition:none}}
 </style>
 
 <header class="mast"><div class="in">
@@ -767,7 +833,7 @@ function mountRegions(){
 function regionsTeaser(){var R=state.current.regions||[];if(!R.length)return '';var pick=[],seen={};R.forEach(function(b){if(!seen[b.region]&&pick.length<4){seen[b.region]=1;pick.push(b);}});return '<div class="panel"><h3>En régions</h3><p class="sub">La presse régionale de ce matin</p>'+pick.map(function(b){return '<a href="#region-'+regSlug(b.region)+'" style="display:block;text-decoration:none;color:inherit;border-bottom:1px dashed var(--line);padding:8px 0"><span class="tag" style="color:var(--c-fr)">'+esc(b.region)+'</span><b style="display:block;font-size:14px;line-height:1.3;margin-top:2px">'+esc(b.titre)+'</b></a>';}).join('')+'<a href="#regions" style="display:inline-block;margin-top:10px;font-size:13px;font-weight:600;color:var(--c-fr)">Toutes les régions →</a></div>';}
 
 
-function jumpBar(){var it=[['geopolitique','Géopolitique'],['france','France'],['afrique','Afrique'],['tech','Tech & IA'],['eco','Économie'],['culture','Culture'],['sport','Sport']];return '<nav class="jump" aria-label="Dans cette édition">'+it.map(function(x){var r=rub(x[0]);return '<button type="button" data-go="s-'+x[0]+'" style="--jc:'+r.c+'">'+ico(r.i).replace('<svg ','<svg width="14" height="14" ')+esc(x[1])+'</button>';}).join('')+'</nav>';}
+function jumpBar(){var it=homeOrder().map(function(id){return [id,HOME_NOMS[id]];}).filter(function(x){return x[0]==='geopolitique'||x[0]==='sport'||x[0]==='france'||arts(x[0]).length;});return '<nav class="jump" aria-label="Dans cette édition">'+it.map(function(x){var r=rub(x[0]);return '<button type="button" data-go="s-'+x[0]+'" style="--jc:'+r.c+'">'+ico(r.i).replace('<svg ','<svg width="14" height="14" ')+esc(x[1])+'</button>';}).join('')+'</nav>';}
 function foldify(h){var d=document.createElement('div');d.innerHTML=h;[].forEach.call(d.querySelectorAll('.mfold'),function(f){var n=f.children.length;if(n>2&&!(f.nextElementSibling&&f.nextElementSibling.classList.contains('mmore'))){var b=document.createElement('button');b.type='button';b.className='mmore';b.textContent='Voir '+(n-2)+' autre'+(n-2>1?'s':'')+' sujet'+(n-2>1?'s':'');f.parentNode.insertBefore(b,f.nextSibling);}});return d.innerHTML;}
 document.addEventListener('click',function(ev){var b=ev.target.closest('.mmore');if(b){var f=b.previousElementSibling;if(f){var o=f.classList.toggle('open');b.textContent=o?'Voir moins':'Voir '+(f.children.length-2)+' autre'+(f.children.length-2>1?'s':'')+' sujet'+(f.children.length-2>1?'s':'');if(!o)f.scrollIntoView({block:'nearest'});}return;}var j=ev.target.closest('.jump button');if(j){var t=document.getElementById(j.getAttribute('data-go'));if(t)t.scrollIntoView({behavior:'smooth',block:'start'});}});
 /* ---------- Culture : agenda et Tesselles du week-end ---------- */
@@ -781,6 +847,82 @@ function pageTesselles(){var t=state.sp.tess;if(!t)return notFound();var cols=['
   var h='<a class="crumb" href="#culture">← Culture</a><div class="tess-hero">'+tessIcon(56)+'<div><span class="eyebrow">'+esc(t.periode)+'</span><h1 class="page" style="margin-top:2px">'+esc(t.titre)+'</h1><p class="lede">'+esc(t.intro||'')+'</p></div></div>';
   h+='<div class="tess-grid">'+t.items.map(function(i,k){return '<article class="tess" style="--tc:'+cols[k%5]+'"><div class="tess-n">'+(i.n||k+1)+'</div><span class="tag" style="color:var(--tc)">'+esc(discLabel(i.discipline))+'</span><h2>'+esc(i.titre)+'</h2>'+(i.qui?'<p class="tess-qui">'+esc(i.qui)+'</p>':'')+'<p>'+esc(i.quoi)+'</p><dl>'+(i.ou?'<dt>Où</dt><dd>'+esc(i.ou)+'</dd>':'')+(i.quand?'<dt>Quand</dt><dd>'+esc(i.quand)+'</dd>':'')+(i.prix?'<dt>Prix</dt><dd>'+esc(i.prix)+'</dd>':'')+'</dl>'+(i.pourquoi?'<p class="tess-why">'+esc(i.pourquoi)+'</p>':'')+(i.source?'<a href="'+url(i.source.url)+'" target="_blank" rel="noopener" class="tess-src">'+esc(i.source.nom)+' ↗</a>':'')+'</article>';}).join('')+'</div>';
   return h+'<p class="sub" style="margin-top:14px">Une nouvelle sélection chaque vendredi matin.</p>';}
+
+/* ---------- Mon Mosaiq : personnalisation sans compte (stockée sur l'appareil) ---------- */
+var HOME_IDS=['geopolitique','france','afrique','tech','eco','culture','sport'];
+var HOME_NOMS={geopolitique:'Géopolitique',france:'France',afrique:'Afrique',tech:'Tech & IA',eco:'Économie',culture:'Culture',sport:'Sport'};
+var PREF_KEY='mq-prefs';
+function prefs(){if(state._prefs)return state._prefs;var p={};try{p=JSON.parse(localStorage.getItem(PREF_KEY)||'{}')||{};}catch(e){p={};}
+  var o=(Array.isArray(p.order)?p.order:[]).filter(function(x){return HOME_IDS.indexOf(x)>=0;});HOME_IDS.forEach(function(x){if(o.indexOf(x)<0)o.push(x);});
+  state._prefs={order:o,hidden:(Array.isArray(p.hidden)?p.hidden:[]).filter(function(x){return HOME_IDS.indexOf(x)>=0;}),sports:Array.isArray(p.sports)?p.sports:[],teams:Array.isArray(p.teams)?p.teams.filter(function(t){return t&&t.t&&t.n;}):[]};return state._prefs;}
+function savePrefs(p){state._prefs=p;try{localStorage.setItem(PREF_KEY,JSON.stringify(p));}catch(e){}}
+function homeOrder(){var p=prefs();return p.order.filter(function(id){return p.hidden.indexOf(id)<0;});}
+function isCustom(){var p=prefs();return p.hidden.length||p.teams.length||p.sports.length||p.order.join()!==HOME_IDS.join();}
+/* catalogue des équipes présentes dans les données */
+function teamCatalog(){var out=[];LEAGUES.forEach(function(l){var d=state.foot[l.id];if(d&&d.classement)d.classement.forEach(function(r){out.push({t:'foot',l:l.id,n:r.club,lg:l.nom});});});
+  var n=state.sp.nba;if(n)(n.est||[]).concat(n.ouest||[]).forEach(function(r){out.push({t:'nba',n:r.equipe,lg:'NBA'});});
+  var f=state.sp.nfl;if(f&&f.divisions)f.divisions.forEach(function(d){d.equipes.forEach(function(r){out.push({t:'nfl',n:r.equipe,lg:'NFL'});});});
+  var seen={};return out.filter(function(x){var k=x.t+'|'+(x.l||'')+'|'+x.n;if(seen[k])return false;seen[k]=1;return true;});}
+function teamKey(x){return x.t+'|'+(x.l||'')+'|'+x.n;}
+function shortDay(iso){if(!iso)return '';var d=new Date(String(iso).slice(0,10)+'T12:00:00');if(isNaN(d))return iso;return JOURS[d.getDay()].slice(0,3)+'. '+d.getDate()+' '+MC[d.getMonth()];}
+function teamInfo(x){var o={href:'#',tag:x.lg||'',rank:'',last:'',next:'',c:'var(--c-sport)'};
+  if(x.t==='foot'){var d=state.foot[x.l];o.href='#club-'+x.l+'-'+slug(x.n);o.c=sc('football');if(!d)return o;
+    var r=(d.classement||[]).filter(function(c){return c.club===x.n;})[0];if(r)o.rank=r.pos+(r.pos===1?'er':'e')+' · '+r.pts+' pts';
+    var m=d.derniere_journee&&(d.derniere_journee.matchs||[]).filter(function(m){return m.dom===x.n||m.ext===x.n;})[0];
+    if(m&&m.score){var s=String(m.score).split('-').map(Number),home=m.dom===x.n,f=home?s[0]:s[1],a=home?s[1]:s[0];o.last=(f>a?'V':f<a?'D':'N')+' '+m.score+' '+(home?'contre ':'à ')+(home?m.ext:m.dom);}
+    var nx=nextMatch(x.l,x.n);if(nx)o.next=shortDay(nx.date)+(nx.heure?' '+nx.heure:'')+' · '+(nx.dom===x.n?'contre '+nx.ext:'à '+nx.dom);}
+  else if(x.t==='nba'||x.t==='nfl'){var D=x.t==='nba'?state.sp.nba:state.sp.nfl;o.href='#'+x.t+'-'+slug(x.n);o.c=sc(x.t);if(!D)return o;
+    if(x.t==='nba'){var conf='Est',r2=(D.est||[]).filter(function(c){return c.equipe===x.n;})[0];if(!r2){conf='Ouest';r2=(D.ouest||[]).filter(function(c){return c.equipe===x.n;})[0];}if(r2)o.rank=r2.v+'-'+r2.d+' · '+r2.pos+(r2.pos===1?'er':'e')+' '+conf;}
+    else{(D.divisions||[]).forEach(function(dv){dv.equipes.forEach(function(e,i){if(e.equipe===x.n)o.rank=e.v+'-'+e.d+(e.n?'-'+e.n:'')+' · '+(i+1)+(i?'e':'er')+' '+(dv.nom||dv.division||'');});});}
+    var ds=(D.derniers||[]).filter(function(m){return m.dom===x.n||m.ext===x.n;}).sort(function(a,b){return String(b.date).localeCompare(String(a.date));})[0];
+    if(ds&&ds.score_dom!=null){var hm=ds.dom===x.n,f2=hm?ds.score_dom:ds.score_ext,a2=hm?ds.score_ext:ds.score_dom;o.last=(f2>a2?'V':'D')+' '+f2+'-'+a2+' '+(hm?'contre ':'à ')+(hm?ds.ext:ds.dom);}
+    var av=x.t==='nba'?(D.a_venir||[]):((D.a_venir&&D.a_venir.matchs)||[]);var nx2=av.filter(function(m){return m.dom===x.n||m.ext===x.n;})[0];if(nx2)o.next=shortDay(nx2.date)+(nx2.heure_paris?' '+nx2.heure_paris:'')+' · '+(nx2.dom===x.n?'contre '+nx2.ext:'à '+nx2.dom);}
+  return o;}
+function yourTeams(){var p=prefs();if(!p.teams.length)return '';return '<section class="yt"><div class="yt-h"><b>Vos équipes</b><button type="button" class="yt-edit" data-mm="open">Modifier</button></div><div class="yt-list">'+p.teams.map(function(x){var o=teamInfo(x);return '<a class="yt-card" href="'+o.href+'" style="--tc:'+o.c+'"><span class="tag" style="color:var(--tc)">'+esc(o.tag)+'</span><b>'+esc(x.n)+'</b>'+(o.rank?'<span class="yt-r">'+esc(o.rank)+'</span>':'')+(o.last?'<span class="yt-l"><i class="'+(o.last.charAt(0)==='V'?'w':o.last.charAt(0)==='D'?'l':'d')+'">'+o.last.charAt(0)+'</i>'+esc(o.last.slice(2))+'</span>':'')+(o.next?'<span class="yt-n">Prochain : '+esc(o.next)+'</span>':'')+'</a>';}).join('')+'</div></section>';}
+function sportsSorted(){var f=prefs().sports;if(!f.length)return SPORTS;return [SPORTS[0]].concat(SPORTS.slice(1).filter(function(s){return f.indexOf(s.id)>=0;}),SPORTS.slice(1).filter(function(s){return f.indexOf(s.id)<0;}));}
+/* panneau */
+function mmPanel(){var p=prefs(),cat=teamCatalog();
+  var h='<div class="mm-back" data-mm="close"></div><div class="mm" role="dialog" aria-modal="true" aria-labelledby="mm-t"><div class="mm-head"><h2 id="mm-t">Mon Mosaiq</h2><button type="button" class="mm-x" data-mm="close" aria-label="Fermer">×</button></div><p class="sub" style="margin:0 0 14px">Vos réglages restent sur cet appareil, sans compte.</p>';
+  h+='<h3>La une</h3><p class="sub mm-hint">Ordre des rubriques : glissez-les ou utilisez les flèches. Décochez celles à masquer.</p><ol class="mm-order">'+p.order.map(function(id,i){var r=rub(id),on=p.hidden.indexOf(id)<0;return '<li draggable="true" data-id="'+id+'" style="--rc:'+r.c+'"><span class="mm-grip" aria-hidden="true">⋮⋮</span><label><input type="checkbox" data-mm="vis" value="'+id+'"'+(on?' checked':'')+'> '+ico(r.i).replace('<svg ','<svg width="16" height="16" ')+esc(HOME_NOMS[id])+'</label><span class="mm-arr"><button type="button" data-mm="up" data-id="'+id+'" aria-label="Monter '+esc(HOME_NOMS[id])+'"'+(i?'':' disabled')+'>↑</button><button type="button" data-mm="down" data-id="'+id+'" aria-label="Descendre '+esc(HOME_NOMS[id])+'"'+(i<p.order.length-1?'':' disabled')+'>↓</button></span></li>';}).join('')+'</ol>';
+  h+='<h3>Sports favoris</h3><p class="sub mm-hint">Ils passent en premier dans l\'onglet Sport et sur la une.</p><div class="mm-chips">'+SPORTS.slice(1).map(function(s){var on=p.sports.indexOf(s.id)>=0;return '<button type="button" data-mm="sport" data-id="'+s.id+'" aria-pressed="'+on+'" style="--sc:'+s.c+'">'+ico(s.i).replace('<svg ','<svg width="15" height="15" ')+esc(s.nom)+'</button>';}).join('')+'</div>';
+  h+='<h3>Mes équipes</h3><p class="sub mm-hint">Classement, dernier résultat et prochain match en haut de la une et de l\'onglet Sport.</p><div class="mm-sel">'+(p.teams.length?p.teams.map(function(x){return '<span class="mm-team">'+esc(x.n)+' <small>'+esc(x.lg||'')+'</small><button type="button" data-mm="rm" data-k="'+esc(teamKey(x))+'" aria-label="Retirer '+esc(x.n)+'">×</button></span>';}).join(''):'<span class="sub">Aucune équipe pour l\'instant.</span>')+'</div><input type="search" class="mm-q" placeholder="Rechercher un club ou une équipe (PSG, Lakers, Chiefs…)" aria-label="Rechercher une équipe" autocomplete="off"><div class="mm-res" role="listbox"></div>';
+  h+='<div class="mm-foot"><button type="button" class="mm-reset" data-mm="reset">Réinitialiser</button><button type="button" class="mm-ok" data-mm="close">Terminé</button></div></div>';
+  var w=document.getElementById('mm-wrap');if(!w){w=document.createElement('div');w.id='mm-wrap';document.body.appendChild(w);}w.innerHTML=h;w.hidden=false;document.documentElement.classList.add('mm-open');
+  var q=w.querySelector('.mm-q'),res=w.querySelector('.mm-res');
+  function norm(s){return String(s).normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();}
+  var AKA={'PSG':'paris saint-germain','OM':'olympique de marseille','OL':'olympique lyonnais','Barça':'fc barcelone barcelona','Man City':'manchester city','Man United':'manchester united','Atlético':'atletico madrid','Inter':'inter milan internazionale','Milan':'ac milan','Bayern':'bayern munich','Dortmund':'borussia dortmund','Leverkusen':'bayer leverkusen','Gladbach':'borussia monchengladbach','Naples':'napoli','Celtics':'boston','Lakers':'los angeles','Spurs':'san antonio'};
+  function search(){var v=norm(q.value.trim());if(v.length<2){res.innerHTML='';return;}var have={};prefs().teams.forEach(function(x){have[teamKey(x)]=1;});var m=cat.filter(function(x){return (norm(x.n).indexOf(v)>=0||norm(AKA[x.n]||'').indexOf(v)>=0)&&!have[teamKey(x)];}).slice(0,8);res.innerHTML=m.length?m.map(function(x){return '<button type="button" role="option" data-mm="add" data-k="'+esc(teamKey(x))+'">'+esc(x.n)+' <small>'+esc(x.lg)+'</small></button>';}).join(''):'<p class="sub" style="margin:6px 2px">Aucune équipe trouvée dans les classements suivis.</p>';}
+  q.addEventListener('input',search);w._cat=cat;
+  /* glisser-déposer (souris) */
+  var drag=null;[].forEach.call(w.querySelectorAll('.mm-order li'),function(li){li.addEventListener('dragstart',function(ev){drag=li.getAttribute('data-id');li.classList.add('dragging');try{ev.dataTransfer.setData('text/plain',drag);}catch(e){}});li.addEventListener('dragend',function(){li.classList.remove('dragging');});li.addEventListener('dragover',function(ev){ev.preventDefault();});li.addEventListener('drop',function(ev){ev.preventDefault();var to=li.getAttribute('data-id');if(!drag||drag===to)return;var p2=prefs(),o=p2.order.filter(function(x){return x!==drag;});o.splice(o.indexOf(to)+(p2.order.indexOf(drag)<p2.order.indexOf(to)?1:0),0,drag);p2.order=o;savePrefs(p2);mmRefresh();});});
+  var f=w.querySelector('.mm-x');if(f)f.focus();}
+function mmRefresh(){var w=document.getElementById('mm-wrap'),q=w&&w.querySelector('.mm-q'),v=q?q.value:'',ae=document.activeElement,key=ae&&ae.getAttribute&&(ae.getAttribute('data-mm')+'|'+(ae.getAttribute('data-id')||''));mmPanel();var q2=document.querySelector('#mm-wrap .mm-q');if(q2&&v){q2.value=v;q2.dispatchEvent(new Event('input'));}if(key){var k=key.split('|'),el=document.querySelector('#mm-wrap [data-mm="'+k[0]+'"]'+(k[1]?'[data-id="'+k[1]+'"]':''));if(el&&!el.disabled)el.focus();}route();}
+function mmClose(){var w=document.getElementById('mm-wrap');if(w){w.hidden=true;w.innerHTML='';}document.documentElement.classList.remove('mm-open');var b=document.querySelector('.mm-btn');if(b)b.focus();}
+document.addEventListener('click',function(ev){var t=ev.target.closest('[data-mm]');if(!t)return;var a=t.getAttribute('data-mm'),p=prefs(),id=t.getAttribute('data-id');
+  if(a==='open'){mmPanel();return;}if(a==='close'){mmClose();return;}
+  if(a==='up'||a==='down'){var i=p.order.indexOf(id),j=a==='up'?i-1:i+1;if(i<0||j<0||j>=p.order.length)return;p.order.splice(i,1);p.order.splice(j,0,id);savePrefs(p);mmRefresh();return;}
+  if(a==='sport'){var k=p.sports.indexOf(id);if(k>=0)p.sports.splice(k,1);else p.sports.push(id);savePrefs(p);mmRefresh();return;}
+  if(a==='add'){var w=document.getElementById('mm-wrap'),x=(w._cat||[]).filter(function(c){return teamKey(c)===t.getAttribute('data-k');})[0];if(x&&p.teams.length<12){p.teams.push({t:x.t,l:x.l,n:x.n,lg:x.lg});savePrefs(p);var q=w.querySelector('.mm-q');if(q)q.value='';mmRefresh();}return;}
+  if(a==='rm'){p.teams=p.teams.filter(function(x){return teamKey(x)!==t.getAttribute('data-k');});savePrefs(p);mmRefresh();return;}
+  if(a==='reset'){savePrefs({order:HOME_IDS.slice(),hidden:[],sports:[],teams:[]});mmRefresh();return;}});
+document.addEventListener('change',function(ev){var t=ev.target;if(t.getAttribute&&t.getAttribute('data-mm')==='vis'){var p=prefs(),id=t.value,k=p.hidden.indexOf(id);if(t.checked&&k>=0)p.hidden.splice(k,1);if(!t.checked&&k<0)p.hidden.push(id);savePrefs(p);route();}});
+document.addEventListener('keydown',function(ev){if(ev.key==='Escape'&&document.documentElement.classList.contains('mm-open'))mmClose();});
+(function(){var m=document.querySelector('.mast .in');if(!m||m.querySelector('.mm-btn'))return;var b=document.createElement('button');b.type='button';b.className='mm-btn';b.setAttribute('data-mm','open');b.setAttribute('aria-label','Mon Mosaiq : personnaliser le site');b.innerHTML='<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2.2"/><circle cx="10" cy="17" r="2.2"/></svg><span>Mon Mosaiq</span>';m.appendChild(b);})();
+
+/* ---------- application installable (PWA) ---------- */
+var PWA_HOST=/(^|\.)mosaiq\.news$|^arnauditm\.github\.io$|^localhost$|^127\.0\.0\.1$/.test(location.hostname);
+var isStandalone=(window.matchMedia&&matchMedia('(display-mode: standalone)').matches)||navigator.standalone===true;
+if(PWA_HOST&&'serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('sw.js').catch(function(){});});}
+(function(){if(!PWA_HOST||isStandalone)return;var K='mq-install-off',until=0;try{until=+localStorage.getItem(K)||0;}catch(e){}if(until>Date.now())return;
+  var ios=/iphone|ipad|ipod/i.test(navigator.userAgent)&&!/crios|fxios|edgios/i.test(navigator.userAgent),deferred=null;
+  function show(mode){if(document.querySelector('.inst'))return;var d=document.createElement('div');d.className='inst';d.setAttribute('role','region');d.setAttribute('aria-label','Installer Mosaiq');
+    d.innerHTML='<img src="icon-192.png" alt="" width="40" height="40"><div><b>Installer Mosaiq sur votre écran d\'accueil</b><span>'+(mode==='ios'?'Touchez <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-label="Partager" style="vertical-align:-2px"><path d="M12 3v12M7 8l5-5 5 5"/><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7"/></svg> Partager, puis « Sur l\'écran d\'accueil ».':'L\'édition du jour en un geste, même hors connexion.')+'</span></div>'+(mode==='ios'?'':'<button type="button" class="inst-go">Installer</button>')+'<button type="button" class="inst-x" aria-label="Ne plus proposer">×</button>';
+    document.body.appendChild(d);requestAnimationFrame(function(){d.classList.add('on');});
+    d.querySelector('.inst-x').addEventListener('click',function(){try{localStorage.setItem(K,String(Date.now()+30*864e5));}catch(e){}d.remove();});
+    var g=d.querySelector('.inst-go');if(g)g.addEventListener('click',function(){if(!deferred)return;deferred.prompt();deferred.userChoice.then(function(){deferred=null;d.remove();}).catch(function(){d.remove();});});}
+  window.addEventListener('beforeinstallprompt',function(ev){ev.preventDefault();deferred=ev;setTimeout(function(){show('android');},2500);});
+  window.addEventListener('appinstalled',function(){var d=document.querySelector('.inst');if(d)d.remove();});
+  if(ios)setTimeout(function(){show('ios');},4000);})();
 
 /* ---------- dossier de la semaine ---------- */
 function pageDossier(){
@@ -876,20 +1018,25 @@ function mountAudio(){
 
 /* ---------- pages éditoriales ---------- */
 function pageAccueil(){
-  var e=state.current,u=e.une,h='';
+  var e=state.current,u=e.une,h=yourTeams();
   h+='<section class="une"><div><span class="eyebrow">'+esc(e.date_longue)+'</span><h1 class="page">'+esc(u.titre)+'</h1><p class="lede">'+esc(u.chapeau)+'</p>'+audioBtn()+'</div><div>'+worldMap()+'<div class="legend">'+legendFor(Object.keys(linkIndex()))+'<span class="sub" style="font-size:12px">Touchez ou cliquez un pays coloré pour lire le sujet</span></div></div></section>';
   h+=jumpBar();
-  h+='<span class="anc" id="s-geopolitique"></span>'+secH('geopolitique','Géopolitique · regards croisés',{t:'Tous les regards'});
-  var dz=state.sp.dossier;if(dz)h+='<a class="dz-card" href="#dossier"><span class="tag" style="color:var(--c-geo)">Le dossier de la semaine</span><b>'+esc(dz.titre)+'</b><p>'+esc(dz.sous_titre)+'</p><span class="go" style="color:var(--c-geo)">Chronologie, carte, acteurs et '+dz.regards.length+' regards →</span></a>';
-  h+='<div class="cards mfold">'+e.geopolitique.map(function(g){return card('#g-'+g.id,g.regards.length+' regards','var(--c-geo)',g.titre,g.chapeau.split('. ')[0]+'.','Comparer les points de vue');}).join('')+'</div>';
-  ['france','afrique','tech','eco','culture'].forEach(function(id){var r=rub(id);if(!arts(id).length&&id!=='france')return;
-    h+='<span class="anc" id="s-'+id+'"></span>'+secH(id,r.nom,{t:'Toute la rubrique'});
-    if(id==='culture')h+='<div style="margin-bottom:12px">'+tessCard()+'</div>';
-    h+='<div class="cards mfold">'+arts(id).map(function(a){return card('#a-'+a.id,r.nom,r.c,a.titre,a.resume);}).join('')+'</div>';
-    if(id==='france'&&arts('outremer').length)h+='<div class="sec-h" style="margin-top:22px">'+hico('outremer','var(--c-fr)')+'<h2 style="font-size:20px">Outre-mer</h2><a class="more" href="#outremer">Toute la sous-rubrique →</a></div><div class="cards mfold">'+arts('outremer').map(function(a){return card('#a-'+a.id,a.territoire,'var(--c-fr)',a.titre,a.resume);}).join('')+'</div>';});
-  h+='<span class="anc" id="s-sport"></span>'+secH('sport','Sport',{t:'Tous les sports'});
-  var map={'france-italie':'football','championnats':'football','nba':'nba','nfl':'nfl','tennis':'tennis'};
-  h+='<div class="cards mfold">'+e.sport.breves.map(function(b){var t=map[b.id]||'sport',sp=SPORTS.filter(function(x){return x.id===t;})[0];return card('#'+t,b.discipline,'var(--c-sport)',b.titre,b.texte.split('. ')[0]+'.','Ouvrir '+sp.nom);}).join('')+'</div>';
+  var S={
+    geopolitique:function(){var s='<span class="anc" id="s-geopolitique"></span>'+secH('geopolitique','Géopolitique · regards croisés',{t:'Tous les regards'});
+      var dz=state.sp.dossier;if(dz)s+='<a class="dz-card" href="#dossier"><span class="tag" style="color:var(--c-geo)">Le dossier de la semaine</span><b>'+esc(dz.titre)+'</b><p>'+esc(dz.sous_titre)+'</p><span class="go" style="color:var(--c-geo)">Chronologie, carte, acteurs et '+dz.regards.length+' regards →</span></a>';
+      return s+'<div class="cards mfold">'+e.geopolitique.map(function(g){return card('#g-'+g.id,g.regards.length+' regards','var(--c-geo)',g.titre,g.chapeau.split('. ')[0]+'.','Comparer les points de vue');}).join('')+'</div>';},
+    sport:function(){var map={'france-italie':'football','championnats':'football','nba':'nba','nfl':'nfl','tennis':'tennis','f1':'f1','rugby':'rugby'},fav=prefs().sports;
+      var br=e.sport.breves.slice().sort(function(a,b){var fa=fav.indexOf(map[a.id]||'')>=0?0:1,fb=fav.indexOf(map[b.id]||'')>=0?0:1;return fa-fb;});
+      return '<span class="anc" id="s-sport"></span>'+secH('sport','Sport',{t:'Tous les sports'})+'<div class="cards mfold">'+br.map(function(b){var t=map[b.id]||'sport',sp=SPORTS.filter(function(x){return x.id===t;})[0]||SPORTS[0];return card('#'+t,b.discipline,'var(--c-sport)',b.titre,b.texte.split('. ')[0]+'.','Ouvrir '+sp.nom);}).join('')+'</div>';}
+  };
+  ['france','afrique','tech','eco','culture'].forEach(function(id){S[id]=function(){var r=rub(id);if(!arts(id).length&&id!=='france')return '';
+    var s='<span class="anc" id="s-'+id+'"></span>'+secH(id,r.nom,{t:'Toute la rubrique'});
+    if(id==='culture')s+='<div style="margin-bottom:12px">'+tessCard()+'</div>';
+    s+='<div class="cards mfold">'+arts(id).map(function(a){return card('#a-'+a.id,r.nom,r.c,a.titre,a.resume);}).join('')+'</div>';
+    if(id==='france'&&arts('outremer').length)s+='<div class="sec-h" style="margin-top:22px">'+hico('outremer','var(--c-fr)')+'<h2 style="font-size:20px">Outre-mer</h2><a class="more" href="#outremer">Toute la sous-rubrique →</a></div><div class="cards mfold">'+arts('outremer').map(function(a){return card('#a-'+a.id,a.territoire,'var(--c-fr)',a.titre,a.resume);}).join('')+'</div>';
+    return s;};});
+  homeOrder().forEach(function(id){if(S[id])h+=S[id]();});
+  var hid=prefs().hidden;if(hid.length)h+='<p class="sub mm-note">'+hid.length+' rubrique'+(hid.length>1?'s':'')+' masquée'+(hid.length>1?'s':'')+' sur votre une. <button type="button" data-mm="open">Mon Mosaiq</button></p>';
   h=foldify(h);
   if(e.a_verifier&&e.a_verifier.length)h+='<div class="verif" style="margin-top:32px"><b>À vérifier dans cette édition.</b> '+e.a_verifier.map(esc).join(' ')+'</div>';
   return h;
@@ -953,7 +1100,7 @@ function pageArchives(){
 function notFound(){return '<h1 class="page">Page introuvable</h1><p><a href="#accueil">Revenir à la une</a></p>';}
 
 /* ---------- sport : cadre ---------- */
-function sportNav(active){return '<nav class="subnav" aria-label="Sports">'+SPORTS.map(function(s){return '<a href="#'+s.id+'" data-s="'+s.id+'" style="--sc:'+s.c+'"'+(s.id===active?' aria-current="page"':'')+'>'+ico(s.i)+'<span>'+esc(s.nom)+'</span></a>';}).join('')+'</nav>';}
+function sportNav(active){return '<nav class="subnav" aria-label="Sports">'+sportsSorted().map(function(s){return '<a href="#'+s.id+'" data-s="'+s.id+'" style="--sc:'+s.c+'"'+(s.id===active?' aria-current="page"':'')+'>'+ico(s.i)+'<span>'+esc(s.nom)+'</span></a>';}).join('')+'</nav>';}
 function footTabs(active){var t=[['football','Championnats'],['foot-calendrier','Calendrier'],['foot-transferts','Transferts']];return '<div class="tabs">'+t.map(function(x){return '<a href="#'+x[0]+'"'+(x[0]===active?' aria-current="page"':'')+'>'+esc(x[1])+'</a>';}).join('')+'</div>';}
 function sportHead(i,title,sub){return '<div class="title-row" style="margin-top:6px">'+hico(i,sc(i))+'<h1 class="page">'+esc(title)+'</h1></div>'+(sub?'<p class="sub" style="font-size:13.5px">'+esc(sub)+'</p>':'');}
 function footRows(){var c=state.sp.cal;if(!c)return [];var rows=[];c.competitions.forEach(function(comp){comp.matchs.forEach(function(m){rows.push({date:m.date,heure:m.heure,m:m.dom+' – '+m.ext,c:comp.nom,tv:m.tv,comp:comp.id});});});return rows;}
@@ -1150,7 +1297,7 @@ function route(){if(audio.on&&window.speechSynthesis){speechSynthesis.cancel();a
     else if(h==='dossier'){active='geopolitique';html=pageDossier();}
     else if(h==='agenda'){active='eco';html=pageAgenda();}
     else{active='sport';
-      if(h==='sport'){sp='sport';html=pageSport();}
+      if(h==='sport'){sp='sport';html=yourTeams()+pageSport();}
       else if(h==='football'){sp='football';html=pageFootball();}
       else if(h==='foot-calendrier'){sp='football';html=pageFootCal();after=mountFootCal;}
       else if(h==='foot-transferts'){sp='football';html=pageTransferts();after=mountTransferts;}
