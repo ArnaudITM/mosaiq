@@ -536,6 +536,16 @@ html.mm-open{overflow:hidden}
 .tk-badge{font:600 10.5px var(--body);text-transform:uppercase;letter-spacing:.04em;border:1px solid var(--line);border-radius:999px;padding:1px 7px;color:var(--soft);vertical-align:2px}
 .tk-badge.open{border-color:var(--pos);color:var(--pos)}
 .tk-amt{font:700 12.5px var(--mono);color:var(--c-af)}
+.dstrip{display:grid;grid-template-columns:repeat(14,1fr);gap:3px;margin:6px 0 10px}
+.ds{display:flex;flex-direction:column;align-items:center;gap:1px;padding:4px 0 3px;border-radius:7px;font-size:10.5px;color:var(--soft)}
+.ds b{font:700 12px var(--mono);color:var(--ink)}
+.ds.we{background:color-mix(in srgb,var(--line) 45%,transparent)}
+.ds.today{background:var(--dc);color:#fff}.ds.today b{color:#fff}
+.ds i{height:7px;display:flex;align-items:center}
+.ds em{display:block;width:6px;height:6px;border-radius:50%;background:var(--dc)}
+.ds.today em{background:#fff;opacity:1!important}
+.tk-ev{padding:4px 0 8px}
+.tk-ev b{display:block;font-size:14px;line-height:1.3;margin-top:1px}
 </style>
 
 <header class="mast"><div class="in">
@@ -872,8 +882,8 @@ document.addEventListener('click',function(ev){var b=ev.target.closest('.mmore')
 var DISC={'cinéma':'Cinéma','musique':'Musique','livres':'Livres','arts':'Arts','patrimoine':'Patrimoine','scène':'Scène','festival':'Festival'};
 function discLabel(d){return DISC[d]||(d?d.charAt(0).toUpperCase()+d.slice(1):'Culture');}
 function tessIcon(sz){sz=sz||22;var c=['var(--c-cul)','var(--c-af)','var(--c-geo)','var(--c-fr)'];return '<svg width="'+sz+'" height="'+sz+'" viewBox="0 0 24 24" aria-hidden="true">'+[[3,3],[13,3],[3,13],[13,13]].map(function(p,i){return '<rect x="'+p[0]+'" y="'+p[1]+'" width="8" height="8" rx="2" fill="'+c[i]+'"/>';}).join('')+'</svg>';}
-function cultureAgenda(limit){var e=state.current,ag=(e.culture_agenda||[]).slice().sort(function(a,b){return a.date.localeCompare(b.date);});if(!ag.length)return '';if(limit)ag=ag.slice(0,limit);
-  return ag.map(function(x){return '<div class="cag"><div class="cag-d"><b>'+esc(fmtDay(x.date))+'</b>'+(x.date_fin&&x.date_fin!==x.date?'<small>→ '+esc(fmtDay(x.date_fin))+'</small>':'')+'</div><div><span class="tag" style="color:var(--c-cul)">'+esc(discLabel(x.discipline))+' · '+esc(x.pays||'')+'</span><b class="cag-t">'+esc(x.titre)+'</b><span class="cag-l">'+esc(x.lieu||'')+'</span><p>'+esc(x.texte||'')+(x.source?' <a href="'+url(x.source.url)+'" target="_blank" rel="noopener">'+esc(x.source.nom)+' ↗</a>':'')+'</p></div></div>';}).join('');}
+function cultureAgenda(limit){var e=state.current,ag=(e.culture_agenda||[]).slice().sort(function(a,b){return a.date.localeCompare(b.date);});ag=ag.filter(function(x){return (x.date_fin||x.date)>=state.current.date;});if(!ag.length)return '';var strip=dayStrip(ag,'var(--c-cul)');if(limit)ag=spreadPick(ag,limit,2);
+  return strip+grouped(ag,function(x){return '<div class="cag"><div class="cag-d"><b>'+esc(fmtDay(x.date))+'</b>'+(x.date_fin&&x.date_fin!==x.date?'<small>→ '+esc(fmtDay(x.date_fin))+'</small>':'')+'</div><div><span class="tag" style="color:var(--c-cul)">'+esc(discLabel(x.discipline))+' · '+esc(x.pays||'')+'</span><b class="cag-t">'+esc(x.titre)+'</b><span class="cag-l">'+esc(x.lieu||'')+'</span><p>'+esc(x.texte||'')+(x.source?' <a href="'+url(x.source.url)+'" target="_blank" rel="noopener">'+esc(x.source.nom)+' ↗</a>':'')+'</p></div></div>';});}
 function tessCard(){var t=state.sp.tess;if(!t||!t.items)return '';return '<a class="tess-card" href="#tesselles">'+tessIcon(34)+'<div><span class="tag" style="color:var(--c-cul)">'+esc(t.periode)+'</span><b>'+esc(t.titre)+'</b><p>'+t.items.map(function(i){return esc(i.titre);}).join(' · ')+'</p><span class="go" style="color:var(--c-cul)">Voir les 5 sorties →</span></div></a>';}
 function pageTesselles(){var t=state.sp.tess;if(!t)return notFound();var cols=['var(--c-cul)','var(--c-af)','var(--c-geo)','var(--c-fr)','var(--c-eco)'];
   var h='<a class="crumb" href="#culture">← Culture</a><div class="tess-hero">'+tessIcon(56)+'<div><span class="eyebrow">'+esc(t.periode)+'</span><h1 class="page" style="margin-top:2px">'+esc(t.titre)+'</h1><p class="lede">'+esc(t.intro||'')+'</p></div></div>';
@@ -969,18 +979,31 @@ function pageVerifier(){var e=state.current,arts2=(e.articles||[]).filter(functi
   return h;}
 
 /* ---------- Tech & Sciences : modules ---------- */
-var TTHEME={ia:'IA',cyber:'Cyber',telecoms:'Télécoms',regulation:'Régulation',startups:'Startups',espace:'Espace',sciences:'Sciences',sante:'Santé',materiel:'Matériel'};
+var TTHEME={ia:'IA',cyber:'Cyber',telecoms:'Télécoms',regulation:'Régulation',startups:'Startups',espace:'Espace',sciences:'Sciences',sante:'Santé',materiel:'Matériel',auto:'Automobile',robotique:'Robotique',energie:'Énergie',innovation:'Innovation',grandpublic:'Grand public',jeux:'Jeux vidéo'};
 function techAside(){var t=state.sp.tech;if(!t)return '';var h='';
   var B=t.bourse;if(B&&B.titres&&B.titres.length){var rows=B.titres.filter(function(x){return typeof x.var==='number';}).slice().sort(function(a,b){return b.var-a.var;}).map(function(x){return [x.nom,x.var];});
     var mx=Math.max.apply(null,rows.map(function(r){return Math.abs(r[1]);}))*1.25||1;
     h+='<div class="panel"><h3>Les géants en bourse</h3><p class="sub">Variation sur la séance du '+esc(fmtDay(B.date))+', en %</p>'+hbars(rows,{labelW:90,max:mx,fmt:function(v){return (v>0?'+':'')+String(v.toFixed(2)).replace('.',',')+' %';},aria:'Variation des valeurs tech'})+(B.note?'<p class="sub" style="margin:8px 0 0;font-size:12.5px">'+esc(B.note)+'</p>':'')+'</div>';}
-  if(t.agenda&&t.agenda.length){var ag=t.agenda.slice().sort(function(a,b){return a.date.localeCompare(b.date);}).filter(function(x){return x.date>=state.current.date;});if(ag.length)h+='<div class="panel"><h3>Agenda tech & sciences</h3>'+ag.slice(0,4).map(function(x){return '<div class="tk-row"><div class="tk-d">'+esc(fmtDay(x.date))+'</div><div><span class="tag" style="color:var(--c-tech)">'+esc(TTHEME[x.theme]||x.theme||'')+'</span><b style="display:block">'+esc(x.titre)+'</b><span class="tk-sub">'+esc(x.lieu||'')+'</span></div></div>';}).join('')+'</div>';}
+  if(t.agenda&&t.agenda.length){var ag=t.agenda.slice().sort(function(a,b){return a.date.localeCompare(b.date);}).filter(function(x){return x.date>=state.current.date;});if(ag.length)h+='<div class="panel"><h3>Agenda tech & sciences</h3><p class="sub">Les 14 prochains jours</p>'+dayStrip(ag,'var(--c-tech)')+grouped(spreadPick(ag,6,2),function(x){return '<div class="tk-ev"><span class="tag" style="color:var(--c-tech)">'+esc(TTHEME[x.theme]||x.theme||'')+'</span><b>'+esc(x.titre)+'</b><span class="tk-sub">'+esc(x.lieu||'')+'</span></div>';})+(ag.length>6?'<p class="sub" style="margin:8px 0 0;font-size:12px">+ '+(ag.length-6)+' autres rendez-vous dans la période</p>':'')+'</div>';}
   return h;}
-function techBelow(){var t=state.sp.tech;if(!t)return '';var h='';
-  if(t.modeles&&t.modeles.length)h+='<div class="panel"><h3>La course à l\'IA</h3><p class="sub">Les derniers modèles sortis</p>'+t.modeles.slice(0,5).map(function(m){return '<div class="tk-row"><div class="tk-d">'+esc(fmtDay(m.date))+'</div><div><b>'+esc(m.nom)+'</b> <span class="tk-badge'+(m.type==='ouvert'?' open':'')+'">'+esc(m.type||'')+'</span><span class="tk-sub">'+esc(m.editeur)+(m.pays?' · '+esc(m.pays):'')+(m.usage?' · '+esc(m.usage):'')+'</span><p>'+esc(m.note||'')+(m.source?' <a href="'+url(m.source.url)+'" target="_blank" rel="noopener">'+esc(m.source.nom)+' ↗</a>':'')+'</p></div></div>';}).join('')+'</div>';
-  if(t.afrique&&t.afrique.length)h+='<div class="panel tk-af"><h3>Tech en Afrique</h3><p class="sub">Levées de fonds et lancements du mois</p>'+t.afrique.slice(0,5).map(function(x){return '<div class="tk-row"><div class="tk-d">'+esc(fmtDay(x.date))+'</div><div><b>'+esc(x.nom)+'</b>'+(x.montant?' <span class="tk-amt">'+esc(x.montant)+'</span>':'')+'<span class="tk-sub">'+esc(x.pays)+' · '+esc(x.secteur||'')+' · '+esc(x.type||'')+'</span><p>'+esc(x.texte||'')+(x.source?' <a href="'+url(x.source.url)+'" target="_blank" rel="noopener">'+esc(x.source.nom)+' ↗</a>':'')+'</p></div></div>';}).join('')+'</div>';
-  return h?secH('tech','Le tableau de bord',null,'tech','var(--c-tech)')+'<div class="grid2 tk-grid">'+h+'</div>':'';}
+function techBelow(){var t=state.sp.tech;if(!t)return '';var h='',M='',A='';
+  if(t.modeles&&t.modeles.length)M='<div class="panel"><h3>La course à l\'IA</h3><p class="sub">Les derniers modèles sortis</p>'+t.modeles.slice(0,5).map(function(m){return '<div class="tk-row"><div class="tk-d">'+esc(fmtDay(m.date))+'</div><div><b>'+esc(m.nom)+'</b> <span class="tk-badge'+(m.type==='ouvert'?' open':'')+'">'+esc(m.type||'')+'</span><span class="tk-sub">'+esc(m.editeur)+(m.pays?' · '+esc(m.pays):'')+(m.usage?' · '+esc(m.usage):'')+'</span><p>'+esc(m.note||'')+(m.source?' <a href="'+url(m.source.url)+'" target="_blank" rel="noopener">'+esc(m.source.nom)+' ↗</a>':'')+'</p></div></div>';}).join('')+'</div>';
+  if(t.afrique&&t.afrique.length)A='<div class="panel tk-af"><h3>Tech en Afrique</h3><p class="sub">Levées de fonds et lancements du mois</p>'+t.afrique.slice(0,5).map(function(x){return '<div class="tk-row"><div class="tk-d">'+esc(fmtDay(x.date))+'</div><div><b>'+esc(x.nom)+'</b>'+(x.montant?' <span class="tk-amt">'+esc(x.montant)+'</span>':'')+'<span class="tk-sub">'+esc(x.pays)+' · '+esc(x.secteur||'')+' · '+esc(x.type||'')+'</span><p>'+esc(x.texte||'')+(x.source?' <a href="'+url(x.source.url)+'" target="_blank" rel="noopener">'+esc(x.source.nom)+' ↗</a>':'')+'</p></div></div>';}).join('')+'</div>';
+  var L='',R='';
+  if(t.attendus&&t.attendus.length)L='<div class="panel"><h3>Attendus dans les prochaines semaines</h3><p class="sub">Annonces officielles ou rapportées par la presse</p>'+t.attendus.slice(0,6).map(function(x){return '<div class="tk-row"><div class="tk-d" style="font-size:11px">'+esc(/^\d{4}-\d{2}-\d{2}$/.test(x.quand)?fmtDay(x.quand):x.quand)+'</div><div><span class="tag" style="color:var(--c-tech)">'+esc(TTHEME[x.theme]||x.theme||'')+'</span> <span class="tk-badge'+(x.statut==='officiel'?' open':'')+'">'+esc(x.statut||'')+'</span><b style="display:block">'+esc(x.titre)+'</b><span class="tk-sub">'+esc(x.acteur||'')+'</span><p>'+esc(x.texte||'')+'</p></div></div>';}).join('')+'</div>';
+  if(t.afrique_agenda&&t.afrique_agenda.length){var aa=t.afrique_agenda.filter(function(x){return (x.date_fin||x.date)>=state.current.date;});if(aa.length)R='<div class="panel tk-af"><h3>Rendez-vous tech en Afrique</h3><p class="sub">Salons et sommets à venir</p>'+aa.map(function(x){return '<div class="tk-row"><div class="tk-d">'+esc(fmtDay(x.date))+'</div><div><b>'+esc(x.titre)+'</b><span class="tk-sub">'+esc(x.lieu||'')+(x.date_fin&&x.date_fin!==x.date?' · jusqu\'au '+esc(fmtDay(x.date_fin)):'')+'</span><p>'+esc(x.texte||'')+'</p></div></div>';}).join('')+'</div>';}
+  var hh=(M||L||A||R)?'<div class="stack">'+M+L+'</div><div class="stack">'+A+R+'</div>':'';
+  return hh?secH('tech','Le tableau de bord',null,'tech','var(--c-tech)')+'<div class="grid2 tk-grid">'+hh+'</div>':'';}
 
+
+/* ---------- agendas : vision des jours à venir ---------- */
+function addDays(iso,n){var d=new Date(iso+'T12:00:00Z');d.setUTCDate(d.getUTCDate()+n);return d.toISOString().slice(0,10);}
+function dayLabel(iso){var t=state.current.date;if(iso===t)return 'Aujourd\'hui';if(iso===addDays(t,1))return 'Demain';var s=frDate(iso);return s.charAt(0).toUpperCase()+s.slice(1);}
+function spreadPick(items,limit,perDay){var out=[],c={};items.forEach(function(x){if(out.length>=limit)return;c[x.date]=(c[x.date]||0)+1;if(c[x.date]<=perDay)out.push(x);});return out;}
+function dayStrip(items,color,days){days=days||14;var t=state.current.date,cnt={};items.forEach(function(x){cnt[x.date]=(cnt[x.date]||0)+1;});var L=['D','L','M','M','J','V','S'];var h='<div class="dstrip" style="--dc:'+color+'" aria-label="Rendez-vous des '+days+' prochains jours">';
+  for(var i=0;i<days;i++){var d=addDays(t,i),n=cnt[d]||0,wd=new Date(d+'T12:00:00Z').getUTCDay();h+='<div class="ds'+(i===0?' today':'')+(wd===0||wd===6?' we':'')+'" title="'+esc(dayLabel(d))+' : '+n+' rendez-vous"><span>'+L[wd]+'</span><b>'+(+d.slice(8))+'</b><i>'+(n?'<em style="opacity:'+Math.min(1,.35+n*.22)+'"></em>':'')+'</i></div>';}
+  return h+'</div>';}
+function grouped(items,render){var h='',day='';items.forEach(function(x){if(x.date!==day){day=x.date;h+='<div class="cal-day">'+esc(dayLabel(day))+'</div>';}h+=render(x);});return h;}
 /* ---------- dossier de la semaine ---------- */
 function pageDossier(){
   var d=state.sp.dossier;if(!d)return notFound();
@@ -1035,8 +1058,8 @@ function lines100(ev,show,cols,vals){
 }
 var TYPE_COL={'indicateur':'var(--c-fr)','banque centrale':'var(--c-eco)','résultats':'var(--c-tech)','politique':'var(--warm)'};
 function agendaEco(limit){
-  var a=state.sp.agenda;if(!a)return '';var ev=a.evenements.slice().sort(function(x,y){return (x.date+(x.heure||'99')).localeCompare(y.date+(y.heure||'99'));});if(limit)ev=ev.filter(function(e){return e.date>=state.current.date;}).slice(0,limit);
-  var h='',day='';ev.forEach(function(e){if(e.date!==day){day=e.date;h+='<div class="cal-day">'+esc(frDate(day))+'</div>';}
+  var a=state.sp.agenda;if(!a)return '';var ev=a.evenements.slice().sort(function(x,y){return (x.date+(x.heure||'99')).localeCompare(y.date+(y.heure||'99'));});var strip='';if(limit){ev=ev.filter(function(e){return e.date>=state.current.date;});strip=dayStrip(ev,'var(--c-eco)');ev=spreadPick(ev,limit,2);}
+  var h=strip,day='';ev.forEach(function(e){if(e.date!==day){day=e.date;h+='<div class="cal-day">'+esc(dayLabel(day))+'</div>';}
     h+='<div class="cal-row" style="grid-template-columns:54px minmax(0,1fr) auto"><span class="t">'+esc(e.heure||'—')+'</span><span class="m">'+esc(e.titre)+' <span style="font-weight:400;color:var(--soft);font-size:12.5px">· '+esc(e.pays)+'</span>'+(e.enjeu&&!limit?'<span style="display:block;font-weight:400;color:var(--soft);font-size:13px;margin-top:2px">'+esc(e.enjeu)+'</span>':'')+'</span><span class="c" style="color:'+(TYPE_COL[e.type]||'var(--soft)')+';border-color:currentColor">'+esc(e.type)+'</span></div>';});
   return h;
 }
