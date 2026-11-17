@@ -1,5 +1,5 @@
 {
- "maj": "16 novembre 2026",
+ "maj": "17 novembre 2026",
  "fenetre": "Mercato d'hiver : ouverture le 1er janvier 2027 (dates selon les pays)",
  "dates_fenetre": [
   {
@@ -32,6 +32,64 @@
   }
  ],
  "items": [
+  {
+   "joueur": "Frank Zambo Anguissa",
+   "de": "Naples",
+   "vers": "OM",
+   "championnat": "ligue-1",
+   "type": "transfert",
+   "statut": "rumeur",
+   "montant": "au moins 6 M€ réclamés par Naples",
+   "texte": "Selon Il Mattino, cité par Top Mercato, l'OM aurait trouvé un accord avec l'entourage du milieu camerounais, 31 ans, en fin de contrat en juin 2027. Naples réclamerait au moins 6 M€ et ne veut pas le laisser partir en janvier sans remplaçant ; à défaut, le transfert pourrait attendre l'été, libre.",
+   "source": {
+    "nom": "Top Mercato (d'après Il Mattino)",
+    "url": "https://www.topmercato.com/2155303-mercato-om-accord-annonce-avec-frank-anguissa-naples-montre-les-crocs/"
+   },
+   "date": "2026-11-16"
+  },
+  {
+   "joueur": "Joshua Zirkzee / nouvel avant-centre",
+   "de": "Man United",
+   "vers": null,
+   "championnat": "premier-league",
+   "type": "transfert",
+   "statut": "rumeur",
+   "texte": "Selon Fabrizio Romano, cité par TEAMtalk, Manchester United veut recruter un attaquant en janvier (prêt ou transfert), Benjamin Sesko étant blessé au tibia jusqu'à fin janvier voire février. Joshua Zirkzee doit s'entretenir avec Mauricio Pochettino et pourrait partir. Folarin Balogun, Ivan Toney, Nicolò Tresoldi et Jean-Philippe Mateta figureraient sur la liste ; aucune discussion active avec Monaco pour Balogun.",
+   "source": {
+    "nom": "TEAMtalk (d'après Fabrizio Romano)",
+    "url": "https://teamtalk.com/manchester-united/man-utd-transfer-news-january-fabrizio-romano-reveals-decision-striker-deal"
+   },
+   "date": "2026-11-16"
+  },
+  {
+   "joueur": "Francesco Camarda",
+   "de": "Milan",
+   "vers": "Torino",
+   "championnat": "serie-a",
+   "type": "prêt",
+   "statut": "rumeur",
+   "texte": "Selon Tuttosport, le Torino s'est renseigné sur l'attaquant de 18 ans, qui n'a joué que 36 minutes en Serie A cette saison. Le Milan serait ouvert à un prêt en janvier, probablement avec clause de rachat. Monza, Udinese, Bologne, Parme et Sassuolo sont aussi cités.",
+   "source": {
+    "nom": "Tuttosport",
+    "url": "https://www.tuttosport.com/news/calcio/calciomercato/2026/11/16-152629793/toro_rebus_attacco_e_sogno_camarda_il_milan_apre_al_prestito"
+   },
+   "date": "2026-11-16"
+  },
+  {
+   "joueur": "Daniel Bragança",
+   "de": "Sporting CP",
+   "vers": "Torino",
+   "championnat": "serie-a",
+   "type": "transfert",
+   "statut": "avancé",
+   "montant": "2,5 M€ + 1 M€ de bonus possibles",
+   "texte": "Selon Tuttomercatoweb, le Torino est proche de lever l'option d'achat sur le milieu prêté par le Sporting, déclenchée à sa 15e apparition d'au moins 45 minutes.",
+   "source": {
+    "nom": "Tuttomercatoweb",
+    "url": "https://www.tuttomercatoweb.com/serie-a/calciomercato-stop-indiscrezioni-trattative-retroscena-16-novembre-2294585"
+   },
+   "date": "2026-11-16"
+  },
   {
    "joueur": "Kevin De Bruyne",
    "de": "Naples",
@@ -86,21 +144,6 @@
    "source": {
     "nom": "Tuttosport",
     "url": "https://www.tuttosport.com/news/calcio/calciomercato/2026/11/15-152601328/calciomercato_juve_la_cessione_per_il_colpo_di_gennaio_destinazione_arabia_o_francia_a_meno_che_"
-   },
-   "date": "2026-11-15"
-  },
-  {
-   "joueur": "Alexander Sørloth / Jonathan David",
-   "de": "Atlético",
-   "vers": "Juventus",
-   "championnat": "serie-a",
-   "type": "transfert",
-   "statut": "rumeur",
-   "montant": "valorisations autour de 25-30 M€",
-   "texte": "Selon La Gazzetta dello Sport, citée par Tuttomercatoweb, la Juventus étudie un échange entre l'attaquant norvégien de l'Atlético et Jonathan David.",
-   "source": {
-    "nom": "Tuttomercatoweb (d'après La Gazzetta dello Sport)",
-    "url": "https://www.tuttomercatoweb.com/serie-a/calciomercato-stop-indiscrezioni-trattative-retroscena-15-novembre-2294303"
    },
    "date": "2026-11-15"
   },
@@ -162,34 +205,6 @@
    "date": "2026-11-13"
   },
   {
-   "joueur": "Successeur de Pochettino",
-   "de": null,
-   "vers": "Sélection des États-Unis",
-   "championnat": null,
-   "type": "entraîneur",
-   "statut": "rumeur",
-   "texte": "La fédération américaine cherche un sélectionneur permanent après le départ de Pochettino ; Pep Guardiola serait en tête de sa liste, selon des informations de presse rapportées par RTÉ.",
-   "source": {
-    "nom": "RTÉ",
-    "url": "https://www.rte.ie/sport/soccer/2026/1113/1599098-pochettino-set-to-join-united-on-two-and-a-half-year-deal/"
-   },
-   "date": "2026-11-13"
-  },
-  {
-   "joueur": "Michael Carrick",
-   "de": "Man United",
-   "vers": null,
-   "championnat": "premier-league",
-   "type": "entraîneur",
-   "statut": "officiel",
-   "texte": "Manchester United a limogé Michael Carrick, avec le club en zone de relégation après une seule victoire en championnat. Le club veut nommer un successeur permanent « le plus rapidement possible ».",
-   "source": {
-    "nom": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/50180844/man-united-michael-carrick-sacked-pochettino"
-   },
-   "date": "2026-11-12"
-  },
-  {
    "joueur": "Nicolò Tresoldi",
    "de": "Club Bruges",
    "vers": "Milan",
@@ -211,26 +226,12 @@
    "championnat": "liga",
    "type": "prêt",
    "statut": "rumeur",
-   "texte": "En manque de temps de jeu, Endrick serait ouvert à un nouveau prêt en janvier et le Real ne s'y opposerait pas. Selon SempreMilan, la Roma devancerait le Milan, et le Sporting CP est aussi cité (FootballTransfers).",
+   "texte": "En manque de temps de jeu, Endrick serait ouvert à un nouveau prêt en janvier et le Real ne s'y opposerait pas. Selon SempreMilan, la Roma devancerait le Milan, et le Sporting CP est aussi cité (FootballTransfers). Selon Tuttomercatoweb (16 novembre, source non précisée), le Milan aurait formulé une offre de 60 M€, pouvant monter à 70 M€, assortie d'une clause de rachat de 80 M€ pour le Real.",
    "source": {
     "nom": "LiveScore (revue de presse)",
     "url": "https://www.livescore.com/en/news/football/team/real-madrid/daily/thursday-real-madrid-daily-news-20261112/"
    },
    "date": "2026-11-12"
-  },
-  {
-   "joueur": "Lamine Camara",
-   "de": "Monaco",
-   "vers": "Liverpool",
-   "championnat": "premier-league",
-   "type": "transfert",
-   "statut": "rumeur",
-   "texte": "Selon Lewis Steele (Daily Mail), citant des sources à Chelsea, Liverpool pourrait avoir un accord avec le milieu de Monaco en vue de janvier. Une précédente piste vers Chelsea avait échoué après le retrait de Monaco (FourFourTwo).",
-   "source": {
-    "nom": "Yahoo Sports (FourFourTwo)",
-    "url": "https://sports.yahoo.com/articles/liverpool-deal-place-first-january-115148370.html"
-   },
-   "date": "2026-11-11"
   }
  ]
 }

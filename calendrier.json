@@ -1,5 +1,5 @@
 {
- "maj": "16 novembre 2026",
+ "maj": "17 novembre 2026",
  "competitions": [
   {
    "id": "ligue-1",
@@ -558,13 +558,22 @@
      "date": "2026-11-16",
      "heure": "20:45",
      "dom": "Allemagne",
-     "ext": "Pays-Bas"
+     "ext": "Pays-Bas",
+     "score": "5-0"
     },
     {
      "date": "2026-11-16",
      "heure": "20:45",
      "dom": "Grèce",
-     "ext": "Serbie"
+     "ext": "Serbie",
+     "score": "1-0"
+    },
+    {
+     "date": "2026-11-16",
+     "heure": "20:45",
+     "dom": "Suisse",
+     "ext": "Écosse",
+     "score": "4-0"
     },
     {
      "date": "2026-11-17",
@@ -577,12 +586,6 @@
      "heure": "20:45",
      "dom": "Pays de Galles",
      "ext": "Portugal"
-    },
-    {
-     "date": "2026-11-16",
-     "heure": "20:45",
-     "dom": "Suisse",
-     "ext": "Écosse"
     }
    ]
   },
@@ -595,37 +598,43 @@
      "date": "2026-11-16",
      "heure": "14:00",
      "dom": "Soudan",
-     "ext": "Sénégal"
+     "ext": "Sénégal",
+     "score": "2-4"
     },
     {
      "date": "2026-11-16",
      "heure": "14:00",
      "dom": "Namibie",
-     "ext": "Cameroun"
+     "ext": "Cameroun",
+     "score": "0-3"
     },
     {
      "date": "2026-11-16",
      "heure": "14:00",
      "dom": "Zimbabwe",
-     "ext": "Guinée équatoriale"
+     "ext": "Guinée équatoriale",
+     "score": "3-0"
     },
     {
      "date": "2026-11-16",
      "heure": "16:00",
      "dom": "Somalie",
-     "ext": "Ghana"
+     "ext": "Ghana",
+     "score": "0-1"
     },
     {
      "date": "2026-11-16",
      "heure": "17:00",
      "dom": "Érythrée",
-     "ext": "Guinée"
+     "ext": "Guinée",
+     "score": "1-3"
     },
     {
      "date": "2026-11-16",
      "heure": "17:00",
      "dom": "Centrafrique",
-     "ext": "Bénin"
+     "ext": "Bénin",
+     "score": "0-1"
     },
     {
      "date": "2026-11-17",
@@ -838,6 +847,30 @@
   {
    "nom": "CAF – programme de la 4e journée des éliminatoires CAN 2027 (15 nov. 2026)",
    "url": "https://www.cafonline.com/afcon2025/news/nine-nations-eye-early-qualification-as-decisive-totalenergies-caf-afcon-pamoja-2027-matchday-4-approaches/"
+  },
+  {
+   "nom": "AP (via WSLS) – Germany routs the Netherlands 5-0 (16 nov. 2026)",
+   "url": "https://www.wsls.com/sports/2026/11/16/germany-routs-the-netherlands-5-0-in-nations-league-to-confirm-renaissance-under-klopp/"
+  },
+  {
+   "nom": "VAVEL – Greece 1-0 Serbia (16 nov. 2026)",
+   "url": "https://www.vavel.com/en-us/soccer/2026/11/16/1279478-greece-vs-serbia-live-latest-score-goals-and-uefa-nations-league-updates.html"
+  },
+  {
+   "nom": "Sky Sports – Switzerland 4-0 Scotland (16 nov. 2026)",
+   "url": "https://www.skysports.com/football/switzerland-vs-scotland/report/554127"
+  },
+  {
+   "nom": "AfricaSoccer – résultats des éliminatoires CAN 2027 du 16 nov. 2026",
+   "url": "https://africasoccer.com/afcon-2027-qualifiers-cameroon-and-senegal-continue-unbeaten-runs-as-somalia-and-central-african-republic-exit/"
+  },
+  {
+   "nom": "VAVEL – Sudan 2-4 Senegal (16 nov. 2026)",
+   "url": "https://www.vavel.com/en-us/soccer/2026/11/16/1279455-sudan-vs-senegal-live-score-africa-cup-of-nations-qualifiers.html"
+  },
+  {
+   "nom": "VAVEL – Namibia 0-3 Cameroon (16 nov. 2026)",
+   "url": "https://www.vavel.com/en-us/soccer/2026/11/16/1279449-namibia-vs-cameroon-live-score-2027-africa-cup-of-nations-qualifiers.html"
   }
  ]
 }

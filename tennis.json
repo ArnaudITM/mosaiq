@@ -1,25 +1,25 @@
 {
-  "maj": "16 novembre 2026",
+  "maj": "17 novembre 2026 – top 20 ATP/WTA et Français du top 50 au classement du 16 novembre ; Français classés au-delà du 50e rang : classement du 9 novembre (ATP) et du 5 novembre (WTA), non revérifiés.",
   "atp": {
-    "date": "9 novembre 2026 (classement du 16 novembre non consulté à la rédaction)",
+    "date": "16 novembre 2026",
     "top": [
       {
         "rang": 1,
         "joueur": "Alexander Zverev",
         "pays": "GER",
-        "points": 9550
+        "points": 9320
       },
       {
         "rang": 2,
         "joueur": "Jannik Sinner",
         "pays": "ITA",
-        "points": 9450
+        "points": 7950
       },
       {
         "rang": 3,
         "joueur": "Carlos Alcaraz",
         "pays": "ESP",
-        "points": 7100
+        "points": 6100
       },
       {
         "rang": 4,
@@ -53,21 +53,21 @@
       },
       {
         "rang": 9,
-        "joueur": "Alex de Minaur",
-        "pays": "AUS",
-        "points": 3370
+        "joueur": "Taylor Fritz",
+        "pays": "USA",
+        "points": 3300
       },
       {
         "rang": 10,
-        "joueur": "Taylor Fritz",
-        "pays": "USA",
-        "points": 3285
-      },
-      {
-        "rang": 11,
         "joueur": "Rafael Jódar",
         "pays": "ESP",
         "points": 3234
+      },
+      {
+        "rang": 11,
+        "joueur": "Alex de Minaur",
+        "pays": "AUS",
+        "points": 3170
       },
       {
         "rang": 12,
@@ -83,27 +83,27 @@
       },
       {
         "rang": 14,
-        "joueur": "Félix Auger-Aliassime",
-        "pays": "CAN",
-        "points": 2865
-      },
-      {
-        "rang": 15,
         "joueur": "Jiří Lehečka",
         "pays": "CZE",
         "points": 2540
       },
       {
-        "rang": 16,
+        "rang": 15,
         "joueur": "Jakub Menšík",
         "pays": "CZE",
         "points": 2500
       },
       {
-        "rang": 17,
+        "rang": 16,
         "joueur": "Alejandro Davidovich Fokina",
         "pays": "ESP",
         "points": 2500
+      },
+      {
+        "rang": 17,
+        "joueur": "Félix Auger-Aliassime",
+        "pays": "CAN",
+        "points": 2465
       },
       {
         "rang": 18,
@@ -126,7 +126,7 @@
     ]
   },
   "wta": {
-    "date": "5 novembre 2026 (mise à jour ESPN ; classement du 16 novembre après les WTA Finals non consulté)",
+    "date": "16 novembre 2026 (après les WTA Finals)",
     "top": [
       {
         "rang": 1,
@@ -136,45 +136,45 @@
       },
       {
         "rang": 2,
-        "joueur": "Aryna Sabalenka",
-        "pays": "BLR",
-        "points": 6485
+        "joueur": "Mirra Andreeva",
+        "pays": "RUS",
+        "points": 7806
       },
       {
         "rang": 3,
-        "joueur": "Mirra Andreeva",
-        "pays": "RUS",
-        "points": 6306
+        "joueur": "Aryna Sabalenka",
+        "pays": "BLR",
+        "points": 6685
       },
       {
         "rang": 4,
         "joueur": "Coco Gauff",
         "pays": "USA",
-        "points": 5763
+        "points": 6163
       },
       {
         "rang": 5,
         "joueur": "Jessica Pegula",
         "pays": "USA",
-        "points": 5760
+        "points": 6160
       },
       {
         "rang": 6,
         "joueur": "Elina Svitolina",
         "pays": "UKR",
-        "points": 5121
+        "points": 5921
       },
       {
         "rang": 7,
-        "joueur": "Karolína Muchová",
+        "joueur": "Linda Nosková",
         "pays": "CZE",
-        "points": 4665
+        "points": 4743
       },
       {
         "rang": 8,
-        "joueur": "Linda Nosková",
+        "joueur": "Karolína Muchová",
         "pays": "CZE",
-        "points": 4343
+        "points": 4665
       },
       {
         "rang": 9,
@@ -263,7 +263,7 @@
         "points": 1492
       },
       {
-        "rang": 39,
+        "rang": 38,
         "joueur": "Ugo Humbert",
         "points": 1320
       },
@@ -273,7 +273,7 @@
         "points": 1214
       },
       {
-        "rang": 47,
+        "rang": 48,
         "joueur": "Arthur Géa",
         "points": 1146
       },
@@ -350,7 +350,7 @@
         ]
       }
     ],
-    "groupes_note": "Tirage au sort effectué le jeudi 12 novembre à Turin ; les deux premiers de chaque groupe accèdent aux demi-finales. Groupe John McEnroe, 1re journée (15 nov.) : Shelton bat Fils 6-2, 3-6, 6-3 ; Zverev bat Jódar 6-4, 6-4. Le groupe Ivan Lendl entre en lice lundi 16 novembre.",
+    "groupes_note": "Tirage au sort effectué le jeudi 12 novembre à Turin ; les deux premiers de chaque groupe accèdent aux demi-finales. Groupe John McEnroe, 1re journée (15 nov.) : Shelton bat Fils 6-2, 3-6, 6-3 ; Zverev bat Jódar 6-4, 6-4. Groupe Ivan Lendl, 1re journée (16 nov.) : Alcaraz bat Tiafoe 6-2, 6-2 ; Medvedev bat Cobolli 7-6 (4), 6-3. Alcaraz-Medvedev et Cobolli-Tiafoe sont au programme du mercredi 18 novembre, selon Univers Tennis.",
     "qualifies": [
       "Alexander Zverev",
       "Carlos Alcaraz",
@@ -399,9 +399,23 @@
         "vainqueur": "Alexander Zverev",
         "perdant": "Rafael Jódar",
         "score": "6-4, 6-4"
+      },
+      {
+        "date": "16 novembre 2026",
+        "groupe": "Ivan Lendl",
+        "vainqueur": "Carlos Alcaraz",
+        "perdant": "Frances Tiafoe",
+        "score": "6-2, 6-2"
+      },
+      {
+        "date": "16 novembre 2026",
+        "groupe": "Ivan Lendl",
+        "vainqueur": "Daniil Medvedev",
+        "perdant": "Flavio Cobolli",
+        "score": "7-6 (4), 6-3"
       }
     ],
-    "texte": "Arthur Fils, premier Français qualifié pour les ATP Finals depuis dix ans, a perdu son premier match à Turin dimanche face à Ben Shelton (6-2, 3-6, 6-3 en 1h58), selon l'ATP ; Shelton mène désormais 3-1 dans leurs face-à-face. Dans le même groupe John McEnroe, le n°1 mondial Alexander Zverev a battu Rafael Jódar 6-4, 6-4 (10 aces), selon ANI repris par The Tribune. Le groupe Ivan Lendl (Carlos Alcaraz, Daniil Medvedev, Flavio Cobolli, Frances Tiafoe) débute lundi. La phase de groupes se dispute jusqu'au vendredi 20, les demi-finales le samedi 21 et la finale le dimanche 22 novembre à 18h, selon l'ATP. Le tournoi se joue sans le double tenant du titre Jannik Sinner, blessé au genou."
+    "texte": "Arthur Fils, premier Français qualifié pour les ATP Finals depuis dix ans, a perdu son premier match à Turin dimanche face à Ben Shelton (6-2, 3-6, 6-3), selon l'ATP ; Alexander Zverev a battu Rafael Jódar 6-4, 6-4. Lundi, Carlos Alcaraz a dominé Frances Tiafoe 6-2, 6-2 en 69 minutes et Daniil Medvedev a battu Flavio Cobolli 7-6 (4), 6-3 sans concéder de balle de break, selon Field Level Media. Alcaraz et Medvedev s'affrontent mercredi. La phase de groupes se dispute jusqu'au vendredi 20, les demi-finales le samedi 21 et la finale le dimanche 22 novembre à 18h, selon l'ATP. Le tournoi se joue sans le double tenant du titre Jannik Sinner, blessé au genou."
   },
   "calendrier": [
     {
@@ -436,6 +450,22 @@
     }
   ],
   "infos": [
+    {
+      "titre": "Alcaraz et Medvedev gagnent d'entrée",
+      "texte": "Carlos Alcaraz a battu Frances Tiafoe 6-2, 6-2 en 69 minutes lundi à Turin, en sauvant les trois balles de break concédées, selon Field Level Media ; Daniil Medvedev s'est imposé 7-6 (4), 6-3 face à Flavio Cobolli. Les deux vainqueurs se retrouvent mercredi.",
+      "source": {
+        "nom": "Field Level Media",
+        "url": "https://fieldlevelmedia.com/atp-tour/carlos-alcaraz-daniil-medvedev-sweep-openers-at-nitto-atp-finals/"
+      }
+    },
+    {
+      "titre": "Andreeva 2e mondiale, Zverev toujours n°1",
+      "texte": "Au classement WTA du 16 novembre publié par Tennis Explorer, Mirra Andreeva monte à la 2e place (7 806 points) derrière Elena Rybakina (8 099). À l'ATP, Alexander Zverev (9 320 points) devance Jannik Sinner (7 950), qui a perdu les points de son titre de 2025 à Turin, et Carlos Alcaraz (6 100) ; Arthur Fils reste 7e.",
+      "source": {
+        "nom": "Tennis Explorer – classements du 16.11.2026",
+        "url": "https://www.tennisexplorer.com/ranking/atp-men/"
+      }
+    },
     {
       "titre": "Mirra Andreeva remporte les WTA Finals",
       "texte": "Mirra Andreeva a battu Elina Svitolina 7-5, 6-3 en finale à Indian Wells, selon Sofascore et Critical Report ; selon ce dernier, la Russe s'impose sans perdre un set pour sa première participation et doit atteindre la 2e place mondiale, son meilleur classement, Elena Rybakina conservant la 1re place en fin d'année.",
@@ -479,7 +509,7 @@
   ],
   "sources": [
     {
-      "nom": "Tennis Explorer – classement ATP du 09.11.2026",
+      "nom": "Tennis Explorer – classement ATP du 16.11.2026",
       "url": "https://www.tennisexplorer.com/ranking/atp-men/"
     },
     {
@@ -557,6 +587,22 @@
     {
       "nom": "Sofascore – finale des WTA Finals",
       "url": "https://www.sofascore.com/news/wta-finals-mirra-andreeva-defeats-elina-svitolina-7-5-6-3"
+    },
+    {
+      "nom": "Tennis Explorer – classement WTA du 16.11.2026",
+      "url": "https://www.tennisexplorer.com/ranking/wta-women/"
+    },
+    {
+      "nom": "Field Level Media – Alcaraz et Medvedev (16 nov. 2026)",
+      "url": "https://fieldlevelmedia.com/atp-tour/carlos-alcaraz-daniil-medvedev-sweep-openers-at-nitto-atp-finals/"
+    },
+    {
+      "nom": "Nitto ATP Finals – Alcaraz bat Tiafoe",
+      "url": "https://www.nittoatpfinals.com/en/news/alcaraz-tiafoe-nitto-atp-finals-2026-monday"
+    },
+    {
+      "nom": "Univers Tennis – groupe Lendl après la 1re journée",
+      "url": "https://www.universtennis.com/2026/11/16/atp-finals-carlos-alcaraz-et-daniil-medvedev-frappent-dentree-le-classement-du-groupe-lendl/"
     }
   ]
 }

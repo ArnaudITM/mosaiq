@@ -1,5 +1,5 @@
 {
-  "maj": "clôture du vendredi 13 novembre 2026 (EUR/USD : cours de référence BCE du 13 novembre)",
+  "maj": "clôture du lundi 16 novembre 2026 (EUR/USD : cours de référence BCE du 16 novembre)",
   "frequence": "quotidienne",
   "series": [
     {
@@ -7,8 +7,6 @@
       "nom": "CAC 40",
       "unite": "pts",
       "points": [
-        ["2026-10-14", 7873.11],
-        ["2026-10-15", 7934.7],
         ["2026-10-16", 7956.7],
         ["2026-10-19", 7868.05],
         ["2026-10-20", 7838.49],
@@ -29,7 +27,8 @@
         ["2026-11-10", 8278.59],
         ["2026-11-11", 8332.87],
         ["2026-11-12", 8361.36],
-        ["2026-11-13", 8368.91]
+        ["2026-11-13", 8368.91],
+        ["2026-11-16", 8352.0]
       ]
     },
     {
@@ -37,8 +36,6 @@
       "nom": "S&P 500",
       "unite": "pts",
       "points": [
-        ["2026-10-14", 7718.94],
-        ["2026-10-15", 7744.06],
         ["2026-10-16", 7659.44],
         ["2026-10-19", 7690.73],
         ["2026-10-20", 7712.57],
@@ -59,7 +56,8 @@
         ["2026-11-10", 7520.93],
         ["2026-11-11", 7619.38],
         ["2026-11-12", 7592.4],
-        ["2026-11-13", 7561.67]
+        ["2026-11-13", 7561.67],
+        ["2026-11-16", 7416.59]
       ]
     },
     {
@@ -67,8 +65,6 @@
       "nom": "Nasdaq Composite",
       "unite": "pts",
       "points": [
-        ["2026-10-14", 26692.87],
-        ["2026-10-15", 26713.03],
         ["2026-10-16", 26140.03],
         ["2026-10-19", 26430.89],
         ["2026-10-20", 26424.82],
@@ -89,7 +85,8 @@
         ["2026-11-10", 25065.88],
         ["2026-11-11", 25466.19],
         ["2026-11-12", 25366.09],
-        ["2026-11-13", 25136.27]
+        ["2026-11-13", 25136.27],
+        ["2026-11-16", 24509.76]
       ]
     },
     {
@@ -98,8 +95,6 @@
       "unite": "USD pour 1 EUR",
       "note": "Cours de référence quotidien de la BCE (fixing vers 14h15 CET), et non cours de clôture de marché.",
       "points": [
-        ["2026-10-14", 1.1195],
-        ["2026-10-15", 1.1208],
         ["2026-10-16", 1.1253],
         ["2026-10-19", 1.1225],
         ["2026-10-20", 1.1215],
@@ -120,11 +115,12 @@
         ["2026-11-10", 1.1214],
         ["2026-11-11", 1.1127],
         ["2026-11-12", 1.1081],
-        ["2026-11-13", 1.1052]
+        ["2026-11-13", 1.1052],
+        ["2026-11-16", 1.1014]
       ]
     }
   ],
-  "absent": "Brent non fourni en série quotidienne : les sources consultées divergent après le 16 octobre (changement d'échéance du contrat) et aucun cours de règlement officiel du 13 novembre n'a pu être obtenu. Repère ponctuel : Brent autour de 96 $ le 13 novembre selon Trading Economics (CFD, cours intrajournalier).",
+  "absent": "Brent non fourni en série quotidienne : les sources consultées divergent après le 16 octobre (changement d'échéance du contrat). Repère ponctuel : Brent réglé à 92,44 $ le 16 novembre (−3,6 %), selon Kitco.",
   "sources": [
     {"nom": "Boursorama – historique CAC 40", "url": "https://www.boursorama.com/bourse/indices/cours/historique/1rPCAC"},
     {"nom": "Yahoo Finance – historique CAC 40", "url": "https://finance.yahoo.com/quote/%5EFCHI/history/"},
@@ -141,6 +137,9 @@
     {"nom": "BCE – cours de référence EUR/USD", "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html"},
     {"nom": "AP via KRMG – clôtures du 13/11/2026", "url": "https://krmg.com/2026/11/13/how-major-us-stock-indexes-fared-friday-11-13-2026/"},
     {"nom": "AP via La Nación – clôtures du 13/11/2026", "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-11132026-nid13112026/"},
-    {"nom": "Trading Economics – CAC 40 (clôture du 13/11/2026)", "url": "https://tradingeconomics.com/france/stock-market"}
+    {"nom": "Trading Economics – CAC 40 (clôture du 13/11/2026)", "url": "https://tradingeconomics.com/france/stock-market"},
+    {"nom": "AP via La Nación – clôtures du 16/11/2026", "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-monday-11162026-nid16112026/"},
+    {"nom": "MarketSpeaker – clôtures américaines du 16/11/2026", "url": "https://marketspeaker.com/nasdaq-sp500-dow-close-nvidia-chip-selloff-november-16-2026/"},
+    {"nom": "Kitco – rapport de clôture du 16/11/2026 (Brent)", "url": "https://www.kitco.com/news/article/2026-11-16/gold-silver-extend-losses-tech-selloff-dollar-pressure-metals-kitco-pm"}
   ]
 }

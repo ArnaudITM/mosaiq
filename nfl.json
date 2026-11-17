@@ -1,5 +1,5 @@
 {
-  "maj": "16 novembre 2026, 5h45 – semaine 10 : matchs du dimanche 15 novembre joués (score final de Steelers-Bengals non publié à la rédaction, non compté) ; Ravens-Chargers lundi soir à venir. Bilans recalculés d'après les scores ESPN/eDraft ; leaders statistiques arrêtés avant la semaine 10.",
+  "maj": "17 novembre 2026, 6h – semaine 10 : matchs du jeudi 12 au dimanche 15 novembre joués et comptés ; Ravens-Chargers (lundi soir, nuit du 16 au 17) : Chargers en tête 17-10 à la mi-temps selon NBC Sports, score final non publié à la rédaction, non compté. Leaders statistiques arrêtés avant la semaine 10.",
   "divisions": [
     {
       "nom": "AFC Est",
@@ -34,15 +34,15 @@
       "nom": "AFC Nord",
       "equipes": [
         {
-          "equipe": "Steelers",
-          "v": 6,
+          "equipe": "Bengals",
+          "v": 7,
           "d": 2,
           "n": 0
         },
         {
-          "equipe": "Bengals",
+          "equipe": "Steelers",
           "v": 6,
-          "d": 2,
+          "d": 3,
           "n": 0
         },
         {
@@ -434,6 +434,13 @@
       "ext": "49ers",
       "score_dom": 40,
       "score_ext": 46
+    },
+    {
+      "date": "2026-11-15",
+      "dom": "Bengals",
+      "ext": "Steelers",
+      "score_dom": 38,
+      "score_ext": 18
     }
   ],
   "a_venir": {
@@ -455,6 +462,14 @@
     ]
   },
   "infos": [
+    {
+      "titre": "Burrow et Chase écrasent Pittsburgh",
+      "texte": "Les Bengals ont battu les Steelers 38-18 dimanche soir, selon Local 12 (WKRC) : Joe Burrow a lancé pour 406 yards et 4 touchdowns, Ja'Marr Chase a capté 11 ballons pour 231 yards. Cincinnati (7-2) prend seul la tête de l'AFC Nord devant Pittsburgh (6-3).",
+      "source": {
+        "nom": "Local 12 (WKRC)",
+        "url": "https://local12.com/sports/bengals/burrow-throws-406-yards-4-td-bengals-beat-steelers-38-18-sunday-night-football-chase-200-yards"
+      }
+    },
     {
       "titre": "Purdy et McCaffrey font plier Dallas",
       "texte": "Les 49ers ont battu les Cowboys 46-40 à Arlington, selon CBS Texas. Brock Purdy a lancé pour 389 yards (record personnel), dont deux passes de touchdown de 74 et 66 yards pour Christian McCaffrey, auteur de 223 yards et trois touchdowns. San Francisco passe à 8-1.",
@@ -488,11 +503,11 @@
       }
     },
     {
-      "titre": "Sunday Night Football : Cincinnati devant à la pause",
-      "texte": "Les Bengals menaient 24-3 face aux Steelers à la mi-temps dimanche soir, selon NBC Sports ; le score final n'était pas publié à la rédaction. Ravens-Chargers clôt la semaine 10 lundi soir (2h15, heure de Paris, nuit de lundi à mardi).",
+      "titre": "Monday Night : les Chargers devant à la pause",
+      "texte": "Encore sans victoire, les Chargers menaient 17-10 à Baltimore à la mi-temps lundi soir, selon NBC Sports, avec des touchdowns à la course de Justin Herbert et Omarion Hampton ; Jacoby Brissett effectuait sa première titularisation avec les Ravens. Le score final n'était pas publié à la rédaction.",
       "source": {
         "nom": "NBC Sports – ProFootballTalk",
-        "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sunday-night-football-joe-burrow-torching-steelers-bengals-lead-24-3-at-halftime"
+        "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/monday-night-football-chargers-lead-ravens-17-10-at-halftime"
       }
     }
   ],
@@ -558,8 +573,16 @@
       "url": "https://sports.yahoo.com/articles/seahawks-raiders-score-6-4-000413563.html"
     },
     {
-      "nom": "NBC Sports – Bengals-Steelers à la mi-temps",
-      "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sunday-night-football-joe-burrow-torching-steelers-bengals-lead-24-3-at-halftime"
+      "nom": "Local 12 – Bengals-Steelers 38-18",
+      "url": "https://local12.com/sports/bengals/burrow-throws-406-yards-4-td-bengals-beat-steelers-38-18-sunday-night-football-chase-200-yards"
+    },
+    {
+      "nom": "Bengals.com – compte rendu semaine 10",
+      "url": "https://www.bengals.com/news/bengals-steelers-recap-postgame-notes-quotes-stats-week-10-2026-sunday-night-football"
+    },
+    {
+      "nom": "NBC Sports – Chargers-Ravens à la mi-temps",
+      "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/monday-night-football-chargers-lead-ravens-17-10-at-halftime"
     }
   ]
 }

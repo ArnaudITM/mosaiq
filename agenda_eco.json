@@ -1,32 +1,7 @@
 {
-  "semaine": "16–22 novembre 2026",
+  "semaine": "17–24 novembre 2026",
   "fuseau": "Heures de Paris (UTC+1). null = heure non confirmée par les sources consultées.",
   "evenements": [
-    {
-      "date": "2026-11-16",
-      "heure": "13:00",
-      "pays": "Nigeria",
-      "type": "indicateur",
-      "titre": "Inflation d'octobre (NBS)",
-      "attendu": "13,99 % (projection BusinessDay) ; septembre : 14,63 %",
-      "enjeu": "Un cinquième recul consécutif conforterait la Banque centrale du Nigeria avant sa réunion des 23-24 novembre.",
-      "source": {
-        "nom": "Trading Economics – Nigeria Inflation Rate",
-        "url": "https://tradingeconomics.com/nigeria/inflation-cpi"
-      }
-    },
-    {
-      "date": "2026-11-16",
-      "heure": "14:30",
-      "pays": "Canada",
-      "type": "indicateur",
-      "titre": "Inflation (CPI) d'octobre (Statistique Canada)",
-      "enjeu": "Indique si la hausse des prix de l'énergie se diffuse à l'inflation canadienne.",
-      "source": {
-        "nom": "LiteFinance – calendrier du 16 au 22 nov. 2026",
-        "url": "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-16112026-22112026/"
-      }
-    },
     {
       "date": "2026-11-17",
       "heure": "01:30",
@@ -72,7 +47,7 @@
       "pays": "États-Unis",
       "type": "résultats",
       "titre": "Résultats trimestriels de Nvidia (T3 de l'exercice 2027), conférence à 23 h",
-      "enjeu": "Résultats très attendus après la chute des valeurs de l'IA qui a suivi les élections de mi-mandat.",
+      "enjeu": "Premiers résultats depuis la démission de Jensen Huang de la direction générale (Colette Kress assure l'intérim) ; le titre a reculé de 4,1 % lundi, selon Stock Titan.",
       "source": {
         "nom": "Stock Titan – communiqué de Nvidia",
         "url": "https://www.stocktitan.net/news/NVDA/nvidia-sets-conference-call-for-third-quarter-financial-rgdf7hquxgar.html"
@@ -350,25 +325,46 @@
         "nom": "LiteFinance – calendrier du 16 au 22 nov. 2026",
         "url": "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-16112026-22112026/"
       }
-    }
-  ],
-  "hors_fenetre": [
+    },
     {
       "date": "2026-11-23",
-      "titre": "PMI flash de novembre (France, Allemagne, zone euro, Royaume-Uni, États-Unis), juste après la fenêtre ; PMI flash du Japon le 24",
+      "heure": null,
+      "pays": "Zone euro",
+      "type": "indicateur",
+      "titre": "PMI flash de novembre (France, Allemagne, zone euro, Royaume-Uni, États-Unis)",
+      "enjeu": "Premier aperçu de l'activité de novembre, alors que l'inflation et les taux remontent.",
       "source": {
         "nom": "S&P Global – calendrier des publications PMI",
         "url": "https://www.pmi.spglobal.com/Public/Release/ReleaseDates"
       }
     },
     {
-      "date": "2026-11-23/24",
-      "titre": "Comité de politique monétaire de la Banque centrale du Nigeria (CBN), après la fenêtre",
+      "date": "2026-11-23",
+      "heure": null,
+      "pays": "Nigeria",
+      "type": "banque centrale",
+      "titre": "Comité de politique monétaire de la Banque centrale du Nigeria (CBN), les 23 et 24 novembre",
+      "attendu": "Taux directeur actuel : 23 %",
+      "enjeu": "La CBN a abaissé son taux en septembre ; l'inflation d'octobre guidera la décision.",
       "source": {
         "nom": "Sagagist",
         "url": "https://www.sagagist.com.ng/2026/11/cbn-announces-date-to-decide-on.html"
       }
     },
+    {
+      "date": "2026-11-24",
+      "heure": null,
+      "pays": "Japon",
+      "type": "indicateur",
+      "titre": "PMI flash de novembre",
+      "enjeu": "Indique l'état de l'activité avant une éventuelle hausse des taux de la Banque du Japon en décembre.",
+      "source": {
+        "nom": "S&P Global – calendrier des publications PMI",
+        "url": "https://www.pmi.spglobal.com/Public/Release/ReleaseDates"
+      }
+    }
+  ],
+  "hors_fenetre": [
     {
       "date": "2026-12-16/17",
       "titre": "Prochaine réunion de politique monétaire de la BCE (décision le 17 décembre) ; aucune réunion en novembre",
@@ -386,5 +382,5 @@
       }
     }
   ],
-  "non_trouve": "Aucun événement économique majeur n'a été trouvé pour le samedi 21 novembre. L'heure de la décision de la Banque du Ghana, l'heure du taux LPR chinois et la date des résultats de Walmart ne sont pas confirmées. Les consensus des indicateurs américains et canadiens n'ont pas été repris, faute de source lisible. Aucune publication de l'Insee n'est programmée entre le 16 et le 22 novembre (selon la version précédente de ce fichier, non revérifié). Le PIB japonais du T3 et les données chinoises d'octobre, publiés dans la nuit du 16, ont été retirés (traités dans la rubrique Économie)."
+  "non_trouve": "Aucun événement économique majeur n'a été trouvé pour le samedi 21 novembre. Les événements des 23 et 24 novembre n'ont pas été revérifiés (reprise de la version précédente) ; heures non confirmées. L'heure de la décision de la Banque du Ghana, l'heure du taux LPR chinois et la date des résultats de Walmart ne sont pas confirmées. Les consensus des indicateurs américains et canadiens n'ont pas été repris, faute de source lisible. Aucune publication de l'Insee n'a été relevée dans la fenêtre (non revérifié)."
 }
