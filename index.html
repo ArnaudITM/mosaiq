@@ -523,6 +523,19 @@ html.mm-open{overflow:hidden}
 .vall{margin-top:22px;font-size:13.5px;color:var(--soft)}
 .vall summary{cursor:pointer;font-weight:600;color:var(--ink)}
 .rg-verif{font-size:12.5px!important;color:var(--soft);border-left:3px solid var(--warm);padding-left:8px;font-family:var(--body)!important}
+.tk-row{display:grid;grid-template-columns:52px 1fr;gap:10px;border-bottom:1px dashed var(--line);padding:9px 0}
+.tk-row:last-child{border-bottom:0}
+.tk-d{font:700 12px var(--mono);color:var(--c-tech);padding-top:2px}
+.tk-af .tk-d{color:var(--c-af)}
+.tk-row b{font-size:14.5px}
+.tk-sub{display:block;font-size:12px;color:var(--soft);margin-top:1px}
+.tk-row p{margin:4px 0 0;font-size:13px;line-height:1.45}
+.tk-row p a{color:var(--soft)}
+.tk-grid{align-items:start}
+.tk-grid .tk-row p{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.tk-badge{font:600 10.5px var(--body);text-transform:uppercase;letter-spacing:.04em;border:1px solid var(--line);border-radius:999px;padding:1px 7px;color:var(--soft);vertical-align:2px}
+.tk-badge.open{border-color:var(--pos);color:var(--pos)}
+.tk-amt{font:700 12.5px var(--mono);color:var(--c-af)}
 </style>
 
 <header class="mast"><div class="in">
@@ -570,7 +583,7 @@ var RUB=[
   {id:'france',nom:'France',c:'var(--c-fr)',i:'france'},
   {id:'geopolitique',nom:'Géopolitique',c:'var(--c-geo)',i:'geopolitique'},
   {id:'afrique',nom:'Afrique',c:'var(--c-af)',i:'afrique'},
-  {id:'tech',nom:'Tech & IA',c:'var(--c-tech)',i:'tech'},
+  {id:'tech',nom:'Tech & Sciences',c:'var(--c-tech)',i:'tech'},
   {id:'eco',nom:'Économie',c:'var(--c-eco)',i:'eco'},
   {id:'culture',nom:'Culture',c:'var(--c-cul)',i:'culture'},
   {id:'sport',nom:'Sport',c:'var(--c-sport)',i:'sport'},
@@ -869,7 +882,7 @@ function pageTesselles(){var t=state.sp.tess;if(!t)return notFound();var cols=['
 
 /* ---------- Mon Mosaiq : personnalisation sans compte (stockée sur l'appareil) ---------- */
 var HOME_IDS=['geopolitique','france','afrique','tech','eco','culture','sport'];
-var HOME_NOMS={geopolitique:'Géopolitique',france:'France',afrique:'Afrique',tech:'Tech & IA',eco:'Économie',culture:'Culture',sport:'Sport'};
+var HOME_NOMS={geopolitique:'Géopolitique',france:'France',afrique:'Afrique',tech:'Tech & Sciences',eco:'Économie',culture:'Culture',sport:'Sport'};
 var PREF_KEY='mq-prefs';
 function prefs(){if(state._prefs)return state._prefs;var p={};try{p=JSON.parse(localStorage.getItem(PREF_KEY)||'{}')||{};}catch(e){p={};}
   var o=(Array.isArray(p.order)?p.order:[]).filter(function(x){return HOME_IDS.indexOf(x)>=0;});HOME_IDS.forEach(function(x){if(o.indexOf(x)<0)o.push(x);});
@@ -954,6 +967,20 @@ function pageVerifier(){var e=state.current,arts2=(e.articles||[]).filter(functi
   if(reg.length)h+='<div class="sec-h">'+hico('regions','var(--c-fr)')+'<h2>Brèves régionales</h2></div><div class="vlist">'+reg.map(function(b){return '<a href="#region-'+regSlug(b.region)+'" class="vitem"><span class="tag" style="color:var(--c-fr)">'+esc(b.region)+'</span><b>'+esc(b.titre)+'</b><p>'+esc(b.a_verifier)+'</p></a>';}).join('')+'</div>';
   if(e.a_verifier&&e.a_verifier.length)h+='<details class="vall"><summary>Toutes les notes de vérification de l\'édition ('+e.a_verifier.length+')</summary><ul>'+e.a_verifier.map(function(x){return '<li>'+esc(x)+'</li>';}).join('')+'</ul></details>';
   return h;}
+
+/* ---------- Tech & Sciences : modules ---------- */
+var TTHEME={ia:'IA',cyber:'Cyber',telecoms:'Télécoms',regulation:'Régulation',startups:'Startups',espace:'Espace',sciences:'Sciences',sante:'Santé',materiel:'Matériel'};
+function techAside(){var t=state.sp.tech;if(!t)return '';var h='';
+  var B=t.bourse;if(B&&B.titres&&B.titres.length){var rows=B.titres.filter(function(x){return typeof x.var==='number';}).slice().sort(function(a,b){return b.var-a.var;}).map(function(x){return [x.nom,x.var];});
+    var mx=Math.max.apply(null,rows.map(function(r){return Math.abs(r[1]);}))*1.25||1;
+    h+='<div class="panel"><h3>Les géants en bourse</h3><p class="sub">Variation sur la séance du '+esc(fmtDay(B.date))+', en %</p>'+hbars(rows,{labelW:90,max:mx,fmt:function(v){return (v>0?'+':'')+String(v.toFixed(2)).replace('.',',')+' %';},aria:'Variation des valeurs tech'})+(B.note?'<p class="sub" style="margin:8px 0 0;font-size:12.5px">'+esc(B.note)+'</p>':'')+'</div>';}
+  if(t.agenda&&t.agenda.length){var ag=t.agenda.slice().sort(function(a,b){return a.date.localeCompare(b.date);}).filter(function(x){return x.date>=state.current.date;});if(ag.length)h+='<div class="panel"><h3>Agenda tech & sciences</h3>'+ag.slice(0,4).map(function(x){return '<div class="tk-row"><div class="tk-d">'+esc(fmtDay(x.date))+'</div><div><span class="tag" style="color:var(--c-tech)">'+esc(TTHEME[x.theme]||x.theme||'')+'</span><b style="display:block">'+esc(x.titre)+'</b><span class="tk-sub">'+esc(x.lieu||'')+'</span></div></div>';}).join('')+'</div>';}
+  return h;}
+function techBelow(){var t=state.sp.tech;if(!t)return '';var h='';
+  if(t.modeles&&t.modeles.length)h+='<div class="panel"><h3>La course à l\'IA</h3><p class="sub">Les derniers modèles sortis</p>'+t.modeles.slice(0,5).map(function(m){return '<div class="tk-row"><div class="tk-d">'+esc(fmtDay(m.date))+'</div><div><b>'+esc(m.nom)+'</b> <span class="tk-badge'+(m.type==='ouvert'?' open':'')+'">'+esc(m.type||'')+'</span><span class="tk-sub">'+esc(m.editeur)+(m.pays?' · '+esc(m.pays):'')+(m.usage?' · '+esc(m.usage):'')+'</span><p>'+esc(m.note||'')+(m.source?' <a href="'+url(m.source.url)+'" target="_blank" rel="noopener">'+esc(m.source.nom)+' ↗</a>':'')+'</p></div></div>';}).join('')+'</div>';
+  if(t.afrique&&t.afrique.length)h+='<div class="panel tk-af"><h3>Tech en Afrique</h3><p class="sub">Levées de fonds et lancements du mois</p>'+t.afrique.slice(0,5).map(function(x){return '<div class="tk-row"><div class="tk-d">'+esc(fmtDay(x.date))+'</div><div><b>'+esc(x.nom)+'</b>'+(x.montant?' <span class="tk-amt">'+esc(x.montant)+'</span>':'')+'<span class="tk-sub">'+esc(x.pays)+' · '+esc(x.secteur||'')+' · '+esc(x.type||'')+'</span><p>'+esc(x.texte||'')+(x.source?' <a href="'+url(x.source.url)+'" target="_blank" rel="noopener">'+esc(x.source.nom)+' ↗</a>':'')+'</p></div></div>';}).join('')+'</div>';
+  return h?secH('tech','Le tableau de bord',null,'tech','var(--c-tech)')+'<div class="grid2 tk-grid">'+h+'</div>':'';}
+
 /* ---------- dossier de la semaine ---------- */
 function pageDossier(){
   var d=state.sp.dossier;if(!d)return notFound();
@@ -1079,12 +1106,14 @@ function pageRubrique(id){
   h+='<div class="grid2" style="margin-top:14px"><div class="stack">'+arts(id).map(function(a){return '<article class="panel"><span class="tag" style="color:'+r.c+'">'+esc(a.territoire||(a.discipline?discLabel(a.discipline):r.nom))+'</span><h2 style="font-family:var(--display);font-size:22px;line-height:1.2;margin:6px 0 8px"><a href="#a-'+a.id+'" style="text-decoration:none">'+esc(a.titre)+'</a></h2><p style="font-family:var(--read);font-size:16.5px;margin:0 0 8px">'+esc(a.resume)+'</p><a href="#a-'+a.id+'" style="font-size:13px;font-weight:600;color:'+r.c+'">Lire l\'article complet →</a></article>';}).join('')+'</div><div class="stack">'+aside(id)+'</div></div>';
   if(id==='eco')h+='<div style="margin-top:20px">'+marketChart()+'</div>';
   if(id==='afrique')h+=afriqueMarches();
+  if(id==='tech')h+=techBelow();
   return h;
 }
 function aside(id){
   var e=state.current,h='';
   if(id==='outremer'){var om=arts('outremer');h+='<div class="panel"><h3>Les territoires du jour</h3><p class="sub">Les numéros suivent l\'ordre des articles</p>'+focusMap([],'var(--c-fr)',0,1,null,om.filter(function(a){return a.lieu;}).map(function(a){return {x:a.lieu.x,y:a.lieu.y,nom:a.territoire};}))+'<div class="legend" style="margin-top:8px">'+om.map(function(a,i){return '<span><b>'+(i+1)+'</b> '+esc(a.territoire)+'</span>';}).join('')+'</div></div>';
     if(e.outremer_agenda&&e.outremer_agenda.length)h+='<div class="panel"><h3>Agenda des Outre-mer</h3>'+e.outremer_agenda.map(function(x){return '<div style="border-bottom:1px dashed var(--line);padding:7px 0;font-size:14px"><b>'+esc(frDate(x.date))+' · '+esc(x.territoire)+'</b><br><span style="color:var(--soft)">'+esc(x.texte)+'</span></div>';}).join('')+'</div>';}
+  if(id==='tech')h+=techAside();
   if(id==='culture'){var ca=cultureAgenda(8);if(ca)h+='<div class="panel"><h3>Agenda culturel</h3><p class="sub">Les rendez-vous des deux prochaines semaines</p>'+ca+'</div>';}
   if(id==='france')h+=regionsTeaser();
   if(id==='france')h+='<div class="panel"><h3>Budget 2027 : le calendrier</h3><p class="sub">Projet de loi de finances</p>'+frise(e.france_frise)+'</div>';
@@ -1358,7 +1387,7 @@ getJSON('index.json').then(function(ix){
   LEAGUES.forEach(function(l){jobs.push(opt(''+l.id+'.json',l.id,state.foot));});
   jobs.push(opt('calendrier.json','cal',state.sp),opt('transferts.json','tr',state.sp));
   ['nba','nfl','tennis','f1','rugby'].forEach(function(k){jobs.push(opt(''+k+'.json',k,state.sp));});
-  [['dossier','dossier'],['glossaire','glo'],['marches','marches'],['agenda_eco','agenda'],['afrique_marches','afm'],['suivis','suivis'],['tesselles','tess']].forEach(function(k){jobs.push(opt(''+k[0]+'.json',k[1],state.sp));});
+  [['dossier','dossier'],['glossaire','glo'],['marches','marches'],['agenda_eco','agenda'],['afrique_marches','afm'],['suivis','suivis'],['tesselles','tess'],['tech','tech']].forEach(function(k){jobs.push(opt(''+k[0]+'.json',k[1],state.sp));});
   return Promise.all(jobs);
 }).then(function(r){state.current=r[0];route();window.addEventListener('hashchange',route);})
 .catch(function(){document.getElementById('app').innerHTML='<p class="loading">L\'édition du jour n\'a pas pu être chargée. Réessayez dans un instant.</p>';});
