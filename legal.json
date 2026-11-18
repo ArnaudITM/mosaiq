@@ -1,0 +1,26 @@
+{
+  "maj": "17 novembre 2026",
+  "editeur": {
+    "nom": "Arnaud",
+    "forme": null,
+    "siren": null,
+    "rcs_rne": null,
+    "tva": null,
+    "adresse": null,
+    "telephone": null
+  },
+  "directeur_publication": "Arnaud",
+  "contact": "contact@mosaiq.news",
+  "hebergeur": {
+    "nom": "GitHub, Inc. (service GitHub Pages)",
+    "adresse": "88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis",
+    "site": "https://github.com",
+    "contact": "https://support.github.com"
+  },
+  "domaine": {
+    "nom": "OVH SAS",
+    "detail": "SAS au capital de 50 000 000 €, RCS Lille Métropole 424 761 419",
+    "adresse": "2 rue Kellermann, 59100 Roubaix, France",
+    "site": "https://www.ovhcloud.com"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "maj": "17 novembre 2026 – top 20 ATP/WTA et Français du top 50 au classement du 16 novembre ; Français classés au-delà du 50e rang : classement du 9 novembre (ATP) et du 5 novembre (WTA), non revérifiés.",
+  "maj": "18 novembre 2026 – résultats de Turin jusqu'au mardi 17 novembre inclus ; top 20 ATP/WTA et Français du top 50 au classement du 16 novembre ; Français classés au-delà du 50e rang : classement du 9 novembre (ATP) et du 5 novembre (WTA), non revérifiés.",
   "atp": {
     "date": "16 novembre 2026",
     "top": [
@@ -350,7 +350,7 @@
         ]
       }
     ],
-    "groupes_note": "Tirage au sort effectué le jeudi 12 novembre à Turin ; les deux premiers de chaque groupe accèdent aux demi-finales. Groupe John McEnroe, 1re journée (15 nov.) : Shelton bat Fils 6-2, 3-6, 6-3 ; Zverev bat Jódar 6-4, 6-4. Groupe Ivan Lendl, 1re journée (16 nov.) : Alcaraz bat Tiafoe 6-2, 6-2 ; Medvedev bat Cobolli 7-6 (4), 6-3. Alcaraz-Medvedev et Cobolli-Tiafoe sont au programme du mercredi 18 novembre, selon Univers Tennis.",
+    "groupes_note": "Tirage au sort effectué le jeudi 12 novembre à Turin ; les deux premiers de chaque groupe accèdent aux demi-finales. Groupe John McEnroe, 1re journée (15 nov.) : Shelton bat Fils 6-2, 3-6, 6-3 ; Zverev bat Jódar 6-4, 6-4. Groupe Ivan Lendl, 1re journée (16 nov.) : Alcaraz bat Tiafoe 6-2, 6-2 ; Medvedev bat Cobolli 7-6 (4), 6-3. Alcaraz-Medvedev et Cobolli-Tiafoe sont au programme du mercredi 18 novembre (2e journée du groupe Ivan Lendl), selon Univers Tennis. Groupe John McEnroe, 2e journée (17 nov.) : Zverev bat Shelton 6-2, 7-6 (4) et se qualifie pour les demi-finales ; Fils bat Jódar 4-6, 6-2, 6-2, Jódar est éliminé. Dernière journée du groupe jeudi 19 novembre : Zverev-Fils et Shelton-Jódar, selon Sky Sports et Tennis Majors.",
     "qualifies": [
       "Alexander Zverev",
       "Carlos Alcaraz",
@@ -413,17 +413,25 @@
         "vainqueur": "Daniil Medvedev",
         "perdant": "Flavio Cobolli",
         "score": "7-6 (4), 6-3"
+      },
+      {
+        "date": "17 novembre 2026",
+        "groupe": "John McEnroe",
+        "vainqueur": "Alexander Zverev",
+        "perdant": "Ben Shelton",
+        "score": "6-2, 7-6 (4)"
+      },
+      {
+        "date": "17 novembre 2026",
+        "groupe": "John McEnroe",
+        "vainqueur": "Arthur Fils",
+        "perdant": "Rafael Jódar",
+        "score": "4-6, 6-2, 6-2"
       }
     ],
-    "texte": "Arthur Fils, premier Français qualifié pour les ATP Finals depuis dix ans, a perdu son premier match à Turin dimanche face à Ben Shelton (6-2, 3-6, 6-3), selon l'ATP ; Alexander Zverev a battu Rafael Jódar 6-4, 6-4. Lundi, Carlos Alcaraz a dominé Frances Tiafoe 6-2, 6-2 en 69 minutes et Daniil Medvedev a battu Flavio Cobolli 7-6 (4), 6-3 sans concéder de balle de break, selon Field Level Media. Alcaraz et Medvedev s'affrontent mercredi. La phase de groupes se dispute jusqu'au vendredi 20, les demi-finales le samedi 21 et la finale le dimanche 22 novembre à 18h, selon l'ATP. Le tournoi se joue sans le double tenant du titre Jannik Sinner, blessé au genou."
+    "texte": "Alexander Zverev est le premier qualifié pour les demi-finales des ATP Finals : le n°1 mondial a battu Ben Shelton 6-2, 7-6 (4) mardi à Turin, sans perdre un set depuis le début du tournoi, selon Sky Sports. Arthur Fils, battu d'entrée par Shelton, a signé sa première victoire dans l'épreuve face à Rafael Jódar (4-6, 6-2, 6-2), selon l'ATP ; le Français (1-1) affrontera Zverev jeudi pour la dernière journée du groupe John McEnroe, Shelton (1-1) jouant Jódar, éliminé. Dans le groupe Ivan Lendl, Carlos Alcaraz et Daniil Medvedev, vainqueurs lundi, s'affrontent mercredi, comme Flavio Cobolli et Frances Tiafoe. Demi-finales le samedi 21, finale le dimanche 22 novembre à 18h, selon l'ATP. Le tournoi se joue sans le double tenant du titre Jannik Sinner, blessé au genou."
   },
   "calendrier": [
-    {
-      "dates": "8-15 novembre 2026",
-      "nom": "WTA Finals (vainqueure : Mirra Andreeva)",
-      "lieu": "Indian Wells (États-Unis)",
-      "type": "WTA Finals"
-    },
     {
       "dates": "15-22 novembre 2026",
       "nom": "Nitto ATP Finals",
@@ -450,6 +458,14 @@
     }
   ],
   "infos": [
+    {
+      "titre": "Zverev en demi-finale, Fils relancé",
+      "texte": "Alexander Zverev a battu Ben Shelton 6-2, 7-6 (4) mardi à Turin pour se qualifier pour le dernier carré, en remportant 88 % des points derrière sa première balle, selon Sky Sports ; l'Allemand mène 7-0 dans ses confrontations avec l'Américain. Arthur Fils a battu Rafael Jódar 4-6, 6-2, 6-2 et jouera sa qualification face à Zverev jeudi.",
+      "source": {
+        "nom": "Sky Sports",
+        "url": "https://www.skysports.com/tennis/news/13613313/atp-finals-alexander-zverev-books-place-in-semi-finals-after-brushing-aside-ben-shelton-arthur-fils-beats-rafael-jodar"
+      }
+    },
     {
       "titre": "Alcaraz et Medvedev gagnent d'entrée",
       "texte": "Carlos Alcaraz a battu Frances Tiafoe 6-2, 6-2 en 69 minutes lundi à Turin, en sauvant les trois balles de break concédées, selon Field Level Media ; Daniil Medvedev s'est imposé 7-6 (4), 6-3 face à Flavio Cobolli. Les deux vainqueurs se retrouvent mercredi.",
@@ -603,6 +619,18 @@
     {
       "nom": "Univers Tennis – groupe Lendl après la 1re journée",
       "url": "https://www.universtennis.com/2026/11/16/atp-finals-carlos-alcaraz-et-daniil-medvedev-frappent-dentree-le-classement-du-groupe-lendl/"
+    },
+    {
+      "nom": "Sky Sports – Zverev bat Shelton, Fils bat Jódar (17 nov. 2026)",
+      "url": "https://www.skysports.com/tennis/news/13613313/atp-finals-alexander-zverev-books-place-in-semi-finals-after-brushing-aside-ben-shelton-arthur-fils-beats-rafael-jodar"
+    },
+    {
+      "nom": "ATP Tour – Résultats des Nitto ATP Finals 2026",
+      "url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-results"
+    },
+    {
+      "nom": "Tennis Majors – Shelton bat Fils (15 nov. 2026)",
+      "url": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/shelton-holds-off-fils-fightback-to-join-zverev-on-top-of-the-john-mcenroe-group-867094.html"
     }
   ]
 }

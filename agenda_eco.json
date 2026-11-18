@@ -1,136 +1,22 @@
 {
-  "semaine": "17–24 novembre 2026",
+  "semaine": "18 novembre – 1er décembre 2026",
   "fuseau": "Heures de Paris (UTC+1). null = heure non confirmée par les sources consultées.",
   "evenements": [
     {
-      "date": "2026-11-17",
-      "heure": "01:30",
-      "pays": "Australie",
-      "type": "banque centrale",
-      "titre": "Compte rendu de la réunion de novembre de la Banque de réserve d'Australie",
-      "attendu": "Taux relevé de 25 points de base à 4,85 % début novembre",
-      "enjeu": "Les marchés y chercheront des indications sur de nouvelles hausses de taux.",
+      "date": "2026-11-18",
+      "heure": "16:30",
+      "pays": "France",
+      "type": "politique",
+      "titre": "Vote du Sénat sur le budget de la Sécurité sociale (PLFSS 2027)",
+      "enjeu": "Le texte a été modifié par les sénateurs (suppression du gel des pensions, retour au calendrier de la réforme de 2023) ; une commission mixte paritaire doit suivre.",
       "source": {
-        "nom": "LiteFinance – calendrier du 16 au 22 nov. 2026",
-        "url": "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-16112026-22112026/"
-      }
-    },
-    {
-      "date": "2026-11-17",
-      "heure": "08:00",
-      "pays": "Royaume-Uni",
-      "type": "indicateur",
-      "titre": "Chômage et salaires (juillet-septembre)",
-      "attendu": "Taux de chômage : 4,7 %",
-      "enjeu": "Premier chiffre de l'emploi depuis que la Banque d'Angleterre a relevé son taux à 4 % début novembre.",
-      "source": {
-        "nom": "LiteFinance – calendrier du 16 au 22 nov. 2026",
-        "url": "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-16112026-22112026/"
-      }
-    },
-    {
-      "date": "2026-11-17",
-      "heure": "14:30",
-      "pays": "États-Unis",
-      "type": "indicateur",
-      "titre": "Ventes au détail d'octobre",
-      "attendu": "Septembre : +0,8 % sur un mois",
-      "enjeu": "Mesure la résistance de la consommation américaine face à l'inflation.",
-      "source": {
-        "nom": "LiteFinance – calendrier du 16 au 22 nov. 2026",
-        "url": "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-16112026-22112026/"
-      }
-    },
-    {
-      "date": "2026-11-17",
-      "heure": "22:20",
-      "pays": "États-Unis",
-      "type": "résultats",
-      "titre": "Résultats trimestriels de Nvidia (T3 de l'exercice 2027), conférence à 23 h",
-      "enjeu": "Premiers résultats depuis la démission de Jensen Huang de la direction générale (Colette Kress assure l'intérim) ; le titre a reculé de 4,1 % lundi, selon Stock Titan.",
-      "source": {
-        "nom": "Stock Titan – communiqué de Nvidia",
-        "url": "https://www.stocktitan.net/news/NVDA/nvidia-sets-conference-call-for-third-quarter-financial-rgdf7hquxgar.html"
-      }
-    },
-    {
-      "date": "2026-11-17",
-      "heure": null,
-      "pays": "États-Unis",
-      "type": "résultats",
-      "titre": "Résultats de Home Depot",
-      "enjeu": "Indicateur de la santé du logement et de la consommation des ménages américains.",
-      "source": {
-        "nom": "Delta Exchange – calendrier de novembre 2026",
-        "url": "https://www.delta.exchange/blog/november-2026-global-market-calendar-key-economic-events-earnings-and-release-times"
+        "nom": "NosParlementaires",
+        "url": "https://nosparlementaires.fr/actualites/gel-pensions-senat-1500-euros-reforme-retraites-plfss-2027"
       }
     },
     {
       "date": "2026-11-18",
-      "heure": "08:00",
-      "pays": "Royaume-Uni",
-      "type": "indicateur",
-      "titre": "Inflation (CPI) d'octobre",
-      "attendu": "Septembre : +3,5 % sur un an",
-      "enjeu": "Dira si la hausse des taux de la Banque d'Angleterre devra être prolongée.",
-      "source": {
-        "nom": "LiteFinance – calendrier du 16 au 22 nov. 2026",
-        "url": "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-16112026-22112026/"
-      }
-    },
-    {
-      "date": "2026-11-18",
-      "heure": "09:00",
-      "pays": "Afrique du Sud",
-      "type": "indicateur",
-      "titre": "Inflation (CPI) d'octobre (Stats SA)",
-      "attendu": "4,8 % (prévision Trading Economics) ; septembre : 4,5 %",
-      "enjeu": "La hausse attendue, liée aux carburants, pèsera sur la décision de la SARB le lendemain.",
-      "source": {
-        "nom": "Trading Economics – South Africa Inflation Rate",
-        "url": "https://tradingeconomics.com/south-africa/inflation-cpi"
-      }
-    },
-    {
-      "date": "2026-11-18",
-      "heure": "10:00",
-      "pays": "Zone euro",
-      "type": "banque centrale",
-      "titre": "Publication de la Revue de stabilité financière de la BCE (novembre 2026)",
-      "enjeu": "La BCE a annoncé des extraits consacrés aux liens entre cyberrisque et intelligence artificielle, et à la présence des géants de la tech sur le marché obligataire en euros.",
-      "source": {
-        "nom": "BCE – calendrier hebdomadaire des activités publiques (13-22 nov.)",
-        "url": "https://www.ecb.europa.eu/press/calendars/weekly/html/index.en.html"
-      }
-    },
-    {
-      "date": "2026-11-18",
-      "heure": "14:30",
-      "pays": "États-Unis",
-      "type": "indicateur",
-      "titre": "Mises en chantier et permis de construire d'octobre (Census Bureau)",
-      "enjeu": "Mesure l'effet des taux élevés sur le secteur du logement.",
-      "source": {
-        "nom": "US Census Bureau – rapport New Residential Construction de septembre 2026",
-        "url": "https://www.census.gov/construction/nrc/pdf/newresconst_202609.pdf"
-      }
-    },
-    {
-      "date": "2026-11-18",
-      "heure": "20:00",
-      "pays": "États-Unis",
-      "type": "banque centrale",
-      "titre": "Compte rendu (minutes) de la réunion des 27-28 octobre de la Fed",
-      "attendu": "Taux des fonds fédéraux maintenu entre 3,75 % et 4 % en octobre",
-      "enjeu": "Les marchés y chercheront des signes d'une hausse des taux en décembre, jugée très probable après l'inflation d'octobre.",
-      "source": {
-        "nom": "LiteFinance – calendrier du 16 au 22 nov. 2026",
-        "url": "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-16112026-22112026/"
-      }
-    },
-    {
-      "date": "2026-11-18",
-      "heure": null,
+      "heure": "11:00",
       "pays": "Zone euro",
       "type": "indicateur",
       "titre": "Inflation (IPCH) d'octobre, chiffre définitif",
@@ -143,61 +29,12 @@
     },
     {
       "date": "2026-11-18",
-      "heure": null,
-      "pays": "Ghana",
-      "type": "banque centrale",
-      "titre": "Décision de politique monétaire de la Banque du Ghana (réunion du 16 au 18 novembre)",
-      "attendu": "Taux directeur actuel : 14 %",
-      "enjeu": "L'inflation est remontée à 5,5 % en octobre (5,2 % en septembre), selon le gouverneur, mais reste sous la cible de 8 ± 2 %, ce qui laisse de la place pour une baisse des taux.",
-      "source": {
-        "nom": "Banque du Ghana – communiqué du MPC de septembre 2026 ; déclaration du gouverneur au Parlement (6/11/2026)",
-        "url": "https://www.bog.gov.gh/wp-content/uploads/2026/09/MPC-Press-Release-September-2026.pdf"
-      }
-    },
-    {
-      "date": "2026-11-18",
-      "heure": null,
-      "pays": "France",
-      "type": "politique",
-      "titre": "Vote du Sénat sur le budget de la Sécurité sociale (PLFSS 2027)",
-      "enjeu": "Étape avant la commission mixte paritaire de fin novembre.",
-      "source": {
-        "nom": "Public Sénat – calendrier budgétaire",
-        "url": "https://www.publicsenat.fr/actualites/politique/budget-2027-calendrier-49-3-ordonnancesquelles-sont-les-echeances-a-venir-et-les-scenarios-possibles"
-      }
-    },
-    {
-      "date": "2026-11-18",
-      "heure": null,
+      "heure": "20:00",
       "pays": "États-Unis",
-      "type": "résultats",
-      "titre": "Résultats de Target, Lowe's et TJX",
-      "enjeu": "Indique la tendance de la consommation avant la saison des fêtes.",
-      "source": {
-        "nom": "Delta Exchange – calendrier de novembre 2026",
-        "url": "https://www.delta.exchange/blog/november-2026-global-market-calendar-key-economic-events-earnings-and-release-times"
-      }
-    },
-    {
-      "date": "2026-11-18",
-      "heure": null,
-      "pays": "Chine",
-      "type": "politique",
-      "titre": "Sommet des dirigeants de l'APEC à Shenzhen, les 18 et 19 novembre (précédé du sommet des chefs d'entreprise les 17 et 18)",
-      "enjeu": "Commerce, droits de douane et chaînes d'approvisionnement au menu ; la présence des différents dirigeants n'a pas été annoncée.",
-      "source": {
-        "nom": "Gouvernement du district de Longgang (Shenzhen) ; The Rio Times",
-        "url": "https://www.lg.gov.cn/english/news/latestnews/content/post_12588327.html"
-      }
-    },
-    {
-      "date": "2026-11-19",
-      "heure": "01:30",
-      "pays": "Australie",
-      "type": "indicateur",
-      "titre": "Emploi et chômage d'octobre",
-      "attendu": "Septembre : chômage à 4,7 %, -39 300 emplois",
-      "enjeu": "Premier test du marché du travail après la hausse des taux de la RBA.",
+      "type": "banque centrale",
+      "titre": "Compte rendu (minutes) de la réunion des 27-28 octobre de la Fed",
+      "attendu": "Taux des fonds fédéraux maintenu entre 3,75 % et 4 % en octobre",
+      "enjeu": "Les marchés y chercheront des signes d'une hausse des taux en décembre, jugée très probable après l'inflation d'octobre.",
       "source": {
         "nom": "LiteFinance – calendrier du 16 au 22 nov. 2026",
         "url": "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-16112026-22112026/"
@@ -218,14 +55,15 @@
     },
     {
       "date": "2026-11-19",
-      "heure": "14:30",
+      "heure": null,
       "pays": "États-Unis",
-      "type": "indicateur",
-      "titre": "Inscriptions hebdomadaires au chômage",
-      "enjeu": "Indicateur clé pour le marché du travail américain.",
+      "type": "marchés",
+      "titre": "Première cotation d'Anthropic au Nasdaq",
+      "attendu": "Fourchette de 70 à 78 dollars par action ; prix fixé la veille au soir",
+      "enjeu": "Plus grosse introduction en Bourse de l'année après SpaceX ; l'offre serait six à sept fois sursouscrite, selon CappNotes.",
       "source": {
-        "nom": "Trading Economics – calendrier États-Unis",
-        "url": "https://tradingeconomics.com/united-states/calendar"
+        "nom": "CappNotes – clôture du 17 nov. 2026",
+        "url": "https://cappnotes.substack.com/p/closing-look-tuesday-november-17"
       }
     },
     {
@@ -238,31 +76,6 @@
       "source": {
         "nom": "Delta Exchange – calendrier de novembre 2026",
         "url": "https://www.delta.exchange/blog/november-2026-global-market-calendar-key-economic-events-earnings-and-release-times"
-      }
-    },
-    {
-      "date": "2026-11-20",
-      "heure": "00:30",
-      "pays": "Japon",
-      "type": "indicateur",
-      "titre": "Inflation (CPI) nationale d'octobre",
-      "attendu": "Septembre : 2,1 % sur un an",
-      "enjeu": "Pèsera sur la perspective d'une hausse des taux de la Banque du Japon en décembre.",
-      "source": {
-        "nom": "Forex Fundamentals – calendrier Japon",
-        "url": "https://forexfundamentals.com/economic-calendar/jp-cpi/2026-11-19"
-      }
-    },
-    {
-      "date": "2026-11-20",
-      "heure": "08:00",
-      "pays": "Royaume-Uni",
-      "type": "indicateur",
-      "titre": "Ventes au détail d'octobre",
-      "enjeu": "Mesure la consommation britannique après la hausse des taux.",
-      "source": {
-        "nom": "LiteFinance – calendrier du 16 au 22 nov. 2026",
-        "url": "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-16112026-22112026/"
       }
     },
     {
@@ -302,18 +115,6 @@
       }
     },
     {
-      "date": "2026-11-20",
-      "heure": null,
-      "pays": "Chine",
-      "type": "banque centrale",
-      "titre": "Taux de référence des prêts (LPR) de novembre",
-      "enjeu": "Indique si Pékin assouplit le crédit pour soutenir l'activité.",
-      "source": {
-        "nom": "Newsquawk – calendrier des événements clés de novembre 2026",
-        "url": "https://www.newsquawk.com/headlines/newsquawk-calendar-of-key-events---november-2026"
-      }
-    },
-    {
       "date": "2026-11-22",
       "heure": "22:45",
       "pays": "Nouvelle-Zélande",
@@ -328,15 +129,16 @@
     },
     {
       "date": "2026-11-23",
-      "heure": null,
+      "heure": "10:00",
       "pays": "Zone euro",
       "type": "indicateur",
       "titre": "PMI flash de novembre (France, Allemagne, zone euro, Royaume-Uni, États-Unis)",
       "enjeu": "Premier aperçu de l'activité de novembre, alors que l'inflation et les taux remontent.",
       "source": {
-        "nom": "S&P Global – calendrier des publications PMI",
-        "url": "https://www.pmi.spglobal.com/Public/Release/ReleaseDates"
-      }
+        "nom": "LiteFinance – calendrier du 23 au 29 nov. 2026",
+        "url": "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-23112026-29112026/"
+      },
+      "attendu": "Octobre, zone euro : composite 51,7 ; industrie 52,7 ; services 51,4"
     },
     {
       "date": "2026-11-23",
@@ -354,6 +156,32 @@
     {
       "date": "2026-11-24",
       "heure": null,
+      "pays": "Allemagne",
+      "type": "indicateur",
+      "titre": "Climat des affaires Ifo de novembre",
+      "attendu": "Octobre : 90,2",
+      "enjeu": "Baromètre du moral des entreprises allemandes face à la remontée des taux.",
+      "source": {
+        "nom": "Lamera Capital – calendrier économique de novembre 2026",
+        "url": "https://lameracapital.com/market-insights/november-2026-economic-calendar-pound-euro-dollar"
+      }
+    },
+    {
+      "date": "2026-11-24",
+      "heure": "16:00",
+      "pays": "États-Unis",
+      "type": "indicateur",
+      "titre": "Confiance des consommateurs du Conference Board (novembre)",
+      "attendu": "Précédent : 91,7",
+      "enjeu": "Indique l'état d'esprit des ménages à l'approche des fêtes.",
+      "source": {
+        "nom": "LiteFinance – calendrier du 23 au 29 nov. 2026",
+        "url": "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-23112026-29112026/"
+      }
+    },
+    {
+      "date": "2026-11-24",
+      "heure": null,
       "pays": "Japon",
       "type": "indicateur",
       "titre": "PMI flash de novembre",
@@ -361,6 +189,143 @@
       "source": {
         "nom": "S&P Global – calendrier des publications PMI",
         "url": "https://www.pmi.spglobal.com/Public/Release/ReleaseDates"
+      }
+    },
+    {
+      "date": "2026-11-25",
+      "heure": "01:30",
+      "pays": "Australie",
+      "type": "indicateur",
+      "titre": "Inflation (CPI) d'octobre",
+      "attendu": "Septembre : +4,3 % sur un an",
+      "enjeu": "Pèsera sur la suite des hausses de taux de la RBA.",
+      "source": {
+        "nom": "LiteFinance – calendrier du 23 au 29 nov. 2026",
+        "url": "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-23112026-29112026/"
+      }
+    },
+    {
+      "date": "2026-11-25",
+      "heure": "14:30",
+      "pays": "États-Unis",
+      "type": "indicateur",
+      "titre": "Inflation PCE d'octobre et PIB du 3e trimestre (deuxième estimation)",
+      "attendu": "PCE de septembre : 3,6 % sur un an (3,1 % hors énergie et alimentation) ; PIB T3 préliminaire : +3,4 %",
+      "enjeu": "L'indice d'inflation privilégié par la Fed, avant sa réunion du 9 décembre où une hausse des taux est largement anticipée.",
+      "source": {
+        "nom": "Lamera Capital – calendrier économique de novembre 2026",
+        "url": "https://lameracapital.com/market-insights/november-2026-economic-calendar-pound-euro-dollar"
+      }
+    },
+    {
+      "date": "2026-11-25",
+      "heure": "20:00",
+      "pays": "États-Unis",
+      "type": "banque centrale",
+      "titre": "Livre beige de la Fed",
+      "enjeu": "Point sur l'activité régionale avant la réunion de décembre.",
+      "source": {
+        "nom": "Lamera Capital – calendrier économique de novembre 2026",
+        "url": "https://lameracapital.com/market-insights/november-2026-economic-calendar-pound-euro-dollar"
+      }
+    },
+    {
+      "date": "2026-11-26",
+      "heure": null,
+      "pays": "États-Unis",
+      "type": "marchés",
+      "titre": "Thanksgiving : Bourses américaines fermées",
+      "enjeu": "Faibles volumes attendus sur les marchés mondiaux ; séance écourtée vendredi.",
+      "source": {
+        "nom": "LiteFinance – calendrier du 23 au 29 nov. 2026",
+        "url": "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-23112026-29112026/"
+      }
+    },
+    {
+      "date": "2026-11-26",
+      "heure": "11:30",
+      "pays": "Royaume-Uni",
+      "type": "banque centrale",
+      "titre": "Rapport sur la stabilité financière de la Banque d'Angleterre",
+      "enjeu": "Évaluation des risques après la hausse des taux de novembre.",
+      "source": {
+        "nom": "Lamera Capital – calendrier économique de novembre 2026",
+        "url": "https://lameracapital.com/market-insights/november-2026-economic-calendar-pound-euro-dollar"
+      }
+    },
+    {
+      "date": "2026-11-26",
+      "heure": "23:59",
+      "pays": "France",
+      "type": "politique",
+      "titre": "Fin du délai de 50 jours laissé au Parlement pour le PLFSS 2027",
+      "enjeu": "Au-delà, le gouvernement peut mettre en œuvre le budget de la Sécurité sociale par ordonnance.",
+      "source": {
+        "nom": "NosParlementaires ; UNCCAS",
+        "url": "https://nosparlementaires.fr/actualites/gel-pensions-senat-1500-euros-reforme-retraites-plfss-2027"
+      }
+    },
+    {
+      "date": "2026-11-27",
+      "heure": "00:30",
+      "pays": "Japon",
+      "type": "indicateur",
+      "titre": "Inflation de Tokyo (novembre)",
+      "attendu": "Précédent : +2,8 % sur un an",
+      "enjeu": "Indicateur avancé de l'inflation japonaise avant la réunion de la Banque du Japon en décembre.",
+      "source": {
+        "nom": "LiteFinance – calendrier du 23 au 29 nov. 2026",
+        "url": "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-23112026-29112026/"
+      }
+    },
+    {
+      "date": "2026-11-27",
+      "heure": "19:00",
+      "pays": "États-Unis",
+      "type": "marchés",
+      "titre": "Black Friday : séance écourtée à Wall Street",
+      "enjeu": "Lancement de la saison des achats de fin d'année.",
+      "source": {
+        "nom": "LiteFinance – calendrier du 23 au 29 nov. 2026",
+        "url": "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-23112026-29112026/"
+      }
+    },
+    {
+      "date": "2026-11-30",
+      "heure": null,
+      "pays": "Allemagne",
+      "type": "indicateur",
+      "titre": "Inflation de novembre (estimations régionales et nationale)",
+      "enjeu": "Premier signal sur l'inflation de novembre en zone euro, avant la réunion de la BCE du 17 décembre.",
+      "source": {
+        "nom": "Lamera Capital – calendrier économique de novembre 2026",
+        "url": "https://lameracapital.com/market-insights/november-2026-economic-calendar-pound-euro-dollar"
+      }
+    },
+    {
+      "date": "2026-12-01",
+      "heure": null,
+      "pays": "Zone euro",
+      "type": "indicateur",
+      "titre": "Inflation de novembre, estimation rapide (Eurostat)",
+      "attendu": "Octobre : 4,0 % sur un an (estimation flash)",
+      "enjeu": "Dernier chiffre avant la réunion de la BCE des 16-17 décembre, où une hausse de taux est anticipée.",
+      "source": {
+        "nom": "Lamera Capital – calendrier économique de novembre 2026",
+        "url": "https://lameracapital.com/market-insights/november-2026-economic-calendar-pound-euro-dollar"
+      }
+    },
+    {
+      "date": "2026-12-01",
+      "heure": null,
+      "pays": "France",
+      "type": "politique",
+      "titre": "Revalorisation du Smic de 1,6 %",
+      "attendu": "12,51 euros brut de l'heure (contre 12,31), soit environ 1 897 euros brut mensuels",
+      "enjeu": "Hausse anticipée décidée face à l'inflation ; elle rattrape le salaire de base de nombreux agents publics.",
+      "source": {
+        "nom": "UNCCAS",
+        "url": "https://www.unccas.org/plf-et-plfss-2027-le-senat-la-manoeuvre-les-ordonnances-se-profilent"
       }
     }
   ],
@@ -382,5 +347,5 @@
       }
     }
   ],
-  "non_trouve": "Aucun événement économique majeur n'a été trouvé pour le samedi 21 novembre. Les événements des 23 et 24 novembre n'ont pas été revérifiés (reprise de la version précédente) ; heures non confirmées. L'heure de la décision de la Banque du Ghana, l'heure du taux LPR chinois et la date des résultats de Walmart ne sont pas confirmées. Les consensus des indicateurs américains et canadiens n'ont pas été repris, faute de source lisible. Aucune publication de l'Insee n'a été relevée dans la fenêtre (non revérifié)."
+  "non_trouve": "Aucun événement majeur relevé pour les samedis et dimanches 21, 28 et 29 novembre (hors Nouvelle-Zélande le 22). Pour respecter la limite de trois rendez-vous par jour, plusieurs publications du 18 novembre (inflation britannique et sud-africaine, mises en chantier américaines, Revue de stabilité financière de la BCE, décision de la Banque du Ghana, résultats de Target/Lowe's/TJX, sommet de l'APEC) et du 19-20 novembre (emploi australien, inscriptions au chômage américaines, inflation japonaise, ventes au détail britanniques, taux LPR chinois) ont été retirées de la frise. Les heures des événements des 30 novembre et 1er décembre ne sont pas confirmées ; ISM, OPEP+ et publications de l'Insee n'ont pas pu être vérifiés."
 }

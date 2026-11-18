@@ -1,5 +1,5 @@
 {
- "maj": "17 novembre 2026",
+ "maj": "18 novembre 2026",
  "fenetre": "Mercato d'hiver : ouverture le 1er janvier 2027 (dates selon les pays)",
  "dates_fenetre": [
   {
@@ -33,6 +33,63 @@
  ],
  "items": [
   {
+   "joueur": "Vitor Matos",
+   "de": "Swansea",
+   "vers": "Strasbourg",
+   "championnat": "ligue-1",
+   "type": "entraîneur",
+   "statut": "avancé",
+   "montant": "environ 6 M€ d'indemnité (selon L'Équipe)",
+   "texte": "Selon L'Équipe, relayé par Maxifoot, Strasbourg et Swansea ont trouvé un accord total pour l'entraîneur portugais, qui doit succéder à Hugo Oliveira, en passe d'être remercié après 3 victoires en 10 journées. Il signerait jusqu'en juin 2028, avec une année en option, et était attendu en Alsace mardi soir. Le club n'avait pas encore officialisé l'arrivée au moment de la publication.",
+   "source": {
+    "nom": "Maxifoot (d'après L'Équipe)",
+    "url": "https://news.maxifoot.fr/strasbourg/matos-arrive-pour-6-m-euro-foot-467865.htm"
+   },
+   "date": "2026-11-17"
+  },
+  {
+   "joueur": "Alejandro Balde",
+   "de": "Barça",
+   "vers": null,
+   "championnat": "liga",
+   "type": "transfert",
+   "statut": "rumeur",
+   "texte": "Selon Marca, relayé par Maxifoot, le Barça est ouvert à un départ de l'arrière gauche de 23 ans (3 matchs de Liga cette saison), mécontent de son temps de jeu, afin de financer un défenseur central. Le club n'a reçu aucune offre ; la Juventus, Manchester United, le PSG et Monaco sont cités comme intéressés, et son agent Jorge Mendes lui chercherait un point de chute.",
+   "source": {
+    "nom": "Maxifoot (d'après Marca)",
+    "url": "https://news.maxifoot.fr/barca/aucune-offre-pour-balde-mais-foot-467871.htm"
+   },
+   "date": "2026-11-17"
+  },
+  {
+   "joueur": "Loïs Openda",
+   "de": "OL",
+   "vers": "Juventus",
+   "championnat": "ligue-1",
+   "type": "prêt",
+   "statut": "rumeur",
+   "texte": "Selon La Gazzetta dello Sport, citée par Maxifoot, Lyon pourrait mettre fin dès janvier au prêt de l'attaquant belge de 26 ans (5 matchs, 1 but en Ligue 1), victime d'une fracture du péroné début octobre. Le nouvel entraîneur Carlos Vicens souhaiterait un autre profil ; la Juventus chercherait une nouvelle porte de sortie pour le joueur.",
+   "source": {
+    "nom": "Maxifoot (d'après La Gazzetta dello Sport)",
+    "url": "https://news.maxifoot.fr/lyon/openda-renvoye-a-la-juve-foot-467866.htm"
+   },
+   "date": "2026-11-17"
+  },
+  {
+   "joueur": "Jurrien Timber / Piero Hincapié",
+   "de": "Arsenal",
+   "vers": "Arsenal",
+   "championnat": "premier-league",
+   "type": "prolongation",
+   "statut": "avancé",
+   "texte": "Selon Sky Sports, relayé par Maxifoot, Arsenal est en discussions avancées pour prolonger à long terme les défenseurs Jurrien Timber (25 ans, sous contrat jusqu'en 2028) et Piero Hincapié (24 ans, sous contrat jusqu'en 2031), après des accords avec David Raya et Declan Rice.",
+   "source": {
+    "nom": "Maxifoot (d'après Sky Sports)",
+    "url": "https://news.maxifoot.fr/arsenal/timber-et-hincapie-bientot-prolonges-foot-467864.htm"
+   },
+   "date": "2026-11-17"
+  },
+  {
    "joueur": "Frank Zambo Anguissa",
    "de": "Naples",
    "vers": "OM",
@@ -40,12 +97,12 @@
    "type": "transfert",
    "statut": "rumeur",
    "montant": "au moins 6 M€ réclamés par Naples",
-   "texte": "Selon Il Mattino, cité par Top Mercato, l'OM aurait trouvé un accord avec l'entourage du milieu camerounais, 31 ans, en fin de contrat en juin 2027. Naples réclamerait au moins 6 M€ et ne veut pas le laisser partir en janvier sans remplaçant ; à défaut, le transfert pourrait attendre l'été, libre.",
+   "texte": "Selon Il Mattino, cité par Top Mercato (16 novembre), l'OM aurait trouvé un accord avec l'entourage du milieu camerounais, 31 ans, en fin de contrat en juin 2027, Naples réclamant au moins 6 M€. Mais selon Foot Mercato, relayé par Maxifoot le 17 novembre, le joueur ne souhaite pas quitter l'Italie en cours de saison et veut rester à Naples jusqu'à la fin de son contrat ; l'OM pourrait revenir à la charge l'été prochain.",
    "source": {
-    "nom": "Top Mercato (d'après Il Mattino)",
-    "url": "https://www.topmercato.com/2155303-mercato-om-accord-annonce-avec-frank-anguissa-naples-montre-les-crocs/"
+    "nom": "Maxifoot (d'après Foot Mercato)",
+    "url": "https://news.maxifoot.fr/naples/anguissa-pas-de-depart-en-janvier-foot-467860.htm"
    },
-   "date": "2026-11-16"
+   "date": "2026-11-17"
   },
   {
    "joueur": "Joshua Zirkzee / nouvel avant-centre",
@@ -148,42 +205,13 @@
    "date": "2026-11-15"
   },
   {
-   "joueur": "Evanilson",
-   "de": "Bournemouth",
-   "vers": null,
-   "championnat": "premier-league",
-   "type": "transfert",
-   "statut": "rumeur",
-   "montant": "au moins 60 M€ réclamés",
-   "texte": "Selon Daily Briefing, cité par Top Mercato, Arsenal et Manchester City s'intéressent à l'attaquant brésilien de 27 ans. Bournemouth, qui l'avait recruté 48 M€ à Porto en 2024, en demanderait au moins 60 M€.",
-   "source": {
-    "nom": "Top Mercato (d'après Daily Briefing)",
-    "url": "https://www.topmercato.com/2154781-apres-eli-junior-kroupi-arsenal-pret-a-defier-manchester-city-pour-le-transfert-de-son-compere-offensif/"
-   },
-   "date": "2026-11-14"
-  },
-  {
-   "joueur": "Hugo Oliveira",
-   "de": "Strasbourg",
-   "vers": null,
-   "championnat": "ligue-1",
-   "type": "entraîneur",
-   "statut": "rumeur",
-   "texte": "Arrivé en juillet, l'entraîneur de Strasbourg (3 victoires en 10 journées) ne serait pas limogé pendant la trêve, mais une défaite contre Brest le 21 novembre pourrait lui coûter sa place. Selon L'Équipe, relayé par Top Mercato, le club a pris des contacts avec d'autres entraîneurs.",
-   "source": {
-    "nom": "Top Mercato (d'après L'Équipe)",
-    "url": "https://www.topmercato.com/2155049-mercato-strasbourg-5-entraineurs-susceptibles-de-remplacer-hugo-oliveira-confirme-mais-sur-la-sellette/"
-   },
-   "date": "2026-11-14"
-  },
-  {
    "joueur": "Mauricio Pochettino",
    "de": "Sélection des États-Unis",
    "vers": "Man United",
    "championnat": "premier-league",
    "type": "entraîneur",
    "statut": "officiel",
-   "texte": "Manchester United a officialisé vendredi 13 novembre la nomination de Mauricio Pochettino, pour un contrat de deux ans et demi qui courrait jusqu'à l'été 2029. Sa prise de fonctions est fixée au 18 novembre : d'ici là, il dirige encore les États-Unis contre Haïti samedi et mardi, selon RTÉ. Il succède à Michael Carrick, limogé le 12 novembre.",
+   "texte": "Manchester United a officialisé vendredi 13 novembre la nomination de Mauricio Pochettino, pour un contrat de deux ans et demi qui courrait jusqu'à l'été 2029. Sa prise de fonctions était fixée au 18 novembre, après ses derniers matchs à la tête des États-Unis, selon RTÉ. Il succède à Michael Carrick, limogé le 12 novembre.",
    "source": {
     "nom": "RTÉ",
     "url": "https://www.rte.ie/sport/soccer/2026/1113/1599098-pochettino-set-to-join-united-on-two-and-a-half-year-deal/"
@@ -203,35 +231,6 @@
     "url": "https://www.rclens.fr/fr/didier-digard-entraineur-rclens-20261113"
    },
    "date": "2026-11-13"
-  },
-  {
-   "joueur": "Nicolò Tresoldi",
-   "de": "Club Bruges",
-   "vers": "Milan",
-   "championnat": "serie-a",
-   "type": "transfert",
-   "statut": "rumeur",
-   "montant": "environ 60 M€ (prix fixé par Bruges)",
-   "texte": "Selon La Gazzetta dello Sport, citée par Maxifoot, Bruges réclame environ 60 M€ pour son attaquant de 22 ans (14 buts en 17 matchs cette saison), que le Milan envisage pour janvier. Le Bayern et plusieurs clubs anglais sont aussi cités ; le joueur préférerait Milan.",
-   "source": {
-    "nom": "Maxifoot (d'après La Gazzetta dello Sport)",
-    "url": "https://news.maxifoot.fr/milan/bruges-fixe-le-prix-de-tresoldi-a-60-m-euro-foot-467574.htm"
-   },
-   "date": "2026-11-12"
-  },
-  {
-   "joueur": "Endrick",
-   "de": "Real Madrid",
-   "vers": null,
-   "championnat": "liga",
-   "type": "prêt",
-   "statut": "rumeur",
-   "texte": "En manque de temps de jeu, Endrick serait ouvert à un nouveau prêt en janvier et le Real ne s'y opposerait pas. Selon SempreMilan, la Roma devancerait le Milan, et le Sporting CP est aussi cité (FootballTransfers). Selon Tuttomercatoweb (16 novembre, source non précisée), le Milan aurait formulé une offre de 60 M€, pouvant monter à 70 M€, assortie d'une clause de rachat de 80 M€ pour le Real.",
-   "source": {
-    "nom": "LiveScore (revue de presse)",
-    "url": "https://www.livescore.com/en/news/football/team/real-madrid/daily/thursday-real-madrid-daily-news-20261112/"
-   },
-   "date": "2026-11-12"
   }
  ]
 }

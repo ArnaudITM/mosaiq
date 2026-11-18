@@ -1,5 +1,5 @@
 {
-  "maj": "17 novembre 2026, 6h – semaine 10 : matchs du jeudi 12 au dimanche 15 novembre joués et comptés ; Ravens-Chargers (lundi soir, nuit du 16 au 17) : Chargers en tête 17-10 à la mi-temps selon NBC Sports, score final non publié à la rédaction, non compté. Leaders statistiques arrêtés avant la semaine 10.",
+  "maj": "18 novembre 2026, 6h – semaine 10 complète (du jeudi 12 au lundi 16 novembre), dont Ravens-Chargers (23-20) lundi soir ; programme de la semaine 11 (19-23 novembre) selon CBS Sports. Leaders statistiques arrêtés avant la semaine 10.",
   "divisions": [
     {
       "nom": "AFC Est",
@@ -54,7 +54,7 @@
         {
           "equipe": "Ravens",
           "v": 4,
-          "d": 5,
+          "d": 6,
           "n": 0
         }
       ]
@@ -111,7 +111,7 @@
         },
         {
           "equipe": "Chargers",
-          "v": 0,
+          "v": 1,
           "d": 8,
           "n": 0
         }
@@ -441,24 +441,118 @@
       "ext": "Steelers",
       "score_dom": 38,
       "score_ext": 18
+    },
+    {
+      "date": "2026-11-16",
+      "dom": "Ravens",
+      "ext": "Chargers",
+      "score_dom": 20,
+      "score_ext": 23
     }
   ],
   "a_venir": {
-    "semaine": "Semaine 10",
+    "semaine": "Semaine 11",
     "matchs": [
       {
-        "date": "2026-11-17",
+        "date": "2026-11-20",
         "heure_paris": "02:15",
-        "dom": "Ravens",
-        "ext": "Chargers",
+        "dom": "Texans",
+        "ext": "Colts",
+        "tv_us": "Prime Video (TNF)"
+      },
+      {
+        "date": "2026-11-22",
+        "heure_paris": "19:00",
+        "dom": "Panthers",
+        "ext": "Ravens",
+        "tv_us": "FOX"
+      },
+      {
+        "date": "2026-11-22",
+        "heure_paris": "19:00",
+        "dom": "Chiefs",
+        "ext": "Cardinals",
+        "tv_us": "Paramount+ (CBS)"
+      },
+      {
+        "date": "2026-11-22",
+        "heure_paris": "19:00",
+        "dom": "Bills",
+        "ext": "Dolphins",
+        "tv_us": "Paramount+ (CBS)"
+      },
+      {
+        "date": "2026-11-22",
+        "heure_paris": "19:00",
+        "dom": "Bears",
+        "ext": "Saints",
+        "tv_us": "FOX"
+      },
+      {
+        "date": "2026-11-22",
+        "heure_paris": "19:00",
+        "dom": "Eagles",
+        "ext": "Steelers",
+        "tv_us": "Paramount+ (CBS)"
+      },
+      {
+        "date": "2026-11-22",
+        "heure_paris": "19:00",
+        "dom": "Lions",
+        "ext": "Buccaneers",
+        "tv_us": "FOX"
+      },
+      {
+        "date": "2026-11-22",
+        "heure_paris": "19:00",
+        "dom": "Cowboys",
+        "ext": "Titans",
+        "tv_us": "FOX"
+      },
+      {
+        "date": "2026-11-22",
+        "heure_paris": "22:05",
+        "dom": "Chargers",
+        "ext": "Jets",
+        "tv_us": "FOX"
+      },
+      {
+        "date": "2026-11-22",
+        "heure_paris": "22:25",
+        "dom": "Giants",
+        "ext": "Jaguars",
+        "tv_us": "Paramount+ (CBS)"
+      },
+      {
+        "date": "2026-11-22",
+        "heure_paris": "22:25",
+        "dom": "Broncos",
+        "ext": "Raiders",
+        "tv_us": "Paramount+ (CBS)"
+      },
+      {
+        "date": "2026-11-23",
+        "heure_paris": "02:20",
+        "dom": "49ers",
+        "ext": "Vikings",
+        "tv_us": "NBC (SNF)",
+        "lieu": "Mexico (Estadio Banorte)"
+      },
+      {
+        "date": "2026-11-24",
+        "heure_paris": "02:15",
+        "dom": "Commanders",
+        "ext": "Bengals",
         "tv_us": "ESPN (MNF)"
       }
     ],
     "exempts": [
-      "Bears",
-      "Broncos",
-      "Eagles",
-      "Buccaneers"
+      "Falcons",
+      "Browns",
+      "Packers",
+      "Rams",
+      "Patriots",
+      "Seahawks"
     ]
   },
   "infos": [
@@ -503,11 +597,11 @@
       }
     },
     {
-      "titre": "Monday Night : les Chargers devant à la pause",
-      "texte": "Encore sans victoire, les Chargers menaient 17-10 à Baltimore à la mi-temps lundi soir, selon NBC Sports, avec des touchdowns à la course de Justin Herbert et Omarion Hampton ; Jacoby Brissett effectuait sa première titularisation avec les Ravens. Le score final n'était pas publié à la rédaction.",
+      "titre": "Les Chargers décrochent leur première victoire",
+      "texte": "Les Chargers ont battu les Ravens 23-20 lundi soir à Baltimore et signent leur premier succès de la saison (1-8), selon l'AP reprise par ABC News. Justin Herbert a inscrit un touchdown à la course de 22 yards ; Los Angeles a dominé au sol (160 yards contre 16). Jacoby Brissett a lancé pour 340 yards pour ses débuts avec Baltimore, qui concède une cinquième défaite de suite (4-6).",
       "source": {
-        "nom": "NBC Sports – ProFootballTalk",
-        "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/monday-night-football-chargers-lead-ravens-17-10-at-halftime"
+        "nom": "ABC News (AP)",
+        "url": "https://abcnews.com/Sports/wireStory/chargers-bully-ravens-line-scrimmage-earn-win-season-138199610"
       }
     }
   ],
@@ -581,8 +675,16 @@
       "url": "https://www.bengals.com/news/bengals-steelers-recap-postgame-notes-quotes-stats-week-10-2026-sunday-night-football"
     },
     {
-      "nom": "NBC Sports – Chargers-Ravens à la mi-temps",
-      "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/monday-night-football-chargers-lead-ravens-17-10-at-halftime"
+      "nom": "ABC News (AP) – Chargers-Ravens 23-20",
+      "url": "https://abcnews.com/Sports/wireStory/chargers-bully-ravens-line-scrimmage-earn-win-season-138199610"
+    },
+    {
+      "nom": "CBS Baltimore – Ravens-Chargers",
+      "url": "https://www.cbsnews.com/baltimore/news/baltimore-ravens-monday-night-football-los-angeles-chargers/"
+    },
+    {
+      "nom": "CBS Sports – Programme semaine 11 2026",
+      "url": "https://www.cbssports.com/nfl/schedule/2026/regular/11/"
     }
   ]
 }
