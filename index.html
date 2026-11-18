@@ -538,6 +538,11 @@ html.mm-open{overflow:hidden}
 .frz{list-style:none;margin:10px 0 0;padding:0 0 0 22px;position:relative;display:grid;gap:14px}.frz::before{content:"";position:absolute;left:7px;top:6px;bottom:6px;width:2px;background:var(--line)}.frz li{position:relative}.frz i{position:absolute;left:-22px;top:2px;width:12px;height:12px;border-radius:50%;border:2px solid var(--fc);background:var(--surface)}.frz i.f{background:var(--fc)}.frz b{display:block;font-size:14.5px}.frz span{display:block;font-size:13.5px;color:var(--soft);line-height:1.4}
 .geo-intro{margin-bottom:14px!important}
 .bx{width:100%;border-collapse:collapse;margin-top:8px;font-size:14px}.bx td{padding:7px 4px;border-bottom:1px dashed var(--line)}.bx td small{display:block;font:11px var(--mono);color:var(--faint)}.bx td:first-child{text-align:left}.bx .r{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}.bxbar{width:30%}.bxbar i{display:block;height:8px;border-radius:4px;min-width:2px}
+.afh{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:14px;margin-top:14px;align-items:stretch}.afh-map .fmap,.afh-map .focus{max-width:520px;margin:6px auto 0}
+.afh-list{display:flex;flex-direction:column}.afh-i{display:block;text-decoration:none;color:inherit;border-bottom:1px dashed var(--line);padding:10px 0}.afh-i b{display:block;font-family:var(--display);font-size:16.5px;line-height:1.3;margin-top:3px}.afh-i:hover b{color:var(--c-af)}
+.afh-t{margin-top:auto;padding-top:14px;display:flex;flex-wrap:wrap;gap:8px 14px;font-size:13px;font-weight:600}.afh-t a{color:inherit;text-decoration:none;display:inline-flex;align-items:center;gap:6px}
+@media (max-width:820px){.afh{grid-template-columns:minmax(0,1fr)}.afh-list{display:none}}
+.afh-leg{display:flex;gap:16px;flex-wrap:wrap;font-size:12.5px;color:var(--soft);margin-top:10px;justify-content:center}.afh-leg span{display:inline-flex;align-items:center;gap:6px}.afh-leg i{width:12px;height:12px;border-radius:3px;display:inline-block}
 .cag-compact .cag p{display:none}.cag-compact .cag{padding:6px 0}
 
 /* géopolitique enrichie */
@@ -1298,18 +1303,24 @@ function pageAccueil(){
   return h;
 }
 function franceTabs(a){var t=[['france','Actualité nationale','france'],['regions','Régions','regions'],['outremer','Outre-mer','outremer']];return '<div class="tabs" style="margin-top:12px">'+t.map(function(x){return '<a href="#'+x[0]+'"'+(x[0]===a?' aria-current="page"':'')+' style="display:inline-flex;align-items:center;gap:6px">'+ico(x[2]).replace('<svg ','<svg width="16" height="16" ')+esc(x[1])+'</a>';}).join('')+'</div>';}
+function afriqueHero(){var e=state.current,A=arts('afrique');if(!A.length)return '';var m=africaMap(e);
+  var list=A.map(function(a){var p=(a.pays||[])[0],n=p?(FR[ALIAS[p]||p]||p):'Afrique';return '<a href="#a-'+a.id+'" class="afh-i"><span class="tag" style="color:var(--c-af)">'+esc(n)+'</span><b>'+esc(a.titre)+'</b></a>';}).join('');
+  var sv=suivisOf('afrique'),tg=sv.length?'<div class="afh-t">'+sv.map(function(s){return '<a href="#suivi-'+esc(s.id)+'">'+esc(s.titre.split(' :')[0])+' '+tendBadge(s.tendance,1)+'</a>';}).join('')+'</div>':'';
+  return '<div class="afh"><div class="panel afh-map"><h3>Le continent ce matin</h3><p class="sub">Touchez ou cliquez un pays coloré pour lire son actualité</p>'+m+'<div class="afh-leg"><span><i style="background:var(--c-af)"></i>Actualité du jour</span><span><i style="background:var(--c-geo)"></i>Dossier géopolitique suivi</span></div></div><div class="panel afh-list"><h3>Les sujets du jour</h3>'+list+tg+'</div></div>';}
 function pageRubrique(id){
   var r=rub(id),h=titleRow(r.i,r.c,state.current.date_longue,id==='outremer'?'France · Outre-mer':r.nom);
   if(id==='france'||id==='outremer')h+=franceTabs(id);
   if(id==='culture')h+='<div style="margin-top:14px">'+tessCard()+'</div>';
+  if(id==='afrique')h+=afriqueHero();
   h+='<div class="artgrid">'+arts(id).map(function(a){return '<article class="panel"><span class="tag" style="color:'+r.c+'">'+esc(a.territoire||(a.discipline?discLabel(a.discipline):r.nom))+'</span><h2 style="font-family:var(--display);font-size:22px;line-height:1.2;margin:6px 0 8px"><a href="#a-'+a.id+'" style="text-decoration:none">'+esc(a.titre)+'</a></h2><p style="font-family:var(--read);font-size:16.5px;margin:0 0 8px">'+esc(a.resume)+'</p><a href="#a-'+a.id+'" style="font-size:13px;font-weight:600;color:'+r.c+'">Lire l\'article complet →</a></article>';}).join('')+'</div>'+modules(id);
   if(id==='eco')h+='<div style="margin-top:20px">'+marketChart()+'</div>';
   if(id==='afrique')h+=afriqueMarches();
   if(id==='tech')h+=techBelow();
   return h;
 }
-var MODS={france:[['En régions','Dans les Outre-mer'],['Budget']],outremer:[['Les territoires du jour','Agenda des Outre-mer']],eco:[['Agenda des prochains jours',['Indices','Matières premières']]],afrique:[['Les pays à la une','Éliminatoires CAN'],['Géopolitique du continent']],tech:[['Les géants en bourse','Agenda tech'],['L\'IPO']],culture:[['Agenda culturel']]};
-function modules(id){var html=aside(id);if(!html)return '';var d=document.createElement('div');d.innerHTML=html;var P=[].filter.call(d.children,function(x){return x.classList.contains('panel');}),used=[];
+var MODS={france:[['En régions','Dans les Outre-mer'],['Budget']],outremer:[['Les territoires du jour','Agenda des Outre-mer']],eco:[['Agenda des prochains jours',['Indices','Matières premières']]],afrique:[['Géopolitique du continent','Éliminatoires CAN']],tech:[['Les géants en bourse','Agenda tech'],['L\'IPO']],culture:[['Agenda culturel']]};
+var MODSKIP={afrique:['Les pays à la une']};
+function modules(id){var html=aside(id);if(!html)return '';var d=document.createElement('div');d.innerHTML=html;var P=[].filter.call(d.children,function(x){return x.classList.contains('panel');}),used=[];(MODSKIP[id]||[]).forEach(function(k){P.forEach(function(x,i){var t=(x.querySelector('h3')||{}).textContent||'';if(t.indexOf(k)===0)used.push(i);});});
   function take(k){for(var i=0;i<P.length;i++){if(used.indexOf(i)>=0)continue;var t=(P[i].querySelector('h3')||{}).textContent||'';if(t.toLowerCase().indexOf(k.toLowerCase())===0){used.push(i);return P[i].outerHTML;}}return '';}
   var rows=[];(MODS[id]||[]).forEach(function(r){var cells=r.map(function(c){return (typeof c==='string'?[c]:c).map(take).join('');}).filter(Boolean);if(cells.length)rows.push(cells);});
   var rest=P.filter(function(x,i){return used.indexOf(i)<0;}).map(function(x){return x.outerHTML;});for(var i=0;i<rest.length;i+=2)rows.push(rest.slice(i,i+2));
