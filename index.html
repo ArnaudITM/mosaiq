@@ -408,7 +408,9 @@ abbr.gl:hover::after,abbr.gl:focus::after{content:attr(data-def);position:absolu
   .jump button svg{color:var(--jc)}
   .mfold{display:flex!important;grid-template-columns:none!important;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;margin-right:-16px;padding-right:16px;padding-bottom:4px;scrollbar-width:none}
   .mfold::-webkit-scrollbar{display:none}
-  .mfold>.card{flex:0 0 82%;scroll-snap-align:start}
+  .mfold>.card,.mfold>.suivi{flex:0 0 82%;scroll-snap-align:start}
+  .mfold>:only-child{flex-basis:100%!important}.mfold .suivi>p{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+  .zsec{margin-top:22px!important}.zsec h2{font-size:20px}
   .swipe{display:block!important}
   .mfold .card p{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
   .mmore{display:block;width:100%;margin-top:8px;font:600 13.5px var(--body);color:var(--ink);background:var(--surface);border:1px dashed var(--line);border-radius:10px;padding:9px;cursor:pointer}
@@ -511,12 +513,48 @@ html.mm-open{overflow:hidden}
 .inst-steps li{margin:3px 0}
 .inst-steps b{display:inline!important;color:var(--ink);font-size:inherit;margin:0}
 @media (prefers-reduced-motion:reduce){.mm,.inst{animation:none;transition:none}}
+.geo-intro{font:700 12px var(--body);letter-spacing:.08em;text-transform:uppercase;color:var(--soft);margin:34px 0 -8px}
 .swipe{display:none;font:600 12px var(--body);color:var(--soft);margin:-4px 0 8px}
 .flag{font-weight:600;color:var(--warm);text-transform:none;letter-spacing:0}
 .verif-line{display:block;margin-top:28px;padding:12px 14px;border:1px dashed var(--line);border-radius:10px;font-size:13.5px;color:var(--soft);text-decoration:none}
 .verif-line b{color:var(--ink)}
 .verif-line span{color:var(--ink);font-weight:600;white-space:nowrap}
 .vlist{display:grid;gap:10px}
+/* géopolitique enrichie */
+.tend{display:inline-flex;align-items:center;gap:5px;font:700 12px var(--body);color:var(--tc);border:1px solid color-mix(in srgb,var(--tc) 45%,transparent);background:color-mix(in srgb,var(--tc) 10%,transparent);border-radius:999px;padding:3px 10px 3px 8px;white-space:nowrap;width:max-content}
+.tend i{font-style:normal;font-size:13px}.tend.sm{font-size:11px;padding:2px 8px 2px 6px}
+.tend-box{margin-top:12px;display:grid;gap:6px}.tend-box p{margin:0;font-size:14px;color:var(--soft)}
+.gmap{aspect-ratio:16/11}.gmap path.hit{fill:color-mix(in srgb,var(--hc) 38%,var(--land))}.gmap .hz{color:var(--ink);opacity:.45;pointer-events:none;stroke:none}
+.gmap .rep rect,.gmap .rep path,.gmap .rep circle{fill:var(--surface);stroke:var(--ink);stroke-width:1.2;vector-effect:non-scaling-stroke}.gmap .rep-capitale rect{fill:var(--ink)}
+.gmap .rep text{fill:var(--ink);font-family:var(--body);font-weight:600;paint-order:stroke;stroke:var(--sea);stroke-width:3px;stroke-linejoin:round;vector-effect:non-scaling-stroke;pointer-events:none}
+.gmap .pt circle{fill:var(--hc)}.gmap .pt.on circle{fill:var(--ink)}
+.gm-wrap{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:18px;align-items:start}
+.gm-key{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;color:var(--soft);margin-top:10px}.gm-key span{display:inline-flex;align-items:center;gap:6px}
+.gm-key i{display:inline-block;width:10px;height:10px;border:1.5px solid var(--ink);background:var(--surface)}.gm-key .k-pt{border-radius:50%;background:var(--zc,var(--c-geo));border-color:var(--surface);width:12px;height:12px}.gm-key .k-cap{background:var(--ink);width:8px;height:8px}.gm-key .k-det{transform:rotate(45deg);width:8px;height:8px}.gm-key .k-site{border-radius:50%;width:8px;height:8px}.gm-key .k-hz{border:1px solid var(--line);background:repeating-linear-gradient(45deg,var(--soft) 0 1.5px,transparent 1.5px 4px)}
+.gm-note{font-size:13px;color:var(--soft);margin:8px 0 0}
+.gm-leg{list-style:none;margin:0;padding:0;display:grid;gap:4px}.gm-leg li{display:grid;grid-template-columns:24px minmax(0,1fr);gap:10px;padding:8px;border-radius:10px;transition:background .15s}.gm-leg li.on{background:color-mix(in srgb,var(--zc,var(--c-geo)) 12%,transparent)}
+.gm-leg .n,.zb .n,.zb-tl .n{display:inline-grid;place-items:center;width:22px;height:22px;border-radius:50%;background:var(--zc,var(--c-geo));color:#fff;font:700 12px var(--body)}
+.gm-leg time{display:block;font:12px var(--mono);color:var(--soft)}.gm-leg b{display:block;font-size:15px;line-height:1.3;margin:2px 0}.gm-leg p{margin:0;font-size:13.5px;color:var(--soft)}.gm-leg a{color:var(--faint);font-size:12px}
+.net-wrap{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:18px;align-items:start}
+.net-fig{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:8px}
+.net{display:block;width:100%;height:auto}.net .ed{fill:none;stroke-width:2.2;transition:opacity .2s}.net .ed.dim{opacity:.12}.net .ed.on{stroke-width:3}
+.net .nd{cursor:pointer}.net .nd circle{fill:var(--surface);stroke:var(--zc,var(--c-geo));stroke-width:3}.net .nd-personne circle{stroke-dasharray:3 2}.net .nd-groupe_arme circle{fill:color-mix(in srgb,var(--neg) 18%,var(--surface))}.net .nd-organisation circle{fill:color-mix(in srgb,var(--z-eu) 15%,var(--surface))}
+.net .nd text{font:600 12.5px var(--body);fill:var(--ink);paint-order:stroke;stroke:var(--surface);stroke-width:4px;stroke-linejoin:round}.net .nd.on circle{fill:var(--zc,var(--c-geo))}.net .nd.dim{opacity:.35}
+.net-key{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;color:var(--soft);padding:4px 6px}.net-key span{display:inline-flex;align-items:center;gap:6px}
+.net-info{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px;min-height:120px}.net-info .tag{color:var(--zc,var(--c-geo))}.net-info b{display:block;font-family:var(--display);font-size:18px;margin:2px 0 4px}.net-info p{margin:0 0 8px;font-size:14px;color:var(--soft)}.net-info ul{margin:0;padding:0;list-style:none;display:grid;gap:6px;font-size:13.5px}
+.net-t{display:inline-block;font:700 10.5px var(--body);text-transform:uppercase;letter-spacing:.04em;color:var(--tc);margin-right:4px}
+.net-list{margin-top:10px;font-size:14px}.net-list summary{cursor:pointer;font-weight:600;color:var(--soft)}.net-list ul{list-style:none;padding:0;margin:10px 0 0;display:grid;gap:8px}.net-list li{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px}.net-list b{display:block}.net-list p{margin:2px 0 0;color:var(--soft);font-size:13.5px}.net-list a{color:var(--faint);font-size:12px}
+.propos{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px}
+.prop{background:var(--surface);border:1px solid var(--line);border-top:4px solid var(--zc,var(--c-geo));border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:6px}
+.prop blockquote{margin:0;font-family:var(--read);font-size:18px;line-height:1.45;font-style:italic}
+.prop-who b{display:block;font-size:14.5px}.prop-who span{font-size:12.5px;color:var(--soft)}
+.prop h4{margin:8px 0 0;font:700 11px var(--body);letter-spacing:.06em;text-transform:uppercase;color:var(--soft)}.prop p{margin:0;font-size:14.5px;line-height:1.5}.prop ul{margin:0;padding-left:16px;display:grid;gap:4px;font-size:14px}.prop-src{margin-top:auto;padding-top:6px;font-size:12px;color:var(--faint)}
+.zb{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:16px;align-items:start}
+.zb-rows{list-style:none;margin:0;padding:0;display:grid;gap:4px}.zb-rows a{display:grid;grid-template-columns:24px minmax(0,1fr);gap:10px;text-decoration:none;color:inherit;padding:8px;border-radius:10px}.zb-rows li.on a,.zb-rows a:hover{background:color-mix(in srgb,var(--zc,var(--c-geo)) 10%,transparent)}.zb-rows b{display:block;font-size:15px;line-height:1.3;margin-bottom:4px}.zb-rows p{margin:4px 0 0;font-size:13.5px;color:var(--soft)}
+.zb-tl{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:8px}.zb-tl li{display:grid;grid-template-columns:62px 22px minmax(0,1fr);gap:8px;align-items:center;font-size:14px}.zb-tl time{font:12px var(--mono);color:var(--soft)}.zb-tl a{color:inherit;text-decoration:none}.zb-tl a:hover{text-decoration:underline}
+.suivi .tend{margin-top:-2px}
+@media (max-width:820px){.gm-wrap,.net-wrap,.zb{grid-template-columns:1fr}.gmap{aspect-ratio:4/3}.prop blockquote{font-size:17px}}
+
 .legal{max-width:72ch;margin-top:18px}.lg-sec{border-top:1px solid var(--line);padding:16px 0 6px}.lg-sec h2{font-size:18px;margin:0 0 10px}.lg-sec p,.lg-sec li{font-family:var(--read);font-size:16.5px;line-height:1.6;margin:0 0 .8em}.lg-sec ul{padding-left:1.1em;margin:0}.lg-sec a{color:var(--ink);text-decoration:underline}.lg-row{display:grid;grid-template-columns:minmax(120px,210px) 1fr;gap:12px;padding:6px 0;border-bottom:1px dashed var(--line);font-size:15px}.lg-row span{color:var(--soft)}.lg-row b{font-weight:600;overflow-wrap:anywhere}.lg-note{font-size:14px!important;color:var(--soft);margin-top:10px!important}.lg-maj{font-size:13px;color:var(--soft);margin-top:14px}.foot-legal a{color:var(--ink)}.ai-note{font-size:13px;color:var(--soft);margin:8px 0 0}.ai-note a{color:var(--soft);text-decoration:underline}
 @media (max-width:560px){.lg-row{grid-template-columns:1fr;gap:2px}}
 .vitem{display:block;text-decoration:none;color:inherit;background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--warm);border-radius:10px;padding:12px 14px}
@@ -772,7 +810,7 @@ function zbadge(zid){var z=zone(zid);return z?'<span class="zbadge" style="--zc:
 function zoneTabs(a){return '<nav class="ztabs" aria-label="Sous-régions">'+[{id:'geopolitique',nom:'Vue d\'ensemble',c:'var(--c-geo)'}].concat(ZONES).map(function(z){var href=z.id==='geopolitique'?'#geopolitique':'#geo-'+z.id;return '<a href="'+href+'" style="--zc:'+z.c+'"'+(z.id===a?' aria-current="page"':'')+'><i></i>'+esc(z.nom)+'</a>';}).join('')+'</nav>';}
 function suivisOf(zid){var s=state.sp.suivis;return s&&s.zones&&s.zones[zid]||[];}
 function findSuivi(id){var s=state.sp.suivis;if(!s)return null;for(var k in s.zones){var l=s.zones[k];for(var i=0;i<l.length;i++)if(l[i].id===id)return {s:l[i],z:k};}return null;}
-function suiviCard(s,zid,showZone){var z=zone(zid),c=s.chronologie&&s.chronologie[0];return '<a class="suivi" href="#suivi-'+esc(s.id)+'" style="--zc:'+z.c+'">'+(showZone?zbadge(zid):'<span class="tag" style="color:'+z.c+'">Dossier suivi</span>')+'<b style="font-family:var(--display);font-size:17px">'+esc(s.titre)+'</b><p style="margin:0;font-size:14px">'+esc(s.accroche)+'</p>'+(c?'<div class="last"><time>'+esc(fmtDay(c.date))+'</time>'+esc(c.titre)+'</div>':'')+'<span class="go" style="color:'+z.c+'">Ouvrir le dossier →</span></a>';}
+function suiviCard(s,zid,showZone){var z=zone(zid),c=s.chronologie&&s.chronologie[0];return '<a class="suivi" href="#suivi-'+esc(s.id)+'" style="--zc:'+z.c+'">'+(showZone?zbadge(zid):'<span class="tag" style="color:'+z.c+'">Dossier suivi</span>')+'<b style="font-family:var(--display);font-size:17px">'+esc(s.titre)+'</b>'+tendBadge(s.tendance,1)+'<p style="margin:0;font-size:14px">'+esc(s.accroche)+'</p>'+(c?'<div class="last"><time>'+esc(fmtDay(c.date))+'</time>'+esc(c.titre)+'</div>':'')+'<span class="go" style="color:'+z.c+'">Ouvrir le dossier →</span></a>';}
 var MC=['janv.','févr.','mars','avr.','mai','juin','juil.','août','sept.','oct.','nov.','déc.'];
 function fmtDay(d){var p=String(d).split('-');if(p.length<3)return fmtMonth(d);return parseInt(p[2],10)+' '+MC[parseInt(p[1],10)-1]+(p[0]!=='2026'?' '+p[0]:'');}
 function sujetCard(g,date){var zid=geoZone(g),z=zone(zid);return '<a class="card" href="#g-'+g.id+'" style="border-top:4px solid '+z.c+'">'+(g.carte?'<div style="max-height:150px;overflow:hidden;border-radius:8px">'+g.carte+'</div>':'')+zbadge(zid)+'<b>'+esc(g.titre)+'</b><p>'+esc((date?date+' · ':'')+g.regards.length+' regards : '+g.regards.map(function(r){return r.lecture||r.region;}).join(' · '))+'</p><span class="go" style="color:'+z.c+'">Comparer les regards →</span></a>';}
@@ -782,21 +820,101 @@ function pageZone(zid){
   var names=[];sv.forEach(function(s){(s.pays||[]).slice(0,2).forEach(function(n){if(names.indexOf(n)<0)names.push(n);});});today.forEach(function(g){var n=ALIAS[g.pays[0]]||g.pays[0];if(ZMAP[n]===zid&&names.indexOf(n)<0)names.push(n);});
   var h='<a class="crumb" href="#geopolitique">← Géopolitique</a>'+zoneTabs(zid);
   h+='<div class="grid2" style="--zc:'+z.c+'"><div class="zhero"><span class="eyebrow">Géopolitique · '+esc(e.date_longue)+'</span><h1 class="page" style="margin-top:4px">'+esc(z.nom)+'</h1><p class="lede">'+esc(z.desc)+'</p></div><div class="panel">'+focusMap(names,z.c,6,Math.min(names.length,3)||1)+'<p class="sub" style="margin:8px 0 0">Les pays des sujets et dossiers suivis de la zone.</p></div></div>';
+  h+=zoneBoard(zid,z);
   h+='<div class="sec-h">'+hico('geopolitique',z.c)+'<h2>Aujourd\'hui</h2></div>';
-  h+=today.length?'<div class="cards">'+today.map(function(g){return sujetCard(g);}).join('')+'</div>':'<div class="panel"><p style="margin:0">Pas de sujet de géopolitique majeur sur cette zone dans l\'édition du jour. Retrouvez ci-dessous les dossiers suivis et les sujets des jours précédents.</p></div>';
-  if(zid==='afrique'){var af=(e.articles||[]).filter(function(x){return x.rubrique==='afrique';});if(af.length)h+='<div class="sec-h">'+hico('afrique',z.c)+'<h2>L\'actualité africaine du jour</h2></div><div class="cards">'+af.slice(0,6).map(function(x){return card('#a-'+x.id,'Afrique',z.c,x.titre,(x.resume||x.chapeau||'').split('. ')[0]+'.','Lire');}).join('')+'</div>';}
-  if(sv.length)h+='<div class="sec-h">'+hico('archives',z.c)+'<h2>Les dossiers suivis</h2></div><div class="cards">'+sv.map(function(s){return suiviCard(s,zid);}).join('')+'</div>';
-  var rec=recentSujets(zid,e.date);if(rec.length)h+='<div class="sec-h">'+hico('calendrier',z.c)+'<h2>Les jours précédents</h2></div><div class="cards">'+rec.slice(0,6).map(function(r){return '<a class="card" href="#edition-'+r.d+'"><span class="tag" style="color:'+z.c+'">'+esc(r.dl)+'</span><b>'+esc(r.g.titre)+'</b><p>'+esc(r.g.chapeau.split('. ')[0]+'.')+'</p><span class="go" style="color:'+z.c+'">Voir l\'édition →</span></a>';}).join('')+'</div>';
+  h+=today.length?'<div class="cards mfold">'+today.map(function(g){return sujetCard(g);}).join('')+'</div>':'<div class="panel"><p style="margin:0">Pas de sujet de géopolitique majeur sur cette zone dans l\'édition du jour. Retrouvez ci-dessous les dossiers suivis et les sujets des jours précédents.</p></div>';
+  if(zid==='afrique'){var af=(e.articles||[]).filter(function(x){return x.rubrique==='afrique';});if(af.length)h+='<div class="sec-h">'+hico('afrique',z.c)+'<h2>L\'actualité africaine du jour</h2></div><div class="cards mfold">'+af.slice(0,6).map(function(x){return card('#a-'+x.id,'Afrique',z.c,x.titre,(x.resume||x.chapeau||'').split('. ')[0]+'.','Lire');}).join('')+'</div>';}
+  if(sv.length)h+='<div class="sec-h">'+hico('archives',z.c)+'<h2>Les dossiers suivis</h2></div><div class="cards mfold">'+sv.map(function(s){return suiviCard(s,zid);}).join('')+'</div>';
+  var rec=recentSujets(zid,e.date);if(rec.length)h+='<div class="sec-h">'+hico('calendrier',z.c)+'<h2>Les jours précédents</h2></div><div class="cards mfold">'+rec.slice(0,6).map(function(r){return '<a class="card" href="#edition-'+r.d+'"><span class="tag" style="color:'+z.c+'">'+esc(r.dl)+'</span><b>'+esc(r.g.titre)+'</b><p>'+esc(r.g.chapeau.split('. ')[0]+'.')+'</p><span class="go" style="color:'+z.c+'">Voir l\'édition →</span></a>';}).join('')+'</div>';
   if(zid==='afrique')h+='<a class="dz-card" href="#afrique" style="margin-top:22px"><span class="tag" style="color:var(--c-af)">Rubrique Afrique</span><b>Économie, société, sport et marchés du continent</b><p>La rubrique Afrique garde l\'actualité du quotidien ; la géopolitique (Sahel, conflits, diplomatie) est suivie ici.</p><span class="go" style="color:var(--c-af)">Aller à la rubrique Afrique →</span></a>';
-  return h;
+  return foldify(h);
 }
+/* ---------- géopolitique enrichie : cartes de dossier, Qui est qui, propos, tendances ---------- */
+var TEND={escalade:['Escalade','↗','var(--neg)'],statu_quo:['Statu quo','→','var(--soft)'],detente:['Détente','↘','var(--pos)']};
+function tendBadge(t,small){if(!t||!TEND[t.etat])return '';var x=TEND[t.etat];return '<span class="tend'+(small?' sm':'')+'" style="--tc:'+x[2]+'" title="Tendance de la semaine"><i>'+x[1]+'</i>'+x[0]+'</span>';}
+var GM={},gmN=0;
+function gmap(cfg){var id='gm'+(++gmN);GM[id]=cfg;return '<div class="gmap focus" id="'+id+'" style="--hc:'+cfg.color+'" role="img" aria-label="'+esc(cfg.aria||'Carte')+'"><div class="tip"></div></div>';}
+function mountGmaps(){var boxes=document.querySelectorAll('.gmap[id]');if(!boxes.length)return;
+  (baseMap?Promise.resolve(baseMap):fetch('monde.svg').then(function(r){return r.text();}).then(function(t){baseMap=t;return t;})).then(function(svgText){
+    [].forEach.call(boxes,function(box){var cfg=GM[box.id];if(!cfg||box._done)return;box._done=1;box.insertAdjacentHTML('afterbegin',svgText);
+      var svg=box.querySelector('svg'),NS='http://www.w3.org/2000/svg',names=(cfg.names||[]).map(function(n){return ALIAS[n]||n;}),hatch=cfg.hatch||[];
+      var P=(cfg.points||[]).filter(function(p){return p.x!=null;}),R=(cfg.reperes||[]).filter(function(p){return p.x!=null;});
+      var all=P.concat(R),bb;
+      if(all.length){var xs=all.map(function(p){return p.x;}),ys=all.map(function(p){return p.y;});bb={x:Math.min.apply(null,xs),y:Math.min.apply(null,ys),x2:Math.max.apply(null,xs),y2:Math.max.apply(null,ys)};}
+      [].forEach.call(svg.querySelectorAll('path'),function(p){var n=p.getAttribute('data-n');if(names.indexOf(n)>=0)p.classList.add('hit');
+        if(hatch.indexOf(n)>=0){var q=(p.getAttribute('data-b')||'').split(',').map(Number);if(!bb&&q.length===4)bb={x:q[0],y:q[1],x2:q[0]+q[2],y2:q[1]+q[3]};}});
+      if(!bb){var p0=svg.querySelector('path[data-n="'+names[0]+'"]');if(!p0)return;var q=(p0.getAttribute('data-b')||'').split(',').map(Number);bb={x:q[0],y:q[1],x2:q[0]+q[2],y2:q[1]+q[3]};}
+      var ar=box.clientWidth/box.clientHeight||1.6,w=Math.max((bb.x2-bb.x)*1.35,26),hh=Math.max((bb.y2-bb.y)*1.35,16);if(w/hh<ar)w=hh*ar;else hh=w/ar;
+      var cx=(bb.x+bb.x2)/2,cy=(bb.y+bb.y2)/2;svg.setAttribute('viewBox',[cx-w/2,cy-hh/2,w,hh].map(function(v){return v.toFixed(2);}).join(' '));svg.setAttribute('preserveAspectRatio','xMidYMid meet');
+      var u=w/100;
+      if(hatch.length){var defs=document.createElementNS(NS,'defs'),pid='h'+box.id;defs.innerHTML='<pattern id="'+pid+'" patternUnits="userSpaceOnUse" width="'+(u*1.4)+'" height="'+(u*1.4)+'" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="'+(u*1.4)+'" stroke="currentColor" stroke-width="'+(u*.35)+'"/></pattern>';svg.insertBefore(defs,svg.firstChild);
+        [].forEach.call(svg.querySelectorAll('path'),function(p){if(hatch.indexOf(p.getAttribute('data-n'))>=0){var c=p.cloneNode(false);c.removeAttribute('data-n');c.setAttribute('class','hz');c.style.fill='url(#'+pid+')';svg.appendChild(c);}});}
+      R.forEach(function(r){var g=document.createElementNS(NS,'g');g.setAttribute('class','rep rep-'+(r.type||'site'));var s=u*1.1,m;
+        if(r.type==='capitale'){m=document.createElementNS(NS,'rect');m.setAttribute('x',r.x-s/2);m.setAttribute('y',r.y-s/2);m.setAttribute('width',s);m.setAttribute('height',s);}
+        else if(r.type==='detroit'){m=document.createElementNS(NS,'path');m.setAttribute('d','M'+r.x+','+(r.y-s*.8)+'L'+(r.x+s*.8)+','+r.y+'L'+r.x+','+(r.y+s*.8)+'L'+(r.x-s*.8)+','+r.y+'Z');}
+        else{m=document.createElementNS(NS,'circle');m.setAttribute('cx',r.x);m.setAttribute('cy',r.y);m.setAttribute('r',s*.5);}
+        g.appendChild(m);var near=P.some(function(q){return Math.abs(q.x-r.x)<u*3.2&&Math.abs(q.y-r.y)<u*3.2;});if(near){svg.appendChild(g);return;}var t=document.createElementNS(NS,'text');t.setAttribute('x',r.x+s*.9);t.setAttribute('y',r.y+u*.9);t.setAttribute('font-size',u*2.6);t.textContent=r.nom.replace(/\s*\(.*\)$/,'');g.appendChild(t);svg.appendChild(g);});
+      P.forEach(function(p,i){var g=document.createElementNS(NS,'g');g.setAttribute('class','pt');g.setAttribute('data-i',i);g.setAttribute('tabindex','0');var r=u*2.2;
+        var c=document.createElementNS(NS,'circle');c.setAttribute('cx',p.x);c.setAttribute('cy',p.y);c.setAttribute('r',r);if(p.c)c.style.fill=p.c;g.appendChild(c);
+        var t=document.createElementNS(NS,'text');t.setAttribute('x',p.x);t.setAttribute('y',p.y+r*.38);t.setAttribute('font-size',r*1.05);t.setAttribute('text-anchor','middle');t.textContent=p.lab||(i+1);g.appendChild(t);svg.appendChild(g);});
+      var tip=box.querySelector('.tip'),leg=document.getElementById(box.id+'-leg');
+      function show(i,ev){var p=P[i];if(!p)return;[].forEach.call(svg.querySelectorAll('.pt'),function(g){g.classList.toggle('on',+g.getAttribute('data-i')===i);});tip.innerHTML='<b>'+esc(p.nom)+'</b><span>'+esc(p.titre||'')+'</span>';var r=box.getBoundingClientRect(),pt=svg.querySelectorAll('.pt circle')[i].getBoundingClientRect(),x=pt.left-r.left+pt.width,y=pt.top-r.top;tip.style.left=Math.max(4,Math.min(x+6,r.width-tip.offsetWidth-6))+'px';tip.style.top=Math.max(4,y-tip.offsetHeight-4)+'px';tip.style.opacity=1;
+        if(leg){[].forEach.call(leg.children,function(li,k){li.classList.toggle('on',k===(p.li!=null?p.li:i));});}}
+      [].forEach.call(svg.querySelectorAll('.pt'),function(g){var i=+g.getAttribute('data-i');g.addEventListener('mouseenter',function(){show(i);});g.addEventListener('click',function(ev){ev.stopPropagation();show(i);});g.addEventListener('focus',function(){show(i);});});
+      svg.addEventListener('mouseleave',function(){tip.style.opacity=0;});
+      if(leg)[].forEach.call(leg.children,function(li,k){li.addEventListener('mouseenter',function(){var i=-1;P.forEach(function(p,j){if((p.li!=null?p.li:j)===k&&i<0)i=j;});if(i>=0)show(i);});});
+      box.classList.add('done');
+    });
+  }).catch(function(){});}
+function dossierCarte(s,z){var c=s.carte;if(!c||!c.points||!c.points.length)return '';var hatch=(c.disputes||[]).map(function(d){return d.nom;});
+  var m=gmap({color:z.c,names:s.pays,points:c.points,reperes:c.reperes,hatch:hatch,aria:'Carte du dossier '+s.titre});var id='gm'+gmN;
+  var leg='<ol class="gm-leg" id="'+id+'-leg">'+c.points.map(function(p,i){return '<li><span class="n">'+(i+1)+'</span><div><time>'+esc(fmtDay(p.date))+' · '+esc(p.nom)+'</time><b>'+esc(p.titre)+'</b><p>'+esc(p.texte)+(p.source?' <a href="'+url(p.source.url)+'" target="_blank" rel="noopener">'+esc(p.source.nom)+' ↗</a>':'')+'</p></div></li>';}).join('')+'</ol>';
+  var key='<div class="gm-key"><span><i class="k-pt"></i>Événement récent</span><span><i class="k-cap"></i>Capitale</span><span><i class="k-det"></i>Détroit, passage</span><span><i class="k-site"></i>Site, base, ville</span>'+(hatch.length?'<span><i class="k-hz"></i>Statut contesté</span>':'')+'</div>';
+  var notes=(c.disputes||[]).map(function(d){return '<p class="gm-note"><b>'+esc(FR[d.nom]||d.nom)+'.</b> '+esc(d.note||'')+'</p>';}).join('')+(c.note?'<p class="gm-note">'+esc(c.note)+'</p>':'');
+  return secH('geopolitique','La carte du dossier',null,'geopolitique',z.c)+'<div class="gm-wrap"><div>'+m+key+notes+'</div>'+leg+'</div>';}
+var NET={alliance:['Alliance','var(--pos)',''],soutien:['Soutien','var(--pos)','5 4'],opposition:['Opposition','var(--neg)',''],mediation:['Médiation','var(--z-eu)','2 4'],negociation:['Négociation','var(--z-eu)','7 4']};
+var NTYPE={etat:'État',gouvernement:'Gouvernement',groupe_arme:'Groupe armé',organisation:'Organisation',personne:'Personnalité',entreprise:'Entreprise'};
+function wrap2(s){if(s.length<=11||s.indexOf(' ')<0)return [s];var m=Math.floor(s.length/2),a=s.lastIndexOf(' ',m),b=s.indexOf(' ',m),k=(a<0?b:(b<0?a:(m-a<=b-m?a:b)));return [s.slice(0,k),s.slice(k+1)];}
+function reseau(s,z){var r=s.reseau;if(!r||!r.noeuds||!r.noeuds.length)return '';var N=r.noeuds,L=r.liens||[],W=440,H=360,cx=W/2,cy=H/2-6,rx=150,ry=118,pos={};
+  N.forEach(function(n,i){var a=-Math.PI/2+i*2*Math.PI/N.length;pos[n.id]={x:cx+rx*Math.cos(a),y:cy+ry*Math.sin(a)};});
+  var defs='<defs>'+['pos','neg','z-eu'].map(function(c){return '<marker id="ar-'+c+'-'+s.id+'" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0L10,5L0,10z" fill="var(--'+c+')"/></marker>';}).join('')+'</defs>';
+  var edges=L.map(function(l,i){var a=pos[l.de],b=pos[l.a];if(!a||!b)return '';var t=NET[l.type]||NET.opposition,dx=b.x-a.x,dy=b.y-a.y,d=Math.sqrt(dx*dx+dy*dy)||1,ux=dx/d,uy=dy/d,x1=a.x+ux*13,y1=a.y+uy*13,x2=b.x-ux*13,y2=b.y-uy*13,mx=(x1+x2)/2+(cx-(x1+x2)/2)*.18,my=(y1+y2)/2+(cy-(y1+y2)/2)*.18;var mk=l.type==='soutien'?' marker-end="url(#ar-pos-'+s.id+')"':'';
+    return '<path class="ed" data-a="'+esc(l.de)+'" data-b="'+esc(l.a)+'" data-i="'+i+'" d="M'+x1.toFixed(1)+','+y1.toFixed(1)+'Q'+mx.toFixed(1)+','+my.toFixed(1)+' '+x2.toFixed(1)+','+y2.toFixed(1)+'" stroke="'+t[1]+'"'+(t[2]?' stroke-dasharray="'+t[2]+'"':'')+mk+'/>';}).join('');
+  var nodes=N.map(function(n){var p=pos[n.id],lines=wrap2(n.nom),below=p.y>=cy-20||true,ty=p.y+(p.y<cy-ry*.6?-14-(lines.length-1)*13:22);
+    return '<g class="nd nd-'+esc(n.type||'etat')+'" data-id="'+esc(n.id)+'" tabindex="0"><circle cx="'+p.x.toFixed(1)+'" cy="'+p.y.toFixed(1)+'" r="9"/><text x="'+p.x.toFixed(1)+'" y="'+ty.toFixed(1)+'" text-anchor="middle">'+lines.map(function(t,k){return '<tspan x="'+p.x.toFixed(1)+'" dy="'+(k?13:0)+'">'+esc(t)+'</tspan>';}).join('')+'</text></g>';}).join('');
+  var used={};L.forEach(function(l){used[l.type]=1;});
+  var key='<div class="net-key">'+Object.keys(NET).filter(function(k){return used[k];}).map(function(k){var t=NET[k];return '<span><svg width="26" height="8"><line x1="1" y1="4" x2="25" y2="4" stroke="'+t[1]+'" stroke-width="2.5"'+(t[2]?' stroke-dasharray="'+t[2]+'"':'')+'/></svg>'+t[0]+'</span>';}).join('')+'</div>';
+  var nm={};N.forEach(function(n){nm[n.id]=n;});
+  var list='<details class="net-list"><summary>Les '+L.length+' relations et leurs sources</summary><ul>'+L.map(function(l){var t=NET[l.type]||NET.opposition;return '<li><span class="net-t" style="--tc:'+t[1]+'">'+t[0]+'</span><b>'+esc((nm[l.de]||{}).nom||l.de)+' – '+esc((nm[l.a]||{}).nom||l.a)+'</b><p>'+esc(l.texte)+(l.source?' <a href="'+url(l.source.url)+'" target="_blank" rel="noopener">'+esc(l.source.nom)+' ↗</a>':'')+'</p></li>';}).join('')+'</ul></details>';
+  return secH('geopolitique','Qui est qui',null,'geopolitique',z.c)+'<p class="sub" style="margin:-4px 0 12px">Les principaux acteurs et leurs relations, chacune sourcée. Touchez un acteur pour voir ses liens.</p><div class="net-wrap" data-net="'+esc(s.id)+'"><div class="net-fig"><svg viewBox="0 0 '+W+' '+H+'" class="net" role="img" aria-label="Schéma des relations entre acteurs">'+defs+edges+nodes+'</svg>'+key+'</div><div class="net-info"><p class="sub" style="margin:0">Touchez ou survolez un acteur.</p></div></div>'+list;}
+function mountNets(){[].forEach.call(document.querySelectorAll('.net-wrap'),function(w){if(w._m)return;w._m=1;var f=findSuivi(w.getAttribute('data-net'));if(!f)return;var s=f.s,N={},info=w.querySelector('.net-info'),svg=w.querySelector('svg');s.reseau.noeuds.forEach(function(n){N[n.id]=n;});
+  function pick(id){var n=N[id];if(!n)return;[].forEach.call(svg.querySelectorAll('.nd'),function(g){var gid=g.getAttribute('data-id'),lk=svg.querySelector('.ed[data-a="'+gid+'"][data-b="'+id+'"],.ed[data-a="'+id+'"][data-b="'+gid+'"]');g.classList.toggle('on',gid===id);g.classList.toggle('dim',gid!==id&&!lk);});
+    [].forEach.call(svg.querySelectorAll('.ed'),function(e){var on=e.getAttribute('data-a')===id||e.getAttribute('data-b')===id;e.classList.toggle('on',on);e.classList.toggle('dim',!on);});
+    var rel=s.reseau.liens.filter(function(l){return l.de===id||l.a===id;});
+    info.innerHTML='<span class="tag">'+esc(NTYPE[n.type]||'')+'</span><b>'+esc(n.nom)+'</b><p>'+esc(n.role||'')+'</p>'+(rel.length?'<ul>'+rel.map(function(l){var t=NET[l.type]||NET.opposition,o=N[l.de===id?l.a:l.de];return '<li><span class="net-t" style="--tc:'+t[1]+'">'+t[0]+'</span> '+esc(o?o.nom:'')+' : '+esc(l.texte)+'</li>';}).join('')+'</ul>':'');}
+  [].forEach.call(svg.querySelectorAll('.nd'),function(g){var id=g.getAttribute('data-id');g.addEventListener('mouseenter',function(){pick(id);});g.addEventListener('click',function(){pick(id);});g.addEventListener('focus',function(){pick(id);});});
+  pick(s.reseau.noeuds[0].id);});}
+function propos(s,z){var P=s.propos;if(!P||!P.length)return '';
+  return secH('geopolitique','Les propos décryptés',null,'geopolitique',z.c)+'<p class="sub" style="margin:-4px 0 12px">Des déclarations marquantes, replacées dans leur contexte, puis la façon dont les différentes lectures les ont reçues.</p><div class="propos">'+P.map(function(p){
+    return '<article class="prop"><blockquote>« '+esc(p.citation)+' »</blockquote><div class="prop-who"><b>'+esc(p.qui)+'</b><span>'+esc(p.fonction||'')+(p.date?' · '+esc(fmtDay(p.date)):'')+(p.traduction?' · traduit':'')+'</span></div><h4>Le contexte</h4><p>'+esc(p.contexte)+'</p>'+(p.lectures&&p.lectures.length?'<h4>Comment elle est lue</h4><ul>'+p.lectures.map(function(l){return '<li><b>'+esc(l.lecture)+'.</b> '+esc(l.texte)+'</li>';}).join('')+'</ul>':'')+(p.source?'<a class="prop-src" href="'+url(p.source.url)+'" target="_blank" rel="noopener">'+esc(p.source.nom)+' ↗</a>':'')+'</article>';}).join('')+'</div>';}
+function zoneBoard(zid,z){var sv=suivisOf(zid);if(!sv.length)return '';var ed=state.current.date,lim=addDays(ed,-7),L='ABCDEFGH';
+  var pts=[];sv.forEach(function(s,k){((s.carte&&s.carte.points)||[]).slice(0,4).forEach(function(p){if(p.x!=null)pts.push({x:p.x,y:p.y,nom:p.nom,titre:s.titre+' · '+p.titre,lab:L[k],li:k});});});
+  var names=[];sv.forEach(function(s){(s.pays||[]).slice(0,2).forEach(function(n){if(names.indexOf(n)<0)names.push(n);});});
+  var m=pts.length?gmap({color:z.c,names:names,points:pts,aria:'Carte des dossiers de la zone '+z.nom}):'',id='gm'+gmN;
+  var rows='<ol class="zb-rows" id="'+id+'-leg">'+sv.map(function(s,k){var t=s.tendance;return '<li><a href="#suivi-'+esc(s.id)+'"><span class="n" style="background:'+z.c+'">'+L[k]+'</span><div><b>'+esc(s.titre)+'</b>'+tendBadge(t,1)+(t?'<p>'+esc(t.texte)+'</p>':'')+'</div></a></li>';}).join('')+'</ol>';
+  var ev=[];sv.forEach(function(s,k){(s.chronologie||[]).forEach(function(c){if(c.date&&c.date.length===10&&c.date>=lim)ev.push({d:c.date,t:c.titre,s:s,k:k});});});ev.sort(function(a,b){return a.d<b.d?1:-1;});
+  var frise=ev.length?'<div class="panel"><h3>Les 7 derniers jours</h3><ol class="zb-tl">'+ev.slice(0,10).map(function(e){return '<li><time>'+esc(fmtDay(e.d))+'</time><span class="n" style="background:'+z.c+'">'+L[e.k]+'</span><a href="#suivi-'+esc(e.s.id)+'">'+esc(e.t)+'</a></li>';}).join('')+'</ol></div>':'';
+  return secH('geopolitique','Le tableau de bord de la zone',null,'geopolitique',z.c)+'<p class="sub" style="margin:-4px 0 12px">La tendance de la semaine pour chaque dossier suivi, établie à partir des faits sourcés des sept derniers jours.</p><div class="zb">'+(m?'<div>'+m+'</div>':'')+'<div class="panel">'+rows+'</div></div>'+frise;}
 function pageSuivi(id){
   var f=findSuivi(id);if(!f)return notFound();var s=f.s,z=zone(f.z);
   var h='<a class="crumb" href="#geo-'+z.id+'">← '+esc(z.nom)+'</a><div style="--zc:'+z.c+'">';
-  h+='<div class="grid2" style="margin-top:10px"><div class="zhero"><span class="tag" style="color:'+z.c+'">Dossier suivi · mis à jour le '+esc(state.sp.suivis.maj)+'</span><h1 class="page">'+esc(s.titre)+'</h1><p class="lede" style="color:var(--ink)">'+esc(s.accroche)+'</p><p class="sub" style="margin-top:8px"><b>Où en est-on ?</b> '+esc(s.statut)+'</p></div><div class="panel">'+focusMap(s.pays,z.c,5,1)+'</div></div>';
+  h+='<div class="grid2" style="margin-top:10px"><div class="zhero"><span class="tag" style="color:'+z.c+'">Dossier suivi · mis à jour le '+esc(state.sp.suivis.maj)+'</span><h1 class="page">'+esc(s.titre)+'</h1><p class="lede" style="color:var(--ink)">'+esc(s.accroche)+'</p><p class="sub" style="margin-top:8px"><b>Où en est-on ?</b> '+esc(s.statut)+'</p>'+(s.tendance?'<div class="tend-box">'+tendBadge(s.tendance)+'<p>'+esc(s.tendance.texte)+'</p></div>':'')+'</div><div class="panel">'+focusMap(s.pays,z.c,5,1)+'</div></div>';
   if(s.chiffres&&s.chiffres.length)h+='<div class="kfig" style="margin-top:18px">'+s.chiffres.map(function(c){return '<div><b>'+esc(c.v)+'</b><span>'+esc(c.l)+'</span>'+(c.source?'<small>'+esc(c.source)+'</small>':'')+'</div>';}).join('')+'</div>';
+  h+=dossierCarte(s,z);
   h+=secH('geopolitique','Le contexte',null,'geopolitique',z.c)+'<div class="panel">'+(s.resume||[]).map(function(p){return '<p class="dz-txt">'+esc(p)+'</p>';}).join('')+'</div>';
+  h+=reseau(s,z);
   h+=secH('geopolitique','Chronologie récente',null,'calendrier',z.c)+'<ol class="tl" style="--c-geo:'+z.c+'">'+s.chronologie.map(function(e){return '<li><time>'+esc(fmtDay(e.date))+'</time><div><b>'+esc(e.titre)+'</b><p class="dz-txt">'+esc(e.texte)+'</p>'+(e.source?'<a href="'+url(e.source.url)+'" target="_blank" rel="noopener">'+esc(e.source.nom)+' ↗</a>':'')+'</div></li>';}).join('')+'</ol>';
+  h+=propos(s,z);
   h+=secH('geopolitique','Les acteurs',null,'geopolitique',z.c)+'<div class="cards">'+s.acteurs.map(function(a){return '<div class="card" style="cursor:default"><b>'+esc(a.nom)+'</b>'+(a.role?'<span class="sub" style="font-size:12.5px">'+esc(a.role)+'</span>':'')+'<p class="dz-txt">'+esc(a.position)+'</p></div>';}).join('')+'</div>';
   h+=secH('geopolitique','Les grilles de lecture',null,'geopolitique',z.c)+'<p class="sub" style="margin:-4px 0 12px">Les médias sont regroupés par façon de lire le sujet, quelle que soit leur origine. Les lectures sont présentées et attribuées, pas validées.</p><div class="lect">'+s.lectures.map(function(l){return '<div><h4>'+esc(l.lecture)+'</h4><p class="dz-txt">'+esc(l.texte)+'</p><div class="medias">'+l.medias.map(function(m){return '<a href="'+url(m.url)+'" target="_blank" rel="noopener">'+esc(m.nom)+'<small>'+esc([m.type,m.origine].filter(Boolean).join(' · '))+'</small></a>';}).join('')+'</div></div>';}).join('')+'</div>';
   h+='<div class="grid2" style="margin-top:24px"><div class="panel"><h3>À suivre</h3><ul style="margin:8px 0 0;padding-left:18px;display:grid;gap:6px">'+s.a_suivre.map(function(x){return '<li>'+esc(x)+'</li>';}).join('')+'</ul></div><div class="panel"><h3>Sources</h3><ul style="margin:8px 0 0;padding-left:18px;display:grid;gap:4px;font-size:13px">'+(s.sources||[]).map(function(x){return '<li><a href="'+url(x.url)+'" target="_blank" rel="noopener">'+esc(x.nom)+'</a></li>';}).join('')+'</ul></div></div>';
@@ -1199,11 +1317,13 @@ function pageArticle(id){
 function pageGeo(){
   var e=state.current,h=zoneTabs('geopolitique')+titleRow('geopolitique','var(--c-geo)',e.date_longue,'Géopolitique · regards croisés')+'<p class="lede">Pour chaque sujet, les faits établis, puis la manière dont les médias de différentes régions du monde le racontent : grands titres et médias de niche, médias d\'État signalés comme tels. Les lectures sont présentées et attribuées, pas validées.</p>';
   var dz=state.sp.dossier;if(dz)h+='<a class="dz-card" href="#dossier" style="margin-top:20px"><span class="tag" style="color:var(--c-geo)">Le dossier de la semaine</span><b>'+esc(dz.titre)+'</b><p>'+esc(dz.sous_titre)+'</p><span class="go" style="color:var(--c-geo)">Ouvrir le dossier →</span></a>';
+  h+='<div class="sec-h">'+hico('geopolitique','var(--c-geo)')+'<h2>Les sujets du jour</h2></div><div class="cards mfold">'+e.geopolitique.map(function(g){return sujetCard(g);}).join('')+'</div>';
+  if(state.sp.suivis){h+='<p class="geo-intro">Les dossiers suivis, région par région</p>';
+    ZONES.forEach(function(z){var sv=suivisOf(z.id);if(!sv.length)return;
+      h+='<div class="sec-h zsec">'+hico('geopolitique',z.c)+'<h2>'+esc(z.nom)+'</h2><a class="more" href="#geo-'+z.id+'" style="color:'+z.c+'">Toute la zone →</a></div><div class="cards mfold">'+sv.map(function(s){return suiviCard(s,z.id,false);}).join('')+'</div>';});}
   var allR=[];e.geopolitique.forEach(function(g){allR=allR.concat(g.regards);});if(dz)allR=allR.concat(dz.regards);
   h+='<div class="sec-h">'+hico('geopolitique','var(--c-geo)')+'<h2>La pluralité des sources cette semaine</h2></div>'+diversity(allR);
-  h+='<div class="sec-h">'+hico('geopolitique','var(--c-geo)')+'<h2>Les sujets du jour</h2></div><div class="cards">'+e.geopolitique.map(function(g){return sujetCard(g);}).join('')+'</div>';
-  if(state.sp.suivis){h+='<div class="sec-h">'+hico('archives','var(--c-geo)')+'<h2>Les dossiers suivis, région par région</h2></div><div class="cards">';ZONES.forEach(function(z){suivisOf(z.id).forEach(function(s){h+=suiviCard(s,z.id,true);});});h+='</div>';}
-  return h;
+  return foldify(h);
 }
 function pageSujet(id){
   var g=state.current.geopolitique.filter(function(x){return x.id===id;})[0];if(!g)return notFound();
@@ -1438,7 +1558,7 @@ function route(){if(audio.on&&window.speechSynthesis){speechSynthesis.cancel();a
       else{active='accueil';html=notFound();}
       if(sp)html=sportNav(sp)+html;
     }
-    nav(active);app.innerHTML=html;if(after)after();mountFocus();applyGlossary(app);mountMarkets();mountAudio();window.scrollTo(0,0);var zt=document.querySelector('.ztabs a[aria-current]');if(zt&&zt.parentNode.scrollWidth>zt.parentNode.clientWidth)zt.parentNode.scrollLeft=zt.offsetLeft-zt.parentNode.clientWidth/2+zt.offsetWidth/2;
+    nav(active);app.innerHTML=html;if(after)after();mountFocus();mountGmaps();mountNets();applyGlossary(app);mountMarkets();mountAudio();window.scrollTo(0,0);var zt=document.querySelector('.ztabs a[aria-current]');if(zt&&zt.parentNode.scrollWidth>zt.parentNode.clientWidth)zt.parentNode.scrollLeft=zt.offsetLeft-zt.parentNode.clientWidth/2+zt.offsetWidth/2;
   };
   if(h.indexOf('edition-')===0){p=loadEdition(h.slice(8)).then(function(e){state.current=e;});}
   else if(h.indexOf('geo-')===0&&state.index){p=Promise.all(state.index.editions.slice(0,5).map(function(x){return loadEdition(x.date).catch(function(){});}));}
