@@ -517,6 +517,8 @@ html.mm-open{overflow:hidden}
 .verif-line b{color:var(--ink)}
 .verif-line span{color:var(--ink);font-weight:600;white-space:nowrap}
 .vlist{display:grid;gap:10px}
+.legal{max-width:72ch;margin-top:18px}.lg-sec{border-top:1px solid var(--line);padding:16px 0 6px}.lg-sec h2{font-size:18px;margin:0 0 10px}.lg-sec p,.lg-sec li{font-family:var(--read);font-size:16.5px;line-height:1.6;margin:0 0 .8em}.lg-sec ul{padding-left:1.1em;margin:0}.lg-sec a{color:var(--ink);text-decoration:underline}.lg-row{display:grid;grid-template-columns:minmax(120px,210px) 1fr;gap:12px;padding:6px 0;border-bottom:1px dashed var(--line);font-size:15px}.lg-row span{color:var(--soft)}.lg-row b{font-weight:600;overflow-wrap:anywhere}.lg-note{font-size:14px!important;color:var(--soft);margin-top:10px!important}.lg-maj{font-size:13px;color:var(--soft);margin-top:14px}.foot-legal a{color:var(--ink)}.ai-note{font-size:13px;color:var(--soft);margin:8px 0 0}.ai-note a{color:var(--soft);text-decoration:underline}
+@media (max-width:560px){.lg-row{grid-template-columns:1fr;gap:2px}}
 .vitem{display:block;text-decoration:none;color:inherit;background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--warm);border-radius:10px;padding:12px 14px}
 .vitem b{display:block;margin:3px 0 4px;font-size:15px}
 .vitem p{margin:0;font-size:13.5px;color:var(--soft)}
@@ -559,6 +561,7 @@ html.mm-open{overflow:hidden}
   <div><b>Mosaiq</b> · prototype. Les articles sont rédigés avec l'aide d'une IA à partir des sources citées sous chaque texte, puis signalés quand une information reste à confirmer.</div>
   <div>Cartes, graphiques et illustrations réalisés par la rédaction. Aucune photo de presse n'est reproduite.</div>
   <div><b>mosaiq.news</b> · en ligne.</div>
+  <div class="foot-legal"><a href="#mentions">Mentions légales</a> · <a href="#confidentialite">Confidentialité</a> · <a href="#methode">Méthode et charte</a> · <a href="mailto:contact@mosaiq.news">contact@mosaiq.news</a></div>
   <div><a href="https://forms.gle/qWJpvkBTS5HJeT7RA" target="_blank" rel="noopener" style="font-weight:700;color:var(--ink)">Donner mon avis sur le site (5 minutes) ↗</a></div>
 </div></footer>
 
@@ -872,6 +875,11 @@ function mountRegions(){
   }).catch(function(){});
   if(sel){var s=document.getElementById('rg-'+regSlug(sel));if(s&&window.innerWidth<900)setTimeout(function(){s.scrollIntoView({behavior:'smooth',block:'start'});},350);}
 }
+function outremerTeaser(){var e=state.current,O=(e.articles||[]).filter(function(a){return a.rubrique==='outremer';});if(!O.length)return '';
+  var ag=(e.outremer_agenda||[]).filter(function(x){return x.date>=new Date(Date.now()-new Date().getTimezoneOffset()*6e4).toISOString().slice(0,10);}).sort(function(a,b){return a.date<b.date?-1:1;})[0];
+  return '<div class="panel"><h3>Dans les Outre-mer</h3><p class="sub">L\'essentiel des territoires ce matin</p>'+O.slice(0,4).map(function(b){return '<a href="#a-'+b.id+'" style="display:block;text-decoration:none;color:inherit;border-bottom:1px dashed var(--line);padding:8px 0"><span class="tag" style="color:var(--c-fr)">'+esc(b.territoire||'Outre-mer')+'</span><b style="display:block;font-size:14px;line-height:1.3;margin-top:2px">'+esc(b.titre)+'</b></a>';}).join('')
+  +(ag?'<p style="font-size:13px;color:var(--soft);margin:10px 0 0"><b style="color:var(--ink)">Prochain rendez-vous · '+esc(frDate(ag.date))+'</b> · '+esc(ag.territoire)+' : '+esc(ag.texte)+'</p>':'')
+  +'<a href="#outremer" style="display:inline-block;margin-top:10px;font-size:13px;font-weight:600;color:var(--c-fr)">Tous les Outre-mer →</a></div>';}
 function regionsTeaser(){var R=state.current.regions||[];if(!R.length)return '';var pick=[],seen={};R.forEach(function(b){if(!seen[b.region]&&pick.length<4){seen[b.region]=1;pick.push(b);}});return '<div class="panel"><h3>En régions</h3><p class="sub">La presse régionale de ce matin</p>'+pick.map(function(b){return '<a href="#region-'+regSlug(b.region)+'" style="display:block;text-decoration:none;color:inherit;border-bottom:1px dashed var(--line);padding:8px 0"><span class="tag" style="color:var(--c-fr)">'+esc(b.region)+'</span><b style="display:block;font-size:14px;line-height:1.3;margin-top:2px">'+esc(b.titre)+'</b></a>';}).join('')+'<a href="#regions" style="display:inline-block;margin-top:10px;font-size:13px;font-weight:600;color:var(--c-fr)">Toutes les régions →</a></div>';}
 
 
@@ -971,6 +979,37 @@ if(PWA_HOST&&'serviceWorker' in navigator){window.addEventListener('load',functi
 
 
 function verifCount(){var e=state.current;return (e.articles||[]).filter(function(a){return a.a_verifier;}).length+(e.regions||[]).filter(function(b){return b.a_verifier;}).length;}
+/* ---------- pages légales ---------- */
+function LG(){return state.sp.legal||{editeur:{},hebergeur:{},domaine:{},contact:'contact@mosaiq.news'};}
+function mailto(m){return '<a href="mailto:'+esc(m)+'">'+esc(m)+'</a>';}
+function legalTabs(active){var t=[['mentions','Mentions légales'],['confidentialite','Confidentialité'],['methode','Méthode et charte']];return '<div class="tabs">'+t.map(function(x){return '<a href="#'+x[0]+'"'+(x[0]===active?' aria-current="page"':'')+'>'+esc(x[1])+'</a>';}).join('')+'</div>';}
+function lsec(t,body){return '<section class="lg-sec"><h2>'+esc(t)+'</h2>'+body+'</section>';}
+function lrow(k,v){return v?'<div class="lg-row"><span>'+esc(k)+'</span><b>'+v+'</b></div>':'';}
+function legalWrap(active,title,lede,body){var g=LG();return legalTabs(active)+titleRow('une','var(--ink)','Mosaiq · informations légales',title)+'<p class="lede">'+lede+'</p><div class="legal">'+body+(g.maj?'<p class="lg-maj">Dernière mise à jour : '+esc(g.maj)+'.</p>':'')+'</div>';}
+function pageMentions(){var g=LG(),e=g.editeur||{},hb=g.hebergeur||{},dm=g.domaine||{};
+  var ed=lrow('Éditeur',esc(e.nom||'')+(e.forme?', '+esc(e.forme):''))+lrow('SIREN',e.siren?esc(e.siren):'')+lrow('Immatriculation',e.rcs_rne?esc(e.rcs_rne):'')+lrow('N° de TVA',e.tva?esc(e.tva):'')+lrow('Adresse',e.adresse?esc(e.adresse):'')+lrow('Téléphone',e.telephone?esc(e.telephone):'')+lrow('Contact',mailto(g.contact))+lrow('Directeur de la publication',esc(g.directeur_publication||e.nom||''));
+  if(!e.siren)ed+='<p class="lg-note">Immatriculation de l\'activité en cours : les informations d\'identification de l\'entreprise seront ajoutées dès leur obtention.</p>';
+  var h=lsec('Éditeur du site',ed);
+  h+=lsec('Hébergement',lrow('Hébergeur',esc(hb.nom||''))+lrow('Adresse',esc(hb.adresse||''))+lrow('Site',hb.site?'<a href="'+url(hb.site)+'" target="_blank" rel="noopener">'+esc(hb.site.replace(/^https?:\/\//,''))+'</a>':'')+lrow('Contact',hb.contact?'<a href="'+url(hb.contact)+'" target="_blank" rel="noopener">'+esc(hb.contact.replace(/^https?:\/\//,''))+'</a>':''));
+  h+=lsec('Nom de domaine',lrow('Bureau d\'enregistrement',esc(dm.nom||'')+(dm.detail?' — '+esc(dm.detail):''))+lrow('Adresse',esc(dm.adresse||'')));
+  h+=lsec('Contenus produits avec l\'aide de l\'intelligence artificielle','<p>Les textes de Mosaiq sont rédigés avec l\'aide d\'un système d\'intelligence artificielle (Claude, développé par Anthropic) à partir des sources citées sous chaque article, sous la responsabilité éditoriale du directeur de la publication. La façon dont ils sont produits et vérifiés est décrite dans <a href="#methode">Méthode et charte</a>.</p>');
+  h+=lsec('Propriété intellectuelle','<p>Les textes, cartes, graphiques, icônes et la mise en page de Mosaiq sont la propriété de l\'éditeur, sauf mention contraire. Toute reproduction intégrale sans autorisation est interdite ; une courte citation est permise avec la mention « Mosaiq » et un lien vers la page citée.</p><p>Les articles des médias cités restent la propriété de leurs auteurs : Mosaiq n\'en reproduit pas le contenu, il en résume les faits et renvoie vers eux par des liens. Aucune photo de presse n\'est reproduite. Les fonds de carte proviennent de Natural Earth (domaine public).</p>');
+  h+=lsec('Droit de réponse et corrections','<p>Toute personne nommée ou désignée sur Mosaiq peut exercer un droit de réponse auprès du directeur de la publication, dans les trois mois suivant la mise en ligne, à l\'adresse '+mailto(g.contact)+'. Pour signaler une erreur, écrivez à la même adresse en indiquant la page concernée : les corrections sont apportées dans l\'édition en cours et signalées.</p>');
+  h+=lsec('Liens externes','<p>Mosaiq renvoie vers des sites tiers (médias, institutions, organisateurs). Il n\'exerce aucun contrôle sur leur contenu et n\'en est pas responsable.</p>');
+  return legalWrap('mentions','Mentions légales','Qui édite Mosaiq, où il est hébergé et comment nous joindre.',h);}
+function pageConfidentialite(){var g=LG();
+  var h=lsec('En bref','<p><b>Mosaiq ne dépose aucun cookie, n\'utilise aucun outil de mesure d\'audience et n\'affiche aucune publicité.</b> Le site ne demande ni compte ni inscription.</p>');
+  h+=lsec('Ce qui reste sur votre appareil','<p>Vos réglages « Mon Mosaiq » (rubriques, équipes suivies, ordre de la une) et le choix de masquer le bandeau d\'installation sont enregistrés uniquement dans le stockage local de votre navigateur. Ils ne nous sont jamais transmis. L\'application installée garde aussi une copie des pages en cache pour s\'ouvrir plus vite. Vous pouvez tout effacer avec le bouton « Réinitialiser » de Mon Mosaiq ou en vidant les données du site dans votre navigateur.</p>');
+  h+=lsec('Ce que voient nos prestataires','<p><b>Hébergement.</b> Comme tout hébergeur, GitHub reçoit l\'adresse IP des visiteurs et les journaux techniques de connexion, qu\'il traite pour la sécurité du service selon sa propre <a href="https://docs.github.com/fr/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">politique de confidentialité</a>. Ces données peuvent être traitées aux États-Unis.</p><p><b>Polices de caractères.</b> Les polices sont chargées depuis Google Fonts : votre navigateur contacte alors les serveurs de Google, qui reçoivent votre adresse IP.</p><p><b>Questionnaire.</b> Le questionnaire d\'avis est un formulaire Google Forms, facultatif et anonyme : seules les réponses que vous choisissez de donner sont recueillies.</p>');
+  h+=lsec('Vos droits','<p>Le responsable du traitement est l\'éditeur de Mosaiq. Conformément au RGPD et à la loi Informatique et libertés, vous pouvez demander l\'accès, la rectification ou l\'effacement des données qui vous concernent en écrivant à '+mailto(g.contact)+'. Vous pouvez aussi adresser une réclamation à la <a href="https://www.cnil.fr/fr/plaintes" target="_blank" rel="noopener">CNIL</a>.</p><p>Si Mosaiq propose un jour une lettre d\'information, l\'inscription sera volontaire, l\'adresse ne servira qu\'à l\'envoi et un lien de désinscription figurera dans chaque message. Cette page sera mise à jour avant tout changement.</p>');
+  return legalWrap('confidentialite','Confidentialité','Ce que Mosaiq sait de vous : presque rien, et c\'est voulu.',h);}
+function pageMethode(){var g=LG();
+  var h=lsec('Ce que fait Mosaiq','<p>Chaque matin avant 7 heures, Mosaiq publie une édition qui résume l\'actualité de la veille et du jour : France et régions, Outre-mer, Afrique, géopolitique, économie, tech et sciences, culture et sport. L\'objectif est de donner les faits et de montrer comment différents médias les lisent, sans prendre parti.</p>');
+  h+=lsec('Comment les textes sont produits','<p>L\'édition est préparée par un système d\'intelligence artificielle (Claude, d\'Anthropic) qui consulte les sources en ligne, rédige les textes et construit les cartes et graphiques. Le processus suit des consignes éditoriales écrites et appliquées chaque jour, sous la responsabilité du directeur de la publication. Les textes ne sont pas tous relus par une personne avant leur mise en ligne : c\'est pourquoi chaque article cite ses sources et signale ce qui n\'a pas pu être confirmé.</p>');
+  h+=lsec('Nos règles','<ul><li><b>Des faits sourcés.</b> Chaque affirmation renvoie à une source consultée, avec un lien. Aucun chiffre, aucune citation, aucune adresse web n\'est inventé.</li><li><b>Des positions attribuées.</b> Les opinions et les jugements sont rapportés à ceux qui les expriment (« selon Bamako… », « d\'après la critique de… »). Le ton reste neutre, sans superlatifs.</li><li><b>Plusieurs regards.</b> En géopolitique, les médias sont regroupés par grille de lecture plutôt que par pays, pour éviter de présenter un même point de vue sous plusieurs drapeaux. Grands médias et médias spécialisés se côtoient, sur plusieurs continents.</li><li><b>Les médias d\'État signalés.</b> Un média détenu ou financé par un État est présenté comme tel.</li><li><b>Le doute affiché.</b> Une information non confirmée est écartée, ou publiée avec la mention « à confirmer » et le détail de ce qui manque. La liste du jour est sur la page <a href="#verifier">Transparence</a>.</li><li><b>Pas de photos de presse.</b> Les cartes, graphiques et icônes sont réalisés par Mosaiq.</li></ul>');
+  h+=lsec('Les sources','<p>Mosaiq s\'appuie sur les agences, la presse nationale et régionale, les médias africains et ultramarins, les médias internationaux et les sources officielles (institutions, entreprises, organisateurs). Les médias du groupe Bolloré ne sont pas retenus comme sources.</p>');
+  h+=lsec('Erreurs et corrections','<p>Malgré ces règles, une erreur reste possible. Signalez-la à '+mailto(g.contact)+' en indiquant la page : elle sera corrigée et la correction signalée. Vos remarques sur le site sont aussi les bienvenues dans <a href="https://forms.gle/qWJpvkBTS5HJeT7RA" target="_blank" rel="noopener">le questionnaire</a>.</p>');
+  return legalWrap('methode','Méthode et charte','Comment l\'édition est fabriquée, et les règles qu\'elle suit.',h);}
 function pageVerifier(){var e=state.current,arts2=(e.articles||[]).filter(function(a){return a.a_verifier;}),reg=(e.regions||[]).filter(function(b){return b.a_verifier;});
   var h=titleRow('une','var(--ink)',e.date_longue,'À confirmer dans cette édition')+'<p class="lede">Mosaiq signale ce qui n\'a pas pu être vérifié complètement : une page source inaccessible, des chiffres qui divergent, une date non confirmée. Chaque point figure aussi en bas de l\'article concerné.</p>';
   if(arts2.length)h+='<div class="sec-h">'+hico('une','var(--ink)')+'<h2>Articles</h2></div><div class="vlist">'+arts2.map(function(a){var r=rub(a.rubrique==='outremer'?'france':a.rubrique);return '<a href="#a-'+a.id+'" class="vitem"><span class="tag" style="color:'+r.c+'">'+esc(a.rubrique==='outremer'?'Outre-mer':r.nom)+'</span><b>'+esc(a.titre)+'</b><p>'+esc(a.a_verifier)+'</p></a>';}).join('')+'</div>';
@@ -1138,7 +1177,7 @@ function aside(id){
     if(e.outremer_agenda&&e.outremer_agenda.length)h+='<div class="panel"><h3>Agenda des Outre-mer</h3>'+e.outremer_agenda.map(function(x){return '<div style="border-bottom:1px dashed var(--line);padding:7px 0;font-size:14px"><b>'+esc(frDate(x.date))+' · '+esc(x.territoire)+'</b><br><span style="color:var(--soft)">'+esc(x.texte)+'</span></div>';}).join('')+'</div>';}
   if(id==='tech')h+=techAside();
   if(id==='culture'){var ca=cultureAgenda(8);if(ca)h+='<div class="panel"><h3>Agenda culturel</h3><p class="sub">Les rendez-vous des deux prochaines semaines</p>'+ca+'</div>';}
-  if(id==='france')h+=regionsTeaser();
+  if(id==='france')h+=regionsTeaser()+outremerTeaser();
   if(id==='france')h+='<div class="panel"><h3>Budget 2027 : le calendrier</h3><p class="sub">Projet de loi de finances</p>'+frise(e.france_frise)+'</div>';
   if(id==='afrique'){h+='<div class="panel"><h3>Les pays à la une</h3><p class="sub">Touchez ou cliquez un pays coloré pour lire le sujet</p><div style="max-width:340px;margin:0 auto">'+africaMap(e)+'</div></div>';
     h+='<div class="panel"><h3>Éliminatoires CAN 2027</h3><p class="sub">Affiches de la semaine</p>'+e.sport.can.map(function(m){return '<div style="display:flex;justify-content:space-between;gap:8px;border-bottom:1px dashed var(--line);padding:6px 0;font-size:14px"><b>'+esc(m[0])+' – '+esc(m[1])+'</b><span style="color:var(--soft);font-size:12.5px;white-space:nowrap">'+esc(m[2])+'</span></div>';}).join('')+'</div>';}
@@ -1152,7 +1191,7 @@ function pageArticle(id){
   var a=state.current.articles.filter(function(x){return x.id===id;})[0];if(!a)return notFound();
   var r=rub(a.rubrique),h='<a class="crumb" href="#'+r.id+'">← '+esc(r.nom)+'</a><div class="grid2" style="margin-top:10px"><article class="art"><span class="tag" style="color:'+r.c+'">'+esc(a.territoire?'Outre-mer · '+a.territoire:r.nom)+' · '+esc(state.current.date_longue)+'</span><h1 class="page">'+esc(a.titre)+'</h1><p class="lede" style="margin-bottom:18px">'+esc(a.resume)+'</p>'+stats(a.chiffres)+'<div class="corps">'+a.corps.map(function(p){return '<p>'+esc(p)+'</p>';}).join('')+'</div>';
   if(a.a_verifier)h+='<div class="verif"><b>À vérifier.</b> '+esc(a.a_verifier)+'</div>';
-  h+=sources(a.sources)+'</article><div class="stack">'+((a.pays&&a.pays.length)||a.lieu?'<div class="panel"><h3>Où ça se passe'+(a.lieu?' · '+esc(a.lieu.nom):'')+'</h3><p class="sub">'+(a.lieu?'Zoom sur le lieu de l\'article':'Zoom sur le pays principal, les autres pays cités en clair')+'</p>'+focusMap(a.pays,r.c,4,1,a.lieu)+'</div>':'')+aside(a.rubrique);
+  h+=sources(a.sources)+'<p class="ai-note">Texte rédigé avec l\'aide d\'une intelligence artificielle à partir des sources ci-dessus. <a href="#methode">Notre méthode</a></p></article><div class="stack">'+((a.pays&&a.pays.length)||a.lieu?'<div class="panel"><h3>Où ça se passe'+(a.lieu?' · '+esc(a.lieu.nom):'')+'</h3><p class="sub">'+(a.lieu?'Zoom sur le lieu de l\'article':'Zoom sur le pays principal, les autres pays cités en clair')+'</p>'+focusMap(a.pays,r.c,4,1,a.lieu)+'</div>':'')+aside(a.rubrique);
   var others=arts(a.rubrique).filter(function(x){return x.id!==a.id;});
   if(others.length)h+='<div class="panel"><h3>Dans la même rubrique</h3><div style="display:grid;gap:10px;margin-top:10px">'+others.map(function(o){return '<a href="#a-'+o.id+'" style="text-decoration:none;font-weight:600;font-size:14.5px">'+esc(o.titre)+'</a>';}).join('')+'</div></div>';
   return h+'</div></div>';
@@ -1368,6 +1407,9 @@ function route(){if(audio.on&&window.speechSynthesis){speechSynthesis.cancel();a
     else if(['france','afrique','tech','eco','culture'].indexOf(h)>=0)html=pageRubrique(h);
     else if(h==='tesselles'){active='culture';html=pageTesselles();}
     else if(h==='verifier'){active='accueil';html=pageVerifier();}
+    else if(h==='mentions'){active='';html=pageMentions();}
+    else if(h==='confidentialite'){active='';html=pageConfidentialite();}
+    else if(h==='methode'){active='';html=pageMethode();}
     else if(h==='outremer'){active='france';html=pageRubrique('outremer');}
     else if(h==='regions'){active='france';html=pageRegions();after=mountRegions;}
     else if(h.indexOf('region-')===0){active='france';html=pageRegions(h.slice(7));after=mountRegions;}
@@ -1410,7 +1452,7 @@ getJSON('index.json').then(function(ix){
   LEAGUES.forEach(function(l){jobs.push(opt(''+l.id+'.json',l.id,state.foot));});
   jobs.push(opt('calendrier.json','cal',state.sp),opt('transferts.json','tr',state.sp));
   ['nba','nfl','tennis','f1','rugby'].forEach(function(k){jobs.push(opt(''+k+'.json',k,state.sp));});
-  [['dossier','dossier'],['glossaire','glo'],['marches','marches'],['agenda_eco','agenda'],['afrique_marches','afm'],['suivis','suivis'],['tesselles','tess'],['tech','tech']].forEach(function(k){jobs.push(opt(''+k[0]+'.json',k[1],state.sp));});
+  [['dossier','dossier'],['glossaire','glo'],['marches','marches'],['agenda_eco','agenda'],['afrique_marches','afm'],['suivis','suivis'],['tesselles','tess'],['tech','tech'],['legal','legal']].forEach(function(k){jobs.push(opt(''+k[0]+'.json',k[1],state.sp));});
   return Promise.all(jobs);
 }).then(function(r){state.current=r[0];route();window.addEventListener('hashchange',route);})
 .catch(function(){document.getElementById('app').innerHTML='<p class="loading">L\'édition du jour n\'a pas pu être chargée. Réessayez dans un instant.</p>';});
