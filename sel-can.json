@@ -1,0 +1,1860 @@
+{
+  "id": "can",
+  "nom": "Coupe d'Afrique des nations 2027",
+  "nom_court": "CAN 2027",
+  "confederation": "CAF",
+  "edition": "36e édition",
+  "hote": "Kenya, Ouganda, Tanzanie",
+  "dates": {
+    "debut": "2027-06-19",
+    "fin": "2027-07-17"
+  },
+  "statut": "qualifications",
+  "tenant": "Maroc (2025, vainqueur sur tapis vert ; recours du Sénégal en attente devant le TAS)",
+  "maj": "18 novembre 2026",
+  "resume": "Après quatre des six journées de la phase de groupes des éliminatoires, neuf des 24 places sont attribuées : les trois pays hôtes (Kenya, Ouganda, Tanzanie) et six qualifiés sur le terrain (Maroc, Sénégal, Cameroun, Bénin, Burkina Faso, Mali). Les 5e et 6e journées, prévues du 22 au 30 mars 2027, attribueront les 15 places restantes. Le titre de la CAN 2025, attribué au Maroc par le jury d'appel de la CAF après la finale gagnée 1-0 a.p. par le Sénégal, fait l'objet d'un recours devant le TAS, dont la décision est attendue fin novembre 2026.",
+  "etapes": [
+    {
+      "date": "2026-03-25",
+      "titre": "Tour préliminaire des éliminatoires (aller du 25 au 27 mars, retour du 29 au 31 mars)",
+      "fait": true
+    },
+    {
+      "date": "2026-05-19",
+      "titre": "Tirage au sort des éliminatoires au Caire",
+      "fait": true
+    },
+    {
+      "date": "2026-09-24",
+      "titre": "1re et 2e journées des éliminatoires (24 septembre - 6 octobre)",
+      "fait": true
+    },
+    {
+      "date": "2026-11-12",
+      "titre": "3e et 4e journées des éliminatoires (12 - 17 novembre)",
+      "fait": true
+    },
+    {
+      "date": "2027-03-22",
+      "titre": "5e et 6e journées des éliminatoires (22 - 30 mars)",
+      "fait": false
+    },
+    {
+      "date": "2027-06-19",
+      "titre": "Match d'ouverture de la phase finale",
+      "fait": false
+    },
+    {
+      "date": "2027-07-17",
+      "titre": "Finale",
+      "fait": false
+    }
+  ],
+  "qualifications": {
+    "format": "Les 12 équipes les moins bien classées ont disputé un tour préliminaire en mars 2026 ; les six vainqueurs ont rejoint 42 équipes dans 12 groupes de quatre (matchs aller-retour, six journées). Les deux premiers de chaque groupe se qualifient, sauf dans les groupes D, H et L où le pays hôte (Kenya, Ouganda, Tanzanie), qualifié d'office, n'est accompagné que de la meilleure autre équipe.",
+    "qualifies": [
+      "Kenya",
+      "Ouganda",
+      "Tanzanie",
+      "Maroc",
+      "Sénégal",
+      "Cameroun",
+      "Bénin",
+      "Burkina Faso",
+      "Mali"
+    ],
+    "groupes": [
+      {
+        "nom": "Groupe A",
+        "classement": [
+          {
+            "equipe": "Maroc",
+            "j": 4,
+            "g": 4,
+            "n": 0,
+            "p": 0,
+            "bp": 10,
+            "bc": 1,
+            "pts": 12,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Gabon",
+            "j": 4,
+            "g": 2,
+            "n": 0,
+            "p": 2,
+            "bp": 5,
+            "bc": 4,
+            "pts": 6,
+            "statut": null
+          },
+          {
+            "equipe": "Niger",
+            "j": 4,
+            "g": 1,
+            "n": 0,
+            "p": 3,
+            "bp": 3,
+            "bc": 9,
+            "pts": 3,
+            "statut": null
+          },
+          {
+            "equipe": "Lesotho",
+            "j": 4,
+            "g": 1,
+            "n": 0,
+            "p": 3,
+            "bp": 3,
+            "bc": 7,
+            "pts": 3,
+            "statut": null
+          }
+        ]
+      },
+      {
+        "nom": "Groupe B",
+        "classement": [
+          {
+            "equipe": "Angola",
+            "j": 4,
+            "g": 3,
+            "n": 1,
+            "p": 0,
+            "bp": 6,
+            "bc": 1,
+            "pts": 10,
+            "statut": null
+          },
+          {
+            "equipe": "Égypte",
+            "j": 4,
+            "g": 2,
+            "n": 2,
+            "p": 0,
+            "bp": 10,
+            "bc": 0,
+            "pts": 8,
+            "statut": null
+          },
+          {
+            "equipe": "Malawi",
+            "j": 4,
+            "g": 1,
+            "n": 1,
+            "p": 2,
+            "bp": 3,
+            "bc": 9,
+            "pts": 4,
+            "statut": null
+          },
+          {
+            "equipe": "Soudan du Sud",
+            "j": 4,
+            "g": 0,
+            "n": 0,
+            "p": 4,
+            "bp": 1,
+            "bc": 10,
+            "pts": 0,
+            "statut": "elimine"
+          }
+        ]
+      },
+      {
+        "nom": "Groupe C",
+        "classement": [
+          {
+            "equipe": "Côte d'Ivoire",
+            "j": 4,
+            "g": 3,
+            "n": 1,
+            "p": 0,
+            "bp": 8,
+            "bc": 3,
+            "pts": 10,
+            "statut": null
+          },
+          {
+            "equipe": "Gambie",
+            "j": 4,
+            "g": 2,
+            "n": 1,
+            "p": 1,
+            "bp": 9,
+            "bc": 7,
+            "pts": 7,
+            "statut": null
+          },
+          {
+            "equipe": "Ghana",
+            "j": 4,
+            "g": 2,
+            "n": 0,
+            "p": 2,
+            "bp": 5,
+            "bc": 6,
+            "pts": 6,
+            "statut": null
+          },
+          {
+            "equipe": "Somalie",
+            "j": 4,
+            "g": 0,
+            "n": 0,
+            "p": 4,
+            "bp": 1,
+            "bc": 7,
+            "pts": 0,
+            "statut": "elimine"
+          }
+        ]
+      },
+      {
+        "nom": "Groupe D",
+        "classement": [
+          {
+            "equipe": "Afrique du Sud",
+            "j": 4,
+            "g": 3,
+            "n": 1,
+            "p": 0,
+            "bp": 11,
+            "bc": 4,
+            "pts": 10,
+            "statut": null
+          },
+          {
+            "equipe": "Guinée",
+            "j": 4,
+            "g": 3,
+            "n": 0,
+            "p": 1,
+            "bp": 7,
+            "bc": 4,
+            "pts": 9,
+            "statut": null
+          },
+          {
+            "equipe": "Kenya",
+            "j": 4,
+            "g": 0,
+            "n": 2,
+            "p": 2,
+            "bp": 4,
+            "bc": 6,
+            "pts": 2,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Érythrée",
+            "j": 4,
+            "g": 0,
+            "n": 1,
+            "p": 3,
+            "bp": 3,
+            "bc": 11,
+            "pts": 1,
+            "statut": "elimine"
+          }
+        ]
+      },
+      {
+        "nom": "Groupe E",
+        "classement": [
+          {
+            "equipe": "RD Congo",
+            "j": 4,
+            "g": 3,
+            "n": 1,
+            "p": 0,
+            "bp": 8,
+            "bc": 3,
+            "pts": 10,
+            "statut": null
+          },
+          {
+            "equipe": "Zimbabwe",
+            "j": 4,
+            "g": 2,
+            "n": 1,
+            "p": 1,
+            "bp": 7,
+            "bc": 4,
+            "pts": 7,
+            "statut": null
+          },
+          {
+            "equipe": "Guinée équatoriale",
+            "j": 4,
+            "g": 1,
+            "n": 1,
+            "p": 2,
+            "bp": 1,
+            "bc": 5,
+            "pts": 4,
+            "statut": null
+          },
+          {
+            "equipe": "Sierra Leone",
+            "j": 4,
+            "g": 0,
+            "n": 1,
+            "p": 3,
+            "bp": 4,
+            "bc": 8,
+            "pts": 1,
+            "statut": null
+          }
+        ]
+      },
+      {
+        "nom": "Groupe F",
+        "classement": [
+          {
+            "equipe": "Bénin",
+            "j": 4,
+            "g": 3,
+            "n": 1,
+            "p": 0,
+            "bp": 8,
+            "bc": 3,
+            "pts": 10,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Burkina Faso",
+            "j": 4,
+            "g": 3,
+            "n": 1,
+            "p": 0,
+            "bp": 6,
+            "bc": 2,
+            "pts": 10,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Mauritanie",
+            "j": 4,
+            "g": 1,
+            "n": 0,
+            "p": 3,
+            "bp": 5,
+            "bc": 7,
+            "pts": 3,
+            "statut": "elimine"
+          },
+          {
+            "equipe": "Centrafrique",
+            "j": 4,
+            "g": 0,
+            "n": 0,
+            "p": 4,
+            "bp": 2,
+            "bc": 9,
+            "pts": 0,
+            "statut": "elimine"
+          }
+        ]
+      },
+      {
+        "nom": "Groupe G",
+        "classement": [
+          {
+            "equipe": "Cameroun",
+            "j": 4,
+            "g": 3,
+            "n": 1,
+            "p": 0,
+            "bp": 9,
+            "bc": 2,
+            "pts": 10,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Comores",
+            "j": 4,
+            "g": 2,
+            "n": 1,
+            "p": 1,
+            "bp": 3,
+            "bc": 3,
+            "pts": 7,
+            "statut": null
+          },
+          {
+            "equipe": "Namibie",
+            "j": 4,
+            "g": 1,
+            "n": 0,
+            "p": 3,
+            "bp": 1,
+            "bc": 6,
+            "pts": 3,
+            "statut": null
+          },
+          {
+            "equipe": "Congo",
+            "j": 4,
+            "g": 0,
+            "n": 2,
+            "p": 2,
+            "bp": 1,
+            "bc": 3,
+            "pts": 2,
+            "statut": null
+          }
+        ]
+      },
+      {
+        "nom": "Groupe H",
+        "classement": [
+          {
+            "equipe": "Ouganda",
+            "j": 4,
+            "g": 1,
+            "n": 3,
+            "p": 0,
+            "bp": 4,
+            "bc": 3,
+            "pts": 6,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Libye",
+            "j": 4,
+            "g": 1,
+            "n": 2,
+            "p": 1,
+            "bp": 5,
+            "bc": 4,
+            "pts": 5,
+            "statut": null
+          },
+          {
+            "equipe": "Botswana",
+            "j": 4,
+            "g": 0,
+            "n": 4,
+            "p": 0,
+            "bp": 6,
+            "bc": 6,
+            "pts": 4,
+            "statut": null
+          },
+          {
+            "equipe": "Tunisie",
+            "j": 4,
+            "g": 0,
+            "n": 3,
+            "p": 1,
+            "bp": 4,
+            "bc": 6,
+            "pts": 3,
+            "statut": null
+          }
+        ]
+      },
+      {
+        "nom": "Groupe I",
+        "classement": [
+          {
+            "equipe": "Algérie",
+            "j": 4,
+            "g": 2,
+            "n": 1,
+            "p": 1,
+            "bp": 6,
+            "bc": 6,
+            "pts": 7,
+            "statut": null
+          },
+          {
+            "equipe": "Togo",
+            "j": 4,
+            "g": 2,
+            "n": 0,
+            "p": 2,
+            "bp": 4,
+            "bc": 3,
+            "pts": 6,
+            "statut": null
+          },
+          {
+            "equipe": "Zambie",
+            "j": 4,
+            "g": 1,
+            "n": 2,
+            "p": 1,
+            "bp": 5,
+            "bc": 5,
+            "pts": 5,
+            "statut": null
+          },
+          {
+            "equipe": "Burundi",
+            "j": 4,
+            "g": 0,
+            "n": 3,
+            "p": 1,
+            "bp": 4,
+            "bc": 5,
+            "pts": 3,
+            "statut": null
+          }
+        ]
+      },
+      {
+        "nom": "Groupe J",
+        "classement": [
+          {
+            "equipe": "Sénégal",
+            "j": 4,
+            "g": 3,
+            "n": 1,
+            "p": 0,
+            "bp": 10,
+            "bc": 4,
+            "pts": 10,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Mozambique",
+            "j": 4,
+            "g": 2,
+            "n": 1,
+            "p": 1,
+            "bp": 6,
+            "bc": 3,
+            "pts": 7,
+            "statut": null
+          },
+          {
+            "equipe": "Soudan",
+            "j": 4,
+            "g": 1,
+            "n": 0,
+            "p": 3,
+            "bp": 5,
+            "bc": 12,
+            "pts": 3,
+            "statut": null
+          },
+          {
+            "equipe": "Éthiopie",
+            "j": 4,
+            "g": 1,
+            "n": 0,
+            "p": 3,
+            "bp": 1,
+            "bc": 3,
+            "pts": 3,
+            "statut": null
+          }
+        ]
+      },
+      {
+        "nom": "Groupe K",
+        "classement": [
+          {
+            "equipe": "Mali",
+            "j": 4,
+            "g": 4,
+            "n": 0,
+            "p": 0,
+            "bp": 9,
+            "bc": 3,
+            "pts": 12,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Rwanda",
+            "j": 4,
+            "g": 2,
+            "n": 0,
+            "p": 2,
+            "bp": 7,
+            "bc": 7,
+            "pts": 6,
+            "statut": null
+          },
+          {
+            "equipe": "Cap-Vert",
+            "j": 4,
+            "g": 1,
+            "n": 0,
+            "p": 3,
+            "bp": 6,
+            "bc": 9,
+            "pts": 3,
+            "statut": null
+          },
+          {
+            "equipe": "Liberia",
+            "j": 4,
+            "g": 1,
+            "n": 0,
+            "p": 3,
+            "bp": 5,
+            "bc": 8,
+            "pts": 3,
+            "statut": null
+          }
+        ]
+      },
+      {
+        "nom": "Groupe L",
+        "classement": [
+          {
+            "equipe": "Guinée-Bissau",
+            "j": 4,
+            "g": 3,
+            "n": 1,
+            "p": 0,
+            "bp": 8,
+            "bc": 1,
+            "pts": 10,
+            "statut": null
+          },
+          {
+            "equipe": "Nigeria",
+            "j": 4,
+            "g": 2,
+            "n": 1,
+            "p": 1,
+            "bp": 5,
+            "bc": 5,
+            "pts": 7,
+            "statut": null
+          },
+          {
+            "equipe": "Tanzanie",
+            "j": 4,
+            "g": 0,
+            "n": 2,
+            "p": 2,
+            "bp": 2,
+            "bc": 6,
+            "pts": 2,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Madagascar",
+            "j": 4,
+            "g": 0,
+            "n": 2,
+            "p": 2,
+            "bp": 3,
+            "bc": 6,
+            "pts": 2,
+            "statut": "elimine"
+          }
+        ]
+      }
+    ],
+    "matchs": [
+      {
+        "date": "2026-09-24",
+        "phase": "Groupe G · 1re journée",
+        "dom": "Namibie",
+        "ext": "Congo",
+        "score": "1-0"
+      },
+      {
+        "date": "2026-09-24",
+        "phase": "Groupe H · 1re journée",
+        "dom": "Libye",
+        "ext": "Botswana",
+        "score": "2-2"
+      },
+      {
+        "date": "2026-09-24",
+        "phase": "Groupe F · 1re journée",
+        "dom": "Mauritanie",
+        "ext": "Centrafrique",
+        "score": "3-1"
+      },
+      {
+        "date": "2026-09-24",
+        "phase": "Groupe E · 1re journée",
+        "dom": "RD Congo",
+        "ext": "Guinée équatoriale",
+        "score": "2-0"
+      },
+      {
+        "date": "2026-09-24",
+        "phase": "Groupe G · 1re journée",
+        "dom": "Cameroun",
+        "ext": "Comores",
+        "score": "3-1"
+      },
+      {
+        "date": "2026-09-24",
+        "phase": "Groupe C · 1re journée",
+        "dom": "Côte d'Ivoire",
+        "ext": "Ghana",
+        "score": "2-0"
+      },
+      {
+        "date": "2026-09-24",
+        "phase": "Groupe E · 1re journée",
+        "dom": "Sierra Leone",
+        "ext": "Zimbabwe",
+        "score": "2-3"
+      },
+      {
+        "date": "2026-09-24",
+        "phase": "Groupe H · 1re journée",
+        "dom": "Tunisie",
+        "ext": "Ouganda",
+        "score": "1-1"
+      },
+      {
+        "date": "2026-09-25",
+        "phase": "Groupe L · 1re journée",
+        "dom": "Tanzanie",
+        "ext": "Guinée-Bissau",
+        "score": "0-2"
+      },
+      {
+        "date": "2026-09-25",
+        "phase": "Groupe A · 1re journée",
+        "dom": "Niger",
+        "ext": "Lesotho",
+        "score": "2-1"
+      },
+      {
+        "date": "2026-09-25",
+        "phase": "Groupe C · 1re journée",
+        "dom": "Gambie",
+        "ext": "Somalie",
+        "score": "2-1"
+      },
+      {
+        "date": "2026-09-25",
+        "phase": "Groupe B · 1re journée",
+        "dom": "Malawi",
+        "ext": "Soudan du Sud",
+        "score": "2-1"
+      },
+      {
+        "date": "2026-09-25",
+        "phase": "Groupe L · 1re journée",
+        "dom": "Nigeria",
+        "ext": "Madagascar",
+        "score": "2-1"
+      },
+      {
+        "date": "2026-09-25",
+        "phase": "Groupe K · 1re journée",
+        "dom": "Rwanda",
+        "ext": "Liberia",
+        "score": "3-1"
+      },
+      {
+        "date": "2026-09-25",
+        "phase": "Groupe J · 1re journée",
+        "dom": "Soudan",
+        "ext": "Éthiopie",
+        "score": "1-0"
+      },
+      {
+        "date": "2026-09-25",
+        "phase": "Groupe I · 1re journée",
+        "dom": "Togo",
+        "ext": "Burundi",
+        "score": "1-0"
+      },
+      {
+        "date": "2026-09-25",
+        "phase": "Groupe I · 1re journée",
+        "dom": "Algérie",
+        "ext": "Zambie",
+        "score": "3-1"
+      },
+      {
+        "date": "2026-09-25",
+        "phase": "Groupe F · 1re journée",
+        "dom": "Burkina Faso",
+        "ext": "Bénin",
+        "score": "1-1"
+      },
+      {
+        "date": "2026-09-25",
+        "phase": "Groupe B · 1re journée",
+        "dom": "Égypte",
+        "ext": "Angola",
+        "score": "0-0"
+      },
+      {
+        "date": "2026-09-25",
+        "phase": "Groupe K · 1re journée",
+        "dom": "Mali",
+        "ext": "Cap-Vert",
+        "score": "3-1"
+      },
+      {
+        "date": "2026-09-25",
+        "phase": "Groupe A · 1re journée",
+        "dom": "Maroc",
+        "ext": "Gabon",
+        "score": "2-0"
+      },
+      {
+        "date": "2026-09-25",
+        "phase": "Groupe J · 1re journée",
+        "dom": "Mozambique",
+        "ext": "Sénégal",
+        "score": "1-1"
+      },
+      {
+        "date": "2026-09-26",
+        "phase": "Groupe D · 1re journée",
+        "dom": "Afrique du Sud",
+        "ext": "Guinée",
+        "score": "2-1"
+      },
+      {
+        "date": "2026-09-26",
+        "phase": "Groupe D · 1re journée",
+        "dom": "Kenya",
+        "ext": "Érythrée",
+        "score": "1-1"
+      },
+      {
+        "date": "2026-09-28",
+        "phase": "Groupe F · 2e journée",
+        "dom": "Centrafrique",
+        "ext": "Burkina Faso",
+        "score": "0-1"
+      },
+      {
+        "date": "2026-09-28",
+        "phase": "Groupe E · 2e journée",
+        "dom": "Guinée équatoriale",
+        "ext": "Sierra Leone",
+        "score": "1-0"
+      },
+      {
+        "date": "2026-09-28",
+        "phase": "Groupe E · 2e journée",
+        "dom": "Zimbabwe",
+        "ext": "RD Congo",
+        "score": "1-2"
+      },
+      {
+        "date": "2026-09-28",
+        "phase": "Groupe H · 2e journée",
+        "dom": "Botswana",
+        "ext": "Tunisie",
+        "score": "2-2"
+      },
+      {
+        "date": "2026-09-29",
+        "phase": "Groupe G · 2e journée",
+        "dom": "Comores",
+        "ext": "Namibie",
+        "score": "1-0"
+      },
+      {
+        "date": "2026-09-29",
+        "phase": "Groupe I · 2e journée",
+        "dom": "Burundi",
+        "ext": "Algérie",
+        "score": "2-2"
+      },
+      {
+        "date": "2026-09-29",
+        "phase": "Groupe J · 2e journée",
+        "dom": "Éthiopie",
+        "ext": "Sénégal",
+        "score": "0-1"
+      },
+      {
+        "date": "2026-09-29",
+        "phase": "Groupe A · 2e journée",
+        "dom": "Lesotho",
+        "ext": "Maroc",
+        "score": "0-2"
+      },
+      {
+        "date": "2026-09-29",
+        "phase": "Groupe L · 2e journée",
+        "dom": "Madagascar",
+        "ext": "Tanzanie",
+        "score": "1-1"
+      },
+      {
+        "date": "2026-09-29",
+        "phase": "Groupe J · 2e journée",
+        "dom": "Mozambique",
+        "ext": "Soudan",
+        "score": "4-1"
+      },
+      {
+        "date": "2026-09-29",
+        "phase": "Groupe B · 2e journée",
+        "dom": "Soudan du Sud",
+        "ext": "Égypte",
+        "score": "0-5"
+      },
+      {
+        "date": "2026-09-29",
+        "phase": "Groupe K · 2e journée",
+        "dom": "Cap-Vert",
+        "ext": "Rwanda",
+        "score": "1-2"
+      },
+      {
+        "date": "2026-09-29",
+        "phase": "Groupe C · 2e journée",
+        "dom": "Ghana",
+        "ext": "Gambie",
+        "score": "2-4"
+      },
+      {
+        "date": "2026-09-29",
+        "phase": "Groupe L · 2e journée",
+        "dom": "Guinée-Bissau",
+        "ext": "Nigeria",
+        "score": "3-0"
+      },
+      {
+        "date": "2026-09-29",
+        "phase": "Groupe H · 2e journée",
+        "dom": "Ouganda",
+        "ext": "Libye",
+        "score": "1-0"
+      },
+      {
+        "date": "2026-09-29",
+        "phase": "Groupe I · 2e journée",
+        "dom": "Zambie",
+        "ext": "Togo",
+        "score": "2-0"
+      },
+      {
+        "date": "2026-09-29",
+        "phase": "Groupe F · 2e journée",
+        "dom": "Bénin",
+        "ext": "Mauritanie",
+        "score": "2-1"
+      },
+      {
+        "date": "2026-09-29",
+        "phase": "Groupe G · 2e journée",
+        "dom": "Congo",
+        "ext": "Cameroun",
+        "score": "1-1"
+      },
+      {
+        "date": "2026-09-29",
+        "phase": "Groupe A · 2e journée",
+        "dom": "Gabon",
+        "ext": "Niger",
+        "score": "2-0"
+      },
+      {
+        "date": "2026-09-29",
+        "phase": "Groupe K · 2e journée",
+        "dom": "Liberia",
+        "ext": "Mali",
+        "score": "0-1"
+      },
+      {
+        "date": "2026-09-29",
+        "phase": "Groupe C · 2e journée",
+        "dom": "Somalie",
+        "ext": "Côte d'Ivoire",
+        "score": "0-2"
+      },
+      {
+        "date": "2026-09-30",
+        "phase": "Groupe D · 2e journée",
+        "dom": "Érythrée",
+        "ext": "Afrique du Sud",
+        "score": "0-5"
+      },
+      {
+        "date": "2026-10-01",
+        "phase": "Groupe D · 2e journée",
+        "dom": "Guinée",
+        "ext": "Kenya",
+        "score": "1-0"
+      },
+      {
+        "date": "2026-10-06",
+        "phase": "Groupe B · 2e journée",
+        "dom": "Angola",
+        "ext": "Malawi",
+        "score": "3-1"
+      },
+      {
+        "date": "2026-11-12",
+        "phase": "Groupe C · 3e journée",
+        "dom": "Ghana",
+        "ext": "Somalie",
+        "score": "2-0"
+      },
+      {
+        "date": "2026-11-12",
+        "phase": "Groupe D · 3e journée",
+        "dom": "Guinée",
+        "ext": "Érythrée",
+        "score": "2-1"
+      },
+      {
+        "date": "2026-11-12",
+        "phase": "Groupe E · 3e journée",
+        "dom": "Guinée équatoriale",
+        "ext": "Zimbabwe",
+        "score": "0-0"
+      },
+      {
+        "date": "2026-11-12",
+        "phase": "Groupe L · 3e journée",
+        "dom": "Madagascar",
+        "ext": "Guinée-Bissau",
+        "score": "1-1"
+      },
+      {
+        "date": "2026-11-12",
+        "phase": "Groupe E · 3e journée",
+        "dom": "RD Congo",
+        "ext": "Sierra Leone",
+        "score": "3-1"
+      },
+      {
+        "date": "2026-11-12",
+        "phase": "Groupe F · 3e journée",
+        "dom": "Bénin",
+        "ext": "Centrafrique",
+        "score": "4-1"
+      },
+      {
+        "date": "2026-11-12",
+        "phase": "Groupe G · 3e journée",
+        "dom": "Cameroun",
+        "ext": "Namibie",
+        "score": "2-0"
+      },
+      {
+        "date": "2026-11-12",
+        "phase": "Groupe C · 3e journée",
+        "dom": "Côte d'Ivoire",
+        "ext": "Gambie",
+        "score": "2-1"
+      },
+      {
+        "date": "2026-11-12",
+        "phase": "Groupe J · 3e journée",
+        "dom": "Sénégal",
+        "ext": "Soudan",
+        "score": "4-1"
+      },
+      {
+        "date": "2026-11-13",
+        "phase": "Groupe G · 3e journée",
+        "dom": "Comores",
+        "ext": "Congo",
+        "score": "0-0"
+      },
+      {
+        "date": "2026-11-13",
+        "phase": "Groupe J · 3e journée",
+        "dom": "Mozambique",
+        "ext": "Éthiopie",
+        "score": "0-1"
+      },
+      {
+        "date": "2026-11-13",
+        "phase": "Groupe I · 3e journée",
+        "dom": "Zambie",
+        "ext": "Burundi",
+        "score": "1-1"
+      },
+      {
+        "date": "2026-11-13",
+        "phase": "Groupe D · 3e journée",
+        "dom": "Afrique du Sud",
+        "ext": "Kenya",
+        "score": "2-2"
+      },
+      {
+        "date": "2026-11-13",
+        "phase": "Groupe F · 3e journée",
+        "dom": "Burkina Faso",
+        "ext": "Mauritanie",
+        "score": "1-0"
+      },
+      {
+        "date": "2026-11-13",
+        "phase": "Groupe K · 3e journée",
+        "dom": "Cap-Vert",
+        "ext": "Liberia",
+        "score": "4-2"
+      },
+      {
+        "date": "2026-11-13",
+        "phase": "Groupe A · 3e journée",
+        "dom": "Gabon",
+        "ext": "Lesotho",
+        "score": "2-0"
+      },
+      {
+        "date": "2026-11-13",
+        "phase": "Groupe L · 3e journée",
+        "dom": "Nigeria",
+        "ext": "Tanzanie",
+        "score": "3-1"
+      },
+      {
+        "date": "2026-11-13",
+        "phase": "Groupe H · 3e journée",
+        "dom": "Tunisie",
+        "ext": "Libye",
+        "score": "0-2"
+      },
+      {
+        "date": "2026-11-13",
+        "phase": "Groupe B · 3e journée",
+        "dom": "Égypte",
+        "ext": "Malawi",
+        "score": "5-0"
+      },
+      {
+        "date": "2026-11-13",
+        "phase": "Groupe K · 3e journée",
+        "dom": "Mali",
+        "ext": "Rwanda",
+        "score": "3-2"
+      },
+      {
+        "date": "2026-11-13",
+        "phase": "Groupe A · 3e journée",
+        "dom": "Maroc",
+        "ext": "Niger",
+        "score": "5-1"
+      },
+      {
+        "date": "2026-11-14",
+        "phase": "Groupe H · 3e journée",
+        "dom": "Ouganda",
+        "ext": "Botswana",
+        "score": "1-1"
+      },
+      {
+        "date": "2026-11-14",
+        "phase": "Groupe I · 3e journée",
+        "dom": "Algérie",
+        "ext": "Togo",
+        "score": "1-0"
+      },
+      {
+        "date": "2026-11-14",
+        "phase": "Groupe B · 3e journée",
+        "dom": "Angola",
+        "ext": "Soudan du Sud",
+        "score": "2-0"
+      },
+      {
+        "date": "2026-11-16",
+        "phase": "Groupe G · 4e journée",
+        "dom": "Namibie",
+        "ext": "Cameroun",
+        "score": "0-3"
+      },
+      {
+        "date": "2026-11-16",
+        "phase": "Groupe J · 4e journée",
+        "dom": "Soudan",
+        "ext": "Sénégal",
+        "score": "2-4"
+      },
+      {
+        "date": "2026-11-16",
+        "phase": "Groupe E · 4e journée",
+        "dom": "Zimbabwe",
+        "ext": "Guinée équatoriale",
+        "score": "3-0"
+      },
+      {
+        "date": "2026-11-16",
+        "phase": "Groupe C · 4e journée",
+        "dom": "Somalie",
+        "ext": "Ghana",
+        "score": "0-1"
+      },
+      {
+        "date": "2026-11-16",
+        "phase": "Groupe F · 4e journée",
+        "dom": "Centrafrique",
+        "ext": "Bénin",
+        "score": "0-1"
+      },
+      {
+        "date": "2026-11-16",
+        "phase": "Groupe D · 4e journée",
+        "dom": "Érythrée",
+        "ext": "Guinée",
+        "score": "1-3"
+      },
+      {
+        "date": "2026-11-17",
+        "phase": "Groupe I · 4e journée",
+        "dom": "Burundi",
+        "ext": "Zambie",
+        "score": "1-1"
+      },
+      {
+        "date": "2026-11-17",
+        "phase": "Groupe J · 4e journée",
+        "dom": "Éthiopie",
+        "ext": "Mozambique",
+        "score": "0-1"
+      },
+      {
+        "date": "2026-11-17",
+        "phase": "Groupe A · 4e journée",
+        "dom": "Lesotho",
+        "ext": "Gabon",
+        "score": "2-1"
+      },
+      {
+        "date": "2026-11-17",
+        "phase": "Groupe B · 4e journée",
+        "dom": "Malawi",
+        "ext": "Égypte",
+        "score": "0-0"
+      },
+      {
+        "date": "2026-11-17",
+        "phase": "Groupe B · 4e journée",
+        "dom": "Soudan du Sud",
+        "ext": "Angola",
+        "score": "0-1"
+      },
+      {
+        "date": "2026-11-17",
+        "phase": "Groupe L · 4e journée",
+        "dom": "Tanzanie",
+        "ext": "Nigeria",
+        "score": "0-0"
+      },
+      {
+        "date": "2026-11-17",
+        "phase": "Groupe C · 4e journée",
+        "dom": "Gambie",
+        "ext": "Côte d'Ivoire",
+        "score": "2-2"
+      },
+      {
+        "date": "2026-11-17",
+        "phase": "Groupe L · 4e journée",
+        "dom": "Guinée-Bissau",
+        "ext": "Madagascar",
+        "score": "2-0"
+      },
+      {
+        "date": "2026-11-17",
+        "phase": "Groupe D · 4e journée",
+        "dom": "Kenya",
+        "ext": "Afrique du Sud",
+        "score": "1-2",
+        "lieu": "Nairobi"
+      },
+      {
+        "date": "2026-11-17",
+        "phase": "Groupe H · 4e journée",
+        "dom": "Libye",
+        "ext": "Tunisie",
+        "score": "1-1"
+      },
+      {
+        "date": "2026-11-17",
+        "phase": "Groupe E · 4e journée",
+        "dom": "Sierra Leone",
+        "ext": "RD Congo",
+        "score": "1-1"
+      },
+      {
+        "date": "2026-11-17",
+        "phase": "Groupe I · 4e journée",
+        "dom": "Togo",
+        "ext": "Algérie",
+        "score": "3-0"
+      },
+      {
+        "date": "2026-11-17",
+        "phase": "Groupe H · 4e journée",
+        "dom": "Botswana",
+        "ext": "Ouganda",
+        "score": "1-1"
+      },
+      {
+        "date": "2026-11-17",
+        "phase": "Groupe G · 4e journée",
+        "dom": "Congo",
+        "ext": "Comores",
+        "score": "0-1"
+      },
+      {
+        "date": "2026-11-17",
+        "phase": "Groupe K · 4e journée",
+        "dom": "Liberia",
+        "ext": "Cap-Vert",
+        "score": "2-0"
+      },
+      {
+        "date": "2026-11-17",
+        "phase": "Groupe F · 4e journée",
+        "dom": "Mauritanie",
+        "ext": "Burkina Faso",
+        "score": "1-3"
+      },
+      {
+        "date": "2026-11-17",
+        "phase": "Groupe K · 4e journée",
+        "dom": "Rwanda",
+        "ext": "Mali",
+        "score": "0-2"
+      },
+      {
+        "date": "2026-11-17",
+        "phase": "Groupe A · 4e journée",
+        "dom": "Niger",
+        "ext": "Maroc",
+        "score": "0-1"
+      }
+    ],
+    "prochains": [
+      {
+        "date": "2027-03-24",
+        "phase": "Groupe B · 5e journée",
+        "dom": "Angola",
+        "ext": "Égypte"
+      },
+      {
+        "date": "2027-03-24",
+        "phase": "Groupe F · 5e journée",
+        "dom": "Bénin",
+        "ext": "Burkina Faso"
+      },
+      {
+        "date": "2027-03-24",
+        "phase": "Groupe H · 5e journée",
+        "dom": "Botswana",
+        "ext": "Libye"
+      },
+      {
+        "date": "2027-03-24",
+        "phase": "Groupe I · 5e journée",
+        "dom": "Burundi",
+        "ext": "Togo"
+      },
+      {
+        "date": "2027-03-24",
+        "phase": "Groupe K · 5e journée",
+        "dom": "Cap-Vert",
+        "ext": "Mali"
+      },
+      {
+        "date": "2027-03-24",
+        "phase": "Groupe F · 5e journée",
+        "dom": "Centrafrique",
+        "ext": "Mauritanie"
+      },
+      {
+        "date": "2027-03-24",
+        "phase": "Groupe G · 5e journée",
+        "dom": "Comores",
+        "ext": "Cameroun"
+      },
+      {
+        "date": "2027-03-24",
+        "phase": "Groupe G · 5e journée",
+        "dom": "Congo",
+        "ext": "Namibie"
+      },
+      {
+        "date": "2027-03-24",
+        "phase": "Groupe D · 5e journée",
+        "dom": "Érythrée",
+        "ext": "Kenya"
+      },
+      {
+        "date": "2027-03-24",
+        "phase": "Groupe J · 5e journée",
+        "dom": "Éthiopie",
+        "ext": "Soudan"
+      },
+      {
+        "date": "2027-03-24",
+        "phase": "Groupe A · 5e journée",
+        "dom": "Gabon",
+        "ext": "Maroc"
+      },
+      {
+        "date": "2027-03-24",
+        "phase": "Groupe C · 5e journée",
+        "dom": "Ghana",
+        "ext": "Côte d'Ivoire"
+      },
+      {
+        "date": "2027-03-24",
+        "phase": "Groupe D · 5e journée",
+        "dom": "Guinée",
+        "ext": "Afrique du Sud"
+      },
+      {
+        "date": "2027-03-24",
+        "phase": "Groupe E · 5e journée",
+        "dom": "Guinée équatoriale",
+        "ext": "RD Congo"
+      },
+      {
+        "date": "2027-03-24",
+        "phase": "Groupe L · 5e journée",
+        "dom": "Guinée-Bissau",
+        "ext": "Tanzanie"
+      },
+      {
+        "date": "2027-03-24",
+        "phase": "Groupe A · 5e journée",
+        "dom": "Lesotho",
+        "ext": "Niger"
+      },
+      {
+        "date": "2027-03-24",
+        "phase": "Groupe K · 5e journée",
+        "dom": "Liberia",
+        "ext": "Rwanda"
+      },
+      {
+        "date": "2027-03-24",
+        "phase": "Groupe L · 5e journée",
+        "dom": "Madagascar",
+        "ext": "Nigeria"
+      },
+      {
+        "date": "2027-03-24",
+        "phase": "Groupe J · 5e journée",
+        "dom": "Mozambique",
+        "ext": "Sénégal"
+      },
+      {
+        "date": "2027-03-24",
+        "phase": "Groupe H · 5e journée",
+        "dom": "Ouganda",
+        "ext": "Tunisie"
+      },
+      {
+        "date": "2027-03-24",
+        "phase": "Groupe C · 5e journée",
+        "dom": "Somalie",
+        "ext": "Gambie"
+      },
+      {
+        "date": "2027-03-24",
+        "phase": "Groupe B · 5e journée",
+        "dom": "Soudan du Sud",
+        "ext": "Malawi"
+      },
+      {
+        "date": "2027-03-24",
+        "phase": "Groupe I · 5e journée",
+        "dom": "Zambie",
+        "ext": "Algérie"
+      },
+      {
+        "date": "2027-03-24",
+        "phase": "Groupe E · 5e journée",
+        "dom": "Zimbabwe",
+        "ext": "Sierra Leone"
+      },
+      {
+        "date": "2027-03-28",
+        "phase": "Groupe D · 6e journée",
+        "dom": "Afrique du Sud",
+        "ext": "Érythrée"
+      },
+      {
+        "date": "2027-03-28",
+        "phase": "Groupe I · 6e journée",
+        "dom": "Algérie",
+        "ext": "Burundi"
+      },
+      {
+        "date": "2027-03-28",
+        "phase": "Groupe F · 6e journée",
+        "dom": "Burkina Faso",
+        "ext": "Centrafrique"
+      },
+      {
+        "date": "2027-03-28",
+        "phase": "Groupe G · 6e journée",
+        "dom": "Cameroun",
+        "ext": "Congo"
+      },
+      {
+        "date": "2027-03-28",
+        "phase": "Groupe C · 6e journée",
+        "dom": "Côte d'Ivoire",
+        "ext": "Somalie"
+      },
+      {
+        "date": "2027-03-28",
+        "phase": "Groupe B · 6e journée",
+        "dom": "Égypte",
+        "ext": "Soudan du Sud"
+      },
+      {
+        "date": "2027-03-28",
+        "phase": "Groupe C · 6e journée",
+        "dom": "Gambie",
+        "ext": "Ghana"
+      },
+      {
+        "date": "2027-03-28",
+        "phase": "Groupe D · 6e journée",
+        "dom": "Kenya",
+        "ext": "Guinée"
+      },
+      {
+        "date": "2027-03-28",
+        "phase": "Groupe H · 6e journée",
+        "dom": "Libye",
+        "ext": "Ouganda"
+      },
+      {
+        "date": "2027-03-28",
+        "phase": "Groupe B · 6e journée",
+        "dom": "Malawi",
+        "ext": "Angola"
+      },
+      {
+        "date": "2027-03-28",
+        "phase": "Groupe K · 6e journée",
+        "dom": "Mali",
+        "ext": "Liberia"
+      },
+      {
+        "date": "2027-03-28",
+        "phase": "Groupe A · 6e journée",
+        "dom": "Maroc",
+        "ext": "Lesotho"
+      },
+      {
+        "date": "2027-03-28",
+        "phase": "Groupe F · 6e journée",
+        "dom": "Mauritanie",
+        "ext": "Bénin"
+      },
+      {
+        "date": "2027-03-28",
+        "phase": "Groupe G · 6e journée",
+        "dom": "Namibie",
+        "ext": "Comores"
+      },
+      {
+        "date": "2027-03-28",
+        "phase": "Groupe A · 6e journée",
+        "dom": "Niger",
+        "ext": "Gabon"
+      },
+      {
+        "date": "2027-03-28",
+        "phase": "Groupe L · 6e journée",
+        "dom": "Nigeria",
+        "ext": "Guinée-Bissau"
+      },
+      {
+        "date": "2027-03-28",
+        "phase": "Groupe E · 6e journée",
+        "dom": "RD Congo",
+        "ext": "Zimbabwe"
+      },
+      {
+        "date": "2027-03-28",
+        "phase": "Groupe K · 6e journée",
+        "dom": "Rwanda",
+        "ext": "Cap-Vert"
+      },
+      {
+        "date": "2027-03-28",
+        "phase": "Groupe J · 6e journée",
+        "dom": "Sénégal",
+        "ext": "Éthiopie"
+      },
+      {
+        "date": "2027-03-28",
+        "phase": "Groupe E · 6e journée",
+        "dom": "Sierra Leone",
+        "ext": "Guinée équatoriale"
+      },
+      {
+        "date": "2027-03-28",
+        "phase": "Groupe J · 6e journée",
+        "dom": "Soudan",
+        "ext": "Mozambique"
+      },
+      {
+        "date": "2027-03-28",
+        "phase": "Groupe L · 6e journée",
+        "dom": "Tanzanie",
+        "ext": "Madagascar"
+      },
+      {
+        "date": "2027-03-28",
+        "phase": "Groupe I · 6e journée",
+        "dom": "Togo",
+        "ext": "Zambie"
+      },
+      {
+        "date": "2027-03-28",
+        "phase": "Groupe H · 6e journée",
+        "dom": "Tunisie",
+        "ext": "Botswana"
+      }
+    ]
+  },
+  "phase_finale": {
+    "format": "24 équipes du 19 juin au 17 juillet 2027, première CAN co-organisée par trois pays et première en Afrique de l'Est depuis 1976. Liste des stades et villes du match d'ouverture et de la finale non encore confirmées par la CAF ; les stades ci-dessous sont les sites candidats.",
+    "tirage": null,
+    "stades": [
+      {
+        "ville": "Nairobi",
+        "stade": "Moi International Sports Centre (Kasarani)"
+      },
+      {
+        "ville": "Nairobi",
+        "stade": "Talanta Sports Stadium (Raila Odinga International Stadium)"
+      },
+      {
+        "ville": "Nairobi",
+        "stade": "Nyayo National Stadium"
+      },
+      {
+        "ville": "Kampala",
+        "stade": "Mandela National Stadium (Namboole)"
+      },
+      {
+        "ville": "Hoima",
+        "stade": "Hoima City Stadium"
+      },
+      {
+        "ville": "Lira",
+        "stade": "Akii Bua Stadium"
+      },
+      {
+        "ville": "Dar es Salaam",
+        "stade": "Benjamin Mkapa Stadium"
+      },
+      {
+        "ville": "Arusha",
+        "stade": "Samia Suluhu Hassan Stadium"
+      },
+      {
+        "ville": "Zanzibar",
+        "stade": "Amaan Stadium"
+      },
+      {
+        "ville": "Zanzibar",
+        "stade": "Fumba Stadium"
+      }
+    ]
+  },
+  "buteurs": [
+    {
+      "joueur": "Relebohile Mofokeng",
+      "equipe": "Afrique du Sud",
+      "buts": 5
+    },
+    {
+      "joueur": "Nicolas Jackson",
+      "equipe": "Sénégal",
+      "buts": 4
+    },
+    {
+      "joueur": "Omar Marmoush",
+      "equipe": "Égypte",
+      "buts": 3
+    },
+    {
+      "joueur": "Yoane Wissa",
+      "equipe": "RD Congo",
+      "buts": 3
+    },
+    {
+      "joueur": "Marshall Munetsi",
+      "equipe": "Zimbabwe",
+      "buts": 3
+    },
+    {
+      "joueur": "Rodolfo Aloko",
+      "equipe": "Bénin",
+      "buts": 3
+    },
+    {
+      "joueur": "Aiyegun Tosin",
+      "equipe": "Bénin",
+      "buts": 3
+    },
+    {
+      "joueur": "Mama Baldé",
+      "equipe": "Guinée-Bissau",
+      "buts": 3
+    },
+    {
+      "joueur": "Yakhouba Barry",
+      "equipe": "Guinée",
+      "buts": 3
+    },
+    {
+      "joueur": "Denis Bouanga",
+      "equipe": "Gabon",
+      "buts": 3
+    },
+    {
+      "joueur": "Ebrima Colley",
+      "equipe": "Gambie",
+      "buts": 3
+    },
+    {
+      "joueur": "Miro",
+      "equipe": "Angola",
+      "buts": 3
+    }
+  ],
+  "passeurs": [],
+  "stats_portee": "Phase de groupes des éliminatoires 2027 (au 18 novembre 2026, hors tour préliminaire)",
+  "palmares": [
+    {
+      "annee": 2025,
+      "vainqueur": "Maroc",
+      "finaliste": "Sénégal",
+      "score": "3-0 sur tapis vert (1-0 a.p. pour le Sénégal sur le terrain ; recours devant le TAS)",
+      "hote": "Maroc"
+    },
+    {
+      "annee": 2023,
+      "vainqueur": "Côte d'Ivoire",
+      "finaliste": "Nigeria",
+      "score": "2-1",
+      "hote": "Côte d'Ivoire"
+    },
+    {
+      "annee": 2021,
+      "vainqueur": "Sénégal",
+      "finaliste": "Égypte",
+      "score": "0-0 a.p. (4-2 t.a.b.)",
+      "hote": "Cameroun"
+    },
+    {
+      "annee": 2019,
+      "vainqueur": "Algérie",
+      "finaliste": "Sénégal",
+      "score": "1-0",
+      "hote": "Égypte"
+    },
+    {
+      "annee": 2017,
+      "vainqueur": "Cameroun",
+      "finaliste": "Égypte",
+      "score": "2-1",
+      "hote": "Gabon"
+    },
+    {
+      "annee": 2015,
+      "vainqueur": "Côte d'Ivoire",
+      "finaliste": "Ghana",
+      "score": "0-0 a.p. (9-8 t.a.b.)",
+      "hote": "Guinée équatoriale"
+    },
+    {
+      "annee": 2013,
+      "vainqueur": "Nigeria",
+      "finaliste": "Burkina Faso",
+      "score": "1-0",
+      "hote": "Afrique du Sud"
+    },
+    {
+      "annee": 2012,
+      "vainqueur": "Zambie",
+      "finaliste": "Côte d'Ivoire",
+      "score": "0-0 a.p. (8-7 t.a.b.)",
+      "hote": "Gabon, Guinée équatoriale"
+    }
+  ],
+  "focus": {
+    "titre": "Le titre 2025 suspendu au TAS",
+    "texte": "Le Sénégal a battu le Maroc 1-0 après prolongation en finale de la CAN 2025, le 18 janvier 2026 à Rabat. Le 17 mars 2026, le jury d'appel de la CAF a sanctionné les Lions de la Teranga, qui avaient quitté le terrain pendant le match, par un forfait (3-0) attribuant le titre au Maroc. Le Sénégal a saisi le Tribunal arbitral du sport, qui a tenu une audience le 8 octobre 2026 à Lausanne et doit rendre sa décision fin novembre 2026."
+  },
+  "sources": [
+    {
+      "nom": "CAF – Dates de la CAN PAMOJA 2027",
+      "url": "https://www.cafonline.com/fr/can2025/infos/en-route-vers-l-afrique-de-l-est-la-caf-annonce-les-dates-du-match-d-ouverture-de-la-finale-et-des-eliminatoires-de-la-totalenergies-caf-coupe-d-afrique-des-nations-pamoja-2027/"
+    },
+    {
+      "nom": "CAF – Début des éliminatoires (format)",
+      "url": "https://www.cafonline.com/fr/can2025/infos/en-route-vers-la-can-2027-debut-des-eliminatoires-de-la-totalenergies-caf-can-pamoja-2027/"
+    },
+    {
+      "nom": "CAF – Six nations qualifiées après la 4e journée",
+      "url": "https://www.cafonline.com/afcon2025/news/six-nations-book-totalenergies-caf-afcon-pamoja-2027-places-as-matchday-4-concludes/"
+    },
+    {
+      "nom": "CAF – Classement des buteurs après la 3e journée",
+      "url": "https://www.cafonline.com/afcon2025/news/wissa-marmoush-and-bouanga-among-eight-tied-for-afcon-qualifying-scoring-lead/"
+    },
+    {
+      "nom": "Afrik-Foot – Calendrier des éliminatoires",
+      "url": "https://www.afrik-foot.com/can-2027-calendrier-eliminatoires"
+    },
+    {
+      "nom": "Afrik-Foot – Classements et résultats par groupe",
+      "url": "https://www.afrik-foot.com/classement-resultat-eliminatoires-can-2027-groupe"
+    },
+    {
+      "nom": "Foot Mercato – Classement des éliminatoires",
+      "url": "https://www.footmercato.net/afrique/eliminatoires-coupe-dafrique-des-nations/classement"
+    },
+    {
+      "nom": "Africa Radio – Résultats de la 4e journée",
+      "url": "https://www.africaradio.com/actualite-117444-qualifications-can-2027-4e-journee-des-eliminatoires-retrouvez-tous-les-resultats-des-24-matchs"
+    },
+    {
+      "nom": "2424.mg – Qualifiés et éliminés après quatre journées",
+      "url": "https://www.2424.mg/football-six-pays-gagnent-leur-qualification-a-la-can-2027-sur-le-terrain-apres-quatre-journees-six-selections-mathematiquement-eliminees"
+    },
+    {
+      "nom": "TimesLIVE – Classement des buteurs (18 novembre 2026)",
+      "url": "https://www.timeslive.co.za/sport/soccer/2026-11-18-im-not-out-to-prove-a-point-to-anyone-insists-bafana-hero-rele/"
+    },
+    {
+      "nom": "Wikipédia (EN) – 2027 Africa Cup of Nations qualification",
+      "url": "https://en.wikipedia.org/wiki/2027_Africa_Cup_of_Nations_qualification"
+    },
+    {
+      "nom": "Wikipédia (EN) – Pamoja AFCON",
+      "url": "https://en.wikipedia.org/wiki/Pamoja_AFCON"
+    },
+    {
+      "nom": "beIN Sports – Où et quand se jouera la CAN 2027",
+      "url": "https://www.beinsports.com/en-us/soccer/africa-cup-of-nations-qualification/articles/when-and-where-will-afcon-2027-take-place-everything-you-need-to-know-2026-09-21"
+    },
+    {
+      "nom": "Orange Sports – Le Maroc déclaré vainqueur sur tapis vert",
+      "url": "https://sports.orange.fr/football/can/article/can-2025-le-maroc-declare-vainqueur-du-tournoi-sur-tapis-vert-exclu-CNT000002nTJNX.html"
+    },
+    {
+      "nom": "Afrik-Foot – Verdict du TAS attendu",
+      "url": "https://www.afrik-foot.com/senegal-maroc-une-nouvelle-date-avancee-pour-le-verdict-du-tas"
+    },
+    {
+      "nom": "Wikipédia (FR) – Coupe d'Afrique des nations de football",
+      "url": "https://fr.wikipedia.org/wiki/Coupe_d%27Afrique_des_nations_de_football"
+    }
+  ]
+}

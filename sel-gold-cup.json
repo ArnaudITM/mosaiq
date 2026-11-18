@@ -1,0 +1,1055 @@
+{
+  "id": "gold-cup",
+  "nom": "Gold Cup de la CONCACAF 2027",
+  "nom_court": "Gold Cup 2027",
+  "confederation": "CONCACAF",
+  "edition": "19e édition",
+  "hote": null,
+  "dates": {
+    "debut": "2027-06-17",
+    "fin": "2027-07-11"
+  },
+  "statut": "qualifications",
+  "tenant": "Mexique (2025)",
+  "maj": "18 novembre 2026",
+  "resume": "La Gold Cup 2027 (17 juin - 11 juillet 2027) étrennera une nouvelle formule à 16 équipes réparties en deux groupes de huit ; le ou les pays hôtes et les stades n'ont pas encore été annoncés par la CONCACAF. À l'issue de la fenêtre de novembre de la Ligue des nations 2026-27, huit sélections sont qualifiées (États-Unis, Mexique, Canada, Panama, Guyana, Sainte-Lucie, Cuba, Saint-Vincent-et-les-Grenadines), auxquelles s'ajoute l'Arabie saoudite, invitée. Les sept dernières places se joueront lors du tour préliminaire de mars 2027 entre 14 équipes ; la Guyane et Porto Rico y figurent comme deux meilleurs deuxièmes de Ligue B d'après le classement, sans confirmation officielle trouvée à ce jour.",
+  "etapes": [
+    {
+      "date": "2026-08-24",
+      "titre": "La CONCACAF officialise le parcours de qualification via la Ligue des nations 2026-27",
+      "fait": true
+    },
+    {
+      "date": "2026-09-24",
+      "titre": "Coup d'envoi de la Ligue des nations 2026-27",
+      "fait": true
+    },
+    {
+      "date": "2026-10-05",
+      "titre": "Fin de la phase de groupes de la Ligue A : Curaçao, Haïti, Guatemala et Jamaïque en quarts",
+      "fait": true
+    },
+    {
+      "date": "2026-11-05",
+      "titre": "Annonce des dates et du nouveau format de la Gold Cup 2027 (deux groupes de huit)",
+      "fait": true
+    },
+    {
+      "date": "2026-11-17",
+      "titre": "Quarts de finale de Ligue A, fin de la Ligue B et Play-In : huit qualifiés directs connus",
+      "fait": true
+    },
+    {
+      "date": "2027-03-25",
+      "titre": "Final Four de la Ligue des nations (25-28 mars) : États-Unis - Mexique et Canada - Panama",
+      "fait": false
+    },
+    {
+      "date": "2027-04-08",
+      "titre": "Tirage au sort de la phase finale",
+      "fait": false
+    },
+    {
+      "date": "2027-06-17",
+      "titre": "Match d'ouverture de la Gold Cup",
+      "fait": false
+    },
+    {
+      "date": "2027-07-11",
+      "titre": "Finale de la Gold Cup",
+      "fait": false
+    }
+  ],
+  "qualifications": {
+    "format": "Les quatre vainqueurs des quarts de finale de Ligue A et les quatre premiers des groupes de Ligue B sont qualifiés directement ; 14 équipes (perdants des quarts, 3es et 4es de Ligue A, deux meilleurs 2es de Ligue B, quatre vainqueurs du Play-In entre Ligue A et Ligue C) disputent en mars 2027 sept confrontations aller-retour pour les sept dernières places. L'Arabie saoudite est invitée.",
+    "qualifies": [
+      "États-Unis",
+      "Mexique",
+      "Canada",
+      "Panama",
+      "Guyana",
+      "Sainte-Lucie",
+      "Cuba",
+      "Saint-Vincent-et-les-Grenadines",
+      "Arabie saoudite (invitée)"
+    ],
+    "groupes": [
+      {
+        "nom": "Ligue A · Groupe A",
+        "classement": [
+          {
+            "equipe": "Curaçao",
+            "j": 4,
+            "g": 3,
+            "n": 1,
+            "p": 0,
+            "bp": 12,
+            "bc": 5,
+            "pts": 10,
+            "statut": "barrage"
+          },
+          {
+            "equipe": "Haïti",
+            "j": 4,
+            "g": 3,
+            "n": 0,
+            "p": 1,
+            "bp": 9,
+            "bc": 5,
+            "pts": 9,
+            "statut": "barrage"
+          },
+          {
+            "equipe": "République dominicaine",
+            "j": 4,
+            "g": 3,
+            "n": 0,
+            "p": 1,
+            "bp": 8,
+            "bc": 8,
+            "pts": 9,
+            "statut": "barrage"
+          },
+          {
+            "equipe": "Costa Rica",
+            "j": 4,
+            "g": 2,
+            "n": 0,
+            "p": 2,
+            "bp": 8,
+            "bc": 6,
+            "pts": 6,
+            "statut": "barrage"
+          },
+          {
+            "equipe": "Trinité-et-Tobago",
+            "j": 4,
+            "g": 0,
+            "n": 1,
+            "p": 3,
+            "bp": 4,
+            "bc": 7,
+            "pts": 1,
+            "statut": "barrage"
+          },
+          {
+            "equipe": "Nicaragua",
+            "j": 4,
+            "g": 0,
+            "n": 0,
+            "p": 4,
+            "bp": 4,
+            "bc": 14,
+            "pts": 0,
+            "statut": "barrage"
+          }
+        ]
+      },
+      {
+        "nom": "Ligue A · Groupe B",
+        "classement": [
+          {
+            "equipe": "Guatemala",
+            "j": 4,
+            "g": 2,
+            "n": 1,
+            "p": 1,
+            "bp": 9,
+            "bc": 3,
+            "pts": 7,
+            "statut": "barrage"
+          },
+          {
+            "equipe": "Jamaïque",
+            "j": 4,
+            "g": 2,
+            "n": 1,
+            "p": 1,
+            "bp": 6,
+            "bc": 4,
+            "pts": 7,
+            "statut": "barrage"
+          },
+          {
+            "equipe": "Suriname",
+            "j": 4,
+            "g": 2,
+            "n": 1,
+            "p": 1,
+            "bp": 5,
+            "bc": 4,
+            "pts": 7,
+            "statut": "barrage"
+          },
+          {
+            "equipe": "Honduras",
+            "j": 4,
+            "g": 1,
+            "n": 1,
+            "p": 2,
+            "bp": 5,
+            "bc": 6,
+            "pts": 4,
+            "statut": "barrage"
+          },
+          {
+            "equipe": "Martinique",
+            "j": 4,
+            "g": 1,
+            "n": 1,
+            "p": 2,
+            "bp": 5,
+            "bc": 7,
+            "pts": 4,
+            "statut": "elimine"
+          },
+          {
+            "equipe": "Salvador",
+            "j": 4,
+            "g": 1,
+            "n": 1,
+            "p": 2,
+            "bp": 4,
+            "bc": 10,
+            "pts": 4,
+            "statut": "barrage"
+          }
+        ]
+      },
+      {
+        "nom": "Ligue B · Groupe A",
+        "classement": [
+          {
+            "equipe": "Guyana",
+            "j": 6,
+            "g": 6,
+            "n": 0,
+            "p": 0,
+            "bp": 26,
+            "bc": 4,
+            "pts": 18,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Porto Rico",
+            "j": 6,
+            "g": 4,
+            "n": 0,
+            "p": 2,
+            "bp": 12,
+            "bc": 7,
+            "pts": 12,
+            "statut": "barrage"
+          },
+          {
+            "equipe": "Dominique",
+            "j": 6,
+            "g": 1,
+            "n": 1,
+            "p": 4,
+            "bp": 9,
+            "bc": 19,
+            "pts": 4,
+            "statut": "elimine"
+          },
+          {
+            "equipe": "Îles Caïmans",
+            "j": 6,
+            "g": 0,
+            "n": 1,
+            "p": 5,
+            "bp": 0,
+            "bc": 17,
+            "pts": 1,
+            "statut": "elimine"
+          }
+        ]
+      },
+      {
+        "nom": "Ligue B · Groupe B",
+        "classement": [
+          {
+            "equipe": "Sainte-Lucie",
+            "j": 6,
+            "g": 5,
+            "n": 0,
+            "p": 1,
+            "bp": 13,
+            "bc": 5,
+            "pts": 15,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Guadeloupe",
+            "j": 6,
+            "g": 3,
+            "n": 1,
+            "p": 2,
+            "bp": 11,
+            "bc": 8,
+            "pts": 10,
+            "statut": "elimine"
+          },
+          {
+            "equipe": "Barbade",
+            "j": 6,
+            "g": 3,
+            "n": 1,
+            "p": 2,
+            "bp": 10,
+            "bc": 9,
+            "pts": 10,
+            "statut": "elimine"
+          },
+          {
+            "equipe": "Bermudes",
+            "j": 6,
+            "g": 0,
+            "n": 0,
+            "p": 6,
+            "bp": 7,
+            "bc": 19,
+            "pts": 0,
+            "statut": "elimine"
+          }
+        ]
+      },
+      {
+        "nom": "Ligue B · Groupe C",
+        "classement": [
+          {
+            "equipe": "Cuba",
+            "j": 6,
+            "g": 4,
+            "n": 2,
+            "p": 0,
+            "bp": 26,
+            "bc": 6,
+            "pts": 14,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Saint-Christophe-et-Niévès",
+            "j": 6,
+            "g": 3,
+            "n": 2,
+            "p": 1,
+            "bp": 15,
+            "bc": 11,
+            "pts": 11,
+            "statut": "elimine"
+          },
+          {
+            "equipe": "Grenade",
+            "j": 6,
+            "g": 2,
+            "n": 0,
+            "p": 4,
+            "bp": 7,
+            "bc": 23,
+            "pts": 6,
+            "statut": "elimine"
+          },
+          {
+            "equipe": "Bonaire",
+            "j": 6,
+            "g": 1,
+            "n": 0,
+            "p": 5,
+            "bp": 10,
+            "bc": 18,
+            "pts": 3,
+            "statut": "elimine"
+          }
+        ]
+      },
+      {
+        "nom": "Ligue B · Groupe D",
+        "classement": [
+          {
+            "equipe": "Saint-Vincent-et-les-Grenadines",
+            "j": 6,
+            "g": 5,
+            "n": 0,
+            "p": 1,
+            "bp": 12,
+            "bc": 4,
+            "pts": 15,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Guyane",
+            "j": 6,
+            "g": 5,
+            "n": 0,
+            "p": 1,
+            "bp": 11,
+            "bc": 3,
+            "pts": 15,
+            "statut": "barrage"
+          },
+          {
+            "equipe": "Belize",
+            "j": 6,
+            "g": 1,
+            "n": 0,
+            "p": 5,
+            "bp": 2,
+            "bc": 7,
+            "pts": 3,
+            "statut": "elimine"
+          },
+          {
+            "equipe": "Sint Maarten",
+            "j": 6,
+            "g": 1,
+            "n": 0,
+            "p": 5,
+            "bp": 5,
+            "bc": 16,
+            "pts": 3,
+            "statut": "elimine"
+          }
+        ]
+      },
+      {
+        "nom": "Ligue C · Groupe A",
+        "classement": [
+          {
+            "equipe": "Montserrat",
+            "j": 4,
+            "g": 4,
+            "n": 0,
+            "p": 0,
+            "bp": 11,
+            "bc": 1,
+            "pts": 12,
+            "statut": "elimine"
+          },
+          {
+            "equipe": "Îles Turques-et-Caïques",
+            "j": 4,
+            "g": 2,
+            "n": 0,
+            "p": 2,
+            "bp": 7,
+            "bc": 6,
+            "pts": 6,
+            "statut": "elimine"
+          },
+          {
+            "equipe": "Îles Vierges britanniques",
+            "j": 4,
+            "g": 0,
+            "n": 0,
+            "p": 4,
+            "bp": 0,
+            "bc": 11,
+            "pts": 0,
+            "statut": "elimine"
+          }
+        ]
+      },
+      {
+        "nom": "Ligue C · Groupe B",
+        "classement": [
+          {
+            "equipe": "Antigua-et-Barbuda",
+            "j": 4,
+            "g": 3,
+            "n": 0,
+            "p": 1,
+            "bp": 11,
+            "bc": 3,
+            "pts": 9,
+            "statut": "elimine"
+          },
+          {
+            "equipe": "Aruba",
+            "j": 4,
+            "g": 3,
+            "n": 0,
+            "p": 1,
+            "bp": 8,
+            "bc": 5,
+            "pts": 9,
+            "statut": "barrage"
+          },
+          {
+            "equipe": "Anguilla",
+            "j": 4,
+            "g": 0,
+            "n": 0,
+            "p": 4,
+            "bp": 2,
+            "bc": 13,
+            "pts": 0,
+            "statut": "elimine"
+          }
+        ]
+      },
+      {
+        "nom": "Ligue C · Groupe C",
+        "classement": [
+          {
+            "equipe": "Saint-Martin",
+            "j": 4,
+            "g": 3,
+            "n": 0,
+            "p": 1,
+            "bp": 19,
+            "bc": 2,
+            "pts": 9,
+            "statut": "elimine"
+          },
+          {
+            "equipe": "Îles Vierges des États-Unis",
+            "j": 4,
+            "g": 3,
+            "n": 0,
+            "p": 1,
+            "bp": 8,
+            "bc": 8,
+            "pts": 9,
+            "statut": "elimine"
+          },
+          {
+            "equipe": "Bahamas",
+            "j": 4,
+            "g": 0,
+            "n": 0,
+            "p": 4,
+            "bp": 3,
+            "bc": 20,
+            "pts": 0,
+            "statut": "elimine"
+          }
+        ]
+      }
+    ],
+    "matchs": [
+      {
+        "date": "2026-10-04",
+        "phase": "Ligue A · Groupe A · 4e journée",
+        "dom": "Costa Rica",
+        "ext": "Haïti",
+        "score": "2-0",
+        "lieu": "San José"
+      },
+      {
+        "date": "2026-10-04",
+        "phase": "Ligue A · Groupe A · 4e journée",
+        "dom": "Trinité-et-Tobago",
+        "ext": "Curaçao",
+        "score": "1-1",
+        "lieu": null
+      },
+      {
+        "date": "2026-10-04",
+        "phase": "Ligue A · Groupe A · 4e journée",
+        "dom": "Nicaragua",
+        "ext": "République dominicaine",
+        "score": "1-2",
+        "lieu": null
+      },
+      {
+        "date": "2026-10-05",
+        "phase": "Ligue A · Groupe B · 4e journée",
+        "dom": "Martinique",
+        "ext": "Salvador",
+        "score": "1-1",
+        "lieu": "Fort-de-France"
+      },
+      {
+        "date": "2026-10-05",
+        "phase": "Ligue A · Groupe B · 4e journée",
+        "dom": "Guatemala",
+        "ext": "Suriname",
+        "score": "1-0",
+        "lieu": "Guatemala"
+      },
+      {
+        "date": "2026-10-05",
+        "phase": "Ligue A · Groupe B · 4e journée",
+        "dom": "Honduras",
+        "ext": "Jamaïque",
+        "score": "1-1",
+        "lieu": "Tegucigalpa"
+      },
+      {
+        "date": "2026-11-12",
+        "phase": "Ligue A · Quarts de finale aller",
+        "dom": "Curaçao",
+        "ext": "Panama",
+        "score": "0-0",
+        "lieu": "Willemstad"
+      },
+      {
+        "date": "2026-11-13",
+        "phase": "Ligue A · Quarts de finale aller",
+        "dom": "Guatemala",
+        "ext": "Canada",
+        "score": "2-3",
+        "lieu": "Guatemala"
+      },
+      {
+        "date": "2026-11-14",
+        "phase": "Ligue A · Quarts de finale aller",
+        "dom": "Haïti",
+        "ext": "États-Unis",
+        "score": "0-6",
+        "lieu": "Miami"
+      },
+      {
+        "date": "2026-11-14",
+        "phase": "Ligue A · Quarts de finale aller",
+        "dom": "Jamaïque",
+        "ext": "Mexique",
+        "score": "3-2",
+        "lieu": "Kingston"
+      },
+      {
+        "date": "2026-11-15",
+        "phase": "Ligue A · Quarts de finale retour",
+        "dom": "Panama",
+        "ext": "Curaçao",
+        "score": "2-0",
+        "lieu": "Panama"
+      },
+      {
+        "date": "2026-11-16",
+        "phase": "Ligue A · Quarts de finale retour",
+        "dom": "Canada",
+        "ext": "Guatemala",
+        "score": "4-1",
+        "lieu": "Toronto"
+      },
+      {
+        "date": "2026-11-17",
+        "phase": "Ligue A · Quarts de finale retour",
+        "dom": "États-Unis",
+        "ext": "Haïti",
+        "score": "2-0",
+        "lieu": "Cincinnati"
+      },
+      {
+        "date": "2026-11-17",
+        "phase": "Ligue A · Quarts de finale retour",
+        "dom": "Mexique",
+        "ext": "Jamaïque",
+        "score": "1-0",
+        "lieu": "Monterrey"
+      },
+      {
+        "date": "2026-11-12",
+        "phase": "Play-In · aller",
+        "dom": "Aruba",
+        "ext": "Martinique",
+        "score": "0-0",
+        "lieu": "Oranjestad"
+      },
+      {
+        "date": "2026-11-12",
+        "phase": "Play-In · aller",
+        "dom": "Antigua-et-Barbuda",
+        "ext": "Trinité-et-Tobago",
+        "score": "2-3",
+        "lieu": "North Sound"
+      },
+      {
+        "date": "2026-11-13",
+        "phase": "Play-In · aller",
+        "dom": "Saint-Martin",
+        "ext": "Salvador",
+        "score": "0-2",
+        "lieu": "Basseterre (Saint-Christophe-et-Niévès)"
+      },
+      {
+        "date": "2026-11-13",
+        "phase": "Play-In · aller",
+        "dom": "Montserrat",
+        "ext": "Nicaragua",
+        "score": "1-2",
+        "lieu": "Santiago de los Caballeros (République dominicaine)"
+      },
+      {
+        "date": "2026-11-16",
+        "phase": "Play-In · retour",
+        "dom": "Martinique",
+        "ext": "Aruba",
+        "score": "1-1",
+        "lieu": "Fort-de-France"
+      },
+      {
+        "date": "2026-11-16",
+        "phase": "Play-In · retour",
+        "dom": "Trinité-et-Tobago",
+        "ext": "Antigua-et-Barbuda",
+        "score": "1-1",
+        "lieu": "Port-d'Espagne"
+      },
+      {
+        "date": "2026-11-17",
+        "phase": "Play-In · retour",
+        "dom": "Salvador",
+        "ext": "Saint-Martin",
+        "score": "3-1",
+        "lieu": "San Salvador"
+      },
+      {
+        "date": "2026-11-17",
+        "phase": "Play-In · retour",
+        "dom": "Nicaragua",
+        "ext": "Montserrat",
+        "score": "2-0",
+        "lieu": "Managua"
+      },
+      {
+        "date": "2026-11-12",
+        "phase": "Ligue B · Groupe A · 5e journée",
+        "dom": "Îles Caïmans",
+        "ext": "Guyana",
+        "score": "0-6",
+        "lieu": "Leonora (Guyana)"
+      },
+      {
+        "date": "2026-11-12",
+        "phase": "Ligue B · Groupe B · 5e journée",
+        "dom": "Barbade",
+        "ext": "Guadeloupe",
+        "score": "0-3",
+        "lieu": "Le Gosier (Guadeloupe)"
+      },
+      {
+        "date": "2026-11-12",
+        "phase": "Ligue B · Groupe C · 5e journée",
+        "dom": "Bonaire",
+        "ext": "Cuba",
+        "score": "1-7",
+        "lieu": "La Havane"
+      },
+      {
+        "date": "2026-11-13",
+        "phase": "Ligue B · Groupe A · 5e journée",
+        "dom": "Porto Rico",
+        "ext": "Dominique",
+        "score": "4-2",
+        "lieu": "Leonora (Guyana)"
+      },
+      {
+        "date": "2026-11-13",
+        "phase": "Ligue B · Groupe B · 5e journée",
+        "dom": "Bermudes",
+        "ext": "Sainte-Lucie",
+        "score": "1-2",
+        "lieu": "Le Gosier (Guadeloupe)"
+      },
+      {
+        "date": "2026-11-13",
+        "phase": "Ligue B · Groupe C · 5e journée",
+        "dom": "Grenade",
+        "ext": "Saint-Christophe-et-Niévès",
+        "score": "3-2",
+        "lieu": "La Havane"
+      },
+      {
+        "date": "2026-11-14",
+        "phase": "Ligue B · Groupe D · 5e journée",
+        "dom": "Sint Maarten",
+        "ext": "Guyane",
+        "score": "1-5",
+        "lieu": "Kingstown"
+      },
+      {
+        "date": "2026-11-14",
+        "phase": "Ligue B · Groupe D · 5e journée",
+        "dom": "Saint-Vincent-et-les-Grenadines",
+        "ext": "Belize",
+        "score": "1-0",
+        "lieu": "Kingstown"
+      },
+      {
+        "date": "2026-11-16",
+        "phase": "Ligue B · Groupe A · 6e journée",
+        "dom": "Guyana",
+        "ext": "Porto Rico",
+        "score": "4-2",
+        "lieu": "Leonora (Guyana)"
+      },
+      {
+        "date": "2026-11-16",
+        "phase": "Ligue B · Groupe B · 6e journée",
+        "dom": "Guadeloupe",
+        "ext": "Bermudes",
+        "score": "4-1",
+        "lieu": "Le Gosier (Guadeloupe)"
+      },
+      {
+        "date": "2026-11-16",
+        "phase": "Ligue B · Groupe C · 6e journée",
+        "dom": "Cuba",
+        "ext": "Grenade",
+        "score": "9-0",
+        "lieu": "La Havane"
+      },
+      {
+        "date": "2026-11-17",
+        "phase": "Ligue B · Groupe A · 6e journée",
+        "dom": "Dominique",
+        "ext": "Îles Caïmans",
+        "score": "5-0",
+        "lieu": "Leonora (Guyana)"
+      },
+      {
+        "date": "2026-11-17",
+        "phase": "Ligue B · Groupe B · 6e journée",
+        "dom": "Sainte-Lucie",
+        "ext": "Barbade",
+        "score": "2-0",
+        "lieu": "Le Gosier (Guadeloupe)"
+      },
+      {
+        "date": "2026-11-17",
+        "phase": "Ligue B · Groupe C · 6e journée",
+        "dom": "Saint-Christophe-et-Niévès",
+        "ext": "Bonaire",
+        "score": "3-2",
+        "lieu": "La Havane"
+      },
+      {
+        "date": "2026-11-17",
+        "phase": "Ligue B · Groupe D · 6e journée",
+        "dom": "Belize",
+        "ext": "Sint Maarten",
+        "score": "1-2",
+        "lieu": "Kingstown"
+      },
+      {
+        "date": "2026-11-17",
+        "phase": "Ligue B · Groupe D · 6e journée",
+        "dom": "Guyane",
+        "ext": "Saint-Vincent-et-les-Grenadines",
+        "score": "1-0",
+        "lieu": "Kingstown"
+      }
+    ],
+    "prochains": [
+      {
+        "date": null,
+        "phase": "Ligue des nations · Demi-finale (25-28 mars 2027)",
+        "dom": "États-Unis",
+        "ext": "Mexique",
+        "lieu": null
+      },
+      {
+        "date": null,
+        "phase": "Ligue des nations · Demi-finale (25-28 mars 2027)",
+        "dom": "Canada",
+        "ext": "Panama",
+        "lieu": null
+      },
+      {
+        "date": null,
+        "phase": "Tour préliminaire de la Gold Cup (mars 2027), affiches non publiées",
+        "dom": null,
+        "ext": null,
+        "lieu": null
+      }
+    ]
+  },
+  "phase_finale": {
+    "format": "16 équipes en deux groupes de huit, tirés au sort à partir de huit chapeaux de deux équipes ; chaque équipe dispute quatre matchs de groupe contre quatre adversaires différents, les quatre premiers de chaque groupe accèdent aux quarts de finale, puis demi-finales et finale sur un match.",
+    "tirage": "2027-04-08 (lieu non annoncé)",
+    "stades": []
+  },
+  "buteurs": [
+    {
+      "joueur": "Tiquanny Williams",
+      "equipe": "Saint-Christophe-et-Niévès",
+      "buts": 12
+    },
+    {
+      "joueur": "Axel Raga",
+      "equipe": "Saint-Martin",
+      "buts": 8
+    },
+    {
+      "joueur": "Thierry Gale",
+      "equipe": "Barbade",
+      "buts": 6
+    },
+    {
+      "joueur": "Oalex Anderson",
+      "equipe": "Saint-Vincent-et-les-Grenadines",
+      "buts": 6
+    },
+    {
+      "joueur": "Jordan Alexandre",
+      "equipe": "Saint-Martin",
+      "buts": 5
+    },
+    {
+      "joueur": "Osaze De Rosario",
+      "equipe": "Guyana",
+      "buts": 5
+    },
+    {
+      "joueur": "Brayan Gil",
+      "equipe": "Salvador",
+      "buts": 5
+    },
+    {
+      "joueur": "Daniel Díaz",
+      "equipe": "Cuba",
+      "buts": 5
+    },
+    {
+      "joueur": "Pierre-Bertrand Arné",
+      "equipe": "Saint-Martin",
+      "buts": 5
+    }
+  ],
+  "passeurs": [
+    {
+      "joueur": "Omari Glasgow",
+      "equipe": "Guyana",
+      "passes": 7
+    },
+    {
+      "joueur": "Rahim Denis",
+      "equipe": "Saint-Martin",
+      "passes": 6
+    },
+    {
+      "joueur": "Yanis Montantin",
+      "equipe": "Saint-Martin",
+      "passes": 5
+    },
+    {
+      "joueur": "Michael Camejo",
+      "equipe": "Cuba",
+      "passes": 4
+    }
+  ],
+  "stats_portee": "Ligue des nations CONCACAF 2026-27, toutes ligues et Play-In confondus, selon ESPN (au 18 novembre 2026) ; listes arrêtées avant les nombreux ex aequo (14 joueurs à 4 buts, 12 à 3 passes)",
+  "palmares": [
+    {
+      "annee": 2025,
+      "vainqueur": "Mexique",
+      "finaliste": "États-Unis",
+      "score": "2-1",
+      "hote": "États-Unis, Canada"
+    },
+    {
+      "annee": 2023,
+      "vainqueur": "Mexique",
+      "finaliste": "Panama",
+      "score": "1-0",
+      "hote": "États-Unis, Canada"
+    },
+    {
+      "annee": 2021,
+      "vainqueur": "États-Unis",
+      "finaliste": "Mexique",
+      "score": "1-0 a.p.",
+      "hote": "États-Unis"
+    },
+    {
+      "annee": 2019,
+      "vainqueur": "Mexique",
+      "finaliste": "États-Unis",
+      "score": "1-0",
+      "hote": "États-Unis, Costa Rica, Jamaïque"
+    },
+    {
+      "annee": 2017,
+      "vainqueur": "États-Unis",
+      "finaliste": "Jamaïque",
+      "score": "2-1",
+      "hote": "États-Unis"
+    },
+    {
+      "annee": 2015,
+      "vainqueur": "Mexique",
+      "finaliste": "Jamaïque",
+      "score": "3-1",
+      "hote": "États-Unis, Canada"
+    },
+    {
+      "annee": 2013,
+      "vainqueur": "États-Unis",
+      "finaliste": "Panama",
+      "score": "1-0",
+      "hote": "États-Unis"
+    },
+    {
+      "annee": 2011,
+      "vainqueur": "Mexique",
+      "finaliste": "États-Unis",
+      "score": "4-2",
+      "hote": "États-Unis"
+    }
+  ],
+  "focus": {
+    "titre": "Sainte-Lucie et Saint-Vincent, les invités surprises",
+    "texte": "Vainqueure de la Barbade (2-0) lors de la dernière journée du groupe B de la Ligue B, Sainte-Lucie s'est qualifiée pour la première Gold Cup de son histoire. Saint-Vincent-et-les-Grenadines retrouve le tournoi pour la première fois depuis 1996. Côté Ligue A, le Mexique n'a éliminé la Jamaïque (3-3 au total) qu'à la règle des buts à l'extérieur."
+  },
+  "sources": [
+    {
+      "nom": "CONCACAF – Parcours de qualification de la Gold Cup 2027",
+      "url": "https://www.concacaf.com/competitions/gold-cup/news/2027-concacaf-gold-cup-qualification-pathway-confirmed"
+    },
+    {
+      "nom": "CONCACAF – Format et dates de la Gold Cup 2027",
+      "url": "https://www.concacaf.com/competitions/gold-cup/news/concacaf-sets-stage-for-2027-gold-cup-with-exciting-new-format-and-dates"
+    },
+    {
+      "nom": "CONCACAF – Programme de novembre 2026",
+      "url": "https://www.concacaf.com/competitions/nations-league/news/2026-27-concacaf-nations-league-november-schedule-confirmed"
+    },
+    {
+      "nom": "CONCACAF – États-Unis - Haïti",
+      "url": "https://www.concacaf.com/competitions/nations-league/news/the-united-states-secures-quarterfinals-win-over-haiti"
+    },
+    {
+      "nom": "CONCACAF – Sainte-Lucie et Saint-Vincent en finale de Ligue B",
+      "url": "https://www.concacaf.com/competitions/nations-league/news/st-lucia-st-vincent-and-the-grenadines-through-to-the-nations-league-b-finals"
+    },
+    {
+      "nom": "CONCACAF – Play-In (Aruba, Trinité-et-Tobago)",
+      "url": "https://www.concacaf.com/competitions/nations-league/news/aruba-trinidad-and-tobago-win-nations-league-play-in-series"
+    },
+    {
+      "nom": "CONCACAF – Play-In (Salvador, Nicaragua)",
+      "url": "https://www.concacaf.com/competitions/nations-league/news/el-salvador-nicaragua-win-nations-league-play-in-series"
+    },
+    {
+      "nom": "Fox Sports – Classements de la Ligue des nations",
+      "url": "https://www.foxsports.com/soccer/concacaf-nations-league/standings"
+    },
+    {
+      "nom": "Claro Sports – Classements de la Ligue des nations",
+      "url": "https://www.clarosports.com/futbol/concacaf-nations-league/tabla-de-posiciones-de-la-concacaf-nations-league-2026-ligas-a-b-y-c/"
+    },
+    {
+      "nom": "El Financiero – Mexique - Jamaïque",
+      "url": "https://www.elfinanciero.com.mx/deportes/2026/11/17/mexico-vs-jamaica-en-vivo-resultado-cuartos-de-final-vuelta-nations-league/"
+    },
+    {
+      "nom": "Canadian Soccer Daily – Canada - Guatemala",
+      "url": "https://canadiansoccerdaily.com/2026/11/17/canada-cruise-into-nations-league-semifinal-gold-cup-with-big-comeback-win-over-guatemala"
+    },
+    {
+      "nom": "ESPN – Panama - Curaçao",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401929709/curacao-panama"
+    },
+    {
+      "nom": "ESPN – Statistiques de la Ligue des nations",
+      "url": "https://www.espn.com/soccer/stats/_/league/CONCACAF.NATIONS.LEAGUE/view/scoring"
+    },
+    {
+      "nom": "Wikipédia (EN) – List of CONCACAF Gold Cup finals",
+      "url": "https://en.wikipedia.org/wiki/List_of_CONCACAF_Gold_Cup_finals"
+    }
+  ]
+}

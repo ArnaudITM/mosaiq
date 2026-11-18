@@ -1,0 +1,1555 @@
+{
+  "id": "cdm",
+  "nom": "Coupe du monde de la FIFA 2026",
+  "nom_court": "Coupe du monde 2026",
+  "confederation": "FIFA",
+  "edition": "23e édition",
+  "hote": "États-Unis, Canada, Mexique",
+  "dates": {
+    "debut": "2026-06-11",
+    "fin": "2026-07-19"
+  },
+  "statut": "terminee",
+  "tenant": "Espagne (2026)",
+  "maj": "18 novembre 2026",
+  "resume": "Première Coupe du monde à 48 équipes (104 matchs, 308 buts), elle s'est achevée le 19 juillet 2026 au MetLife Stadium par la victoire de l'Espagne sur l'Argentine (1-0 après prolongation, but de Ferran Torres à la 106e minute), deuxième titre mondial de la Roja après 2010. L'Angleterre a pris la 3e place en battant la France (6-4). Récompenses : Ballon d'or adidas pour Rodri (Espagne), Soulier d'or pour Kylian Mbappé (France, 10 buts), Gant d'or pour Unai Simón (Espagne), meilleur jeune joueur Pau Cubarsí (Espagne), prix du fair-play pour les Pays-Bas. La prochaine édition aura lieu en 2030 en Espagne, au Portugal et au Maroc.",
+  "etapes": [
+    {
+      "date": "2025-12-05",
+      "titre": "Tirage au sort de la phase finale à Washington",
+      "fait": true
+    },
+    {
+      "date": "2026-03-26",
+      "titre": "Barrages européens et intercontinentaux : demi-finales",
+      "fait": true
+    },
+    {
+      "date": "2026-03-31",
+      "titre": "Barrages européens et intercontinentaux : finales (derniers qualifiés)",
+      "fait": true
+    },
+    {
+      "date": "2026-06-11",
+      "titre": "Match d'ouverture Mexique - Afrique du Sud (2-0) à l'Estadio Azteca",
+      "fait": true
+    },
+    {
+      "date": "2026-06-28",
+      "titre": "Début des seizièmes de finale",
+      "fait": true
+    },
+    {
+      "date": "2026-07-14",
+      "titre": "Demi-finale Espagne - France (2-0) à Arlington",
+      "fait": true
+    },
+    {
+      "date": "2026-07-19",
+      "titre": "Finale Espagne - Argentine (1-0 a.p.) à East Rutherford",
+      "fait": true
+    },
+    {
+      "date": "2030-06-08",
+      "titre": "Coupe du monde 2030 (Espagne, Portugal, Maroc) : début du tournoi",
+      "fait": false
+    },
+    {
+      "date": "2030-07-21",
+      "titre": "Coupe du monde 2030 : finale (stade non encore désigné, décision attendue au plus tôt en 2028)",
+      "fait": false
+    }
+  ],
+  "qualifications": {
+    "format": "Éliminatoires continentaux disputés de 2023 à 2025 dans les six confédérations ; les derniers billets ont été attribués lors des barrages européens et du tournoi de barrage intercontinental en mars 2026. Les trois pays hôtes étaient qualifiés d'office.",
+    "qualifies": [
+      "Afrique du Sud",
+      "Algérie",
+      "Allemagne",
+      "Angleterre",
+      "Arabie saoudite",
+      "Argentine",
+      "Australie",
+      "Autriche",
+      "Belgique",
+      "Bosnie-Herzégovine",
+      "Brésil",
+      "Canada",
+      "Cap-Vert",
+      "Colombie",
+      "Corée du Sud",
+      "Croatie",
+      "Curaçao",
+      "Côte d'Ivoire",
+      "Espagne",
+      "France",
+      "Ghana",
+      "Haïti",
+      "Irak",
+      "Iran",
+      "Japon",
+      "Jordanie",
+      "Maroc",
+      "Mexique",
+      "Norvège",
+      "Nouvelle-Zélande",
+      "Ouzbékistan",
+      "Panama",
+      "Paraguay",
+      "Pays-Bas",
+      "Portugal",
+      "Qatar",
+      "RD Congo",
+      "Suisse",
+      "Suède",
+      "Sénégal",
+      "Tchéquie",
+      "Tunisie",
+      "Turquie",
+      "Uruguay",
+      "Écosse",
+      "Égypte",
+      "Équateur",
+      "États-Unis"
+    ],
+    "groupes": [],
+    "matchs": [],
+    "prochains": []
+  },
+  "phase_finale": {
+    "format": "48 équipes réparties en 12 groupes de quatre ; les deux premiers de chaque groupe et les huit meilleurs troisièmes se qualifient pour les seizièmes de finale, puis élimination directe jusqu'à la finale (104 matchs au total).",
+    "tirage": "5 décembre 2025, Washington (Kennedy Center)",
+    "stades": [
+      {
+        "ville": "Mexico",
+        "stade": "Estadio Azteca"
+      },
+      {
+        "ville": "Guadalajara",
+        "stade": "Estadio Akron"
+      },
+      {
+        "ville": "Monterrey",
+        "stade": "Estadio BBVA"
+      },
+      {
+        "ville": "Toronto",
+        "stade": "BMO Field"
+      },
+      {
+        "ville": "Vancouver",
+        "stade": "BC Place"
+      },
+      {
+        "ville": "New York/New Jersey (East Rutherford)",
+        "stade": "MetLife Stadium"
+      },
+      {
+        "ville": "Dallas (Arlington)",
+        "stade": "AT&T Stadium"
+      },
+      {
+        "ville": "Kansas City",
+        "stade": "Arrowhead Stadium"
+      },
+      {
+        "ville": "Houston",
+        "stade": "NRG Stadium"
+      },
+      {
+        "ville": "Atlanta",
+        "stade": "Mercedes-Benz Stadium"
+      },
+      {
+        "ville": "Los Angeles (Inglewood)",
+        "stade": "SoFi Stadium"
+      },
+      {
+        "ville": "Philadelphie",
+        "stade": "Lincoln Financial Field"
+      },
+      {
+        "ville": "Seattle",
+        "stade": "Lumen Field"
+      },
+      {
+        "ville": "San Francisco (Santa Clara)",
+        "stade": "Levi's Stadium"
+      },
+      {
+        "ville": "Boston (Foxborough)",
+        "stade": "Gillette Stadium"
+      },
+      {
+        "ville": "Miami (Miami Gardens)",
+        "stade": "Hard Rock Stadium"
+      }
+    ],
+    "groupes": [
+      {
+        "nom": "Groupe A",
+        "classement": [
+          {
+            "equipe": "Mexique",
+            "j": 3,
+            "g": 3,
+            "n": 0,
+            "p": 0,
+            "bp": 6,
+            "bc": 0,
+            "pts": 9,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Afrique du Sud",
+            "j": 3,
+            "g": 1,
+            "n": 1,
+            "p": 1,
+            "bp": 2,
+            "bc": 3,
+            "pts": 4,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Corée du Sud",
+            "j": 3,
+            "g": 1,
+            "n": 0,
+            "p": 2,
+            "bp": 2,
+            "bc": 3,
+            "pts": 3,
+            "statut": "elimine"
+          },
+          {
+            "equipe": "Tchéquie",
+            "j": 3,
+            "g": 0,
+            "n": 1,
+            "p": 2,
+            "bp": 2,
+            "bc": 6,
+            "pts": 1,
+            "statut": "elimine"
+          }
+        ]
+      },
+      {
+        "nom": "Groupe B",
+        "classement": [
+          {
+            "equipe": "Suisse",
+            "j": 3,
+            "g": 2,
+            "n": 1,
+            "p": 0,
+            "bp": 7,
+            "bc": 3,
+            "pts": 7,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Canada",
+            "j": 3,
+            "g": 1,
+            "n": 1,
+            "p": 1,
+            "bp": 8,
+            "bc": 3,
+            "pts": 4,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Bosnie-Herzégovine",
+            "j": 3,
+            "g": 1,
+            "n": 1,
+            "p": 1,
+            "bp": 5,
+            "bc": 6,
+            "pts": 4,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Qatar",
+            "j": 3,
+            "g": 0,
+            "n": 1,
+            "p": 2,
+            "bp": 2,
+            "bc": 10,
+            "pts": 1,
+            "statut": "elimine"
+          }
+        ]
+      },
+      {
+        "nom": "Groupe C",
+        "classement": [
+          {
+            "equipe": "Brésil",
+            "j": 3,
+            "g": 2,
+            "n": 1,
+            "p": 0,
+            "bp": 7,
+            "bc": 1,
+            "pts": 7,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Maroc",
+            "j": 3,
+            "g": 2,
+            "n": 1,
+            "p": 0,
+            "bp": 6,
+            "bc": 3,
+            "pts": 7,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Écosse",
+            "j": 3,
+            "g": 1,
+            "n": 0,
+            "p": 2,
+            "bp": 1,
+            "bc": 4,
+            "pts": 3,
+            "statut": "elimine"
+          },
+          {
+            "equipe": "Haïti",
+            "j": 3,
+            "g": 0,
+            "n": 0,
+            "p": 3,
+            "bp": 2,
+            "bc": 8,
+            "pts": 0,
+            "statut": "elimine"
+          }
+        ]
+      },
+      {
+        "nom": "Groupe D",
+        "classement": [
+          {
+            "equipe": "États-Unis",
+            "j": 3,
+            "g": 2,
+            "n": 0,
+            "p": 1,
+            "bp": 8,
+            "bc": 4,
+            "pts": 6,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Australie",
+            "j": 3,
+            "g": 1,
+            "n": 1,
+            "p": 1,
+            "bp": 2,
+            "bc": 2,
+            "pts": 4,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Paraguay",
+            "j": 3,
+            "g": 1,
+            "n": 1,
+            "p": 1,
+            "bp": 2,
+            "bc": 4,
+            "pts": 4,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Turquie",
+            "j": 3,
+            "g": 1,
+            "n": 0,
+            "p": 2,
+            "bp": 3,
+            "bc": 5,
+            "pts": 3,
+            "statut": "elimine"
+          }
+        ]
+      },
+      {
+        "nom": "Groupe E",
+        "classement": [
+          {
+            "equipe": "Allemagne",
+            "j": 3,
+            "g": 2,
+            "n": 0,
+            "p": 1,
+            "bp": 10,
+            "bc": 4,
+            "pts": 6,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Côte d'Ivoire",
+            "j": 3,
+            "g": 2,
+            "n": 0,
+            "p": 1,
+            "bp": 4,
+            "bc": 2,
+            "pts": 6,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Équateur",
+            "j": 3,
+            "g": 1,
+            "n": 1,
+            "p": 1,
+            "bp": 2,
+            "bc": 2,
+            "pts": 4,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Curaçao",
+            "j": 3,
+            "g": 0,
+            "n": 1,
+            "p": 2,
+            "bp": 1,
+            "bc": 9,
+            "pts": 1,
+            "statut": "elimine"
+          }
+        ]
+      },
+      {
+        "nom": "Groupe F",
+        "classement": [
+          {
+            "equipe": "Pays-Bas",
+            "j": 3,
+            "g": 2,
+            "n": 1,
+            "p": 0,
+            "bp": 10,
+            "bc": 4,
+            "pts": 7,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Japon",
+            "j": 3,
+            "g": 1,
+            "n": 2,
+            "p": 0,
+            "bp": 7,
+            "bc": 3,
+            "pts": 5,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Suède",
+            "j": 3,
+            "g": 1,
+            "n": 1,
+            "p": 1,
+            "bp": 7,
+            "bc": 7,
+            "pts": 4,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Tunisie",
+            "j": 3,
+            "g": 0,
+            "n": 0,
+            "p": 3,
+            "bp": 2,
+            "bc": 12,
+            "pts": 0,
+            "statut": "elimine"
+          }
+        ]
+      },
+      {
+        "nom": "Groupe G",
+        "classement": [
+          {
+            "equipe": "Belgique",
+            "j": 3,
+            "g": 1,
+            "n": 2,
+            "p": 0,
+            "bp": 6,
+            "bc": 2,
+            "pts": 5,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Égypte",
+            "j": 3,
+            "g": 1,
+            "n": 2,
+            "p": 0,
+            "bp": 5,
+            "bc": 3,
+            "pts": 5,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Iran",
+            "j": 3,
+            "g": 0,
+            "n": 3,
+            "p": 0,
+            "bp": 3,
+            "bc": 3,
+            "pts": 3,
+            "statut": "elimine"
+          },
+          {
+            "equipe": "Nouvelle-Zélande",
+            "j": 3,
+            "g": 0,
+            "n": 1,
+            "p": 2,
+            "bp": 4,
+            "bc": 10,
+            "pts": 1,
+            "statut": "elimine"
+          }
+        ]
+      },
+      {
+        "nom": "Groupe H",
+        "classement": [
+          {
+            "equipe": "Espagne",
+            "j": 3,
+            "g": 2,
+            "n": 1,
+            "p": 0,
+            "bp": 5,
+            "bc": 0,
+            "pts": 7,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Cap-Vert",
+            "j": 3,
+            "g": 0,
+            "n": 3,
+            "p": 0,
+            "bp": 2,
+            "bc": 2,
+            "pts": 3,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Uruguay",
+            "j": 3,
+            "g": 0,
+            "n": 2,
+            "p": 1,
+            "bp": 3,
+            "bc": 4,
+            "pts": 2,
+            "statut": "elimine"
+          },
+          {
+            "equipe": "Arabie saoudite",
+            "j": 3,
+            "g": 0,
+            "n": 2,
+            "p": 1,
+            "bp": 1,
+            "bc": 5,
+            "pts": 2,
+            "statut": "elimine"
+          }
+        ]
+      },
+      {
+        "nom": "Groupe I",
+        "classement": [
+          {
+            "equipe": "France",
+            "j": 3,
+            "g": 3,
+            "n": 0,
+            "p": 0,
+            "bp": 10,
+            "bc": 2,
+            "pts": 9,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Norvège",
+            "j": 3,
+            "g": 2,
+            "n": 0,
+            "p": 1,
+            "bp": 8,
+            "bc": 7,
+            "pts": 6,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Sénégal",
+            "j": 3,
+            "g": 1,
+            "n": 0,
+            "p": 2,
+            "bp": 8,
+            "bc": 6,
+            "pts": 3,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Irak",
+            "j": 3,
+            "g": 0,
+            "n": 0,
+            "p": 3,
+            "bp": 1,
+            "bc": 12,
+            "pts": 0,
+            "statut": "elimine"
+          }
+        ]
+      },
+      {
+        "nom": "Groupe J",
+        "classement": [
+          {
+            "equipe": "Argentine",
+            "j": 3,
+            "g": 3,
+            "n": 0,
+            "p": 0,
+            "bp": 8,
+            "bc": 1,
+            "pts": 9,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Autriche",
+            "j": 3,
+            "g": 1,
+            "n": 1,
+            "p": 1,
+            "bp": 6,
+            "bc": 6,
+            "pts": 4,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Algérie",
+            "j": 3,
+            "g": 1,
+            "n": 1,
+            "p": 1,
+            "bp": 5,
+            "bc": 7,
+            "pts": 4,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Jordanie",
+            "j": 3,
+            "g": 0,
+            "n": 0,
+            "p": 3,
+            "bp": 3,
+            "bc": 8,
+            "pts": 0,
+            "statut": "elimine"
+          }
+        ]
+      },
+      {
+        "nom": "Groupe K",
+        "classement": [
+          {
+            "equipe": "Colombie",
+            "j": 3,
+            "g": 2,
+            "n": 1,
+            "p": 0,
+            "bp": 4,
+            "bc": 1,
+            "pts": 7,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Portugal",
+            "j": 3,
+            "g": 1,
+            "n": 2,
+            "p": 0,
+            "bp": 6,
+            "bc": 1,
+            "pts": 5,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "RD Congo",
+            "j": 3,
+            "g": 1,
+            "n": 1,
+            "p": 1,
+            "bp": 4,
+            "bc": 3,
+            "pts": 4,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Ouzbékistan",
+            "j": 3,
+            "g": 0,
+            "n": 0,
+            "p": 3,
+            "bp": 2,
+            "bc": 11,
+            "pts": 0,
+            "statut": "elimine"
+          }
+        ]
+      },
+      {
+        "nom": "Groupe L",
+        "classement": [
+          {
+            "equipe": "Angleterre",
+            "j": 3,
+            "g": 2,
+            "n": 1,
+            "p": 0,
+            "bp": 6,
+            "bc": 2,
+            "pts": 7,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Croatie",
+            "j": 3,
+            "g": 2,
+            "n": 0,
+            "p": 1,
+            "bp": 5,
+            "bc": 5,
+            "pts": 6,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Ghana",
+            "j": 3,
+            "g": 1,
+            "n": 1,
+            "p": 1,
+            "bp": 2,
+            "bc": 2,
+            "pts": 4,
+            "statut": "qualifie"
+          },
+          {
+            "equipe": "Panama",
+            "j": 3,
+            "g": 0,
+            "n": 0,
+            "p": 3,
+            "bp": 0,
+            "bc": 4,
+            "pts": 0,
+            "statut": "elimine"
+          }
+        ]
+      }
+    ],
+    "matchs": [
+      {
+        "date": "2026-06-11",
+        "phase": "Groupe A · 1re journée (match d'ouverture)",
+        "dom": "Mexique",
+        "ext": "Afrique du Sud",
+        "score": "2-0",
+        "lieu": "Mexico (Estadio Azteca)"
+      },
+      {
+        "date": "2026-06-16",
+        "phase": "Groupe I · 1re journée",
+        "dom": "France",
+        "ext": "Sénégal",
+        "score": "3-1",
+        "lieu": null
+      },
+      {
+        "date": "2026-06-22",
+        "phase": "Groupe I · 2e journée",
+        "dom": "France",
+        "ext": "Irak",
+        "score": "3-0",
+        "lieu": null
+      },
+      {
+        "date": "2026-06-26",
+        "phase": "Groupe I · 3e journée",
+        "dom": "Norvège",
+        "ext": "France",
+        "score": "1-4",
+        "lieu": null
+      },
+      {
+        "date": "2026-06-28",
+        "phase": "Seizièmes de finale",
+        "dom": "Afrique du Sud",
+        "ext": "Canada",
+        "score": "0-1",
+        "lieu": "Inglewood (Los Angeles)"
+      },
+      {
+        "date": "2026-06-29",
+        "phase": "Seizièmes de finale",
+        "dom": "Brésil",
+        "ext": "Japon",
+        "score": "2-1",
+        "lieu": "Houston"
+      },
+      {
+        "date": "2026-06-29",
+        "phase": "Seizièmes de finale",
+        "dom": "Allemagne",
+        "ext": "Paraguay",
+        "score": "1-1 (a.p., 3-4 t.a.b.)",
+        "lieu": "Foxborough (Boston)"
+      },
+      {
+        "date": "2026-06-29",
+        "phase": "Seizièmes de finale",
+        "dom": "Pays-Bas",
+        "ext": "Maroc",
+        "score": "1-1 (a.p., 2-3 t.a.b.)",
+        "lieu": "Guadalupe (Monterrey)"
+      },
+      {
+        "date": "2026-06-30",
+        "phase": "Seizièmes de finale",
+        "dom": "Côte d'Ivoire",
+        "ext": "Norvège",
+        "score": "1-2",
+        "lieu": "Arlington (Dallas)"
+      },
+      {
+        "date": "2026-06-30",
+        "phase": "Seizièmes de finale",
+        "dom": "France",
+        "ext": "Suède",
+        "score": "3-0",
+        "lieu": "East Rutherford (New York/New Jersey)"
+      },
+      {
+        "date": "2026-06-30",
+        "phase": "Seizièmes de finale",
+        "dom": "Mexique",
+        "ext": "Équateur",
+        "score": "2-0",
+        "lieu": "Mexico"
+      },
+      {
+        "date": "2026-07-01",
+        "phase": "Seizièmes de finale",
+        "dom": "Angleterre",
+        "ext": "RD Congo",
+        "score": "2-1",
+        "lieu": "Atlanta"
+      },
+      {
+        "date": "2026-07-01",
+        "phase": "Seizièmes de finale",
+        "dom": "Belgique",
+        "ext": "Sénégal",
+        "score": "3-2 (a.p.)",
+        "lieu": "Seattle"
+      },
+      {
+        "date": "2026-07-01",
+        "phase": "Seizièmes de finale",
+        "dom": "États-Unis",
+        "ext": "Bosnie-Herzégovine",
+        "score": "2-0",
+        "lieu": "Santa Clara (San Francisco)"
+      },
+      {
+        "date": "2026-07-02",
+        "phase": "Seizièmes de finale",
+        "dom": "Espagne",
+        "ext": "Autriche",
+        "score": "3-0",
+        "lieu": "Inglewood (Los Angeles)"
+      },
+      {
+        "date": "2026-07-02",
+        "phase": "Seizièmes de finale",
+        "dom": "Portugal",
+        "ext": "Croatie",
+        "score": "2-1",
+        "lieu": "Toronto"
+      },
+      {
+        "date": "2026-07-02",
+        "phase": "Seizièmes de finale",
+        "dom": "Suisse",
+        "ext": "Algérie",
+        "score": "2-0",
+        "lieu": "Vancouver"
+      },
+      {
+        "date": "2026-07-03",
+        "phase": "Seizièmes de finale",
+        "dom": "Australie",
+        "ext": "Égypte",
+        "score": "1-1 (a.p., 2-4 t.a.b.)",
+        "lieu": "Arlington (Dallas)"
+      },
+      {
+        "date": "2026-07-03",
+        "phase": "Seizièmes de finale",
+        "dom": "Argentine",
+        "ext": "Cap-Vert",
+        "score": "3-2 (a.p.)",
+        "lieu": "Miami"
+      },
+      {
+        "date": "2026-07-03",
+        "phase": "Seizièmes de finale",
+        "dom": "Colombie",
+        "ext": "Ghana",
+        "score": "1-0",
+        "lieu": "Kansas City"
+      },
+      {
+        "date": "2026-07-04",
+        "phase": "Huitièmes de finale",
+        "dom": "Paraguay",
+        "ext": "France",
+        "score": "0-1",
+        "lieu": "Philadelphie"
+      },
+      {
+        "date": "2026-07-04",
+        "phase": "Huitièmes de finale",
+        "dom": "Canada",
+        "ext": "Maroc",
+        "score": "0-3",
+        "lieu": "Houston"
+      },
+      {
+        "date": "2026-07-05",
+        "phase": "Huitièmes de finale",
+        "dom": "Brésil",
+        "ext": "Norvège",
+        "score": "1-2",
+        "lieu": "East Rutherford (New York/New Jersey)"
+      },
+      {
+        "date": "2026-07-05",
+        "phase": "Huitièmes de finale",
+        "dom": "Mexique",
+        "ext": "Angleterre",
+        "score": "2-3",
+        "lieu": "Mexico"
+      },
+      {
+        "date": "2026-07-06",
+        "phase": "Huitièmes de finale",
+        "dom": "Portugal",
+        "ext": "Espagne",
+        "score": "0-1",
+        "lieu": "Arlington (Dallas)"
+      },
+      {
+        "date": "2026-07-06",
+        "phase": "Huitièmes de finale",
+        "dom": "États-Unis",
+        "ext": "Belgique",
+        "score": "1-4",
+        "lieu": "Seattle"
+      },
+      {
+        "date": "2026-07-07",
+        "phase": "Huitièmes de finale",
+        "dom": "Argentine",
+        "ext": "Égypte",
+        "score": "3-2",
+        "lieu": "Atlanta"
+      },
+      {
+        "date": "2026-07-07",
+        "phase": "Huitièmes de finale",
+        "dom": "Suisse",
+        "ext": "Colombie",
+        "score": "0-0 (a.p., 4-3 t.a.b.)",
+        "lieu": "Vancouver"
+      },
+      {
+        "date": "2026-07-09",
+        "phase": "Quarts de finale",
+        "dom": "France",
+        "ext": "Maroc",
+        "score": "2-0",
+        "lieu": "Foxborough (Boston)"
+      },
+      {
+        "date": "2026-07-10",
+        "phase": "Quarts de finale",
+        "dom": "Espagne",
+        "ext": "Belgique",
+        "score": "2-1",
+        "lieu": "Inglewood (Los Angeles)"
+      },
+      {
+        "date": "2026-07-11",
+        "phase": "Quarts de finale",
+        "dom": "Norvège",
+        "ext": "Angleterre",
+        "score": "1-2 (a.p.)",
+        "lieu": "Miami"
+      },
+      {
+        "date": "2026-07-11",
+        "phase": "Quarts de finale",
+        "dom": "Argentine",
+        "ext": "Suisse",
+        "score": "3-1 (a.p.)",
+        "lieu": "Kansas City"
+      },
+      {
+        "date": "2026-07-14",
+        "phase": "Demi-finales",
+        "dom": "France",
+        "ext": "Espagne",
+        "score": "0-2",
+        "lieu": "Arlington (Dallas)"
+      },
+      {
+        "date": "2026-07-15",
+        "phase": "Demi-finales",
+        "dom": "Angleterre",
+        "ext": "Argentine",
+        "score": "1-2",
+        "lieu": "Atlanta"
+      },
+      {
+        "date": "2026-07-18",
+        "phase": "Match pour la 3e place",
+        "dom": "France",
+        "ext": "Angleterre",
+        "score": "4-6",
+        "lieu": "Miami Gardens (Miami)"
+      },
+      {
+        "date": "2026-07-19",
+        "phase": "Finale",
+        "dom": "Espagne",
+        "ext": "Argentine",
+        "score": "1-0 (a.p.)",
+        "lieu": "East Rutherford (New York/New Jersey)"
+      }
+    ],
+    "tableau": [
+      {
+        "tour": "Seizièmes de finale",
+        "matchs": [
+          {
+            "date": "2026-06-28",
+            "dom": "Afrique du Sud",
+            "ext": "Canada",
+            "score": "0-1",
+            "lieu": "Inglewood (Los Angeles)"
+          },
+          {
+            "date": "2026-06-29",
+            "dom": "Brésil",
+            "ext": "Japon",
+            "score": "2-1",
+            "lieu": "Houston"
+          },
+          {
+            "date": "2026-06-29",
+            "dom": "Allemagne",
+            "ext": "Paraguay",
+            "score": "1-1",
+            "prolongation": true,
+            "tab": "3-4",
+            "lieu": "Foxborough (Boston)"
+          },
+          {
+            "date": "2026-06-29",
+            "dom": "Pays-Bas",
+            "ext": "Maroc",
+            "score": "1-1",
+            "prolongation": true,
+            "tab": "2-3",
+            "lieu": "Guadalupe (Monterrey)"
+          },
+          {
+            "date": "2026-06-30",
+            "dom": "Côte d'Ivoire",
+            "ext": "Norvège",
+            "score": "1-2",
+            "lieu": "Arlington (Dallas)"
+          },
+          {
+            "date": "2026-06-30",
+            "dom": "France",
+            "ext": "Suède",
+            "score": "3-0",
+            "lieu": "East Rutherford (New York/New Jersey)"
+          },
+          {
+            "date": "2026-06-30",
+            "dom": "Mexique",
+            "ext": "Équateur",
+            "score": "2-0",
+            "lieu": "Mexico"
+          },
+          {
+            "date": "2026-07-01",
+            "dom": "Angleterre",
+            "ext": "RD Congo",
+            "score": "2-1",
+            "lieu": "Atlanta"
+          },
+          {
+            "date": "2026-07-01",
+            "dom": "Belgique",
+            "ext": "Sénégal",
+            "score": "3-2",
+            "prolongation": true,
+            "lieu": "Seattle"
+          },
+          {
+            "date": "2026-07-01",
+            "dom": "États-Unis",
+            "ext": "Bosnie-Herzégovine",
+            "score": "2-0",
+            "lieu": "Santa Clara (San Francisco)"
+          },
+          {
+            "date": "2026-07-02",
+            "dom": "Espagne",
+            "ext": "Autriche",
+            "score": "3-0",
+            "lieu": "Inglewood (Los Angeles)"
+          },
+          {
+            "date": "2026-07-02",
+            "dom": "Portugal",
+            "ext": "Croatie",
+            "score": "2-1",
+            "lieu": "Toronto"
+          },
+          {
+            "date": "2026-07-02",
+            "dom": "Suisse",
+            "ext": "Algérie",
+            "score": "2-0",
+            "lieu": "Vancouver"
+          },
+          {
+            "date": "2026-07-03",
+            "dom": "Australie",
+            "ext": "Égypte",
+            "score": "1-1",
+            "prolongation": true,
+            "tab": "2-4",
+            "lieu": "Arlington (Dallas)"
+          },
+          {
+            "date": "2026-07-03",
+            "dom": "Argentine",
+            "ext": "Cap-Vert",
+            "score": "3-2",
+            "prolongation": true,
+            "lieu": "Miami"
+          },
+          {
+            "date": "2026-07-03",
+            "dom": "Colombie",
+            "ext": "Ghana",
+            "score": "1-0",
+            "lieu": "Kansas City"
+          }
+        ]
+      },
+      {
+        "tour": "Huitièmes de finale",
+        "matchs": [
+          {
+            "date": "2026-07-04",
+            "dom": "Paraguay",
+            "ext": "France",
+            "score": "0-1",
+            "lieu": "Philadelphie"
+          },
+          {
+            "date": "2026-07-04",
+            "dom": "Canada",
+            "ext": "Maroc",
+            "score": "0-3",
+            "lieu": "Houston"
+          },
+          {
+            "date": "2026-07-05",
+            "dom": "Brésil",
+            "ext": "Norvège",
+            "score": "1-2",
+            "lieu": "East Rutherford (New York/New Jersey)"
+          },
+          {
+            "date": "2026-07-05",
+            "dom": "Mexique",
+            "ext": "Angleterre",
+            "score": "2-3",
+            "lieu": "Mexico"
+          },
+          {
+            "date": "2026-07-06",
+            "dom": "Portugal",
+            "ext": "Espagne",
+            "score": "0-1",
+            "lieu": "Arlington (Dallas)"
+          },
+          {
+            "date": "2026-07-06",
+            "dom": "États-Unis",
+            "ext": "Belgique",
+            "score": "1-4",
+            "lieu": "Seattle"
+          },
+          {
+            "date": "2026-07-07",
+            "dom": "Argentine",
+            "ext": "Égypte",
+            "score": "3-2",
+            "lieu": "Atlanta"
+          },
+          {
+            "date": "2026-07-07",
+            "dom": "Suisse",
+            "ext": "Colombie",
+            "score": "0-0",
+            "prolongation": true,
+            "tab": "4-3",
+            "lieu": "Vancouver"
+          }
+        ]
+      },
+      {
+        "tour": "Quarts de finale",
+        "matchs": [
+          {
+            "date": "2026-07-09",
+            "dom": "France",
+            "ext": "Maroc",
+            "score": "2-0",
+            "lieu": "Foxborough (Boston)"
+          },
+          {
+            "date": "2026-07-10",
+            "dom": "Espagne",
+            "ext": "Belgique",
+            "score": "2-1",
+            "lieu": "Inglewood (Los Angeles)"
+          },
+          {
+            "date": "2026-07-11",
+            "dom": "Norvège",
+            "ext": "Angleterre",
+            "score": "1-2",
+            "prolongation": true,
+            "lieu": "Miami"
+          },
+          {
+            "date": "2026-07-11",
+            "dom": "Argentine",
+            "ext": "Suisse",
+            "score": "3-1",
+            "prolongation": true,
+            "lieu": "Kansas City"
+          }
+        ]
+      },
+      {
+        "tour": "Demi-finales",
+        "matchs": [
+          {
+            "date": "2026-07-14",
+            "dom": "France",
+            "ext": "Espagne",
+            "score": "0-2",
+            "lieu": "Arlington (Dallas)"
+          },
+          {
+            "date": "2026-07-15",
+            "dom": "Angleterre",
+            "ext": "Argentine",
+            "score": "1-2",
+            "lieu": "Atlanta"
+          }
+        ]
+      },
+      {
+        "tour": "Match pour la 3e place",
+        "matchs": [
+          {
+            "date": "2026-07-18",
+            "dom": "France",
+            "ext": "Angleterre",
+            "score": "4-6",
+            "lieu": "Miami Gardens (Miami)"
+          }
+        ]
+      },
+      {
+        "tour": "Finale",
+        "matchs": [
+          {
+            "date": "2026-07-19",
+            "dom": "Espagne",
+            "ext": "Argentine",
+            "score": "1-0",
+            "prolongation": true,
+            "lieu": "East Rutherford (New York/New Jersey)"
+          }
+        ]
+      }
+    ]
+  },
+  "buteurs": [
+    {
+      "joueur": "Kylian Mbappé",
+      "equipe": "France",
+      "buts": 10
+    },
+    {
+      "joueur": "Lionel Messi",
+      "equipe": "Argentine",
+      "buts": 8
+    },
+    {
+      "joueur": "Jude Bellingham",
+      "equipe": "Angleterre",
+      "buts": 7
+    },
+    {
+      "joueur": "Erling Haaland",
+      "equipe": "Norvège",
+      "buts": 7
+    },
+    {
+      "joueur": "Ousmane Dembélé",
+      "equipe": "France",
+      "buts": 6
+    },
+    {
+      "joueur": "Harry Kane",
+      "equipe": "Angleterre",
+      "buts": 6
+    },
+    {
+      "joueur": "Mikel Oyarzabal",
+      "equipe": "Espagne",
+      "buts": 5
+    },
+    {
+      "joueur": "Ismaïla Sarr",
+      "equipe": "Sénégal",
+      "buts": 4
+    },
+    {
+      "joueur": "Julián Quiñones",
+      "equipe": "Mexique",
+      "buts": 4
+    },
+    {
+      "joueur": "Vinícius Júnior",
+      "equipe": "Brésil",
+      "buts": 4
+    }
+  ],
+  "passeurs": [
+    {
+      "joueur": "Michael Olise",
+      "equipe": "France",
+      "passes": 7
+    },
+    {
+      "joueur": "Bruno Guimarães",
+      "equipe": "Brésil",
+      "passes": 4
+    },
+    {
+      "joueur": "Kylian Mbappé",
+      "equipe": "France",
+      "passes": 4
+    },
+    {
+      "joueur": "Martin Ødegaard",
+      "equipe": "Norvège",
+      "passes": 4
+    },
+    {
+      "joueur": "Brahim Díaz",
+      "equipe": "Maroc",
+      "passes": 4
+    },
+    {
+      "joueur": "Lionel Messi",
+      "equipe": "Argentine",
+      "passes": 4
+    }
+  ],
+  "stats_portee": "Phase finale 2026 complète (104 matchs)",
+  "palmares": [
+    {
+      "annee": 2026,
+      "vainqueur": "Espagne",
+      "finaliste": "Argentine",
+      "score": "1-0 a.p.",
+      "hote": "États-Unis, Canada, Mexique"
+    },
+    {
+      "annee": 2022,
+      "vainqueur": "Argentine",
+      "finaliste": "France",
+      "score": "3-3 a.p. (4-2 t.a.b.)",
+      "hote": "Qatar"
+    },
+    {
+      "annee": 2018,
+      "vainqueur": "France",
+      "finaliste": "Croatie",
+      "score": "4-2",
+      "hote": "Russie"
+    },
+    {
+      "annee": 2014,
+      "vainqueur": "Allemagne",
+      "finaliste": "Argentine",
+      "score": "1-0 a.p.",
+      "hote": "Brésil"
+    },
+    {
+      "annee": 2010,
+      "vainqueur": "Espagne",
+      "finaliste": "Pays-Bas",
+      "score": "1-0 a.p.",
+      "hote": "Afrique du Sud"
+    },
+    {
+      "annee": 2006,
+      "vainqueur": "Italie",
+      "finaliste": "France",
+      "score": "1-1 a.p. (5-3 t.a.b.)",
+      "hote": "Allemagne"
+    },
+    {
+      "annee": 2002,
+      "vainqueur": "Brésil",
+      "finaliste": "Allemagne",
+      "score": "2-0",
+      "hote": "Corée du Sud, Japon"
+    },
+    {
+      "annee": 1998,
+      "vainqueur": "France",
+      "finaliste": "Brésil",
+      "score": "3-0",
+      "hote": "France"
+    }
+  ],
+  "focus": {
+    "titre": "Les Bleus dans la compétition",
+    "texte": "La France a remporté ses trois matchs du groupe I (3-1 contre le Sénégal, 3-0 contre l'Irak, 4-1 contre la Norvège), puis a éliminé la Suède (3-0), le Paraguay (1-0) et le Maroc (2-0) avant de tomber en demi-finale face à l'Espagne (0-2) à Arlington. Battus 6-4 par l'Angleterre dans le match pour la 3e place à Miami, les Bleus terminent quatrièmes pour le dernier match de Didier Deschamps, sélectionneur depuis 2012. Kylian Mbappé remporte le Soulier d'or avec 10 buts et devient, avec 22 buts en trois phases finales, le meilleur buteur de l'histoire de la Coupe du monde ; Michael Olise termine meilleur passeur du tournoi (7)."
+  },
+  "sources": [
+    {
+      "nom": "Wikipédia (EN) – 2026 FIFA World Cup",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+    },
+    {
+      "nom": "Wikipédia (EN) – 2026 FIFA World Cup round of 32",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_round_of_32"
+    },
+    {
+      "nom": "Wikipédia (EN) – 2026 FIFA World Cup final",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_final"
+    },
+    {
+      "nom": "Wikipédia (EN) – 2026 FIFA World Cup Group I",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_I"
+    },
+    {
+      "nom": "Wikipédia (EN) – 2030 FIFA World Cup",
+      "url": "https://en.wikipedia.org/wiki/2030_FIFA_World_Cup"
+    },
+    {
+      "nom": "Sky Sports – calendrier et résultats",
+      "url": "https://www.skysports.com/football/news/13481245/world-cup-2026-fixture-schedule-and-uk-kick-off-times-day-by-day-breakdown-of-all-104-matches-including-england-scotland"
+    },
+    {
+      "nom": "Sky Sports – Pays-Bas 1-1 Maroc (2-3 t.a.b.)",
+      "url": "https://www.skysports.com/football/netherlands-vs-morocco/report/549841"
+    },
+    {
+      "nom": "Sport-Histoire – Coupe du monde 2026",
+      "url": "https://www.sport-histoire.fr/Sport/Football/Coupe_du_Monde/2026.php"
+    },
+    {
+      "nom": "coupedumonde2026.net – huitièmes de finale",
+      "url": "https://coupedumonde2026.net/huitiemes-de-finale/"
+    },
+    {
+      "nom": "Toute l'Europe – fin de la compétition",
+      "url": "https://www.touteleurope.eu/societe/coupe-du-monde-2026-le-tableau-complet-des-seiziemes-de-finale-et-de-la-suite-de-la-competition/"
+    },
+    {
+      "nom": "Le Petit Journal – France 4-6 Angleterre",
+      "url": "https://lepetitjournal.com/new-york/actualite/mondial-2026-deschamps-sort-sur-une-defaite-dans-un-match-fou-mbappe-dans-lhistoire-449288"
+    },
+    {
+      "nom": "ESPN – Brésil 1-2 Norvège",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760504/norway-brazil"
+    },
+    {
+      "nom": "CultureMap Dallas – Australie-Égypte",
+      "url": "https://dallas.culturemap.com/news/entertainment/egypt-world-cup-australia/"
+    },
+    {
+      "nom": "Sports Mole – Canada 0-3 Maroc",
+      "url": "https://www.sportsmole.co.uk/football/canada/world-cup-2026/news/ounahi-saves-the-day-for-morocco-canada-become-the-first-host-nation-eliminated_600680.html"
+    },
+    {
+      "nom": "GiveMeSport – meilleurs buteurs",
+      "url": "https://www.givemesport.com/world-cup-2026-top-scorers/"
+    },
+    {
+      "nom": "Planet Football – statistiques (buts, passes)",
+      "url": "https://www.planetfootball.com/stats-tables/2026-world-cup-stats-leaders-goals-assists-chances-created-dribbles"
+    },
+    {
+      "nom": "Foot Mercato – finale du Mondial 2030",
+      "url": "https://www.footmercato.net/a4461330614769201573-coupe-du-monde-2030-le-message-fort-de-lespagne-au-maroc-pour-la-finale"
+    }
+  ]
+}

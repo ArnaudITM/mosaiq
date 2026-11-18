@@ -1,0 +1,101 @@
+{
+  "id": "euro",
+  "nom": "Championnat d'Europe 2028",
+  "nom_court": "Euro 2028",
+  "confederation": "UEFA",
+  "edition": "18e édition",
+  "hote": "Angleterre, Écosse, pays de Galles, Irlande",
+  "dates": {"debut": "2028-06-09", "fin": "2028-07-09"},
+  "statut": "a_venir",
+  "tenant": "Espagne (2024)",
+  "maj": "18 novembre 2026",
+  "resume": "Les éliminatoires de l'Euro 2028 n'ont pas encore commencé : le tirage au sort des 12 groupes a lieu le 6 décembre 2026 à Belfast, et les chapeaux ont été établis d'après le classement intermédiaire de la Ligue des nations 2026-27, dont la phase de ligue s'est achevée le 17 novembre. Cette Ligue des nations sert aussi de deuxième voie : ses vainqueurs de groupe non qualifiés directement peuvent obtenir une place en barrages (mars 2028). L'Irlande du Nord, privée de matchs après l'abandon du projet de Casement Park, n'est plus pays hôte et dispute les éliminatoires sans place réservée.",
+  "etapes": [
+    {"date": "2026-11-17", "titre": "Fin de la phase de ligue de la Ligue des nations 2026-27 (classement servant aux chapeaux)", "fait": true},
+    {"date": "2026-11-20", "titre": "Tirage des quarts de finale de la Ligue des nations", "fait": false},
+    {"date": "2026-12-06", "titre": "Tirage au sort des éliminatoires à Belfast", "fait": false},
+    {"date": "2027-03-25", "titre": "Début des éliminatoires (quarts de finale de la Ligue des nations en parallèle, 25-30 mars)", "fait": false},
+    {"date": "2027-06-09", "titre": "Phase finale de la Ligue des nations (9-13 juin)", "fait": false},
+    {"date": "2027-11-16", "titre": "Fin de la phase de groupes des éliminatoires", "fait": false},
+    {"date": "2028-03-23", "titre": "Barrages (demi-finales 23-25 mars, finales 26-28 mars)", "fait": false},
+    {"date": "2028-06-09", "titre": "Match d'ouverture à Cardiff", "fait": false},
+    {"date": "2028-07-04", "titre": "Demi-finales à Wembley (4 et 5 juillet)", "fait": false},
+    {"date": "2028-07-09", "titre": "Finale à Wembley (Londres)", "fait": false}
+  ],
+  "qualifications": {
+    "format": "54 équipes réparties en 12 groupes de 4 ou 5, matchs aller-retour en 2027 : les 12 premiers et les 8 meilleurs deuxièmes sont qualifiés directement ; deux places sont réservées aux deux pays hôtes les mieux classés non qualifiés directement, et les places restantes se jouent en barrages (mars 2028) entre les moins bons deuxièmes et les vainqueurs de groupe de la Ligue des nations 2026-27 non qualifiés. Chapeaux du tirage : chapeau 1 Espagne, Portugal, France, Angleterre, Italie, Pays-Bas, Grèce, Belgique, Allemagne, Danemark, Norvège, Croatie ; chapeau 2 Suisse, Turquie, Serbie, pays de Galles, Suède, Autriche, Hongrie, Bosnie-Herzégovine, Irlande du Nord, Tchéquie, Slovénie, Irlande ; chapeau 3 Roumanie, Macédoine du Nord, Monténégro, Slovaquie, Géorgie, Pologne, Ukraine, Israël, Albanie, Islande, Écosse, Kosovo ; chapeau 4 Arménie, Moldavie, Kazakhstan, Lettonie, Saint-Marin, Finlande, Chypre, îles Féroé, Bulgarie, Luxembourg, Biélorussie, Estonie ; chapeau 5 Malte, Azerbaïdjan, Lituanie, Andorre, Gibraltar, Liechtenstein. Les pays hôtes sont placés dans des groupes différents et les quart-de-finalistes de la Ligue des nations dans des groupes de quatre.",
+    "qualifies": [],
+    "groupes": [
+      {"nom": "Ligue des nations 2026-27 · Ligue A, groupe 1 (groupe des Bleus, classement final)", "classement": [
+        {"equipe": "France", "j": 6, "g": 4, "n": 1, "p": 1, "bp": 10, "bc": 6, "pts": 13, "statut": null},
+        {"equipe": "Belgique", "j": 6, "g": 4, "n": 0, "p": 2, "bp": 12, "bc": 7, "pts": 12, "statut": null},
+        {"equipe": "Italie", "j": 6, "g": 3, "n": 1, "p": 2, "bp": 12, "bc": 10, "pts": 10, "statut": null},
+        {"equipe": "Turquie", "j": 6, "g": 0, "n": 0, "p": 6, "bp": 4, "bc": 15, "pts": 0, "statut": null}
+      ]}
+    ],
+    "matchs": [
+      {"date": "2026-09-25", "phase": "Ligue des nations · Ligue A groupe 1 · 1re journée", "dom": "Turquie", "ext": "France", "score": "0-1", "lieu": null},
+      {"date": "2026-09-25", "phase": "Ligue des nations · Ligue A groupe 1 · 1re journée", "dom": "Italie", "ext": "Belgique", "score": "0-2", "lieu": null},
+      {"date": "2026-09-28", "phase": "Ligue des nations · Ligue A groupe 1 · 2e journée", "dom": "Belgique", "ext": "France", "score": "0-1", "lieu": null},
+      {"date": "2026-09-28", "phase": "Ligue des nations · Ligue A groupe 1 · 2e journée", "dom": "Turquie", "ext": "Italie", "score": "1-4", "lieu": null},
+      {"date": "2026-10-02", "phase": "Ligue des nations · Ligue A groupe 1 · 3e journée", "dom": "France", "ext": "Italie", "score": "1-1", "lieu": null},
+      {"date": "2026-10-02", "phase": "Ligue des nations · Ligue A groupe 1 · 3e journée", "dom": "Belgique", "ext": "Turquie", "score": "3-0", "lieu": null},
+      {"date": "2026-10-05", "phase": "Ligue des nations · Ligue A groupe 1 · 4e journée", "dom": "France", "ext": "Belgique", "score": "4-1", "lieu": null},
+      {"date": "2026-10-05", "phase": "Ligue des nations · Ligue A groupe 1 · 4e journée", "dom": "Italie", "ext": "Turquie", "score": "3-1", "lieu": null},
+      {"date": "2026-11-12", "phase": "Ligue des nations · Ligue A groupe 1 · 5e journée", "dom": "Turquie", "ext": "Belgique", "score": "1-2", "lieu": null},
+      {"date": "2026-11-12", "phase": "Ligue des nations · Ligue A groupe 1 · 5e journée", "dom": "Italie", "ext": "France", "score": "3-1", "lieu": null},
+      {"date": "2026-11-15", "phase": "Ligue des nations · Ligue A groupe 1 · 6e journée", "dom": "France", "ext": "Turquie", "score": "2-1", "lieu": "Bordeaux"},
+      {"date": "2026-11-15", "phase": "Ligue des nations · Ligue A groupe 1 · 6e journée", "dom": "Belgique", "ext": "Italie", "score": "4-1", "lieu": null}
+    ],
+    "prochains": []
+  },
+  "phase_finale": {
+    "format": "24 équipes en six groupes de quatre ; les deux premiers de chaque groupe et les quatre meilleurs troisièmes accèdent aux huitièmes de finale, puis élimination directe. 51 matchs dans 9 stades de 8 villes.",
+    "tirage": "Tirage final prévu en 2027 (date et lieu non annoncés)",
+    "stades": [
+      {"ville": "Londres", "stade": "Wembley (demi-finales et finale)"},
+      {"ville": "Londres", "stade": "Tottenham Hotspur Stadium"},
+      {"ville": "Manchester", "stade": "Etihad Stadium"},
+      {"ville": "Liverpool", "stade": "Hill Dickinson Stadium (Everton)"},
+      {"ville": "Newcastle", "stade": "St James' Park"},
+      {"ville": "Birmingham", "stade": "Villa Park"},
+      {"ville": "Glasgow", "stade": "Hampden Park"},
+      {"ville": "Cardiff", "stade": "Principality Stadium (match d'ouverture)"},
+      {"ville": "Dublin", "stade": "Aviva Stadium"}
+    ],
+    "groupes": [],
+    "matchs": [
+      {"date": "2028-06-09", "phase": "Groupe A · match d'ouverture", "dom": null, "ext": null, "score": null, "lieu": "Cardiff"},
+      {"date": "2028-07-09", "phase": "Finale", "dom": null, "ext": null, "score": null, "lieu": "Londres (Wembley), 18h00"}
+    ],
+    "tableau": []
+  },
+  "buteurs": [],
+  "passeurs": [],
+  "stats_portee": "Éliminatoires de l'Euro 2028 non commencés (au 18 novembre 2026)",
+  "palmares": [
+    {"annee": 2024, "vainqueur": "Espagne", "finaliste": "Angleterre", "score": "2-1", "hote": "Allemagne"},
+    {"annee": 2020, "vainqueur": "Italie", "finaliste": "Angleterre", "score": "1-1 a.p. (3-2 t.a.b.)", "hote": "Onze villes européennes (disputé en 2021)"},
+    {"annee": 2016, "vainqueur": "Portugal", "finaliste": "France", "score": "1-0 a.p.", "hote": "France"},
+    {"annee": 2012, "vainqueur": "Espagne", "finaliste": "Italie", "score": "4-0", "hote": "Pologne et Ukraine"},
+    {"annee": 2008, "vainqueur": "Espagne", "finaliste": "Allemagne", "score": "1-0", "hote": "Autriche et Suisse"},
+    {"annee": 2004, "vainqueur": "Grèce", "finaliste": "Portugal", "score": "1-0", "hote": "Portugal"},
+    {"annee": 2000, "vainqueur": "France", "finaliste": "Italie", "score": "2-1 a.p. (but en or)", "hote": "Belgique et Pays-Bas"},
+    {"annee": 1996, "vainqueur": "Allemagne", "finaliste": "Tchéquie", "score": "2-1 a.p. (but en or)", "hote": "Angleterre"}
+  ],
+  "focus": {
+    "titre": "Les Bleus dans la compétition",
+    "texte": "Sous la direction de Zinédine Zidane, successeur de Didier Deschamps après la demi-finale perdue contre l'Espagne au Mondial 2026, la France a terminé première de son groupe de Ligue des nations (13 points, devant la Belgique, l'Italie et la Turquie), conclu par une victoire 2-1 contre la Turquie le 15 novembre à Bordeaux. Qualifiée pour les quarts de finale de mars 2027, elle figure dans le chapeau 1 du tirage des éliminatoires du 6 décembre et sera donc versée dans un groupe de quatre équipes. Double championne d'Europe (1984, 2000), la France avait été éliminée en demi-finale de l'Euro 2024 par l'Espagne."
+  },
+  "sources": [
+    {"nom": "UEFA – Le format des éliminatoires de l'EURO 2028", "url": "https://fr.uefa.com/european-qualifiers/news/0299-1dcf491b1223-d52201d31929-1000--le-format-des-eliminatoires-de-l-uefa-euro-2028-devoile/"},
+    {"nom": "UEFA – Calendrier de l'EURO 2028", "url": "https://fr.uefa.com/euro2028/news/029f-1f2ffba54e25-b5975480939d-1000--le-calendrier-de-l-euro-2028-annonce-dates-et-lieux-des-ma/"},
+    {"nom": "UEFA – Ligue des nations 2026/27, tout ce qu'il faut savoir", "url": "https://fr.uefa.com/uefanationsleague/news/029a-1de7259f7188-7c52b2031018-1000--ligue-des-nations-de-l-uefa-2026-27-tout-ce-qu-il-faut-s/"},
+    {"nom": "Wikipédia (EN) – UEFA Euro 2028 qualifying", "url": "https://en.wikipedia.org/wiki/UEFA_Euro_2028_qualifying"},
+    {"nom": "Wikipédia (EN) – UEFA Euro 2028", "url": "https://en.wikipedia.org/wiki/UEFA_Euro_2028"},
+    {"nom": "Wikipédia (EN) – UEFA European Championship", "url": "https://en.wikipedia.org/wiki/UEFA_European_Championship"},
+    {"nom": "Foot Mercato – Euro 2028 : tous les chapeaux sont connus", "url": "https://www.footmercato.net/a8411861642260137047-euro-2028-tous-les-chapeaux-sont-connus"},
+    {"nom": "FFF – Au rendez-vous des quarts", "url": "https://www.fff.fr/article/17785-au-rendez-vous-des-quarts.html"},
+    {"nom": "FFF – Les compos pour France-Turquie", "url": "https://www.fff.fr/article/17784-les-compos-pour-france-turquie.html"}
+  ]
+}

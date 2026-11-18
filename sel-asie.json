@@ -1,0 +1,187 @@
+{
+  "id": "asie",
+  "nom": "Coupe d'Asie des nations 2027",
+  "nom_court": "Coupe d'Asie 2027",
+  "confederation": "AFC",
+  "edition": "19e édition",
+  "hote": "Arabie saoudite",
+  "dates": {"debut": "2027-12-23", "fin": "2028-01-21"},
+  "statut": "a_venir",
+  "tenant": "Qatar (2023)",
+  "maj": "18 novembre 2026",
+  "resume": "Les 24 participants sont connus depuis la victoire du Yémen au Liban le 4 juin 2026, et le tirage au sort des six groupes a eu lieu le 9 mai 2026 à Diriyah. Initialement prévue du 7 janvier au 5 février 2027, la compétition a été reportée le 3 novembre 2026 en raison de la situation sécuritaire et des difficultés logistiques dans la région ; le comité exécutif de l'AFC a entériné le 18 novembre 2026 les nouvelles dates (23 décembre 2027 - 21 janvier 2028). Le calendrier détaillé des matchs selon ces nouvelles dates n'est pas encore publié. Au 3e tour des qualifications, les victoires de la Malaisie contre le Népal et le Viêt Nam ont été transformées en défaites 0-3 par l'AFC le 17 mars 2026 (joueurs inéligibles) ; le classement du groupe F en tient compte.",
+  "etapes": [
+    {"date": "2024-06-11", "titre": "Fin du 2e tour (commun avec les qualifications pour la Coupe du monde 2026) : 17 qualifiés directs", "fait": true},
+    {"date": "2024-09-10", "titre": "Fin du tour de barrage (Sri Lanka, Timor oriental, Brunei qualifiés pour le 3e tour)", "fait": true},
+    {"date": "2025-03-25", "titre": "Début du 3e tour des qualifications", "fait": true},
+    {"date": "2026-03-31", "titre": "6e journée du 3e tour : Tadjikistan, Singapour, Thaïlande, Syrie et Viêt Nam qualifiés", "fait": true},
+    {"date": "2026-05-09", "titre": "Tirage au sort de la phase finale à Diriyah", "fait": true},
+    {"date": "2026-06-04", "titre": "Liban - Yémen (0-2) à Doha : le Yémen décroche le dernier billet", "fait": true},
+    {"date": "2026-11-03", "titre": "Annonce du report de la phase finale à décembre 2027", "fait": true},
+    {"date": "2026-11-18", "titre": "Le comité exécutif de l'AFC valide les nouvelles dates", "fait": true},
+    {"date": "2027-12-23", "titre": "Match d'ouverture (groupe A)", "fait": false},
+    {"date": "2028-01-21", "titre": "Finale", "fait": false}
+  ],
+  "qualifications": {
+    "format": "Le 2e tour, commun avec les qualifications pour la Coupe du monde 2026, a qualifié directement les 9 vainqueurs et les 8 deuxièmes de groupe (l'Arabie saoudite étant qualifiée d'office comme pays hôte). Le 3e tour a réuni 24 équipes en six groupes de quatre (matchs aller-retour) ; seuls les six vainqueurs de groupe se sont qualifiés.",
+    "qualifies": ["Arabie saoudite", "Australie", "Irak", "Iran", "Qatar", "Émirats arabes unis", "Japon", "Corée du Sud", "Oman", "Jordanie", "Ouzbékistan", "Palestine", "Bahreïn", "Chine", "Indonésie", "Corée du Nord", "Koweït", "Kirghizistan", "Tadjikistan", "Yémen", "Singapour", "Thaïlande", "Syrie", "Viêt Nam"],
+    "groupes": [
+      {"nom": "Groupe A", "classement": [
+        {"equipe": "Tadjikistan", "j": 6, "g": 4, "n": 2, "p": 0, "bp": 14, "bc": 3, "pts": 14, "statut": "qualifie"},
+        {"equipe": "Philippines", "j": 6, "g": 4, "n": 2, "p": 0, "bp": 16, "bc": 6, "pts": 14, "statut": "elimine"},
+        {"equipe": "Maldives", "j": 6, "g": 1, "n": 0, "p": 5, "bp": 3, "bc": 13, "pts": 3, "statut": "elimine"},
+        {"equipe": "Timor oriental", "j": 6, "g": 1, "n": 0, "p": 5, "bp": 4, "bc": 15, "pts": 3, "statut": "elimine"}
+      ]},
+      {"nom": "Groupe B", "classement": [
+        {"equipe": "Yémen", "j": 6, "g": 4, "n": 2, "p": 0, "bp": 20, "bc": 1, "pts": 14, "statut": "qualifie"},
+        {"equipe": "Liban", "j": 6, "g": 4, "n": 1, "p": 1, "bp": 14, "bc": 2, "pts": 13, "statut": "elimine"},
+        {"equipe": "Bhoutan", "j": 6, "g": 1, "n": 1, "p": 4, "bp": 4, "bc": 16, "pts": 4, "statut": "elimine"},
+        {"equipe": "Brunei", "j": 6, "g": 1, "n": 0, "p": 5, "bp": 3, "bc": 22, "pts": 3, "statut": "elimine"}
+      ]},
+      {"nom": "Groupe C", "classement": [
+        {"equipe": "Singapour", "j": 6, "g": 4, "n": 2, "p": 0, "bp": 8, "bc": 4, "pts": 14, "statut": "qualifie"},
+        {"equipe": "Hong Kong", "j": 6, "g": 2, "n": 2, "p": 2, "bp": 8, "bc": 8, "pts": 8, "statut": "elimine"},
+        {"equipe": "Bangladesh", "j": 6, "g": 1, "n": 2, "p": 3, "bp": 6, "bc": 8, "pts": 5, "statut": "elimine"},
+        {"equipe": "Inde", "j": 6, "g": 1, "n": 2, "p": 3, "bp": 4, "bc": 6, "pts": 5, "statut": "elimine"}
+      ]},
+      {"nom": "Groupe D", "classement": [
+        {"equipe": "Thaïlande", "j": 6, "g": 5, "n": 0, "p": 1, "bp": 16, "bc": 5, "pts": 15, "statut": "qualifie"},
+        {"equipe": "Turkménistan", "j": 6, "g": 4, "n": 0, "p": 2, "bp": 11, "bc": 7, "pts": 12, "statut": "elimine"},
+        {"equipe": "Sri Lanka", "j": 6, "g": 3, "n": 0, "p": 3, "bp": 8, "bc": 9, "pts": 9, "statut": "elimine"},
+        {"equipe": "Taipei chinois", "j": 6, "g": 0, "n": 0, "p": 6, "bp": 5, "bc": 19, "pts": 0, "statut": "elimine"}
+      ]},
+      {"nom": "Groupe E", "classement": [
+        {"equipe": "Syrie", "j": 6, "g": 6, "n": 0, "p": 0, "bp": 21, "bc": 2, "pts": 18, "statut": "qualifie"},
+        {"equipe": "Birmanie", "j": 6, "g": 4, "n": 0, "p": 2, "bp": 8, "bc": 11, "pts": 12, "statut": "elimine"},
+        {"equipe": "Afghanistan", "j": 6, "g": 0, "n": 2, "p": 4, "bp": 4, "bc": 11, "pts": 2, "statut": "elimine"},
+        {"equipe": "Pakistan", "j": 6, "g": 0, "n": 2, "p": 4, "bp": 2, "bc": 11, "pts": 2, "statut": "elimine"}
+      ]},
+      {"nom": "Groupe F", "classement": [
+        {"equipe": "Viêt Nam", "j": 6, "g": 6, "n": 0, "p": 0, "bp": 17, "bc": 2, "pts": 18, "statut": "qualifie"},
+        {"equipe": "Malaisie", "j": 6, "g": 3, "n": 0, "p": 3, "bp": 10, "bc": 10, "pts": 9, "statut": "elimine"},
+        {"equipe": "Laos", "j": 6, "g": 2, "n": 0, "p": 4, "bp": 4, "bc": 16, "pts": 6, "statut": "elimine"},
+        {"equipe": "Népal", "j": 6, "g": 1, "n": 0, "p": 5, "bp": 5, "bc": 8, "pts": 3, "statut": "elimine"}
+      ]}
+    ],
+    "matchs": [
+      {"date": "2025-11-18", "phase": "3e tour · Groupe A · 5e journée", "dom": "Maldives", "ext": "Philippines", "score": "0-2", "lieu": null},
+      {"date": "2025-11-18", "phase": "3e tour · Groupe A · 5e journée", "dom": "Timor oriental", "ext": "Tadjikistan", "score": "0-5", "lieu": null},
+      {"date": "2025-11-18", "phase": "3e tour · Groupe B · 5e journée", "dom": "Yémen", "ext": "Bhoutan", "score": "7-1", "lieu": "Farwaniya (Koweït)"},
+      {"date": "2025-11-18", "phase": "3e tour · Groupe B · 5e journée", "dom": "Brunei", "ext": "Liban", "score": "0-3", "lieu": null},
+      {"date": "2025-11-18", "phase": "3e tour · Groupe C · 5e journée", "dom": "Hong Kong", "ext": "Singapour", "score": "1-2", "lieu": null},
+      {"date": "2025-11-18", "phase": "3e tour · Groupe C · 5e journée", "dom": "Bangladesh", "ext": "Inde", "score": "1-0", "lieu": null},
+      {"date": "2025-11-18", "phase": "3e tour · Groupe D · 5e journée", "dom": "Sri Lanka", "ext": "Thaïlande", "score": "0-4", "lieu": null},
+      {"date": "2025-11-18", "phase": "3e tour · Groupe D · 5e journée", "dom": "Turkménistan", "ext": "Taipei chinois", "score": "3-1", "lieu": null},
+      {"date": "2025-11-18", "phase": "3e tour · Groupe E · 5e journée", "dom": "Pakistan", "ext": "Syrie", "score": "0-5", "lieu": null},
+      {"date": "2025-11-18", "phase": "3e tour · Groupe F · 5e journée", "dom": "Népal", "ext": "Malaisie", "score": "0-1", "lieu": null},
+      {"date": "2025-11-19", "phase": "3e tour · Groupe F · 5e journée", "dom": "Laos", "ext": "Viêt Nam", "score": "0-2", "lieu": null},
+      {"date": "2026-03-26", "phase": "3e tour · Groupe E · 5e journée (reporté)", "dom": "Afghanistan", "ext": "Birmanie", "score": "1-2", "lieu": null},
+      {"date": "2026-03-31", "phase": "3e tour · Groupe A · 6e journée", "dom": "Tadjikistan", "ext": "Philippines", "score": "1-1", "lieu": "Hisor"},
+      {"date": "2026-03-31", "phase": "3e tour · Groupe A · 6e journée", "dom": "Maldives", "ext": "Timor oriental", "score": "2-1", "lieu": null},
+      {"date": "2026-03-31", "phase": "3e tour · Groupe B · 6e journée", "dom": "Bhoutan", "ext": "Brunei", "score": "2-1", "lieu": "Guwahati (Inde)"},
+      {"date": "2026-03-31", "phase": "3e tour · Groupe C · 6e journée", "dom": "Singapour", "ext": "Bangladesh", "score": "1-0", "lieu": "Singapour"},
+      {"date": "2026-03-31", "phase": "3e tour · Groupe C · 6e journée", "dom": "Inde", "ext": "Hong Kong", "score": "2-1", "lieu": "Kochi"},
+      {"date": "2026-03-31", "phase": "3e tour · Groupe D · 6e journée", "dom": "Thaïlande", "ext": "Turkménistan", "score": "2-1", "lieu": "Bangkok"},
+      {"date": "2026-03-31", "phase": "3e tour · Groupe D · 6e journée", "dom": "Taipei chinois", "ext": "Sri Lanka", "score": "1-3", "lieu": "Taipei"},
+      {"date": "2026-03-31", "phase": "3e tour · Groupe E · 6e journée", "dom": "Syrie", "ext": "Afghanistan", "score": "5-1", "lieu": "Al-Hassa (Arabie saoudite)"},
+      {"date": "2026-03-31", "phase": "3e tour · Groupe E · 6e journée", "dom": "Pakistan", "ext": "Birmanie", "score": "1-2", "lieu": "Islamabad"},
+      {"date": "2026-03-31", "phase": "3e tour · Groupe F · 6e journée", "dom": "Viêt Nam", "ext": "Malaisie", "score": "3-1", "lieu": "Nam Dinh"},
+      {"date": "2026-03-31", "phase": "3e tour · Groupe F · 6e journée", "dom": "Népal", "ext": "Laos", "score": "0-1", "lieu": "Vientiane"},
+      {"date": "2026-06-04", "phase": "3e tour · Groupe B · 6e journée (reporté)", "dom": "Liban", "ext": "Yémen", "score": "0-2", "lieu": "Doha (Qatar)"}
+    ],
+    "prochains": []
+  },
+  "phase_finale": {
+    "format": "24 équipes réparties en six groupes de quatre. Les deux premiers de chaque groupe et les quatre meilleurs troisièmes se qualifient pour les huitièmes de finale ; en phase à élimination directe, prolongation puis tirs au but en cas d'égalité. 51 matchs au total.",
+    "tirage": "9 mai 2026, quartier d'At-Turaif, Diriyah (Arabie saoudite), initialement prévu le 11 avril 2026",
+    "stades": [
+      {"ville": "Riyad", "stade": "Stade international du Roi-Fahd (70 000 places après rénovation)"},
+      {"ville": "Riyad", "stade": "Stade de l'Université du Roi-Saoud (25 000)"},
+      {"ville": "Riyad", "stade": "Kingdom Arena (26 000)"},
+      {"ville": "Riyad", "stade": "Stade de l'Université islamique Imam-Mohammed-ibn-Saoud (21 000 après rénovation)"},
+      {"ville": "Riyad", "stade": "Stade Al-Shabab (14 000)"},
+      {"ville": "Djeddah", "stade": "Stade international du Roi-Abdallah (60 000)"},
+      {"ville": "Djeddah", "stade": "Stade Prince-Abdallah-Al-Faisal (25 000)"},
+      {"ville": "Khobar", "stade": "Stade Aramco (45 000, nouveau)"}
+    ],
+    "groupes": [
+      {"nom": "Groupe A", "classement": [
+        {"equipe": "Arabie saoudite", "j": 0, "g": 0, "n": 0, "p": 0, "bp": 0, "bc": 0, "pts": 0, "statut": null},
+        {"equipe": "Koweït", "j": 0, "g": 0, "n": 0, "p": 0, "bp": 0, "bc": 0, "pts": 0, "statut": null},
+        {"equipe": "Oman", "j": 0, "g": 0, "n": 0, "p": 0, "bp": 0, "bc": 0, "pts": 0, "statut": null},
+        {"equipe": "Palestine", "j": 0, "g": 0, "n": 0, "p": 0, "bp": 0, "bc": 0, "pts": 0, "statut": null}
+      ]},
+      {"nom": "Groupe B", "classement": [
+        {"equipe": "Ouzbékistan", "j": 0, "g": 0, "n": 0, "p": 0, "bp": 0, "bc": 0, "pts": 0, "statut": null},
+        {"equipe": "Bahreïn", "j": 0, "g": 0, "n": 0, "p": 0, "bp": 0, "bc": 0, "pts": 0, "statut": null},
+        {"equipe": "Corée du Nord", "j": 0, "g": 0, "n": 0, "p": 0, "bp": 0, "bc": 0, "pts": 0, "statut": null},
+        {"equipe": "Jordanie", "j": 0, "g": 0, "n": 0, "p": 0, "bp": 0, "bc": 0, "pts": 0, "statut": null}
+      ]},
+      {"nom": "Groupe C", "classement": [
+        {"equipe": "Iran", "j": 0, "g": 0, "n": 0, "p": 0, "bp": 0, "bc": 0, "pts": 0, "statut": null},
+        {"equipe": "Syrie", "j": 0, "g": 0, "n": 0, "p": 0, "bp": 0, "bc": 0, "pts": 0, "statut": null},
+        {"equipe": "Kirghizistan", "j": 0, "g": 0, "n": 0, "p": 0, "bp": 0, "bc": 0, "pts": 0, "statut": null},
+        {"equipe": "Chine", "j": 0, "g": 0, "n": 0, "p": 0, "bp": 0, "bc": 0, "pts": 0, "statut": null}
+      ]},
+      {"nom": "Groupe D", "classement": [
+        {"equipe": "Australie", "j": 0, "g": 0, "n": 0, "p": 0, "bp": 0, "bc": 0, "pts": 0, "statut": null},
+        {"equipe": "Tadjikistan", "j": 0, "g": 0, "n": 0, "p": 0, "bp": 0, "bc": 0, "pts": 0, "statut": null},
+        {"equipe": "Irak", "j": 0, "g": 0, "n": 0, "p": 0, "bp": 0, "bc": 0, "pts": 0, "statut": null},
+        {"equipe": "Singapour", "j": 0, "g": 0, "n": 0, "p": 0, "bp": 0, "bc": 0, "pts": 0, "statut": null}
+      ]},
+      {"nom": "Groupe E", "classement": [
+        {"equipe": "Corée du Sud", "j": 0, "g": 0, "n": 0, "p": 0, "bp": 0, "bc": 0, "pts": 0, "statut": null},
+        {"equipe": "Émirats arabes unis", "j": 0, "g": 0, "n": 0, "p": 0, "bp": 0, "bc": 0, "pts": 0, "statut": null},
+        {"equipe": "Viêt Nam", "j": 0, "g": 0, "n": 0, "p": 0, "bp": 0, "bc": 0, "pts": 0, "statut": null},
+        {"equipe": "Yémen", "j": 0, "g": 0, "n": 0, "p": 0, "bp": 0, "bc": 0, "pts": 0, "statut": null}
+      ]},
+      {"nom": "Groupe F", "classement": [
+        {"equipe": "Japon", "j": 0, "g": 0, "n": 0, "p": 0, "bp": 0, "bc": 0, "pts": 0, "statut": null},
+        {"equipe": "Qatar", "j": 0, "g": 0, "n": 0, "p": 0, "bp": 0, "bc": 0, "pts": 0, "statut": null},
+        {"equipe": "Thaïlande", "j": 0, "g": 0, "n": 0, "p": 0, "bp": 0, "bc": 0, "pts": 0, "statut": null},
+        {"equipe": "Indonésie", "j": 0, "g": 0, "n": 0, "p": 0, "bp": 0, "bc": 0, "pts": 0, "statut": null}
+      ]}
+    ],
+    "matchs": [],
+    "tableau": []
+  },
+  "buteurs": [
+    {"joueur": "Nasser Al-Gahwashi", "equipe": "Yémen", "buts": 12}
+  ],
+  "passeurs": [],
+  "stats_portee": "3e tour des qualifications 2027 (terminé le 4 juin 2026)",
+  "palmares": [
+    {"annee": 2023, "vainqueur": "Qatar", "finaliste": "Jordanie", "score": "3-1", "hote": "Qatar"},
+    {"annee": 2019, "vainqueur": "Qatar", "finaliste": "Japon", "score": "3-1", "hote": "Émirats arabes unis"},
+    {"annee": 2015, "vainqueur": "Australie", "finaliste": "Corée du Sud", "score": "2-1 a.p.", "hote": "Australie"},
+    {"annee": 2011, "vainqueur": "Japon", "finaliste": "Australie", "score": "1-0 a.p.", "hote": "Qatar"},
+    {"annee": 2007, "vainqueur": "Irak", "finaliste": "Arabie saoudite", "score": "1-0", "hote": "Indonésie, Malaisie, Thaïlande, Viêt Nam"},
+    {"annee": 2004, "vainqueur": "Japon", "finaliste": "Chine", "score": "3-1", "hote": "Chine"},
+    {"annee": 2000, "vainqueur": "Japon", "finaliste": "Arabie saoudite", "score": "1-0", "hote": "Liban"},
+    {"annee": 1996, "vainqueur": "Arabie saoudite", "finaliste": "Émirats arabes unis", "score": "0-0 a.p. (4-2 t.a.b.)", "hote": "Émirats arabes unis"}
+  ],
+  "focus": {
+    "titre": "Une Coupe d'Asie décalée de près d'un an",
+    "texte": "Prévue du 7 janvier au 5 février 2027, la première Coupe d'Asie organisée en Arabie saoudite se jouera finalement du 23 décembre 2027 au 21 janvier 2028. L'AFC a invoqué des « circonstances exceptionnelles » liées à la situation dans la région ainsi que d'importantes complications logistiques et de transport. Les groupes tirés le 9 mai 2026 réservent notamment un Japon - Qatar, remake de la finale 2019, et un Australie - Irak dans le groupe D."
+  },
+  "sources": [
+    {"nom": "Wikipédia (EN) - 2027 AFC Asian Cup", "url": "https://en.wikipedia.org/wiki/2027_AFC_Asian_Cup"},
+    {"nom": "Wikipédia (EN) - 2027 AFC Asian Cup qualification", "url": "https://en.wikipedia.org/wiki/2027_AFC_Asian_Cup_qualification"},
+    {"nom": "Wikipédia (EN) - Qualifications, 3e tour", "url": "https://en.wikipedia.org/wiki/2027_AFC_Asian_Cup_qualification_%E2%80%93_third_round"},
+    {"nom": "Wikipédia (EN) - Qualifications, tour de barrage", "url": "https://en.wikipedia.org/wiki/2027_AFC_Asian_Cup_qualification_%E2%80%93_play-off_round"},
+    {"nom": "Wikipédia (EN) - AFC Asian Cup (palmarès)", "url": "https://en.wikipedia.org/wiki/AFC_Asian_Cup"},
+    {"nom": "ESPN - tirage au sort", "url": "https://www.espn.com/soccer/story/_/id/48727844"},
+    {"nom": "Goal - report de la Coupe d'Asie", "url": "https://www.goal.com/en/news/official-asian-cup-in-saudi-arabia-postponed/blt3300a45a036ea0f5"},
+    {"nom": "WION (AFP) - report à décembre 2027", "url": "https://www.wionews.com/sports/2027-afc-asian-cup-saudi-arabia-postponed-december-security-concerns-1793706722765"},
+    {"nom": "Kuwait Times - nouvelles dates validées par le comité exécutif", "url": "https://kuwaittimes.com/article/53907/sports/afc-approves-new-dates-for-asian-cup-saudi-arabia-2027"},
+    {"nom": "Futbol24 - résultats des qualifications", "url": "https://www.futbol24.com/international/AFC/Asian-Cup-Qualifiers/2025/results"},
+    {"nom": "AFC - Viêt Nam 3-1 Malaisie", "url": "https://www.the-afc.com/en/national/afc_asian_cup.html/news/qualifiers-group-f-vietnam-3-1-malaysia"},
+    {"nom": "AFC - Taipei chinois 1-3 Sri Lanka", "url": "https://www.the-afc.com/en/national/afc_asian_cup.html/news/qualifiers-group-d-chinese-taipei-1-3-sri-lanka"},
+    {"nom": "AFC - Bhoutan 2-1 Brunei", "url": "https://www.the-afc.com/en/national/afc_asian_cup.html/news/qualifiers-group-b-bhutan-2-1-brunei-darussalam"},
+    {"nom": "Tiebreaker Times - Tadjikistan 1-1 Philippines", "url": "https://tiebreakertimes.com.ph/tbt/philippines-held-to-draw-by-tajikistan-falls-short-of-asian-cup-return/370647"},
+    {"nom": "Outlook India - Inde 2-1 Hong Kong", "url": "https://www.outlookindia.com/sports/football/india-vs-hong-kong-match-report-afc-asian-cup-2027-qualifiers-third-round-group-c-kochi"},
+    {"nom": "VnExpress - qualifiés du 31 mars 2026", "url": "https://e.vnexpress.net/news/sports/football/thailand-vietnam-join-singapore-and-indonesia-in-2027-asian-cup-philippines-eliminated-5057218.html"},
+    {"nom": "Sharjah24 - Yémen 2-0 Liban", "url": "https://sharjah24.ae/en/Articles/2026/06/04/d42"},
+    {"nom": "Wikipédia (EN) - Nasser Al-Gahwashi", "url": "https://en.wikipedia.org/wiki/Nasser_Al-Gahwashi"}
+  ]
+}

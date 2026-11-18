@@ -1,0 +1,55 @@
+{
+  "id": "copa-america",
+  "nom": "Copa América 2028",
+  "nom_court": "Copa América 2028",
+  "confederation": "CONMEBOL",
+  "edition": "49e édition",
+  "hote": null,
+  "dates": {"debut": null, "fin": null},
+  "statut": "a_venir",
+  "tenant": "Argentine (2024)",
+  "maj": "18 novembre 2026",
+  "resume": "La 49e Copa América doit se disputer en juin-juillet 2028, mais la CONMEBOL n'a encore officialisé ni le pays hôte, ni les dates, ni le nombre d'équipes au 18 novembre 2026. Selon plusieurs médias (The Times, O Estado de S. Paulo, The Athletic), les États-Unis, déjà hôtes en 2016 et 2024, tiennent la corde après des discussions avancées entre la CONMEBOL et la CONCACAF, tandis que les candidatures de l'Équateur et de l'Argentine auraient été écartées. L'Argentine, double tenante du titre (2021 et 2024), détient le record de 16 sacres.",
+  "etapes": [
+    {"date": "2024-06-20", "titre": "Ouverture de la 48e édition aux États-Unis (16 équipes : 10 de la CONMEBOL, 6 de la CONCACAF)", "fait": true},
+    {"date": "2024-07-14", "titre": "Finale 2024 à Miami Gardens : Argentine 1-0 Colombie après prolongation", "fait": true},
+    {"date": "2025-12-01", "titre": "The Athletic fait état de discussions approfondies entre CONMEBOL et CONCACAF pour une édition 2028 aux États-Unis", "fait": true},
+    {"date": "2026-06-21", "titre": "Réunion CONMEBOL-CONCACAF à Miami ; selon l'Estadão, la candidature de l'Équateur est écartée (infrastructures, sécurité)", "fait": true},
+    {"date": "2026-10-07", "titre": "Selon The Times, les États-Unis seraient retenus ; aucune annonce officielle de la CONMEBOL", "fait": true}
+  ],
+  "qualifications": {
+    "format": "Les 10 sélections de la CONMEBOL sont qualifiées d'office. En cas d'édition élargie à la CONCACAF comme en 2024, six équipes invitées de la CONCACAF compléteraient le plateau ; le mode de sélection de ces invités n'a pas été officialisé.",
+    "qualifies": ["Argentine", "Bolivie", "Brésil", "Chili", "Colombie", "Équateur", "Paraguay", "Pérou", "Uruguay", "Venezuela"],
+    "groupes": [],
+    "matchs": [],
+    "prochains": []
+  },
+  "phase_finale": {
+    "format": "Non officialisé. L'édition 2024 réunissait 16 équipes en quatre groupes de quatre, les deux premiers de chaque groupe accédant aux quarts de finale ; une formule à 20 équipes a été évoquée dans la presse sans confirmation."
+  },
+  "buteurs": [],
+  "passeurs": [],
+  "stats_portee": "Aucune statistique : édition 2028 non commencée (au 18 novembre 2026)",
+  "palmares": [
+    {"annee": 2024, "vainqueur": "Argentine", "finaliste": "Colombie", "score": "1-0 a.p.", "hote": "États-Unis"},
+    {"annee": 2021, "vainqueur": "Argentine", "finaliste": "Brésil", "score": "1-0", "hote": "Brésil"},
+    {"annee": 2019, "vainqueur": "Brésil", "finaliste": "Pérou", "score": "3-1", "hote": "Brésil"},
+    {"annee": 2016, "vainqueur": "Chili", "finaliste": "Argentine", "score": "0-0 a.p. (4-2 t.a.b.)", "hote": "États-Unis"},
+    {"annee": 2015, "vainqueur": "Chili", "finaliste": "Argentine", "score": "0-0 a.p. (4-1 t.a.b.)", "hote": "Chili"},
+    {"annee": 2011, "vainqueur": "Uruguay", "finaliste": "Paraguay", "score": "3-0", "hote": "Argentine"},
+    {"annee": 2007, "vainqueur": "Brésil", "finaliste": "Argentine", "score": "3-0", "hote": "Venezuela"},
+    {"annee": 2004, "vainqueur": "Brésil", "finaliste": "Argentine", "score": "2-2 (4-2 t.a.b.)", "hote": "Pérou"}
+  ],
+  "focus": {
+    "titre": "L'Argentine, double tenante du titre",
+    "texte": "Vainqueure en 2021 au Maracanã puis en 2024 à Miami Gardens grâce à un but de Lautaro Martínez à la 112e minute, l'Argentine compte 16 titres, un record. Lautaro Martínez avait aussi terminé meilleur buteur de l'édition 2024 avec 5 buts, et le Colombien James Rodríguez avait été élu meilleur joueur."
+  },
+  "sources": [
+    {"nom": "Wikipédia (EN) – 2028 Copa América", "url": "https://en.wikipedia.org/wiki/2028_Copa_Am%C3%A9rica"},
+    {"nom": "Wikipédia (EN) – 2024 Copa América", "url": "https://en.wikipedia.org/wiki/2024_Copa_Am%C3%A9rica"},
+    {"nom": "Wikipédia (EN) – List of Copa América finals", "url": "https://en.wikipedia.org/wiki/List_of_Copa_Am%C3%A9rica_finals"},
+    {"nom": "El País (Bolivie), 8 octobre 2026", "url": "https://elpais.bo/deportes/20261008_copa-america-2028-sede-y-cantidad-de-equipos-que-proximamente-conmebol-podria-confirmar.html"},
+    {"nom": "Fox Sports México, 7 octobre 2026", "url": "https://www.foxsports.com.mx/2026/10/07/la-copa-america-volveria-a-estados-unidos-para-2028-rechazan-a-argentina-y-ecuador-como-sede/"},
+    {"nom": "Deportes RCN, 8 septembre 2026", "url": "https://www.deportesrcn.com/futbol/cuando-se-define-la-sede-de-la-copa-america-2028-156904"}
+  ]
+}
