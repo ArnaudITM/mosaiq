@@ -1,5 +1,5 @@
 {
-  "maj": "clôture du mardi 17 novembre 2026 (EUR/USD : cours de référence BCE du 17 novembre)",
+  "maj": "clôture du mercredi 18 novembre 2026 (EUR/USD : cours de référence BCE du 18 novembre)",
   "frequence": "quotidienne",
   "series": [
     {
@@ -7,10 +7,6 @@
       "nom": "CAC 40",
       "unite": "pts",
       "points": [
-        [
-          "2026-10-19",
-          7868.05
-        ],
         [
           "2026-10-20",
           7838.49
@@ -94,6 +90,10 @@
         [
           "2026-11-17",
           8216.78
+        ],
+        [
+          "2026-11-18",
+          8146.83
         ]
       ]
     },
@@ -102,10 +102,6 @@
       "nom": "S&P 500",
       "unite": "pts",
       "points": [
-        [
-          "2026-10-19",
-          7690.73
-        ],
         [
           "2026-10-20",
           7712.57
@@ -189,6 +185,10 @@
         [
           "2026-11-17",
           7340.53
+        ],
+        [
+          "2026-11-18",
+          7323.63
         ]
       ]
     },
@@ -197,10 +197,6 @@
       "nom": "Nasdaq Composite",
       "unite": "pts",
       "points": [
-        [
-          "2026-10-19",
-          26430.89
-        ],
         [
           "2026-10-20",
           26424.82
@@ -284,6 +280,10 @@
         [
           "2026-11-17",
           24328.38
+        ],
+        [
+          "2026-11-18",
+          24429.88
         ]
       ]
     },
@@ -293,10 +293,6 @@
       "unite": "USD pour 1 EUR",
       "note": "Cours de référence quotidien de la BCE (fixing vers 14h15 CET), et non cours de clôture de marché.",
       "points": [
-        [
-          "2026-10-19",
-          1.1225
-        ],
         [
           "2026-10-20",
           1.1215
@@ -380,11 +376,15 @@
         [
           "2026-11-17",
           1.0989
+        ],
+        [
+          "2026-11-18",
+          1.0969
         ]
       ]
     }
   ],
-  "absent": "Brent non fourni en série quotidienne : les sources consultées divergent après le 16 octobre (changement d'échéance du contrat). Repère ponctuel : Brent réglé à 93,14 $ le 17 novembre (+0,76 %), selon CappNotes.",
+  "absent": "Brent non fourni en série quotidienne : les sources consultées divergent après le 16 octobre (changement d'échéance du contrat). Repère ponctuel : Brent réglé à 91,95 $ le 18 novembre (−1,3 %), selon Kitco et CappNotes.",
   "sources": [
     {
       "nom": "Boursorama – historique CAC 40",
@@ -469,6 +469,26 @@
     {
       "nom": "Zonebourse – clôture CAC 40 du 17/11/2026",
       "url": "https://www.zonebourse.com/actualite-bourse/cac-40-la-bourse-de-paris-chute-l-ecosysteme-ia-inquiete-ce785edcdd88f724"
+    },
+    {
+      "nom": "CappNotes – clôtures du 18/11/2026",
+      "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-18"
+    },
+    {
+      "nom": "StockTitan (d'après CNBC) – clôtures américaines du 18/11/2026",
+      "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"
+    },
+    {
+      "nom": "Zonebourse – clôture CAC 40 du 18/11/2026",
+      "url": "https://www.zonebourse.com/actualite-bourse/cac-40-la-bourse-de-paris-prolonge-son-repli-nvidia-pese-sur-la-tendance-ce785edddd8af625"
+    },
+    {
+      "nom": "Euro-rates.info – cours de référence BCE du 18/11/2026",
+      "url": "https://euro-rates.info/en/home/USD/2026-11-18"
+    },
+    {
+      "nom": "Kitco – rapport de clôture du 18/11/2026 (Brent, or)",
+      "url": "https://www.kitco.com/news/article/2026-11-18/gold-plunges-below-3750-silver-tumbles-hawkish-fed-minutes-pressure-metals"
     }
   ]
 }

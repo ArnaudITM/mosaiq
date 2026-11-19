@@ -1,5 +1,5 @@
 {
-  "maj": "18 novembre 2026 – résultats de Turin jusqu'au mardi 17 novembre inclus ; top 20 ATP/WTA et Français du top 50 au classement du 16 novembre ; Français classés au-delà du 50e rang : classement du 9 novembre (ATP) et du 5 novembre (WTA), non revérifiés.",
+  "maj": "19 novembre 2026 – résultats de Turin jusqu'au mercredi 18 novembre inclus ; top 20 ATP/WTA et Français du top 50 au classement du 16 novembre (pas de nouveau classement publié depuis) ; Français classés au-delà du 50e rang : classement du 9 novembre (ATP) et du 5 novembre (WTA), non revérifiés.",
   "atp": {
     "date": "16 novembre 2026",
     "top": [
@@ -350,7 +350,7 @@
         ]
       }
     ],
-    "groupes_note": "Tirage au sort effectué le jeudi 12 novembre à Turin ; les deux premiers de chaque groupe accèdent aux demi-finales. Groupe John McEnroe, 1re journée (15 nov.) : Shelton bat Fils 6-2, 3-6, 6-3 ; Zverev bat Jódar 6-4, 6-4. Groupe Ivan Lendl, 1re journée (16 nov.) : Alcaraz bat Tiafoe 6-2, 6-2 ; Medvedev bat Cobolli 7-6 (4), 6-3. Alcaraz-Medvedev et Cobolli-Tiafoe sont au programme du mercredi 18 novembre (2e journée du groupe Ivan Lendl), selon Univers Tennis. Groupe John McEnroe, 2e journée (17 nov.) : Zverev bat Shelton 6-2, 7-6 (4) et se qualifie pour les demi-finales ; Fils bat Jódar 4-6, 6-2, 6-2, Jódar est éliminé. Dernière journée du groupe jeudi 19 novembre : Zverev-Fils et Shelton-Jódar, selon Sky Sports et Tennis Majors.",
+    "groupes_note": "Tirage au sort effectué le jeudi 12 novembre à Turin ; les deux premiers de chaque groupe accèdent aux demi-finales. Groupe John McEnroe : Shelton bat Fils 6-2, 3-6, 6-3 et Zverev bat Jódar 6-4, 6-4 (15 nov.) ; Zverev bat Shelton 6-2, 7-6 (4) et Fils bat Jódar 4-6, 6-2, 6-2 (17 nov.). Zverev (2-0) est qualifié, Jódar éliminé ; dernière journée jeudi 19 novembre : Shelton-Jódar (pas avant 14h) et Zverev-Fils (pas avant 20h30), selon l'ATP. Groupe Ivan Lendl : Alcaraz bat Tiafoe 6-2, 6-2 et Medvedev bat Cobolli 7-6 (4), 6-3 (16 nov.) ; Alcaraz bat Medvedev 6-2, 6-4 et Tiafoe bat Cobolli 7-6 (6), 6-0 (18 nov.). Alcaraz (2-0) est qualifié et assuré de la 1re place, Cobolli éliminé ; vendredi 20 novembre, Medvedev-Tiafoe désignera le second qualifié, Alcaraz affrontant Cobolli, selon Tennis Majors.",
     "qualifies": [
       "Alexander Zverev",
       "Carlos Alcaraz",
@@ -367,9 +367,16 @@
     ],
     "programme": [
       {
-        "date": "15-20 novembre",
+        "date": "19 novembre",
         "matchs": [
-          "Phase de groupes (simples à 14h et pas avant 20h30)"
+          "Shelton-Jódar (groupe John McEnroe, pas avant 14h)",
+          "Zverev-Fils (groupe John McEnroe, pas avant 20h30)"
+        ]
+      },
+      {
+        "date": "20 novembre",
+        "matchs": [
+          "Medvedev-Tiafoe et Alcaraz-Cobolli (groupe Ivan Lendl ; horaires à confirmer)"
         ]
       },
       {
@@ -427,9 +434,23 @@
         "vainqueur": "Arthur Fils",
         "perdant": "Rafael Jódar",
         "score": "4-6, 6-2, 6-2"
+      },
+      {
+        "date": "18 novembre 2026",
+        "groupe": "Ivan Lendl",
+        "vainqueur": "Carlos Alcaraz",
+        "perdant": "Daniil Medvedev",
+        "score": "6-2, 6-4"
+      },
+      {
+        "date": "18 novembre 2026",
+        "groupe": "Ivan Lendl",
+        "vainqueur": "Frances Tiafoe",
+        "perdant": "Flavio Cobolli",
+        "score": "7-6 (6), 6-0"
       }
     ],
-    "texte": "Alexander Zverev est le premier qualifié pour les demi-finales des ATP Finals : le n°1 mondial a battu Ben Shelton 6-2, 7-6 (4) mardi à Turin, sans perdre un set depuis le début du tournoi, selon Sky Sports. Arthur Fils, battu d'entrée par Shelton, a signé sa première victoire dans l'épreuve face à Rafael Jódar (4-6, 6-2, 6-2), selon l'ATP ; le Français (1-1) affrontera Zverev jeudi pour la dernière journée du groupe John McEnroe, Shelton (1-1) jouant Jódar, éliminé. Dans le groupe Ivan Lendl, Carlos Alcaraz et Daniil Medvedev, vainqueurs lundi, s'affrontent mercredi, comme Flavio Cobolli et Frances Tiafoe. Demi-finales le samedi 21, finale le dimanche 22 novembre à 18h, selon l'ATP. Le tournoi se joue sans le double tenant du titre Jannik Sinner, blessé au genou."
+    "texte": "Carlos Alcaraz a rejoint Alexander Zverev en demi-finales des ATP Finals : l'Espagnol a battu Daniil Medvedev 6-2, 6-4 en 72 minutes mercredi à Turin, sans concéder de balle de break, selon l'ATP, qui signale des soins à la cuisse gauche au deuxième set. En soirée, Frances Tiafoe a éliminé Flavio Cobolli (7-6 (6), 6-0), ce qui assure à Alcaraz la 1re place du groupe Ivan Lendl, selon Tennis Majors ; Medvedev et Tiafoe se disputent la deuxième place vendredi. Jeudi, Arthur Fils (1-1) joue sa qualification face à Zverev (pas avant 20h30), après Shelton-Jódar (pas avant 14h), selon le programme de l'ATP. Demi-finales samedi 21, finale dimanche 22 novembre à 18h. Le tournoi se joue sans le double tenant du titre Jannik Sinner, blessé au genou."
   },
   "calendrier": [
     {
@@ -437,6 +458,12 @@
       "nom": "Nitto ATP Finals",
       "lieu": "Turin (Italie)",
       "type": "ATP Finals"
+    },
+    {
+      "dates": "21-22 novembre 2026",
+      "nom": "Billie Jean King Cup – barrage France-Australie",
+      "lieu": "Le Portel (France)",
+      "type": "Billie Jean King Cup"
     },
     {
       "dates": "24-29 novembre 2026",
@@ -459,19 +486,35 @@
   ],
   "infos": [
     {
+      "titre": "Alcaraz qualifié, Tiafoe élimine Cobolli",
+      "texte": "Carlos Alcaraz a battu Daniil Medvedev 6-2, 6-4 mercredi et reste invaincu à Turin, selon l'ATP. Frances Tiafoe a ensuite battu Flavio Cobolli 7-6 (6), 6-0, sa première victoire dans l'épreuve, éliminant l'Italien devant son public ; selon Tennis Majors, Alcaraz termine 1er du groupe Ivan Lendl et le vainqueur de Medvedev-Tiafoe, vendredi, prendra la 2e place.",
+      "source": {
+        "nom": "Tennis Majors",
+        "url": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/tiafoe-crushes-cobolli-in-front-on-italian-crowd-alcaraz-qualified-as-group-winner-at-the-atp-finals-867257.html"
+      }
+    },
+    {
+      "titre": "Fils-Zverev en clôture du groupe McEnroe",
+      "texte": "Selon le programme de l'ATP, Arthur Fils affronte Alexander Zverev jeudi soir (pas avant 20h30) pour une place en demi-finale, après Ben Shelton-Rafael Jódar (pas avant 14h). Le double français Théo Arribagé-Albano Olivetti joue Heliövaara-Patten (pas avant 18h).",
+      "source": {
+        "nom": "ATP Tour – programme des Nitto ATP Finals",
+        "url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-schedule"
+      }
+    },
+    {
+      "titre": "BJK Cup : les Bleues reçoivent l'Australie au Portel",
+      "texte": "L'équipe de France de Billie Jean King Cup, menée par la capitaine Alizé Cornet, dispute les 21 et 22 novembre un barrage face à l'Australie sur terre battue en salle au Chaudron du Portel, selon la FFT. Diane Parry, Léolia Jeanjean, Fiona Ferro et Kristina Mladenovic figuraient dans la sélection annoncée en octobre, selon Tennis Actu ; Loïs Boisson, blessée, est absente.",
+      "source": {
+        "nom": "FFT",
+        "url": "https://www.fft.fr/actualites/billie-jean-king-cup-barrage-equipe-de-france-ville-hote-novembre-australie-le-portel"
+      }
+    },
+    {
       "titre": "Zverev en demi-finale, Fils relancé",
       "texte": "Alexander Zverev a battu Ben Shelton 6-2, 7-6 (4) mardi à Turin pour se qualifier pour le dernier carré, en remportant 88 % des points derrière sa première balle, selon Sky Sports ; l'Allemand mène 7-0 dans ses confrontations avec l'Américain. Arthur Fils a battu Rafael Jódar 4-6, 6-2, 6-2 et jouera sa qualification face à Zverev jeudi.",
       "source": {
         "nom": "Sky Sports",
         "url": "https://www.skysports.com/tennis/news/13613313/atp-finals-alexander-zverev-books-place-in-semi-finals-after-brushing-aside-ben-shelton-arthur-fils-beats-rafael-jodar"
-      }
-    },
-    {
-      "titre": "Alcaraz et Medvedev gagnent d'entrée",
-      "texte": "Carlos Alcaraz a battu Frances Tiafoe 6-2, 6-2 en 69 minutes lundi à Turin, en sauvant les trois balles de break concédées, selon Field Level Media ; Daniil Medvedev s'est imposé 7-6 (4), 6-3 face à Flavio Cobolli. Les deux vainqueurs se retrouvent mercredi.",
-      "source": {
-        "nom": "Field Level Media",
-        "url": "https://fieldlevelmedia.com/atp-tour/carlos-alcaraz-daniil-medvedev-sweep-openers-at-nitto-atp-finals/"
       }
     },
     {
@@ -488,22 +531,6 @@
       "source": {
         "nom": "Critical Report",
         "url": "https://criticalreport.substack.com/p/mirra-andreeva-2026-wta-finals"
-      }
-    },
-    {
-      "titre": "ATP Finals : Fils battu par Shelton d'entrée",
-      "texte": "Arthur Fils s'est incliné 6-2, 3-6, 6-3 face à Ben Shelton en ouverture du tournoi de Turin dimanche, selon l'ATP. Le Français a recollé à un set partout avant de céder son service au début du troisième set. Shelton affrontera mardi Zverev ou Jódar.",
-      "source": {
-        "nom": "ATP Tour",
-        "url": "https://www.atptour.com/en/news/shelton-fils-nitto-atp-finals-2026-sunday"
-      }
-    },
-    {
-      "titre": "Zverev lance sa campagne",
-      "texte": "Le n°1 mondial Alexander Zverev a battu Rafael Jódar 6-4, 6-4 avec 10 aces et sans double faute, selon ANI repris par The Tribune ; c'est sa deuxième victoire sur l'Espagnol cette saison.",
-      "source": {
-        "nom": "The Tribune (ANI)",
-        "url": "https://www.tribuneindia.com/news/alexander-zverev/atp-finals-2026-zverev-opens-campaign-with-straight-sets-win-over-jodar-in-turin"
       }
     },
     {
@@ -631,6 +658,26 @@
     {
       "nom": "Tennis Majors – Shelton bat Fils (15 nov. 2026)",
       "url": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/shelton-holds-off-fils-fightback-to-join-zverev-on-top-of-the-john-mcenroe-group-867094.html"
+    },
+    {
+      "nom": "ATP Tour – Alcaraz bat Medvedev (18 nov. 2026)",
+      "url": "https://www.atptour.com/en/news/alcaraz-medvedev-nitto-atp-finals-2026-wednesday"
+    },
+    {
+      "nom": "Tennis Majors – Tiafoe bat Cobolli (18 nov. 2026)",
+      "url": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/tiafoe-crushes-cobolli-in-front-on-italian-crowd-alcaraz-qualified-as-group-winner-at-the-atp-finals-867257.html"
+    },
+    {
+      "nom": "ATP Tour – programme des Nitto ATP Finals (19 nov.)",
+      "url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-schedule"
+    },
+    {
+      "nom": "FFT – barrage de BJK Cup au Portel",
+      "url": "https://www.fft.fr/actualites/billie-jean-king-cup-barrage-equipe-de-france-ville-hote-novembre-australie-le-portel"
+    },
+    {
+      "nom": "Tennis Actu – sélection d'Alizé Cornet",
+      "url": "https://www.tennisactu.net/news-bjk-cup-alize-cornet-a-annonce-ses-bleues-pour-defier-l-australie-en-novembre-127742.html"
     }
   ]
 }

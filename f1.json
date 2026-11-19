@@ -1,5 +1,5 @@
 {
-  "maj": "14 novembre 2026 – après le Grand Prix de São Paulo (manche 20/23, 8 novembre 2026) ; prochain rendez-vous : Las Vegas, 21 novembre",
+  "maj": "19 novembre 2026 – classements après le Grand Prix de São Paulo (manche 20/23, 8 novembre 2026), inchangés ; Grand Prix de Las Vegas (manche 21) ce week-end : essais libres 1 et 2 vendredi 20 novembre à 1h30 et 5h, essais libres 3 samedi 21 à 1h30, qualifications samedi 21 à 5h, course dimanche 22 novembre à 5h (heure de Paris ; samedi 21 à 20h, heure locale), selon ESPN.",
   "pilotes": [
     {
       "pos": 1,
@@ -239,7 +239,7 @@
       "fait": true
     },
     {
-      "date": "21 novembre 2026",
+      "date": "21 novembre 2026 (22 novembre, 5h, heure de Paris)",
       "gp": "Grand Prix de Las Vegas",
       "circuit": "Las Vegas Strip Circuit",
       "fait": false
@@ -257,8 +257,8 @@
       "fait": false
     }
   ],
-  "titre": "Kimi Antonelli (Mercedes) a été sacré champion du monde dès le Grand Prix de Mexico, devenant à 20 ans le plus jeune champion de l'histoire, et Mercedes a bouclé le titre constructeurs à São Paulo. Reste la lutte pour la place de vice-champion : Verstappen (279 pts) devance Russell (262) et Hamilton (261) de 17 et 18 points, avec trois Grands Prix (75 points maximum) à disputer.",
-  "francais": "Isack Hadjar (Red Bull) a signé un podium à São Paulo et pointe au 8e rang avec 122 points, devant Pierre Gasly (Alpine, 10e, 42 pts) et Esteban Ocon (Haas, 16e, 7 pts).",
+  "titre": "Kimi Antonelli (Mercedes) a été sacré champion du monde dès le Grand Prix de Mexico, devenant à 20 ans le plus jeune champion de l'histoire, et Mercedes a bouclé le titre constructeurs à São Paulo. Reste la lutte pour la place de vice-champion : Verstappen (279 pts), vainqueur à Las Vegas en 2023 et 2025 selon ESPN, devance Russell (262) et Hamilton (261), avec trois Grands Prix à disputer. À Las Vegas, Oscar Piastri (McLaren) recule de 10 places sur la grille après l'installation d'un cinquième moteur thermique, au-delà de son quota de quatre, selon GrandPrix.com ; Norris et lui reçoivent un nouveau turbo Mercedes.",
+  "francais": "Isack Hadjar (Red Bull), 3e à São Paulo, pointe au 8e rang avec 122 points, devant Pierre Gasly (Alpine, 10e, 42 pts). Esteban Ocon (Haas, 16e, 7 pts) ne courra plus cette saison, Haas l'ayant confirmé, selon ESPN.",
   "evolution": {
     "gps": [
       "AUS",
@@ -390,6 +390,18 @@
     {
       "nom": "Wikipedia – 2026 Formula One World Championship",
       "url": "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship"
+    },
+    {
+      "nom": "ESPN – programme du GP de Las Vegas 2026",
+      "url": "https://www.espn.com/f1/story/_/id/50389130/las-vegas-grand-prix-2026-race-f1-start-s-how-watch-schedule-tv-channel-live-stream-predictions"
+    },
+    {
+      "nom": "GrandPrix.com – pénalité de Piastri à Las Vegas (18 nov. 2026)",
+      "url": "https://www.grandprix.com/news/piastri-faces-10-place-las-vegas-penalty-as-mclaren-gets-new-mercedes-turbo.html"
+    },
+    {
+      "nom": "Motorsport Week – présentation du GP de Las Vegas",
+      "url": "https://www.motorsportweek.com/2026/11/16/f1-las-vegas-gp-preview/"
     }
   ]
 }

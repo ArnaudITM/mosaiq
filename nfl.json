@@ -1,5 +1,5 @@
 {
-  "maj": "18 novembre 2026, 6h – semaine 10 complète (du jeudi 12 au lundi 16 novembre), dont Ravens-Chargers (23-20) lundi soir ; programme de la semaine 11 (19-23 novembre) selon CBS Sports. Leaders statistiques arrêtés avant la semaine 10.",
+  "maj": "19 novembre 2026, 6h – aucun match depuis la semaine 10 (complète, du jeudi 12 au lundi 16 novembre, dont Chargers-Ravens 23-20 lundi soir) : classements inchangés. La semaine 11 s'ouvre avec Colts-Texans jeudi 19 novembre au soir (heure US, 2h15 à Paris dans la nuit de jeudi à vendredi), non encore joué ; programme confirmé par CBS Sports. Leaders statistiques après la semaine 10 selon ESPN.",
   "divisions": [
     {
       "nom": "AFC Est",
@@ -239,34 +239,44 @@
       {
         "joueur": "Jordan Love",
         "equipe": "Packers",
-        "valeur": 2618
+        "valeur": 2838
       },
       {
         "joueur": "Joe Burrow",
         "equipe": "Bengals",
-        "valeur": 2386
+        "valeur": 2795
       },
       {
         "joueur": "Dak Prescott",
         "equipe": "Cowboys",
-        "valeur": 2381
+        "valeur": 2724
       },
       {
         "joueur": "Matthew Stafford",
         "equipe": "Rams",
-        "valeur": 2374
+        "valeur": 2623
       },
       {
         "joueur": "Kirk Cousins",
-        "equipe": "Vikings",
-        "valeur": 2340
+        "equipe": "Raiders / Vikings",
+        "valeur": 2547
       }
     ],
     "course_yards": [
       {
+        "joueur": "Jahmyr Gibbs",
+        "equipe": "Lions",
+        "valeur": 1000
+      },
+      {
+        "joueur": "James Cook III",
+        "equipe": "Bills",
+        "valeur": 971
+      },
+      {
         "joueur": "Bijan Robinson",
         "equipe": "Falcons",
-        "valeur": 880
+        "valeur": 951
       },
       {
         "joueur": "Kenneth Walker III",
@@ -274,53 +284,53 @@
         "valeur": 872
       },
       {
-        "joueur": "Jahmyr Gibbs",
-        "equipe": "Lions",
-        "valeur": 847
-      },
-      {
         "joueur": "Bucky Irving",
         "equipe": "Buccaneers",
         "valeur": 825
-      },
-      {
-        "joueur": "James Cook III",
-        "equipe": "Bills",
-        "valeur": 814
       }
     ],
     "reception_yards": [
       {
         "joueur": "Jaxon Smith-Njigba",
         "equipe": "Seahawks",
-        "valeur": 1036
+        "valeur": 1207
       },
       {
         "joueur": "CeeDee Lamb",
         "equipe": "Cowboys",
-        "valeur": 904
+        "valeur": 976
       },
       {
         "joueur": "Christian Watson",
         "equipe": "Packers",
-        "valeur": 879
+        "valeur": 916
+      },
+      {
+        "joueur": "Ja'Marr Chase",
+        "equipe": "Bengals",
+        "valeur": 878
       },
       {
         "joueur": "Matthew Golden",
         "equipe": "Packers",
-        "valeur": 783
-      },
-      {
-        "joueur": "Tee Higgins",
-        "equipe": "Bengals",
-        "valeur": 758
+        "valeur": 853
       }
     ],
     "sacks": [
       {
         "joueur": "Will Anderson Jr.",
         "equipe": "Texans",
-        "valeur": 9.5
+        "valeur": 10.5
+      },
+      {
+        "joueur": "Andrew Van Ginkel",
+        "equipe": "Vikings",
+        "valeur": 8.5
+      },
+      {
+        "joueur": "Carl Granderson",
+        "equipe": "Saints",
+        "valeur": 8.5
       },
       {
         "joueur": "Chase Young",
@@ -331,21 +341,6 @@
         "joueur": "Greg Rousseau",
         "equipe": "Bills",
         "valeur": 8.0
-      },
-      {
-        "joueur": "T.J. Watt",
-        "equipe": "Steelers",
-        "valeur": 7.5
-      },
-      {
-        "joueur": "Andrew Van Ginkel",
-        "equipe": "Vikings",
-        "valeur": 7.5
-      },
-      {
-        "joueur": "Carl Granderson",
-        "equipe": "Saints",
-        "valeur": 7.5
       }
     ]
   },
@@ -557,6 +552,22 @@
   },
   "infos": [
     {
+      "titre": "Colts-Texans ouvre la semaine 11",
+      "texte": "La semaine 11 débute jeudi soir à Houston (20h15 heure de l'Est, 2h15 à Paris) avec Indianapolis-Houston, diffusé par Amazon Prime Video, selon CBS Sports. Les deux équipes sont à la lutte pour la deuxième place de l'AFC Sud derrière Jacksonville (7-2) : Houston est à 3-6, Indianapolis à 3-7. Atlanta, Cleveland, Green Bay, les Rams, New England et Seattle sont exemptés.",
+      "source": {
+        "nom": "CBS Sports – Programme semaine 11 2026",
+        "url": "https://www.cbssports.com/nfl/schedule/2026/regular/11/"
+      }
+    },
+    {
+      "titre": "Gibbs franchit les 1 000 yards",
+      "texte": "Après ses 252 yards cumulés à Munich face aux Patriots, Jahmyr Gibbs (Detroit) mène la NFL à la course avec 1 000 yards, devant James Cook III (971), selon les statistiques d'ESPN. Will Anderson Jr. (Houston) reste en tête aux sacks (10,5) avant de recevoir les Colts.",
+      "source": {
+        "nom": "ESPN – Leaders statistiques 2026",
+        "url": "https://www.espn.com/nfl/stats"
+      }
+    },
+    {
       "titre": "Burrow et Chase écrasent Pittsburgh",
       "texte": "Les Bengals ont battu les Steelers 38-18 dimanche soir, selon Local 12 (WKRC) : Joe Burrow a lancé pour 406 yards et 4 touchdowns, Ja'Marr Chase a capté 11 ballons pour 231 yards. Cincinnati (7-2) prend seul la tête de l'AFC Nord devant Pittsburgh (6-3).",
       "source": {
@@ -595,14 +606,6 @@
         "nom": "Yahoo Sports",
         "url": "https://sports.yahoo.com/articles/seahawks-raiders-score-6-4-000413563.html"
       }
-    },
-    {
-      "titre": "Les Chargers décrochent leur première victoire",
-      "texte": "Les Chargers ont battu les Ravens 23-20 lundi soir à Baltimore et signent leur premier succès de la saison (1-8), selon l'AP reprise par ABC News. Justin Herbert a inscrit un touchdown à la course de 22 yards ; Los Angeles a dominé au sol (160 yards contre 16). Jacoby Brissett a lancé pour 340 yards pour ses débuts avec Baltimore, qui concède une cinquième défaite de suite (4-6).",
-      "source": {
-        "nom": "ABC News (AP)",
-        "url": "https://abcnews.com/Sports/wireStory/chargers-bully-ravens-line-scrimmage-earn-win-season-138199610"
-      }
     }
   ],
   "sources": [
@@ -623,7 +626,7 @@
       "url": "https://nflplayoffpass.com/nfl-week-10-schedule/"
     },
     {
-      "nom": "ESPN – Leaders statistiques 2026",
+      "nom": "ESPN – Leaders statistiques 2026 (après la semaine 10)",
       "url": "https://www.espn.com/nfl/stats"
     },
     {

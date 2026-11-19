@@ -1,56 +1,18 @@
 {
-  "semaine": "18 novembre – 1er décembre 2026",
+  "semaine": "19 novembre – 2 décembre 2026",
   "fuseau": "Heures de Paris (UTC+1). null = heure non confirmée par les sources consultées.",
   "evenements": [
-    {
-      "date": "2026-11-18",
-      "heure": "16:30",
-      "pays": "France",
-      "type": "politique",
-      "titre": "Vote du Sénat sur le budget de la Sécurité sociale (PLFSS 2027)",
-      "enjeu": "Le texte a été modifié par les sénateurs (suppression du gel des pensions, retour au calendrier de la réforme de 2023) ; une commission mixte paritaire doit suivre.",
-      "source": {
-        "nom": "NosParlementaires",
-        "url": "https://nosparlementaires.fr/actualites/gel-pensions-senat-1500-euros-reforme-retraites-plfss-2027"
-      }
-    },
-    {
-      "date": "2026-11-18",
-      "heure": "11:00",
-      "pays": "Zone euro",
-      "type": "indicateur",
-      "titre": "Inflation (IPCH) d'octobre, chiffre définitif",
-      "attendu": "Estimation flash : 4,0 % sur un an",
-      "enjeu": "À 4 %, l'inflation est le double de la cible de la BCE, ce qui ravive le débat sur une hausse des taux avant la réunion des 16-17 décembre.",
-      "source": {
-        "nom": "Delta Exchange (date) ; Eurostat, « Euro area annual inflation up to 4.0% »",
-        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-04112026-ap"
-      }
-    },
-    {
-      "date": "2026-11-18",
-      "heure": "20:00",
-      "pays": "États-Unis",
-      "type": "banque centrale",
-      "titre": "Compte rendu (minutes) de la réunion des 27-28 octobre de la Fed",
-      "attendu": "Taux des fonds fédéraux maintenu entre 3,75 % et 4 % en octobre",
-      "enjeu": "Les marchés y chercheront des signes d'une hausse des taux en décembre, jugée très probable après l'inflation d'octobre.",
-      "source": {
-        "nom": "LiteFinance – calendrier du 16 au 22 nov. 2026",
-        "url": "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-16112026-22112026/"
-      }
-    },
     {
       "date": "2026-11-19",
       "heure": "14:00",
       "pays": "Afrique du Sud",
       "type": "banque centrale",
       "titre": "Décision de taux de la Banque de réserve sud-africaine (SARB)",
-      "attendu": "Taux repo actuel : 7,25 % ; Nedbank prévoit une hausse de 25 points de base, Investec et Old Mutual un statu quo",
-      "enjeu": "Une deuxième hausse consécutive pèserait sur le crédit, mais soutiendrait le rand.",
+      "attendu": "Taux repo actuel : 7,25 % ; 24 économistes sur 27 interrogés par Reuters prévoient un statu quo, 3 une hausse de 25 points de base",
+      "enjeu": "L'inflation d'octobre est remontée à 5,2 % (4,5 % en septembre) et le rand a franchi 17,2 par dollar ; une hausse pèserait sur le crédit mais soutiendrait la monnaie.",
       "source": {
-        "nom": "BusinessTech (27/10/2026) ; bond.co.za",
-        "url": "https://businesstech.co.za/news/?p=881553"
+        "nom": "CNBC Africa (18/11/2026), d'après un sondage Reuters",
+        "url": "https://www.cnbcafrica.com/2026/south-africa-inflation-accelerates-to-5-2-y-y-in-october-as-expected"
       }
     },
     {
@@ -59,11 +21,11 @@
       "pays": "États-Unis",
       "type": "marchés",
       "titre": "Première cotation d'Anthropic au Nasdaq",
-      "attendu": "Fourchette de 70 à 78 dollars par action ; prix fixé la veille au soir",
-      "enjeu": "Plus grosse introduction en Bourse de l'année après SpaceX ; l'offre serait six à sept fois sursouscrite, selon CappNotes.",
+      "attendu": "Prix d'introduction fixé à 83 dollars par action, au-dessus de la fourchette de 70 à 78 dollars",
+      "enjeu": "Plus grosse introduction en Bourse de l'année après SpaceX ; un test pour l'appétit des investisseurs envers l'IA après le repli des valeurs technologiques.",
       "source": {
-        "nom": "CappNotes – clôture du 17 nov. 2026",
-        "url": "https://cappnotes.substack.com/p/closing-look-tuesday-november-17"
+        "nom": "CappNotes – clôture du 18 nov. 2026",
+        "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-18"
       }
     },
     {
@@ -155,19 +117,6 @@
     },
     {
       "date": "2026-11-24",
-      "heure": null,
-      "pays": "Allemagne",
-      "type": "indicateur",
-      "titre": "Climat des affaires Ifo de novembre",
-      "attendu": "Octobre : 90,2",
-      "enjeu": "Baromètre du moral des entreprises allemandes face à la remontée des taux.",
-      "source": {
-        "nom": "Lamera Capital – calendrier économique de novembre 2026",
-        "url": "https://lameracapital.com/market-insights/november-2026-economic-calendar-pound-euro-dollar"
-      }
-    },
-    {
-      "date": "2026-11-24",
       "heure": "16:00",
       "pays": "États-Unis",
       "type": "indicateur",
@@ -177,6 +126,19 @@
       "source": {
         "nom": "LiteFinance – calendrier du 23 au 29 nov. 2026",
         "url": "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-23112026-29112026/"
+      }
+    },
+    {
+      "date": "2026-11-24",
+      "heure": null,
+      "pays": "Allemagne",
+      "type": "indicateur",
+      "titre": "Climat des affaires Ifo de novembre",
+      "attendu": "Octobre : 90,2",
+      "enjeu": "Baromètre du moral des entreprises allemandes face à la remontée des taux.",
+      "source": {
+        "nom": "Lamera Capital – calendrier économique de novembre 2026",
+        "url": "https://lameracapital.com/market-insights/november-2026-economic-calendar-pound-euro-dollar"
       }
     },
     {
@@ -231,18 +193,6 @@
     },
     {
       "date": "2026-11-26",
-      "heure": null,
-      "pays": "États-Unis",
-      "type": "marchés",
-      "titre": "Thanksgiving : Bourses américaines fermées",
-      "enjeu": "Faibles volumes attendus sur les marchés mondiaux ; séance écourtée vendredi.",
-      "source": {
-        "nom": "LiteFinance – calendrier du 23 au 29 nov. 2026",
-        "url": "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-23112026-29112026/"
-      }
-    },
-    {
-      "date": "2026-11-26",
       "heure": "11:30",
       "pays": "Royaume-Uni",
       "type": "banque centrale",
@@ -263,6 +213,18 @@
       "source": {
         "nom": "NosParlementaires ; UNCCAS",
         "url": "https://nosparlementaires.fr/actualites/gel-pensions-senat-1500-euros-reforme-retraites-plfss-2027"
+      }
+    },
+    {
+      "date": "2026-11-26",
+      "heure": null,
+      "pays": "États-Unis",
+      "type": "marchés",
+      "titre": "Thanksgiving : Bourses américaines fermées",
+      "enjeu": "Faibles volumes attendus sur les marchés mondiaux ; séance écourtée vendredi.",
+      "source": {
+        "nom": "LiteFinance – calendrier du 23 au 29 nov. 2026",
+        "url": "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-23112026-29112026/"
       }
     },
     {
@@ -327,6 +289,18 @@
         "nom": "UNCCAS",
         "url": "https://www.unccas.org/plf-et-plfss-2027-le-senat-la-manoeuvre-les-ordonnances-se-profilent"
       }
+    },
+    {
+      "date": "2026-12-01",
+      "heure": null,
+      "pays": "Monde",
+      "type": "indicateur",
+      "titre": "PMI manufacturiers définitifs de novembre (zone euro, Royaume-Uni, États-Unis, Asie)",
+      "enjeu": "Confirmation des estimations flash du 23 novembre sur l'industrie mondiale ; date déduite du calendrier habituel (premier jour ouvré du mois).",
+      "source": {
+        "nom": "S&P Global – calendrier des publications PMI",
+        "url": "https://www.pmi.spglobal.com/Public/Release/ReleaseDates"
+      }
     }
   ],
   "hors_fenetre": [
@@ -347,5 +321,5 @@
       }
     }
   ],
-  "non_trouve": "Aucun événement majeur relevé pour les samedis et dimanches 21, 28 et 29 novembre (hors Nouvelle-Zélande le 22). Pour respecter la limite de trois rendez-vous par jour, plusieurs publications du 18 novembre (inflation britannique et sud-africaine, mises en chantier américaines, Revue de stabilité financière de la BCE, décision de la Banque du Ghana, résultats de Target/Lowe's/TJX, sommet de l'APEC) et du 19-20 novembre (emploi australien, inscriptions au chômage américaines, inflation japonaise, ventes au détail britanniques, taux LPR chinois) ont été retirées de la frise. Les heures des événements des 30 novembre et 1er décembre ne sont pas confirmées ; ISM, OPEP+ et publications de l'Insee n'ont pas pu être vérifiés."
+  "non_trouve": "Aucun événement majeur relevé pour les samedis et dimanches 21, 28 et 29 novembre (hors Nouvelle-Zélande le 22), ni pour le mercredi 2 décembre (aucune source consultée ne liste de publication ce jour-là). Pour respecter la limite de trois rendez-vous par jour, plusieurs publications du 19-20 novembre ont été retirées de la frise : emploi australien (19/11, 01:30), conférence de presse de la supervision bancaire de la BCE sur les résultats SREP 2026 et intervention de Christine Lagarde (19/11), salaires négociés de la zone euro et ventes au détail britanniques (20/11), ainsi que le discours du gouverneur de la Banque du Canada Tiff Macklem (24/11). La date des PMI manufacturiers du 1er décembre est déduite du calendrier habituel de S&P Global. Les heures des événements des 30 novembre et 1er décembre ne sont pas confirmées ; ISM, OPEP+ et publications de l'Insee n'ont pas pu être vérifiés."
 }
