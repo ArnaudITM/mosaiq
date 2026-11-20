@@ -1,5 +1,5 @@
 {
- "maj": "19 novembre 2026",
+ "maj": "20 novembre 2026",
  "competitions": [
   {
    "id": "ligue-1",
@@ -462,6 +462,13 @@
      "ext": "Man United"
     }
    ]
+  },
+  {
+   "id": "selections",
+   "nom": "Sélections nationales",
+   "journee": "Aucun match des Bleus avant mars 2027",
+   "matchs": [],
+   "note": "Prochain rendez-vous selon la FFF : tirage au sort des qualifications de l'Euro 2028 le dimanche 6 décembre 2026 à Belfast ; matchs entre mars et novembre 2027. Rassemblements des Bleus prévus en mars et juin 2027 (dates non fixées), selon 90min."
   }
  ],
  "sources": [
@@ -500,6 +507,18 @@
   {
    "nom": "Inter – Atalanta-Inter : horaire et diffusion",
    "url": "https://www.inter.it/it/notizie/atalanta-inter-dove-vederla-in-tv-seriea-2026-27"
+  },
+  {
+   "nom": "FFF – Les grandes dates de l'année 2026 (18 janv. 2026)",
+   "url": "https://www.fff.fr/article/16016-les-grandes-dates-de-l-annee-2026.html"
+  },
+  {
+   "nom": "90min – Calendrier des Bleus 2026-2027 (13 mai 2026)",
+   "url": "https://www.90min.com/fr/france-le-calendrier-et-le-choix-des-stades-ou-joueront-les-bleus-pour-la-saison-2026-2027-devoiles"
+  },
+  {
+   "nom": "Foresportia – Troyes-Le Havre, Ligue 1 2026/27, 11e journée (20 nov.)",
+   "url": "https://www.foresportia.com/pronostic/ligue-1/estac-troyes-le-havre-ac-2026-11-20/"
   }
  ]
 }

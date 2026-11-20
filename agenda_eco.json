@@ -1,45 +1,7 @@
 {
-  "semaine": "19 novembre – 2 décembre 2026",
+  "semaine": "20 novembre – 3 décembre 2026",
   "fuseau": "Heures de Paris (UTC+1). null = heure non confirmée par les sources consultées.",
   "evenements": [
-    {
-      "date": "2026-11-19",
-      "heure": "14:00",
-      "pays": "Afrique du Sud",
-      "type": "banque centrale",
-      "titre": "Décision de taux de la Banque de réserve sud-africaine (SARB)",
-      "attendu": "Taux repo actuel : 7,25 % ; 24 économistes sur 27 interrogés par Reuters prévoient un statu quo, 3 une hausse de 25 points de base",
-      "enjeu": "L'inflation d'octobre est remontée à 5,2 % (4,5 % en septembre) et le rand a franchi 17,2 par dollar ; une hausse pèserait sur le crédit mais soutiendrait la monnaie.",
-      "source": {
-        "nom": "CNBC Africa (18/11/2026), d'après un sondage Reuters",
-        "url": "https://www.cnbcafrica.com/2026/south-africa-inflation-accelerates-to-5-2-y-y-in-october-as-expected"
-      }
-    },
-    {
-      "date": "2026-11-19",
-      "heure": null,
-      "pays": "États-Unis",
-      "type": "marchés",
-      "titre": "Première cotation d'Anthropic au Nasdaq",
-      "attendu": "Prix d'introduction fixé à 83 dollars par action, au-dessus de la fourchette de 70 à 78 dollars",
-      "enjeu": "Plus grosse introduction en Bourse de l'année après SpaceX ; un test pour l'appétit des investisseurs envers l'IA après le repli des valeurs technologiques.",
-      "source": {
-        "nom": "CappNotes – clôture du 18 nov. 2026",
-        "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-18"
-      }
-    },
-    {
-      "date": "2026-11-19",
-      "heure": null,
-      "pays": "États-Unis",
-      "type": "résultats",
-      "titre": "Résultats de Walmart (date à confirmer)",
-      "enjeu": "Le premier distributeur mondial est un baromètre de la consommation des ménages modestes.",
-      "source": {
-        "nom": "Delta Exchange – calendrier de novembre 2026",
-        "url": "https://www.delta.exchange/blog/november-2026-global-market-calendar-key-economic-events-earnings-and-release-times"
-      }
-    },
     {
       "date": "2026-11-20",
       "heure": "09:30",
@@ -121,7 +83,6 @@
       "pays": "États-Unis",
       "type": "indicateur",
       "titre": "Confiance des consommateurs du Conference Board (novembre)",
-      "attendu": "Précédent : 91,7",
       "enjeu": "Indique l'état d'esprit des ménages à l'approche des fêtes.",
       "source": {
         "nom": "LiteFinance – calendrier du 23 au 29 nov. 2026",
@@ -159,7 +120,7 @@
       "pays": "Australie",
       "type": "indicateur",
       "titre": "Inflation (CPI) d'octobre",
-      "attendu": "Septembre : +4,3 % sur un an",
+      "attendu": "Septembre : +4,3 % sur un an (moyenne tronquée : +3,6 %)",
       "enjeu": "Pèsera sur la suite des hausses de taux de la RBA.",
       "source": {
         "nom": "LiteFinance – calendrier du 23 au 29 nov. 2026",
@@ -242,6 +203,18 @@
     },
     {
       "date": "2026-11-27",
+      "heure": "08:45",
+      "pays": "France",
+      "type": "indicateur",
+      "titre": "Insee : inflation de novembre (estimation provisoire) et comptes nationaux détaillés du 3e trimestre",
+      "enjeu": "Le même jour, l'Insee publie aussi la consommation des ménages en biens d'octobre et l'estimation détaillée de l'emploi salarié du 3e trimestre.",
+      "source": {
+        "nom": "Insee – calendrier des publications",
+        "url": "https://www.insee.fr/fr/information/5235017"
+      }
+    },
+    {
+      "date": "2026-11-27",
       "heure": "19:00",
       "pays": "États-Unis",
       "type": "marchés",
@@ -250,6 +223,31 @@
       "source": {
         "nom": "LiteFinance – calendrier du 23 au 29 nov. 2026",
         "url": "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-23112026-29112026/"
+      }
+    },
+    {
+      "date": "2026-11-29",
+      "heure": null,
+      "pays": "Monde",
+      "type": "matières premières",
+      "titre": "Réunion des sept pays de l'OPEP+ engagés dans les ajustements volontaires (Arabie saoudite, Russie, Irak, Koweït, Kazakhstan, Algérie, Oman)",
+      "attendu": "Le 1er novembre, ils ont maintenu pour décembre leur production au niveau requis de septembre 2026",
+      "enjeu": "Décision sur la production de janvier, alors que le Brent est passé sous 93 dollars le baril sur fond d'offre abondante ; concerne directement l'Algérie, le Nigeria, l'Angola et la Libye.",
+      "source": {
+        "nom": "OPEP – communiqué du 1er novembre 2026",
+        "url": "https://www.opec.org/pr-detail/2033620-1-november-2026.html"
+      }
+    },
+    {
+      "date": "2026-11-30",
+      "heure": "02:30",
+      "pays": "Chine",
+      "type": "indicateur",
+      "titre": "PMI officiels de novembre (Bureau national des statistiques)",
+      "enjeu": "Mesure de l'activité chinoise, dont la faiblesse pèse sur le cuivre et les métaux exportés par la Zambie et la RD Congo.",
+      "source": {
+        "nom": "FinanceCalendar – calendrier des indicateurs économiques",
+        "url": "https://www.financecalendar.com/events/category/economic-indicators/day/2026-11-28/"
       }
     },
     {
@@ -266,15 +264,27 @@
     },
     {
       "date": "2026-12-01",
-      "heure": null,
+      "heure": "11:00",
       "pays": "Zone euro",
       "type": "indicateur",
       "titre": "Inflation de novembre, estimation rapide (Eurostat)",
       "attendu": "Octobre : 4,0 % sur un an (estimation flash)",
       "enjeu": "Dernier chiffre avant la réunion de la BCE des 16-17 décembre, où une hausse de taux est anticipée.",
       "source": {
-        "nom": "Lamera Capital – calendrier économique de novembre 2026",
-        "url": "https://lameracapital.com/market-insights/november-2026-economic-calendar-pound-euro-dollar"
+        "nom": "FinanceCalendar – décembre 2026 ; Lamera Capital",
+        "url": "https://www.financecalendar.com/events/month/2026-12/"
+      }
+    },
+    {
+      "date": "2026-12-01",
+      "heure": "16:00",
+      "pays": "États-Unis",
+      "type": "indicateur",
+      "titre": "Indice ISM manufacturier de novembre et offres d'emploi JOLTS d'octobre",
+      "enjeu": "Premiers indicateurs de décembre sur l'industrie et le marché du travail américains, avant la réunion de la Fed du 9 décembre.",
+      "source": {
+        "nom": "FinanceCalendar – décembre 2026 ; Bureau of Labor Statistics – calendrier de décembre 2026",
+        "url": "https://www.bls.gov/schedule/2026/12_sched_list.htm"
       }
     },
     {
@@ -291,19 +301,71 @@
       }
     },
     {
-      "date": "2026-12-01",
-      "heure": null,
-      "pays": "Monde",
+      "date": "2026-12-02",
+      "heure": "11:00",
+      "pays": "Zone euro",
       "type": "indicateur",
-      "titre": "PMI manufacturiers définitifs de novembre (zone euro, Royaume-Uni, États-Unis, Asie)",
-      "enjeu": "Confirmation des estimations flash du 23 novembre sur l'industrie mondiale ; date déduite du calendrier habituel (premier jour ouvré du mois).",
+      "titre": "Taux de chômage d'octobre (Eurostat)",
+      "enjeu": "État du marché du travail européen avant la réunion de la BCE.",
       "source": {
-        "nom": "S&P Global – calendrier des publications PMI",
-        "url": "https://www.pmi.spglobal.com/Public/Release/ReleaseDates"
+        "nom": "FinanceCalendar – décembre 2026",
+        "url": "https://www.financecalendar.com/events/month/2026-12/"
+      }
+    },
+    {
+      "date": "2026-12-02",
+      "heure": "14:15",
+      "pays": "États-Unis",
+      "type": "indicateur",
+      "titre": "Rapport ADP sur l'emploi privé (novembre)",
+      "enjeu": "Avant-goût du rapport officiel sur l'emploi du vendredi 4 décembre.",
+      "source": {
+        "nom": "FinanceCalendar – décembre 2026",
+        "url": "https://www.financecalendar.com/events/month/2026-12/"
+      }
+    },
+    {
+      "date": "2026-12-03",
+      "heure": "16:00",
+      "pays": "États-Unis",
+      "type": "indicateur",
+      "titre": "Indice ISM des services de novembre",
+      "enjeu": "Les services représentent l'essentiel de l'activité américaine ; publié la veille du rapport sur l'emploi.",
+      "source": {
+        "nom": "FinanceCalendar – décembre 2026",
+        "url": "https://www.financecalendar.com/events/month/2026-12/"
+      }
+    },
+    {
+      "date": "2026-12-03",
+      "heure": null,
+      "pays": "Botswana",
+      "type": "banque centrale",
+      "titre": "Comité de politique monétaire de la Banque du Botswana, dernière réunion de l'année",
+      "enjeu": "Le pays, dépendant des exportations de diamants, ajuste sa politique après la réunion du 29 octobre.",
+      "source": {
+        "nom": "Banque du Botswana – calendrier du comité de politique monétaire",
+        "url": "https://bankofbotswana.bw/content/monetary-policy-committee"
       }
     }
   ],
   "hors_fenetre": [
+    {
+      "date": "2026-12-04",
+      "titre": "Rapport officiel sur l'emploi américain de novembre (Employment Situation), à 14:30 heure de Paris",
+      "source": {
+        "nom": "Bureau of Labor Statistics – calendrier de décembre 2026",
+        "url": "https://www.bls.gov/schedule/2026/12_sched_list.htm"
+      }
+    },
+    {
+      "date": "2026-12-09",
+      "titre": "Réunion de la Fed (hausse de taux largement anticipée) et comité de politique monétaire de la Banque centrale du Kenya",
+      "source": {
+        "nom": "Lamera Capital ; Business Recorder",
+        "url": "https://www.brecorder.com/news/40448406/kenya-central-bank-to-hold-next-interest-rate-setting-meeting-on-december-9"
+      }
+    },
     {
       "date": "2026-12-16/17",
       "titre": "Prochaine réunion de politique monétaire de la BCE (décision le 17 décembre) ; aucune réunion en novembre",
@@ -319,7 +381,15 @@
         "nom": "Enterprise",
         "url": "https://enterpriseam.com/egypt/2026/11/01/cbe-hikes-for-the-first-time-since-march-2024-raising-rates-100-bps-and-moving-its-inflation-target-to-4q-2027/"
       }
+    },
+    {
+      "date": "2027-01-28",
+      "titre": "Prochaine décision de la Banque de réserve sud-africaine (SARB), après le maintien du taux à 7,25 % le 19 novembre",
+      "source": {
+        "nom": "SARB – déclaration de politique monétaire de novembre 2026",
+        "url": "https://www.resbank.co.za/en/home/publications/publication-detail-pages/statements/monetary-policy-statements/2026/november"
+      }
     }
   ],
-  "non_trouve": "Aucun événement majeur relevé pour les samedis et dimanches 21, 28 et 29 novembre (hors Nouvelle-Zélande le 22), ni pour le mercredi 2 décembre (aucune source consultée ne liste de publication ce jour-là). Pour respecter la limite de trois rendez-vous par jour, plusieurs publications du 19-20 novembre ont été retirées de la frise : emploi australien (19/11, 01:30), conférence de presse de la supervision bancaire de la BCE sur les résultats SREP 2026 et intervention de Christine Lagarde (19/11), salaires négociés de la zone euro et ventes au détail britanniques (20/11), ainsi que le discours du gouverneur de la Banque du Canada Tiff Macklem (24/11). La date des PMI manufacturiers du 1er décembre est déduite du calendrier habituel de S&P Global. Les heures des événements des 30 novembre et 1er décembre ne sont pas confirmées ; ISM, OPEP+ et publications de l'Insee n'ont pas pu être vérifiés."
+  "non_trouve": "Aucun rendez-vous sourcé pour les samedis 21 et 28 novembre. Décision de la SARB du 19/11 (maintien à 7,25 %) retirée de l'agenda et reportée dans les données des marchés africains ; Anthropic au Nasdaq et Walmart (19/11) retirés. Pour respecter la limite de trois rendez-vous par jour, ont été écartés : climat des affaires de l'Insee (20/11, 08:45), ventes au détail britanniques et confiance de l'université du Michigan (20/11), discours de Tiff Macklem (24/11), prix des logements anciens Insee (24/11), PMI manufacturiers définitifs mondiaux (1er/12, date déduite), inscriptions au chômage américaines (3/12) et résultats de Salesforce (2/12, date non confirmée). Valeur précédente de la confiance du Conference Board retirée faute de chiffre concordant entre lectures. Date de l'inflation allemande incertaine : 30/11 selon Lamera Capital, 27/11 selon FinanceCalendar. Non trouvés ou non vérifiés : réunion de l'OPEP+ élargie, date du comité de la BCEAO de décembre, autres banques centrales africaines (Mozambique, Zambie, Angola) dans la fenêtre, valeurs précédentes des ISM, Perspectives économiques de l'OCDE ; heures non confirmées pour la réunion OPEP+ (29/11) et la Banque du Botswana (3/12)."
 }

@@ -1,9 +1,88 @@
-{"titre": "Les Tesselles du week-end", "periode": "20-22 novembre 2026", "publie": "2026-11-16",
-"intro": "Un biopic sorti mercredi, une première exposition française, un concert de rap à la Philharmonie, le Goncourt 2026 et un festival nantais de cinéma d'Afrique, d'Amérique latine et d'Asie : cinq sorties pour le week-end du 20 au 22 novembre.",
-"items": [
-{"n": 1, "discipline": "cinéma", "titre": "Malika", "qui": "Mounia Meddour", "quoi": "Biopic de Malika Bellaribi, surnommée la « diva des banlieues », de son enfance dans un bidonville de Nanterre à la scène du Théâtre du Châtelet. Lilya Adad tient le rôle-titre, aux côtés de Camille Razat, Elsa Zylberstein, Lubna Azabal et Marc Lavoine.", "ou": "en salles", "quand": "Sortie nationale le mercredi 18 novembre 2026", "prix": null, "pourquoi": "Mounia Meddour, réalisatrice de Papicha (2019) et Houria (2022), signe ici le récit d'une jeune femme qui poursuit son rêve de devenir mezzo-soprano, selon la présentation de L'Officiel des spectacles.", "pays": "France", "source": {"nom": "L'Officiel des spectacles", "url": "https://www.offi.fr/cinema/evenement/malika-108500.html"}},
-{"n": 2, "discipline": "arts", "titre": "Kerry James Marshall. The Histories", "qui": "Kerry James Marshall", "quoi": "Environ soixante-dix œuvres, dont huit peintures récentes, couvrant plus de quarante ans de carrière du peintre américain né en 1955 à Birmingham (Alabama). Ses grandes toiles placent des figures noires au centre de décors issus de l'histoire de l'art et évoquent notamment la traversée de l'Atlantique et le mouvement des droits civiques.", "ou": "Musée d'Art Moderne de Paris, 11 avenue du Président-Wilson, Paris 16e", "quand": "Jusqu'au 24 janvier 2027 ; vendredi, samedi et dimanche de 10h à 18h ; visite sur réservation", "prix": "de 0 à 17 €", "pourquoi": "Il s'agit de la première exposition en France consacrée à l'artiste, selon le musée, qui reprend un parcours conçu par la Royal Academy of Arts de Londres avec le Kunsthaus de Zurich.", "pays": "France", "source": {"nom": "Musée d'Art Moderne de Paris", "url": "https://www.mam.paris.fr/en/node/2250"}},
-{"n": 3, "discipline": "musique", "titre": "MC Solaar et Youssoupha", "qui": "MC Solaar, Youssoupha", "quoi": "Concert des rappeurs MC Solaar et Youssoupha, accompagnés de dix musiciens, entre hip-hop, soul et jazz. Durée annoncée : environ 1h30.", "ou": "Philharmonie de Paris, Grande salle Pierre Boulez, 221 avenue Jean-Jaurès, Paris 19e", "quand": "Samedi 21 novembre 2026 à 20h", "prix": "de 42 à 78 €", "pourquoi": "L'Officiel des spectacles présente MC Solaar comme un pionnier du rap français et Youssoupha comme l'une de ses figures majeures actuelles ; la disponibilité des places n'est pas précisée.", "pays": "France", "source": {"nom": "L'Officiel des spectacles", "url": "https://www.offi.fr/concerts/grande-salle-6005/mc-solaar-et-youssoupha-3225784.html"}},
-{"n": 4, "discipline": "livres", "titre": "L'Inconnue du quai de Javel", "qui": "Philippe Jaenada", "quoi": "Roman paru chez Flammarion le 12 août 2026 (528 pages), qui rouvre l'enquête sur le meurtre non élucidé, en septembre 1949, de Louise Cansot, modèle de Montparnasse dont le corps avait été retrouvé sur les berges de la Seine. L'auteur mêle enquête, récit historique, recherches d'archives et digressions personnelles.", "ou": "en librairie", "quand": "Disponible, paru le 12 août 2026", "prix": null, "pourquoi": "Le livre a reçu le prix Goncourt 2026 le 3 novembre, par six voix contre trois à Sylvain Prudhomme ; Livres Hebdo parle d'« un roman vrai » (Olivier Mony).", "pays": "France", "source": {"nom": "Livres Hebdo", "url": "https://www.livreshebdo.fr/article/philippe-jaenada-remporte-le-prix-goncourt-2026"}},
-{"n": 5, "discipline": "festival", "titre": "Festival des 3 Continents (48e édition)", "qui": "Festival des 3 Continents", "quoi": "Festival nantais consacré aux longs métrages de fiction et documentaires d'Afrique, d'Amérique latine et d'Asie, dont de nombreux inédits en France. Au programme : une compétition internationale, l'intégrale du cinéaste turc Zeki Demirkubuz, une rétrospective du réalisateur indien Kailasam Balachander et un parcours autour des fantômes avec notamment Atlantique de Mati Diop.", "ou": "Nantes (Katorza, Concorde, Pathé Nantes et salles partenaires)", "quand": "Du 20 au 28 novembre 2026", "prix": "8 € plein tarif, 6 € réduit, 3,50 € tarif spécifique (grille à confirmer sur le site du festival)", "pourquoi": "Selon le festival, l'intégrale Zeki Demirkubuz y est présentée pour la première fois en Europe.", "pays": "France", "source": {"nom": "Nantes Métropole", "url": "https://metropole.nantes.fr/que-faire-a-nantes/agenda/festival-des-3-continents-2026-48e-edition"}}
-]}
+{
+ "titre": "Les Tesselles du week-end",
+ "periode": "20-22 novembre 2026",
+ "publie": "2026-11-20",
+ "intro": "Un film de guerre de Lukas Dhont, une exposition sur les lettrés coréens, le rap de Kneecap au Zénith, le prix Décembre 2026 et un salon du livre en Guadeloupe : cinq sorties pour le week-end du 20 au 22 novembre.",
+ "items": [
+  {
+   "n": 1,
+   "discipline": "cinéma",
+   "titre": "Les Braves (Coward)",
+   "qui": "Lukas Dhont",
+   "quoi": "Pendant la Première Guerre mondiale, un jeune soldat qui cherche à faire ses preuves croise un homme chargé de remonter le moral des troupes. Emmanuel Macchia, Valentin Campagne et Jonas Wertz tiennent les rôles principaux.",
+   "ou": "en salles",
+   "quand": "Sorti le mercredi 18 novembre 2026",
+   "prix": null,
+   "pourquoi": "Nouveau long métrage de Lukas Dhont, il fait partie des 20 films sortis le 18 novembre recensés par AlloCiné.",
+   "pays": "Belgium",
+   "source": {
+    "nom": "AlloCiné (calendrier des sorties)",
+    "url": "https://www.allocine.fr/film/agenda/sem-2026-11-18/"
+   }
+  },
+  {
+   "n": 2,
+   "discipline": "arts",
+   "titre": "Corée, le royaume des lettrés",
+   "qui": "Musée Cernuschi",
+   "quoi": "Exposition consacrée aux yangban, les lettrés-fonctionnaires de la Corée au fil des siècles. Elle rassemble des chefs-d'œuvre anciens, du mobilier et des costumes d'époque.",
+   "ou": "Musée Cernuschi, Paris 8e",
+   "quand": "À partir du vendredi 20 novembre 2026",
+   "prix": null,
+   "pourquoi": "Sortiraparis la retient parmi les expositions à voir en novembre 2026 à Paris.",
+   "pays": "France",
+   "source": {
+    "nom": "Sortiraparis",
+    "url": "https://www.sortiraparis.com/en/what-to-visit-in-paris/exhibit-museum/guides/322591-the-new-exhibitions-of-november-2026-highlights-to-see-in-paris-and-ile-de-france"
+   }
+  },
+  {
+   "n": 3,
+   "discipline": "musique",
+   "titre": "Kneecap",
+   "qui": "Kneecap",
+   "quoi": "Concert du groupe de rap Kneecap au Zénith de Paris. Début annoncé à 20 heures.",
+   "ou": "Zénith de Paris, Paris 19e",
+   "quand": "Vendredi 20 novembre 2026 à 20h",
+   "prix": null,
+   "pourquoi": "Sortiraparis le compte parmi les concerts à ne pas manquer à Paris en novembre 2026 ; la disponibilité des places n'est pas précisée.",
+   "pays": "France",
+   "source": {
+    "nom": "Sortiraparis",
+    "url": "https://www.sortiraparis.com/scenes/concert-musique/guides/199180-concerts-a-paris-en-novembre-2026-ceux-a-ne-pas-manquer"
+   }
+  },
+  {
+   "n": 4,
+   "discipline": "livres",
+   "titre": "Nous aussi",
+   "qui": "Anne Godard",
+   "quoi": "Roman paru chez Actes Sud qui dépeint une famille catholique bourgeoise dans un immeuble haussmannien du 5e arrondissement de Paris. La narration est menée au pronom « on ».",
+   "ou": "en librairie",
+   "quand": "Disponible",
+   "prix": null,
+   "pourquoi": "Le livre a reçu le prix Décembre 2026 le 27 octobre et s'était vendu à plus de 50 000 exemplaires, selon Livres Hebdo.",
+   "pays": "France",
+   "source": {
+    "nom": "Livres Hebdo",
+    "url": "https://www.livreshebdo.fr/article/anne-godard-remporte-le-prix-decembre-2026"
+   }
+  },
+  {
+   "n": 5,
+   "discipline": "livres",
+   "titre": "Salon régional du livre de Guadeloupe",
+   "qui": "Marguerite Abouet, Jessica Oublié, Michael Roch, Max Rippon et d'autres auteurs",
+   "quoi": "Salon du livre organisé autour du thème « Afrique-Caraïbes : histoires croisées, imaginaires partagés », avec stands d'éditeurs et de libraires, rencontres d'auteurs, ateliers et lectures théâtrales. Il fait suite à des rencontres scolaires et à des étapes à Marie-Galante et Basse-Terre.",
+   "ou": "Village des exposants, marina de Pointe-à-Pitre",
+   "quand": "Du vendredi 20 au dimanche 22 novembre 2026",
+   "prix": "Gratuit",
+   "pourquoi": "Selon l'office de tourisme des Îles de Guadeloupe, l'édition met à l'honneur les liens entre Afrique et Caraïbes.",
+   "pays": "France",
+   "source": {
+    "nom": "Les Îles de Guadeloupe (office de tourisme)",
+    "url": "https://www.lesilesdeguadeloupe.com/fete-manifestation/salon-regional-du-livre-de-guadeloupe/"
+   }
+  }
+ ]
+}

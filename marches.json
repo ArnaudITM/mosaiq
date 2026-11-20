@@ -1,5 +1,5 @@
 {
-  "maj": "clôture du mercredi 18 novembre 2026 (EUR/USD : cours de référence BCE du 18 novembre)",
+  "maj": "clôture du jeudi 19 novembre 2026 (EUR/USD : cours de référence BCE du 19 novembre ; Nasdaq Composite arrêté au 18 novembre, clôture du 19 non trouvée)",
   "frequence": "quotidienne",
   "series": [
     {
@@ -7,10 +7,6 @@
       "nom": "CAC 40",
       "unite": "pts",
       "points": [
-        [
-          "2026-10-20",
-          7838.49
-        ],
         [
           "2026-10-21",
           7921.68
@@ -94,6 +90,10 @@
         [
           "2026-11-18",
           8146.83
+        ],
+        [
+          "2026-11-19",
+          8080.74
         ]
       ]
     },
@@ -102,10 +102,6 @@
       "nom": "S&P 500",
       "unite": "pts",
       "points": [
-        [
-          "2026-10-20",
-          7712.57
-        ],
         [
           "2026-10-21",
           7757.17
@@ -189,6 +185,10 @@
         [
           "2026-11-18",
           7323.63
+        ],
+        [
+          "2026-11-19",
+          7175.83
         ]
       ]
     },
@@ -197,10 +197,6 @@
       "nom": "Nasdaq Composite",
       "unite": "pts",
       "points": [
-        [
-          "2026-10-20",
-          26424.82
-        ],
         [
           "2026-10-21",
           26702.86
@@ -294,10 +290,6 @@
       "note": "Cours de référence quotidien de la BCE (fixing vers 14h15 CET), et non cours de clôture de marché.",
       "points": [
         [
-          "2026-10-20",
-          1.1215
-        ],
-        [
           "2026-10-21",
           1.1234
         ],
@@ -380,6 +372,10 @@
         [
           "2026-11-18",
           1.0969
+        ],
+        [
+          "2026-11-19",
+          1.0992
         ]
       ]
     }
@@ -489,6 +485,22 @@
     {
       "nom": "Kitco – rapport de clôture du 18/11/2026 (Brent, or)",
       "url": "https://www.kitco.com/news/article/2026-11-18/gold-plunges-below-3750-silver-tumbles-hawkish-fed-minutes-pressure-metals"
+    },
+    {
+      "nom": "Boursorama – historique CAC 40 (clôture du 19/11/2026)",
+      "url": "https://www.boursorama.com/bourse/indices/cours/historique/1rPCAC"
+    },
+    {
+      "nom": "Yahoo Finance – historique S&P 500 (clôture du 19/11/2026)",
+      "url": "https://finance.yahoo.com/quote/%5EGSPC/history/"
+    },
+    {
+      "nom": "Trading Economics – CAC 40 (clôture du 19/11/2026)",
+      "url": "https://tradingeconomics.com/france/stock-market"
+    },
+    {
+      "nom": "BCE – cours de référence EUR/USD du 19/11/2026",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html"
     }
   ]
 }

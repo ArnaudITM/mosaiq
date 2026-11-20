@@ -1,5 +1,5 @@
 {
-  "maj": "19 novembre 2026, 6h – aucun match depuis la semaine 10 (complète, du jeudi 12 au lundi 16 novembre, dont Chargers-Ravens 23-20 lundi soir) : classements inchangés. La semaine 11 s'ouvre avec Colts-Texans jeudi 19 novembre au soir (heure US, 2h15 à Paris dans la nuit de jeudi à vendredi), non encore joué ; programme confirmé par CBS Sports. Leaders statistiques après la semaine 10 selon ESPN.",
+  "maj": "20 novembre 2026, 5h30 – semaine 11 entamée avec Texans-Colts (26-3) jeudi soir, selon NFL.com ; classements de la semaine 10 mis à jour avec ce résultat (Texans 4-6, Colts 3-8). Reste de la semaine 11 dimanche 22 et lundi 23 novembre selon CBS Sports. Leaders statistiques après la semaine 10 selon ESPN, sauf sacks de Will Anderson Jr. (11,5, NFL.com).",
   "divisions": [
     {
       "nom": "AFC Est",
@@ -70,14 +70,14 @@
         },
         {
           "equipe": "Texans",
-          "v": 3,
+          "v": 4,
           "d": 6,
           "n": 0
         },
         {
           "equipe": "Colts",
           "v": 3,
-          "d": 7,
+          "d": 8,
           "n": 0
         },
         {
@@ -320,7 +320,7 @@
       {
         "joueur": "Will Anderson Jr.",
         "equipe": "Texans",
-        "valeur": 10.5
+        "valeur": 11.5
       },
       {
         "joueur": "Andrew Van Ginkel",
@@ -345,6 +345,13 @@
     ]
   },
   "derniers": [
+    {
+      "date": "2026-11-19",
+      "dom": "Texans",
+      "ext": "Colts",
+      "score_dom": 26,
+      "score_ext": 3
+    },
     {
       "date": "2026-11-12",
       "dom": "Giants",
@@ -449,13 +456,6 @@
     "semaine": "Semaine 11",
     "matchs": [
       {
-        "date": "2026-11-20",
-        "heure_paris": "02:15",
-        "dom": "Texans",
-        "ext": "Colts",
-        "tv_us": "Prime Video (TNF)"
-      },
-      {
         "date": "2026-11-22",
         "heure_paris": "19:00",
         "dom": "Panthers",
@@ -552,11 +552,11 @@
   },
   "infos": [
     {
-      "titre": "Colts-Texans ouvre la semaine 11",
-      "texte": "La semaine 11 débute jeudi soir à Houston (20h15 heure de l'Est, 2h15 à Paris) avec Indianapolis-Houston, diffusé par Amazon Prime Video, selon CBS Sports. Les deux équipes sont à la lutte pour la deuxième place de l'AFC Sud derrière Jacksonville (7-2) : Houston est à 3-6, Indianapolis à 3-7. Atlanta, Cleveland, Green Bay, les Rams, New England et Seattle sont exemptés.",
+      "titre": "Houston écrase Indianapolis",
+      "texte": "Les Texans ont battu les Colts 26-3 jeudi soir en ouverture de la semaine 11, selon NFL.com : C.J. Stroud a lancé trois passes de touchdown (Nico Collins, Kayshon Boutte, Marlin Klein) et Will Anderson Jr. a réussi un sack sur Daniel Jones dans l'en-but pour un safety, son 11,5e sack de la saison, meilleur total de la ligue. Indianapolis, limité à moins de 200 yards et à 1 conversion sur 11 en troisième tentative, a fait entrer Anthony Richardson en fin de match. Houston passe à 4-6, Indianapolis à 3-8.",
       "source": {
-        "nom": "CBS Sports – Programme semaine 11 2026",
-        "url": "https://www.cbssports.com/nfl/schedule/2026/regular/11/"
+        "nom": "NFL.com – Colts-Texans, ce qu'il faut retenir",
+        "url": "https://www.nfl.com/news/colts-texans-on-thursday-night-football-what-we-learned-from-houston-s-26-3-win"
       }
     },
     {
@@ -609,6 +609,10 @@
     }
   ],
   "sources": [
+    {
+      "nom": "NFL.com – Colts-Texans, ce qu'il faut retenir",
+      "url": "https://www.nfl.com/news/colts-texans-on-thursday-night-football-what-we-learned-from-houston-s-26-3-win"
+    },
     {
       "nom": "NFL.com – Classement 2026",
       "url": "https://www.nfl.com/standings/league/2026/reg"

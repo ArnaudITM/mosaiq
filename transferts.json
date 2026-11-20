@@ -1,5 +1,5 @@
 {
- "maj": "19 novembre 2026",
+ "maj": "20 novembre 2026",
  "fenetre": "Mercato d'hiver : ouverture le 1er janvier 2027 (dates selon les pays)",
  "dates_fenetre": [
   {
@@ -32,6 +32,20 @@
   }
  ],
  "items": [
+  {
+   "joueur": "Aurélien Tchouaméni",
+   "de": "Real Madrid",
+   "vers": "Real Madrid",
+   "championnat": "liga",
+   "type": "prolongation",
+   "statut": "officiel",
+   "texte": "Le Real Madrid a annoncé jeudi 19 novembre, par communiqué, la prolongation du milieu français de 26 ans jusqu'en 2032, rapporte Maxifoot ; son précédent contrat courait jusqu'en juin 2028.",
+   "source": {
+    "nom": "Maxifoot",
+    "url": "https://news.maxifoot.fr/real/tchouameni-a-prolonge-officiel-foot-467959.htm"
+   },
+   "date": "2026-11-19"
+  },
   {
    "joueur": "Vitor Matos",
    "de": "Swansea",
@@ -76,6 +90,91 @@
    "date": "2026-11-18"
   },
   {
+   "joueur": "Jude Bellingham",
+   "de": "Real Madrid",
+   "vers": "Real Madrid",
+   "championnat": "liga",
+   "type": "prolongation",
+   "statut": "rumeur",
+   "texte": "Selon OK Diario, cité par Maxifoot, le Real Madrid a fait de la prolongation du milieu anglais de 23 ans une priorité et serait prêt à porter son salaire annuel à 22 M€. Les premiers échanges seraient positifs, sans accord ; le joueur demanderait des garanties sur le projet sportif.",
+   "source": {
+    "nom": "Maxifoot (d'après OK Diario)",
+    "url": "https://news.maxifoot.fr/real/bellingham-pose-ses-conditions-foot-467951.htm"
+   },
+   "date": "2026-11-19"
+  },
+  {
+   "joueur": "Kevin De Bruyne",
+   "de": "Naples",
+   "vers": "PSV Eindhoven",
+   "championnat": "serie-a",
+   "type": "transfert",
+   "statut": "rumeur",
+   "montant": "2 M€ proposés par le PSV, environ 7 M€ demandés par Naples (selon La Gazzetta dello Sport)",
+   "texte": "Selon La Gazzetta dello Sport, citée par Maxifoot, le PSV a fait une première offre pour le milieu belge de 35 ans, sous contrat jusqu'en juin 2027. Naples préférerait le garder mais ne bloquerait pas un départ pour une offre jugée satisfaisante ; la décision reviendrait au joueur.",
+   "source": {
+    "nom": "Maxifoot (d'après La Gazzetta dello Sport)",
+    "url": "https://news.maxifoot.fr/naples/prix-fixe-pour-de-bruyne-foot-467949.htm"
+   },
+   "date": "2026-11-19"
+  },
+  {
+   "joueur": "Sergio Camello",
+   "de": "Rayo Vallecano",
+   "vers": "OM",
+   "championnat": "liga",
+   "type": "transfert",
+   "statut": "rumeur",
+   "texte": "Selon Marca, cité par Maxifoot, l'OM a formulé une offre verbale aux représentants de l'attaquant espagnol de 25 ans (7 buts en 11 matchs de Liga), en fin de contrat en juin 2027, en vue d'une arrivée libre. Côme et d'autres clubs de Liga se sont aussi renseignés.",
+   "source": {
+    "nom": "Maxifoot (d'après Marca)",
+    "url": "https://news.maxifoot.fr/om/un-buteur-de-liga-contacte-foot-467960.htm"
+   },
+   "date": "2026-11-19"
+  },
+  {
+   "joueur": "Pierre-Emile Højbjerg",
+   "de": "OM",
+   "vers": "Juventus",
+   "championnat": "ligue-1",
+   "type": "transfert",
+   "statut": "rumeur",
+   "texte": "Selon RMC, cité par Maxifoot jeudi 19 novembre, l'OM n'a pas donné son accord à un départ du milieu danois de 31 ans et Bruno Genesio souhaite le garder au moins jusqu'à la fin de la saison ; la Juventus et la Fiorentina sont citées. La Gazzetta dello Sport affirmait le 17 novembre que la Juventus poussait pour un recrutement dès janvier.",
+   "source": {
+    "nom": "Maxifoot (d'après RMC)",
+    "url": "https://www.maxifoot.fr/football/article-66608.htm"
+   },
+   "date": "2026-11-19"
+  },
+  {
+   "joueur": "Igor Paixão",
+   "de": "OM",
+   "vers": null,
+   "championnat": "ligue-1",
+   "type": "transfert",
+   "statut": "rumeur",
+   "texte": "Selon RMC, cité par Maxifoot, l'OM pourrait reconsidérer la vente de l'ailier brésilien de 26 ans (2 buts, 2 passes décisives en 13 matchs) en cas d'offre proche des 30 M€ proposés par Sunderland l'été dernier.",
+   "source": {
+    "nom": "Maxifoot (d'après RMC)",
+    "url": "https://www.maxifoot.fr/football/article-66608.htm"
+   },
+   "date": "2026-11-19"
+  },
+  {
+   "joueur": "Alejandro Balde",
+   "de": "Barça",
+   "vers": null,
+   "championnat": "liga",
+   "type": "transfert",
+   "statut": "rumeur",
+   "texte": "Interrogé par Catalunya Ràdio, le directeur sportif Deco a déclaré que l'arrière gauche de 23 ans (3 matchs de Liga cette saison) « reste un joueur fantastique » et « ne nous a pas dit qu'il n'était pas content », rapporte Maxifoot. Le quotidien Sport affirmait le 18 novembre que le Barça l'avait placé sur le marché.",
+   "source": {
+    "nom": "Maxifoot (d'après Catalunya Ràdio)",
+    "url": "https://news.maxifoot.fr/barca/deco-evoque-le-cas-balde-foot-467932.htm"
+   },
+   "date": "2026-11-19"
+  },
+  {
    "joueur": "Marquinhos",
    "de": "PSG",
    "vers": "PSG",
@@ -117,104 +216,6 @@
     "url": "https://news.maxifoot.fr/real/mourinho-veut-garder-endrick-mais-foot-467896.htm"
    },
    "date": "2026-11-18"
-  },
-  {
-   "joueur": "Rodrygo",
-   "de": "Real Madrid",
-   "vers": "Santos",
-   "championnat": "liga",
-   "type": "prêt",
-   "statut": "rumeur",
-   "texte": "Selon ESPN, cité par Maxifoot, Santos, club formateur de l'ailier brésilien de 25 ans, a sondé le Real Madrid pour un prêt cet hiver ; la réponse du Real a été négative. Rodrygo, victime d'une rupture des ligaments croisés en mars, doit reprendre la compétition en janvier.",
-   "source": {
-    "nom": "Maxifoot (d'après ESPN)",
-    "url": "https://news.maxifoot.fr/real/santos-veut-rodrygo-en-pret-foot-467893.htm"
-   },
-   "date": "2026-11-18"
-  },
-  {
-   "joueur": "Alejandro Balde",
-   "de": "Barça",
-   "vers": null,
-   "championnat": "liga",
-   "type": "transfert",
-   "statut": "rumeur",
-   "texte": "Selon le quotidien catalan Sport, cité par Maxifoot, le Barça a placé l'arrière gauche de 23 ans sur le marché pour financer un défenseur central. Chelsea, Liverpool, Tottenham, Manchester United et Manchester City sont cités ; les clubs italiens ne proposeraient que des prêts, alors que le Barça privilégie une vente. Aucune offre n'a été reçue.",
-   "source": {
-    "nom": "Maxifoot (d'après Sport)",
-    "url": "https://news.maxifoot.fr/barca/balde-la-premier-league-ou-rien-foot-467904.htm"
-   },
-   "date": "2026-11-18"
-  },
-  {
-   "joueur": "Weston McKennie",
-   "de": "Juventus",
-   "vers": "Man United",
-   "championnat": "serie-a",
-   "type": "transfert",
-   "statut": "rumeur",
-   "texte": "Selon des propos relayés par Fabrizio Romano et repris par Maxifoot, le milieu américain de 28 ans, sous contrat jusqu'en juin 2030, ne prévoit pas de quitter la Juventus cet hiver malgré l'intérêt prêté à Manchester United et à Mauricio Pochettino : « Je suis heureux ici ».",
-   "source": {
-    "nom": "Maxifoot (d'après Fabrizio Romano)",
-    "url": "https://news.maxifoot.fr/juve/man-utd-la-reponse-de-mckennie-foot-467923.htm"
-   },
-   "date": "2026-11-18"
-  },
-  {
-   "joueur": "Franco Mastantuono",
-   "de": "Real Madrid",
-   "vers": "Fiorentina",
-   "championnat": "serie-a",
-   "type": "prêt",
-   "statut": "rumeur",
-   "texte": "Selon La Repubblica, citée par Maxifoot, la Fiorentina veut conserver une saison de plus le milieu argentin de 19 ans prêté par le Real Madrid (11 matchs, 4 buts en Serie A), qui serait ouvert à cette option. Aucun accord n'est conclu ; le Milan, Naples et la Roma sont aussi cités.",
-   "source": {
-    "nom": "Maxifoot (d'après La Repubblica)",
-    "url": "https://news.maxifoot.fr/fiorentina/mastantuono-d-accord-pour-rester-foot-467906.htm"
-   },
-   "date": "2026-11-18"
-  },
-  {
-   "joueur": "Pierre-Emile Højbjerg",
-   "de": "OM",
-   "vers": "Juventus",
-   "championnat": "ligue-1",
-   "type": "transfert",
-   "statut": "rumeur",
-   "texte": "Selon La Gazzetta dello Sport, citée par Maxifoot, la Juventus pousse pour recruter le milieu danois de 31 ans dès janvier, et l'OM ne chercherait pas à le retenir ; la Fiorentina est aussi intéressée. Frank Zambo Anguissa (Naples) est cité comme possible remplaçant, alors que Foot Mercato affirmait le 17 novembre qu'il ne souhaitait pas partir en cours de saison.",
-   "source": {
-    "nom": "Maxifoot (d'après La Gazzetta dello Sport)",
-    "url": "https://www.maxifoot.fr/football/article-66589.htm"
-   },
-   "date": "2026-11-17"
-  },
-  {
-   "joueur": "Loïs Openda",
-   "de": "OL",
-   "vers": "Juventus",
-   "championnat": "ligue-1",
-   "type": "prêt",
-   "statut": "rumeur",
-   "texte": "Selon La Gazzetta dello Sport, citée par Maxifoot, Lyon pourrait mettre fin dès janvier au prêt de l'attaquant belge de 26 ans (5 matchs, 1 but en Ligue 1), victime d'une fracture du péroné début octobre. Le nouvel entraîneur Carlos Vicens souhaiterait un autre profil ; la Juventus chercherait une nouvelle porte de sortie pour le joueur.",
-   "source": {
-    "nom": "Maxifoot (d'après La Gazzetta dello Sport)",
-    "url": "https://news.maxifoot.fr/lyon/openda-renvoye-a-la-juve-foot-467866.htm"
-   },
-   "date": "2026-11-17"
-  },
-  {
-   "joueur": "Jurrien Timber / Piero Hincapié",
-   "de": "Arsenal",
-   "vers": "Arsenal",
-   "championnat": "premier-league",
-   "type": "prolongation",
-   "statut": "avancé",
-   "texte": "Selon Sky Sports, relayé par Maxifoot, Arsenal est en discussions avancées pour prolonger à long terme les défenseurs Jurrien Timber (25 ans, sous contrat jusqu'en 2028) et Piero Hincapié (24 ans, sous contrat jusqu'en 2031), après des accords avec David Raya et Declan Rice.",
-   "source": {
-    "nom": "Maxifoot (d'après Sky Sports)",
-    "url": "https://news.maxifoot.fr/arsenal/timber-et-hincapie-bientot-prolonges-foot-467864.htm"
-   },
-   "date": "2026-11-17"
   }
  ]
 }

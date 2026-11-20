@@ -1,5 +1,5 @@
 {
- "maj": "Derniers cours disponibles au 19 novembre 2026 vers 6 h (Paris) : or, Brent, cuivre, cacao, café, rand, livre égyptienne et franc CFA au mercredi 18/11 ; naira, cedi et dirham au 17/11 ; cobalt au 17/11 ; autres devises entre le 5 et le 10/11 (non actualisées). Taux directeurs : la Banque du Ghana a abaissé son taux de 14 % à 11 % le 18/11 ; décision de la SARB attendue le 19/11.",
+ "maj": "Derniers cours disponibles au 20 novembre 2026 vers 5 h 30 (Paris) : rand et franc CFA (cours BCE), or, Brent, cuivre, cacao et café arabica au jeudi 19/11 ; livre égyptienne au 18/11 ; naira, cedi et dirham au 17/11 ; cobalt au 18/11 ; shilling kényan, birr et shilling tanzanien entre le 5 et le 10/11 (non actualisés). Taux directeurs : la SARB a maintenu son taux à 7,25 % le 19/11 (vote à 4 contre 3) ; la CBN se réunit les 23 et 24/11.",
  "convention": "Cours en unités de monnaie locale pour 1 dollar. La variation sur un mois est négative quand la monnaie locale s'est affaiblie face au dollar.",
  "devises": [
   {
@@ -15,10 +15,10 @@
    "code": "ZAR",
    "nom": "rand sud-africain",
    "pays": "Afrique du Sud",
-   "usd": 17.22,
-   "date": "2026-11-18",
-   "var_1m": "-5,6 %",
-   "note": "Cours croisé BCE du 18/11 (17,2226 rands pour 1 dollar). Le rand a franchi 17,2 par dollar, au plus bas depuis novembre 2025 selon Trading Economics, après une inflation d'octobre remontée à 5,2 % (4,5 % en septembre). Variation sur un mois déduite de la hausse de 5,9 % de l'USD/ZAR indiquée par Trading Economics le 19/11. Décision de la SARB le 19/11 : 24 économistes sur 27 sondés par Reuters attendent un statu quo."
+   "usd": 17.28,
+   "date": "2026-11-19",
+   "var_1m": "-6,3 %",
+   "note": "Cours croisé BCE du 19/11 (17,2806 rands pour 1 dollar, contre 17,2226 le 18/11). Après le maintien du taux de la SARB à 7,25 %, le rand a reculé vers 17,3 par dollar, près de son plus bas depuis novembre 2025, sous l'effet de la vigueur du dollar, du repli des métaux précieux et d'incertitudes sur la coalition au pouvoir après les élections locales, selon Trading Economics, qui le cotait à 17,48 en fin de journée. Variation sur un mois déduite de la hausse de 6,7 % de l'USD/ZAR indiquée par Trading Economics le 19/11."
   },
   {
    "code": "GHS",
@@ -60,10 +60,10 @@
    "code": "XOF",
    "nom": "franc CFA (UEMOA)",
    "pays": "Bénin, Burkina Faso, Côte d'Ivoire, Guinée-Bissau, Mali, Niger, Sénégal, Togo",
-   "usd": 598.01,
-   "date": "2026-11-18",
-   "var_1m": "-2,5 %",
-   "note": "Calculé à partir de la parité fixe de 655,957 FCFA pour 1 euro et du cours de référence BCE (1,0969 $ pour 1 euro le 18/11, contre 1,1253 le 16/10). Le franc CFA suit donc l'euro face au dollar."
+   "usd": 596.79,
+   "date": "2026-11-19",
+   "var_1m": "-2,3 %",
+   "note": "Calculé à partir de la parité fixe de 655,957 FCFA pour 1 euro et du cours de référence BCE du 19/11 (environ 1,0991 $ pour 1 euro, soit 0,9098 euro pour 1 dollar), contre 1,1253 le 16/10. Le franc CFA suit donc l'euro face au dollar."
   },
   {
    "code": "ETB",
@@ -88,50 +88,50 @@
   {
    "nom": "Cacao",
    "unite": "USD/t",
-   "valeur": 5027,
-   "date": "2026-11-18",
-   "var_1m": "-11,6 %",
-   "enjeu": "Premier produit d'exportation de la Côte d'Ivoire et du Ghana, qui fournissent ensemble plus de la moitié du cacao mondial (le prix bord-champ ivoirien est fixé à 1 200 FCFA/kg). Le cours a reculé de 2,9 % le 18/11, vers 5 027 dollars la tonne, proche de ses niveaux de juin : la hausse des stocks en bourse et les ventes des fonds indiciels pèsent, tandis que les craintes liées à El Niño (récolte ivoirienne 2026-27 attendue en baisse de 21 à 25 %) offrent un soutien à moyen terme (Trading Economics). Cours CFD."
+   "valeur": 5169,
+   "date": "2026-11-19",
+   "var_1m": "-10,9 %",
+   "enjeu": "Premier produit d'exportation de la Côte d'Ivoire et du Ghana, qui fournissent ensemble plus de la moitié du cacao mondial (le prix bord-champ ivoirien est fixé à 1 200 FCFA/kg). Le cours a rebondi de 3,3 % le 19/11, à 5 169 dollars la tonne, après être tombé vers 5 000 dollars la veille, proche de ses niveaux de juin : les stocks surveillés par l'ICE atteignent un plus haut de deux ans et demi (3,8 millions de sacs) et les fonds indiciels allègent leurs positions avant le rééquilibrage de début 2027, tandis qu'un fort El Niño pourrait assécher l'Afrique de l'Ouest et offre un soutien à moyen terme (Trading Economics). Cours CFD."
   },
   {
    "nom": "Or",
    "unite": "USD/once",
-   "valeur": 3722.6,
-   "date": "2026-11-18",
-   "var_1m": "-9,7 %",
-   "enjeu": "Ressource clé du Ghana, du Mali, du Burkina Faso, de l'Afrique du Sud et du Soudan. L'once au comptant a chuté de 3,3 % le 18/11, vers 3 722,60 dollars, au plus bas depuis quatorze mois, après la publication du compte rendu de la Fed : presque tous les responsables anticipent une hausse des taux en décembre et le dollar a atteint son plus haut depuis avril 2025 (Kitco). Variation sur un mois calculée par Trading Economics le 19/11."
+   "valeur": 3626.07,
+   "date": "2026-11-19",
+   "var_1m": "-14,4 %",
+   "enjeu": "Ressource clé du Ghana, du Mali, du Burkina Faso, de l'Afrique du Sud et du Soudan. L'once est passée sous 3 700 dollars le 19/11, au plus bas depuis septembre 2025, après un compte rendu de la Fed montrant que presque tous les responsables soutiennent de nouvelles hausses de taux ; les marchés jugent probable à 90 % une hausse de 25 points de base en décembre (Trading Economics). Valeur de la veille indiquée par Trading Economics le 20/11, où l'once reculait encore vers 3 550 dollars. Variation sur un mois calculée par Trading Economics le 20/11."
   },
   {
    "nom": "Pétrole Brent",
    "unite": "USD/baril",
-   "valeur": 91.95,
-   "date": "2026-11-18",
-   "var_1m": "-15,5 %",
-   "enjeu": "La recette de l'Angola, de l'Algérie, du Nigeria, de la Libye, du Gabon et du Congo recule sur un mois. Le Brent a terminé le 18/11 à 91,95 dollars (−1,3 %), selon Kitco, près de son plus bas depuis fin août, après de nouvelles hausses des stocks américains de brut et de carburants ; l'abondance attendue de l'offre l'emporte sur les tensions au Moyen-Orient (Trading Economics). La facture des importateurs (Kenya, Éthiopie, Maroc…) s'allège. Variation sur un mois calculée par Trading Economics le 19/11."
+   "valeur": 91.98,
+   "date": "2026-11-19",
+   "var_1m": "-14,9 %",
+   "enjeu": "La recette de l'Angola, de l'Algérie, du Nigeria, de la Libye, du Gabon et du Congo recule sur un mois. Le Brent s'est stabilisé autour de 92 dollars le 19/11 et se dirige vers une troisième baisse hebdomadaire : l'offre abondante (flux record par le détroit d'Ormuz selon le secrétaire américain à l'Énergie, excédent mondial d'environ 2 millions de barils par jour ce trimestre selon l'AIE) l'emporte sur le risque de nouvelles frappes américaines contre l'Iran (Trading Economics). La facture des importateurs (Kenya, Éthiopie, Maroc…) s'allège. Valeur de la veille indiquée par Trading Economics le 20/11 ; variation sur un mois calculée par Trading Economics le 20/11."
   },
   {
    "nom": "Cuivre (COMEX)",
    "unite": "USD/livre",
-   "valeur": 5.66,
-   "date": "2026-11-18",
-   "var_1m": "-14,1 %",
-   "enjeu": "Principal moteur des exportations de la Zambie et de la RD Congo. Le contrat à terme a chuté de 5,2 % le 18/11, à 5,66 dollars la livre (CappNotes), au plus bas depuis sept mois : les investisseurs se détournent des métaux liés à l'IA, la production industrielle chinoise déçoit et les stocks du LME atteignent environ 320 000 tonnes (Trading Economics). Variation sur un mois calculée par Trading Economics le 19/11."
+   "valeur": 5.63,
+   "date": "2026-11-19",
+   "var_1m": "-15,7 %",
+   "enjeu": "Principal moteur des exportations de la Zambie et de la RD Congo. Le contrat à terme est tombé sous 5,70 dollars la livre, au plus bas depuis sept mois : les investisseurs se détournent des métaux liés aux infrastructures d'IA, craignant un ralentissement des centres de données, la production industrielle chinoise déçoit et les stocks du LME atteignent environ 320 000 tonnes (Trading Economics). Valeur de la veille (5,63) indiquée par Trading Economics le 20/11, où le cuivre reculait encore à 5,51 ; variation sur un mois calculée par Trading Economics le 20/11."
   },
   {
    "nom": "Cobalt",
    "unite": "USD/t",
    "valeur": 33525,
-   "date": "2026-11-17",
+   "date": "2026-11-18",
    "var_1m": "-6,1 %",
-   "enjeu": "La RD Congo assure environ trois quarts de l'offre mondiale. Le cours est proche de son plus bas depuis septembre 2025, pénalisé par la faiblesse de l'électronique grand public chinoise ; des spéculations sur de nouvelles restrictions d'exportation congolaises entretiennent l'incertitude (Trading Economics)."
+   "enjeu": "La RD Congo assure environ trois quarts de l'offre mondiale. Le cours est stable à 33 525 dollars la tonne, environ 31 % sous son niveau d'il y a un an, pénalisé par la faiblesse de l'électronique grand public chinoise ; des spéculations sur de nouvelles restrictions d'exportation congolaises entretiennent l'incertitude (Trading Economics)."
   },
   {
    "nom": "Café arabica",
    "unite": "cents US/livre",
-   "valeur": 276.05,
-   "date": "2026-11-18",
-   "var_1m": "-12,6 %",
-   "enjeu": "Exportation majeure de l'Éthiopie, de l'Ouganda (surtout du robusta, non coté ici), du Kenya et de la Tanzanie. L'arabica (ICE) a reculé de 1,9 % le 18/11, à 276,05 cents la livre ; des exportations brésiliennes record en octobre (5,3 millions de sacs) pèsent, malgré des stocks certifiés ICE au plus bas depuis 27 ans (Trading Economics)."
+   "valeur": 275.5,
+   "date": "2026-11-19",
+   "var_1m": "-11,5 %",
+   "enjeu": "Exportation majeure de l'Éthiopie, de l'Ouganda (surtout du robusta, non coté ici), du Kenya et de la Tanzanie. L'arabica (ICE) est resté stable le 19/11, à 275,50 cents la livre, sous la pression de l'offre brésilienne : 246 647 sacs en attente de classement dans les entrepôts de l'ICE (plus haut depuis près de quatre ans), exportations record en octobre et récolte 2026-27 attendue à un record de 72,5 millions de sacs par l'USDA (Trading Economics)."
   }
  ],
  "taux": [
@@ -146,8 +146,8 @@
    "pays": "Afrique du Sud",
    "banque": "SARB",
    "taux": "7,25 %",
-   "derniere": "2026-09-23 (hausse de 25 pb)",
-   "prochaine": "2026-11-19"
+   "derniere": "2026-11-19 (maintien, vote à 4 contre 3, trois membres favorables à une hausse de 25 pb)",
+   "prochaine": "2027-01-28"
   },
   {
    "pays": "Ghana",
@@ -196,6 +196,20 @@
    "banque": "Bank Al-Maghrib",
    "taux": "2,25 %",
    "derniere": "2026-09-22 (maintien)",
+   "prochaine": null
+  },
+  {
+   "pays": "Maurice",
+   "banque": "Banque de Maurice",
+   "taux": "5 %",
+   "derniere": "novembre 2026 (hausse de 25 pb, la première depuis mai 2026)",
+   "prochaine": null
+  },
+  {
+   "pays": "Zambie",
+   "banque": "Banque de Zambie",
+   "taux": "10,75 %",
+   "derniere": "2026-09-30 (baisse de 250 pb)",
    "prochaine": null
   },
   {
@@ -256,31 +270,31 @@
    "url": "https://tradingeconomics.com/commodities"
   },
   {
-   "nom": "Trading Economics – or (18/11/2026)",
+   "nom": "Trading Economics – or (19-20/11/2026)",
    "url": "https://tradingeconomics.com/commodity/gold"
   },
   {
-   "nom": "Trading Economics – rand sud-africain (18/11/2026)",
+   "nom": "Trading Economics – rand sud-africain (19-20/11/2026)",
    "url": "https://tradingeconomics.com/south-africa/currency"
   },
   {
-   "nom": "Trading Economics – Brent (17-18/11/2026)",
+   "nom": "Trading Economics – Brent (19-20/11/2026)",
    "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
   },
   {
-   "nom": "Trading Economics – cacao (17/11/2026)",
+   "nom": "Trading Economics – cacao (19-20/11/2026)",
    "url": "https://tradingeconomics.com/commodity/cocoa"
   },
   {
-   "nom": "Trading Economics – cuivre (17-18/11/2026)",
+   "nom": "Trading Economics – cuivre (19-20/11/2026)",
    "url": "https://tradingeconomics.com/commodity/copper"
   },
   {
-   "nom": "Trading Economics – café arabica (17/11/2026)",
+   "nom": "Trading Economics – café arabica (19-20/11/2026)",
    "url": "https://tradingeconomics.com/commodity/coffee"
   },
   {
-   "nom": "Trading Economics – cobalt",
+   "nom": "Trading Economics – cobalt (19-20/11/2026)",
    "url": "https://tradingeconomics.com/commodity/cobalt"
   },
   {
@@ -394,6 +408,26 @@
   {
    "nom": "GBC – décision du MPC de la Banque du Ghana (18/11/2026)",
    "url": "https://www.gbcghanaonline.com/general-news/bog-cuts-policy-rate-by-300-basis-points-to-11-0-reaching-multi-decade-low/2026/"
+  },
+  {
+   "nom": "SARB – déclaration de politique monétaire de novembre 2026",
+   "url": "https://www.resbank.co.za/en/home/publications/publication-detail-pages/statements/monetary-policy-statements/2026/november"
+  },
+  {
+   "nom": "BusinessTech – attentes avant la décision de la SARB du 19/11 (17/11/2026)",
+   "url": "https://businesstech.co.za/news/finance/884684/what-to-expect-from-interest-rates-this-week/"
+  },
+  {
+   "nom": "Euro-rates.info – cours de référence BCE du 19/11/2026 (USD, ZAR)",
+   "url": "https://euro-rates.info/en/home/USD/2026-11-19"
+  },
+  {
+   "nom": "Trading Economics – taux directeur mauricien (11/11/2026)",
+   "url": "https://tradingeconomics.com/mauritius/interest-rate/news/600400"
+  },
+  {
+   "nom": "Trading Economics – taux directeur zambien (30/9/2026)",
+   "url": "https://tradingeconomics.com/zambia/interest-rate/news/588168"
   }
  ]
 }

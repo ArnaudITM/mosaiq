@@ -1,5 +1,5 @@
 {
-  "maj": "au 19 novembre 2026, 6h (heure de Paris) – classements recalculés à partir de l'édition précédente, en ajoutant Lakers-Hornets et Clippers-Jazz (nuit du 17 au 18, scores publiés par Land of Basketball) et neuf des douze matchs de la nuit du 18 au 19 (Land of Basketball, AP via Yahoo Sports, ESPN) ; Nuggets-Celtics (3h30), Kings-Suns et Lakers-Jazz (4h) sans score final publié à la rédaction, non comptés. Leaders arrêtés au 17 novembre (Basketball-Reference) ; moyennes des Français selon Land of Basketball, relevées le 19 novembre.",
+  "maj": "au 20 novembre 2026, 5h30 (heure de Paris) – classements recalculés à partir de l'édition précédente, en ajoutant les trois matchs manquants de la nuit du 18 au 19 (Nuggets-Celtics, Kings-Suns, Lakers-Jazz, scores de Land of Basketball) et trois des quatre matchs de la nuit du 19 au 20 (Spurs-Clippers selon l'AP via KSAT, Timberwolves-Knicks et Bucks-Trail Blazers selon SportBusy) ; Grizzlies-Warriors sans score final trouvé à la rédaction, non compté. Spurs et Lakers à égalité (13-3), ordre non départagé. Leaders arrêtés au 17 novembre (Basketball-Reference) ; moyennes des Français relevées le 19 novembre (Land of Basketball).",
   "est": [
     {
       "pos": 1,
@@ -16,10 +16,10 @@
       "equipe": "Celtics",
       "ville": "Boston",
       "v": 11,
-      "d": 3,
-      "pct": ".786",
-      "ecart": "1",
-      "serie": "D1"
+      "d": 4,
+      "pct": ".733",
+      "ecart": "1.5",
+      "serie": "D2"
     },
     {
       "pos": 3,
@@ -55,11 +55,11 @@
       "pos": 6,
       "equipe": "Knicks",
       "ville": "New York",
-      "v": 8,
+      "v": 9,
       "d": 6,
-      "pct": ".571",
-      "ecart": "4",
-      "serie": "V2"
+      "pct": ".600",
+      "ecart": "3.5",
+      "serie": "V3"
     },
     {
       "pos": 7,
@@ -146,10 +146,10 @@
       "equipe": "Bucks",
       "ville": "Milwaukee",
       "v": 1,
-      "d": 14,
-      "pct": ".067",
-      "ecart": "11.5",
-      "serie": "D11"
+      "d": 15,
+      "pct": ".063",
+      "ecart": "12",
+      "serie": "D12"
     }
   ],
   "ouest": [
@@ -158,20 +158,20 @@
       "equipe": "Lakers",
       "ville": "Los Angeles",
       "v": 13,
-      "d": 2,
-      "pct": ".867",
+      "d": 3,
+      "pct": ".813",
       "ecart": "-",
-      "serie": "V9"
+      "serie": "D1"
     },
     {
       "pos": 2,
       "equipe": "Spurs",
       "ville": "San Antonio",
-      "v": 12,
+      "v": 13,
       "d": 3,
-      "pct": ".800",
-      "ecart": "1",
-      "serie": "D1"
+      "pct": ".813",
+      "ecart": "-",
+      "serie": "V1"
     },
     {
       "pos": 3,
@@ -180,7 +180,7 @@
       "v": 12,
       "d": 4,
       "pct": ".750",
-      "ecart": "1.5",
+      "ecart": "1",
       "serie": "V1"
     },
     {
@@ -190,7 +190,7 @@
       "v": 11,
       "d": 4,
       "pct": ".733",
-      "ecart": "2",
+      "ecart": "1.5",
       "serie": "V4"
     },
     {
@@ -198,39 +198,39 @@
       "equipe": "Timberwolves",
       "ville": "Minnesota",
       "v": 11,
-      "d": 4,
-      "pct": ".733",
+      "d": 5,
+      "pct": ".688",
       "ecart": "2",
-      "serie": "V2"
+      "serie": "D1"
     },
     {
       "pos": 6,
       "equipe": "Trail Blazers",
       "ville": "Portland",
-      "v": 9,
+      "v": 10,
       "d": 5,
-      "pct": ".643",
-      "ecart": "3.5",
-      "serie": "D2"
+      "pct": ".667",
+      "ecart": "2.5",
+      "serie": "V1"
     },
     {
       "pos": 7,
+      "equipe": "Nuggets",
+      "ville": "Denver",
+      "v": 8,
+      "d": 5,
+      "pct": ".615",
+      "ecart": "3.5",
+      "serie": "V1"
+    },
+    {
+      "pos": 8,
       "equipe": "Thunder",
       "ville": "Oklahoma City",
       "v": 9,
       "d": 6,
       "pct": ".600",
-      "ecart": "4",
-      "serie": "D1"
-    },
-    {
-      "pos": 8,
-      "equipe": "Nuggets",
-      "ville": "Denver",
-      "v": 7,
-      "d": 5,
-      "pct": ".583",
-      "ecart": "4.5",
+      "ecart": "3.5",
       "serie": "D1"
     },
     {
@@ -240,7 +240,7 @@
       "v": 8,
       "d": 7,
       "pct": ".533",
-      "ecart": "5",
+      "ecart": "4.5",
       "serie": "V1"
     },
     {
@@ -250,18 +250,18 @@
       "v": 8,
       "d": 7,
       "pct": ".533",
-      "ecart": "5",
+      "ecart": "4.5",
       "serie": "D4"
     },
     {
       "pos": 11,
       "equipe": "Suns",
       "ville": "Phoenix",
-      "v": 6,
+      "v": 7,
       "d": 7,
-      "pct": ".462",
-      "ecart": "6",
-      "serie": "V1"
+      "pct": ".500",
+      "ecart": "5",
+      "serie": "V2"
     },
     {
       "pos": 12,
@@ -270,7 +270,7 @@
       "v": 5,
       "d": 11,
       "pct": ".313",
-      "ecart": "8.5",
+      "ecart": "8",
       "serie": "D1"
     },
     {
@@ -278,30 +278,30 @@
       "equipe": "Clippers",
       "ville": "Los Angeles",
       "v": 4,
-      "d": 9,
-      "pct": ".308",
+      "d": 10,
+      "pct": ".286",
       "ecart": "8",
-      "serie": "D1"
+      "serie": "D2"
     },
     {
       "pos": 14,
       "equipe": "Jazz",
       "ville": "Utah",
-      "v": 2,
+      "v": 3,
       "d": 13,
-      "pct": ".133",
-      "ecart": "11",
-      "serie": "V1"
+      "pct": ".188",
+      "ecart": "10",
+      "serie": "V2"
     },
     {
       "pos": 15,
       "equipe": "Kings",
       "ville": "Sacramento",
       "v": 1,
-      "d": 12,
-      "pct": ".077",
+      "d": 13,
+      "pct": ".071",
       "ecart": "11",
-      "serie": "D6"
+      "serie": "D7"
     }
   ],
   "leaders": {
@@ -407,13 +407,13 @@
       "joueur": "Victor Wembanyama",
       "equipe": "Spurs",
       "stats": "28,6 pts, 11,6 rbd, 4,3 contres (14 matchs)",
-      "texte": "Troisième marqueur de la NBA selon Basketball-Reference, il avait compté 25 points et 18 rebonds lors de la défaite face à Detroit (93-105) mardi, selon Land of Basketball. San Antonio (12-3), deuxième de l'Ouest, reçoit les Clippers dans la nuit de jeudi à vendredi (2h, heure de Paris), selon Basketball-Reference."
+      "texte": "Troisième marqueur de la NBA selon Basketball-Reference, il a compté 32 points (13 sur 26 au tir) et 11 rebonds lors de la victoire face aux Clippers (124-112) dans la nuit de jeudi à vendredi, avec 21 points et 12 passes de Stephon Castle, selon l'AP reprise par KSAT. San Antonio (13-3) rejoint les Lakers en tête de l'Ouest et reçoit La Nouvelle-Orléans dans la nuit de samedi à dimanche (2h, heure de Paris)."
     },
     {
       "joueur": "Rudy Gobert",
       "equipe": "Timberwolves",
       "stats": "7,6 pts, 11,1 rbd, 1,0 contre (14 matchs)",
-      "texte": "Minnesota (11-4), vainqueur de Portland à deux reprises en début de semaine, reçoit New York dans la nuit de jeudi à vendredi (2h, heure de Paris), selon Basketball-Reference."
+      "texte": "Minnesota, privé d'Anthony Edwards, a perdu 99-102 face à New York dans la nuit de jeudi à vendredi, selon SportBusy ; les Timberwolves (11-5) reçoivent Memphis dans la nuit de samedi à dimanche (2h, heure de Paris), selon Basketball-Reference."
     },
     {
       "joueur": "Nolan Traoré",
@@ -431,7 +431,7 @@
       "joueur": "Sidy Cissoko",
       "equipe": "Trail Blazers",
       "stats": "7,5 pts, 3,7 rbd, 1,9 pd (14 matchs)",
-      "texte": "Après deux défaites d'un rien à Minnesota en début de semaine, Portland (9-5) joue à Milwaukee dans la nuit de jeudi à vendredi (2h, heure de Paris), selon Basketball-Reference."
+      "texte": "Portland (10-5) s'est imposé 124-114 à Milwaukee dans la nuit de jeudi à vendredi, selon SportBusy, douzième défaite de suite pour les Bucks (1-15). Les Trail Blazers jouent à New York dans la nuit de samedi à dimanche (1h30, heure de Paris)."
     },
     {
       "joueur": "Bilal Coulibaly",
@@ -443,7 +443,7 @@
       "joueur": "Zaccharie Risacher",
       "equipe": "Mavericks",
       "stats": "8,8 pts, 4,8 rbd, 1,3 pd (14 matchs)",
-      "texte": "Dallas a battu Golden State, privé de Stephen Curry, 116-94 dans la nuit de mercredi à jeudi, selon ESPN et VAVEL, mettant fin à une série de trois défaites ; les Mavericks remontent à 8-7."
+      "texte": "Dallas a battu Golden State, privé de Stephen Curry, 116-94 dans la nuit de mercredi à jeudi, selon ESPN et VAVEL, mettant fin à une série de trois défaites ; les Mavericks remontent à 8-7. Ils reçoivent les Clippers dans la nuit de samedi à dimanche (2h, heure de Paris)."
     },
     {
       "joueur": "Tidjane Salaün",
@@ -453,41 +453,6 @@
     }
   ],
   "derniers": [
-    {
-      "date": "2026-11-17",
-      "dom": "Spurs",
-      "ext": "Pistons",
-      "score_dom": 93,
-      "score_ext": 105
-    },
-    {
-      "date": "2026-11-17",
-      "dom": "Raptors",
-      "ext": "Knicks",
-      "score_dom": 102,
-      "score_ext": 111
-    },
-    {
-      "date": "2026-11-17",
-      "dom": "Timberwolves",
-      "ext": "Trail Blazers",
-      "score_dom": 106,
-      "score_ext": 105
-    },
-    {
-      "date": "2026-11-17",
-      "dom": "Clippers",
-      "ext": "Jazz",
-      "score_dom": 107,
-      "score_ext": 132
-    },
-    {
-      "date": "2026-11-17",
-      "dom": "Lakers",
-      "ext": "Hornets",
-      "score_dom": 118,
-      "score_ext": 114
-    },
     {
       "date": "2026-11-18",
       "dom": "Nets",
@@ -550,33 +515,51 @@
       "ext": "Warriors",
       "score_dom": 116,
       "score_ext": 94
+    },
+    {
+      "date": "2026-11-18",
+      "dom": "Nuggets",
+      "ext": "Celtics",
+      "score_dom": 105,
+      "score_ext": 101
+    },
+    {
+      "date": "2026-11-18",
+      "dom": "Kings",
+      "ext": "Suns",
+      "score_dom": 107,
+      "score_ext": 128
+    },
+    {
+      "date": "2026-11-18",
+      "dom": "Lakers",
+      "ext": "Jazz",
+      "score_dom": 97,
+      "score_ext": 109
+    },
+    {
+      "date": "2026-11-19",
+      "dom": "Spurs",
+      "ext": "Clippers",
+      "score_dom": 124,
+      "score_ext": 112
+    },
+    {
+      "date": "2026-11-19",
+      "dom": "Timberwolves",
+      "ext": "Knicks",
+      "score_dom": 99,
+      "score_ext": 102
+    },
+    {
+      "date": "2026-11-19",
+      "dom": "Bucks",
+      "ext": "Trail Blazers",
+      "score_dom": 114,
+      "score_ext": 124
     }
   ],
   "a_venir": [
-    {
-      "date": "2026-11-20",
-      "heure_paris": "02:00",
-      "dom": "Grizzlies",
-      "ext": "Warriors"
-    },
-    {
-      "date": "2026-11-20",
-      "heure_paris": "02:00",
-      "dom": "Bucks",
-      "ext": "Trail Blazers"
-    },
-    {
-      "date": "2026-11-20",
-      "heure_paris": "02:00",
-      "dom": "Timberwolves",
-      "ext": "Knicks"
-    },
-    {
-      "date": "2026-11-20",
-      "heure_paris": "02:00",
-      "dom": "Spurs",
-      "ext": "Clippers"
-    },
     {
       "date": "2026-11-21",
       "heure_paris": "01:00",
@@ -630,9 +613,69 @@
       "heure_paris": "04:00",
       "dom": "Lakers",
       "ext": "Kings"
+    },
+    {
+      "date": "2026-11-21",
+      "heure_paris": "19:00",
+      "dom": "76ers",
+      "ext": "Bucks"
+    },
+    {
+      "date": "2026-11-22",
+      "heure_paris": "01:30",
+      "dom": "Knicks",
+      "ext": "Trail Blazers"
+    },
+    {
+      "date": "2026-11-22",
+      "heure_paris": "02:00",
+      "dom": "Mavericks",
+      "ext": "Clippers"
+    },
+    {
+      "date": "2026-11-22",
+      "heure_paris": "02:00",
+      "dom": "Timberwolves",
+      "ext": "Grizzlies"
+    },
+    {
+      "date": "2026-11-22",
+      "heure_paris": "02:00",
+      "dom": "Spurs",
+      "ext": "Pelicans"
+    },
+    {
+      "date": "2026-11-22",
+      "heure_paris": "04:00",
+      "dom": "Kings",
+      "ext": "Celtics"
     }
   ],
   "infos": [
+    {
+      "titre": "Wembanyama et San Antonio repartent",
+      "texte": "Les Spurs ont battu les Clippers 124-112 dans la nuit de jeudi à vendredi, deux jours après la fin de leur série de douze victoires face à Detroit : Victor Wembanyama a marqué 32 points et pris 11 rebonds, Stephon Castle a réussi un double-double (21 points, 12 passes), selon l'AP reprise par KSAT ; Darius Garland et Brook Lopez ont marqué 23 points chacun pour Los Angeles.",
+      "source": {
+        "nom": "KSAT (AP) – Spurs-Clippers 124-112",
+        "url": "https://www.ksat.com/sports/2026/11/20/wembanyama-and-castle-help-spurs-bounce-back-from-loss-to-pistons-and-beat-clippers-124-112/"
+      }
+    },
+    {
+      "titre": "New York gagne à Minnesota, Portland à Milwaukee",
+      "texte": "Les Knicks se sont imposés 102-99 chez des Timberwolves privés d'Anthony Edwards, et les Trail Blazers ont battu les Bucks 124-114, douzième défaite de suite pour Milwaukee (1-15), selon SportBusy.",
+      "source": {
+        "nom": "SportBusy – Knicks-Timberwolves",
+        "url": "https://www.sportbusy.com/games/nba/14315913-new-york-knicks-at-minnesota-timberwolves-2026-11-19/"
+      }
+    },
+    {
+      "titre": "Utah fait tomber les Lakers",
+      "texte": "Le Jazz a battu les Lakers 109-97 à Los Angeles dans la nuit de mercredi à jeudi, alors que les Lakers restaient sur neuf succès, avec 30 points et 10 passes de Keyonte George ; Denver a battu Boston 105-101 et Phoenix s'est imposé 128-107 à Sacramento malgré 36 points de Darius Acuff Jr., selon Land of Basketball.",
+      "source": {
+        "nom": "Land of Basketball – Résumé du 18 novembre 2026",
+        "url": "https://www.landofbasketball.com/nba_daily_summary/20261118.htm"
+      }
+    },
     {
       "titre": "Quentin Grimes, 47 points et dix paniers à trois points",
       "texte": "Les Lakers ont battu Charlotte 118-114 après prolongation dans la nuit de mardi à mercredi : Quentin Grimes a marqué 47 points, record personnel, dont 10 paniers à trois points, égalant une marque de Kobe Bryant pour la franchise, selon Yahoo Sports ; Luka Dončić a ajouté 36 points. Los Angeles (13-2) reste en tête de l'Ouest.",
@@ -660,22 +703,6 @@
     {
       "titre": "Philadelphie et Miami confirment",
       "texte": "Les 76ers ont gagné 121-116 à Orlando (26 points de Joel Embiid) et restent en tête de l'Est (13-3) ; Miami a battu Milwaukee 137-130 grâce à Giannis Antetokounmpo (27 points, 13 rebonds, 9 passes), sixième victoire de suite du Heat, et onzième défaite consécutive pour les Bucks, selon Land of Basketball.",
-      "source": {
-        "nom": "Land of Basketball – Résumé du 18 novembre 2026",
-        "url": "https://www.landofbasketball.com/nba_daily_summary/20261118.htm"
-      }
-    },
-    {
-      "titre": "Utah écrase les Clippers",
-      "texte": "Le Jazz s'est imposé 132-107 sur le terrain des Clippers dans la nuit de mardi à mercredi, avec 40 points et 11 rebonds de Brice Sensabaugh et 30 points et 11 passes de Keyonte George, selon Land of Basketball ; deuxième victoire de la saison pour Utah (2-13).",
-      "source": {
-        "nom": "Land of Basketball – Résumé du 17 novembre 2026",
-        "url": "https://www.landofbasketball.com/nba_daily_summary/20261117.htm"
-      }
-    },
-    {
-      "titre": "Memphis enchaîne à Cleveland",
-      "texte": "Les Grizzlies ont battu les Cavaliers 124-121 malgré les 34 points de Donovan Mitchell, quatrième victoire de suite pour Memphis (11-4) ; Houston a gagné 119-104 à Indiana et Chicago 137-107 à Brooklyn, selon Land of Basketball.",
       "source": {
         "nom": "Land of Basketball – Résumé du 18 novembre 2026",
         "url": "https://www.landofbasketball.com/nba_daily_summary/20261118.htm"
@@ -750,6 +777,18 @@
     {
       "nom": "VAVEL – Mavericks-Warriors",
       "url": "https://www.vavel.com/en-us/nba/2026/11/18/1279688-dallas-mavericks-vs-golden-state-warriors-live-score-nba.html"
+    },
+    {
+      "nom": "KSAT (AP) – Spurs-Clippers 124-112",
+      "url": "https://www.ksat.com/sports/2026/11/20/wembanyama-and-castle-help-spurs-bounce-back-from-loss-to-pistons-and-beat-clippers-124-112/"
+    },
+    {
+      "nom": "SportBusy – Knicks-Timberwolves",
+      "url": "https://www.sportbusy.com/games/nba/14315913-new-york-knicks-at-minnesota-timberwolves-2026-11-19/"
+    },
+    {
+      "nom": "SportBusy – Trail Blazers-Bucks",
+      "url": "https://www.sportbusy.com/games/nba/14315912-portland-trail-blazers-at-milwaukee-bucks-2026-11-19/"
     }
   ]
 }
