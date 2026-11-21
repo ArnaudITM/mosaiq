@@ -3,7 +3,7 @@
  "nom": "Liga",
  "pays": "Espagne",
  "saison": "2026-27",
- "maj": "après la 12e journée (8 novembre 2026)",
+ "maj": "13e journée en cours (match du 20 novembre)",
  "classement": [
   {
    "pos": 1,
@@ -80,14 +80,14 @@
   {
    "pos": 7,
    "club": "Athletic Bilbao",
-   "j": 11,
+   "j": 12,
    "g": 4,
    "n": 4,
-   "p": 3,
+   "p": 4,
    "bp": 15,
-   "bc": 11,
+   "bc": 12,
    "pts": 16,
-   "forme": "NDVVN"
+   "forme": "DVVND"
   },
   {
    "pos": 8,
@@ -115,6 +115,17 @@
   },
   {
    "pos": 10,
+   "club": "Espanyol",
+   "j": 13,
+   "g": 4,
+   "n": 3,
+   "p": 6,
+   "bp": 14,
+   "bc": 14,
+   "pts": 15
+  },
+  {
+   "pos": 11,
    "club": "Racing Santander",
    "j": 12,
    "g": 4,
@@ -126,7 +137,7 @@
    "forme": "NDVDV"
   },
   {
-   "pos": 11,
+   "pos": 12,
    "club": "Celta Vigo",
    "j": 12,
    "g": 2,
@@ -138,7 +149,7 @@
    "forme": "NVNDN"
   },
   {
-   "pos": 12,
+   "pos": 13,
    "club": "Alavés",
    "j": 12,
    "g": 3,
@@ -148,17 +159,6 @@
    "bc": 17,
    "pts": 13,
    "forme": "DDNDN"
-  },
-  {
-   "pos": 13,
-   "club": "Espanyol",
-   "j": 12,
-   "g": 3,
-   "n": 3,
-   "p": 6,
-   "bp": 13,
-   "bc": 14,
-   "pts": 12
   },
   {
    "pos": 14,
@@ -275,13 +275,13 @@
    "buts": 7
   },
   {
-   "joueur": "Fer Niño",
-   "club": "Elche",
-   "buts": 6
-  },
-  {
    "joueur": "Roberto Fernández",
    "club": "Espanyol",
+   "buts": 7
+  },
+  {
+   "joueur": "Fer Niño",
+   "club": "Elche",
    "buts": 6
   }
  ],
@@ -323,57 +323,12 @@
   }
  ],
  "derniere_journee": {
-  "label": "12e journée",
+  "label": "13e journée (en cours)",
   "matchs": [
    {
-    "dom": "Séville",
-    "ext": "Alavés",
-    "score": "0-0"
-   },
-   {
-    "dom": "Malaga",
-    "ext": "Racing Santander",
-    "score": "1-2"
-   },
-   {
-    "dom": "Espanyol",
-    "ext": "La Corogne",
-    "score": "0-0"
-   },
-   {
-    "dom": "Osasuna",
-    "ext": "Athletic Bilbao",
-    "score": "1-1"
-   },
-   {
-    "dom": "Valence",
-    "ext": "Real Madrid",
-    "score": "0-3"
-   },
-   {
-    "dom": "Elche",
-    "ext": "Betis",
-    "score": "0-2"
-   },
-   {
-    "dom": "Real Sociedad",
-    "ext": "Rayo Vallecano",
-    "score": "1-0"
-   },
-   {
-    "dom": "Villarreal",
-    "ext": "Getafe",
-    "score": "2-0"
-   },
-   {
-    "dom": "Celta Vigo",
-    "ext": "Levante",
-    "score": "0-0"
-   },
-   {
-    "dom": "Atlético",
-    "ext": "Barça",
-    "score": "1-2"
+    "dom": "Athletic Bilbao",
+    "ext": "Espanyol",
+    "score": "0-1"
    }
   ]
  },
@@ -462,6 +417,10 @@
   {
    "nom": "Futbol24 – Classement Primera División 2026/27",
    "url": "https://www.futbol24.com/national/Spain/Primera-Division/2026-2027/table"
+  },
+  {
+   "nom": "La Grada – Athletic 0-1 Espanyol (20 nov. 2026)",
+   "url": "https://lagrada.org/athletic-espanyol-cronica-jornada-13-laliga-26-27/"
   }
  ]
 }

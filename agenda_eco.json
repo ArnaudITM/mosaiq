@@ -1,43 +1,7 @@
 {
-  "semaine": "20 novembre – 3 décembre 2026",
+  "semaine": "21 novembre – 4 décembre 2026",
   "fuseau": "Heures de Paris (UTC+1). null = heure non confirmée par les sources consultées.",
   "evenements": [
-    {
-      "date": "2026-11-20",
-      "heure": "09:30",
-      "pays": "Zone euro",
-      "type": "banque centrale",
-      "titre": "Discours de Christine Lagarde au European Banking Congress, à Francfort",
-      "enjeu": "Intervention suivie après l'inflation de 4 % en octobre, à moins d'un mois de la réunion de politique monétaire des 16-17 décembre.",
-      "source": {
-        "nom": "BCE – calendrier hebdomadaire des activités publiques (13-22 nov.)",
-        "url": "https://www.ecb.europa.eu/press/calendars/weekly/html/index.en.html"
-      }
-    },
-    {
-      "date": "2026-11-20",
-      "heure": null,
-      "pays": "France",
-      "type": "politique",
-      "titre": "Début de l'examen du budget 2027 (PLF) en séance au Sénat (jusqu'au 8 décembre)",
-      "enjeu": "Le Sénat reprend le texte après son rejet par l'Assemblée nationale ; le vote solennel est prévu le 9 décembre.",
-      "source": {
-        "nom": "Public Sénat – calendrier budgétaire",
-        "url": "https://www.publicsenat.fr/actualites/politique/budget-2027-calendrier-49-3-ordonnancesquelles-sont-les-echeances-a-venir-et-les-scenarios-possibles"
-      }
-    },
-    {
-      "date": "2026-11-20",
-      "heure": null,
-      "pays": "Monde",
-      "type": "politique",
-      "titre": "Clôture prévue de la COP31 à Antalya (Turquie), ouverte le 9 novembre",
-      "enjeu": "Les négociations sur le financement climatique concernent directement les pays africains et les grands émetteurs.",
-      "source": {
-        "nom": "CCNUCC – informations pour les participants à la COP31",
-        "url": "https://unfccc.int/cop31/ifp"
-      }
-    },
     {
       "date": "2026-11-22",
       "heure": "22:45",
@@ -347,17 +311,21 @@
         "nom": "Banque du Botswana – calendrier du comité de politique monétaire",
         "url": "https://bankofbotswana.bw/content/monetary-policy-committee"
       }
-    }
-  ],
-  "hors_fenetre": [
+    },
     {
       "date": "2026-12-04",
-      "titre": "Rapport officiel sur l'emploi américain de novembre (Employment Situation), à 14:30 heure de Paris",
+      "heure": "14:30",
+      "pays": "États-Unis",
+      "type": "indicateur",
+      "titre": "Rapport officiel sur l'emploi de novembre (Employment Situation)",
+      "enjeu": "Dernier rapport sur l'emploi avant la réunion de la Fed du 9 décembre, pour laquelle les marchés anticipent largement une hausse de taux.",
       "source": {
         "nom": "Bureau of Labor Statistics – calendrier de décembre 2026",
         "url": "https://www.bls.gov/schedule/2026/12_sched_list.htm"
       }
-    },
+    }
+  ],
+  "hors_fenetre": [
     {
       "date": "2026-12-09",
       "titre": "Réunion de la Fed (hausse de taux largement anticipée) et comité de politique monétaire de la Banque centrale du Kenya",
@@ -391,5 +359,5 @@
       }
     }
   ],
-  "non_trouve": "Aucun rendez-vous sourcé pour les samedis 21 et 28 novembre. Décision de la SARB du 19/11 (maintien à 7,25 %) retirée de l'agenda et reportée dans les données des marchés africains ; Anthropic au Nasdaq et Walmart (19/11) retirés. Pour respecter la limite de trois rendez-vous par jour, ont été écartés : climat des affaires de l'Insee (20/11, 08:45), ventes au détail britanniques et confiance de l'université du Michigan (20/11), discours de Tiff Macklem (24/11), prix des logements anciens Insee (24/11), PMI manufacturiers définitifs mondiaux (1er/12, date déduite), inscriptions au chômage américaines (3/12) et résultats de Salesforce (2/12, date non confirmée). Valeur précédente de la confiance du Conference Board retirée faute de chiffre concordant entre lectures. Date de l'inflation allemande incertaine : 30/11 selon Lamera Capital, 27/11 selon FinanceCalendar. Non trouvés ou non vérifiés : réunion de l'OPEP+ élargie, date du comité de la BCEAO de décembre, autres banques centrales africaines (Mozambique, Zambie, Angola) dans la fenêtre, valeurs précédentes des ISM, Perspectives économiques de l'OCDE ; heures non confirmées pour la réunion OPEP+ (29/11) et la Banque du Botswana (3/12)."
+  "non_trouve": "Aucun rendez-vous sourcé pour les samedis et dimanches 21, 28 et 29 novembre hors réunion OPEP+ (29/11). Rendez-vous du 20/11 (discours de Christine Lagarde, début de l'examen du PLF 2027 au Sénat, clôture prévue de la COP31) retirés car passés. Pour respecter la limite de trois rendez-vous par jour, ont été écartés : discours de Tiff Macklem (24/11), prix des logements anciens Insee (24/11), PMI manufacturiers définitifs mondiaux (1er/12, date déduite), inscriptions au chômage américaines (3/12) et résultats de Salesforce (2/12, date non confirmée). Date de l'inflation allemande incertaine : 30/11 selon Lamera Capital, 27/11 selon FinanceCalendar. Heure d'annonce de la décision de la CBN non confirmée (réunion des 23 et 24/11, taux à 23 %, selon Sagagist). Non trouvés ou non vérifiés (quota de recherche épuisé lors de cette mise à jour) : date de l'Eurogroupe de décembre, agenda public de la BCE après le 22/11, réunion de l'OPEP+ élargie, date du comité de la BCEAO de décembre, autres banques centrales africaines (Mozambique, Zambie, Angola) dans la fenêtre, résultats d'entreprises confirmés, valeurs précédentes des ISM, Perspectives économiques de l'OCDE ; heures non confirmées pour la réunion OPEP+ (29/11) et la Banque du Botswana (3/12)."
 }

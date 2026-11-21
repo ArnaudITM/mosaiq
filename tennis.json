@@ -1,5 +1,5 @@
 {
-  "maj": "20 novembre 2026 – résultats de Turin jusqu'au jeudi 19 novembre inclus ; top 20 ATP/WTA et Français du top 50 au classement du 16 novembre (pas de nouveau classement publié depuis) ; Français classés au-delà du 50e rang : classement du 9 novembre (ATP) et du 5 novembre (WTA), non revérifiés.",
+  "maj": "21 novembre 2026 – résultats de Turin jusqu'au vendredi 20 novembre inclus (AP, ESPN) ; top 20 ATP/WTA et Français du top 50 au classement du 16 novembre (prochain classement ATP le 23 novembre) ; Français classés au-delà du 50e rang : classement du 9 novembre (ATP) et du 5 novembre (WTA), non revérifiés.",
   "atp": {
     "date": "16 novembre 2026",
     "top": [
@@ -350,7 +350,7 @@
         ]
       }
     ],
-    "groupes_note": "Tirage au sort effectué le jeudi 12 novembre à Turin ; les deux premiers de chaque groupe accèdent aux demi-finales. Groupe John McEnroe : Shelton bat Fils 6-2, 3-6, 6-3 et Zverev bat Jódar 6-4, 6-4 (15 nov.) ; Zverev bat Shelton 6-2, 7-6 (4) et Fils bat Jódar 4-6, 6-2, 6-2 (17 nov.). Le 19 novembre, Shelton bat Jódar en deux sets et Zverev bat Fils 6-4, 7-6 (6) : Zverev (3-0) termine 1er et Shelton 2e, Fils et Jódar éliminés, selon Tennis Majors. Groupe Ivan Lendl : Alcaraz bat Tiafoe 6-2, 6-2 et Medvedev bat Cobolli 7-6 (4), 6-3 (16 nov.) ; Alcaraz bat Medvedev 6-2, 6-4 et Tiafoe bat Cobolli 7-6 (6), 6-0 (18 nov.). Alcaraz (2-0) est qualifié et assuré de la 1re place, Cobolli éliminé ; vendredi 20 novembre, Medvedev-Tiafoe désignera le second qualifié, Alcaraz affrontant Cobolli, selon Tennis Majors.",
+    "groupes_note": "Tirage au sort effectué le jeudi 12 novembre à Turin ; les deux premiers de chaque groupe accèdent aux demi-finales. Groupe John McEnroe : Shelton bat Fils 6-2, 3-6, 6-3 et Zverev bat Jódar 6-4, 6-4 (15 nov.) ; Zverev bat Shelton 6-2, 7-6 (4) et Fils bat Jódar 4-6, 6-2, 6-2 (17 nov.). Le 19 novembre, Shelton bat Jódar en deux sets et Zverev bat Fils 6-4, 7-6 (6) : Zverev (3-0) termine 1er et Shelton 2e, Fils et Jódar éliminés, selon Tennis Majors. Groupe Ivan Lendl : Alcaraz bat Tiafoe 6-2, 6-2 et Medvedev bat Cobolli 7-6 (4), 6-3 (16 nov.) ; Alcaraz bat Medvedev 6-2, 6-4 et Tiafoe bat Cobolli 7-6 (6), 6-0 (18 nov.). Alcaraz (2-0) est qualifié et assuré de la 1re place, Cobolli éliminé ; vendredi 20 novembre, Medvedev-Tiafoe désignera le second qualifié, Alcaraz affrontant Cobolli, selon Tennis Majors. Vendredi 20 novembre, Alcaraz bat Cobolli 6-4, 6-1 et termine invaincu, Medvedev bat Tiafoe 6-3, 6-4 et prend la 2e place, selon l'AP reprise par Arab News : les quatre premières têtes de série sont en demi-finales, note ESPN.",
     "qualifies": [
       "Alexander Zverev",
       "Carlos Alcaraz",
@@ -367,15 +367,9 @@
     ],
     "programme": [
       {
-        "date": "20 novembre",
-        "matchs": [
-          "Medvedev-Tiafoe et Alcaraz-Cobolli (groupe Ivan Lendl ; horaires à confirmer)"
-        ]
-      },
-      {
         "date": "21 novembre",
         "matchs": [
-          "Demi-finales : Ben Shelton-Carlos Alcaraz et Alexander Zverev-vainqueur de Medvedev-Tiafoe (simples à 14h30 et 20h30, ordre à confirmer)"
+          "Demi-finales : Alexander Zverev-Daniil Medvedev et Carlos Alcaraz-Ben Shelton (simples à 14h30 et 20h30, ordre à confirmer)"
         ]
       },
       {
@@ -455,6 +449,20 @@
         "vainqueur": "Alexander Zverev",
         "perdant": "Arthur Fils",
         "score": "6-4, 7-6 (6)"
+      },
+      {
+        "date": "20 novembre 2026",
+        "groupe": "Ivan Lendl",
+        "vainqueur": "Carlos Alcaraz",
+        "perdant": "Flavio Cobolli",
+        "score": "6-4, 6-1"
+      },
+      {
+        "date": "20 novembre 2026",
+        "groupe": "Ivan Lendl",
+        "vainqueur": "Daniil Medvedev",
+        "perdant": "Frances Tiafoe",
+        "score": "6-3, 6-4"
       }
     ],
     "texte": "Arthur Fils est éliminé des ATP Finals : battu 6-4, 7-6 (6) par Alexander Zverev jeudi soir à Turin, le Français a sauvé cinq balles de match dans le jeu décisif, remporté 8-6 par l'Allemand, selon Tennis Majors. Zverev termine invaincu et sans perdre de set en tête du groupe John McEnroe ; Ben Shelton, vainqueur de Rafael Jódar en deux sets plus tôt dans la journée, prend la 2e place. Vendredi, Medvedev-Tiafoe désigne le second qualifié du groupe Ivan Lendl, déjà remporté par Carlos Alcaraz, qui affronte Cobolli. Demi-finales samedi 21 (Shelton-Alcaraz et Zverev-vainqueur de Medvedev-Tiafoe), finale dimanche 22 novembre à 18h. Le tournoi se joue sans le double tenant du titre Jannik Sinner, blessé au genou."
@@ -492,6 +500,14 @@
     }
   ],
   "infos": [
+    {
+      "titre": "Medvedev rejoint Zverev, Alcaraz invaincu",
+      "texte": "Daniil Medvedev a battu Frances Tiafoe 6-3, 6-4 vendredi à Turin et affrontera Alexander Zverev, n°1 mondial, en demi-finale samedi ; le Russe mène 14-8 dans leurs confrontations, selon ESPN. Tiafoe a écopé d'une pénalité pour dépassement du temps sur la balle de break du 5-4 au second set. Carlos Alcaraz a battu Flavio Cobolli 6-4, 6-1 et retrouve Ben Shelton, qui l'avait battu en quarts de finale de l'US Open, selon l'AP.",
+      "source": {
+        "nom": "ESPN – Medvedev bat Tiafoe",
+        "url": "https://www.espn.com/tennis/story/_/id/50544020/daniil-medvedev-defeats-frances-tiafoe-faces-alexander-zverev-atp-finals-semis"
+      }
+    },
     {
       "titre": "Alcaraz qualifié, Tiafoe élimine Cobolli",
       "texte": "Carlos Alcaraz a battu Daniil Medvedev 6-2, 6-4 mercredi et reste invaincu à Turin, selon l'ATP. Frances Tiafoe a ensuite battu Flavio Cobolli 7-6 (6), 6-0, sa première victoire dans l'épreuve, éliminant l'Italien devant son public ; selon Tennis Majors, Alcaraz termine 1er du groupe Ivan Lendl et le vainqueur de Medvedev-Tiafoe, vendredi, prendra la 2e place.",
@@ -558,6 +574,14 @@
     }
   ],
   "sources": [
+    {
+      "nom": "Arab News (AP) – demi-finales des ATP Finals",
+      "url": "https://arabnews.com/tennis/atp-finals-semis-are-set-alcaraz-vs-shelton-and-zverev-vs-medvedev-3013265"
+    },
+    {
+      "nom": "ESPN – Medvedev bat Tiafoe",
+      "url": "https://www.espn.com/tennis/story/_/id/50544020/daniil-medvedev-defeats-frances-tiafoe-faces-alexander-zverev-atp-finals-semis"
+    },
     {
       "nom": "Tennis Majors – Fils éliminé, Shelton en demi-finales",
       "url": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/fils-eliminated-shelton-into-the-atp-finals-semi-finals-after-zverev-takes-the-first-set-867361.html"

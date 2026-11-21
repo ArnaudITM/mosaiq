@@ -1,433 +1,445 @@
 {
- "maj": "Derniers cours disponibles au 20 novembre 2026 vers 5 h 30 (Paris) : rand et franc CFA (cours BCE), or, Brent, cuivre, cacao et café arabica au jeudi 19/11 ; livre égyptienne au 18/11 ; naira, cedi et dirham au 17/11 ; cobalt au 18/11 ; shilling kényan, birr et shilling tanzanien entre le 5 et le 10/11 (non actualisés). Taux directeurs : la SARB a maintenu son taux à 7,25 % le 19/11 (vote à 4 contre 3) ; la CBN se réunit les 23 et 24/11.",
- "convention": "Cours en unités de monnaie locale pour 1 dollar. La variation sur un mois est négative quand la monnaie locale s'est affaiblie face au dollar.",
- "devises": [
-  {
-   "code": "NGN",
-   "nom": "naira nigérian",
-   "pays": "Nigeria",
-   "usd": 1363.0,
-   "date": "2026-11-17",
-   "var_1m": "-2,2 %",
-   "note": "Clôture officielle NAFEM du mardi 17/11 (1 363, contre 1 360 le 16/11) selon les données de la CBN reprises par Arbiterz, comparée à la clôture du 9 octobre (1 332,49). Marché parallèle autour de 1 453 nairas le 18/11."
-  },
-  {
-   "code": "ZAR",
-   "nom": "rand sud-africain",
-   "pays": "Afrique du Sud",
-   "usd": 17.28,
-   "date": "2026-11-19",
-   "var_1m": "-6,3 %",
-   "note": "Cours croisé BCE du 19/11 (17,2806 rands pour 1 dollar, contre 17,2226 le 18/11). Après le maintien du taux de la SARB à 7,25 %, le rand a reculé vers 17,3 par dollar, près de son plus bas depuis novembre 2025, sous l'effet de la vigueur du dollar, du repli des métaux précieux et d'incertitudes sur la coalition au pouvoir après les élections locales, selon Trading Economics, qui le cotait à 17,48 en fin de journée. Variation sur un mois déduite de la hausse de 6,7 % de l'USD/ZAR indiquée par Trading Economics le 19/11."
-  },
-  {
-   "code": "GHS",
-   "nom": "cedi ghanéen",
-   "pays": "Ghana",
-   "usd": 11.74,
-   "date": "2026-11-17",
-   "var_1m": "+0,5 %",
-   "note": "Cours interbancaire de la Banque du Ghana du 17/11 selon ModernGhana, comparé à 11,80 le 12 octobre ; les bureaux de change vendent le dollar autour de 12,35 cedis. Selon des données de la Banque du Ghana citées par Citi Newsroom, le cedi a perdu 10,6 % face au dollar depuis le début de l'année."
-  },
-  {
-   "code": "KES",
-   "nom": "shilling kényan",
-   "pays": "Kenya",
-   "usd": 129.96,
-   "date": "2026-11-05",
-   "var_1m": null,
-   "note": "Bulletin hebdomadaire de la CBK, cours inchangé depuis le 29 octobre. Aucun cours de mi-octobre n'a été sourcé."
-  },
-  {
-   "code": "EGP",
-   "nom": "livre égyptienne",
-   "pays": "Égypte",
-   "usd": 53.82,
-   "date": "2026-11-18",
-   "var_1m": "-2,6 %",
-   "note": "Moyenne achat/vente de la Banque centrale d'Égypte (53,75/53,88) du mercredi 18/11 selon Youm7, comparée à la clôture Yahoo Finance du 12/10 (52,39). La livre a touché environ 56 fin octobre."
-  },
-  {
-   "code": "MAD",
-   "nom": "dirham marocain",
-   "pays": "Maroc",
-   "usd": 9.97,
-   "date": "2026-11-17",
-   "var_1m": null,
-   "note": "Cours de virement moyen de Bank Al-Maghrib du 17/11 (9,9700 ; 9,9638 la veille). L'euro s'échangeait à 10,9623 dirhams. Le dirham est rattaché à un panier euro/dollar."
-  },
-  {
-   "code": "XOF",
-   "nom": "franc CFA (UEMOA)",
-   "pays": "Bénin, Burkina Faso, Côte d'Ivoire, Guinée-Bissau, Mali, Niger, Sénégal, Togo",
-   "usd": 596.79,
-   "date": "2026-11-19",
-   "var_1m": "-2,3 %",
-   "note": "Calculé à partir de la parité fixe de 655,957 FCFA pour 1 euro et du cours de référence BCE du 19/11 (environ 1,0991 $ pour 1 euro, soit 0,9098 euro pour 1 dollar), contre 1,1253 le 16/10. Le franc CFA suit donc l'euro face au dollar."
-  },
-  {
-   "code": "ETB",
-   "nom": "birr éthiopien",
-   "pays": "Éthiopie",
-   "usd": 159.71,
-   "date": "2026-11-10",
-   "var_1m": "-0,6 %",
-   "note": "Taux moyen pondéré de l'enchère de change n° 32 de la NBE. La variation compare les taux marginaux (158,17 le 13/10, 159,19 le 10/11), seule comparaison disponible."
-  },
-  {
-   "code": "TZS",
-   "nom": "shilling tanzanien",
-   "pays": "Tanzanie",
-   "usd": 2640.44,
-   "date": "2026-11-06",
-   "var_1m": null,
-   "note": "Rapport hebdomadaire de la Banque de Tanzanie : cours quasi stable sur une semaine (2 640,73 auparavant). Pas de variation sur un mois sourcée."
-  }
- ],
- "matieres": [
-  {
-   "nom": "Cacao",
-   "unite": "USD/t",
-   "valeur": 5169,
-   "date": "2026-11-19",
-   "var_1m": "-10,9 %",
-   "enjeu": "Premier produit d'exportation de la Côte d'Ivoire et du Ghana, qui fournissent ensemble plus de la moitié du cacao mondial (le prix bord-champ ivoirien est fixé à 1 200 FCFA/kg). Le cours a rebondi de 3,3 % le 19/11, à 5 169 dollars la tonne, après être tombé vers 5 000 dollars la veille, proche de ses niveaux de juin : les stocks surveillés par l'ICE atteignent un plus haut de deux ans et demi (3,8 millions de sacs) et les fonds indiciels allègent leurs positions avant le rééquilibrage de début 2027, tandis qu'un fort El Niño pourrait assécher l'Afrique de l'Ouest et offre un soutien à moyen terme (Trading Economics). Cours CFD."
-  },
-  {
-   "nom": "Or",
-   "unite": "USD/once",
-   "valeur": 3626.07,
-   "date": "2026-11-19",
-   "var_1m": "-14,4 %",
-   "enjeu": "Ressource clé du Ghana, du Mali, du Burkina Faso, de l'Afrique du Sud et du Soudan. L'once est passée sous 3 700 dollars le 19/11, au plus bas depuis septembre 2025, après un compte rendu de la Fed montrant que presque tous les responsables soutiennent de nouvelles hausses de taux ; les marchés jugent probable à 90 % une hausse de 25 points de base en décembre (Trading Economics). Valeur de la veille indiquée par Trading Economics le 20/11, où l'once reculait encore vers 3 550 dollars. Variation sur un mois calculée par Trading Economics le 20/11."
-  },
-  {
-   "nom": "Pétrole Brent",
-   "unite": "USD/baril",
-   "valeur": 91.98,
-   "date": "2026-11-19",
-   "var_1m": "-14,9 %",
-   "enjeu": "La recette de l'Angola, de l'Algérie, du Nigeria, de la Libye, du Gabon et du Congo recule sur un mois. Le Brent s'est stabilisé autour de 92 dollars le 19/11 et se dirige vers une troisième baisse hebdomadaire : l'offre abondante (flux record par le détroit d'Ormuz selon le secrétaire américain à l'Énergie, excédent mondial d'environ 2 millions de barils par jour ce trimestre selon l'AIE) l'emporte sur le risque de nouvelles frappes américaines contre l'Iran (Trading Economics). La facture des importateurs (Kenya, Éthiopie, Maroc…) s'allège. Valeur de la veille indiquée par Trading Economics le 20/11 ; variation sur un mois calculée par Trading Economics le 20/11."
-  },
-  {
-   "nom": "Cuivre (COMEX)",
-   "unite": "USD/livre",
-   "valeur": 5.63,
-   "date": "2026-11-19",
-   "var_1m": "-15,7 %",
-   "enjeu": "Principal moteur des exportations de la Zambie et de la RD Congo. Le contrat à terme est tombé sous 5,70 dollars la livre, au plus bas depuis sept mois : les investisseurs se détournent des métaux liés aux infrastructures d'IA, craignant un ralentissement des centres de données, la production industrielle chinoise déçoit et les stocks du LME atteignent environ 320 000 tonnes (Trading Economics). Valeur de la veille (5,63) indiquée par Trading Economics le 20/11, où le cuivre reculait encore à 5,51 ; variation sur un mois calculée par Trading Economics le 20/11."
-  },
-  {
-   "nom": "Cobalt",
-   "unite": "USD/t",
-   "valeur": 33525,
-   "date": "2026-11-18",
-   "var_1m": "-6,1 %",
-   "enjeu": "La RD Congo assure environ trois quarts de l'offre mondiale. Le cours est stable à 33 525 dollars la tonne, environ 31 % sous son niveau d'il y a un an, pénalisé par la faiblesse de l'électronique grand public chinoise ; des spéculations sur de nouvelles restrictions d'exportation congolaises entretiennent l'incertitude (Trading Economics)."
-  },
-  {
-   "nom": "Café arabica",
-   "unite": "cents US/livre",
-   "valeur": 275.5,
-   "date": "2026-11-19",
-   "var_1m": "-11,5 %",
-   "enjeu": "Exportation majeure de l'Éthiopie, de l'Ouganda (surtout du robusta, non coté ici), du Kenya et de la Tanzanie. L'arabica (ICE) est resté stable le 19/11, à 275,50 cents la livre, sous la pression de l'offre brésilienne : 246 647 sacs en attente de classement dans les entrepôts de l'ICE (plus haut depuis près de quatre ans), exportations record en octobre et récolte 2026-27 attendue à un record de 72,5 millions de sacs par l'USDA (Trading Economics)."
-  }
- ],
- "taux": [
-  {
-   "pays": "Nigeria",
-   "banque": "CBN",
-   "taux": "23 %",
-   "derniere": "septembre 2026 (baisse depuis 26,5 %)",
-   "prochaine": "2026-11-23/24"
-  },
-  {
-   "pays": "Afrique du Sud",
-   "banque": "SARB",
-   "taux": "7,25 %",
-   "derniere": "2026-11-19 (maintien, vote à 4 contre 3, trois membres favorables à une hausse de 25 pb)",
-   "prochaine": "2027-01-28"
-  },
-  {
-   "pays": "Ghana",
-   "banque": "Banque du Ghana",
-   "taux": "11 %",
-   "derniere": "2026-11-18 (baisse de 300 pb, plus bas depuis plusieurs décennies)",
-   "prochaine": null
-  },
-  {
-   "pays": "Kenya",
-   "banque": "CBK",
-   "taux": "8,75 %",
-   "derniere": "2026-10-07 (maintien)",
-   "prochaine": "2026-12-09"
-  },
-  {
-   "pays": "Égypte",
-   "banque": "Banque centrale d'Égypte",
-   "taux": "20 % (dépôt au jour le jour)",
-   "derniere": "2026-10-29 (hausse de 100 pb, la première depuis mars 2024)",
-   "prochaine": "2026-12-17"
-  },
-  {
-   "pays": "Éthiopie",
-   "banque": "Banque nationale d'Éthiopie",
-   "taux": "16 %",
-   "derniere": "2026-11-03 (maintien)",
-   "prochaine": null
-  },
-  {
-   "pays": "UEMOA",
-   "banque": "BCEAO",
-   "taux": "3 %",
-   "derniere": "2026-09-09 (maintien)",
-   "prochaine": null
-  },
-  {
-   "pays": "CEMAC",
-   "banque": "BEAC",
-   "taux": "4,50 %",
-   "derniere": "2026-09-28 (maintien)",
-   "prochaine": null
-  },
-  {
-   "pays": "Maroc",
-   "banque": "Bank Al-Maghrib",
-   "taux": "2,25 %",
-   "derniere": "2026-09-22 (maintien)",
-   "prochaine": null
-  },
-  {
-   "pays": "Maurice",
-   "banque": "Banque de Maurice",
-   "taux": "5 %",
-   "derniere": "novembre 2026 (hausse de 25 pb, la première depuis mai 2026)",
-   "prochaine": null
-  },
-  {
-   "pays": "Zambie",
-   "banque": "Banque de Zambie",
-   "taux": "10,75 %",
-   "derniere": "2026-09-30 (baisse de 250 pb)",
-   "prochaine": null
-  },
-  {
-   "pays": "Ouganda",
-   "banque": "Banque d'Ouganda",
-   "taux": "12 %",
-   "derniere": "2026-11-09 (maintien ; taux d'escompte relevé à 17 %)",
-   "prochaine": null
-  }
- ],
- "sources": [
-  {
-   "nom": "WithinNigeria – naira NFEM et marché parallèle (14/11/2026)",
-   "url": "https://www.withinnigeria.com/2026/11/14/dollar-to-naira-today-november-14-2026-nfem-rate-near-%E2%82%A61358-as-black-market-climbs-to-%E2%82%A61445/"
-  },
-  {
-   "nom": "WithinNigeria – cours NFEM du 9/10/2026",
-   "url": "https://www.withinnigeria.com/2026/10/12/dollar-to-naira-today-october-12-2026-nfem-holds-near-%E2%82%A61332-while-black-market-quotes-%E2%82%A61380/"
-  },
-  {
-   "nom": "Nairametrics – cedi (10/11/2026)",
-   "url": "https://nairametrics.com/2026/11/10/ghanaian-cedi-appreciates-against-dollar-as-exchange-rates-fluctuate/"
-  },
-  {
-   "nom": "ModernGhana – cedi au 12/10/2026",
-   "url": "https://www.modernghana.com/news/1535344/october-12-cedi-sells-at-ghs1230-on-forex-market.html"
-  },
-  {
-   "nom": "KDRTV – shilling kényan (bulletin CBK)",
-   "url": "https://www.kdrtv.co.ke/business/kenyan-shilling-remains-stable-at-ksh129-96-against-dollar-as-pound-hits-ksh175/"
-  },
-  {
-   "nom": "Cairo Mubasher – dollar/livre au 11/11/2026",
-   "url": "https://www.cairomubasher.com/252115"
-  },
-  {
-   "nom": "Yahoo Finance – historique USD/EGP",
-   "url": "https://finance.yahoo.com/quote/EGP%3DX/history/"
-  },
-  {
-   "nom": "Bank Al-Maghrib – cours de virement",
-   "url": "https://www.bkam.ma/en/Markets/Key-indicators/Foreign-exchange-market/Foreign-exchange-rates/Transfer-exchange-rate"
-  },
-  {
-   "nom": "BCE – cours de référence EUR/USD",
-   "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html"
-  },
-  {
-   "nom": "Capital Ethiopia – enchère NBE du 10/11/2026",
-   "url": "https://capitalethiopia.com/2026/11/10/dollar-demand-outstrips-supply-as-birr-weakens-further-in-nbes-latest-auction/"
-  },
-  {
-   "nom": "TanzaniaInvest – semaine au 6/11/2026",
-   "url": "https://www.tanzaniainvest.com/finance/capitalmarkets/financial-markets-report-6-november-2026"
-  },
-  {
-   "nom": "Trading Economics – matières premières",
-   "url": "https://tradingeconomics.com/commodities"
-  },
-  {
-   "nom": "Trading Economics – or (19-20/11/2026)",
-   "url": "https://tradingeconomics.com/commodity/gold"
-  },
-  {
-   "nom": "Trading Economics – rand sud-africain (19-20/11/2026)",
-   "url": "https://tradingeconomics.com/south-africa/currency"
-  },
-  {
-   "nom": "Trading Economics – Brent (19-20/11/2026)",
-   "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
-  },
-  {
-   "nom": "Trading Economics – cacao (19-20/11/2026)",
-   "url": "https://tradingeconomics.com/commodity/cocoa"
-  },
-  {
-   "nom": "Trading Economics – cuivre (19-20/11/2026)",
-   "url": "https://tradingeconomics.com/commodity/copper"
-  },
-  {
-   "nom": "Trading Economics – café arabica (19-20/11/2026)",
-   "url": "https://tradingeconomics.com/commodity/coffee"
-  },
-  {
-   "nom": "Trading Economics – cobalt (19-20/11/2026)",
-   "url": "https://tradingeconomics.com/commodity/cobalt"
-  },
-  {
-   "nom": "Bankygate – cours de la Banque centrale d'Égypte (16/11/2026)",
-   "url": "https://www.bankygate.com/en/Banky/Currencies"
-  },
-  {
-   "nom": "Enterprise – hausse des taux de la CBE et prochaine réunion le 17/12",
-   "url": "https://enterpriseam.com/egypt/2026/11/01/cbe-hikes-for-the-first-time-since-march-2024-raising-rates-100-bps-and-moving-its-inflation-target-to-4q-2027/"
-  },
-  {
-   "nom": "Trading Economics – taux directeur éthiopien (3/11/2026)",
-   "url": "https://tradingeconomics.com/ethiopia/interest-rate/news/597637"
-  },
-  {
-   "nom": "Banque du Ghana – déclaration du gouverneur au Parlement (6/11/2026)",
-   "url": "https://www.bog.gov.gh/wp-content/uploads/2026/11/Statement-by-Governor-Dr-Johnson-Pandit-Asiama-at-the-Meeting-with-Parliamentary-Committee-on-Economy-and-Development-061126.pdf"
-  },
-  {
-   "nom": "BusinessTech – attentes avant la décision de la SARB (27/10/2026)",
-   "url": "https://businesstech.co.za/news/?p=881553"
-  },
-  {
-   "nom": "Mansa Markets – cacao",
-   "url": "https://www.mansamarkets.com/commodities/cocoa"
-  },
-  {
-   "nom": "Sagagist – réunion du CPM de la CBN",
-   "url": "https://www.sagagist.com.ng/2026/11/cbn-announces-date-to-decide-on.html"
-  },
-  {
-   "nom": "Business News South Africa – SARB",
-   "url": "https://businessnewssouthafrica.co.za/markets-finance/economists-expect-sarb-rate-hike-in-november-despite-fuel-tax-relief/"
-  },
-  {
-   "nom": "Banque du Ghana – communiqué du MPC de septembre 2026",
-   "url": "https://www.bog.gov.gh/wp-content/uploads/2026/09/MPC-Press-Release-September-2026.pdf"
-  },
-  {
-   "nom": "CBK – communiqué du MPC du 7/10/2026",
-   "url": "https://www.centralbank.go.ke/uploads/mpc_press_release/224745454_MPC%20Press%20Release%20-%20Meeting%20of%20October%207%202026.pdf"
-  },
-  {
-   "nom": "Business Recorder – prochaine réunion de la CBK le 9/12",
-   "url": "https://www.brecorder.com/news/40448406/kenya-central-bank-to-hold-next-interest-rate-setting-meeting-on-december-9"
-  },
-  {
-   "nom": "Trading Economics – taux directeur égyptien (fil d'actualité)",
-   "url": "https://tradingeconomics.com/egypt/interest-rate/news/552849"
-  },
-  {
-   "nom": "Financial Afrik – BCEAO (9/9/2026)",
-   "url": "https://www.financialafrik.com/2026/09/09/uemoa-la-bceao-maintient-ses-taux-directeurs-linflation-attendue-a-1-en-2026/"
-  },
-  {
-   "nom": "Gabon Media Time – BEAC (28/9/2026)",
-   "url": "https://gabonmediatime.com/cemac-la-beac-opte-pour-le-statu-quo-et-garde-son-taux-directeur-a-450/"
-  },
-  {
-   "nom": "TelQuel – Bank Al-Maghrib (22/9/2026)",
-   "url": "https://telquel.ma/instant-t/2026/09/22/bank-al-maghrib-maintient-son-taux-directeur-a-225_2008947"
-  },
-  {
-   "nom": "Ecofin Agency – Banque d'Ouganda",
-   "url": "https://www.ecofinagency.com/news-finances/1011-60669-uganda-holds-key-rate-at-12-raises-bank-rate-to-17"
-  },
-  {
-   "nom": "Kitco – rapport de clôture du 16/11/2026 (Brent, or)",
-   "url": "https://www.kitco.com/news/article/2026-11-16/gold-silver-extend-losses-tech-selloff-dollar-pressure-metals-kitco-pm"
-  },
-  {
-   "nom": "GoldSeek – règlement de l'or Comex du 16/11/2026",
-   "url": "https://goldseek.com/article/comex-gold-settles-083-lower-384740"
-  },
-  {
-   "nom": "Arbiterz – naira NAFEM du 17/11/2026",
-   "url": "https://arbiterz.com/naira-dollar-rate-today-november-18-2026-naira-weakens-to-n1363-at-nafem/"
-  },
-  {
-   "nom": "Euro-rates.info – cours de référence BCE du 18/11/2026 (USD, ZAR)",
-   "url": "https://euro-rates.info/en/home/USD/2026-11-18"
-  },
-  {
-   "nom": "CNBC Africa – inflation sud-africaine d'octobre et attentes avant la SARB (18/11/2026)",
-   "url": "https://www.cnbcafrica.com/2026/south-africa-inflation-accelerates-to-5-2-y-y-in-october-as-expected"
-  },
-  {
-   "nom": "ModernGhana – cedi au 17/11/2026",
-   "url": "https://www.modernghana.com/news/1545244/november-17-cedi-sells-at-ghs1235-on-forex-marke.html"
-  },
-  {
-   "nom": "Citi Newsroom – dépréciation du cedi (18/11/2026)",
-   "url": "https://www.citinewsroom.com/2026/11/cedi-depreciation-reaches-10-6-in-november-bog-data/"
-  },
-  {
-   "nom": "Youm7 – cours du dollar à la Banque centrale d'Égypte (18/11/2026)",
-   "url": "https://www.youm7.com/story/2026/11/18/53-77-%D8%AC%D9%86%D9%8A%D9%87-%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D9%81%D9%89-%D8%A8%D9%86%D9%83-%D9%85%D8%B5%D8%B1-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A3%D8%B1%D8%A8%D8%B9%D8%A7%D8%A1/7623862"
-  },
-  {
-   "nom": "Kitco – rapport de clôture du 18/11/2026 (or, Brent)",
-   "url": "https://www.kitco.com/news/article/2026-11-18/gold-plunges-below-3750-silver-tumbles-hawkish-fed-minutes-pressure-metals"
-  },
-  {
-   "nom": "CappNotes – clôtures du 18/11/2026 (cuivre)",
-   "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-18"
-  },
-  {
-   "nom": "Citi Newsroom – la Banque du Ghana abaisse son taux à 11 % (18/11/2026)",
-   "url": "https://www.citinewsroom.com/2026/11/bog-cuts-policy-rate-by-300-basis-points-to-11/"
-  },
-  {
-   "nom": "GBC – décision du MPC de la Banque du Ghana (18/11/2026)",
-   "url": "https://www.gbcghanaonline.com/general-news/bog-cuts-policy-rate-by-300-basis-points-to-11-0-reaching-multi-decade-low/2026/"
-  },
-  {
-   "nom": "SARB – déclaration de politique monétaire de novembre 2026",
-   "url": "https://www.resbank.co.za/en/home/publications/publication-detail-pages/statements/monetary-policy-statements/2026/november"
-  },
-  {
-   "nom": "BusinessTech – attentes avant la décision de la SARB du 19/11 (17/11/2026)",
-   "url": "https://businesstech.co.za/news/finance/884684/what-to-expect-from-interest-rates-this-week/"
-  },
-  {
-   "nom": "Euro-rates.info – cours de référence BCE du 19/11/2026 (USD, ZAR)",
-   "url": "https://euro-rates.info/en/home/USD/2026-11-19"
-  },
-  {
-   "nom": "Trading Economics – taux directeur mauricien (11/11/2026)",
-   "url": "https://tradingeconomics.com/mauritius/interest-rate/news/600400"
-  },
-  {
-   "nom": "Trading Economics – taux directeur zambien (30/9/2026)",
-   "url": "https://tradingeconomics.com/zambia/interest-rate/news/588168"
-  }
- ]
+  "maj": "Derniers cours disponibles au samedi 21 novembre 2026 vers 5 h 30 (Paris) : rand et franc CFA (cours de référence BCE), or, Brent, cuivre et cacao au vendredi 20/11 ; dirham, cobalt et café arabica au jeudi 19/11 ; livre égyptienne au 18/11 ; naira et cedi au 17/11 ; shilling kényan au 12/11 ; birr et shilling tanzanien au 10/11 et au 6/11 (non actualisés). Taux directeurs : la SARB a maintenu son taux à 7,25 % le 19/11 ; la CBN se réunit les 23 et 24/11.",
+  "convention": "Cours en unités de monnaie locale pour 1 dollar. La variation sur un mois est négative quand la monnaie locale s'est affaiblie face au dollar.",
+  "devises": [
+    {
+      "code": "NGN",
+      "nom": "naira nigérian",
+      "pays": "Nigeria",
+      "usd": 1363.0,
+      "date": "2026-11-17",
+      "var_1m": "-2,2 %",
+      "note": "Clôture officielle NAFEM du mardi 17/11 (1 363, contre 1 360 le 16/11) selon les données de la CBN reprises par Arbiterz, comparée à la clôture du 9 octobre (1 332,49). Marché parallèle autour de 1 453 nairas le 18/11. Les sources divergent sur la clôture du 17/11 : TechEconomy indique 1 358,09 nairas (taux NFEM attribué à la CBN). Aucune clôture du 18 au 20/11 n'a été trouvée."
+    },
+    {
+      "code": "ZAR",
+      "nom": "rand sud-africain",
+      "pays": "Afrique du Sud",
+      "usd": 17.47,
+      "date": "2026-11-20",
+      "var_1m": "-6,2 %",
+      "note": "Cours croisé BCE du vendredi 20/11 (19,1987 rands pour 1 euro et 1,0990 dollar pour 1 euro, soit 17,47 rands pour 1 dollar, contre 17,28 le 19/11). Le 19/11, le rand a touché 17,48 par dollar, son plus bas depuis novembre 2025, après le maintien du taux de la SARB à 7,25 % par 4 voix contre 3, sur fond de vigueur du dollar et d'incertitudes politiques après les élections locales, selon Trading Economics, qui le cotait vers 17,45 le 20/11. Variation sur un mois déduite de la hausse d'environ 6,6 % de l'USD/ZAR indiquée par Trading Economics le 20/11."
+    },
+    {
+      "code": "GHS",
+      "nom": "cedi ghanéen",
+      "pays": "Ghana",
+      "usd": 11.74,
+      "date": "2026-11-17",
+      "var_1m": "+0,5 %",
+      "note": "Cours interbancaire de la Banque du Ghana du 17/11 selon ModernGhana, comparé à 11,80 le 12 octobre ; les bureaux de change vendent le dollar autour de 12,35 cedis. Selon des données de la Banque du Ghana citées par Citi Newsroom, le cedi a perdu 10,6 % face au dollar depuis le début de l'année."
+    },
+    {
+      "code": "KES",
+      "nom": "shilling kényan",
+      "pays": "Kenya",
+      "usd": 129.96,
+      "date": "2026-11-12",
+      "var_1m": "0,0 %",
+      "note": "Bulletin hebdomadaire de la CBK (semaine close le 13/11) : 129,96 shillings pour 1 dollar le 12/11, inchangé sur une semaine et contre 129,95 le 30/10. Pas de cours plus récent sourcé."
+    },
+    {
+      "code": "EGP",
+      "nom": "livre égyptienne",
+      "pays": "Égypte",
+      "usd": 53.82,
+      "date": "2026-11-18",
+      "var_1m": "-2,6 %",
+      "note": "Moyenne achat/vente de la Banque centrale d'Égypte (53,75/53,88) du mercredi 18/11 selon Youm7, comparée à la clôture Yahoo Finance du 12/10 (52,39). La livre a touché environ 56 fin octobre."
+    },
+    {
+      "code": "MAD",
+      "nom": "dirham marocain",
+      "pays": "Maroc",
+      "usd": 9.95,
+      "date": "2026-11-19",
+      "var_1m": null,
+      "note": "Cours de virement moyen de Bank Al-Maghrib du 19/11 (9,9548, contre 9,9700 le 17/11). L'euro s'échangeait à 10,9461 dirhams. Le dirham est rattaché à un panier euro/dollar."
+    },
+    {
+      "code": "XOF",
+      "nom": "franc CFA (UEMOA)",
+      "pays": "Bénin, Burkina Faso, Côte d'Ivoire, Guinée-Bissau, Mali, Niger, Sénégal, Togo",
+      "usd": 596.87,
+      "date": "2026-11-20",
+      "var_1m": "-2,2 %",
+      "note": "Calculé à partir de la parité fixe de 655,957 FCFA pour 1 euro et du cours de référence BCE du 20/11 (1,0990 $ pour 1 euro), contre 1,1234 le 21/10. Le franc CFA suit l'euro face au dollar."
+    },
+    {
+      "code": "ETB",
+      "nom": "birr éthiopien",
+      "pays": "Éthiopie",
+      "usd": 159.71,
+      "date": "2026-11-10",
+      "var_1m": "-0,6 %",
+      "note": "Taux moyen pondéré de l'enchère de change n° 32 de la NBE. La variation compare les taux marginaux (158,17 le 13/10, 159,19 le 10/11), seule comparaison disponible."
+    },
+    {
+      "code": "TZS",
+      "nom": "shilling tanzanien",
+      "pays": "Tanzanie",
+      "usd": 2640.44,
+      "date": "2026-11-06",
+      "var_1m": null,
+      "note": "Rapport hebdomadaire de la Banque de Tanzanie : cours quasi stable sur une semaine (2 640,73 auparavant). Pas de variation sur un mois sourcée."
+    }
+  ],
+  "matieres": [
+    {
+      "nom": "Cacao",
+      "unite": "USD/t",
+      "valeur": 5294,
+      "date": "2026-11-20",
+      "var_1m": "-9,4 %",
+      "enjeu": "Premier produit d'exportation de la Côte d'Ivoire et du Ghana, qui fournissent ensemble plus de la moitié du cacao mondial (le prix bord-champ ivoirien est fixé à 1 200 FCFA/kg). Le cours a de nouveau progressé le 20/11 (+1,8 %, à environ 5 294 dollars la tonne) après être tombé vers 5 000 dollars le 18/11, proche de ses niveaux de juin : les stocks de l'ICE continuent d'augmenter et les grands indices de matières premières (S&P GSCI, Bloomberg Commodity Index) vont réduire leur exposition au cacao lors du rééquilibrage de 2027 ; un épisode El Niño susceptible d'affecter les récoltes ouest-africaines offre un soutien à moyen terme (Trading Economics). Cours CFD."
+    },
+    {
+      "nom": "Or",
+      "unite": "USD/once",
+      "valeur": 3535.0,
+      "date": "2026-11-20",
+      "var_1m": "-14,6 %",
+      "enjeu": "Ressource clé du Ghana, du Mali, du Burkina Faso, de l'Afrique du Sud et du Soudan. L'once a reculé de 2,5 % le 20/11, vers 3 535-3 540 dollars, au plus bas depuis septembre 2025, sous l'effet de perspectives de resserrement de la Fed, d'un dollar plus fort et de craintes inflationnistes ; les marchés anticipent très largement une hausse de 25 points de base des taux américains en décembre (Trading Economics). Variation sur un mois calculée par Trading Economics."
+    },
+    {
+      "nom": "Pétrole Brent",
+      "unite": "USD/baril",
+      "valeur": 92.57,
+      "date": "2026-11-20",
+      "var_1m": "-14,9 %",
+      "enjeu": "La recette de l'Angola, de l'Algérie, du Nigeria, de la Libye, du Gabon et du Congo recule sur un mois. Le Brent, passé sous 92 dollars en séance le 20/11, se dirige vers une troisième baisse hebdomadaire consécutive : l'offre abondante (flux record par le détroit d'Ormuz, excédent mondial d'environ 2 millions de barils par jour ce trimestre selon l'AIE, risque de surplus l'an prochain selon Goldman Sachs) l'emporte sur les informations faisant état d'une possible nouvelle frappe américaine contre l'Iran (Trading Economics). La facture des importateurs (Kenya, Éthiopie, Maroc…) s'allège. Cours CFD indiqué par Trading Economics le 20/11 (+0,6 % sur la journée)."
+    },
+    {
+      "nom": "Cuivre (COMEX)",
+      "unite": "USD/livre",
+      "valeur": 5.49,
+      "date": "2026-11-20",
+      "var_1m": "-16,2 %",
+      "enjeu": "Principal moteur des exportations de la Zambie et de la RD Congo. Le contrat à terme a encore reculé d'environ 2,6 % le 20/11, vers 5,49 dollars la livre (5,46 selon une autre mention de la même page), au plus bas depuis plus de sept mois : inquiétudes sur la demande des centres de données liés à l'IA et production industrielle chinoise décevante, la faiblesse des stocks de la Bourse de Shanghai limitant la baisse (Trading Economics)."
+    },
+    {
+      "nom": "Cobalt",
+      "unite": "USD/t",
+      "valeur": 33525,
+      "date": "2026-11-19",
+      "var_1m": "-3,2 %",
+      "enjeu": "La RD Congo assure environ trois quarts de l'offre mondiale. Le cours est stable à 33 525 dollars la tonne (inchangé le 19/11), environ 31 % sous son niveau d'il y a un an, pénalisé par la faiblesse de l'électronique grand public chinoise ; des spéculations sur de nouvelles restrictions d'exportation congolaises entretiennent l'incertitude (Trading Economics). Variation sur un mois calculée par Trading Economics le 20/11."
+    },
+    {
+      "nom": "Café arabica",
+      "unite": "cents US/livre",
+      "valeur": 276.0,
+      "date": "2026-11-19",
+      "var_1m": "-11,3 %",
+      "enjeu": "Exportation majeure de l'Éthiopie, de l'Ouganda (surtout du robusta, non coté ici), du Kenya et de la Tanzanie. L'arabica (ICE) a terminé quasi stable le 19/11 (+0,2 %, à 276 cents la livre), sous la pression de l'offre brésilienne : café en attente de classement dans les entrepôts de l'ICE au plus haut depuis près de quatre ans et production brésilienne 2026-27 relevée à un record par l'USDA (Trading Economics)."
+    }
+  ],
+  "taux": [
+    {
+      "pays": "Nigeria",
+      "banque": "CBN",
+      "taux": "23 %",
+      "derniere": "septembre 2026 (baisse depuis 26,5 %)",
+      "prochaine": "2026-11-23/24"
+    },
+    {
+      "pays": "Afrique du Sud",
+      "banque": "SARB",
+      "taux": "7,25 %",
+      "derniere": "2026-11-19 (maintien, vote à 4 contre 3, trois membres favorables à une hausse de 25 pb)",
+      "prochaine": "2027-01-28"
+    },
+    {
+      "pays": "Ghana",
+      "banque": "Banque du Ghana",
+      "taux": "11 %",
+      "derniere": "2026-11-18 (baisse de 300 pb, plus bas depuis plusieurs décennies)",
+      "prochaine": null
+    },
+    {
+      "pays": "Kenya",
+      "banque": "CBK",
+      "taux": "8,75 %",
+      "derniere": "2026-10-07 (maintien)",
+      "prochaine": "2026-12-09"
+    },
+    {
+      "pays": "Égypte",
+      "banque": "Banque centrale d'Égypte",
+      "taux": "20 % (dépôt au jour le jour)",
+      "derniere": "2026-10-29 (hausse de 100 pb, la première depuis mars 2024)",
+      "prochaine": "2026-12-17"
+    },
+    {
+      "pays": "Éthiopie",
+      "banque": "Banque nationale d'Éthiopie",
+      "taux": "16 %",
+      "derniere": "2026-11-03 (maintien)",
+      "prochaine": null
+    },
+    {
+      "pays": "UEMOA",
+      "banque": "BCEAO",
+      "taux": "3 %",
+      "derniere": "2026-09-09 (maintien)",
+      "prochaine": null
+    },
+    {
+      "pays": "CEMAC",
+      "banque": "BEAC",
+      "taux": "4,50 %",
+      "derniere": "2026-09-28 (maintien)",
+      "prochaine": null
+    },
+    {
+      "pays": "Maroc",
+      "banque": "Bank Al-Maghrib",
+      "taux": "2,25 %",
+      "derniere": "2026-09-22 (maintien)",
+      "prochaine": null
+    },
+    {
+      "pays": "Maurice",
+      "banque": "Banque de Maurice",
+      "taux": "5 %",
+      "derniere": "novembre 2026 (hausse de 25 pb, la première depuis mai 2026)",
+      "prochaine": null
+    },
+    {
+      "pays": "Zambie",
+      "banque": "Banque de Zambie",
+      "taux": "10,75 %",
+      "derniere": "2026-09-30 (baisse de 250 pb)",
+      "prochaine": null
+    },
+    {
+      "pays": "Ouganda",
+      "banque": "Banque d'Ouganda",
+      "taux": "12 %",
+      "derniere": "2026-11-09 (maintien ; taux d'escompte relevé à 17 %)",
+      "prochaine": null
+    }
+  ],
+  "sources": [
+    {
+      "nom": "WithinNigeria – naira NFEM et marché parallèle (14/11/2026)",
+      "url": "https://www.withinnigeria.com/2026/11/14/dollar-to-naira-today-november-14-2026-nfem-rate-near-%E2%82%A61358-as-black-market-climbs-to-%E2%82%A61445/"
+    },
+    {
+      "nom": "WithinNigeria – cours NFEM du 9/10/2026",
+      "url": "https://www.withinnigeria.com/2026/10/12/dollar-to-naira-today-october-12-2026-nfem-holds-near-%E2%82%A61332-while-black-market-quotes-%E2%82%A61380/"
+    },
+    {
+      "nom": "Nairametrics – cedi (10/11/2026)",
+      "url": "https://nairametrics.com/2026/11/10/ghanaian-cedi-appreciates-against-dollar-as-exchange-rates-fluctuate/"
+    },
+    {
+      "nom": "ModernGhana – cedi au 12/10/2026",
+      "url": "https://www.modernghana.com/news/1535344/october-12-cedi-sells-at-ghs1230-on-forex-market.html"
+    },
+    {
+      "nom": "KDRTV – shilling kényan (bulletin CBK)",
+      "url": "https://www.kdrtv.co.ke/business/kenyan-shilling-remains-stable-at-ksh129-96-against-dollar-as-pound-hits-ksh175/"
+    },
+    {
+      "nom": "Cairo Mubasher – dollar/livre au 11/11/2026",
+      "url": "https://www.cairomubasher.com/252115"
+    },
+    {
+      "nom": "Yahoo Finance – historique USD/EGP",
+      "url": "https://finance.yahoo.com/quote/EGP%3DX/history/"
+    },
+    {
+      "nom": "Bank Al-Maghrib – cours de virement du 19/11/2026",
+      "url": "https://www.bkam.ma/en/Markets/Key-indicators/Foreign-exchange-market/Foreign-exchange-rates/Transfer-exchange-rate"
+    },
+    {
+      "nom": "BCE – cours de référence EUR/USD",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html"
+    },
+    {
+      "nom": "Capital Ethiopia – enchère NBE du 10/11/2026",
+      "url": "https://capitalethiopia.com/2026/11/10/dollar-demand-outstrips-supply-as-birr-weakens-further-in-nbes-latest-auction/"
+    },
+    {
+      "nom": "TanzaniaInvest – semaine au 6/11/2026",
+      "url": "https://www.tanzaniainvest.com/finance/capitalmarkets/financial-markets-report-6-november-2026"
+    },
+    {
+      "nom": "Trading Economics – matières premières",
+      "url": "https://tradingeconomics.com/commodities"
+    },
+    {
+      "nom": "Trading Economics – or (20/11/2026)",
+      "url": "https://tradingeconomics.com/commodity/gold"
+    },
+    {
+      "nom": "Trading Economics – rand sud-africain (20/11/2026)",
+      "url": "https://tradingeconomics.com/south-africa/currency"
+    },
+    {
+      "nom": "Trading Economics – Brent (20/11/2026)",
+      "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+    },
+    {
+      "nom": "Trading Economics – cacao (20/11/2026)",
+      "url": "https://tradingeconomics.com/commodity/cocoa"
+    },
+    {
+      "nom": "Trading Economics – cuivre (20/11/2026)",
+      "url": "https://tradingeconomics.com/commodity/copper"
+    },
+    {
+      "nom": "Trading Economics – café arabica (19/11/2026)",
+      "url": "https://tradingeconomics.com/commodity/coffee"
+    },
+    {
+      "nom": "Trading Economics – cobalt (19/11/2026)",
+      "url": "https://tradingeconomics.com/commodity/cobalt"
+    },
+    {
+      "nom": "Bankygate – cours de la Banque centrale d'Égypte (16/11/2026)",
+      "url": "https://www.bankygate.com/en/Banky/Currencies"
+    },
+    {
+      "nom": "Enterprise – hausse des taux de la CBE et prochaine réunion le 17/12",
+      "url": "https://enterpriseam.com/egypt/2026/11/01/cbe-hikes-for-the-first-time-since-march-2024-raising-rates-100-bps-and-moving-its-inflation-target-to-4q-2027/"
+    },
+    {
+      "nom": "Trading Economics – taux directeur éthiopien (3/11/2026)",
+      "url": "https://tradingeconomics.com/ethiopia/interest-rate/news/597637"
+    },
+    {
+      "nom": "Banque du Ghana – déclaration du gouverneur au Parlement (6/11/2026)",
+      "url": "https://www.bog.gov.gh/wp-content/uploads/2026/11/Statement-by-Governor-Dr-Johnson-Pandit-Asiama-at-the-Meeting-with-Parliamentary-Committee-on-Economy-and-Development-061126.pdf"
+    },
+    {
+      "nom": "BusinessTech – attentes avant la décision de la SARB (27/10/2026)",
+      "url": "https://businesstech.co.za/news/?p=881553"
+    },
+    {
+      "nom": "Mansa Markets – cacao",
+      "url": "https://www.mansamarkets.com/commodities/cocoa"
+    },
+    {
+      "nom": "Sagagist – réunion du CPM de la CBN",
+      "url": "https://www.sagagist.com.ng/2026/11/cbn-announces-date-to-decide-on.html"
+    },
+    {
+      "nom": "Business News South Africa – SARB",
+      "url": "https://businessnewssouthafrica.co.za/markets-finance/economists-expect-sarb-rate-hike-in-november-despite-fuel-tax-relief/"
+    },
+    {
+      "nom": "Banque du Ghana – communiqué du MPC de septembre 2026",
+      "url": "https://www.bog.gov.gh/wp-content/uploads/2026/09/MPC-Press-Release-September-2026.pdf"
+    },
+    {
+      "nom": "CBK – communiqué du MPC du 7/10/2026",
+      "url": "https://www.centralbank.go.ke/uploads/mpc_press_release/224745454_MPC%20Press%20Release%20-%20Meeting%20of%20October%207%202026.pdf"
+    },
+    {
+      "nom": "Business Recorder – prochaine réunion de la CBK le 9/12",
+      "url": "https://www.brecorder.com/news/40448406/kenya-central-bank-to-hold-next-interest-rate-setting-meeting-on-december-9"
+    },
+    {
+      "nom": "Trading Economics – taux directeur égyptien (fil d'actualité)",
+      "url": "https://tradingeconomics.com/egypt/interest-rate/news/552849"
+    },
+    {
+      "nom": "Financial Afrik – BCEAO (9/9/2026)",
+      "url": "https://www.financialafrik.com/2026/09/09/uemoa-la-bceao-maintient-ses-taux-directeurs-linflation-attendue-a-1-en-2026/"
+    },
+    {
+      "nom": "Gabon Media Time – BEAC (28/9/2026)",
+      "url": "https://gabonmediatime.com/cemac-la-beac-opte-pour-le-statu-quo-et-garde-son-taux-directeur-a-450/"
+    },
+    {
+      "nom": "TelQuel – Bank Al-Maghrib (22/9/2026)",
+      "url": "https://telquel.ma/instant-t/2026/09/22/bank-al-maghrib-maintient-son-taux-directeur-a-225_2008947"
+    },
+    {
+      "nom": "Ecofin Agency – Banque d'Ouganda",
+      "url": "https://www.ecofinagency.com/news-finances/1011-60669-uganda-holds-key-rate-at-12-raises-bank-rate-to-17"
+    },
+    {
+      "nom": "Kitco – rapport de clôture du 16/11/2026 (Brent, or)",
+      "url": "https://www.kitco.com/news/article/2026-11-16/gold-silver-extend-losses-tech-selloff-dollar-pressure-metals-kitco-pm"
+    },
+    {
+      "nom": "GoldSeek – règlement de l'or Comex du 16/11/2026",
+      "url": "https://goldseek.com/article/comex-gold-settles-083-lower-384740"
+    },
+    {
+      "nom": "Arbiterz – naira NAFEM du 17/11/2026",
+      "url": "https://arbiterz.com/naira-dollar-rate-today-november-18-2026-naira-weakens-to-n1363-at-nafem/"
+    },
+    {
+      "nom": "Euro-rates.info – cours de référence BCE du 18/11/2026 (USD, ZAR)",
+      "url": "https://euro-rates.info/en/home/USD/2026-11-18"
+    },
+    {
+      "nom": "CNBC Africa – inflation sud-africaine d'octobre et attentes avant la SARB (18/11/2026)",
+      "url": "https://www.cnbcafrica.com/2026/south-africa-inflation-accelerates-to-5-2-y-y-in-october-as-expected"
+    },
+    {
+      "nom": "ModernGhana – cedi au 17/11/2026",
+      "url": "https://www.modernghana.com/news/1545244/november-17-cedi-sells-at-ghs1235-on-forex-marke.html"
+    },
+    {
+      "nom": "Citi Newsroom – dépréciation du cedi (18/11/2026)",
+      "url": "https://www.citinewsroom.com/2026/11/cedi-depreciation-reaches-10-6-in-november-bog-data/"
+    },
+    {
+      "nom": "Youm7 – cours du dollar à la Banque centrale d'Égypte (18/11/2026)",
+      "url": "https://www.youm7.com/story/2026/11/18/53-77-%D8%AC%D9%86%D9%8A%D9%87-%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D9%81%D9%89-%D8%A8%D9%86%D9%83-%D9%85%D8%B5%D8%B1-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A3%D8%B1%D8%A8%D8%B9%D8%A7%D8%A1/7623862"
+    },
+    {
+      "nom": "Kitco – rapport de clôture du 18/11/2026 (or, Brent)",
+      "url": "https://www.kitco.com/news/article/2026-11-18/gold-plunges-below-3750-silver-tumbles-hawkish-fed-minutes-pressure-metals"
+    },
+    {
+      "nom": "CappNotes – clôtures du 18/11/2026 (cuivre)",
+      "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-18"
+    },
+    {
+      "nom": "Citi Newsroom – la Banque du Ghana abaisse son taux à 11 % (18/11/2026)",
+      "url": "https://www.citinewsroom.com/2026/11/bog-cuts-policy-rate-by-300-basis-points-to-11/"
+    },
+    {
+      "nom": "GBC – décision du MPC de la Banque du Ghana (18/11/2026)",
+      "url": "https://www.gbcghanaonline.com/general-news/bog-cuts-policy-rate-by-300-basis-points-to-11-0-reaching-multi-decade-low/2026/"
+    },
+    {
+      "nom": "SARB – déclaration de politique monétaire de novembre 2026",
+      "url": "https://www.resbank.co.za/en/home/publications/publication-detail-pages/statements/monetary-policy-statements/2026/november"
+    },
+    {
+      "nom": "BusinessTech – attentes avant la décision de la SARB du 19/11 (17/11/2026)",
+      "url": "https://businesstech.co.za/news/finance/884684/what-to-expect-from-interest-rates-this-week/"
+    },
+    {
+      "nom": "Euro-rates.info – cours de référence BCE du 19/11/2026 (USD, ZAR)",
+      "url": "https://euro-rates.info/en/home/USD/2026-11-19"
+    },
+    {
+      "nom": "Trading Economics – taux directeur mauricien (11/11/2026)",
+      "url": "https://tradingeconomics.com/mauritius/interest-rate/news/600400"
+    },
+    {
+      "nom": "Trading Economics – taux directeur zambien (30/9/2026)",
+      "url": "https://tradingeconomics.com/zambia/interest-rate/news/588168"
+    },
+    {
+      "nom": "BCE – cours de référence du 20/11/2026 (USD, ZAR)",
+      "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+    },
+    {
+      "nom": "CBK – bulletin hebdomadaire (semaine close le 13/11/2026)",
+      "url": "https://www.centralbank.go.ke/uploads/weekly_bulletin/816739182_Weekly%20Bulletin%20Week%20Ending%20November%2013,%202026.pdf"
+    },
+    {
+      "nom": "TechEconomy – naira NFEM du 17/11/2026",
+      "url": "https://techeconomy.ng/dollar-to-naira-exchange-rate-today-november-18-2026"
+    }
+  ]
 }

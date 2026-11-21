@@ -1,5 +1,5 @@
 {
- "maj": "20 novembre 2026",
+ "maj": "21 novembre 2026",
  "fenetre": "Mercato d'hiver : ouverture le 1er janvier 2027 (dates selon les pays)",
  "dates_fenetre": [
   {
@@ -33,6 +33,92 @@
  ],
  "items": [
   {
+   "joueur": "Thibaut Courtois",
+   "de": "Real Madrid",
+   "vers": "Real Madrid",
+   "championnat": "liga",
+   "type": "prolongation",
+   "statut": "officiel",
+   "texte": "Le Real Madrid a annoncé vendredi 20 novembre, par un communiqué officiel, la prolongation du gardien belge de 34 ans jusqu'en juin 2028, rapporte Maxifoot.",
+   "source": {
+    "nom": "Maxifoot",
+    "url": "https://news.maxifoot.fr/real/courtois-a-bien-prolonge-off-foot-468006.htm"
+   },
+   "date": "2026-11-20"
+  },
+  {
+   "joueur": "Xavi Espart",
+   "de": "Barça",
+   "vers": "Barça",
+   "championnat": "liga",
+   "type": "prolongation",
+   "statut": "officiel",
+   "texte": "Le FC Barcelone a officialisé vendredi 20 novembre la prolongation du latéral droit de 19 ans jusqu'en juin 2030, selon Maxifoot ; il compte 8 matchs et 1 but en Liga cette saison.",
+   "source": {
+    "nom": "Maxifoot",
+    "url": "https://news.maxifoot.fr/barca/espart-a-prolonge-officiel-foot-468016.htm"
+   },
+   "date": "2026-11-20"
+  },
+  {
+   "joueur": "Abdelhamid Aït Boudlal",
+   "de": "Rennes",
+   "vers": "Rennes",
+   "championnat": "ligue-1",
+   "type": "prolongation",
+   "statut": "avancé",
+   "texte": "Selon L'Équipe, cité par Maxifoot, le défenseur central de 20 ans a trouvé un accord avec le Stade Rennais pour prolonger jusqu'en juin 2030 ; la signature serait imminente.",
+   "source": {
+    "nom": "Maxifoot (d'après L'Équipe)",
+    "url": "https://news.maxifoot.fr/rennes/ait-boudlal-va-bien-prolonger-foot-468000.htm"
+   },
+   "date": "2026-11-20"
+  },
+  {
+   "joueur": "Federico Valverde",
+   "de": "Real Madrid",
+   "vers": "Real Madrid",
+   "championnat": "liga",
+   "type": "prolongation",
+   "statut": "avancé",
+   "texte": "Selon AS, cité par Maxifoot, le milieu uruguayen de 28 ans aurait un accord total avec le Real Madrid pour prolonger jusqu'en juin 2031 ; son contrat actuel court jusqu'en juin 2029. Aucune annonce officielle à ce stade.",
+   "source": {
+    "nom": "Maxifoot (d'après AS)",
+    "url": "https://news.maxifoot.fr/real/valverde-bientot-blinde-foot-467985.htm"
+   },
+   "date": "2026-11-20"
+  },
+  {
+   "joueur": "Nico Paz",
+   "de": "Côme",
+   "vers": "Real Madrid",
+   "championnat": "serie-a",
+   "type": "transfert",
+   "statut": "rumeur",
+   "montant": "option de rachat estimée à 80 M€ (selon Maxifoot)",
+   "texte": "Selon la Cadena COPE, citée par Maxifoot, le Real Madrid veut faire revenir l'été prochain le milieu argentin de 22 ans (10 matchs, 3 buts en Serie A), dont Côme a acheté 50 % des droits l'été dernier ; le joueur pourrait demander des garanties de temps de jeu.",
+   "source": {
+    "nom": "Maxifoot (d'après la Cadena COPE)",
+    "url": "https://news.maxifoot.fr/come/le-real-a-tranche-pour-paz-foot-467986.htm"
+   },
+   "date": "2026-11-20"
+  },
+  {
+   "joueur": "Pierre-Emile Højbjerg",
+   "de": "OM",
+   "vers": "Juventus",
+   "championnat": "ligue-1",
+   "type": "prêt",
+   "statut": "rumeur",
+   "montant": "environ 15 M€ (option ou obligation d'achat, selon La Gazzetta dello Sport)",
+   "texte": "Selon La Gazzetta dello Sport, citée par Maxifoot vendredi 20 novembre, la Juventus envisage pour janvier un prêt du milieu danois de 31 ans avec option ou obligation d'achat conditionnelle. Bruno Genesio souhaite le garder au moins jusqu'à la fin de la saison et l'accord de l'OM n'est pas acquis.",
+   "source": {
+    "nom": "Maxifoot (d'après La Gazzetta dello Sport)",
+    "url": "https://news.maxifoot.fr/juve/la-formule-envisagee-pour-hojbjerg-foot-468005.htm"
+   },
+   "date": "2026-11-20"
+  },
+  {
    "joueur": "Aurélien Tchouaméni",
    "de": "Real Madrid",
    "vers": "Real Madrid",
@@ -45,49 +131,6 @@
     "url": "https://news.maxifoot.fr/real/tchouameni-a-prolonge-officiel-foot-467959.htm"
    },
    "date": "2026-11-19"
-  },
-  {
-   "joueur": "Vitor Matos",
-   "de": "Swansea",
-   "vers": "Strasbourg",
-   "championnat": "ligue-1",
-   "type": "entraîneur",
-   "statut": "officiel",
-   "montant": "environ 6 M€ d'indemnité pour Swansea (selon Maxifoot)",
-   "texte": "Strasbourg a officialisé mercredi 18 novembre la nomination de l'entraîneur portugais, quelques minutes après avoir annoncé le départ de Hugo Oliveira, rapporte Maxifoot. Il dirigera son premier match samedi face à Brest, lors de la 11e journée de Ligue 1.",
-   "source": {
-    "nom": "Maxifoot",
-    "url": "https://news.maxifoot.fr/strasbourg/matos-sur-le-banc-officiel-foot-467927.htm"
-   },
-   "date": "2026-11-18"
-  },
-  {
-   "joueur": "Arda Güler",
-   "de": "Real Madrid",
-   "vers": "Real Madrid",
-   "championnat": "liga",
-   "type": "prolongation",
-   "statut": "officiel",
-   "texte": "Le Real Madrid a annoncé mercredi 18 novembre la prolongation du milieu turc de 21 ans jusqu'en 2032, rapporte Maxifoot ; son précédent contrat courait jusqu'en 2029.",
-   "source": {
-    "nom": "Maxifoot",
-    "url": "https://news.maxifoot.fr/real/guler-prolonge-jusqu-en-2032-off-foot-467909.htm"
-   },
-   "date": "2026-11-18"
-  },
-  {
-   "joueur": "Amadou Onana",
-   "de": "Aston Villa",
-   "vers": "Aston Villa",
-   "championnat": "premier-league",
-   "type": "prolongation",
-   "statut": "officiel",
-   "texte": "Aston Villa a annoncé mercredi 18 novembre que le milieu belge de 25 ans avait signé un nouveau contrat, sans en communiquer la durée, selon Maxifoot.",
-   "source": {
-    "nom": "Maxifoot",
-    "url": "https://news.maxifoot.fr/aston-villa/prolongation-pour-onana-officiel-foot-467911.htm"
-   },
-   "date": "2026-11-18"
   },
   {
    "joueur": "Jude Bellingham",
@@ -133,20 +176,6 @@
    "date": "2026-11-19"
   },
   {
-   "joueur": "Pierre-Emile Højbjerg",
-   "de": "OM",
-   "vers": "Juventus",
-   "championnat": "ligue-1",
-   "type": "transfert",
-   "statut": "rumeur",
-   "texte": "Selon RMC, cité par Maxifoot jeudi 19 novembre, l'OM n'a pas donné son accord à un départ du milieu danois de 31 ans et Bruno Genesio souhaite le garder au moins jusqu'à la fin de la saison ; la Juventus et la Fiorentina sont citées. La Gazzetta dello Sport affirmait le 17 novembre que la Juventus poussait pour un recrutement dès janvier.",
-   "source": {
-    "nom": "Maxifoot (d'après RMC)",
-    "url": "https://www.maxifoot.fr/football/article-66608.htm"
-   },
-   "date": "2026-11-19"
-  },
-  {
    "joueur": "Igor Paixão",
    "de": "OM",
    "vers": null,
@@ -175,45 +204,17 @@
    "date": "2026-11-19"
   },
   {
-   "joueur": "Marquinhos",
-   "de": "PSG",
-   "vers": "PSG",
+   "joueur": "Vitor Matos",
+   "de": "Swansea",
+   "vers": "Strasbourg",
    "championnat": "ligue-1",
-   "type": "prolongation",
-   "statut": "avancé",
-   "texte": "Selon RMC, qui confirme une information du Parisien, relayée par Maxifoot, la direction du PSG et l'entourage du capitaine brésilien de 32 ans, sous contrat jusqu'en juin 2028, discutent d'une prolongation d'un an.",
+   "type": "entraîneur",
+   "statut": "officiel",
+   "montant": "environ 6 M€ d'indemnité pour Swansea (selon Maxifoot)",
+   "texte": "Strasbourg a officialisé mercredi 18 novembre la nomination de l'entraîneur portugais, quelques minutes après avoir annoncé le départ de Hugo Oliveira, rapporte Maxifoot. Il dirigera son premier match samedi face à Brest, lors de la 11e journée de Ligue 1.",
    "source": {
-    "nom": "Maxifoot (d'après RMC Sport)",
-    "url": "https://news.maxifoot.fr/psg/marquinhos-vers-une-prolongation-foot-467919.htm"
-   },
-   "date": "2026-11-18"
-  },
-  {
-   "joueur": "Eli Junior Kroupi",
-   "de": "Bournemouth",
-   "vers": null,
-   "championnat": "premier-league",
-   "type": "transfert",
-   "statut": "rumeur",
-   "montant": "plus de 100 M€ espérés par Bournemouth (selon The Athletic)",
-   "texte": "Selon The Athletic, cité par Maxifoot, l'attaquant français devrait rester à Bournemouth cet hiver, mais le PSG et le Barça seraient bien placés pour l'été prochain. Bournemouth voudrait en tirer plus de 100 M€ ; le joueur ne souhaiterait pas rester en Grande-Bretagne.",
-   "source": {
-    "nom": "Maxifoot (d'après The Athletic)",
-    "url": "https://news.maxifoot.fr/bournemouth/kroupi-vers-le-psg-ou-le-barca-foot-467894.htm"
-   },
-   "date": "2026-11-18"
-  },
-  {
-   "joueur": "Endrick",
-   "de": "Real Madrid",
-   "vers": null,
-   "championnat": "liga",
-   "type": "prêt",
-   "statut": "rumeur",
-   "texte": "Selon Maxifoot, l'attaquant brésilien de 20 ans (4 matchs de Liga cette saison) souhaite quitter le Real Madrid en janvier, de préférence en prêt ; la Roma, le Milan et le Sporting sont cités. D'après AS, José Mourinho voudrait le garder mais ne s'opposerait pas à un départ si le joueur le demande.",
-   "source": {
-    "nom": "Maxifoot (d'après AS)",
-    "url": "https://news.maxifoot.fr/real/mourinho-veut-garder-endrick-mais-foot-467896.htm"
+    "nom": "Maxifoot",
+    "url": "https://news.maxifoot.fr/strasbourg/matos-sur-le-banc-officiel-foot-467927.htm"
    },
    "date": "2026-11-18"
   }

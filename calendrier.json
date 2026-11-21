@@ -1,18 +1,11 @@
 {
- "maj": "20 novembre 2026",
+ "maj": "21 novembre 2026",
  "competitions": [
   {
    "id": "ligue-1",
    "nom": "Ligue 1",
-   "journee": "11e journée",
+   "journee": "11e journée (suite)",
    "matchs": [
-    {
-     "date": "2026-11-20",
-     "heure": "20:45",
-     "dom": "Troyes",
-     "ext": "Le Havre",
-     "tv": "Ligue 1+"
-    },
     {
      "date": "2026-11-21",
      "heure": "17:15",
@@ -146,14 +139,8 @@
   {
    "id": "liga",
    "nom": "Liga",
-   "journee": "13e journée",
+   "journee": "13e journée (suite)",
    "matchs": [
-    {
-     "date": "2026-11-20",
-     "heure": "21:00",
-     "dom": "Athletic Bilbao",
-     "ext": "Espanyol"
-    },
     {
      "date": "2026-11-21",
      "heure": "14:00",
@@ -290,14 +277,8 @@
   {
    "id": "bundesliga",
    "nom": "Bundesliga",
-   "journee": "10e journée",
+   "journee": "10e journée (suite)",
    "matchs": [
-    {
-     "date": "2026-11-20",
-     "heure": "20:30",
-     "dom": "Bayern",
-     "ext": "Cologne"
-    },
     {
      "date": "2026-11-21",
      "heure": "15:30",

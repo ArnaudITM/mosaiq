@@ -3,19 +3,19 @@
  "nom": "Bundesliga",
  "pays": "Allemagne",
  "saison": "2026-27",
- "maj": "après la 9e journée (8 novembre 2026)",
+ "maj": "10e journée en cours (match du 20 novembre)",
  "classement": [
   {
    "pos": 1,
    "club": "Bayern",
-   "j": 9,
+   "j": 10,
    "g": 6,
-   "n": 3,
+   "n": 4,
    "p": 0,
-   "bp": 29,
-   "bc": 9,
-   "pts": 21,
-   "forme": "NVVNV"
+   "bp": 30,
+   "bc": 10,
+   "pts": 22,
+   "forme": "VVNVN"
   },
   {
    "pos": 2,
@@ -163,6 +163,18 @@
   },
   {
    "pos": 14,
+   "club": "Cologne",
+   "j": 10,
+   "g": 2,
+   "n": 4,
+   "p": 4,
+   "bp": 11,
+   "bc": 15,
+   "pts": 10,
+   "forme": "DNNDN"
+  },
+  {
+   "pos": 15,
    "club": "Augsbourg",
    "j": 9,
    "g": 2,
@@ -172,18 +184,6 @@
    "bc": 20,
    "pts": 9,
    "forme": "NDNDD"
-  },
-  {
-   "pos": 15,
-   "club": "Cologne",
-   "j": 9,
-   "g": 2,
-   "n": 3,
-   "p": 4,
-   "bp": 10,
-   "bc": 14,
-   "pts": 9,
-   "forme": "VDNND"
   },
   {
    "pos": 16,
@@ -322,52 +322,12 @@
   }
  ],
  "derniere_journee": {
-  "label": "9e journée",
+  "label": "10e journée (en cours)",
   "matchs": [
    {
-    "dom": "Hambourg",
-    "ext": "Gladbach",
-    "score": "3-1"
-   },
-   {
-    "dom": "Mayence",
-    "ext": "Bayern",
-    "score": "1-2"
-   },
-   {
-    "dom": "Dortmund",
-    "ext": "Elversberg",
-    "score": "2-1"
-   },
-   {
-    "dom": "Leipzig",
-    "ext": "Augsbourg",
-    "score": "5-2"
-   },
-   {
-    "dom": "Paderborn",
-    "ext": "Francfort",
-    "score": "2-2"
-   },
-   {
-    "dom": "Stuttgart",
-    "ext": "Brême",
-    "score": "1-0"
-   },
-   {
-    "dom": "Cologne",
-    "ext": "Leverkusen",
-    "score": "1-2"
-   },
-   {
-    "dom": "Fribourg",
-    "ext": "Union Berlin",
-    "score": "2-0"
-   },
-   {
-    "dom": "Hoffenheim",
-    "ext": "Schalke",
-    "score": "2-1"
+    "dom": "Bayern",
+    "ext": "Cologne",
+    "score": "1-1"
    }
   ]
  },
@@ -452,6 +412,10 @@
   {
    "nom": "Futbol24 – Résultats Bundesliga 2026/27",
    "url": "https://www.futbol24.com/national/Germany/Bundesliga/2026-2027/results"
+  },
+  {
+   "nom": "AP via KSL – Bayern 1-1 Cologne (20 nov. 2026)",
+   "url": "https://www.ksl.com/article/51647249/kompany-returns-but-kane-limps-off-as-bayern-munich-held-by-cologne-in-bundesliga"
   }
  ]
 }

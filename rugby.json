@@ -1,6 +1,6 @@
 {
   "top14": {
-    "maj": "après la 9e journée (saison 2026-2027) – pas de journée ce week-end (Championnat des nations), reprise le 28 novembre (vérifié le 19 novembre 2026, sans changement au 20)",
+    "maj": "après la 9e journée (saison 2026-2027) – pas de journée ce week-end (Championnat des nations), reprise le 28 novembre (vérifié le 19 novembre 2026, sans changement au 21)",
     "classement": [
       {
         "pos": 1,
@@ -192,7 +192,7 @@
         "lieu": "Allianz Stadium, Twickenham (Londres)"
       }
     ],
-    "texte": "Après ses victoires contre les Fidji (54-17) et l'Afrique du Sud (21-19), le XV de France mène le groupe Nord du Championnat des nations avec 21 points, devant l'Angleterre et l'Irlande (20 points chacune), selon l'Irish Times. Les Bleus reçoivent l'Argentine samedi 21 novembre au Stade de France (21h10) : une victoire avec bonus offensif leur assurerait une place en grande finale à Twickenham, quels que soient les autres résultats, selon le quotidien irlandais. Fabien Galthié annonce sa composition jeudi en fin de matinée, selon Sud Radio, qui prévoit le retour de Matthieu Jalibert à l'ouverture et d'Anthony Jelonch en troisième ligne."
+    "texte": "Après ses victoires contre les Fidji (54-17) et l'Afrique du Sud (21-19), le XV de France mène le groupe Nord du Championnat des nations avec 21 points, devant l'Angleterre et l'Irlande (20 points chacune), selon l'Irish Times. Les Bleus reçoivent l'Argentine samedi 21 novembre au Stade de France (21h10) : une victoire avec bonus offensif leur assurerait une place en grande finale à Twickenham, quels que soient les autres résultats, selon le quotidien irlandais. Selon Sud Radio et RugbyPass, Matthieu Jalibert est attendu à l'ouverture, en l'absence de Romain Ntamack, Thomas Ramos et Antoine Hastoy, blessés ; la composition officielle n'a pas pu être vérifiée à la rédaction."
   },
   "infos": [
     {
@@ -201,6 +201,14 @@
       "source": {
         "nom": "Sud Radio",
         "url": "https://www.sudradio.fr/sport-rugby/rugby/xv-de-france-apres-deux-matches-les-corps-des-bleus-sous-surveillance"
+      }
+    },
+    {
+      "titre": "Les 42 joueurs disponibles, selon Sempéré",
+      "texte": "L'entraîneur adjoint Laurent Sempéré a assuré que les 42 joueurs du groupe étaient aptes avant de recevoir l'Argentine, tout en évoquant « quelques ajustements » pour ceux qui ont beaucoup joué, selon RugbyPass. Le staff devrait conserver l'ossature victorieuse des Springboks (21-19), avec Matthieu Jalibert attendu à l'ouverture ; à l'entraînement, Yoram Moefana et Kalvin Gourgues étaient associés au centre et Théo Attissogbe à l'arrière.",
+      "source": {
+        "nom": "RugbyPass – Sempéré et le retour de Jalibert (18 nov. 2026)",
+        "url": "https://www.rugbypass.com/news/sempere-retour-matthieu-jalibert-contre-argentine/"
       }
     },
     {
@@ -312,6 +320,10 @@
     {
       "nom": "The Irish Times – scénarios avant la dernière journée (15 nov. 2026)",
       "url": "https://www.irishtimes.com/sport/rugby/2026/11/15/nations-championship-permutations-what-does-ireland-need-to-reach-the-inaugural-grand-final-at-twickenham/"
+    },
+    {
+      "nom": "RugbyPass – Sempéré et le retour de Jalibert (18 nov. 2026)",
+      "url": "https://www.rugbypass.com/news/sempere-retour-matthieu-jalibert-contre-argentine/"
     }
   ]
 }

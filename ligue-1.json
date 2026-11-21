@@ -3,7 +3,7 @@
  "nom": "Ligue 1",
  "pays": "France",
  "saison": "2026-27",
- "maj": "après la 10e journée (8 novembre 2026)",
+ "maj": "11e journée en cours (match du 20 novembre)",
  "classement": [
   {
    "pos": 1,
@@ -151,6 +151,18 @@
   },
   {
    "pos": 13,
+   "club": "Troyes",
+   "j": 11,
+   "g": 3,
+   "n": 2,
+   "p": 6,
+   "bp": 10,
+   "bc": 18,
+   "pts": 11,
+   "forme": "DNVDV"
+  },
+  {
+   "pos": 14,
    "club": "Strasbourg",
    "j": 10,
    "g": 3,
@@ -162,7 +174,7 @@
    "forme": "DDDVD"
   },
   {
-   "pos": 14,
+   "pos": 15,
    "club": "Auxerre",
    "j": 10,
    "g": 3,
@@ -174,7 +186,7 @@
    "forme": "DVNDD"
   },
   {
-   "pos": 15,
+   "pos": 16,
    "club": "Le Mans",
    "j": 10,
    "g": 1,
@@ -186,7 +198,7 @@
    "forme": "DDNDN"
   },
   {
-   "pos": 16,
+   "pos": 17,
    "club": "Angers",
    "j": 10,
    "g": 2,
@@ -198,26 +210,14 @@
    "forme": "DDNDD"
   },
   {
-   "pos": 17,
-   "club": "Troyes",
-   "j": 10,
-   "g": 2,
-   "n": 2,
-   "p": 6,
-   "bp": 7,
-   "bc": 17,
-   "pts": 8,
-   "forme": "DDNVD"
-  },
-  {
    "pos": 18,
    "club": "Le Havre",
-   "j": 10,
+   "j": 11,
    "g": 0,
    "n": 2,
-   "p": 8,
-   "bp": 9,
-   "bc": 22,
+   "p": 9,
+   "bp": 10,
+   "bc": 25,
    "pts": 2,
    "forme": "DDDDD"
   }
@@ -307,52 +307,12 @@
   }
  ],
  "derniere_journee": {
-  "label": "10e journée",
+  "label": "11e journée (en cours)",
   "matchs": [
    {
-    "dom": "Toulouse",
-    "ext": "Strasbourg",
+    "dom": "Troyes",
+    "ext": "Le Havre",
     "score": "3-1"
-   },
-   {
-    "dom": "PSG",
-    "ext": "Troyes",
-    "score": "1-0"
-   },
-   {
-    "dom": "Auxerre",
-    "ext": "Paris FC",
-    "score": "0-1"
-   },
-   {
-    "dom": "Lens",
-    "ext": "OM",
-    "score": "1-2"
-   },
-   {
-    "dom": "Angers",
-    "ext": "Nice",
-    "score": "0-2"
-   },
-   {
-    "dom": "Brest",
-    "ext": "OL",
-    "score": "2-0"
-   },
-   {
-    "dom": "Le Havre",
-    "ext": "Lorient",
-    "score": "0-2"
-   },
-   {
-    "dom": "Le Mans",
-    "ext": "Monaco",
-    "score": "1-1"
-   },
-   {
-    "dom": "Rennes",
-    "ext": "Lille",
-    "score": "1-2"
    }
   ]
  },
@@ -469,6 +429,10 @@
   {
    "nom": "Wikipedia – 2026–27 Ligue 1",
    "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Ligue_1"
+  },
+  {
+   "nom": "ESTAC – Troyes 3-1 Le Havre (20 nov. 2026)",
+   "url": "https://www.estac.fr/estac-3-1-le-havre-les-troyens-renversent-le-hac-au-stade-de-laube/"
   }
  ]
 }
