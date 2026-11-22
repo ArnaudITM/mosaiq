@@ -3,31 +3,31 @@
  "nom": "Ligue 1",
  "pays": "France",
  "saison": "2026-27",
- "maj": "11e journée en cours (match du 20 novembre)",
+ "maj": "11e journée en cours (matchs des 20 et 21 novembre)",
  "classement": [
   {
    "pos": 1,
    "club": "PSG",
-   "j": 10,
-   "g": 7,
+   "j": 11,
+   "g": 8,
    "n": 2,
    "p": 1,
-   "bp": 22,
-   "bc": 10,
-   "pts": 23,
+   "bp": 25,
+   "bc": 12,
+   "pts": 26,
    "forme": "VVVVV"
   },
   {
    "pos": 2,
    "club": "Lille",
-   "j": 10,
+   "j": 11,
    "g": 6,
    "n": 3,
-   "p": 1,
+   "p": 2,
    "bp": 14,
-   "bc": 7,
+   "bc": 8,
    "pts": 21,
-   "forme": "VNNVV"
+   "forme": "NNVVD"
   },
   {
    "pos": 3,
@@ -43,6 +43,18 @@
   },
   {
    "pos": 4,
+   "club": "OL",
+   "j": 11,
+   "g": 6,
+   "n": 2,
+   "p": 3,
+   "bp": 16,
+   "bc": 9,
+   "pts": 20,
+   "forme": "VDVDV"
+  },
+  {
+   "pos": 5,
    "club": "OM",
    "j": 10,
    "g": 6,
@@ -54,43 +66,43 @@
    "forme": "VVVVV"
   },
   {
-   "pos": 5,
-   "club": "OL",
-   "j": 10,
-   "g": 5,
-   "n": 2,
-   "p": 3,
-   "bp": 15,
-   "bc": 9,
-   "pts": 17,
-   "forme": "DVDVD"
-  },
-  {
    "pos": 6,
-   "club": "Nice",
-   "j": 10,
+   "club": "Brest",
+   "j": 11,
    "g": 5,
-   "n": 2,
+   "n": 3,
    "p": 3,
-   "bp": 15,
+   "bp": 19,
    "bc": 12,
-   "pts": 17,
-   "forme": "VDVVV"
+   "pts": 18,
+   "forme": "NDVVV"
   },
   {
    "pos": 7,
-   "club": "Monaco",
-   "j": 10,
-   "g": 4,
-   "n": 4,
-   "p": 2,
-   "bp": 13,
-   "bc": 11,
-   "pts": 16,
-   "forme": "NDNDN"
+   "club": "Nice",
+   "j": 11,
+   "g": 5,
+   "n": 2,
+   "p": 4,
+   "bp": 17,
+   "bc": 15,
+   "pts": 17,
+   "forme": "DVVVD"
   },
   {
    "pos": 8,
+   "club": "Monaco",
+   "j": 11,
+   "g": 4,
+   "n": 5,
+   "p": 2,
+   "bp": 14,
+   "bc": 12,
+   "pts": 17,
+   "forme": "DNDNN"
+  },
+  {
+   "pos": 9,
    "club": "Rennes",
    "j": 10,
    "g": 5,
@@ -100,18 +112,6 @@
    "bc": 21,
    "pts": 16,
    "forme": "VDVDD"
-  },
-  {
-   "pos": 9,
-   "club": "Brest",
-   "j": 10,
-   "g": 4,
-   "n": 3,
-   "p": 3,
-   "bp": 18,
-   "bc": 12,
-   "pts": 15,
-   "forme": "VNDVV"
   },
   {
    "pos": 10,
@@ -128,26 +128,26 @@
   {
    "pos": 11,
    "club": "Lens",
-   "j": 10,
+   "j": 11,
    "g": 4,
-   "n": 1,
+   "n": 2,
    "p": 5,
-   "bp": 17,
-   "bc": 15,
-   "pts": 13,
-   "forme": "VVVDD"
+   "bp": 18,
+   "bc": 16,
+   "pts": 14,
+   "forme": "VVDDN"
   },
   {
    "pos": 12,
    "club": "Toulouse",
-   "j": 10,
+   "j": 11,
    "g": 3,
-   "n": 4,
+   "n": 5,
    "p": 3,
-   "bp": 15,
-   "bc": 14,
-   "pts": 13,
-   "forme": "NVNDV"
+   "bp": 16,
+   "bc": 15,
+   "pts": 14,
+   "forme": "VNDVN"
   },
   {
    "pos": 13,
@@ -163,27 +163,27 @@
   },
   {
    "pos": 14,
-   "club": "Strasbourg",
-   "j": 10,
+   "club": "Auxerre",
+   "j": 11,
    "g": 3,
-   "n": 1,
+   "n": 2,
    "p": 6,
-   "bp": 18,
-   "bc": 22,
-   "pts": 10,
-   "forme": "DDDVD"
+   "bp": 14,
+   "bc": 25,
+   "pts": 11,
+   "forme": "VNDDN"
   },
   {
    "pos": 15,
-   "club": "Auxerre",
-   "j": 10,
+   "club": "Strasbourg",
+   "j": 11,
    "g": 3,
    "n": 1,
-   "p": 6,
-   "bp": 13,
-   "bc": 24,
+   "p": 7,
+   "bp": 18,
+   "bc": 23,
    "pts": 10,
-   "forme": "DVNDD"
+   "forme": "DDVDD"
   },
   {
    "pos": 16,
@@ -229,19 +229,14 @@
    "buts": 9
   },
   {
-   "joueur": "Esteban Lepaul",
-   "club": "Rennes",
-   "buts": 7
-  },
-  {
    "joueur": "Amine Gouiri",
    "club": "OM",
    "buts": 7
   },
   {
-   "joueur": "Elye Wahi",
-   "club": "Nice",
-   "buts": 6
+   "joueur": "Esteban Lepaul",
+   "club": "Rennes",
+   "buts": 7
   },
   {
    "joueur": "Cameron Archer",
@@ -249,8 +244,28 @@
    "buts": 6
   },
   {
+   "joueur": "Elye Wahi",
+   "club": "Nice",
+   "buts": 6
+  },
+  {
+   "joueur": "Ferran Torres",
+   "club": "PSG",
+   "buts": 5
+  },
+  {
    "joueur": "B. Dia",
    "club": "Rennes",
+   "buts": 5
+  },
+  {
+   "joueur": "Ludovic Ajorque",
+   "club": "Brest",
+   "buts": 5
+  },
+  {
+   "joueur": "Josh Maja",
+   "club": "Le Havre",
    "buts": 5
   },
   {
@@ -304,6 +319,16 @@
    "joueur": "G. Hein",
    "club": "Nice",
    "passes": 3
+  },
+  {
+   "joueur": "R. Faivre",
+   "club": "Auxerre",
+   "passes": 3
+  },
+  {
+   "joueur": "Emerson",
+   "club": "OM",
+   "passes": 3
   }
  ],
  "derniere_journee": {
@@ -313,6 +338,31 @@
     "dom": "Troyes",
     "ext": "Le Havre",
     "score": "3-1"
+   },
+   {
+    "dom": "Nice",
+    "ext": "PSG",
+    "score": "2-3"
+   },
+   {
+    "dom": "Lille",
+    "ext": "OL",
+    "score": "0-1"
+   },
+   {
+    "dom": "Monaco",
+    "ext": "Auxerre",
+    "score": "1-1"
+   },
+   {
+    "dom": "Strasbourg",
+    "ext": "Brest",
+    "score": "0-1"
+   },
+   {
+    "dom": "Lens",
+    "ext": "Toulouse",
+    "score": "1-1"
    }
   ]
  },
@@ -411,10 +461,6 @@
    "url": "https://www.footmercato.net/france/ligue-1/classement"
   },
   {
-   "nom": "Foot Mercato – buteurs Ligue 1 2026/2027",
-   "url": "https://www.footmercato.net/france/ligue-1/buteur"
-  },
-  {
    "nom": "Foot Mercato – passeurs Ligue 1 2026/2027",
    "url": "https://www.footmercato.net/france/ligue-1/passeur"
   },
@@ -423,16 +469,24 @@
    "url": "https://www.maxifoot.fr/resultat-ligue-1-france.htm"
   },
   {
-   "nom": "VAVEL – résultats Ligue 1 2026/27 (journées 1 à 10)",
-   "url": "https://www.vavel.com/en/data/ligue-1/results/"
-  },
-  {
    "nom": "Wikipedia – 2026–27 Ligue 1",
    "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Ligue_1"
   },
   {
    "nom": "ESTAC – Troyes 3-1 Le Havre (20 nov. 2026)",
    "url": "https://www.estac.fr/estac-3-1-le-havre-les-troyens-renversent-le-hac-au-stade-de-laube/"
+  },
+  {
+   "nom": "Sports Infos – Ligue 1 2026/2027, classement J11",
+   "url": "https://www.ski-nordique.net/ligue-1-20262027-classement-j11-le-psg-gagne-a-nice-mais-perd-doue-lyon-simpose-a-lille.6751885-581149.html"
+  },
+  {
+   "nom": "Sports Infos – Ligue 1 2026/2027, buteurs après J11",
+   "url": "https://www.ski-nordique.net/ligue-1-20262027-classement-des-buteurs-apres-j11-sinayoko-toujours-en-tete-ferran-torres-passe-a-5.6751886-581149.html"
+  },
+  {
+   "nom": "Ouest-France – Nice 2-3 PSG (21 nov. 2026)",
+   "url": "https://www.ouest-france.fr/sport/football/resultats-matchs/match-nice-psg-1340-1296/"
   }
  ]
 }

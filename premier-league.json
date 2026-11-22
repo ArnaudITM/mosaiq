@@ -3,19 +3,19 @@
  "nom": "Premier League",
  "pays": "Angleterre",
  "saison": "2026-27",
- "maj": "après la 10e journée (8 novembre 2026)",
+ "maj": "11e journée en cours (matchs du 21 novembre)",
  "classement": [
   {
    "pos": 1,
    "club": "Arsenal",
-   "j": 10,
+   "j": 11,
    "g": 9,
-   "n": 0,
+   "n": 1,
    "p": 1,
-   "bp": 15,
-   "bc": 5,
-   "pts": 27,
-   "forme": "VVVVV"
+   "bp": 17,
+   "bc": 7,
+   "pts": 28,
+   "forme": "VVVVN"
   },
   {
    "pos": 2,
@@ -32,17 +32,29 @@
   {
    "pos": 3,
    "club": "Man City",
-   "j": 10,
+   "j": 11,
    "g": 7,
-   "n": 0,
+   "n": 1,
    "p": 3,
-   "bp": 21,
-   "bc": 13,
-   "pts": 21,
-   "forme": "VVDDD"
+   "bp": 22,
+   "bc": 14,
+   "pts": 22,
+   "forme": "VDDDN"
   },
   {
    "pos": 4,
+   "club": "Bournemouth",
+   "j": 11,
+   "g": 5,
+   "n": 3,
+   "p": 3,
+   "bp": 18,
+   "bc": 14,
+   "pts": 18,
+   "forme": "VVVVV"
+  },
+  {
+   "pos": 5,
    "club": "Liverpool",
    "j": 10,
    "g": 5,
@@ -54,19 +66,19 @@
    "forme": "DVVDV"
   },
   {
-   "pos": 5,
-   "club": "Chelsea",
-   "j": 10,
-   "g": 5,
-   "n": 1,
-   "p": 4,
-   "bp": 19,
-   "bc": 16,
-   "pts": 16,
-   "forme": "VVDVD"
+   "pos": 6,
+   "club": "Leeds",
+   "j": 11,
+   "g": 4,
+   "n": 5,
+   "p": 2,
+   "bp": 14,
+   "bc": 9,
+   "pts": 17,
+   "forme": "NNDVV"
   },
   {
-   "pos": 6,
+   "pos": 7,
    "club": "Everton",
    "j": 10,
    "g": 4,
@@ -78,19 +90,31 @@
    "forme": "NDDVV"
   },
   {
-   "pos": 7,
-   "club": "Bournemouth",
-   "j": 10,
-   "g": 4,
-   "n": 3,
-   "p": 3,
-   "bp": 16,
-   "bc": 14,
-   "pts": 15,
-   "forme": "DVVVV"
+   "pos": 8,
+   "club": "Chelsea",
+   "j": 11,
+   "g": 5,
+   "n": 1,
+   "p": 5,
+   "bp": 20,
+   "bc": 20,
+   "pts": 16,
+   "forme": "VDVDD"
   },
   {
-   "pos": 8,
+   "pos": 9,
+   "club": "Tottenham",
+   "j": 11,
+   "g": 4,
+   "n": 3,
+   "p": 4,
+   "bp": 12,
+   "bc": 11,
+   "pts": 15,
+   "forme": "VVVDV"
+  },
+  {
+   "pos": 10,
    "club": "Brentford",
    "j": 10,
    "g": 3,
@@ -102,55 +126,43 @@
    "forme": "NDNVD"
   },
   {
-   "pos": 9,
-   "club": "Leeds",
-   "j": 10,
+   "pos": 11,
+   "club": "Aston Villa",
+   "j": 11,
    "g": 3,
    "n": 5,
-   "p": 2,
-   "bp": 10,
-   "bc": 8,
-   "pts": 14,
-   "forme": "DNNDV"
-  },
-  {
-   "pos": 10,
-   "club": "Aston Villa",
-   "j": 10,
-   "g": 3,
-   "n": 4,
    "p": 3,
    "bp": 14,
    "bc": 17,
-   "pts": 13,
-   "forme": "NVVNN"
-  },
-  {
-   "pos": 11,
-   "club": "Tottenham",
-   "j": 10,
-   "g": 3,
-   "n": 3,
-   "p": 4,
-   "bp": 10,
-   "bc": 11,
-   "pts": 12,
-   "forme": "NVVVD"
+   "pts": 14,
+   "forme": "VVNNN"
   },
   {
    "pos": 12,
    "club": "Newcastle",
-   "j": 10,
+   "j": 11,
    "g": 3,
-   "n": 3,
+   "n": 4,
    "p": 4,
-   "bp": 13,
-   "bc": 16,
-   "pts": 12,
-   "forme": "DDVDN"
+   "bp": 15,
+   "bc": 18,
+   "pts": 13,
+   "forme": "DVDNN"
   },
   {
    "pos": 13,
+   "club": "Coventry",
+   "j": 11,
+   "g": 4,
+   "n": 0,
+   "p": 7,
+   "bp": 13,
+   "bc": 21,
+   "pts": 12,
+   "forme": "DDVDV"
+  },
+  {
+   "pos": 14,
    "club": "Hull",
    "j": 10,
    "g": 2,
@@ -162,55 +174,55 @@
    "forme": "NDNND"
   },
   {
-   "pos": 14,
-   "club": "Ipswich",
-   "j": 10,
-   "g": 3,
-   "n": 2,
-   "p": 5,
-   "bp": 15,
-   "bc": 20,
-   "pts": 11,
-   "forme": "VDNND"
-  },
-  {
    "pos": 15,
    "club": "Fulham",
-   "j": 10,
+   "j": 11,
    "g": 2,
-   "n": 4,
+   "n": 5,
    "p": 4,
-   "bp": 10,
-   "bc": 12,
-   "pts": 10,
-   "forme": "DVVNN"
+   "bp": 11,
+   "bc": 13,
+   "pts": 11,
+   "forme": "VVNNN"
   },
   {
    "pos": 16,
-   "club": "Nottingham Forest",
-   "j": 10,
-   "g": 2,
-   "n": 3,
-   "p": 5,
-   "bp": 9,
-   "bc": 13,
-   "pts": 9,
-   "forme": "DDNDV"
+   "club": "Ipswich",
+   "j": 11,
+   "g": 3,
+   "n": 2,
+   "p": 6,
+   "bp": 15,
+   "bc": 22,
+   "pts": 11,
+   "forme": "DNNDD"
   },
   {
    "pos": 17,
-   "club": "Coventry",
-   "j": 10,
-   "g": 3,
-   "n": 0,
-   "p": 7,
-   "bp": 10,
-   "bc": 19,
+   "club": "Nottingham Forest",
+   "j": 11,
+   "g": 2,
+   "n": 3,
+   "p": 6,
+   "bp": 9,
+   "bc": 15,
    "pts": 9,
-   "forme": "VDDVD"
+   "forme": "DNDVD"
   },
   {
    "pos": 18,
+   "club": "Sunderland",
+   "j": 11,
+   "g": 2,
+   "n": 3,
+   "p": 6,
+   "bp": 8,
+   "bc": 17,
+   "pts": 9,
+   "forme": "DNDVN"
+  },
+  {
+   "pos": 19,
    "club": "Man United",
    "j": 10,
    "g": 1,
@@ -222,28 +234,16 @@
    "forme": "NNDDN"
   },
   {
-   "pos": 19,
-   "club": "Sunderland",
-   "j": 10,
-   "g": 2,
-   "n": 2,
-   "p": 6,
-   "bp": 8,
-   "bc": 17,
-   "pts": 8,
-   "forme": "DDNDV"
-  },
-  {
    "pos": 20,
    "club": "Crystal Palace",
-   "j": 10,
+   "j": 11,
    "g": 2,
    "n": 1,
-   "p": 7,
-   "bp": 10,
-   "bc": 24,
+   "p": 8,
+   "bp": 12,
+   "bc": 27,
    "pts": 7,
-   "forme": "VDDDD"
+   "forme": "DDDDD"
   }
  ],
  "buteurs": [
@@ -268,6 +268,11 @@
    "buts": 6
   },
   {
+   "joueur": "Evanilson",
+   "club": "Bournemouth",
+   "buts": 6
+  },
+  {
    "joueur": "João Pedro",
    "club": "Chelsea",
    "buts": 5
@@ -278,13 +283,18 @@
    "buts": 5
   },
   {
-   "joueur": "Evanilson",
+   "joueur": "Marcus Tavernier",
    "club": "Bournemouth",
    "buts": 5
   },
   {
-   "joueur": "Marcus Tavernier",
-   "club": "Bournemouth",
+   "joueur": "Dominic Calvert-Lewin",
+   "club": "Leeds",
+   "buts": 5
+  },
+  {
+   "joueur": "Morgan Rogers",
+   "club": "Chelsea",
    "buts": 5
   }
  ],
@@ -300,23 +310,23 @@
    "passes": 4
   },
   {
-   "joueur": "Evanilson",
-   "club": "Bournemouth",
-   "passes": 4
-  },
-  {
    "joueur": "Pascal Groß",
    "club": "Brighton",
    "passes": 4
   },
   {
-   "joueur": "J. Manzambi",
-   "club": "Aston Villa",
-   "passes": 3
+   "joueur": "Evanilson",
+   "club": "Bournemouth",
+   "passes": 4
   },
   {
    "joueur": "João Pedro",
    "club": "Chelsea",
+   "passes": 3
+  },
+  {
+   "joueur": "J. Manzambi",
+   "club": "Aston Villa",
    "passes": 3
   },
   {
@@ -325,63 +335,58 @@
    "passes": 3
   },
   {
-   "joueur": "Mohammed Kudus",
-   "club": "Tottenham",
+   "joueur": "Antoine Semenyo",
+   "club": "Man City",
+   "passes": 3
+  },
+  {
+   "joueur": "Bradley Barcola",
+   "club": "Liverpool",
+   "passes": 3
+  },
+  {
+   "joueur": "Cody Gakpo",
+   "club": "Liverpool",
    "passes": 3
   }
  ],
  "derniere_journee": {
-  "label": "10e journée",
+  "label": "11e journée (en cours)",
   "matchs": [
    {
-    "dom": "Man United",
-    "ext": "Aston Villa",
-    "score": "4-4"
-   },
-   {
-    "dom": "Brighton",
-    "ext": "Brentford",
-    "score": "2-0"
-   },
-   {
-    "dom": "Crystal Palace",
-    "ext": "Liverpool",
-    "score": "1-3"
-   },
-   {
-    "dom": "Ipswich",
-    "ext": "Bournemouth",
-    "score": "1-2"
-   },
-   {
-    "dom": "Sunderland",
-    "ext": "Chelsea",
-    "score": "1-0"
-   },
-   {
-    "dom": "Nottingham Forest",
-    "ext": "Man City",
-    "score": "3-1"
-   },
-   {
-    "dom": "Arsenal",
-    "ext": "Hull",
-    "score": "1-0"
-   },
-   {
-    "dom": "Fulham",
-    "ext": "Newcastle",
+    "dom": "Man City",
+    "ext": "Fulham",
     "score": "1-1"
    },
    {
-    "dom": "Leeds",
-    "ext": "Tottenham",
-    "score": "1-0"
+    "dom": "Bournemouth",
+    "ext": "Nottingham Forest",
+    "score": "2-0"
    },
    {
-    "dom": "Everton",
-    "ext": "Coventry",
-    "score": "3-1"
+    "dom": "Aston Villa",
+    "ext": "Sunderland",
+    "score": "0-0"
+   },
+   {
+    "dom": "Chelsea",
+    "ext": "Leeds",
+    "score": "1-4"
+   },
+   {
+    "dom": "Coventry",
+    "ext": "Crystal Palace",
+    "score": "3-2"
+   },
+   {
+    "dom": "Tottenham",
+    "ext": "Ipswich",
+    "score": "2-0"
+   },
+   {
+    "dom": "Newcastle",
+    "ext": "Arsenal",
+    "score": "2-2"
    }
   ]
  },
@@ -488,12 +493,16 @@
    "url": "https://www.footmercato.net/angleterre/premier-league/passeur"
   },
   {
-   "nom": "VAVEL – résultats Premier League 2026/27 (journées 1 à 10)",
-   "url": "https://www.vavel.com/en/data/premier-league/results/"
-  },
-  {
    "nom": "Wikipedia – 2026–27 Premier League",
    "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+  },
+  {
+   "nom": "Citizen Digital – Man City accroché par Fulham, Arsenal par Newcastle (21 nov. 2026)",
+   "url": "https://citizen.digital/article/man-city-stumble-again-in-fulham-draw-arsenal-held-by-newcastle-n394333"
+  },
+  {
+   "nom": "101 Great Goals – résultats de Premier League du 21 nov. 2026",
+   "url": "https://www.101greatgoals.com/football/premier-league/premier-league-results-today-reports-scores-highlights-tottenham-vs-ipswich-bournemouth-forest-coventry-palace-villa-sunderland/"
   }
  ]
 }

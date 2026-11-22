@@ -1,5 +1,5 @@
 {
-  "semaine": "21 novembre – 4 décembre 2026",
+  "semaine": "22 novembre – 5 décembre 2026",
   "fuseau": "Heures de Paris (UTC+1). null = heure non confirmée par les sources consultées.",
   "evenements": [
     {
@@ -42,6 +42,18 @@
       }
     },
     {
+      "date": "2026-11-23",
+      "heure": null,
+      "pays": "États-Unis",
+      "type": "entreprises",
+      "titre": "Résultats trimestriels de Hewlett Packard Enterprise, Zoom et Agilent (après la clôture de Wall Street)",
+      "enjeu": "Premiers résultats technologiques après la chute du Nasdaq de 5,3 % le 20 novembre.",
+      "source": {
+        "nom": "StockTitan – calendrier des résultats, semaine du 23 nov. 2026",
+        "url": "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-23-2026"
+      }
+    },
+    {
       "date": "2026-11-24",
       "heure": "16:00",
       "pays": "États-Unis",
@@ -69,13 +81,13 @@
     {
       "date": "2026-11-24",
       "heure": null,
-      "pays": "Japon",
-      "type": "indicateur",
-      "titre": "PMI flash de novembre",
-      "enjeu": "Indique l'état de l'activité avant une éventuelle hausse des taux de la Banque du Japon en décembre.",
+      "pays": "États-Unis",
+      "type": "entreprises",
+      "titre": "Résultats de Dell, HP, Workday et Autodesk (après la clôture) ; Best Buy, Dollar Tree et Medtronic (avant l'ouverture)",
+      "enjeu": "Demande en matériel informatique et en serveurs d'IA, et état de la consommation avant le Black Friday.",
       "source": {
-        "nom": "S&P Global – calendrier des publications PMI",
-        "url": "https://www.pmi.spglobal.com/Public/Release/ReleaseDates"
+        "nom": "StockTitan – calendrier des résultats, semaine du 23 nov. 2026",
+        "url": "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-23-2026"
       }
     },
     {
@@ -289,6 +301,18 @@
       }
     },
     {
+      "date": "2026-12-02",
+      "heure": null,
+      "pays": "États-Unis",
+      "type": "entreprises",
+      "titre": "Résultats de Salesforce et de Synopsys (dates estimées)",
+      "enjeu": "Logiciels d'entreprise et IA, après les doutes qui ont fait chuter les valeurs technologiques en novembre.",
+      "source": {
+        "nom": "TheStreet – calendrier des résultats, semaine du 30 nov. 2026 (dates estimées)",
+        "url": "https://pro.thestreet.com/earnings/week/2026-11-30"
+      }
+    },
+    {
       "date": "2026-12-03",
       "heure": "16:00",
       "pays": "États-Unis",
@@ -310,6 +334,18 @@
       "source": {
         "nom": "Banque du Botswana – calendrier du comité de politique monétaire",
         "url": "https://bankofbotswana.bw/content/monetary-policy-committee"
+      }
+    },
+    {
+      "date": "2026-12-03",
+      "heure": null,
+      "pays": "États-Unis",
+      "type": "entreprises",
+      "titre": "Résultats de Dollar General, Lululemon et Ulta Beauty (dates estimées)",
+      "enjeu": "Premiers retours de la distribution sur la saison des fêtes.",
+      "source": {
+        "nom": "TheStreet – calendrier des résultats, semaine du 30 nov. 2026 (dates estimées)",
+        "url": "https://pro.thestreet.com/earnings/week/2026-11-30"
       }
     },
     {
@@ -359,5 +395,5 @@
       }
     }
   ],
-  "non_trouve": "Aucun rendez-vous sourcé pour les samedis et dimanches 21, 28 et 29 novembre hors réunion OPEP+ (29/11). Rendez-vous du 20/11 (discours de Christine Lagarde, début de l'examen du PLF 2027 au Sénat, clôture prévue de la COP31) retirés car passés. Pour respecter la limite de trois rendez-vous par jour, ont été écartés : discours de Tiff Macklem (24/11), prix des logements anciens Insee (24/11), PMI manufacturiers définitifs mondiaux (1er/12, date déduite), inscriptions au chômage américaines (3/12) et résultats de Salesforce (2/12, date non confirmée). Date de l'inflation allemande incertaine : 30/11 selon Lamera Capital, 27/11 selon FinanceCalendar. Heure d'annonce de la décision de la CBN non confirmée (réunion des 23 et 24/11, taux à 23 %, selon Sagagist). Non trouvés ou non vérifiés (quota de recherche épuisé lors de cette mise à jour) : date de l'Eurogroupe de décembre, agenda public de la BCE après le 22/11, réunion de l'OPEP+ élargie, date du comité de la BCEAO de décembre, autres banques centrales africaines (Mozambique, Zambie, Angola) dans la fenêtre, résultats d'entreprises confirmés, valeurs précédentes des ISM, Perspectives économiques de l'OCDE ; heures non confirmées pour la réunion OPEP+ (29/11) et la Banque du Botswana (3/12)."
+  "non_trouve": "Aucun rendez-vous sourcé pour le samedi 28 novembre et le samedi 5 décembre ; la réunion OPEP+ du 29/11 est confirmée par le communiqué de l'OPEP du 1er novembre (heure non précisée). Pour respecter la limite de trois rendez-vous par jour, ont été écartés : PMI flash japonais (24/11), discours de Tiff Macklem (24/11), prix des logements anciens Insee (24/11), PMI manufacturiers définitifs mondiaux (1er/12, date déduite), inscriptions au chômage américaines (3/12), résultats de CrowdStrike, Intuit et NetApp (1er/12, dates estimées par TheStreet). Divergence sur les dates : Dell, HP et Workday publient le 24/11 selon StockTitan (heures de conférence précisées), le 1er/12 selon les estimations de TheStreet ; HPE le 23/11 selon StockTitan, le 3/12 selon TheStreet ; la date de StockTitan a été retenue. Date de l'inflation allemande incertaine : 30/11 selon Lamera Capital, 27/11 selon FinanceCalendar. Heure d'annonce de la décision de la CBN non confirmée. Non vérifiés (quota de recherche épuisé lors de cette mise à jour) : date de publication du compte rendu de la réunion de la BCE du 29 octobre, date de l'Eurogroupe de décembre, date du comité de la BCEAO de décembre, autres banques centrales africaines (Mozambique, Zambie, Angola) dans la fenêtre, Perspectives économiques de l'OCDE ; heure non confirmée pour la Banque du Botswana (3/12). Les minutes de la Fed ont été publiées le 18/11 (passé)."
 }

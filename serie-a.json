@@ -3,22 +3,34 @@
  "nom": "Serie A",
  "pays": "Italie",
  "saison": "2026-27",
- "maj": "après la 11e journée (8 novembre 2026)",
+ "maj": "12e journée en cours (matchs du 21 novembre)",
  "classement": [
   {
    "pos": 1,
    "club": "Lazio",
-   "j": 11,
-   "g": 9,
+   "j": 12,
+   "g": 10,
    "n": 2,
    "p": 0,
-   "bp": 25,
+   "bp": 28,
    "bc": 9,
-   "pts": 29,
-   "forme": "VVVVN"
+   "pts": 32,
+   "forme": "VVVNV"
   },
   {
    "pos": 2,
+   "club": "Roma",
+   "j": 12,
+   "g": 9,
+   "n": 3,
+   "p": 0,
+   "bp": 36,
+   "bc": 11,
+   "pts": 30,
+   "forme": "NVVVV"
+  },
+  {
+   "pos": 3,
    "club": "Inter",
    "j": 11,
    "g": 9,
@@ -30,19 +42,19 @@
    "forme": "VVVDV"
   },
   {
-   "pos": 3,
-   "club": "Roma",
-   "j": 11,
+   "pos": 4,
+   "club": "Côme",
+   "j": 12,
    "g": 8,
-   "n": 3,
-   "p": 0,
-   "bp": 31,
+   "n": 2,
+   "p": 2,
+   "bp": 20,
    "bc": 10,
-   "pts": 27,
-   "forme": "VNVVV"
+   "pts": 26,
+   "forme": "VVVDV"
   },
   {
-   "pos": 4,
+   "pos": 5,
    "club": "Milan",
    "j": 11,
    "g": 7,
@@ -52,18 +64,6 @@
    "bc": 13,
    "pts": 24,
    "forme": "VVDVV"
-  },
-  {
-   "pos": 5,
-   "club": "Côme",
-   "j": 11,
-   "g": 7,
-   "n": 2,
-   "p": 2,
-   "bp": 18,
-   "bc": 10,
-   "pts": 23,
-   "forme": "VVVVD"
   },
   {
    "pos": 6,
@@ -91,6 +91,18 @@
   },
   {
    "pos": 8,
+   "club": "Naples",
+   "j": 12,
+   "g": 5,
+   "n": 3,
+   "p": 4,
+   "bp": 19,
+   "bc": 14,
+   "pts": 18,
+   "forme": "NVDNV"
+  },
+  {
+   "pos": 9,
    "club": "Bologne",
    "j": 11,
    "g": 5,
@@ -102,43 +114,19 @@
    "forme": "DVVVV"
   },
   {
-   "pos": 9,
+   "pos": 10,
    "club": "Cagliari",
-   "j": 11,
+   "j": 12,
    "g": 5,
    "n": 1,
-   "p": 5,
+   "p": 6,
    "bp": 10,
-   "bc": 15,
+   "bc": 17,
    "pts": 16,
-   "forme": "DDDDV"
-  },
-  {
-   "pos": 10,
-   "club": "Naples",
-   "j": 11,
-   "g": 4,
-   "n": 3,
-   "p": 4,
-   "bp": 18,
-   "bc": 14,
-   "pts": 15,
-   "forme": "DNVDN"
+   "forme": "DDDVD"
   },
   {
    "pos": 11,
-   "club": "Torino",
-   "j": 11,
-   "g": 4,
-   "n": 2,
-   "p": 5,
-   "bp": 15,
-   "bc": 17,
-   "pts": 14,
-   "forme": "VVDDN"
-  },
-  {
-   "pos": 12,
    "club": "Atalanta",
    "j": 11,
    "g": 4,
@@ -148,6 +136,18 @@
    "bc": 20,
    "pts": 14,
    "forme": "DNNDV"
+  },
+  {
+   "pos": 12,
+   "club": "Torino",
+   "j": 12,
+   "g": 4,
+   "n": 2,
+   "p": 6,
+   "bp": 15,
+   "bc": 18,
+   "pts": 14,
+   "forme": "VDDND"
   },
   {
    "pos": 13,
@@ -164,14 +164,14 @@
   {
    "pos": 14,
    "club": "Lecce",
-   "j": 11,
+   "j": 12,
    "g": 3,
    "n": 1,
-   "p": 7,
+   "p": 8,
    "bp": 12,
-   "bc": 22,
+   "bc": 25,
    "pts": 10,
-   "forme": "VDDDN"
+   "forme": "DDDND"
   },
   {
    "pos": 15,
@@ -188,14 +188,14 @@
   {
    "pos": 16,
    "club": "Parme",
-   "j": 11,
+   "j": 12,
    "g": 2,
    "n": 2,
-   "p": 7,
-   "bp": 9,
-   "bc": 17,
+   "p": 8,
+   "bp": 10,
+   "bc": 22,
    "pts": 8,
-   "forme": "DDNVD"
+   "forme": "DNVDD"
   },
   {
    "pos": 17,
@@ -283,11 +283,6 @@
    "buts": 5
   },
   {
-   "joueur": "Ché Adams",
-   "club": "Torino",
-   "buts": 5
-  },
-  {
    "joueur": "Daniel Maldini",
    "club": "Cagliari",
    "buts": 5
@@ -310,9 +305,29 @@
    "passes": 5
   },
   {
+   "joueur": "Wesley",
+   "club": "Roma",
+   "passes": 5
+  },
+  {
    "joueur": "Mattia Zaccagni",
    "club": "Lazio",
    "passes": 5
+  },
+  {
+   "joueur": "Paulo Dybala",
+   "club": "Roma",
+   "passes": 4
+  },
+  {
+   "joueur": "Adrien Rabiot",
+   "club": "Milan",
+   "passes": 4
+  },
+  {
+   "joueur": "Fares Ghedjemis",
+   "club": "Frosinone",
+   "passes": 4
   },
   {
    "joueur": "Andy Diouf",
@@ -325,83 +340,38 @@
    "passes": 4
   },
   {
-   "joueur": "Adrien Rabiot",
-   "club": "Milan",
-   "passes": 4
-  },
-  {
    "joueur": "Romano Schmid",
    "club": "Frosinone",
-   "passes": 4
-  },
-  {
-   "joueur": "Paulo Dybala",
-   "club": "Roma",
    "passes": 4
   },
   {
    "joueur": "Giorgi Kvernadze",
    "club": "Frosinone",
    "passes": 4
-  },
-  {
-   "joueur": "Fares Ghedjemis",
-   "club": "Frosinone",
-   "passes": 4
   }
  ],
  "derniere_journee": {
-  "label": "11e journée",
+  "label": "12e journée (en cours)",
   "matchs": [
    {
-    "dom": "Venise",
-    "ext": "Udinese",
-    "score": "2-1"
-   },
-   {
-    "dom": "Cagliari",
-    "ext": "Frosinone",
-    "score": "1-0"
-   },
-   {
-    "dom": "Torino",
-    "ext": "Lecce",
-    "score": "1-1"
-   },
-   {
-    "dom": "Parme",
-    "ext": "Bologne",
-    "score": "1-2"
-   },
-   {
-    "dom": "Roma",
-    "ext": "Sassuolo",
-    "score": "3-0"
-   },
-   {
-    "dom": "Naples",
-    "ext": "Lazio",
-    "score": "1-1"
-   },
-   {
-    "dom": "Genoa",
-    "ext": "Milan",
-    "score": "1-2"
-   },
-   {
-    "dom": "Monza",
-    "ext": "Atalanta",
-    "score": "0-1"
-   },
-   {
-    "dom": "Inter",
-    "ext": "Côme",
+    "dom": "Côme",
+    "ext": "Cagliari",
     "score": "2-0"
    },
    {
-    "dom": "Fiorentina",
-    "ext": "Juventus",
-    "score": "2-2"
+    "dom": "Lazio",
+    "ext": "Lecce",
+    "score": "3-0"
+   },
+   {
+    "dom": "Parme",
+    "ext": "Roma",
+    "score": "1-5"
+   },
+   {
+    "dom": "Naples",
+    "ext": "Torino",
+    "score": "1-0"
    }
   ]
  },
@@ -468,24 +438,20 @@
  },
  "sources": [
   {
-   "nom": "Sports Infos – Serie A 2026/2027, classement après J11",
-   "url": "https://www.ski-nordique.net/serie-a-20262027-classement-apres-j11-la-lazio-accrochee-a-naples-linter-revient-a-un-point.6751889-581149.html"
-  },
-  {
    "nom": "Foot Mercato – Classement Serie A 2026/2027",
    "url": "https://www.footmercato.net/italie/serie-a/classement"
   },
   {
-   "nom": "Sports Infos – Serie A 2026/2027, buteurs après J11",
-   "url": "https://www.ski-nordique.net/serie-a-20262027-classement-des-buteurs-apres-j11-gustavo-varela-reste-seul-en-tete-thuram-remonte-a-6-buts.6751890-72348.html"
-  },
-  {
-   "nom": "Foot Direct – Classement passeurs Serie A",
-   "url": "https://www.foot-direct.com/italie/serie-a/classement-passeurs"
-  },
-  {
    "nom": "Futbol24 – Résultats Serie A 2026/27",
    "url": "https://www.futbol24.com/national/Italy/Serie-A/2026-2027/results"
+  },
+  {
+   "nom": "Foot Mercato – buteurs Serie A 2026/2027",
+   "url": "https://www.footmercato.net/italie/serie-a/buteur"
+  },
+  {
+   "nom": "Foot Mercato – passeurs Serie A 2026/2027",
+   "url": "https://www.footmercato.net/italie/serie-a/passeur"
   }
  ]
 }

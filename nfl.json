@@ -1,5 +1,5 @@
 {
-  "maj": "21 novembre 2026, 5h30 – semaine 11 entamée avec Texans-Colts (26-3) jeudi soir, selon NFL.com ; classements de la semaine 10 mis à jour avec ce résultat (Texans 4-6, Colts 3-8). Reste de la semaine 11 dimanche 22 et lundi 23 novembre (nuit du lundi au mardi, heure de Paris) selon CBS Sports ; programme inchangé, pas de nouvelle donnée vérifiée depuis l'édition précédente. Leaders statistiques après la semaine 10 selon ESPN, sauf sacks de Will Anderson Jr. (11,5, NFL.com).",
+  "maj": "22 novembre 2026, 5h30 – semaine 11 entamée avec Texans-Colts (26-3) jeudi soir, selon NFL.com ; classements de la semaine 10 mis à jour avec ce résultat (Texans 4-6, Colts 3-8). Reste de la semaine 11 dimanche 22 et lundi 23 novembre (nuit du lundi au mardi, heure de Paris) selon CBS Sports ; programme inchangé. Nouvelles des blessés et effectifs du 20-21 novembre selon Yahoo Sports. Leaders statistiques après la semaine 10 selon ESPN, sauf sacks de Will Anderson Jr. (11,5, NFL.com).",
   "divisions": [
     {
       "nom": "AFC Est",
@@ -552,6 +552,22 @@
   },
   "infos": [
     {
+      "titre": "Indianapolis se sépare de Daniel Jones",
+      "texte": "Les Colts ont libéré leur quarterback titulaire Daniel Jones vendredi, au lendemain de la défaite à Houston (3-26) ; l'entraîneur Shane Steichen a annoncé qu'Anthony Richardson serait titulaire désormais, selon Yahoo Sports.",
+      "source": {
+        "nom": "Yahoo Sports – NFL, nouvelles du 19 au 21 novembre",
+        "url": "https://sports.yahoo.com/nfl/live/nfl-news-injury-updates-131219200.html"
+      }
+    },
+    {
+      "titre": "Puka Nacua probablement forfait jusqu'à la fin de saison",
+      "texte": "Le receveur des Rams a été opéré du ligament collatéral médial du genou et pourrait être absent « quelques mois », a indiqué Sean McVay, selon Yahoo Sports ; la NFL l'avait par ailleurs suspendu trois matchs jeudi pour violation de sa politique de conduite personnelle. Côté Patriots, Drake Maye souffre d'une fracture du péroné droit et A.J. Brown devrait manquer plusieurs semaines.",
+      "source": {
+        "nom": "Yahoo Sports – NFL, nouvelles du 19 au 21 novembre",
+        "url": "https://sports.yahoo.com/nfl/live/nfl-news-injury-updates-131219200.html"
+      }
+    },
+    {
       "titre": "Houston écrase Indianapolis",
       "texte": "Les Texans ont battu les Colts 26-3 jeudi soir en ouverture de la semaine 11, selon NFL.com : C.J. Stroud a lancé trois passes de touchdown (Nico Collins, Kayshon Boutte, Marlin Klein) et Will Anderson Jr. a réussi un sack sur Daniel Jones dans l'en-but pour un safety, son 11,5e sack de la saison, meilleur total de la ligue. Indianapolis, limité à moins de 200 yards et à 1 conversion sur 11 en troisième tentative, a fait entrer Anthony Richardson en fin de match. Houston passe à 4-6, Indianapolis à 3-8.",
       "source": {
@@ -598,17 +614,13 @@
         "nom": "eDraft – Scores semaine 10",
         "url": "https://edraft.com/nfl/scores/week-10"
       }
-    },
-    {
-      "titre": "Seattle s'impose à Las Vegas",
-      "texte": "Selon Yahoo Sports, les Seahawks ont battu les Raiders 21-13 avec un touchdown de 71 yards de Jaxon Smith-Njigba sur une passe de Drew Lock ; le rookie Fernando Mendoza effectuait sa première titularisation pour Las Vegas. Les Rams ont dominé Arizona 34-6, selon ESPN.",
-      "source": {
-        "nom": "Yahoo Sports",
-        "url": "https://sports.yahoo.com/articles/seahawks-raiders-score-6-4-000413563.html"
-      }
     }
   ],
   "sources": [
+    {
+      "nom": "Yahoo Sports – NFL, nouvelles du 19 au 21 novembre",
+      "url": "https://sports.yahoo.com/nfl/live/nfl-news-injury-updates-131219200.html"
+    },
     {
       "nom": "NFL.com – Colts-Texans, ce qu'il faut retenir",
       "url": "https://www.nfl.com/news/colts-texans-on-thursday-night-football-what-we-learned-from-houston-s-26-3-win"

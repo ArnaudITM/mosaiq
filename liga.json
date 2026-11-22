@@ -3,10 +3,22 @@
  "nom": "Liga",
  "pays": "Espagne",
  "saison": "2026-27",
- "maj": "13e journée en cours (match du 20 novembre)",
+ "maj": "13e journée en cours (matchs des 20 et 21 novembre)",
  "classement": [
   {
    "pos": 1,
+   "club": "Real Madrid",
+   "j": 13,
+   "g": 11,
+   "n": 0,
+   "p": 2,
+   "bp": 33,
+   "bc": 11,
+   "pts": 33,
+   "forme": "VVVVV"
+  },
+  {
+   "pos": 2,
    "club": "Barça",
    "j": 12,
    "g": 11,
@@ -16,18 +28,6 @@
    "bc": 13,
    "pts": 33,
    "forme": "VVDVV"
-  },
-  {
-   "pos": 2,
-   "club": "Real Madrid",
-   "j": 12,
-   "g": 10,
-   "n": 0,
-   "p": 2,
-   "bp": 31,
-   "bc": 10,
-   "pts": 30,
-   "forme": "VVVVV"
   },
   {
    "pos": 3,
@@ -44,14 +44,14 @@
   {
    "pos": 4,
    "club": "Betis",
-   "j": 12,
+   "j": 13,
    "g": 8,
-   "n": 2,
+   "n": 3,
    "p": 2,
-   "bp": 20,
-   "bc": 15,
-   "pts": 26,
-   "forme": "VDNVV"
+   "bp": 21,
+   "bc": 16,
+   "pts": 27,
+   "forme": "DNVVN"
   },
   {
    "pos": 5,
@@ -68,14 +68,14 @@
   {
    "pos": 6,
    "club": "Séville",
-   "j": 12,
+   "j": 13,
    "g": 5,
-   "n": 3,
+   "n": 4,
    "p": 4,
-   "bp": 17,
-   "bc": 19,
-   "pts": 18,
-   "forme": "NDVDN"
+   "bp": 18,
+   "bc": 20,
+   "pts": 19,
+   "forme": "DVDNN"
   },
   {
    "pos": 7,
@@ -91,27 +91,27 @@
   },
   {
    "pos": 8,
-   "club": "Villarreal",
-   "j": 12,
+   "club": "Alavés",
+   "j": 13,
    "g": 4,
-   "n": 3,
+   "n": 4,
    "p": 5,
-   "bp": 17,
-   "bc": 15,
-   "pts": 15,
-   "forme": "DNVDV"
+   "bp": 18,
+   "bc": 18,
+   "pts": 16,
+   "forme": "DNDNV"
   },
   {
    "pos": 9,
    "club": "La Corogne",
-   "j": 12,
+   "j": 13,
    "g": 3,
    "n": 6,
-   "p": 3,
-   "bp": 15,
-   "bc": 14,
+   "p": 4,
+   "bp": 16,
+   "bc": 17,
    "pts": 15,
-   "forme": "DNDVN"
+   "forme": "NDVND"
   },
   {
    "pos": 10,
@@ -126,6 +126,18 @@
   },
   {
    "pos": 11,
+   "club": "Villarreal",
+   "j": 12,
+   "g": 4,
+   "n": 3,
+   "p": 5,
+   "bp": 17,
+   "bc": 15,
+   "pts": 15,
+   "forme": "DNVDV"
+  },
+  {
+   "pos": 12,
    "club": "Racing Santander",
    "j": 12,
    "g": 4,
@@ -137,54 +149,19 @@
    "forme": "NDVDV"
   },
   {
-   "pos": 12,
+   "pos": 13,
    "club": "Celta Vigo",
-   "j": 12,
+   "j": 13,
    "g": 2,
    "n": 7,
-   "p": 3,
-   "bp": 10,
-   "bc": 10,
+   "p": 4,
+   "bp": 11,
+   "bc": 12,
    "pts": 13,
-   "forme": "NVNDN"
-  },
-  {
-   "pos": 13,
-   "club": "Alavés",
-   "j": 12,
-   "g": 3,
-   "n": 4,
-   "p": 5,
-   "bp": 15,
-   "bc": 17,
-   "pts": 13,
-   "forme": "DDNDN"
+   "forme": "VNDND"
   },
   {
    "pos": 14,
-   "club": "Rayo Vallecano",
-   "j": 11,
-   "g": 3,
-   "n": 3,
-   "p": 5,
-   "bp": 15,
-   "bc": 21,
-   "pts": 12
-  },
-  {
-   "pos": 15,
-   "club": "Getafe",
-   "j": 12,
-   "g": 3,
-   "n": 3,
-   "p": 6,
-   "bp": 8,
-   "bc": 18,
-   "pts": 12,
-   "forme": "DNDVD"
-  },
-  {
-   "pos": 16,
    "club": "Osasuna",
    "j": 12,
    "g": 3,
@@ -196,7 +173,42 @@
    "forme": "DVDDN"
   },
   {
+   "pos": 15,
+   "club": "Valence",
+   "j": 13,
+   "g": 3,
+   "n": 3,
+   "p": 7,
+   "bp": 9,
+   "bc": 20,
+   "pts": 12,
+   "forme": "NDVDV"
+  },
+  {
+   "pos": 16,
+   "club": "Rayo Vallecano",
+   "j": 12,
+   "g": 3,
+   "n": 3,
+   "p": 6,
+   "bp": 15,
+   "bc": 22,
+   "pts": 12
+  },
+  {
    "pos": 17,
+   "club": "Getafe",
+   "j": 12,
+   "g": 3,
+   "n": 3,
+   "p": 6,
+   "bp": 8,
+   "bc": 18,
+   "pts": 12,
+   "forme": "DNDVD"
+  },
+  {
+   "pos": 18,
    "club": "Levante",
    "j": 12,
    "g": 2,
@@ -208,7 +220,7 @@
    "forme": "NVDDN"
   },
   {
-   "pos": 18,
+   "pos": 19,
    "club": "Elche",
    "j": 12,
    "g": 2,
@@ -218,18 +230,6 @@
    "bc": 20,
    "pts": 10,
    "forme": "NNVDD"
-  },
-  {
-   "pos": 19,
-   "club": "Valence",
-   "j": 12,
-   "g": 2,
-   "n": 3,
-   "p": 7,
-   "bp": 8,
-   "bc": 20,
-   "pts": 9,
-   "forme": "NNDVD"
   },
   {
    "pos": 20,
@@ -275,6 +275,11 @@
    "buts": 7
   },
   {
+   "joueur": "Fermín López",
+   "club": "Barça",
+   "buts": 7
+  },
+  {
    "joueur": "Roberto Fernández",
    "club": "Espanyol",
    "buts": 7
@@ -302,8 +307,8 @@
    "passes": 5
   },
   {
-   "joueur": "Alberto Moleiro",
-   "club": "Villarreal",
+   "joueur": "Mariano Díaz",
+   "club": "Alavés",
    "passes": 4
   },
   {
@@ -312,8 +317,8 @@
    "passes": 4
   },
   {
-   "joueur": "Mariano Díaz",
-   "club": "Alavés",
+   "joueur": "Alberto Moleiro",
+   "club": "Villarreal",
    "passes": 4
   },
   {
@@ -329,6 +334,26 @@
     "dom": "Athletic Bilbao",
     "ext": "Espanyol",
     "score": "0-1"
+   },
+   {
+    "dom": "Alavés",
+    "ext": "La Corogne",
+    "score": "3-1"
+   },
+   {
+    "dom": "Rayo Vallecano",
+    "ext": "Valence",
+    "score": "0-1"
+   },
+   {
+    "dom": "Séville",
+    "ext": "Betis",
+    "score": "1-1"
+   },
+   {
+    "dom": "Real Madrid",
+    "ext": "Celta Vigo",
+    "score": "2-1"
    }
   ]
  },
@@ -399,18 +424,6 @@
    "url": "https://www.maxifoot.fr/resultat-liga-espagne.htm"
   },
   {
-   "nom": "Sports Infos – Liga 2026/2027, classement après J12",
-   "url": "https://www.ski-nordique.net/liga-20262027-classement-apres-j12-le-barca-simpose-chez-latletico-le-real-saccroche.6751887-581149.html"
-  },
-  {
-   "nom": "Sports Infos – Liga 2026/2027, buteurs après J12",
-   "url": "https://www.ski-nordique.net/?id=6751888"
-  },
-  {
-   "nom": "Foot Direct – Classement passeurs Liga",
-   "url": "https://www.foot-direct.com/espagne/liga/classement-passeurs"
-  },
-  {
    "nom": "Futbol24 – Résultats Primera División 2026/27",
    "url": "https://www.futbol24.com/national/Spain/Primera-Division/2026-2027/results"
   },
@@ -421,6 +434,18 @@
   {
    "nom": "La Grada – Athletic 0-1 Espanyol (20 nov. 2026)",
    "url": "https://lagrada.org/athletic-espanyol-cronica-jornada-13-laliga-26-27/"
+  },
+  {
+   "nom": "Foot Mercato – buteurs Liga 2026/2027",
+   "url": "https://www.footmercato.net/espagne/liga/buteur"
+  },
+  {
+   "nom": "Foot Mercato – passeurs Liga 2026/2027",
+   "url": "https://www.footmercato.net/espagne/liga/passeur"
+  },
+  {
+   "nom": "ESPN – Real Madrid 2-1 Celta Vigo (21 nov. 2026)",
+   "url": "https://www.espn.com/soccer/report/_/gameId/401882798"
   }
  ]
 }

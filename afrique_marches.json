@@ -1,15 +1,15 @@
 {
-  "maj": "Derniers cours disponibles au samedi 21 novembre 2026 vers 5 h 30 (Paris) : rand et franc CFA (cours de référence BCE), or, Brent, cuivre et cacao au vendredi 20/11 ; dirham, cobalt et café arabica au jeudi 19/11 ; livre égyptienne au 18/11 ; naira et cedi au 17/11 ; shilling kényan au 12/11 ; birr et shilling tanzanien au 10/11 et au 6/11 (non actualisés). Taux directeurs : la SARB a maintenu son taux à 7,25 % le 19/11 ; la CBN se réunit les 23 et 24/11.",
+  "maj": "Derniers cours disponibles au dimanche 22 novembre 2026 vers 5 h 45 (Paris) : naira, rand et franc CFA (cours de référence BCE), livre égyptienne, or, Brent, cuivre et cacao au vendredi 20/11 ; dirham, cedi, cobalt et café arabica au jeudi 19/11 ; shilling kényan au 12/11 ; birr et shilling tanzanien au 10/11 et au 6/11 (non actualisés). Taux directeurs : la SARB a maintenu son taux à 7,25 % le 19/11, la Banque du Ghana l'a abaissé à 11 % le 18/11 ; la CBN se réunit les 23 et 24/11.",
   "convention": "Cours en unités de monnaie locale pour 1 dollar. La variation sur un mois est négative quand la monnaie locale s'est affaiblie face au dollar.",
   "devises": [
     {
       "code": "NGN",
       "nom": "naira nigérian",
       "pays": "Nigeria",
-      "usd": 1363.0,
-      "date": "2026-11-17",
-      "var_1m": "-2,2 %",
-      "note": "Clôture officielle NAFEM du mardi 17/11 (1 363, contre 1 360 le 16/11) selon les données de la CBN reprises par Arbiterz, comparée à la clôture du 9 octobre (1 332,49). Marché parallèle autour de 1 453 nairas le 18/11. Les sources divergent sur la clôture du 17/11 : TechEconomy indique 1 358,09 nairas (taux NFEM attribué à la CBN). Aucune clôture du 18 au 20/11 n'a été trouvée."
+      "usd": 1394.0,
+      "date": "2026-11-20",
+      "var_1m": "-4,4 %",
+      "note": "Taux de la fenêtre officielle (NFEM) du vendredi 20/11 (1 394 nairas, contre 1 388 le 19/11) selon TheNigeriaLawyer ; Nairametrics indique un taux NFEM de la CBN de 1 376,58 le 19/11 (1 363,23 le 18/11) et une clôture de marché à 1 388, la plus faible depuis le 5 mars. Marché parallèle autour de 1 472 nairas le 20/11. Variation calculée par rapport à la clôture du 9 octobre (1 332,49), seule référence disponible, soit sur six semaines."
     },
     {
       "code": "ZAR",
@@ -24,10 +24,10 @@
       "code": "GHS",
       "nom": "cedi ghanéen",
       "pays": "Ghana",
-      "usd": 11.74,
-      "date": "2026-11-17",
-      "var_1m": "+0,5 %",
-      "note": "Cours interbancaire de la Banque du Ghana du 17/11 selon ModernGhana, comparé à 11,80 le 12 octobre ; les bureaux de change vendent le dollar autour de 12,35 cedis. Selon des données de la Banque du Ghana citées par Citi Newsroom, le cedi a perdu 10,6 % face au dollar depuis le début de l'année."
+      "usd": 11.79,
+      "date": "2026-11-19",
+      "var_1m": "+0,1 %",
+      "note": "Cours interbancaire de la Banque du Ghana du 19/11 selon ModernGhana (11,74 le 17/11), comparé à 11,80 le 12 octobre ; les bureaux de change vendent le dollar autour de 12,45 cedis. Selon des données de la Banque du Ghana citées par Citi Newsroom, le cedi a perdu 10,6 % face au dollar depuis le début de l'année."
     },
     {
       "code": "KES",
@@ -42,10 +42,10 @@
       "code": "EGP",
       "nom": "livre égyptienne",
       "pays": "Égypte",
-      "usd": 53.82,
-      "date": "2026-11-18",
+      "usd": 53.8,
+      "date": "2026-11-20",
       "var_1m": "-2,6 %",
-      "note": "Moyenne achat/vente de la Banque centrale d'Égypte (53,75/53,88) du mercredi 18/11 selon Youm7, comparée à la clôture Yahoo Finance du 12/10 (52,39). La livre a touché environ 56 fin octobre."
+      "note": "Moyenne achat/vente (53,75/53,85) affichée par la Banque centrale d'Égypte le vendredi 20/11, d'après les dernières transactions, selon Youm7, comparée à la clôture Yahoo Finance du 12/10 (52,39). La livre a touché environ 56 fin octobre."
     },
     {
       "code": "MAD",
@@ -440,6 +440,22 @@
     {
       "nom": "TechEconomy – naira NFEM du 17/11/2026",
       "url": "https://techeconomy.ng/dollar-to-naira-exchange-rate-today-november-18-2026"
+    },
+    {
+      "nom": "TheNigeriaLawyer – naira NFEM et parallèle du 20/11/2026",
+      "url": "https://thenigerialawyer.com/%E2%82%A61472-in-parallel-market-%E2%82%A61394-at-official-window-naira-weakens-further-against-dollar/"
+    },
+    {
+      "nom": "Nairametrics – naira au 19/11/2026",
+      "url": "https://nairametrics.com/2026/11/20/naira-heads-to-n1400-weakest-close-in-eight-months/"
+    },
+    {
+      "nom": "ModernGhana – cedi au 19/11/2026",
+      "url": "https://www.modernghana.com/news/1545915/november-19-cedi-sells-at-ghs1245-on-forex-marke.html"
+    },
+    {
+      "nom": "Youm7 – dollar à la Banque centrale d'Égypte (20/11/2026)",
+      "url": "https://www.youm7.com/story/2026/11/20/%D9%83%D9%85-%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%89-%D9%85%D9%82%D8%A7%D8%A8%D9%84-%D8%A7%D9%84%D8%AC%D9%86%D9%8A%D9%87-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%89-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%AC%D9%85%D8%B9%D8%A9-20/7625502"
     }
   ]
 }

@@ -3,10 +3,22 @@
  "nom": "Bundesliga",
  "pays": "Allemagne",
  "saison": "2026-27",
- "maj": "10e journée en cours (match du 20 novembre)",
+ "maj": "10e journée en cours (matchs des 20 et 21 novembre)",
  "classement": [
   {
    "pos": 1,
+   "club": "Dortmund",
+   "j": 10,
+   "g": 7,
+   "n": 3,
+   "p": 0,
+   "bp": 17,
+   "bc": 7,
+   "pts": 24,
+   "forme": "NVNVV"
+  },
+  {
+   "pos": 2,
    "club": "Bayern",
    "j": 10,
    "g": 6,
@@ -18,52 +30,40 @@
    "forme": "VVNVN"
   },
   {
-   "pos": 2,
-   "club": "Dortmund",
-   "j": 9,
-   "g": 6,
-   "n": 3,
-   "p": 0,
-   "bp": 16,
-   "bc": 7,
-   "pts": 21,
-   "forme": "NNVNV"
-  },
-  {
    "pos": 3,
    "club": "Fribourg",
-   "j": 9,
-   "g": 6,
+   "j": 10,
+   "g": 7,
    "n": 1,
    "p": 2,
-   "bp": 20,
+   "bp": 21,
    "bc": 10,
-   "pts": 19,
-   "forme": "VDDVV"
+   "pts": 22,
+   "forme": "DDVVV"
   },
   {
    "pos": 4,
    "club": "Leipzig",
-   "j": 9,
-   "g": 6,
+   "j": 10,
+   "g": 7,
    "n": 0,
    "p": 3,
-   "bp": 27,
-   "bc": 13,
-   "pts": 18,
-   "forme": "VDVVV"
+   "bp": 32,
+   "bc": 14,
+   "pts": 21,
+   "forme": "DVVVV"
   },
   {
    "pos": 5,
    "club": "Leverkusen",
-   "j": 9,
-   "g": 5,
+   "j": 10,
+   "g": 6,
    "n": 1,
    "p": 3,
-   "bp": 20,
+   "bp": 24,
    "bc": 17,
-   "pts": 16,
-   "forme": "VVDDV"
+   "pts": 19,
+   "forme": "VDDVV"
   },
   {
    "pos": 6,
@@ -79,51 +79,51 @@
   },
   {
    "pos": 7,
-   "club": "Elversberg",
-   "j": 9,
+   "club": "Francfort",
+   "j": 10,
    "g": 4,
-   "n": 1,
-   "p": 4,
-   "bp": 17,
-   "bc": 18,
-   "pts": 13,
-   "forme": "DVDVD"
+   "n": 3,
+   "p": 3,
+   "bp": 16,
+   "bc": 20,
+   "pts": 15,
+   "forme": "VDVNV"
   },
   {
    "pos": 8,
    "club": "Stuttgart",
-   "j": 9,
+   "j": 10,
    "g": 4,
-   "n": 0,
+   "n": 1,
    "p": 5,
    "bp": 15,
    "bc": 15,
-   "pts": 12,
-   "forme": "VDDVV"
+   "pts": 13,
+   "forme": "DDVVN"
   },
   {
    "pos": 9,
-   "club": "Hoffenheim",
-   "j": 9,
+   "club": "Elversberg",
+   "j": 10,
    "g": 4,
-   "n": 0,
+   "n": 1,
    "p": 5,
-   "bp": 16,
-   "bc": 17,
-   "pts": 12,
-   "forme": "DVVDV"
+   "bp": 17,
+   "bc": 19,
+   "pts": 13,
+   "forme": "VDVDD"
   },
   {
    "pos": 10,
-   "club": "Francfort",
-   "j": 9,
-   "g": 3,
-   "n": 3,
-   "p": 3,
-   "bp": 15,
-   "bc": 20,
+   "club": "Hoffenheim",
+   "j": 10,
+   "g": 4,
+   "n": 0,
+   "p": 6,
+   "bp": 16,
+   "bc": 18,
    "pts": 12,
-   "forme": "DVDVN"
+   "forme": "VVDVD"
   },
   {
    "pos": 11,
@@ -151,18 +151,6 @@
   },
   {
    "pos": 13,
-   "club": "Paderborn",
-   "j": 9,
-   "g": 2,
-   "n": 4,
-   "p": 3,
-   "bp": 8,
-   "bc": 11,
-   "pts": 10,
-   "forme": "DNVNN"
-  },
-  {
-   "pos": 14,
    "club": "Cologne",
    "j": 10,
    "g": 2,
@@ -172,6 +160,18 @@
    "bc": 15,
    "pts": 10,
    "forme": "DNNDN"
+  },
+  {
+   "pos": 14,
+   "club": "Paderborn",
+   "j": 10,
+   "g": 2,
+   "n": 4,
+   "p": 4,
+   "bp": 8,
+   "bc": 15,
+   "pts": 10,
+   "forme": "NVNND"
   },
   {
    "pos": 15,
@@ -187,39 +187,39 @@
   },
   {
    "pos": 16,
-   "club": "Union Berlin",
-   "j": 9,
+   "club": "Schalke",
+   "j": 10,
    "g": 1,
    "n": 4,
-   "p": 4,
-   "bp": 7,
-   "bc": 21,
-   "pts": 7,
-   "forme": "VNNND"
-  },
-  {
-   "pos": 17,
-   "club": "Schalke",
-   "j": 9,
-   "g": 1,
-   "n": 3,
    "p": 5,
    "bp": 5,
    "bc": 11,
-   "pts": 6,
-   "forme": "DDNDD"
+   "pts": 7,
+   "forme": "DNDDN"
+  },
+  {
+   "pos": 17,
+   "club": "Union Berlin",
+   "j": 10,
+   "g": 1,
+   "n": 4,
+   "p": 5,
+   "bp": 8,
+   "bc": 26,
+   "pts": 7,
+   "forme": "NNNDD"
   },
   {
    "pos": 18,
    "club": "Gladbach",
-   "j": 9,
+   "j": 10,
    "g": 1,
    "n": 1,
-   "p": 7,
+   "p": 8,
    "bp": 12,
-   "bc": 25,
+   "bc": 26,
    "pts": 4,
-   "forme": "DDVND"
+   "forme": "DVNDD"
   }
  ],
  "buteurs": [
@@ -234,11 +234,6 @@
    "buts": 8
   },
   {
-   "joueur": "Michael Olise",
-   "club": "Bayern",
-   "buts": 6
-  },
-  {
    "joueur": "Younes Ebnoutalib",
    "club": "Francfort",
    "buts": 6
@@ -249,9 +244,9 @@
    "buts": 6
   },
   {
-   "joueur": "Christopher Nkunku",
-   "club": "Leipzig",
-   "buts": 5
+   "joueur": "Michael Olise",
+   "club": "Bayern",
+   "buts": 6
   },
   {
    "joueur": "Rômulo",
@@ -259,8 +254,18 @@
    "buts": 5
   },
   {
+   "joueur": "Christopher Nkunku",
+   "club": "Leipzig",
+   "buts": 5
+  },
+  {
    "joueur": "Michael Gregoritsch",
    "club": "Augsbourg",
+   "buts": 5
+  },
+  {
+   "joueur": "Ermedin Demirović",
+   "club": "Stuttgart",
    "buts": 5
   },
   {
@@ -272,11 +277,6 @@
    "joueur": "Jonathan Burkardt",
    "club": "Francfort",
    "buts": 5
-  },
-  {
-   "joueur": "Ermedin Demirović",
-   "club": "Stuttgart",
-   "buts": 5
   }
  ],
  "passeurs": [
@@ -286,29 +286,24 @@
    "passes": 8
   },
   {
-   "joueur": "Marco Grüll",
-   "club": "Brême",
-   "passes": 7
-  },
-  {
    "joueur": "Antonio Nusa",
    "club": "Leipzig",
    "passes": 7
   },
   {
-   "joueur": "Fabian Rieder",
-   "club": "Augsbourg",
-   "passes": 5
-  },
-  {
-   "joueur": "Miguel Gutiérrez",
-   "club": "Leverkusen",
-   "passes": 4
+   "joueur": "Marco Grüll",
+   "club": "Brême",
+   "passes": 7
   },
   {
    "joueur": "Brajan Gruda",
    "club": "Leipzig",
-   "passes": 4
+   "passes": 5
+  },
+  {
+   "joueur": "Fabian Rieder",
+   "club": "Augsbourg",
+   "passes": 5
   },
   {
    "joueur": "Albert Grønbæk",
@@ -319,6 +314,11 @@
    "joueur": "Sheraldo Becker",
    "club": "Mayence",
    "passes": 4
+  },
+  {
+   "joueur": "Miguel Gutiérrez",
+   "club": "Leverkusen",
+   "passes": 4
   }
  ],
  "derniere_journee": {
@@ -328,6 +328,36 @@
     "dom": "Bayern",
     "ext": "Cologne",
     "score": "1-1"
+   },
+   {
+    "dom": "Leverkusen",
+    "ext": "Paderborn",
+    "score": "4-0"
+   },
+   {
+    "dom": "Francfort",
+    "ext": "Hoffenheim",
+    "score": "1-0"
+   },
+   {
+    "dom": "Union Berlin",
+    "ext": "Leipzig",
+    "score": "1-5"
+   },
+   {
+    "dom": "Gladbach",
+    "ext": "Dortmund",
+    "score": "0-1"
+   },
+   {
+    "dom": "Elversberg",
+    "ext": "Fribourg",
+    "score": "0-1"
+   },
+   {
+    "dom": "Schalke",
+    "ext": "Stuttgart",
+    "score": "0-0"
    }
   ]
  },
@@ -394,20 +424,8 @@
  },
  "sources": [
   {
-   "nom": "Sports Infos – Bundesliga 2026/2027, classement après J9",
-   "url": "https://www.ski-nordique.net/bundesliga-20262027-classement-apres-j9-bayern-et-dortmund-toujours-au-coude-a-coude-leipzig-en-demonstration.6752243-581149.html"
-  },
-  {
    "nom": "Foot Mercato – Classement Bundesliga 2026/2027",
    "url": "https://www.footmercato.net/allemagne/bundesliga/classement"
-  },
-  {
-   "nom": "Sports Infos – Bundesliga 2026/2027, buteurs après J9",
-   "url": "https://www.ski-nordique.net/bundesliga-20262027-classement-des-buteurs-apres-j9-fullkrug-reste-en-tete-schick-revient-a-un-but.6752244-605274.html"
-  },
-  {
-   "nom": "Foot Direct – Classement passeurs Bundesliga",
-   "url": "https://www.foot-direct.com/allemagne/bundesliga/classement-passeurs"
   },
   {
    "nom": "Futbol24 – Résultats Bundesliga 2026/27",
@@ -416,6 +434,18 @@
   {
    "nom": "AP via KSL – Bayern 1-1 Cologne (20 nov. 2026)",
    "url": "https://www.ksl.com/article/51647249/kompany-returns-but-kane-limps-off-as-bayern-munich-held-by-cologne-in-bundesliga"
+  },
+  {
+   "nom": "Foot Mercato – buteurs Bundesliga 2026/2027",
+   "url": "https://www.footmercato.net/allemagne/bundesliga/buteur"
+  },
+  {
+   "nom": "Foot Mercato – passeurs Bundesliga 2026/2027",
+   "url": "https://www.footmercato.net/allemagne/bundesliga/passeur"
+  },
+  {
+   "nom": "ESPN – Schalke 0-0 Stuttgart (21 nov. 2026)",
+   "url": "https://espndeportes.espn.com/futbol/partido/_/juegoId/401884729"
   }
  ]
 }

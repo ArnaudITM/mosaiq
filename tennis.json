@@ -1,5 +1,5 @@
 {
-  "maj": "21 novembre 2026 – résultats de Turin jusqu'au vendredi 20 novembre inclus (AP, ESPN) ; top 20 ATP/WTA et Français du top 50 au classement du 16 novembre (prochain classement ATP le 23 novembre) ; Français classés au-delà du 50e rang : classement du 9 novembre (ATP) et du 5 novembre (WTA), non revérifiés.",
+  "maj": "22 novembre 2026 – résultats de Turin jusqu'aux demi-finales du samedi 21 novembre inclus (AP, Tennis Majors, Tennis Watcher) ; top 20 ATP/WTA et Français du top 50 au classement du 16 novembre (prochain classement ATP le 23 novembre, après la finale) ; Français classés au-delà du 50e rang : classement du 9 novembre (ATP) et du 5 novembre (WTA), non revérifiés. Résultat du samedi du barrage de BJK Cup France-Australie non vérifié à la rédaction.",
   "atp": {
     "date": "16 novembre 2026",
     "top": [
@@ -369,13 +369,13 @@
       {
         "date": "21 novembre",
         "matchs": [
-          "Demi-finales : Alexander Zverev-Daniil Medvedev et Carlos Alcaraz-Ben Shelton (simples à 14h30 et 20h30, ordre à confirmer)"
+          "Demi-finales : Carlos Alcaraz bat Ben Shelton 3-6, 6-3, 7-6 (1) ; Alexander Zverev bat Daniil Medvedev 7-6 (0), 6-4"
         ]
       },
       {
         "date": "22 novembre",
         "matchs": [
-          "Finale du simple (18h)"
+          "Finale du simple : Alexander Zverev-Carlos Alcaraz (18h)"
         ]
       }
     ],
@@ -463,9 +463,23 @@
         "vainqueur": "Daniil Medvedev",
         "perdant": "Frances Tiafoe",
         "score": "6-3, 6-4"
+      },
+      {
+        "date": "21 novembre 2026",
+        "groupe": "Demi-finale",
+        "vainqueur": "Carlos Alcaraz",
+        "perdant": "Ben Shelton",
+        "score": "3-6, 6-3, 7-6 (1)"
+      },
+      {
+        "date": "21 novembre 2026",
+        "groupe": "Demi-finale",
+        "vainqueur": "Alexander Zverev",
+        "perdant": "Daniil Medvedev",
+        "score": "7-6 (0), 6-4"
       }
     ],
-    "texte": "Arthur Fils est éliminé des ATP Finals : battu 6-4, 7-6 (6) par Alexander Zverev jeudi soir à Turin, le Français a sauvé cinq balles de match dans le jeu décisif, remporté 8-6 par l'Allemand, selon Tennis Majors. Zverev termine invaincu et sans perdre de set en tête du groupe John McEnroe ; Ben Shelton, vainqueur de Rafael Jódar en deux sets plus tôt dans la journée, prend la 2e place. Vendredi, Medvedev-Tiafoe désigne le second qualifié du groupe Ivan Lendl, déjà remporté par Carlos Alcaraz, qui affronte Cobolli. Demi-finales samedi 21 (Shelton-Alcaraz et Zverev-vainqueur de Medvedev-Tiafoe), finale dimanche 22 novembre à 18h. Le tournoi se joue sans le double tenant du titre Jannik Sinner, blessé au genou."
+    "texte": "La finale des ATP Finals oppose dimanche 22 novembre (18h) Alexander Zverev, n°1 mondial, à Carlos Alcaraz. Samedi, Alcaraz a battu Ben Shelton 3-6, 6-3, 7-6 (1) malgré une gêne à la cuisse, selon l'AP reprise par KSAT, et reste sur 13 victoires de suite, selon Tennis Watcher. Zverev a dominé Daniil Medvedev 7-6 (0), 6-4 en 86 minutes sans concéder de balle de break, et vise un troisième titre au Masters, selon Tennis Watcher et Tennis Majors. Arthur Fils a été éliminé en phase de groupes (une victoire, deux défaites). Le tournoi se joue sans le double tenant du titre Jannik Sinner, blessé au genou."
   },
   "calendrier": [
     {
@@ -500,6 +514,22 @@
     }
   ],
   "infos": [
+    {
+      "titre": "Zverev-Alcaraz en finale à Turin",
+      "texte": "Alexander Zverev a battu Daniil Medvedev 7-6 (0), 6-4 samedi en demi-finale des ATP Finals, sans faire face à une balle de break, selon Tennis Watcher ; il retrouve dimanche Carlos Alcaraz, vainqueur de Ben Shelton 3-6, 6-3, 7-6 (1), selon l'AP reprise par KSAT.",
+      "source": {
+        "nom": "Tennis Watcher – Zverev bat Medvedev",
+        "url": "https://www.tenniswatcher.com/en/news/alexander-zverev-sinks-daniil-medvedev-in-turin-and-sets-up-alcaraz-clash-in-the-final"
+      }
+    },
+    {
+      "titre": "Alcaraz renverse Shelton",
+      "texte": "Mené d'un set, Carlos Alcaraz a battu Ben Shelton 3-6, 6-3, 7-6 (1) en surmontant une gêne à la cuisse, selon l'AP reprise par KSAT ; il mène 5-1 dans leurs confrontations.",
+      "source": {
+        "nom": "KSAT (AP) – Alcaraz bat Shelton",
+        "url": "https://www.ksat.com/sports/2026/11/21/alcaraz-shakes-off-thigh-injury-to-beat-shelton-and-reach-championship-match-at-atp-finals/"
+      }
+    },
     {
       "titre": "Medvedev rejoint Zverev, Alcaraz invaincu",
       "texte": "Daniil Medvedev a battu Frances Tiafoe 6-3, 6-4 vendredi à Turin et affrontera Alexander Zverev, n°1 mondial, en demi-finale samedi ; le Russe mène 14-8 dans leurs confrontations, selon ESPN. Tiafoe a écopé d'une pénalité pour dépassement du temps sur la balle de break du 5-4 au second set. Carlos Alcaraz a battu Flavio Cobolli 6-4, 6-1 et retrouve Ben Shelton, qui l'avait battu en quarts de finale de l'US Open, selon l'AP.",
@@ -555,25 +585,21 @@
         "nom": "Critical Report",
         "url": "https://criticalreport.substack.com/p/mirra-andreeva-2026-wta-finals"
       }
-    },
-    {
-      "titre": "Sinner forfait pour Turin",
-      "texte": "Blessé au genou, Jannik Sinner a confirmé le 10 novembre à Milan qu'il ne défendrait pas son titre ; il espère revenir pour l'Open d'Australie 2027 sans précipiter sa convalescence.",
-      "source": {
-        "nom": "Tico Times",
-        "url": "https://ticotimes.net/2026/11/10/atp-finals-2026-turin-field-sinner-absence"
-      }
-    },
-    {
-      "titre": "Coupe Davis : la France absente du Final 8",
-      "texte": "Battus 3-1 par le Canada à Québec en septembre, les Bleus ne seront pas à Bologne, où l'Italie, double tenante, affronte la Corée du Sud en quart de finale le 25 novembre.",
-      "source": {
-        "nom": "Wikipedia – 2026 Davis Cup",
-        "url": "https://en.wikipedia.org/wiki/2026_Davis_Cup"
-      }
     }
   ],
   "sources": [
+    {
+      "nom": "KSAT (AP) – Alcaraz bat Shelton (21 nov. 2026)",
+      "url": "https://www.ksat.com/sports/2026/11/21/alcaraz-shakes-off-thigh-injury-to-beat-shelton-and-reach-championship-match-at-atp-finals/"
+    },
+    {
+      "nom": "Tennis Majors – Zverev bat Medvedev (21 nov. 2026)",
+      "url": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/breaking-news-zverev-beats-medvedev-to-set-up-an-atp-finals-final-against-alcaraz-867610.html"
+    },
+    {
+      "nom": "Tennis Watcher – Zverev-Alcaraz en finale",
+      "url": "https://www.tenniswatcher.com/en/news/alexander-zverev-sinks-daniil-medvedev-in-turin-and-sets-up-alcaraz-clash-in-the-final"
+    },
     {
       "nom": "Arab News (AP) – demi-finales des ATP Finals",
       "url": "https://arabnews.com/tennis/atp-finals-semis-are-set-alcaraz-vs-shelton-and-zverev-vs-medvedev-3013265"

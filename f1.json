@@ -1,5 +1,5 @@
 {
-  "maj": "21 novembre 2026 – classements après le Grand Prix de São Paulo (manche 20/23, 8 novembre 2026), inchangés tant que le Grand Prix de Las Vegas (course dimanche 22 novembre à 5h, heure de Paris) n'a pas eu lieu. Essais libres du vendredi intégrés (Sky Sports, ESPN) ; essais libres 3 et qualifications du samedi 21 (5h, heure de Paris) non disponibles à la rédaction, grille non intégrée.",
+  "maj": "22 novembre 2026, 5h30 – classements après le Grand Prix de São Paulo (manche 20/23, 8 novembre 2026), inchangés : le Grand Prix de Las Vegas (départ dimanche 22 novembre à 5h, heure de Paris) était en cours à la rédaction, résultat non intégré, évolution non complétée. Qualifications du samedi et grille de départ intégrées (Sky Sports, Formula1.com).",
   "pilotes": [
     {
       "pos": 1,
@@ -257,8 +257,8 @@
       "fait": false
     }
   ],
-  "titre": "Kimi Antonelli (Mercedes) a été sacré champion du monde dès le Grand Prix de Mexico et Mercedes a bouclé le titre constructeurs à São Paulo ; reste la lutte pour la place de vice-champion entre Verstappen (279 pts), Russell (262) et Hamilton (261). À Las Vegas, la première séance d'essais s'est achevée sans temps réalisé sous une forte pluie ; George Russell a signé le meilleur temps de la seconde, sur piste humide (1'47\"272), devant Pierre Gasly (+0\"071) et Charles Leclerc (+0\"333), Verstappen étant 13e, selon Sky Sports. Antonelli reculera de cinq places sur la grille (moteur thermique au-delà du quota), Piastri, Sainz et Stroll de dix places, et Oliver Bearman partira en fond de grille, selon Sky Sports et ESPN.",
-  "francais": "Pierre Gasly (Alpine) a pris la 2e place de la seconde séance d'essais à Las Vegas, à 0\"071 de George Russell, et Isack Hadjar (Red Bull) la 4e, selon Sky Sports. Au championnat, Hadjar pointe au 8e rang avec 122 points, devant Gasly (10e, 42 pts). Esteban Ocon (Haas, 16e, 7 pts) ne courra plus cette saison, Haas l'ayant confirmé, selon ESPN.",
+  "titre": "Kimi Antonelli (Mercedes) a été sacré champion du monde dès le Grand Prix de Mexico et Mercedes a bouclé le titre constructeurs à São Paulo ; reste la lutte pour la place de vice-champion entre Verstappen (279 pts), Russell (262) et Hamilton (261). À Las Vegas, Antonelli a signé le meilleur temps des qualifications, 0\"258 devant Max Verstappen, mais sa pénalité de cinq places (sixième moteur thermique de la saison) offre la pole au Néerlandais, devant George Russell et Lando Norris, selon Sky Sports et Formula1.com. Antonelli part 6e ; Oscar Piastri, 7e des qualifications, recule au 17e rang. Les deux Ferrari ont été éliminées en Q2 (Leclerc 10e, Hamilton 11e sur la grille), une première depuis le Grand Prix du Canada 2024, selon Sky Sports.",
+  "francais": "Isack Hadjar (Red Bull) s'élance 4e à Las Vegas et Pierre Gasly (Alpine) 8e, 9e des qualifications, remonté d'une place après la pénalité de Piastri, selon Sky Sports. Au championnat, Hadjar pointe au 8e rang avec 122 points, devant Gasly (10e, 42 pts). Esteban Ocon (Haas, 16e, 7 pts) ne court plus cette saison, Haas l'ayant confirmé, selon ESPN.",
   "evolution": {
     "gps": [
       "AUS",
@@ -375,6 +375,14 @@
     "note": "Cumul calculé à partir des résultats course et sprint du tableau Wikipedia (barème 25-18-15-12-10-8-6-4-2-1, sprint 8 à 1) ; les totaux finaux concordent avec le classement officiel."
   },
   "sources": [
+    {
+      "nom": "Sky Sports – qualifications du GP de Las Vegas",
+      "url": "https://www.skysports.com/f1/news/13614575/las-vegas-gp-kimi-antonelli-fastest-but-max-verstappen-on-pole-from-george-russell-after-dramatic-qualifying"
+    },
+    {
+      "nom": "Formula1.com – qualifications du GP de Las Vegas",
+      "url": "https://www.formula1.com/en/latest/article/antonelli-quickest-in-las-vegas-gp-qualifying-as-verstappen-inherits-pole-position.6R7udh8iYMHunSOGI6zStK"
+    },
     {
       "nom": "Sky Sports – Russell en tête des essais à Las Vegas",
       "url": "https://www.skysports.com/f1/news/13614175/las-vegas-gp-george-russell-tops-practice-for-mercedes-as-rain-limits-running-on-first-day-of-track-action"

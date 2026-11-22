@@ -1,6 +1,6 @@
 {
   "top14": {
-    "maj": "après la 9e journée (saison 2026-2027) – pas de journée ce week-end (Championnat des nations), reprise le 28 novembre (vérifié le 19 novembre 2026, sans changement au 21)",
+    "maj": "après la 9e journée (saison 2026-2027) – pas de journée ce week-end (Championnat des nations), reprise le 28 novembre (vérifié le 19 novembre 2026, sans changement au 22)",
     "classement": [
       {
         "pos": 1,
@@ -174,27 +174,42 @@
         "dom": "France",
         "ext": "Afrique du Sud",
         "score": "21-19"
+      },
+      {
+        "date": "21 novembre 2026",
+        "dom": "France",
+        "ext": "Argentine",
+        "score": "45-17"
       }
     ],
     "a_venir": [
       {
-        "date": "samedi 21 novembre 2026",
-        "heure_paris": "21h10",
+        "date": "dimanche 29 novembre 2026",
+        "heure_paris": "17h40",
         "dom": "France",
-        "ext": "Argentine",
-        "lieu": "Stade de France"
-      },
-      {
-        "date": "27-29 novembre 2026",
-        "heure_paris": "à confirmer",
-        "dom": "Finals Weekend",
-        "ext": "adversaire selon classement (1er du groupe Nord en grande finale)",
-        "lieu": "Allianz Stadium, Twickenham (Londres)"
+        "ext": "Afrique du Sud",
+        "lieu": "Allianz Stadium, Twickenham (Londres) – finale du Championnat des nations"
       }
     ],
-    "texte": "Après ses victoires contre les Fidji (54-17) et l'Afrique du Sud (21-19), le XV de France mène le groupe Nord du Championnat des nations avec 21 points, devant l'Angleterre et l'Irlande (20 points chacune), selon l'Irish Times. Les Bleus reçoivent l'Argentine samedi 21 novembre au Stade de France (21h10) : une victoire avec bonus offensif leur assurerait une place en grande finale à Twickenham, quels que soient les autres résultats, selon le quotidien irlandais. Selon Sud Radio et RugbyPass, Matthieu Jalibert est attendu à l'ouverture, en l'absence de Romain Ntamack, Thomas Ramos et Antoine Hastoy, blessés ; la composition officielle n'a pas pu être vérifiée à la rédaction."
+    "texte": "Le XV de France a battu l'Argentine 45-17 samedi au Stade de France, avec sept essais dont un doublé de Kalvin Gourgues, et le bonus offensif dès la 65e minute, selon Vibrez Rugby et Vavel. Premiers du groupe Nord, les Bleus affronteront l'Afrique du Sud, première du groupe Sud, en finale du Championnat des nations le dimanche 29 novembre à Twickenham (17h40, heure de Paris), selon Sky Sports, après leur victoire 21-19 contre les Springboks le 13 novembre. Samedi, l'Angleterre a battu la Nouvelle-Zélande 37-12 et l'Irlande l'Afrique du Sud 20-17, selon Sky Sports."
   },
   "infos": [
+    {
+      "titre": "Sept essais contre l'Argentine",
+      "texte": "Les Bleus se sont imposés 45-17 face aux Pumas, menés 10-7 en première période : essais de Guillard (7e), Mauvaka (34e), Gourgues (48e et 71e), Gailleton (65e), Duguid (69e) et Bielle-Biarrey (78e) ; Gourgues a réussi 5 transformations sur 6, selon Vibrez Rugby. Piccardo et Matera ont marqué pour l'Argentine.",
+      "source": {
+        "nom": "Vibrez Rugby – France-Argentine",
+        "url": "https://vibrez-rugby.com/nations-championship-la-france-deroule-face-a-largentine-au-stade-de-france/"
+      }
+    },
+    {
+      "titre": "Finale France-Afrique du Sud à Twickenham",
+      "texte": "Le programme du Finals Weekend a été confirmé, selon Sky Sports : Italie-Fidji et Irlande-Australie le vendredi 27 novembre, Galles-Japon et Angleterre-Nouvelle-Zélande le samedi 28, Écosse-Argentine puis la finale France-Afrique du Sud le dimanche 29 (16h40 heure britannique), tous à Twickenham.",
+      "source": {
+        "nom": "Sky Sports – programme du Finals Weekend",
+        "url": "https://www.skysports.com/rugby-union/news/13615041/nations-championship-fixtures-france-to-play-south-africa-in-final-as-england-face-new-zealand-rematch-plus-ireland-vs-australia"
+      }
+    },
     {
       "titre": "Jalibert et Jelonch de retour avant l'Argentine",
       "texte": "Selon Sud Radio, Matthieu Jalibert, revenu dans le groupe un mois après une rechute à la cuisse, devrait être titularisé à l'ouverture, en l'absence de Romain Ntamack, Thomas Ramos et Antoine Hastoy, blessés ; Anthony Jelonch, remis d'une blessure à l'épaule, est aussi annoncé. Louis Bielle-Biarrey, Jean-Baptiste Gros et Aaron Grandidier-Nkanang ont été ménagés à l'entraînement. Composition attendue jeudi.",
@@ -204,43 +219,11 @@
       }
     },
     {
-      "titre": "Les 42 joueurs disponibles, selon Sempéré",
-      "texte": "L'entraîneur adjoint Laurent Sempéré a assuré que les 42 joueurs du groupe étaient aptes avant de recevoir l'Argentine, tout en évoquant « quelques ajustements » pour ceux qui ont beaucoup joué, selon RugbyPass. Le staff devrait conserver l'ossature victorieuse des Springboks (21-19), avec Matthieu Jalibert attendu à l'ouverture ; à l'entraînement, Yoram Moefana et Kalvin Gourgues étaient associés au centre et Théo Attissogbe à l'arrière.",
-      "source": {
-        "nom": "RugbyPass – Sempéré et le retour de Jalibert (18 nov. 2026)",
-        "url": "https://www.rugbypass.com/news/sempere-retour-matthieu-jalibert-contre-argentine/"
-      }
-    },
-    {
-      "titre": "La France en tête avant la dernière journée",
-      "texte": "Avec 21 points, les Bleus devancent d'un point l'Angleterre (+134 de différence) et l'Irlande (+57), selon l'Irish Times. Une victoire sans bonus contre l'Argentine laisserait l'Irlande dans l'obligation de gagner par plus de 22 points pour passer devant.",
-      "source": {
-        "nom": "The Irish Times",
-        "url": "https://www.irishtimes.com/sport/rugby/2026/11/15/nations-championship-permutations-what-does-ireland-need-to-reach-the-inaugural-grand-final-at-twickenham/"
-      }
-    },
-    {
       "titre": "Les Bleus battent les Springboks",
       "texte": "Le XV de France s'est imposé 21-19 face à l'Afrique du Sud au Stade de France, lors de la 5e journée du Championnat des nations, selon rugby365. Malcolm Marx a inscrit le dernier essai sud-africain à la 71e minute ; Maxime Lucu est crédité de 6 points, selon RugbyPass. L'arbitre était l'Italien Andrea Piardi.",
       "source": {
         "nom": "rugby365",
         "url": "https://rugby365.com/live/france-vs-south-africa/"
-      }
-    },
-    {
-      "titre": "Dupont à l'ouverture, retours d'Alldritt et Marchand",
-      "texte": "Pour recevoir les Springboks, Fabien Galthié replace Antoine Dupont au poste de demi d'ouverture et Maxime Lucu à la mêlée. Grégory Alldritt, absent de la sélection depuis près d'un an, est titulaire en n°8 et Julien Marchand au talonnage ; Romain Ntamack et Paul Boudehent sont blessés, et le Palois Axel Desperes figure sur le banc.",
-      "source": {
-        "nom": "Rugbyscope",
-        "url": "https://www.rugbyscope.fr/france-afrique-du-sud-compo-des-bleus/"
-      }
-    },
-    {
-      "titre": "Deux changements chez les Springboks, sans Etzebeth",
-      "texte": "Rassie Erasmus reconduit l'essentiel de l'équipe victorieuse de l'Italie (66-7) : Wilco Louw remplace Thomas du Toit en première ligne et Cobus Reinach entre sur le banc. Revenu de blessure au genou, Eben Etzebeth n'est pas retenu ; Siya Kolisi est capitaine.",
-      "source": {
-        "nom": "TimesLIVE",
-        "url": "https://www.timeslive.co.za/sport/rugby/2026-11-09-erasmus-opts-for-consistency-as-he-names-boks-xv-for-france-test/"
       }
     },
     {
@@ -261,6 +244,18 @@
     }
   ],
   "sources": [
+    {
+      "nom": "Vibrez Rugby – France 45-17 Argentine (21 nov. 2026)",
+      "url": "https://vibrez-rugby.com/nations-championship-la-france-deroule-face-a-largentine-au-stade-de-france/"
+    },
+    {
+      "nom": "Vavel – France-Argentine (21 nov. 2026)",
+      "url": "https://www.vavel.com/en/rugby/2026/11/21/1280151-france-vs-argentina-live-score-updates-rugby-nations-championship.html"
+    },
+    {
+      "nom": "Sky Sports – Finals Weekend et résultats du 21 novembre",
+      "url": "https://www.skysports.com/rugby-union/news/13615041/nations-championship-fixtures-france-to-play-south-africa-in-final-as-england-face-new-zealand-rematch-plus-ireland-vs-australia"
+    },
     {
       "nom": "itsrugby.fr – Top 14 J9 résultats et classement",
       "url": "https://itsrugby.fr/top-14-j9-2026-2027-vannes-bat-ubb-pau-perpignan-resultats-classement/"

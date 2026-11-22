@@ -1,46 +1,11 @@
 {
- "maj": "21 novembre 2026",
+ "maj": "22 novembre 2026",
  "competitions": [
   {
    "id": "ligue-1",
    "nom": "Ligue 1",
-   "journee": "11e journée (suite)",
+   "journee": "11e journée (fin)",
    "matchs": [
-    {
-     "date": "2026-11-21",
-     "heure": "17:15",
-     "dom": "Nice",
-     "ext": "PSG",
-     "tv": "Ligue 1+"
-    },
-    {
-     "date": "2026-11-21",
-     "heure": "20:45",
-     "dom": "Lille",
-     "ext": "OL",
-     "tv": "Ligue 1+"
-    },
-    {
-     "date": "2026-11-21",
-     "heure": "20:45",
-     "dom": "Lens",
-     "ext": "Toulouse",
-     "tv": "Ligue 1+"
-    },
-    {
-     "date": "2026-11-21",
-     "heure": "20:45",
-     "dom": "Monaco",
-     "ext": "Auxerre",
-     "tv": "Ligue 1+"
-    },
-    {
-     "date": "2026-11-21",
-     "heure": "20:45",
-     "dom": "Strasbourg",
-     "ext": "Brest",
-     "tv": "Ligue 1+"
-    },
     {
      "date": "2026-11-22",
      "heure": "15:00",
@@ -67,52 +32,8 @@
   {
    "id": "premier-league",
    "nom": "Premier League",
-   "journee": "Journée du 21 au 23 novembre",
+   "journee": "11e journée (fin)",
    "matchs": [
-    {
-     "date": "2026-11-21",
-     "heure": "13:30",
-     "dom": "Man City",
-     "ext": "Fulham",
-     "tv": "TNT Sports (UK)"
-    },
-    {
-     "date": "2026-11-21",
-     "heure": "16:00",
-     "dom": "Bournemouth",
-     "ext": "Nottingham Forest"
-    },
-    {
-     "date": "2026-11-21",
-     "heure": "16:00",
-     "dom": "Aston Villa",
-     "ext": "Sunderland"
-    },
-    {
-     "date": "2026-11-21",
-     "heure": "16:00",
-     "dom": "Chelsea",
-     "ext": "Leeds"
-    },
-    {
-     "date": "2026-11-21",
-     "heure": "16:00",
-     "dom": "Coventry",
-     "ext": "Crystal Palace"
-    },
-    {
-     "date": "2026-11-21",
-     "heure": "16:00",
-     "dom": "Tottenham",
-     "ext": "Ipswich"
-    },
-    {
-     "date": "2026-11-21",
-     "heure": "18:30",
-     "dom": "Newcastle",
-     "ext": "Arsenal",
-     "tv": "Sky Sports (UK)"
-    },
     {
      "date": "2026-11-22",
      "heure": "15:00",
@@ -139,32 +60,8 @@
   {
    "id": "liga",
    "nom": "Liga",
-   "journee": "13e journée (suite)",
+   "journee": "13e journée (fin)",
    "matchs": [
-    {
-     "date": "2026-11-21",
-     "heure": "14:00",
-     "dom": "Alavés",
-     "ext": "Deportivo La Corogne"
-    },
-    {
-     "date": "2026-11-21",
-     "heure": "16:15",
-     "dom": "Rayo Vallecano",
-     "ext": "Valence"
-    },
-    {
-     "date": "2026-11-21",
-     "heure": "18:30",
-     "dom": "Séville",
-     "ext": "Betis"
-    },
-    {
-     "date": "2026-11-21",
-     "heure": "21:00",
-     "dom": "Real Madrid",
-     "ext": "Celta Vigo"
-    },
     {
      "date": "2026-11-22",
      "heure": "14:00",
@@ -200,36 +97,8 @@
   {
    "id": "serie-a",
    "nom": "Serie A",
-   "journee": "12e journée",
+   "journee": "12e journée (fin) puis 13e journée (27-30 novembre)",
    "matchs": [
-    {
-     "date": "2026-11-21",
-     "heure": "15:00",
-     "dom": "Côme",
-     "ext": "Cagliari",
-     "tv": "DAZN (Italie)"
-    },
-    {
-     "date": "2026-11-21",
-     "heure": "15:00",
-     "dom": "Lazio",
-     "ext": "Lecce",
-     "tv": "DAZN (Italie)"
-    },
-    {
-     "date": "2026-11-21",
-     "heure": "18:00",
-     "dom": "Parme",
-     "ext": "Roma",
-     "tv": "DAZN (Italie)"
-    },
-    {
-     "date": "2026-11-21",
-     "heure": "20:45",
-     "dom": "Naples",
-     "ext": "Turin",
-     "tv": "DAZN / Sky (Italie)"
-    },
     {
      "date": "2026-11-22",
      "heure": "12:30",
@@ -271,50 +140,84 @@
      "dom": "Monza",
      "ext": "Fiorentina",
      "tv": "DAZN / Sky (Italie)"
+    },
+    {
+     "date": "2026-11-27",
+     "heure": "20:45",
+     "dom": "Venise",
+     "ext": "Bologne",
+     "tv": "DAZN / Sky (Italie)"
+    },
+    {
+     "date": "2026-11-28",
+     "heure": "15:00",
+     "dom": "Frosinone",
+     "ext": "Parme",
+     "tv": "DAZN (Italie)"
+    },
+    {
+     "date": "2026-11-28",
+     "heure": "18:00",
+     "dom": "Turin",
+     "ext": "Lazio",
+     "tv": "DAZN (Italie)"
+    },
+    {
+     "date": "2026-11-28",
+     "heure": "20:45",
+     "dom": "Inter",
+     "ext": "Genoa",
+     "tv": "DAZN / Sky (Italie)"
+    },
+    {
+     "date": "2026-11-29",
+     "heure": "12:30",
+     "dom": "Udinese",
+     "ext": "Fiorentina",
+     "tv": "DAZN (Italie)"
+    },
+    {
+     "date": "2026-11-29",
+     "heure": "15:00",
+     "dom": "Sassuolo",
+     "ext": "Naples",
+     "tv": "DAZN (Italie)"
+    },
+    {
+     "date": "2026-11-29",
+     "heure": "18:00",
+     "dom": "Roma",
+     "ext": "Monza",
+     "tv": "DAZN / Sky (Italie)"
+    },
+    {
+     "date": "2026-11-29",
+     "heure": "20:45",
+     "dom": "Côme",
+     "ext": "Juventus",
+     "tv": "DAZN (Italie)"
+    },
+    {
+     "date": "2026-11-30",
+     "heure": "18:30",
+     "dom": "Lecce",
+     "ext": "Atalanta",
+     "tv": "DAZN (Italie)"
+    },
+    {
+     "date": "2026-11-30",
+     "heure": "20:45",
+     "dom": "Cagliari",
+     "ext": "Milan",
+     "tv": "DAZN / Sky (Italie)"
     }
    ]
   },
   {
    "id": "bundesliga",
    "nom": "Bundesliga",
-   "journee": "10e journée (suite)",
+   "journee": "10e journée (fin) puis 11e journée (27-29 novembre)",
    "matchs": [
-    {
-     "date": "2026-11-21",
-     "heure": "15:30",
-     "dom": "Leverkusen",
-     "ext": "Paderborn"
-    },
-    {
-     "date": "2026-11-21",
-     "heure": "15:30",
-     "dom": "Francfort",
-     "ext": "Hoffenheim"
-    },
-    {
-     "date": "2026-11-21",
-     "heure": "15:30",
-     "dom": "Union Berlin",
-     "ext": "Leipzig"
-    },
-    {
-     "date": "2026-11-21",
-     "heure": "15:30",
-     "dom": "Mönchengladbach",
-     "ext": "Dortmund"
-    },
-    {
-     "date": "2026-11-21",
-     "heure": "15:30",
-     "dom": "Elversberg",
-     "ext": "Fribourg"
-    },
-    {
-     "date": "2026-11-21",
-     "heure": "18:30",
-     "dom": "Schalke 04",
-     "ext": "Stuttgart"
-    },
     {
      "date": "2026-11-22",
      "heure": "15:30",
@@ -326,6 +229,60 @@
      "heure": "17:30",
      "dom": "Werder Brême",
      "ext": "Hambourg"
+    },
+    {
+     "date": "2026-11-27",
+     "heure": "20:30",
+     "dom": "Werder Brême",
+     "ext": "Mönchengladbach"
+    },
+    {
+     "date": "2026-11-28",
+     "heure": "15:30",
+     "dom": "Paderborn",
+     "ext": "Schalke 04"
+    },
+    {
+     "date": "2026-11-28",
+     "heure": "15:30",
+     "dom": "Mayence",
+     "ext": "Union Berlin"
+    },
+    {
+     "date": "2026-11-28",
+     "heure": "15:30",
+     "dom": "Hambourg",
+     "ext": "Bayern"
+    },
+    {
+     "date": "2026-11-28",
+     "heure": "15:30",
+     "dom": "Cologne",
+     "ext": "Elversberg"
+    },
+    {
+     "date": "2026-11-28",
+     "heure": "18:30",
+     "dom": "Stuttgart",
+     "ext": "Francfort"
+    },
+    {
+     "date": "2026-11-29",
+     "heure": "15:30",
+     "dom": "Fribourg",
+     "ext": "Leipzig"
+    },
+    {
+     "date": "2026-11-29",
+     "heure": "17:30",
+     "dom": "Hoffenheim",
+     "ext": "Augsbourg"
+    },
+    {
+     "date": "2026-11-29",
+     "heure": "19:30",
+     "dom": "Dortmund",
+     "ext": "Leverkusen"
     }
    ]
   },
@@ -498,8 +455,8 @@
    "url": "https://www.90min.com/fr/france-le-calendrier-et-le-choix-des-stades-ou-joueront-les-bleus-pour-la-saison-2026-2027-devoiles"
   },
   {
-   "nom": "Foresportia – Troyes-Le Havre, Ligue 1 2026/27, 11e journée (20 nov.)",
-   "url": "https://www.foresportia.com/pronostic/ligue-1/estac-troyes-le-havre-ac-2026-11-20/"
+   "nom": "anstosszeiten.de – Bundesliga 11. Spieltag",
+   "url": "https://anstosszeiten.de/bundesliga/spieltag-11/"
   }
  ]
 }
