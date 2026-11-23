@@ -1,5 +1,5 @@
 {
- "maj": "21 novembre 2026",
+ "maj": "23 novembre 2026",
  "fenetre": "Mercato d'hiver : ouverture le 1er janvier 2027 (dates selon les pays)",
  "dates_fenetre": [
   {
@@ -32,6 +32,48 @@
   }
  ],
  "items": [
+  {
+   "joueur": "Francesco Camarda",
+   "de": "Milan",
+   "vers": "Cagliari",
+   "championnat": "serie-a",
+   "type": "prêt",
+   "statut": "rumeur",
+   "texte": "Selon La Gazzetta dello Sport, citée par Maxifoot dimanche 22 novembre, Milan a décidé de prêter cet hiver l'attaquant de 18 ans (6 matchs toutes compétitions cette saison), et Cagliari, déjà intéressé l'été dernier, tiendrait la corde. Les modalités restent à définir ; Paul Mendy pourrait entrer dans les discussions.",
+   "source": {
+    "nom": "Maxifoot (d'après La Gazzetta dello Sport)",
+    "url": "https://news.maxifoot.fr/milan/camarda-vers-cagliari-foot-468137.htm"
+   },
+   "date": "2026-11-22"
+  },
+  {
+   "joueur": "Eli Junior Kroupi",
+   "de": "Bournemouth",
+   "vers": "PSG",
+   "championnat": "premier-league",
+   "type": "transfert",
+   "statut": "rumeur",
+   "texte": "Selon Le Parisien, cité par Maxifoot dimanche 22 novembre, le PSG a écarté de sa liste pour janvier Eli Junior Kroupi (Bournemouth) et Paris Brunner (Monaco), leurs profils ne correspondant pas à ses besoins pour pallier les absences de Désiré Doué et Khvicha Kvaratskhelia. Aucun recrutement n'est acté.",
+   "source": {
+    "nom": "Maxifoot (d'après Le Parisien)",
+    "url": "https://news.maxifoot.fr/psg/deux-pistes-ecartees-pour-janvier-foot-468174.htm"
+   },
+   "date": "2026-11-22"
+  },
+  {
+   "joueur": "Wissam Ben Yedder",
+   "de": "Libre (ex-Wydad Casablanca)",
+   "vers": "Paris 13 Atlético",
+   "championnat": "ligue-3",
+   "type": "transfert",
+   "statut": "officiel",
+   "texte": "L'attaquant de 36 ans, libre depuis son passage au Wydad Casablanca, s'est engagé jusqu'à la fin de la saison avec Paris 13 Atlético (Ligue 3), selon l'annonce du club rapportée par Maxifoot dans son journal des transferts du samedi 21 novembre.",
+   "source": {
+    "nom": "Maxifoot",
+    "url": "https://www.maxifoot.fr/football/article-66630.htm"
+   },
+   "date": "2026-11-21"
+  },
   {
    "joueur": "Thibaut Courtois",
    "de": "Real Madrid",
@@ -174,49 +216,6 @@
     "url": "https://news.maxifoot.fr/om/un-buteur-de-liga-contacte-foot-467960.htm"
    },
    "date": "2026-11-19"
-  },
-  {
-   "joueur": "Igor Paixão",
-   "de": "OM",
-   "vers": null,
-   "championnat": "ligue-1",
-   "type": "transfert",
-   "statut": "rumeur",
-   "texte": "Selon RMC, cité par Maxifoot, l'OM pourrait reconsidérer la vente de l'ailier brésilien de 26 ans (2 buts, 2 passes décisives en 13 matchs) en cas d'offre proche des 30 M€ proposés par Sunderland l'été dernier.",
-   "source": {
-    "nom": "Maxifoot (d'après RMC)",
-    "url": "https://www.maxifoot.fr/football/article-66608.htm"
-   },
-   "date": "2026-11-19"
-  },
-  {
-   "joueur": "Alejandro Balde",
-   "de": "Barça",
-   "vers": null,
-   "championnat": "liga",
-   "type": "transfert",
-   "statut": "rumeur",
-   "texte": "Interrogé par Catalunya Ràdio, le directeur sportif Deco a déclaré que l'arrière gauche de 23 ans (3 matchs de Liga cette saison) « reste un joueur fantastique » et « ne nous a pas dit qu'il n'était pas content », rapporte Maxifoot. Le quotidien Sport affirmait le 18 novembre que le Barça l'avait placé sur le marché.",
-   "source": {
-    "nom": "Maxifoot (d'après Catalunya Ràdio)",
-    "url": "https://news.maxifoot.fr/barca/deco-evoque-le-cas-balde-foot-467932.htm"
-   },
-   "date": "2026-11-19"
-  },
-  {
-   "joueur": "Vitor Matos",
-   "de": "Swansea",
-   "vers": "Strasbourg",
-   "championnat": "ligue-1",
-   "type": "entraîneur",
-   "statut": "officiel",
-   "montant": "environ 6 M€ d'indemnité pour Swansea (selon Maxifoot)",
-   "texte": "Strasbourg a officialisé mercredi 18 novembre la nomination de l'entraîneur portugais, quelques minutes après avoir annoncé le départ de Hugo Oliveira, rapporte Maxifoot. Il dirigera son premier match samedi face à Brest, lors de la 11e journée de Ligue 1.",
-   "source": {
-    "nom": "Maxifoot",
-    "url": "https://news.maxifoot.fr/strasbourg/matos-sur-le-banc-officiel-foot-467927.htm"
-   },
-   "date": "2026-11-18"
   }
  ]
 }

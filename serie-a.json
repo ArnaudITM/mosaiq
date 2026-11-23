@@ -3,7 +3,7 @@
  "nom": "Serie A",
  "pays": "Italie",
  "saison": "2026-27",
- "maj": "12e journée en cours (matchs du 21 novembre)",
+ "maj": "12e journée en cours (matchs des 21 et 22 novembre ; Monza-Fiorentina le lundi 23 novembre)",
  "classement": [
   {
    "pos": 1,
@@ -32,17 +32,29 @@
   {
    "pos": 3,
    "club": "Inter",
-   "j": 11,
+   "j": 12,
    "g": 9,
-   "n": 1,
+   "n": 2,
    "p": 1,
-   "bp": 28,
-   "bc": 13,
-   "pts": 28,
-   "forme": "VVVDV"
+   "bp": 32,
+   "bc": 17,
+   "pts": 29,
+   "forme": "VVDVN"
   },
   {
    "pos": 4,
+   "club": "Milan",
+   "j": 12,
+   "g": 8,
+   "n": 3,
+   "p": 1,
+   "bp": 28,
+   "bc": 14,
+   "pts": 27,
+   "forme": "VDVVV"
+  },
+  {
+   "pos": 5,
    "club": "Côme",
    "j": 12,
    "g": 8,
@@ -54,40 +66,28 @@
    "forme": "VVVDV"
   },
   {
-   "pos": 5,
-   "club": "Milan",
-   "j": 11,
-   "g": 7,
-   "n": 3,
-   "p": 1,
-   "bp": 23,
-   "bc": 13,
-   "pts": 24,
-   "forme": "VVDVV"
-  },
-  {
    "pos": 6,
-   "club": "Frosinone",
-   "j": 11,
+   "club": "Juventus",
+   "j": 12,
    "g": 6,
-   "n": 2,
+   "n": 3,
    "p": 3,
-   "bp": 24,
-   "bc": 15,
-   "pts": 20,
-   "forme": "VNVVD"
+   "bp": 19,
+   "bc": 12,
+   "pts": 21,
+   "forme": "VDVNV"
   },
   {
    "pos": 7,
-   "club": "Juventus",
-   "j": 11,
-   "g": 5,
-   "n": 3,
-   "p": 3,
-   "bp": 15,
-   "bc": 12,
-   "pts": 18,
-   "forme": "DVDVN"
+   "club": "Frosinone",
+   "j": 12,
+   "g": 6,
+   "n": 2,
+   "p": 4,
+   "bp": 25,
+   "bc": 20,
+   "pts": 20,
+   "forme": "NVVDD"
   },
   {
    "pos": 8,
@@ -104,17 +104,29 @@
   {
    "pos": 9,
    "club": "Bologne",
-   "j": 11,
+   "j": 12,
    "g": 5,
-   "n": 2,
+   "n": 3,
    "p": 4,
-   "bp": 16,
-   "bc": 14,
-   "pts": 17,
-   "forme": "DVVVV"
+   "bp": 17,
+   "bc": 15,
+   "pts": 18,
+   "forme": "VVVVN"
   },
   {
    "pos": 10,
+   "club": "Genoa",
+   "j": 12,
+   "g": 5,
+   "n": 1,
+   "p": 6,
+   "bp": 13,
+   "bc": 16,
+   "pts": 16,
+   "forme": "VVVDV"
+  },
+  {
+   "pos": 11,
    "club": "Cagliari",
    "j": 12,
    "g": 5,
@@ -126,19 +138,19 @@
    "forme": "DDDVD"
   },
   {
-   "pos": 11,
+   "pos": 12,
    "club": "Atalanta",
-   "j": 11,
+   "j": 12,
    "g": 4,
-   "n": 2,
+   "n": 3,
    "p": 5,
-   "bp": 17,
-   "bc": 20,
-   "pts": 14,
-   "forme": "DNNDV"
+   "bp": 21,
+   "bc": 24,
+   "pts": 15,
+   "forme": "NNDVN"
   },
   {
-   "pos": 12,
+   "pos": 13,
    "club": "Torino",
    "j": 12,
    "g": 4,
@@ -148,18 +160,6 @@
    "bc": 18,
    "pts": 14,
    "forme": "VDDND"
-  },
-  {
-   "pos": 13,
-   "club": "Genoa",
-   "j": 11,
-   "g": 4,
-   "n": 1,
-   "p": 6,
-   "bp": 11,
-   "bc": 16,
-   "pts": 13,
-   "forme": "DVVVD"
   },
   {
    "pos": 14,
@@ -200,12 +200,12 @@
   {
    "pos": 17,
    "club": "Sassuolo",
-   "j": 11,
+   "j": 12,
    "g": 2,
    "n": 2,
-   "p": 7,
+   "p": 8,
    "bp": 16,
-   "bc": 29,
+   "bc": 31,
    "pts": 8,
    "forme": "DDDDD"
   },
@@ -223,39 +223,39 @@
   },
   {
    "pos": 19,
-   "club": "Venise",
-   "j": 11,
-   "g": 2,
-   "n": 0,
-   "p": 9,
-   "bp": 8,
-   "bc": 21,
+   "club": "Udinese",
+   "j": 12,
+   "g": 1,
+   "n": 3,
+   "p": 8,
+   "bp": 13,
+   "bc": 26,
    "pts": 6,
-   "forme": "VDDDV"
+   "forme": "DNDDN"
   },
   {
    "pos": 20,
-   "club": "Udinese",
-   "j": 11,
-   "g": 1,
-   "n": 2,
-   "p": 8,
-   "bp": 12,
+   "club": "Venise",
+   "j": 12,
+   "g": 2,
+   "n": 0,
+   "p": 10,
+   "bp": 8,
    "bc": 25,
-   "pts": 5,
-   "forme": "DDNDD"
+   "pts": 6,
+   "forme": "DDDVD"
   }
  ],
  "buteurs": [
   {
+   "joueur": "Donyell Malen",
+   "club": "Roma",
+   "buts": 12
+  },
+  {
    "joueur": "Gustavo Varela",
    "club": "Monza",
    "buts": 9
-  },
-  {
-   "joueur": "Donyell Malen",
-   "club": "Roma",
-   "buts": 8
   },
   {
    "joueur": "Antonio Raimondo",
@@ -273,8 +273,18 @@
    "buts": 6
   },
   {
+   "joueur": "Tijjani Noslin",
+   "club": "Lazio",
+   "buts": 6
+  },
+  {
    "joueur": "Alphadjo Cissé",
    "club": "Milan",
+   "buts": 5
+  },
+  {
+   "joueur": "Rodrigo Mora",
+   "club": "Roma",
    "buts": 5
   },
   {
@@ -288,13 +298,18 @@
    "buts": 5
   },
   {
-   "joueur": "Anastasios Douvikas",
-   "club": "Côme",
+   "joueur": "Davide Frattesi",
+   "club": "Lazio",
    "buts": 5
   },
   {
    "joueur": "Giacomo Calò",
    "club": "Frosinone",
+   "buts": 5
+  },
+  {
+   "joueur": "Anastasios Douvikas",
+   "club": "Côme",
    "buts": 5
   }
  ],
@@ -348,10 +363,15 @@
    "joueur": "Giorgi Kvernadze",
    "club": "Frosinone",
    "passes": 4
+  },
+  {
+   "joueur": "Yan Couto",
+   "club": "Côme",
+   "passes": 4
   }
  ],
  "derniere_journee": {
-  "label": "12e journée (en cours)",
+  "label": "12e journée (en cours, Monza-Fiorentina lundi 23 novembre)",
   "matchs": [
    {
     "dom": "Côme",
@@ -372,6 +392,31 @@
     "dom": "Naples",
     "ext": "Torino",
     "score": "1-0"
+   },
+   {
+    "dom": "Juventus",
+    "ext": "Venise",
+    "score": "4-0"
+   },
+   {
+    "dom": "Bologne",
+    "ext": "Udinese",
+    "score": "1-1"
+   },
+   {
+    "dom": "Sassuolo",
+    "ext": "Genoa",
+    "score": "0-2"
+   },
+   {
+    "dom": "Milan",
+    "ext": "Frosinone",
+    "score": "5-1"
+   },
+   {
+    "dom": "Atalanta",
+    "ext": "Inter",
+    "score": "4-4"
    }
   ]
  },
@@ -383,7 +428,8 @@
    8,
    9,
    10,
-   11
+   11,
+   12
   ],
   "clubs": {
    "Lazio": [
@@ -392,7 +438,8 @@
     22,
     25,
     28,
-    29
+    29,
+    32
    ],
    "Inter": [
     16,
@@ -400,7 +447,8 @@
     22,
     25,
     25,
-    28
+    28,
+    29
    ],
    "Roma": [
     14,
@@ -408,7 +456,8 @@
     18,
     21,
     24,
-    27
+    27,
+    30
    ],
    "Milan": [
     12,
@@ -416,7 +465,8 @@
     18,
     18,
     21,
-    24
+    24,
+    27
    ],
    "Côme": [
     11,
@@ -424,13 +474,15 @@
     17,
     20,
     23,
-    23
+    23,
+    26
    ],
    "Frosinone": [
     10,
     13,
     14,
     17,
+    20,
     20,
     20
    ]

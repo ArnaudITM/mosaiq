@@ -3,7 +3,7 @@
  "nom": "Premier League",
  "pays": "Angleterre",
  "saison": "2026-27",
- "maj": "11e journée en cours (matchs du 21 novembre)",
+ "maj": "11e journée en cours (matchs des 21 et 22 novembre ; Brentford-Everton lundi 23 novembre)",
  "classement": [
   {
    "pos": 1,
@@ -20,14 +20,14 @@
   {
    "pos": 2,
    "club": "Brighton",
-   "j": 10,
+   "j": 11,
    "g": 7,
    "n": 1,
-   "p": 2,
+   "p": 3,
    "bp": 26,
-   "bc": 7,
+   "bc": 9,
    "pts": 22,
-   "forme": "VVDVV"
+   "forme": "VDVVD"
   },
   {
    "pos": 3,
@@ -43,6 +43,18 @@
   },
   {
    "pos": 4,
+   "club": "Liverpool",
+   "j": 11,
+   "g": 6,
+   "n": 3,
+   "p": 2,
+   "bp": 18,
+   "bc": 10,
+   "pts": 21,
+   "forme": "VVDVV"
+  },
+  {
+   "pos": 5,
    "club": "Bournemouth",
    "j": 11,
    "g": 5,
@@ -52,18 +64,6 @@
    "bc": 14,
    "pts": 18,
    "forme": "VVVVV"
-  },
-  {
-   "pos": 5,
-   "club": "Liverpool",
-   "j": 10,
-   "g": 5,
-   "n": 3,
-   "p": 2,
-   "bp": 14,
-   "bc": 10,
-   "pts": 18,
-   "forme": "DVVDV"
   },
   {
    "pos": 6,
@@ -127,6 +127,18 @@
   },
   {
    "pos": 11,
+   "club": "Hull",
+   "j": 11,
+   "g": 3,
+   "n": 5,
+   "p": 3,
+   "bp": 13,
+   "bc": 11,
+   "pts": 14,
+   "forme": "DNNDV"
+  },
+  {
+   "pos": 12,
    "club": "Aston Villa",
    "j": 11,
    "g": 3,
@@ -138,7 +150,7 @@
    "forme": "VVNNN"
   },
   {
-   "pos": 12,
+   "pos": 13,
    "club": "Newcastle",
    "j": 11,
    "g": 3,
@@ -150,7 +162,7 @@
    "forme": "DVDNN"
   },
   {
-   "pos": 13,
+   "pos": 14,
    "club": "Coventry",
    "j": 11,
    "g": 4,
@@ -160,18 +172,6 @@
    "bc": 21,
    "pts": 12,
    "forme": "DDVDV"
-  },
-  {
-   "pos": 14,
-   "club": "Hull",
-   "j": 10,
-   "g": 2,
-   "n": 5,
-   "p": 3,
-   "bp": 11,
-   "bc": 11,
-   "pts": 11,
-   "forme": "NDNND"
   },
   {
    "pos": 15,
@@ -224,14 +224,14 @@
   {
    "pos": 19,
    "club": "Man United",
-   "j": 10,
+   "j": 11,
    "g": 1,
    "n": 5,
-   "p": 4,
+   "p": 5,
    "bp": 14,
-   "bc": 19,
+   "bc": 23,
    "pts": 8,
-   "forme": "NNDDN"
+   "forme": "NDDND"
   },
   {
    "pos": 20,
@@ -305,18 +305,28 @@
    "passes": 5
   },
   {
+   "joueur": "Bradley Barcola",
+   "club": "Liverpool",
+   "passes": 4
+  },
+  {
    "joueur": "John McGinn",
    "club": "Aston Villa",
    "passes": 4
   },
   {
-   "joueur": "Pascal Groß",
-   "club": "Brighton",
+   "joueur": "Florian Wirtz",
+   "club": "Liverpool",
    "passes": 4
   },
   {
    "joueur": "Evanilson",
    "club": "Bournemouth",
+   "passes": 4
+  },
+  {
+   "joueur": "Pascal Groß",
+   "club": "Brighton",
    "passes": 4
   },
   {
@@ -337,16 +347,6 @@
   {
    "joueur": "Antoine Semenyo",
    "club": "Man City",
-   "passes": 3
-  },
-  {
-   "joueur": "Bradley Barcola",
-   "club": "Liverpool",
-   "passes": 3
-  },
-  {
-   "joueur": "Cody Gakpo",
-   "club": "Liverpool",
    "passes": 3
   }
  ],
@@ -387,6 +387,16 @@
     "dom": "Newcastle",
     "ext": "Arsenal",
     "score": "2-2"
+   },
+   {
+    "dom": "Hull",
+    "ext": "Brighton",
+    "score": "2-0"
+   },
+   {
+    "dom": "Liverpool",
+    "ext": "Man United",
+    "score": "4-0"
    }
   ]
  },
@@ -481,6 +491,14 @@
  },
  "sources": [
   {
+   "nom": "Sports Mole – résultats Premier League (22 nov. 2026)",
+   "url": "https://www.sportsmole.co.uk/football/premier-league/results.html"
+  },
+  {
+   "nom": "Maxifoot – résultats Premier League 2026-2027",
+   "url": "https://www.maxifoot.fr/resultat-premier-league-angleterre.htm"
+  },
+  {
    "nom": "Foot Mercato – classement Premier League 2026/2027",
    "url": "https://www.footmercato.net/angleterre/premier-league/classement"
   },
@@ -491,10 +509,6 @@
   {
    "nom": "Foot Mercato – passeurs Premier League 2026/2027",
    "url": "https://www.footmercato.net/angleterre/premier-league/passeur"
-  },
-  {
-   "nom": "Wikipedia – 2026–27 Premier League",
-   "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
   },
   {
    "nom": "Citizen Digital – Man City accroché par Fulham, Arsenal par Newcastle (21 nov. 2026)",

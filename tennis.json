@@ -1,13 +1,13 @@
 {
-  "maj": "22 novembre 2026 – résultats de Turin jusqu'aux demi-finales du samedi 21 novembre inclus (AP, Tennis Majors, Tennis Watcher) ; top 20 ATP/WTA et Français du top 50 au classement du 16 novembre (prochain classement ATP le 23 novembre, après la finale) ; Français classés au-delà du 50e rang : classement du 9 novembre (ATP) et du 5 novembre (WTA), non revérifiés. Résultat du samedi du barrage de BJK Cup France-Australie non vérifié à la rédaction.",
+  "maj": "23 novembre 2026 – ATP Finals complètes (finale du 22 novembre : Tennis Majors, Sky Sports) ; top 10 ATP du 23 novembre calculé par Mosaiq (classement officiel du 16 novembre sur atptour.com + points gagnés à Turin : 200 par victoire de poule, 400 en demi-finale, 500 en finale), cohérent avec Tennis365 (Zverev 10 350, Alcaraz 7 600, Sinner 7 950) ; classement officiel du 23 novembre non publié à la rédaction. Rangs 11-20 ATP, top 20 WTA et Français : classement du 16 novembre (au-delà du 50e rang : 9 novembre ATP, 5 novembre WTA, non revérifiés). Résultat du barrage de BJK Cup France-Australie intégré (Tennis Actu).",
   "atp": {
-    "date": "16 novembre 2026",
+    "date": "23 novembre 2026 (calcul Mosaiq : classement du 16 novembre + points des ATP Finals ; à confirmer à la publication officielle)",
     "top": [
       {
         "rang": 1,
         "joueur": "Alexander Zverev",
         "pays": "GER",
-        "points": 9320
+        "points": 10350
       },
       {
         "rang": 2,
@@ -19,37 +19,37 @@
         "rang": 3,
         "joueur": "Carlos Alcaraz",
         "pays": "ESP",
-        "points": 6100
+        "points": 7600
       },
       {
         "rang": 4,
         "joueur": "Ben Shelton",
         "pays": "USA",
-        "points": 5170
+        "points": 5570
       },
       {
         "rang": 5,
         "joueur": "Daniil Medvedev",
         "pays": "RUS",
-        "points": 3820
+        "points": 4220
       },
       {
         "rang": 6,
+        "joueur": "Arthur Fils",
+        "pays": "FRA",
+        "points": 3825
+      },
+      {
+        "rang": 7,
         "joueur": "Flavio Cobolli",
         "pays": "ITA",
         "points": 3680
       },
       {
-        "rang": 7,
-        "joueur": "Arthur Fils",
-        "pays": "FRA",
-        "points": 3625
-      },
-      {
         "rang": 8,
         "joueur": "Frances Tiafoe",
         "pays": "USA",
-        "points": 3390
+        "points": 3590
       },
       {
         "rang": 9,
@@ -253,9 +253,9 @@
   "francais": {
     "atp": [
       {
-        "rang": 7,
+        "rang": 6,
         "joueur": "Arthur Fils",
-        "points": 3625
+        "points": 3825
       },
       {
         "rang": 34,
@@ -375,7 +375,8 @@
       {
         "date": "22 novembre",
         "matchs": [
-          "Finale du simple : Alexander Zverev-Carlos Alcaraz (18h)"
+          "Finale du simple : Carlos Alcaraz bat Alexander Zverev 6-2, 7-6 (7)",
+          "Finale du double : victoire de Théo Arribagé et Albano Olivetti"
         ]
       }
     ],
@@ -477,9 +478,16 @@
         "vainqueur": "Alexander Zverev",
         "perdant": "Daniil Medvedev",
         "score": "7-6 (0), 6-4"
+      },
+      {
+        "date": "22 novembre 2026",
+        "groupe": "Finale",
+        "vainqueur": "Carlos Alcaraz",
+        "perdant": "Alexander Zverev",
+        "score": "6-2, 7-6 (7)"
       }
     ],
-    "texte": "La finale des ATP Finals oppose dimanche 22 novembre (18h) Alexander Zverev, n°1 mondial, à Carlos Alcaraz. Samedi, Alcaraz a battu Ben Shelton 3-6, 6-3, 7-6 (1) malgré une gêne à la cuisse, selon l'AP reprise par KSAT, et reste sur 13 victoires de suite, selon Tennis Watcher. Zverev a dominé Daniil Medvedev 7-6 (0), 6-4 en 86 minutes sans concéder de balle de break, et vise un troisième titre au Masters, selon Tennis Watcher et Tennis Majors. Arthur Fils a été éliminé en phase de groupes (une victoire, deux défaites). Le tournoi se joue sans le double tenant du titre Jannik Sinner, blessé au genou."
+    "texte": "Carlos Alcaraz a remporté dimanche 22 novembre ses premières ATP Finals en battant Alexander Zverev, n°1 mondial, 6-2, 7-6 (7) à Turin, après avoir sauvé trois balles de set dans le jeu décisif, selon Tennis Majors. L'Espagnol, invaincu dans la semaine et sur 14 victoires de suite après ses titres à Vienne et Paris, devient le quatrième joueur à réunir les quatre tournois du Grand Chelem et le Masters, après Agassi, Federer et Djokovic, selon Sky Sports. Zverev termine l'année n°1 mondial (10 350 points, selon Tennis365). En double, les Français Théo Arribagé et Albano Olivetti ont remporté le titre, selon Tennis Majors. Arthur Fils a été éliminé en phase de groupes. La saison se conclut avec la Coupe Davis à Bologne (Final 8 du 24 au 29 novembre), sans la France."
   },
   "calendrier": [
     {
@@ -489,14 +497,8 @@
       "type": "ATP Finals"
     },
     {
-      "dates": "21-22 novembre 2026",
-      "nom": "Billie Jean King Cup – barrage France-Australie",
-      "lieu": "Le Portel (France)",
-      "type": "Billie Jean King Cup"
-    },
-    {
       "dates": "24-29 novembre 2026",
-      "nom": "Coupe Davis – Final 8",
+      "nom": "Coupe Davis – Final 8 (quarts : Tchéquie-Canada le 24, Italie-Corée du Sud le 25, Grande-Bretagne-Allemagne et Autriche-Espagne le 26 ; finale le 29 novembre)",
       "lieu": "Bologne (Italie)",
       "type": "Coupe Davis"
     },
@@ -515,11 +517,35 @@
   ],
   "infos": [
     {
-      "titre": "Zverev-Alcaraz en finale à Turin",
-      "texte": "Alexander Zverev a battu Daniil Medvedev 7-6 (0), 6-4 samedi en demi-finale des ATP Finals, sans faire face à une balle de break, selon Tennis Watcher ; il retrouve dimanche Carlos Alcaraz, vainqueur de Ben Shelton 3-6, 6-3, 7-6 (1), selon l'AP reprise par KSAT.",
+      "titre": "Alcaraz remporte enfin le Masters",
+      "texte": "Carlos Alcaraz a battu Alexander Zverev 6-2, 7-6 (7) dimanche en finale des ATP Finals à Turin, son 30e titre et le sixième de 2026, selon Tennis Majors ; il mène désormais 8-6 dans leurs confrontations et revient à 350 points de Jannik Sinner pour la 2e place mondiale, selon Sky Sports.",
       "source": {
-        "nom": "Tennis Watcher – Zverev bat Medvedev",
-        "url": "https://www.tenniswatcher.com/en/news/alexander-zverev-sinks-daniil-medvedev-in-turin-and-sets-up-alcaraz-clash-in-the-final"
+        "nom": "Tennis Majors – Alcaraz bat Zverev",
+        "url": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/breaking-news-alcaraz-beats-zverev-to-win-the-atp-finals-for-the-first-time-867706.html"
+      }
+    },
+    {
+      "titre": "Arribagé et Olivetti titrés en double",
+      "texte": "Les Français Théo Arribagé et Albano Olivetti ont remporté le tournoi de double des ATP Finals à Turin, selon Tennis Majors.",
+      "source": {
+        "nom": "Tennis Majors – finale des ATP Finals",
+        "url": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/breaking-news-alcaraz-beats-zverev-to-win-the-atp-finals-for-the-first-time-867706.html"
+      }
+    },
+    {
+      "titre": "BJK Cup : la France battue 4-0 par l'Australie",
+      "texte": "Au Portel, l'équipe de France a perdu son barrage face à l'Australie : Clara Burel (battue 6-2, 6-1 par Talia Gibson) et Diane Parry (6-3, 6-4 par Storm Hunter) ont perdu samedi, puis la paire Mladenovic-Parry s'est inclinée 6-2, 6-4 face à Joint-Hunter dimanche, selon Tennis Actu. Les Bleues restent en deuxième division au moins une année de plus.",
+      "source": {
+        "nom": "Tennis Actu – France-Australie 0-4",
+        "url": "https://www.tennisactu.net/news-bjk-cup-mladenovic-et-parry-battues-la-france-eliminee-par-l-australie-0-4-128453.html"
+      }
+    },
+    {
+      "titre": "Coupe Davis : la Final 8 s'ouvre mardi à Bologne",
+      "texte": "La phase finale de la Coupe Davis se dispute du 24 au 29 novembre à Bologne, avec Tchéquie-Canada en ouverture mardi et l'Italie face à la Corée du Sud mercredi ; la France n'est pas qualifiée, selon le programme publié par Tennis Tour Talk.",
+      "source": {
+        "nom": "Tennis Tour Talk – programme de la Final 8",
+        "url": "https://tennistourtalk.com/137708/schedule-confirmed-for-2026-davis-cup-final-8"
       }
     },
     {
@@ -555,14 +581,6 @@
       }
     },
     {
-      "titre": "BJK Cup : les Bleues reçoivent l'Australie au Portel",
-      "texte": "L'équipe de France de Billie Jean King Cup, menée par la capitaine Alizé Cornet, dispute les 21 et 22 novembre un barrage face à l'Australie sur terre battue en salle au Chaudron du Portel, selon la FFT. Diane Parry, Léolia Jeanjean, Fiona Ferro et Kristina Mladenovic figuraient dans la sélection annoncée en octobre, selon Tennis Actu ; Loïs Boisson, blessée, est absente.",
-      "source": {
-        "nom": "FFT",
-        "url": "https://www.fft.fr/actualites/billie-jean-king-cup-barrage-equipe-de-france-ville-hote-novembre-australie-le-portel"
-      }
-    },
-    {
       "titre": "Zverev en demi-finale, Fils relancé",
       "texte": "Alexander Zverev a battu Ben Shelton 6-2, 7-6 (4) mardi à Turin pour se qualifier pour le dernier carré, en remportant 88 % des points derrière sa première balle, selon Sky Sports ; l'Allemand mène 7-0 dans ses confrontations avec l'Américain. Arthur Fils a battu Rafael Jódar 4-6, 6-2, 6-2 et jouera sa qualification face à Zverev jeudi.",
       "source": {
@@ -577,17 +595,33 @@
         "nom": "Tennis Explorer – classements du 16.11.2026",
         "url": "https://www.tennisexplorer.com/ranking/atp-men/"
       }
-    },
-    {
-      "titre": "Mirra Andreeva remporte les WTA Finals",
-      "texte": "Mirra Andreeva a battu Elina Svitolina 7-5, 6-3 en finale à Indian Wells, selon Sofascore et Critical Report ; selon ce dernier, la Russe s'impose sans perdre un set pour sa première participation et doit atteindre la 2e place mondiale, son meilleur classement, Elena Rybakina conservant la 1re place en fin d'année.",
-      "source": {
-        "nom": "Critical Report",
-        "url": "https://criticalreport.substack.com/p/mirra-andreeva-2026-wta-finals"
-      }
     }
   ],
   "sources": [
+    {
+      "nom": "Tennis Majors – Alcaraz bat Zverev en finale (22 nov. 2026)",
+      "url": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/breaking-news-alcaraz-beats-zverev-to-win-the-atp-finals-for-the-first-time-867706.html"
+    },
+    {
+      "nom": "Sky Sports – Alcaraz remporte les ATP Finals (22 nov. 2026)",
+      "url": "https://www.skysports.com/tennis/news/13615397/atp-finals-carlos-alcaraz-beats-world-no-1-alexander-zverev-in-blockbuster-final-to-claim-title-for-first-time"
+    },
+    {
+      "nom": "Tennis365 – points et classement après les ATP Finals 2026",
+      "url": "https://www.tennis365.com/tennis-news/carlos-alcaraz-alexander-zverev-atp-finals-prize-money-ranking-points-2026"
+    },
+    {
+      "nom": "ATP – classement du 16 novembre 2026",
+      "url": "https://www.atptour.com/en/rankings/singles"
+    },
+    {
+      "nom": "Tennis Actu – BJK Cup, France-Australie 0-4 (22 nov. 2026)",
+      "url": "https://www.tennisactu.net/news-bjk-cup-mladenovic-et-parry-battues-la-france-eliminee-par-l-australie-0-4-128453.html"
+    },
+    {
+      "nom": "Tennis Tour Talk – programme de la Final 8 de Coupe Davis 2026",
+      "url": "https://tennistourtalk.com/137708/schedule-confirmed-for-2026-davis-cup-final-8"
+    },
     {
       "nom": "KSAT (AP) – Alcaraz bat Shelton (21 nov. 2026)",
       "url": "https://www.ksat.com/sports/2026/11/21/alcaraz-shakes-off-thigh-injury-to-beat-shelton-and-reach-championship-match-at-atp-finals/"

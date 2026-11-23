@@ -3,7 +3,7 @@
  "nom": "Bundesliga",
  "pays": "Allemagne",
  "saison": "2026-27",
- "maj": "10e journée en cours (matchs des 20 et 21 novembre)",
+ "maj": "après la 10e journée (matchs des 20, 21 et 22 novembre)",
  "classement": [
   {
    "pos": 1,
@@ -68,14 +68,14 @@
   {
    "pos": 6,
    "club": "Brême",
-   "j": 9,
-   "g": 4,
+   "j": 10,
+   "g": 5,
    "n": 3,
    "p": 2,
-   "bp": 17,
+   "bp": 21,
    "bc": 15,
-   "pts": 15,
-   "forme": "NNVVD"
+   "pts": 18,
+   "forme": "NVVDV"
   },
   {
    "pos": 7,
@@ -115,6 +115,18 @@
   },
   {
    "pos": 10,
+   "club": "Augsbourg",
+   "j": 10,
+   "g": 3,
+   "n": 3,
+   "p": 4,
+   "bp": 23,
+   "bc": 21,
+   "pts": 12,
+   "forme": "DNDDV"
+  },
+  {
+   "pos": 11,
    "club": "Hoffenheim",
    "j": 10,
    "g": 4,
@@ -126,31 +138,31 @@
    "forme": "VVDVD"
   },
   {
-   "pos": 11,
+   "pos": 12,
    "club": "Hambourg",
-   "j": 9,
+   "j": 10,
    "g": 4,
    "n": 0,
-   "p": 5,
+   "p": 6,
    "bp": 10,
-   "bc": 20,
+   "bc": 24,
    "pts": 12,
-   "forme": "VVDDV"
-  },
-  {
-   "pos": 12,
-   "club": "Mayence",
-   "j": 9,
-   "g": 3,
-   "n": 1,
-   "p": 5,
-   "bp": 18,
-   "bc": 19,
-   "pts": 10,
-   "forme": "DVDDD"
+   "forme": "VDDVD"
   },
   {
    "pos": 13,
+   "club": "Mayence",
+   "j": 10,
+   "g": 3,
+   "n": 1,
+   "p": 6,
+   "bp": 19,
+   "bc": 22,
+   "pts": 10,
+   "forme": "VDDDD"
+  },
+  {
+   "pos": 14,
    "club": "Cologne",
    "j": 10,
    "g": 2,
@@ -162,7 +174,7 @@
    "forme": "DNNDN"
   },
   {
-   "pos": 14,
+   "pos": 15,
    "club": "Paderborn",
    "j": 10,
    "g": 2,
@@ -172,18 +184,6 @@
    "bc": 15,
    "pts": 10,
    "forme": "NVNND"
-  },
-  {
-   "pos": 15,
-   "club": "Augsbourg",
-   "j": 9,
-   "g": 2,
-   "n": 3,
-   "p": 4,
-   "bp": 20,
-   "bc": 20,
-   "pts": 9,
-   "forme": "NDNDD"
   },
   {
    "pos": 16,
@@ -226,12 +226,22 @@
   {
    "joueur": "Niclas Füllkrug",
    "club": "Brême",
-   "buts": 9
+   "buts": 10
   },
   {
    "joueur": "Patrik Schick",
    "club": "Leverkusen",
-   "buts": 8
+   "buts": 9
+  },
+  {
+   "joueur": "Michael Gregoritsch",
+   "club": "Augsbourg",
+   "buts": 7
+  },
+  {
+   "joueur": "Rômulo",
+   "club": "Leipzig",
+   "buts": 6
   },
   {
    "joueur": "Younes Ebnoutalib",
@@ -239,8 +249,8 @@
    "buts": 6
   },
   {
-   "joueur": "Phillip Tietz",
-   "club": "Mayence",
+   "joueur": "Jonathan Burkardt",
+   "club": "Francfort",
    "buts": 6
   },
   {
@@ -249,18 +259,13 @@
    "buts": 6
   },
   {
-   "joueur": "Rômulo",
-   "club": "Leipzig",
-   "buts": 5
+   "joueur": "Phillip Tietz",
+   "club": "Mayence",
+   "buts": 6
   },
   {
    "joueur": "Christopher Nkunku",
    "club": "Leipzig",
-   "buts": 5
-  },
-  {
-   "joueur": "Michael Gregoritsch",
-   "club": "Augsbourg",
    "buts": 5
   },
   {
@@ -274,8 +279,18 @@
    "buts": 5
   },
   {
-   "joueur": "Jonathan Burkardt",
-   "club": "Francfort",
+   "joueur": "Igor Matanović",
+   "club": "Fribourg",
+   "buts": 5
+  },
+  {
+   "joueur": "Antonio Nusa",
+   "club": "Leipzig",
+   "buts": 5
+  },
+  {
+   "joueur": "Felix Nmecha",
+   "club": "Dortmund",
    "buts": 5
   }
  ],
@@ -322,7 +337,7 @@
   }
  ],
  "derniere_journee": {
-  "label": "10e journée (en cours)",
+  "label": "10e journée",
   "matchs": [
    {
     "dom": "Bayern",
@@ -358,6 +373,16 @@
     "dom": "Schalke",
     "ext": "Stuttgart",
     "score": "0-0"
+   },
+   {
+    "dom": "Brême",
+    "ext": "Hambourg",
+    "score": "4-0"
+   },
+   {
+    "dom": "Augsbourg",
+    "ext": "Mayence",
+    "score": "3-1"
    }
   ]
  },
@@ -369,7 +394,8 @@
    6,
    7,
    8,
-   9
+   9,
+   10
   ],
   "clubs": {
    "Bayern": [
@@ -378,7 +404,8 @@
     14,
     17,
     18,
-    21
+    21,
+    22
    ],
    "Dortmund": [
     12,
@@ -386,7 +413,8 @@
     14,
     17,
     18,
-    21
+    21,
+    24
    ],
    "Fribourg": [
     10,
@@ -394,7 +422,8 @@
     13,
     13,
     16,
-    19
+    19,
+    22
    ],
    "Leipzig": [
     6,
@@ -402,7 +431,8 @@
     9,
     12,
     15,
-    18
+    18,
+    21
    ],
    "Leverkusen": [
     7,
@@ -410,7 +440,8 @@
     13,
     13,
     13,
-    16
+    16,
+    19
    ],
    "Brême": [
     7,
@@ -418,7 +449,8 @@
     9,
     12,
     15,
-    15
+    15,
+    18
    ]
   }
  },

@@ -3,10 +3,22 @@
  "nom": "Liga",
  "pays": "Espagne",
  "saison": "2026-27",
- "maj": "13e journée en cours (matchs des 20 et 21 novembre)",
+ "maj": "13e journée en cours (matchs des 20, 21 et 22 novembre ; Levante-Elche lundi 23 novembre à 21 h)",
  "classement": [
   {
    "pos": 1,
+   "club": "Barça",
+   "j": 13,
+   "g": 12,
+   "n": 0,
+   "p": 1,
+   "bp": 51,
+   "bc": 15,
+   "pts": 36,
+   "forme": "VDVVV"
+  },
+  {
+   "pos": 2,
    "club": "Real Madrid",
    "j": 13,
    "g": 11,
@@ -18,28 +30,16 @@
    "forme": "VVVVV"
   },
   {
-   "pos": 2,
-   "club": "Barça",
-   "j": 12,
-   "g": 11,
-   "n": 0,
-   "p": 1,
-   "bp": 48,
-   "bc": 13,
-   "pts": 33,
-   "forme": "VVDVV"
-  },
-  {
    "pos": 3,
    "club": "Atlético",
-   "j": 12,
-   "g": 9,
+   "j": 13,
+   "g": 10,
    "n": 1,
    "p": 2,
-   "bp": 23,
+   "bp": 26,
    "bc": 10,
-   "pts": 28,
-   "forme": "VVVVD"
+   "pts": 31,
+   "forme": "VVVDV"
   },
   {
    "pos": 4,
@@ -56,14 +56,14 @@
   {
    "pos": 5,
    "club": "Real Sociedad",
-   "j": 12,
+   "j": 13,
    "g": 7,
    "n": 1,
-   "p": 4,
-   "bp": 21,
-   "bc": 20,
+   "p": 5,
+   "bp": 23,
+   "bc": 23,
    "pts": 22,
-   "forme": "VVVDV"
+   "forme": "VVDVD"
   },
   {
    "pos": 6,
@@ -79,15 +79,15 @@
   },
   {
    "pos": 7,
-   "club": "Athletic Bilbao",
-   "j": 12,
-   "g": 4,
-   "n": 4,
-   "p": 4,
-   "bp": 15,
-   "bc": 12,
-   "pts": 16,
-   "forme": "DVVND"
+   "club": "Racing Santander",
+   "j": 13,
+   "g": 5,
+   "n": 2,
+   "p": 6,
+   "bp": 20,
+   "bc": 32,
+   "pts": 17,
+   "forme": "DVDVV"
   },
   {
    "pos": 8,
@@ -103,6 +103,18 @@
   },
   {
    "pos": 9,
+   "club": "Athletic Bilbao",
+   "j": 12,
+   "g": 4,
+   "n": 4,
+   "p": 4,
+   "bp": 15,
+   "bc": 12,
+   "pts": 16,
+   "forme": "DVVND"
+  },
+  {
+   "pos": 10,
    "club": "La Corogne",
    "j": 13,
    "g": 3,
@@ -114,7 +126,7 @@
    "forme": "NDVND"
   },
   {
-   "pos": 10,
+   "pos": 11,
    "club": "Espanyol",
    "j": 13,
    "g": 4,
@@ -125,31 +137,31 @@
    "pts": 15
   },
   {
-   "pos": 11,
+   "pos": 12,
    "club": "Villarreal",
-   "j": 12,
+   "j": 13,
    "g": 4,
    "n": 3,
-   "p": 5,
-   "bp": 17,
-   "bc": 15,
-   "pts": 15,
-   "forme": "DNVDV"
-  },
-  {
-   "pos": 12,
-   "club": "Racing Santander",
-   "j": 12,
-   "g": 4,
-   "n": 2,
    "p": 6,
-   "bp": 17,
-   "bc": 30,
-   "pts": 14,
-   "forme": "NDVDV"
+   "bp": 19,
+   "bc": 18,
+   "pts": 15,
+   "forme": "NVDVD"
   },
   {
    "pos": 13,
+   "club": "Osasuna",
+   "j": 13,
+   "g": 4,
+   "n": 3,
+   "p": 6,
+   "bp": 13,
+   "bc": 23,
+   "pts": 15,
+   "forme": "VDDNV"
+  },
+  {
+   "pos": 14,
    "club": "Celta Vigo",
    "j": 13,
    "g": 2,
@@ -159,18 +171,6 @@
    "bc": 12,
    "pts": 13,
    "forme": "VNDND"
-  },
-  {
-   "pos": 14,
-   "club": "Osasuna",
-   "j": 12,
-   "g": 3,
-   "n": 3,
-   "p": 6,
-   "bp": 12,
-   "bc": 23,
-   "pts": 12,
-   "forme": "DVDDN"
   },
   {
    "pos": 15,
@@ -198,14 +198,14 @@
   {
    "pos": 17,
    "club": "Getafe",
-   "j": 12,
+   "j": 13,
    "g": 3,
    "n": 3,
-   "p": 6,
+   "p": 7,
    "bp": 8,
-   "bc": 18,
+   "bc": 21,
    "pts": 12,
-   "forme": "DNDVD"
+   "forme": "NDVDD"
   },
   {
    "pos": 18,
@@ -234,12 +234,12 @@
   {
    "pos": 20,
    "club": "Malaga",
-   "j": 12,
+   "j": 13,
    "g": 0,
    "n": 5,
-   "p": 7,
+   "p": 8,
    "bp": 9,
-   "bc": 23,
+   "bc": 24,
    "pts": 5
   }
  ],
@@ -255,28 +255,28 @@
    "buts": 13
   },
   {
+   "joueur": "Yassir Zabiri",
+   "club": "Racing Santander",
+   "buts": 11
+  },
+  {
    "joueur": "Lamine Yamal",
    "club": "Barça",
    "buts": 10
   },
   {
-   "joueur": "Yassir Zabiri",
-   "club": "Racing Santander",
+   "joueur": "Ante Budimir",
+   "club": "Osasuna",
    "buts": 9
   },
   {
-   "joueur": "Ante Budimir",
-   "club": "Osasuna",
+   "joueur": "Fermín López",
+   "club": "Barça",
    "buts": 8
   },
   {
    "joueur": "Sergio Camello",
    "club": "Rayo Vallecano",
-   "buts": 7
-  },
-  {
-   "joueur": "Fermín López",
-   "club": "Barça",
    "buts": 7
   },
   {
@@ -287,6 +287,11 @@
   {
    "joueur": "Fer Niño",
    "club": "Elche",
+   "buts": 6
+  },
+  {
+   "joueur": "Lucas Boyé",
+   "club": "Alavés",
    "buts": 6
   }
  ],
@@ -307,6 +312,11 @@
    "passes": 5
   },
   {
+   "joueur": "Kylian Mbappé",
+   "club": "Real Madrid",
+   "passes": 5
+  },
+  {
    "joueur": "Mariano Díaz",
    "club": "Alavés",
    "passes": 4
@@ -323,6 +333,16 @@
   },
   {
    "joueur": "Arda Güler",
+   "club": "Real Madrid",
+   "passes": 4
+  },
+  {
+   "joueur": "Ángel Pérez",
+   "club": "Alavés",
+   "passes": 4
+  },
+  {
+   "joueur": "Jude Bellingham",
    "club": "Real Madrid",
    "passes": 4
   }
@@ -354,6 +374,26 @@
     "dom": "Real Madrid",
     "ext": "Celta Vigo",
     "score": "2-1"
+   },
+   {
+    "dom": "Getafe",
+    "ext": "Atlético",
+    "score": "0-3"
+   },
+   {
+    "dom": "Osasuna",
+    "ext": "Malaga",
+    "score": "1-0"
+   },
+   {
+    "dom": "Racing Santander",
+    "ext": "Real Sociedad",
+    "score": "3-2"
+   },
+   {
+    "dom": "Barça",
+    "ext": "Villarreal",
+    "score": "3-2"
    }
   ]
  },
@@ -420,7 +460,7 @@
  },
  "sources": [
   {
-   "nom": "Maxifoot – Résultats et classement Liga",
+   "nom": "Maxifoot – résultats et classement Liga 2026-2027 (13e journée)",
    "url": "https://www.maxifoot.fr/resultat-liga-espagne.htm"
   },
   {

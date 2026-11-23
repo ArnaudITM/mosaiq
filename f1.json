@@ -1,47 +1,47 @@
 {
-  "maj": "22 novembre 2026, 5h30 – classements après le Grand Prix de São Paulo (manche 20/23, 8 novembre 2026), inchangés : le Grand Prix de Las Vegas (départ dimanche 22 novembre à 5h, heure de Paris) était en cours à la rédaction, résultat non intégré, évolution non complétée. Qualifications du samedi et grille de départ intégrées (Sky Sports, Formula1.com).",
+  "maj": "23 novembre 2026 – classements après le Grand Prix de Las Vegas (manche 21/23, 22 novembre 2026), calculés par Mosaiq à partir du résultat de la course publié par Sky Sports (barème 25-18-15-12-10-8-6-4-2-1, pas de sprint) ; l'écart de 37 points entre Verstappen et Hamilton et celui de 9 points entre Red Bull et McLaren concordent avec Sky Sports. Russell et Norris sont à égalité (264 pts, trois victoires chacun) : l'ordre de départage n'a pas été vérifié sur le classement officiel.",
   "pilotes": [
     {
       "pos": 1,
       "pilote": "Kimi Antonelli",
       "ecurie": "Mercedes",
-      "points": 390
+      "points": 402
     },
     {
       "pos": 2,
       "pilote": "Max Verstappen",
       "ecurie": "Red Bull",
-      "points": 279
+      "points": 304
     },
     {
       "pos": 3,
-      "pilote": "George Russell",
-      "ecurie": "Mercedes",
-      "points": 262
+      "pilote": "Lewis Hamilton",
+      "ecurie": "Ferrari",
+      "points": 267
     },
     {
       "pos": 4,
-      "pilote": "Lewis Hamilton",
-      "ecurie": "Ferrari",
-      "points": 261
+      "pilote": "George Russell",
+      "ecurie": "Mercedes",
+      "points": 264
     },
     {
       "pos": 5,
-      "pilote": "Charles Leclerc",
-      "ecurie": "Ferrari",
-      "points": 249
+      "pilote": "Lando Norris",
+      "ecurie": "McLaren",
+      "points": 264
     },
     {
       "pos": 6,
-      "pilote": "Lando Norris",
-      "ecurie": "McLaren",
-      "points": 246
+      "pilote": "Charles Leclerc",
+      "ecurie": "Ferrari",
+      "points": 250
     },
     {
       "pos": 7,
       "pilote": "Oscar Piastri",
       "ecurie": "McLaren",
-      "points": 152
+      "points": 167
     },
     {
       "pos": 8,
@@ -59,7 +59,7 @@
       "pos": 10,
       "pilote": "Pierre Gasly",
       "ecurie": "Alpine",
-      "points": 42
+      "points": 52
     },
     {
       "pos": 11,
@@ -71,7 +71,7 @@
       "pos": 12,
       "pilote": "Franco Colapinto",
       "ecurie": "Alpine",
-      "points": 27
+      "points": 35
     },
     {
       "pos": 13,
@@ -93,20 +93,20 @@
     },
     {
       "pos": 16,
+      "pilote": "Carlos Sainz",
+      "ecurie": "Williams",
+      "points": 11
+    },
+    {
+      "pos": 17,
       "pilote": "Esteban Ocon",
       "ecurie": "Haas",
       "points": 7
     },
     {
-      "pos": 17,
+      "pos": 18,
       "pilote": "Fernando Alonso",
       "ecurie": "Aston Martin",
-      "points": 7
-    },
-    {
-      "pos": 18,
-      "pilote": "Carlos Sainz",
-      "ecurie": "Williams",
       "points": 7
     },
     {
@@ -156,22 +156,22 @@
     {
       "pos": 1,
       "ecurie": "Mercedes",
-      "points": 652
+      "points": 666
     },
     {
       "pos": 2,
       "ecurie": "Ferrari",
-      "points": 510
+      "points": 517
     },
     {
       "pos": 3,
       "ecurie": "Red Bull",
-      "points": 415
+      "points": 440
     },
     {
       "pos": 4,
       "ecurie": "McLaren",
-      "points": 398
+      "points": 431
     },
     {
       "pos": 5,
@@ -181,7 +181,7 @@
     {
       "pos": 6,
       "ecurie": "Alpine",
-      "points": 69
+      "points": 87
     },
     {
       "pos": 7,
@@ -196,7 +196,7 @@
     {
       "pos": 9,
       "ecurie": "Williams",
-      "points": 12
+      "points": 16
     },
     {
       "pos": 10,
@@ -210,14 +210,14 @@
     }
   ],
   "dernier_gp": {
-    "nom": "Grand Prix de São Paulo",
-    "date": "8 novembre 2026",
+    "nom": "Grand Prix de Las Vegas",
+    "date": "22 novembre 2026",
     "podium": [
-      "Lando Norris (McLaren)",
       "Max Verstappen (Red Bull)",
-      "Isack Hadjar (Red Bull)"
+      "Lando Norris (McLaren)",
+      "Oscar Piastri (McLaren)"
     ],
-    "texte": "Sur une piste d'Interlagos tour à tour mouillée et sèche, Lando Norris s'est imposé depuis la pole devant Max Verstappen, remonté de la 21e place sur la grille, et Isack Hadjar. Quatrième et cinquième, Russell et Antonelli ont assuré à Mercedes le titre des constructeurs."
+    "texte": "Parti de la pole, Max Verstappen s'est imposé avec 0\"639 d'avance sur Lando Norris et 1\"529 sur Oscar Piastri, au terme d'une course marquée par plus de 30 changements de leader, selon Sky Sports et Racer. Kimi Antonelli, qui a perdu deux places dans le dernier tour, termine 4e devant Pierre Gasly. George Russell, longtemps en lutte pour la victoire, a heurté le mur au virage 5 au 48e tour et finit 9e ; Leclerc a été pénalisé de 10 secondes pour un accrochage avec Hamilton (7e)."
   },
   "calendrier": [
     {
@@ -239,10 +239,10 @@
       "fait": true
     },
     {
-      "date": "21 novembre 2026 (22 novembre, 5h, heure de Paris)",
+      "date": "22 novembre 2026 (heure de Paris)",
       "gp": "Grand Prix de Las Vegas",
       "circuit": "Las Vegas Strip Circuit",
-      "fait": false
+      "fait": true
     },
     {
       "date": "29 novembre 2026",
@@ -257,8 +257,8 @@
       "fait": false
     }
   ],
-  "titre": "Kimi Antonelli (Mercedes) a été sacré champion du monde dès le Grand Prix de Mexico et Mercedes a bouclé le titre constructeurs à São Paulo ; reste la lutte pour la place de vice-champion entre Verstappen (279 pts), Russell (262) et Hamilton (261). À Las Vegas, Antonelli a signé le meilleur temps des qualifications, 0\"258 devant Max Verstappen, mais sa pénalité de cinq places (sixième moteur thermique de la saison) offre la pole au Néerlandais, devant George Russell et Lando Norris, selon Sky Sports et Formula1.com. Antonelli part 6e ; Oscar Piastri, 7e des qualifications, recule au 17e rang. Les deux Ferrari ont été éliminées en Q2 (Leclerc 10e, Hamilton 11e sur la grille), une première depuis le Grand Prix du Canada 2024, selon Sky Sports.",
-  "francais": "Isack Hadjar (Red Bull) s'élance 4e à Las Vegas et Pierre Gasly (Alpine) 8e, 9e des qualifications, remonté d'une place après la pénalité de Piastri, selon Sky Sports. Au championnat, Hadjar pointe au 8e rang avec 122 points, devant Gasly (10e, 42 pts). Esteban Ocon (Haas, 16e, 7 pts) ne court plus cette saison, Haas l'ayant confirmé, selon ESPN.",
+  "titre": "Max Verstappen (Red Bull) a remporté dimanche le Grand Prix de Las Vegas, sa quatrième victoire en six courses, devant les McLaren de Lando Norris et Oscar Piastri, selon Sky Sports. Avec 304 points, il compte 37 points d'avance sur Lewis Hamilton (267) à deux manches de la fin, ce qui lui assure quasiment la place de vice-champion derrière Kimi Antonelli (Mercedes), sacré depuis Mexico. Chez les constructeurs, McLaren revient à 9 points de Red Bull pour la 3e place, Mercedes étant déjà titrée. Prochaine manche : le Grand Prix du Qatar, dimanche 29 novembre.",
+  "francais": "Pierre Gasly (Alpine) a pris la 5e place à Las Vegas, devant son coéquipier Franco Colapinto (6e), une récolte de 18 points pour Alpine, selon Sky Sports ; il compte désormais 52 points (10e). Isack Hadjar (Red Bull), 3e après le départ et à la lutte avec Verstappen, a été contraint de s'arrêter au 26e tour sur une rupture d'aileron avant et termine 14e, hors des points, selon Racer ; il reste 8e du championnat (122 pts). Esteban Ocon (Haas) ne court plus cette saison.",
   "evolution": {
     "gps": [
       "AUS",
@@ -280,7 +280,8 @@
       "SIN",
       "USA",
       "MXC",
-      "SAP"
+      "SAP",
+      "LVG"
     ],
     "pilotes": {
       "Kimi Antonelli": [
@@ -303,7 +304,8 @@
         340,
         365,
         380,
-        390
+        390,
+        402
       ],
       "Max Verstappen": [
         8,
@@ -325,7 +327,8 @@
         221,
         236,
         261,
-        279
+        279,
+        304
       ],
       "George Russell": [
         25,
@@ -347,7 +350,8 @@
         238,
         242,
         250,
-        262
+        262,
+        264
       ],
       "Lewis Hamilton": [
         12,
@@ -369,12 +373,25 @@
         229,
         241,
         259,
-        261
+        261,
+        267
       ]
     },
     "note": "Cumul calculé à partir des résultats course et sprint du tableau Wikipedia (barème 25-18-15-12-10-8-6-4-2-1, sprint 8 à 1) ; les totaux finaux concordent avec le classement officiel."
   },
   "sources": [
+    {
+      "nom": "Sky Sports – Verstappen remporte le GP de Las Vegas (22 nov. 2026)",
+      "url": "https://www.skysports.com/f1/news/13615083/las-vegas-gp-max-verstappen-wins-wild-race-as-ferraris-lewis-hamilton-and-charles-leclerc-collide-again"
+    },
+    {
+      "nom": "Racer – Verstappen gagne à Las Vegas (22 nov. 2026)",
+      "url": "https://racer.com/2026/11/22/verstappen-wins-f1-race-for-the-ages-in-las-vegas"
+    },
+    {
+      "nom": "ESPN – classement pilotes 2026 (avant Las Vegas)",
+      "url": "https://www.espn.com/f1/standings"
+    },
     {
       "nom": "Sky Sports – qualifications du GP de Las Vegas",
       "url": "https://www.skysports.com/f1/news/13614575/las-vegas-gp-kimi-antonelli-fastest-but-max-verstappen-on-pole-from-george-russell-after-dramatic-qualifying"

@@ -1,5 +1,5 @@
 {
-  "maj": "Derniers cours disponibles au dimanche 22 novembre 2026 vers 5 h 45 (Paris) : naira, rand et franc CFA (cours de référence BCE), livre égyptienne, or, Brent, cuivre et cacao au vendredi 20/11 ; dirham, cedi, cobalt et café arabica au jeudi 19/11 ; shilling kényan au 12/11 ; birr et shilling tanzanien au 10/11 et au 6/11 (non actualisés). Taux directeurs : la SARB a maintenu son taux à 7,25 % le 19/11, la Banque du Ghana l'a abaissé à 11 % le 18/11 ; la CBN se réunit les 23 et 24/11.",
+  "maj": "Derniers cours disponibles au lundi 23 novembre 2026 vers 6 h (Paris) : naira, rand, cedi, shilling kényan, dirham, franc CFA (cours de référence BCE), livre égyptienne, or, Brent, cuivre, cacao et café arabica au vendredi 20/11 ; cobalt au jeudi 19/11 (dernière cotation publiée) ; birr et shilling tanzanien au 10/11 et au 6/11 (non actualisés). Taux directeurs : la SARB a maintenu son taux à 7,25 % le 19/11, la Banque du Ghana l'a abaissé à 11 % le 18/11 ; la CBN se réunit les 23 et 24/11 (décision non encore connue).",
   "convention": "Cours en unités de monnaie locale pour 1 dollar. La variation sur un mois est négative quand la monnaie locale s'est affaiblie face au dollar.",
   "devises": [
     {
@@ -24,19 +24,19 @@
       "code": "GHS",
       "nom": "cedi ghanéen",
       "pays": "Ghana",
-      "usd": 11.79,
-      "date": "2026-11-19",
-      "var_1m": "+0,1 %",
-      "note": "Cours interbancaire de la Banque du Ghana du 19/11 selon ModernGhana (11,74 le 17/11), comparé à 11,80 le 12 octobre ; les bureaux de change vendent le dollar autour de 12,45 cedis. Selon des données de la Banque du Ghana citées par Citi Newsroom, le cedi a perdu 10,6 % face au dollar depuis le début de l'année."
+      "usd": 11.81,
+      "date": "2026-11-20",
+      "var_1m": "-1,7 %",
+      "note": "Cours de marché indiqué par Trading Economics le vendredi 20/11 (11,8084 cedis pour 1 dollar, +0,3 % sur la journée ; la même page mentionne aussi 11,825), soit une baisse du cedi d'environ 1,7 % sur un mois selon le même site. Le cours interbancaire de la Banque du Ghana était de 11,79 le 19/11 selon ModernGhana ; les bureaux de change vendent le dollar autour de 12,45 cedis. Selon des données de la Banque du Ghana citées par Citi Newsroom, le cedi a perdu 10,6 % face au dollar depuis le début de l'année."
     },
     {
       "code": "KES",
       "nom": "shilling kényan",
       "pays": "Kenya",
-      "usd": 129.96,
-      "date": "2026-11-12",
-      "var_1m": "0,0 %",
-      "note": "Bulletin hebdomadaire de la CBK (semaine close le 13/11) : 129,96 shillings pour 1 dollar le 12/11, inchangé sur une semaine et contre 129,95 le 30/10. Pas de cours plus récent sourcé."
+      "usd": 130.1,
+      "date": "2026-11-20",
+      "var_1m": "-0,2 %",
+      "note": "Cours de marché indiqué par Trading Economics le vendredi 20/11 (130,10 shillings pour 1 dollar), soit un affaiblissement d'environ 0,2 % sur un mois selon le même site. Le bulletin hebdomadaire de la CBK donnait 129,96 le 12/11."
     },
     {
       "code": "EGP",
@@ -51,10 +51,10 @@
       "code": "MAD",
       "nom": "dirham marocain",
       "pays": "Maroc",
-      "usd": 9.95,
-      "date": "2026-11-19",
+      "usd": 9.98,
+      "date": "2026-11-20",
       "var_1m": null,
-      "note": "Cours de virement moyen de Bank Al-Maghrib du 19/11 (9,9548, contre 9,9700 le 17/11). L'euro s'échangeait à 10,9461 dirhams. Le dirham est rattaché à un panier euro/dollar."
+      "note": "Cours de virement moyen de Bank Al-Maghrib du vendredi 20/11 (9,9811, contre 9,9548 le 19/11). L'euro s'échangeait à 10,9533 dirhams. Le dirham est rattaché à un panier euro/dollar."
     },
     {
       "code": "XOF",
@@ -128,10 +128,10 @@
     {
       "nom": "Café arabica",
       "unite": "cents US/livre",
-      "valeur": 276.0,
-      "date": "2026-11-19",
-      "var_1m": "-11,3 %",
-      "enjeu": "Exportation majeure de l'Éthiopie, de l'Ouganda (surtout du robusta, non coté ici), du Kenya et de la Tanzanie. L'arabica (ICE) a terminé quasi stable le 19/11 (+0,2 %, à 276 cents la livre), sous la pression de l'offre brésilienne : café en attente de classement dans les entrepôts de l'ICE au plus haut depuis près de quatre ans et production brésilienne 2026-27 relevée à un record par l'USDA (Trading Economics)."
+      "valeur": 268.5,
+      "date": "2026-11-20",
+      "var_1m": "-15,1 %",
+      "enjeu": "Exportation majeure de l'Éthiopie, de l'Ouganda (surtout du robusta, non coté ici), du Kenya et de la Tanzanie. L'arabica (ICE) a reculé de 2,7 % le 20/11, à 268,5 cents la livre (−15,1 % sur un mois, −32,9 % sur un an), sous la pression de l'offre brésilienne : café en attente de classement dans les entrepôts de l'ICE au plus haut depuis près de quatre ans, expéditions brésiliennes record en octobre et production 2026-27 relevée à un record de 72,5 millions de sacs par l'USDA (Trading Economics). Variation sur un mois tirée du tableau de Trading Economics (le texte de la page évoque « près de 13 % »)."
     }
   ],
   "taux": [
@@ -456,6 +456,22 @@
     {
       "nom": "Youm7 – dollar à la Banque centrale d'Égypte (20/11/2026)",
       "url": "https://www.youm7.com/story/2026/11/20/%D9%83%D9%85-%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%89-%D9%85%D9%82%D8%A7%D8%A8%D9%84-%D8%A7%D9%84%D8%AC%D9%86%D9%8A%D9%87-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%89-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%AC%D9%85%D8%B9%D8%A9-20/7625502"
+    },
+    {
+      "nom": "Bank Al-Maghrib – cours de virement du 20/11/2026",
+      "url": "https://www.bkam.ma/en/Markets/Key-indicators/Foreign-exchange-market/Foreign-exchange-rates/Transfer-exchange-rate"
+    },
+    {
+      "nom": "Trading Economics – cedi ghanéen (20/11/2026)",
+      "url": "https://tradingeconomics.com/ghana/currency"
+    },
+    {
+      "nom": "Trading Economics – shilling kényan (20/11/2026)",
+      "url": "https://tradingeconomics.com/kenya/currency"
+    },
+    {
+      "nom": "Trading Economics – café arabica (20/11/2026)",
+      "url": "https://tradingeconomics.com/commodity/coffee"
     }
   ]
 }

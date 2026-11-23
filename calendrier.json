@@ -1,30 +1,72 @@
 {
- "maj": "22 novembre 2026",
+ "maj": "23 novembre 2026",
  "competitions": [
   {
    "id": "ligue-1",
    "nom": "Ligue 1",
-   "journee": "11e journée (fin)",
+   "journee": "12e journée (27-29 novembre)",
    "matchs": [
     {
-     "date": "2026-11-22",
-     "heure": "15:00",
-     "dom": "Paris FC",
-     "ext": "Angers",
+     "date": "2026-11-27",
+     "heure": "20:45",
+     "dom": "Brest",
+     "ext": "Paris FC",
      "tv": "Ligue 1+"
     },
     {
-     "date": "2026-11-22",
+     "date": "2026-11-28",
      "heure": "17:15",
-     "dom": "Lorient",
+     "dom": "Angers",
+     "ext": "Lens",
+     "tv": "Ligue 1+"
+    },
+    {
+     "date": "2026-11-28",
+     "heure": "20:45",
+     "dom": "PSG",
+     "ext": "Lorient",
+     "tv": "Ligue 1+"
+    },
+    {
+     "date": "2026-11-28",
+     "heure": "20:45",
+     "dom": "Le Mans",
+     "ext": "Lille",
+     "tv": "Ligue 1+"
+    },
+    {
+     "date": "2026-11-28",
+     "heure": "20:45",
+     "dom": "Le Havre",
+     "ext": "Strasbourg",
+     "tv": "Ligue 1+"
+    },
+    {
+     "date": "2026-11-28",
+     "heure": "20:45",
+     "dom": "Nice",
+     "ext": "Troyes",
+     "tv": "Ligue 1+"
+    },
+    {
+     "date": "2026-11-29",
+     "heure": "15:00",
+     "dom": "Auxerre",
+     "ext": "OM",
+     "tv": "Ligue 1+"
+    },
+    {
+     "date": "2026-11-29",
+     "heure": "17:15",
+     "dom": "Toulouse",
      "ext": "Rennes",
      "tv": "Ligue 1+"
     },
     {
-     "date": "2026-11-22",
+     "date": "2026-11-29",
      "heure": "20:45",
-     "dom": "OM",
-     "ext": "Le Mans",
+     "dom": "OL",
+     "ext": "Monaco",
      "tv": "Ligue 1+"
     }
    ]
@@ -32,108 +74,109 @@
   {
    "id": "premier-league",
    "nom": "Premier League",
-   "journee": "11e journée (fin)",
+   "journee": "11e journée (fin) puis 12e journée (27-29 novembre)",
    "matchs": [
-    {
-     "date": "2026-11-22",
-     "heure": "15:00",
-     "dom": "Hull City",
-     "ext": "Brighton",
-     "tv": "Sky Sports (UK)"
-    },
-    {
-     "date": "2026-11-22",
-     "heure": "17:30",
-     "dom": "Liverpool",
-     "ext": "Man United",
-     "tv": "Sky Sports (UK)"
-    },
     {
      "date": "2026-11-23",
      "heure": "21:00",
      "dom": "Brentford",
      "ext": "Everton",
      "tv": "Sky Sports (UK)"
+    },
+    {
+     "date": "2026-11-27",
+     "heure": "21:00",
+     "dom": "Nottingham Forest",
+     "ext": "Chelsea"
+    },
+    {
+     "date": "2026-11-28",
+     "heure": "16:00",
+     "dom": "Man United",
+     "ext": "Brentford"
+    },
+    {
+     "date": "2026-11-28",
+     "heure": "16:00",
+     "dom": "Leeds",
+     "ext": "Coventry"
+    },
+    {
+     "date": "2026-11-28",
+     "heure": "18:30",
+     "dom": "Ipswich",
+     "ext": "Aston Villa"
+    },
+    {
+     "date": "2026-11-29",
+     "heure": "13:00",
+     "dom": "Everton",
+     "ext": "Liverpool"
+    },
+    {
+     "date": "2026-11-29",
+     "heure": "15:05",
+     "dom": "Sunderland",
+     "ext": "Tottenham"
+    },
+    {
+     "date": "2026-11-29",
+     "heure": "15:05",
+     "dom": "Brighton",
+     "ext": "Newcastle"
+    },
+    {
+     "date": "2026-11-29",
+     "heure": "15:05",
+     "dom": "Crystal Palace",
+     "ext": "Hull City"
+    },
+    {
+     "date": "2026-11-29",
+     "heure": "15:05",
+     "dom": "Fulham",
+     "ext": "Bournemouth"
+    },
+    {
+     "date": "2026-11-29",
+     "heure": "17:30",
+     "dom": "Arsenal",
+     "ext": "Man City"
     }
-   ]
+   ],
+   "note": "Horaires de la 12e journée convertis en heure de Paris à partir de ceux publiés par legz.com.au (heure britannique)."
   },
   {
    "id": "liga",
    "nom": "Liga",
-   "journee": "13e journée (fin)",
+   "journee": "13e journée (fin) puis 14e journée (27-30 novembre)",
    "matchs": [
-    {
-     "date": "2026-11-22",
-     "heure": "14:00",
-     "dom": "Barça",
-     "ext": "Villarreal"
-    },
-    {
-     "date": "2026-11-22",
-     "heure": "16:15",
-     "dom": "Racing Santander",
-     "ext": "Real Sociedad"
-    },
-    {
-     "date": "2026-11-22",
-     "heure": "18:30",
-     "dom": "Osasuna",
-     "ext": "Malaga"
-    },
-    {
-     "date": "2026-11-22",
-     "heure": "21:00",
-     "dom": "Getafe",
-     "ext": "Atlético"
-    },
     {
      "date": "2026-11-23",
      "heure": "21:00",
      "dom": "Levante",
      "ext": "Elche"
+    },
+    {
+     "date": "2026-11-28",
+     "heure": "21:00",
+     "dom": "Real Madrid",
+     "ext": "Alavés"
+    },
+    {
+     "date": "2026-11-29",
+     "heure": "18:30",
+     "dom": "Celta Vigo",
+     "ext": "Villarreal"
     }
-   ]
+   ],
+   "note": "14e journée : seuls deux horaires ont pu être vérifiés sur laliga.com à ce stade."
   },
   {
    "id": "serie-a",
    "nom": "Serie A",
    "journee": "12e journée (fin) puis 13e journée (27-30 novembre)",
    "matchs": [
-    {
-     "date": "2026-11-22",
-     "heure": "12:30",
-     "dom": "Juventus",
-     "ext": "Venise",
-     "tv": "DAZN (Italie)"
-    },
-    {
-     "date": "2026-11-22",
-     "heure": "15:00",
-     "dom": "Bologne",
-     "ext": "Udinese",
-     "tv": "DAZN (Italie)"
-    },
-    {
-     "date": "2026-11-22",
-     "heure": "15:00",
-     "dom": "Sassuolo",
-     "ext": "Genoa",
-     "tv": "DAZN (Italie)"
-    },
-    {
-     "date": "2026-11-22",
-     "heure": "18:00",
-     "dom": "Milan",
-     "ext": "Frosinone",
-     "tv": "DAZN / Sky (Italie)"
-    },
-    {
-     "date": "2026-11-22",
-     "heure": "20:45",
-     "dom": "Atalanta",
-     "ext": "Inter",
-     "tv": "DAZN (Italie)"
-    },
     {
      "date": "2026-11-23",
      "heure": "20:45",
@@ -216,20 +259,8 @@
   {
    "id": "bundesliga",
    "nom": "Bundesliga",
-   "journee": "10e journée (fin) puis 11e journée (27-29 novembre)",
+   "journee": "11e journée (27-29 novembre)",
    "matchs": [
-    {
-     "date": "2026-11-22",
-     "heure": "15:30",
-     "dom": "Augsbourg",
-     "ext": "Mayence"
-    },
-    {
-     "date": "2026-11-22",
-     "heure": "17:30",
-     "dom": "Werder Brême",
-     "ext": "Hambourg"
-    },
     {
      "date": "2026-11-27",
      "heure": "20:30",
@@ -411,10 +442,6 @@
  ],
  "sources": [
   {
-   "nom": "Ligue 1 – Programmation TV J10 et J11 (3 sept. 2026)",
-   "url": "https://ligue1.com/fr/articles/l1_article_5839-programmation-tv-j10-j11-ligue-1-2026-2027"
-  },
-  {
    "nom": "Premier League – Fixture amendments for November (21 sept. 2026)",
    "url": "https://www.premierleague.com/en/news/4725574"
   },
@@ -427,24 +454,12 @@
    "url": "https://www.fantamaster.it/seriea-anticipi-posticipi-date-orari-programmazione-tv-dalla-12-alla-19-giornata/"
   },
   {
-   "nom": "anstosszeiten.de – Bundesliga 10. Spieltag",
-   "url": "https://anstosszeiten.de/bundesliga/spieltag-10/"
-  },
-  {
-   "nom": "hessenschau.de – Bundesliga 2026/2027, 10. Spieltag",
-   "url": "https://www.hessenschau.de/sport/ergebnisse-tabellen/fussball-1bl100~_matchday-10.html"
-  },
-  {
    "nom": "UEFA – Ligue des champions 2026/27 : calendrier de la phase de ligue (4 nov. 2026)",
    "url": "https://fr.uefa.com/uefachampionsleague/news/02a8-217680c70b8d-878c5efa7b92-1000--ligue-des-champions-2026-27-calendrier-et-resultats-de-la/"
   },
   {
    "nom": "FIFPlay – Premier League 2026-27, 11e journée",
    "url": "https://www.fifplay.com/premier-league-2026-2027-matchday-11/"
-  },
-  {
-   "nom": "Inter – Atalanta-Inter : horaire et diffusion",
-   "url": "https://www.inter.it/it/notizie/atalanta-inter-dove-vederla-in-tv-seriea-2026-27"
   },
   {
    "nom": "FFF – Les grandes dates de l'année 2026 (18 janv. 2026)",
@@ -457,6 +472,22 @@
   {
    "nom": "anstosszeiten.de – Bundesliga 11. Spieltag",
    "url": "https://anstosszeiten.de/bundesliga/spieltag-11/"
+  },
+  {
+   "nom": "Ligue 1 – Programmation TV de la 12e journée 2026-2027",
+   "url": "https://ligue1.com/fr/articles/l1_article_5843-"
+  },
+  {
+   "nom": "legz.com.au – Premier League 2026-27, 12e journée",
+   "url": "https://www.legz.com.au/epl/fixtures/2026-27/round-12"
+  },
+  {
+   "nom": "LaLiga – Real Madrid-Alavés (14e journée)",
+   "url": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-real-madrid-deportivo-alaves-14"
+  },
+  {
+   "nom": "LaLiga – Celta-Villarreal (14e journée)",
+   "url": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-rc-celta-villarreal-cf-14"
   }
  ]
 }
