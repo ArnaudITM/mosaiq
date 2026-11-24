@@ -1,5 +1,5 @@
 {
-  "maj": "clôture du vendredi 20 novembre 2026 (dernière séance avant l'édition du lundi 23 novembre ; EUR/USD : cours de référence BCE du 20 novembre) ; séance du 20/11 vérifiée dans les quatre séries",
+  "maj": "clôture du lundi 23 novembre 2026 (dernière séance avant l'édition du mardi 24 novembre ; EUR/USD : cours de référence BCE du 23 novembre) ; séance du 23/11 vérifiée dans les quatre séries",
   "frequence": "quotidienne",
   "series": [
     {
@@ -7,10 +7,6 @@
       "nom": "CAC 40",
       "unite": "pts",
       "points": [
-        [
-          "2026-10-21",
-          7921.68
-        ],
         [
           "2026-10-22",
           7811.26
@@ -98,6 +94,10 @@
         [
           "2026-11-20",
           7927.75
+        ],
+        [
+          "2026-11-23",
+          8044.84
         ]
       ]
     },
@@ -106,10 +106,6 @@
       "nom": "S&P 500",
       "unite": "pts",
       "points": [
-        [
-          "2026-10-21",
-          7757.17
-        ],
         [
           "2026-10-22",
           7663.43
@@ -197,6 +193,10 @@
         [
           "2026-11-20",
           6910.39
+        ],
+        [
+          "2026-11-23",
+          7237.17
         ]
       ]
     },
@@ -205,10 +205,6 @@
       "nom": "Nasdaq Composite",
       "unite": "pts",
       "points": [
-        [
-          "2026-10-21",
-          26702.86
-        ],
         [
           "2026-10-22",
           26008.86
@@ -296,6 +292,10 @@
         [
           "2026-11-20",
           22617.73
+        ],
+        [
+          "2026-11-23",
+          24089.56
         ]
       ]
     },
@@ -305,10 +305,6 @@
       "unite": "USD pour 1 EUR",
       "note": "Cours de référence quotidien de la BCE (fixing vers 14h15 CET), et non cours de clôture de marché.",
       "points": [
-        [
-          "2026-10-21",
-          1.1234
-        ],
         [
           "2026-10-22",
           1.1205
@@ -396,11 +392,15 @@
         [
           "2026-11-20",
           1.099
+        ],
+        [
+          "2026-11-23",
+          1.0939
         ]
       ]
     }
   ],
-  "absent": "Brent non fourni en série quotidienne : les sources consultées divergent après le 16 octobre (changement d'échéance du contrat). Repère ponctuel : Brent autour de 92,6 $ le 20 novembre (+0,6 % sur la journée, environ −15 % sur un mois, troisième baisse hebdomadaire consécutive), selon Trading Economics (cours CFD). Aucune valeur manquante pour le CAC 40, le S&P 500, le Nasdaq Composite et l'EUR/USD au 20 novembre.",
+  "absent": "Brent non fourni en série quotidienne : les sources consultées divergent après le 16 octobre (changement d'échéance du contrat). Repère ponctuel : Brent vers 89,5 $ le 23 novembre, plus bas depuis trois mois (reprise de l'oléoduc libyen de Sharara, hausse des flux du Moyen-Orient, excédent d'offre signalé par l'AIE), selon Trading Economics (cours CFD). Rebond du 23/11 : CAC 40 +1,48 %, S&P 500 +4,7 %, Nasdaq Composite +6,5 % (Dow Jones 49 595,31, +3 %), selon Boursorama et AP. Aucune valeur manquante pour les quatre séries au 23 novembre.",
   "sources": [
     {
       "nom": "Boursorama – historique CAC 40",
@@ -548,6 +548,30 @@
     },
     {
       "nom": "Trading Economics – Brent (20/11/2026)",
+      "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+    },
+    {
+      "nom": "Boursorama – historique CAC 40 (clôture du 23/11/2026)",
+      "url": "https://www.boursorama.com/bourse/indices/cours/historique/1rPCAC"
+    },
+    {
+      "nom": "Trading Economics – CAC 40 (clôture du 23/11/2026)",
+      "url": "https://tradingeconomics.com/france/stock-market"
+    },
+    {
+      "nom": "AP via La Nación – clôtures du 23/11/2026",
+      "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-monday-11232026-nid23112026/"
+    },
+    {
+      "nom": "Trading Economics – marché américain (23/11/2026)",
+      "url": "https://tradingeconomics.com/united-states/stock-market"
+    },
+    {
+      "nom": "BCE – cours de référence du 23/11/2026",
+      "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+    },
+    {
+      "nom": "Trading Economics – Brent (23/11/2026)",
       "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "maj": "23 novembre 2026, 5h50 – semaine 11 jouée jeudi 19 et dimanche 22 novembre (Mexico dans la nuit de dimanche à lundi, heure de Paris) ; reste Commanders-Bengals lundi soir (nuit de lundi à mardi, 2h15 à Paris). Scores selon NFL.com et theScore. Jets-Chargers : score final non confirmé à la rédaction, non compté (Jets 2-8, Chargers 1-8 avant le match). Raiders-Broncos : victoire de Denver selon un titre d'ESPN (« Broncos hold off Mendoza »), score final non confirmé ; comptée dans le classement (Broncos 8-2, Raiders 4-7). Égalités non départagées (Broncos-Chiefs, Bears-Lions, Steelers-Browns, Seahawks-Rams). Leaders statistiques arrêtés après la semaine 10 (ESPN ; sacks de Will Anderson Jr. selon NFL.com). Programme de la semaine 12 selon ESPN (heure de Paris = heure de l'Est + 6 h).",
+  "maj": "24 novembre 2026, 5h50 – semaine 11 complète après le Monday Night Football Commanders-Bengals (22-20, nuit du 23 au 24, heure de Paris) selon Bengals.com et Heavy. Scores confirmés depuis l'édition précédente : Jets-Chargers 27-24 pour New York (ESPN), Broncos-Raiders 38-24 (theScore). Égalités non départagées (Broncos-Chiefs, Bears-Lions, Steelers-Browns, Seahawks-Rams). Leaders statistiques arrêtés après la semaine 10 (ESPN ; sacks de Will Anderson Jr. selon NFL.com), non actualisés. Programme de la semaine 12 selon ESPN (heure de Paris = heure de l'Est + 6 h).",
   "divisions": [
     {
       "nom": "AFC Est",
@@ -18,7 +18,7 @@
         },
         {
           "equipe": "Jets",
-          "v": 2,
+          "v": 3,
           "d": 8,
           "n": 0
         },
@@ -36,7 +36,7 @@
         {
           "equipe": "Bengals",
           "v": 7,
-          "d": 2,
+          "d": 3,
           "n": 0
         },
         {
@@ -112,7 +112,7 @@
         {
           "equipe": "Chargers",
           "v": 1,
-          "d": 8,
+          "d": 9,
           "n": 0
         }
       ]
@@ -134,7 +134,7 @@
         },
         {
           "equipe": "Commanders",
-          "v": 3,
+          "v": 4,
           "d": 5,
           "n": 1
         },
@@ -346,6 +346,27 @@
   },
   "derniers": [
     {
+      "date": "2026-11-23",
+      "dom": "Commanders",
+      "ext": "Bengals",
+      "score_dom": 22,
+      "score_ext": 20
+    },
+    {
+      "date": "2026-11-22",
+      "dom": "Chargers",
+      "ext": "Jets",
+      "score_dom": 24,
+      "score_ext": 27
+    },
+    {
+      "date": "2026-11-22",
+      "dom": "Broncos",
+      "ext": "Raiders",
+      "score_dom": 38,
+      "score_ext": 24
+    },
+    {
       "date": "2026-11-22",
       "dom": "49ers",
       "ext": "Vikings",
@@ -439,15 +460,8 @@
     }
   ],
   "a_venir": {
-    "semaine": "Fin de la semaine 11 et semaine 12",
+    "semaine": "Semaine 12 (Thanksgiving jeudi 26 novembre)",
     "matchs": [
-      {
-        "date": "2026-11-24",
-        "heure_paris": "02:15",
-        "dom": "Commanders",
-        "ext": "Bengals",
-        "tv_us": "ESPN (MNF)"
-      },
       {
         "date": "2026-11-26",
         "heure_paris": "02:00",
@@ -565,6 +579,30 @@
   },
   "infos": [
     {
+      "titre": "Washington renverse Cincinnati au bout de la nuit",
+      "texte": "Les Commanders ont battu les Bengals 22-20 lundi soir à Landover, selon Bengals.com : Evan McPherson avait donné l'avantage à Cincinnati (20-19) sur un field goal de 56 yards à 46 secondes de la fin, avant que Jayden Daniels ne remonte 64 yards pour le field goal de la victoire, rapporte Heavy. Joe Burrow a lancé pour 300 yards et 2 touchdowns (Tee Higgins, Colbie Young), Boye Mafe a réussi 3 sacks. Les Bengals (7-3) voient s'arrêter une série de cinq victoires mais restent en tête de l'AFC Nord, devant Pittsburgh et Cleveland (6-4).",
+      "source": {
+        "nom": "Bengals.com – Commanders 22-20 Bengals",
+        "url": "https://www.bengals.com/news/bengals-commanders-recap-postgame-notes-quotes-stats-week-11-2026-monday-night-football"
+      }
+    },
+    {
+      "titre": "Denver s'impose contre Las Vegas",
+      "texte": "Les Broncos ont battu les Raiders 38-24, selon theScore : Jonah Coleman a marqué trois touchdowns à la course (111 yards), Bo Nix a lancé pour 225 yards ; Fernando Mendoza a lancé trois passes de touchdown (267 yards) pour Las Vegas. Denver (8-2) reste à égalité avec Kansas City en tête de l'AFC Ouest.",
+      "source": {
+        "nom": "theScore – Broncos 38-24 Raiders",
+        "url": "https://www.thescore.com/nfl/event/140736"
+      }
+    },
+    {
+      "titre": "Les Jets gagnent à Los Angeles",
+      "texte": "New York a battu les Chargers 27-24, selon ESPN ; les Jets passent à 3-8, les Chargers tombent à 1-9.",
+      "source": {
+        "nom": "ESPN – Jets 27-24 Chargers",
+        "url": "https://www.espn.com/nfl/game/_/gameId/401873074/jets-chargers"
+      }
+    },
+    {
       "titre": "San Francisco domine Minnesota à Mexico",
       "texte": "Les 49ers ont battu les Vikings 35-10 à Mexico dimanche soir, selon theScore : Brock Purdy a lancé trois passes de touchdown (deux pour George Kittle, une pour Mike Evans), Christian McCaffrey a marqué à la course et un retour d'interception a été converti en touchdown. San Francisco passe à 9-1, Minnesota recule à 7-3 dans une NFC Nord où Chicago et Detroit (8-2) ont gagné.",
       "source": {
@@ -603,33 +641,25 @@
         "nom": "NFL.com – Semaine 11, ce qu'il faut retenir",
         "url": "https://www.nfl.com/news/2026-nfl-season-week-11-what-we-learned-from-sunday-s-games"
       }
-    },
-    {
-      "titre": "Mahomes et Kelce écrasent Arizona",
-      "texte": "Kansas City a battu les Cardinals 34-7 : Patrick Mahomes a lancé pour 324 yards et 3 touchdowns, Travis Kelce a marqué deux fois lors de son 100e match à l'Arrowhead Stadium, selon NFL.com et theScore. Les Chiefs passent à 8-2.",
-      "source": {
-        "nom": "theScore – Chiefs 34-7 Cardinals",
-        "url": "https://www.thescore.com/nfl/event/140728"
-      }
-    },
-    {
-      "titre": "Philadelphie surprend Pittsburgh, Carolina bat Baltimore",
-      "texte": "Les Eagles (3-7) ont battu les Steelers 19-16, avec un touchdown de Saquon Barkley, malgré 227 yards à la passe d'Aaron Rodgers, selon theScore. Les Panthers ont dominé les Ravens 35-33 et reviennent à 5-5 en tête de la NFC Sud, selon NFL.com.",
-      "source": {
-        "nom": "theScore – Eagles 19-16 Steelers",
-        "url": "https://www.thescore.com/nfl/event/140737"
-      }
-    },
-    {
-      "titre": "Indianapolis se sépare de Daniel Jones",
-      "texte": "Les Colts ont libéré leur quarterback titulaire Daniel Jones vendredi, au lendemain de la défaite à Houston (3-26) ; l'entraîneur Shane Steichen a annoncé qu'Anthony Richardson serait titulaire désormais, selon Yahoo Sports.",
-      "source": {
-        "nom": "Yahoo Sports – NFL, nouvelles du 19 au 21 novembre",
-        "url": "https://sports.yahoo.com/nfl/live/nfl-news-injury-updates-131219200.html"
-      }
     }
   ],
   "sources": [
+    {
+      "nom": "Bengals.com – Commanders 22-20 Bengals",
+      "url": "https://www.bengals.com/news/bengals-commanders-recap-postgame-notes-quotes-stats-week-11-2026-monday-night-football"
+    },
+    {
+      "nom": "Heavy – MNF : Bengals-Commanders",
+      "url": "https://heavy.com/sports/nfl/cleveland-browns/mnf-result-bengals-blow-lead-commanders/"
+    },
+    {
+      "nom": "theScore – Broncos 38-24 Raiders",
+      "url": "https://www.thescore.com/nfl/event/140736"
+    },
+    {
+      "nom": "ESPN – Jets 27-24 Chargers",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873074/jets-chargers"
+    },
     {
       "nom": "NFL.com – Semaine 11 2026, ce qu'il faut retenir",
       "url": "https://www.nfl.com/news/2026-nfl-season-week-11-what-we-learned-from-sunday-s-games"
@@ -665,10 +695,6 @@
     {
       "nom": "theScore – Chiefs 34-7 Cardinals",
       "url": "https://www.thescore.com/nfl/event/140728"
-    },
-    {
-      "nom": "ESPN – Meilleures actions de la semaine 11 (Broncos-Raiders)",
-      "url": "https://www.espn.com/nfl/story/_/id/50562956/week-11-highlights-sunday-best-plays-touchdowns-2026"
     },
     {
       "nom": "ESPN – Programme semaine 12 2026",

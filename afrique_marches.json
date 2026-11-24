@@ -1,5 +1,5 @@
 {
-  "maj": "Derniers cours disponibles au lundi 23 novembre 2026 vers 6 h (Paris) : naira, rand, cedi, shilling kényan, dirham, franc CFA (cours de référence BCE), livre égyptienne, or, Brent, cuivre, cacao et café arabica au vendredi 20/11 ; cobalt au jeudi 19/11 (dernière cotation publiée) ; birr et shilling tanzanien au 10/11 et au 6/11 (non actualisés). Taux directeurs : la SARB a maintenu son taux à 7,25 % le 19/11, la Banque du Ghana l'a abaissé à 11 % le 18/11 ; la CBN se réunit les 23 et 24/11 (décision non encore connue).",
+  "maj": "Derniers cours disponibles au mardi 24 novembre 2026 vers 5 h 40 (Paris) : rand, cedi, shilling kényan, franc CFA (cours de référence BCE), or, Brent, cuivre, cacao, café arabica et cobalt au lundi 23/11 ; naira, livre égyptienne et dirham au vendredi 20/11 (cours du 23/11 non trouvés) ; birr et shilling tanzanien au 10/11 et au 6/11 (non actualisés). Taux directeurs : la CBN du Nigeria conclut sa réunion le 24/11 (décision non encore publiée à l'heure de l'édition ; maintien à 23 % attendu par l'économiste Uche Uwaleke, selon ThisDay) ; la SARB a maintenu son taux à 7,25 % le 19/11, la Banque du Ghana l'a abaissé à 11 % le 18/11.",
   "convention": "Cours en unités de monnaie locale pour 1 dollar. La variation sur un mois est négative quand la monnaie locale s'est affaiblie face au dollar.",
   "devises": [
     {
@@ -9,34 +9,34 @@
       "usd": 1394.0,
       "date": "2026-11-20",
       "var_1m": "-4,4 %",
-      "note": "Taux de la fenêtre officielle (NFEM) du vendredi 20/11 (1 394 nairas, contre 1 388 le 19/11) selon TheNigeriaLawyer ; Nairametrics indique un taux NFEM de la CBN de 1 376,58 le 19/11 (1 363,23 le 18/11) et une clôture de marché à 1 388, la plus faible depuis le 5 mars. Marché parallèle autour de 1 472 nairas le 20/11. Variation calculée par rapport à la clôture du 9 octobre (1 332,49), seule référence disponible, soit sur six semaines."
+      "note": "Taux de la fenêtre officielle (NFEM) du vendredi 20/11 (1 394 nairas, contre 1 388 le 19/11) selon TheNigeriaLawyer et Arbiterz ; marché parallèle autour de 1 450-1 472 nairas. Le 23/11, Bloomberg titre sur un nouvel affaiblissement du naira, les investisseurs redoutant une surprise électorale (cours de clôture du 23/11 non consulté). Selon ThisDay, le naira est passé d'environ 1 350 à 1 389 nairas pour 1 dollar entre septembre et le 23 novembre. Variation calculée par rapport à la clôture du 9 octobre (1 332,49), seule référence disponible, soit sur six semaines."
     },
     {
       "code": "ZAR",
       "nom": "rand sud-africain",
       "pays": "Afrique du Sud",
-      "usd": 17.47,
-      "date": "2026-11-20",
-      "var_1m": "-6,2 %",
-      "note": "Cours croisé BCE du vendredi 20/11 (19,1987 rands pour 1 euro et 1,0990 dollar pour 1 euro, soit 17,47 rands pour 1 dollar, contre 17,28 le 19/11). Le 19/11, le rand a touché 17,48 par dollar, son plus bas depuis novembre 2025, après le maintien du taux de la SARB à 7,25 % par 4 voix contre 3, sur fond de vigueur du dollar et d'incertitudes politiques après les élections locales, selon Trading Economics, qui le cotait vers 17,45 le 20/11. Variation sur un mois déduite de la hausse d'environ 6,6 % de l'USD/ZAR indiquée par Trading Economics le 20/11."
+      "usd": 17.51,
+      "date": "2026-11-23",
+      "var_1m": "-4,7 %",
+      "note": "Cours croisé BCE du lundi 23/11 (19,1513 rands pour 1 euro et 1,0939 dollar pour 1 euro, soit 17,51 rands pour 1 dollar, contre 17,47 le 20/11). Trading Economics cotait le rand vers 17,42 par dollar le 23/11 (baisse d'environ 1 % sur la journée), pénalisé par la vigueur du dollar et par des informations selon lesquelles l'ANC envisagerait des coalitions excluant la DA des grandes métropoles du Gauteng, après le maintien du taux de la SARB à 7,25 % le 19/11 par un vote partagé. Variation sur un mois indiquée par Trading Economics (environ −4,7 % ; un titre du 19/11 évoquait −6,6 % sur quatre semaines)."
     },
     {
       "code": "GHS",
       "nom": "cedi ghanéen",
       "pays": "Ghana",
-      "usd": 11.81,
-      "date": "2026-11-20",
-      "var_1m": "-1,7 %",
-      "note": "Cours de marché indiqué par Trading Economics le vendredi 20/11 (11,8084 cedis pour 1 dollar, +0,3 % sur la journée ; la même page mentionne aussi 11,825), soit une baisse du cedi d'environ 1,7 % sur un mois selon le même site. Le cours interbancaire de la Banque du Ghana était de 11,79 le 19/11 selon ModernGhana ; les bureaux de change vendent le dollar autour de 12,45 cedis. Selon des données de la Banque du Ghana citées par Citi Newsroom, le cedi a perdu 10,6 % face au dollar depuis le début de l'année."
+      "usd": 11.76,
+      "date": "2026-11-23",
+      "var_1m": "-1,3 %",
+      "note": "Cours de marché indiqué par Trading Economics le lundi 23/11 (11,7551 cedis pour 1 dollar, −0,45 % sur la journée, soit un léger raffermissement du cedi), en baisse de 1,26 % sur un mois selon le même site. Le cours interbancaire de la Banque du Ghana était de 11,79 le 19/11 selon ModernGhana. Selon des données de la Banque du Ghana citées par Citi Newsroom, le cedi a perdu 10,6 % face au dollar depuis le début de l'année."
     },
     {
       "code": "KES",
       "nom": "shilling kényan",
       "pays": "Kenya",
-      "usd": 130.1,
-      "date": "2026-11-20",
-      "var_1m": "-0,2 %",
-      "note": "Cours de marché indiqué par Trading Economics le vendredi 20/11 (130,10 shillings pour 1 dollar), soit un affaiblissement d'environ 0,2 % sur un mois selon le même site. Le bulletin hebdomadaire de la CBK donnait 129,96 le 12/11."
+      "usd": 130.05,
+      "date": "2026-11-23",
+      "var_1m": "-0,1 %",
+      "note": "Cours de marché indiqué par Trading Economics le lundi 23/11 (130,05 shillings pour 1 dollar, −0,04 % sur la journée), soit un affaiblissement d'environ 0,1 % sur un mois selon le même site. Le bulletin hebdomadaire de la CBK donnait 129,96 le 12/11."
     },
     {
       "code": "EGP",
@@ -45,7 +45,7 @@
       "usd": 53.8,
       "date": "2026-11-20",
       "var_1m": "-2,6 %",
-      "note": "Moyenne achat/vente (53,75/53,85) affichée par la Banque centrale d'Égypte le vendredi 20/11, d'après les dernières transactions, selon Youm7, comparée à la clôture Yahoo Finance du 12/10 (52,39). La livre a touché environ 56 fin octobre."
+      "note": "Moyenne achat/vente (53,75/53,85) affichée par la Banque centrale d'Égypte le vendredi 20/11, d'après les dernières transactions, selon Youm7, cours du 23/11 non trouvé ; comparée à la clôture Yahoo Finance du 12/10 (52,39). La livre a touché environ 56 fin octobre."
     },
     {
       "code": "MAD",
@@ -54,16 +54,16 @@
       "usd": 9.98,
       "date": "2026-11-20",
       "var_1m": null,
-      "note": "Cours de virement moyen de Bank Al-Maghrib du vendredi 20/11 (9,9811, contre 9,9548 le 19/11). L'euro s'échangeait à 10,9533 dirhams. Le dirham est rattaché à un panier euro/dollar."
+      "note": "Cours de virement moyen de Bank Al-Maghrib du vendredi 20/11 (9,9811, contre 9,9548 le 19/11), dernier publié lors de la consultation du 24/11. L'euro s'échangeait à 10,9533 dirhams. Le dirham est rattaché à un panier euro/dollar."
     },
     {
       "code": "XOF",
       "nom": "franc CFA (UEMOA)",
       "pays": "Bénin, Burkina Faso, Côte d'Ivoire, Guinée-Bissau, Mali, Niger, Sénégal, Togo",
-      "usd": 596.87,
-      "date": "2026-11-20",
-      "var_1m": "-2,2 %",
-      "note": "Calculé à partir de la parité fixe de 655,957 FCFA pour 1 euro et du cours de référence BCE du 20/11 (1,0990 $ pour 1 euro), contre 1,1234 le 21/10. Le franc CFA suit l'euro face au dollar."
+      "usd": 599.65,
+      "date": "2026-11-23",
+      "var_1m": "-2,3 %",
+      "note": "Calculé à partir de la parité fixe de 655,957 FCFA pour 1 euro et du cours de référence BCE du 23/11 (1,0939 $ pour 1 euro), contre 1,1193 le 23/10. Le franc CFA suit l'euro face au dollar."
     },
     {
       "code": "ETB",
@@ -88,50 +88,50 @@
     {
       "nom": "Cacao",
       "unite": "USD/t",
-      "valeur": 5294,
-      "date": "2026-11-20",
-      "var_1m": "-9,4 %",
-      "enjeu": "Premier produit d'exportation de la Côte d'Ivoire et du Ghana, qui fournissent ensemble plus de la moitié du cacao mondial (le prix bord-champ ivoirien est fixé à 1 200 FCFA/kg). Le cours a de nouveau progressé le 20/11 (+1,8 %, à environ 5 294 dollars la tonne) après être tombé vers 5 000 dollars le 18/11, proche de ses niveaux de juin : les stocks de l'ICE continuent d'augmenter et les grands indices de matières premières (S&P GSCI, Bloomberg Commodity Index) vont réduire leur exposition au cacao lors du rééquilibrage de 2027 ; un épisode El Niño susceptible d'affecter les récoltes ouest-africaines offre un soutien à moyen terme (Trading Economics). Cours CFD."
+      "valeur": 5281,
+      "date": "2026-11-23",
+      "var_1m": "-3,8 %",
+      "enjeu": "Premier produit d'exportation de la Côte d'Ivoire et du Ghana, qui fournissent ensemble plus de la moitié du cacao mondial (le prix bord-champ ivoirien est fixé à 1 200 FCFA/kg). Le cours est quasi stable le 23/11 (+0,2 %, à 5 281 dollars la tonne), après être tombé vers 5 000 dollars le 18/11 : les stocks de l'ICE, au plus haut depuis deux ans et demi, continuent d'augmenter et les grands indices de matières premières vont réduire leur exposition au cacao lors du rééquilibrage de 2027 ; un épisode El Niño susceptible d'affecter les récoltes ouest-africaines offre un soutien (Trading Economics). Cours CFD ; variation sur un mois calculée par Trading Economics."
     },
     {
       "nom": "Or",
       "unite": "USD/once",
-      "valeur": 3535.0,
-      "date": "2026-11-20",
-      "var_1m": "-14,6 %",
-      "enjeu": "Ressource clé du Ghana, du Mali, du Burkina Faso, de l'Afrique du Sud et du Soudan. L'once a reculé de 2,5 % le 20/11, vers 3 535-3 540 dollars, au plus bas depuis septembre 2025, sous l'effet de perspectives de resserrement de la Fed, d'un dollar plus fort et de craintes inflationnistes ; les marchés anticipent très largement une hausse de 25 points de base des taux américains en décembre (Trading Economics). Variation sur un mois calculée par Trading Economics."
+      "valeur": 3635.0,
+      "date": "2026-11-23",
+      "var_1m": "-9,6 %",
+      "enjeu": "Ressource clé du Ghana, du Mali, du Burkina Faso, de l'Afrique du Sud et du Soudan. L'once a rebondi le 23/11 après un plus bas de quatorze mois la semaine précédente : environ +3 % selon Admiral Markets ; Trading Economics publie deux estimations divergentes (+2 % vers 3 600 dollars, +4 % vers 3 680 dollars), le recul des paris sur une hausse des taux de la Fed et la fin des ventes forcées liées à la chute des actions étant avancés. Valeur retenue : cours précédent affiché par Trading Economics le 24/11 (3 634,93), à confirmer. Variation sur un mois calculée par Trading Economics au 24/11."
     },
     {
       "nom": "Pétrole Brent",
       "unite": "USD/baril",
-      "valeur": 92.57,
-      "date": "2026-11-20",
-      "var_1m": "-14,9 %",
-      "enjeu": "La recette de l'Angola, de l'Algérie, du Nigeria, de la Libye, du Gabon et du Congo recule sur un mois. Le Brent, passé sous 92 dollars en séance le 20/11, se dirige vers une troisième baisse hebdomadaire consécutive : l'offre abondante (flux record par le détroit d'Ormuz, excédent mondial d'environ 2 millions de barils par jour ce trimestre selon l'AIE, risque de surplus l'an prochain selon Goldman Sachs) l'emporte sur les informations faisant état d'une possible nouvelle frappe américaine contre l'Iran (Trading Economics). La facture des importateurs (Kenya, Éthiopie, Maroc…) s'allège. Cours CFD indiqué par Trading Economics le 20/11 (+0,6 % sur la journée)."
+      "valeur": 89.5,
+      "date": "2026-11-23",
+      "var_1m": null,
+      "enjeu": "La recette de l'Angola, de l'Algérie, du Nigeria, de la Libye, du Gabon et du Congo recule. Le Brent est tombé vers 89,5 dollars le 23/11, plus bas depuis trois mois : reprise de l'oléoduc libyen de Sharara, hausse des flux en provenance du Moyen-Orient, excédent mondial d'offre signalé par l'AIE dans son rapport de novembre ; Donald Trump a dit accorder plus de temps aux négociations avec l'Iran tout en évoquant une reprise possible des frappes l'an prochain (Trading Economics). La facture des importateurs (Kenya, Éthiopie, Maroc…) s'allège. Cours CFD ; variation sur un mois non retenue (−23 % affiché par Trading Economics, incohérent avec les relevés précédents en raison du changement d'échéance)."
     },
     {
       "nom": "Cuivre (COMEX)",
       "unite": "USD/livre",
-      "valeur": 5.49,
-      "date": "2026-11-20",
-      "var_1m": "-16,2 %",
-      "enjeu": "Principal moteur des exportations de la Zambie et de la RD Congo. Le contrat à terme a encore reculé d'environ 2,6 % le 20/11, vers 5,49 dollars la livre (5,46 selon une autre mention de la même page), au plus bas depuis plus de sept mois : inquiétudes sur la demande des centres de données liés à l'IA et production industrielle chinoise décevante, la faiblesse des stocks de la Bourse de Shanghai limitant la baisse (Trading Economics)."
+      "valeur": 5.6,
+      "date": "2026-11-23",
+      "var_1m": "-13,7 %",
+      "enjeu": "Principal moteur des exportations de la Zambie et de la RD Congo. Le contrat à terme est remonté au-dessus de 5,60 dollars la livre le 23/11 (niveau de clôture exact non publié), après un plus bas de plus de sept mois la semaine précédente ; les investisseurs réévaluent la demande liée aux centres de données d'IA, tandis que des stocks américains sont réacheminés vers la Chine, où l'offre se tend (Trading Economics). Variation sur un mois calculée par Trading Economics au 24/11."
     },
     {
       "nom": "Cobalt",
       "unite": "USD/t",
       "valeur": 33525,
-      "date": "2026-11-19",
+      "date": "2026-11-23",
       "var_1m": "-3,2 %",
-      "enjeu": "La RD Congo assure environ trois quarts de l'offre mondiale. Le cours est stable à 33 525 dollars la tonne (inchangé le 19/11), environ 31 % sous son niveau d'il y a un an, pénalisé par la faiblesse de l'électronique grand public chinoise ; des spéculations sur de nouvelles restrictions d'exportation congolaises entretiennent l'incertitude (Trading Economics). Variation sur un mois calculée par Trading Economics le 20/11."
+      "enjeu": "La RD Congo assure environ trois quarts de l'offre mondiale. Le cours est stable à 33 525 dollars la tonne (inchangé le 23/11), environ 31 % sous son niveau d'il y a un an, pénalisé par la faiblesse de l'électronique grand public chinoise ; des spéculations sur de nouvelles restrictions d'exportation congolaises entretiennent l'incertitude (Trading Economics). Variation sur un mois calculée par Trading Economics le 24/11."
     },
     {
       "nom": "Café arabica",
       "unite": "cents US/livre",
-      "valeur": 268.5,
-      "date": "2026-11-20",
-      "var_1m": "-15,1 %",
-      "enjeu": "Exportation majeure de l'Éthiopie, de l'Ouganda (surtout du robusta, non coté ici), du Kenya et de la Tanzanie. L'arabica (ICE) a reculé de 2,7 % le 20/11, à 268,5 cents la livre (−15,1 % sur un mois, −32,9 % sur un an), sous la pression de l'offre brésilienne : café en attente de classement dans les entrepôts de l'ICE au plus haut depuis près de quatre ans, expéditions brésiliennes record en octobre et production 2026-27 relevée à un record de 72,5 millions de sacs par l'USDA (Trading Economics). Variation sur un mois tirée du tableau de Trading Economics (le texte de la page évoque « près de 13 % »)."
+      "valeur": 267.65,
+      "date": "2026-11-23",
+      "var_1m": "-11,1 %",
+      "enjeu": "Exportation majeure de l'Éthiopie, de l'Ouganda (surtout du robusta, non coté ici), du Kenya et de la Tanzanie. L'arabica (ICE) a reculé de 0,3 % le 23/11, à 267,65 cents la livre (−11,1 % sur un mois), sous la pression de l'offre brésilienne : café en attente de classement dans les entrepôts de l'ICE au plus haut depuis près de quatre ans, expéditions brésiliennes record en octobre et production 2026-27 relevée à un record de 72,5 millions de sacs par l'USDA (Trading Economics)."
     }
   ],
   "taux": [
@@ -140,7 +140,7 @@
       "banque": "CBN",
       "taux": "23 %",
       "derniere": "septembre 2026 (baisse depuis 26,5 %)",
-      "prochaine": "2026-11-23/24"
+      "prochaine": "2026-11-24 (fin de la réunion ; décision non publiée à 6 h, maintien à 23 % attendu par Uche Uwaleke selon ThisDay ; inflation d'octobre : 14,06 %)"
     },
     {
       "pays": "Afrique du Sud",
@@ -472,6 +472,62 @@
     {
       "nom": "Trading Economics – café arabica (20/11/2026)",
       "url": "https://tradingeconomics.com/commodity/coffee"
+    },
+    {
+      "nom": "BCE – cours de référence du 23/11/2026 (USD, ZAR)",
+      "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+    },
+    {
+      "nom": "Trading Economics – rand sud-africain (23/11/2026)",
+      "url": "https://tradingeconomics.com/south-africa/currency"
+    },
+    {
+      "nom": "Trading Economics – cedi ghanéen (23/11/2026)",
+      "url": "https://tradingeconomics.com/ghana/currency"
+    },
+    {
+      "nom": "Trading Economics – shilling kényan (23/11/2026)",
+      "url": "https://tradingeconomics.com/kenya/currency"
+    },
+    {
+      "nom": "Trading Economics – or (23-24/11/2026)",
+      "url": "https://tradingeconomics.com/commodity/gold"
+    },
+    {
+      "nom": "Admiral Markets – rebond des marchés du 23/11/2026",
+      "url": "https://admiralmarkets.com/analytics/traders-blog/why-is-the-stock-market-up-today-november-23-2026"
+    },
+    {
+      "nom": "Trading Economics – Brent (23/11/2026)",
+      "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+    },
+    {
+      "nom": "Trading Economics – cacao (23/11/2026)",
+      "url": "https://tradingeconomics.com/commodity/cocoa"
+    },
+    {
+      "nom": "Trading Economics – cuivre (23/11/2026)",
+      "url": "https://tradingeconomics.com/commodity/copper"
+    },
+    {
+      "nom": "Trading Economics – café arabica (23/11/2026)",
+      "url": "https://tradingeconomics.com/commodity/coffee"
+    },
+    {
+      "nom": "Trading Economics – cobalt (23/11/2026)",
+      "url": "https://tradingeconomics.com/commodity/cobalt"
+    },
+    {
+      "nom": "ThisDay – attentes avant la décision de la CBN (24/11/2026)",
+      "url": "https://www.thisdaylive.com/2026/11/24/uwaleke-explains-why-cbn-may-not-change-policy-rates/"
+    },
+    {
+      "nom": "Bloomberg – le naira s'affaiblit (23/11/2026, titre)",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-23/nigeria-s-naira-weakens-with-investors-wary-of-election-upset"
+    },
+    {
+      "nom": "Arbiterz – naira NFEM (23/11/2026)",
+      "url": "https://arbiterz.com/naira-dollar-rate-november-23-2026-official-rate-weakens-to-n1394"
     }
   ]
 }

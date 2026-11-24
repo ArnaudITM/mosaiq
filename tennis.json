@@ -1,7 +1,7 @@
 {
-  "maj": "23 novembre 2026 – ATP Finals complètes (finale du 22 novembre : Tennis Majors, Sky Sports) ; top 10 ATP du 23 novembre calculé par Mosaiq (classement officiel du 16 novembre sur atptour.com + points gagnés à Turin : 200 par victoire de poule, 400 en demi-finale, 500 en finale), cohérent avec Tennis365 (Zverev 10 350, Alcaraz 7 600, Sinner 7 950) ; classement officiel du 23 novembre non publié à la rédaction. Rangs 11-20 ATP, top 20 WTA et Français : classement du 16 novembre (au-delà du 50e rang : 9 novembre ATP, 5 novembre WTA, non revérifiés). Résultat du barrage de BJK Cup France-Australie intégré (Tennis Actu).",
+  "maj": "24 novembre 2026 – classement ATP officiel du 23 novembre 2026 relevé sur atptour.com : le top 20 est identique au calcul publié la veille (Zverev 10 350, Sinner 7 950, Alcaraz 7 600) ; Français du top 100 ATP selon le même classement (nationalités non affichées par la page, reprises de l'édition précédente). Top 20 WTA et Françaises : classement du 16 novembre (non revérifié). Tournoi phare : Final 8 de la Coupe Davis à Bologne (24-29 novembre), programme selon Tennis Tour Talk.",
   "atp": {
-    "date": "23 novembre 2026 (calcul Mosaiq : classement du 16 novembre + points des ATP Finals ; à confirmer à la publication officielle)",
+    "date": "23 novembre 2026 (classement officiel ATP)",
     "top": [
       {
         "rang": 1,
@@ -278,12 +278,12 @@
         "points": 1146
       },
       {
-        "rang": 58,
+        "rang": 57,
         "joueur": "Arthur Rinderknech",
         "points": 920
       },
       {
-        "rang": 61,
+        "rang": 60,
         "joueur": "Adrian Mannarino",
         "points": 898
       },
@@ -293,17 +293,17 @@
         "points": 787
       },
       {
-        "rang": 81,
+        "rang": 80,
         "joueur": "Titouan Droguet",
         "points": 732
       },
       {
-        "rang": 85,
+        "rang": 87,
         "joueur": "Kyrian Jacquet",
-        "points": 684
+        "points": 688
       },
       {
-        "rang": 91,
+        "rang": 93,
         "joueur": "Benjamin Bonzi",
         "points": 657
       }
@@ -327,175 +327,84 @@
     ]
   },
   "evenement": {
-    "nom": "Nitto ATP Finals",
-    "lieu": "Turin (Inalpi Arena)",
-    "dates": "15-22 novembre 2026",
+    "nom": "Coupe Davis – Final 8",
+    "lieu": "Bologne (Italie)",
+    "dates": "24-29 novembre 2026",
     "groupes": [
       {
-        "nom": "Groupe John McEnroe",
+        "nom": "Haut de tableau",
         "joueurs": [
-          "Alexander Zverev (1)",
-          "Ben Shelton (3)",
-          "Arthur Fils (6)",
-          "Rafael Jódar (8)"
+          "Tchéquie",
+          "Canada",
+          "Italie",
+          "Corée du Sud"
         ]
       },
       {
-        "nom": "Groupe Ivan Lendl",
+        "nom": "Bas de tableau",
         "joueurs": [
-          "Carlos Alcaraz (2)",
-          "Daniil Medvedev (4)",
-          "Flavio Cobolli (5)",
-          "Frances Tiafoe (7)"
+          "Grande-Bretagne",
+          "Allemagne",
+          "Autriche",
+          "Espagne"
         ]
       }
     ],
-    "groupes_note": "Tirage au sort effectué le jeudi 12 novembre à Turin ; les deux premiers de chaque groupe accèdent aux demi-finales. Groupe John McEnroe : Shelton bat Fils 6-2, 3-6, 6-3 et Zverev bat Jódar 6-4, 6-4 (15 nov.) ; Zverev bat Shelton 6-2, 7-6 (4) et Fils bat Jódar 4-6, 6-2, 6-2 (17 nov.). Le 19 novembre, Shelton bat Jódar en deux sets et Zverev bat Fils 6-4, 7-6 (6) : Zverev (3-0) termine 1er et Shelton 2e, Fils et Jódar éliminés, selon Tennis Majors. Groupe Ivan Lendl : Alcaraz bat Tiafoe 6-2, 6-2 et Medvedev bat Cobolli 7-6 (4), 6-3 (16 nov.) ; Alcaraz bat Medvedev 6-2, 6-4 et Tiafoe bat Cobolli 7-6 (6), 6-0 (18 nov.). Alcaraz (2-0) est qualifié et assuré de la 1re place, Cobolli éliminé ; vendredi 20 novembre, Medvedev-Tiafoe désignera le second qualifié, Alcaraz affrontant Cobolli, selon Tennis Majors. Vendredi 20 novembre, Alcaraz bat Cobolli 6-4, 6-1 et termine invaincu, Medvedev bat Tiafoe 6-3, 6-4 et prend la 2e place, selon l'AP reprise par Arab News : les quatre premières têtes de série sont en demi-finales, note ESPN.",
+    "groupes_note": "Phase finale à élimination directe entre huit nations ; demi-finale 1 : vainqueur Italie-Corée du Sud contre vainqueur Tchéquie-Canada ; demi-finale 2 : vainqueur Grande-Bretagne-Allemagne contre vainqueur Autriche-Espagne, selon Tennis Tour Talk. La France n'est pas qualifiée.",
     "qualifies": [
-      "Alexander Zverev",
-      "Carlos Alcaraz",
-      "Ben Shelton",
-      "Daniil Medvedev",
-      "Flavio Cobolli",
-      "Arthur Fils",
-      "Frances Tiafoe",
-      "Rafael Jódar"
+      "Tchéquie",
+      "Canada",
+      "Italie",
+      "Corée du Sud",
+      "Grande-Bretagne",
+      "Allemagne",
+      "Autriche",
+      "Espagne"
     ],
-    "remplacants": [
-      "Alex de Minaur",
-      "Taylor Fritz"
-    ],
+    "remplacants": [],
     "programme": [
       {
-        "date": "21 novembre",
+        "date": "24 novembre",
         "matchs": [
-          "Demi-finales : Carlos Alcaraz bat Ben Shelton 3-6, 6-3, 7-6 (1) ; Alexander Zverev bat Daniil Medvedev 7-6 (0), 6-4"
+          "Quart de finale : Tchéquie-Canada (16h)"
         ]
       },
       {
-        "date": "22 novembre",
+        "date": "25 novembre",
         "matchs": [
-          "Finale du simple : Carlos Alcaraz bat Alexander Zverev 6-2, 7-6 (7)",
-          "Finale du double : victoire de Théo Arribagé et Albano Olivetti"
+          "Quart de finale : Italie-Corée du Sud (16h)"
+        ]
+      },
+      {
+        "date": "26 novembre",
+        "matchs": [
+          "Quart de finale : Grande-Bretagne-Allemagne (10h)",
+          "Quart de finale : Autriche-Espagne (pas avant 17h)"
+        ]
+      },
+      {
+        "date": "27 novembre",
+        "matchs": [
+          "Demi-finale 1 (16h)"
+        ]
+      },
+      {
+        "date": "28 novembre",
+        "matchs": [
+          "Demi-finale 2 (12h)"
+        ]
+      },
+      {
+        "date": "29 novembre",
+        "matchs": [
+          "Finale (15h)"
         ]
       }
     ],
-    "resultats": [
-      {
-        "date": "15 novembre 2026",
-        "groupe": "John McEnroe",
-        "vainqueur": "Ben Shelton",
-        "perdant": "Arthur Fils",
-        "score": "6-2, 3-6, 6-3"
-      },
-      {
-        "date": "15 novembre 2026",
-        "groupe": "John McEnroe",
-        "vainqueur": "Alexander Zverev",
-        "perdant": "Rafael Jódar",
-        "score": "6-4, 6-4"
-      },
-      {
-        "date": "16 novembre 2026",
-        "groupe": "Ivan Lendl",
-        "vainqueur": "Carlos Alcaraz",
-        "perdant": "Frances Tiafoe",
-        "score": "6-2, 6-2"
-      },
-      {
-        "date": "16 novembre 2026",
-        "groupe": "Ivan Lendl",
-        "vainqueur": "Daniil Medvedev",
-        "perdant": "Flavio Cobolli",
-        "score": "7-6 (4), 6-3"
-      },
-      {
-        "date": "17 novembre 2026",
-        "groupe": "John McEnroe",
-        "vainqueur": "Alexander Zverev",
-        "perdant": "Ben Shelton",
-        "score": "6-2, 7-6 (4)"
-      },
-      {
-        "date": "17 novembre 2026",
-        "groupe": "John McEnroe",
-        "vainqueur": "Arthur Fils",
-        "perdant": "Rafael Jódar",
-        "score": "4-6, 6-2, 6-2"
-      },
-      {
-        "date": "18 novembre 2026",
-        "groupe": "Ivan Lendl",
-        "vainqueur": "Carlos Alcaraz",
-        "perdant": "Daniil Medvedev",
-        "score": "6-2, 6-4"
-      },
-      {
-        "date": "18 novembre 2026",
-        "groupe": "Ivan Lendl",
-        "vainqueur": "Frances Tiafoe",
-        "perdant": "Flavio Cobolli",
-        "score": "7-6 (6), 6-0"
-      },
-      {
-        "date": "19 novembre 2026",
-        "groupe": "John McEnroe",
-        "vainqueur": "Ben Shelton",
-        "perdant": "Rafael Jódar",
-        "score": "en deux sets (score détaillé non confirmé)"
-      },
-      {
-        "date": "19 novembre 2026",
-        "groupe": "John McEnroe",
-        "vainqueur": "Alexander Zverev",
-        "perdant": "Arthur Fils",
-        "score": "6-4, 7-6 (6)"
-      },
-      {
-        "date": "20 novembre 2026",
-        "groupe": "Ivan Lendl",
-        "vainqueur": "Carlos Alcaraz",
-        "perdant": "Flavio Cobolli",
-        "score": "6-4, 6-1"
-      },
-      {
-        "date": "20 novembre 2026",
-        "groupe": "Ivan Lendl",
-        "vainqueur": "Daniil Medvedev",
-        "perdant": "Frances Tiafoe",
-        "score": "6-3, 6-4"
-      },
-      {
-        "date": "21 novembre 2026",
-        "groupe": "Demi-finale",
-        "vainqueur": "Carlos Alcaraz",
-        "perdant": "Ben Shelton",
-        "score": "3-6, 6-3, 7-6 (1)"
-      },
-      {
-        "date": "21 novembre 2026",
-        "groupe": "Demi-finale",
-        "vainqueur": "Alexander Zverev",
-        "perdant": "Daniil Medvedev",
-        "score": "7-6 (0), 6-4"
-      },
-      {
-        "date": "22 novembre 2026",
-        "groupe": "Finale",
-        "vainqueur": "Carlos Alcaraz",
-        "perdant": "Alexander Zverev",
-        "score": "6-2, 7-6 (7)"
-      }
-    ],
-    "texte": "Carlos Alcaraz a remporté dimanche 22 novembre ses premières ATP Finals en battant Alexander Zverev, n°1 mondial, 6-2, 7-6 (7) à Turin, après avoir sauvé trois balles de set dans le jeu décisif, selon Tennis Majors. L'Espagnol, invaincu dans la semaine et sur 14 victoires de suite après ses titres à Vienne et Paris, devient le quatrième joueur à réunir les quatre tournois du Grand Chelem et le Masters, après Agassi, Federer et Djokovic, selon Sky Sports. Zverev termine l'année n°1 mondial (10 350 points, selon Tennis365). En double, les Français Théo Arribagé et Albano Olivetti ont remporté le titre, selon Tennis Majors. Arthur Fils a été éliminé en phase de groupes. La saison se conclut avec la Coupe Davis à Bologne (Final 8 du 24 au 29 novembre), sans la France."
+    "resultats": [],
+    "texte": "La phase finale de la Coupe Davis s'ouvre mardi 24 novembre à Bologne avec Tchéquie-Canada (16h) ; l'Italie, pays hôte, entre en lice mercredi face à la Corée du Sud, et la finale est prévue dimanche 29 novembre à 15h, selon le programme publié par Tennis Tour Talk (heures de Paris). La semaine précédente, Carlos Alcaraz avait remporté les ATP Finals à Turin en battant Alexander Zverev 6-2, 7-6 (7), selon Tennis Majors ; Zverev reste n°1 mondial au classement ATP du 23 novembre (10 350 points), devant Jannik Sinner (7 950) et Alcaraz (7 600)."
   },
   "calendrier": [
-    {
-      "dates": "15-22 novembre 2026",
-      "nom": "Nitto ATP Finals",
-      "lieu": "Turin (Italie)",
-      "type": "ATP Finals"
-    },
     {
       "dates": "24-29 novembre 2026",
       "nom": "Coupe Davis – Final 8 (quarts : Tchéquie-Canada le 24, Italie-Corée du Sud le 25, Grande-Bretagne-Allemagne et Autriche-Espagne le 26 ; finale le 29 novembre)",
@@ -516,6 +425,14 @@
     }
   ],
   "infos": [
+    {
+      "titre": "Classement ATP : Zverev termine l'année n°1",
+      "texte": "Le classement ATP du 23 novembre, publié après les ATP Finals, place Alexander Zverev en tête avec 10 350 points devant Jannik Sinner (7 950) et Carlos Alcaraz (7 600), selon atptour.com ; Arthur Fils est 6e (3 825 points), meilleur Français.",
+      "source": {
+        "nom": "ATP – classement du 23 novembre 2026",
+        "url": "https://www.atptour.com/en/rankings/singles"
+      }
+    },
     {
       "titre": "Alcaraz remporte enfin le Masters",
       "texte": "Carlos Alcaraz a battu Alexander Zverev 6-2, 7-6 (7) dimanche en finale des ATP Finals à Turin, son 30e titre et le sixième de 2026, selon Tennis Majors ; il mène désormais 8-6 dans leurs confrontations et revient à 350 points de Jannik Sinner pour la 2e place mondiale, selon Sky Sports.",
@@ -611,7 +528,7 @@
       "url": "https://www.tennis365.com/tennis-news/carlos-alcaraz-alexander-zverev-atp-finals-prize-money-ranking-points-2026"
     },
     {
-      "nom": "ATP – classement du 16 novembre 2026",
+      "nom": "ATP – classement du 23 novembre 2026",
       "url": "https://www.atptour.com/en/rankings/singles"
     },
     {

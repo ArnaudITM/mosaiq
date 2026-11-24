@@ -1,5 +1,5 @@
 {
- "maj": "23 novembre 2026",
+ "maj": "24 novembre 2026",
  "fenetre": "Mercato d'hiver : ouverture le 1er janvier 2027 (dates selon les pays)",
  "dates_fenetre": [
   {
@@ -32,6 +32,62 @@
   }
  ],
  "items": [
+  {
+   "joueur": "Nathan Collins",
+   "de": "Brentford",
+   "vers": "Man United",
+   "championnat": "premier-league",
+   "type": "transfert",
+   "statut": "rumeur",
+   "texte": "Selon le Daily Mail, repris par la revue de presse de Sky Sports lundi 23 novembre, le défenseur de Brentford est le candidat prioritaire de Manchester United pour janvier, devant Calvin Bassey (Fulham) et Jarrad Branthwaite (Everton). Le quotidien ajoute que Mauricio Pochettino disposerait de moins de 50 millions de livres et que deux recrues seulement sont attendues, dont une possiblement en prêt.",
+   "source": {
+    "nom": "Sky Sports (d'après le Daily Mail)",
+    "url": "https://www.skysports.com/football/news/13615837/man-utd-transfer-news-brentford-defender-nathan-collins-emerges-as-january-target-paper-talk"
+   },
+   "date": "2026-11-23"
+  },
+  {
+   "joueur": "Luca Williams-Barnett",
+   "de": "Tottenham",
+   "vers": "Tottenham",
+   "championnat": "premier-league",
+   "type": "prolongation",
+   "statut": "avancé",
+   "texte": "Selon The Telegraph, cité par Sky Sports lundi 23 novembre, le jeune joueur de Tottenham est proche de signer un nouveau contrat de longue durée, ce qui mettrait fin à l'intérêt de Chelsea et du Borussia Dortmund. Aucune annonce officielle à ce stade.",
+   "source": {
+    "nom": "Sky Sports (d'après The Telegraph)",
+    "url": "https://www.skysports.com/football/news/13615837/man-utd-transfer-news-brentford-defender-nathan-collins-emerges-as-january-target-paper-talk"
+   },
+   "date": "2026-11-23"
+  },
+  {
+   "joueur": "Endrick",
+   "de": "Real Madrid",
+   "vers": "Milan",
+   "championnat": "liga",
+   "type": "prêt",
+   "statut": "rumeur",
+   "texte": "Selon Fabrizio Romano, cité par TEAMtalk lundi 23 novembre, l'AC Milan reste très intéressé par l'attaquant brésilien de 20 ans (8 matchs, une titularisation cette saison), tout comme la Roma, tandis que Liverpool et Aston Villa se sont faits discrets. José Mourinho souhaiterait le conserver ; une éventuelle sortie dépendrait de son temps de jeu après décembre. Rien n'est conclu.",
+   "source": {
+    "nom": "TEAMtalk (d'après Fabrizio Romano)",
+    "url": "https://www.teamtalk.com/news/romano-delivers-major-update-liverpool-aston-villa-january-interest-endrick"
+   },
+   "date": "2026-11-23"
+  },
+  {
+   "joueur": "Camilo Duran",
+   "de": "Celtic",
+   "vers": "Leeds",
+   "championnat": "premier-league",
+   "type": "transfert",
+   "statut": "rumeur",
+   "texte": "Selon The Herald, cité par Sky Sports lundi 23 novembre, Leeds suit l'attaquant du Celtic depuis le début de la saison. Aucune offre n'est évoquée.",
+   "source": {
+    "nom": "Sky Sports (d'après The Herald)",
+    "url": "https://www.skysports.com/football/news/13615837/man-utd-transfer-news-brentford-defender-nathan-collins-emerges-as-january-target-paper-talk"
+   },
+   "date": "2026-11-23"
+  },
   {
    "joueur": "Francesco Camarda",
    "de": "Milan",
@@ -171,49 +227,6 @@
    "source": {
     "nom": "Maxifoot",
     "url": "https://news.maxifoot.fr/real/tchouameni-a-prolonge-officiel-foot-467959.htm"
-   },
-   "date": "2026-11-19"
-  },
-  {
-   "joueur": "Jude Bellingham",
-   "de": "Real Madrid",
-   "vers": "Real Madrid",
-   "championnat": "liga",
-   "type": "prolongation",
-   "statut": "rumeur",
-   "texte": "Selon OK Diario, cité par Maxifoot, le Real Madrid a fait de la prolongation du milieu anglais de 23 ans une priorité et serait prêt à porter son salaire annuel à 22 M€. Les premiers échanges seraient positifs, sans accord ; le joueur demanderait des garanties sur le projet sportif.",
-   "source": {
-    "nom": "Maxifoot (d'après OK Diario)",
-    "url": "https://news.maxifoot.fr/real/bellingham-pose-ses-conditions-foot-467951.htm"
-   },
-   "date": "2026-11-19"
-  },
-  {
-   "joueur": "Kevin De Bruyne",
-   "de": "Naples",
-   "vers": "PSV Eindhoven",
-   "championnat": "serie-a",
-   "type": "transfert",
-   "statut": "rumeur",
-   "montant": "2 M€ proposés par le PSV, environ 7 M€ demandés par Naples (selon La Gazzetta dello Sport)",
-   "texte": "Selon La Gazzetta dello Sport, citée par Maxifoot, le PSV a fait une première offre pour le milieu belge de 35 ans, sous contrat jusqu'en juin 2027. Naples préférerait le garder mais ne bloquerait pas un départ pour une offre jugée satisfaisante ; la décision reviendrait au joueur.",
-   "source": {
-    "nom": "Maxifoot (d'après La Gazzetta dello Sport)",
-    "url": "https://news.maxifoot.fr/naples/prix-fixe-pour-de-bruyne-foot-467949.htm"
-   },
-   "date": "2026-11-19"
-  },
-  {
-   "joueur": "Sergio Camello",
-   "de": "Rayo Vallecano",
-   "vers": "OM",
-   "championnat": "liga",
-   "type": "transfert",
-   "statut": "rumeur",
-   "texte": "Selon Marca, cité par Maxifoot, l'OM a formulé une offre verbale aux représentants de l'attaquant espagnol de 25 ans (7 buts en 11 matchs de Liga), en fin de contrat en juin 2027, en vue d'une arrivée libre. Côme et d'autres clubs de Liga se sont aussi renseignés.",
-   "source": {
-    "nom": "Maxifoot (d'après Marca)",
-    "url": "https://news.maxifoot.fr/om/un-buteur-de-liga-contacte-foot-467960.htm"
    },
    "date": "2026-11-19"
   }

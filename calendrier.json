@@ -1,5 +1,5 @@
 {
- "maj": "23 novembre 2026",
+ "maj": "24 novembre 2026",
  "competitions": [
   {
    "id": "ligue-1",
@@ -74,15 +74,8 @@
   {
    "id": "premier-league",
    "nom": "Premier League",
-   "journee": "11e journée (fin) puis 12e journée (27-29 novembre)",
+   "journee": "12e journée (27-29 novembre)",
    "matchs": [
-    {
-     "date": "2026-11-23",
-     "heure": "21:00",
-     "dom": "Brentford",
-     "ext": "Everton",
-     "tv": "Sky Sports (UK)"
-    },
     {
      "date": "2026-11-27",
      "heure": "21:00",
@@ -149,13 +142,31 @@
   {
    "id": "liga",
    "nom": "Liga",
-   "journee": "13e journée (fin) puis 14e journée (27-30 novembre)",
+   "journee": "14e journée (27-30 novembre)",
    "matchs": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-27",
      "heure": "21:00",
      "dom": "Levante",
-     "ext": "Elche"
+     "ext": "Racing Santander"
+    },
+    {
+     "date": "2026-11-28",
+     "heure": "14:00",
+     "dom": "Betis",
+     "ext": "Rayo Vallecano"
+    },
+    {
+     "date": "2026-11-28",
+     "heure": "16:15",
+     "dom": "Malaga",
+     "ext": "Athletic Bilbao"
+    },
+    {
+     "date": "2026-11-28",
+     "heure": "18:30",
+     "dom": "Elche",
+     "ext": "Atlético"
     },
     {
      "date": "2026-11-28",
@@ -165,25 +176,42 @@
     },
     {
      "date": "2026-11-29",
+     "heure": "14:00",
+     "dom": "Valence",
+     "ext": "Osasuna"
+    },
+    {
+     "date": "2026-11-29",
+     "heure": "16:15",
+     "dom": "La Corogne",
+     "ext": "Barça"
+    },
+    {
+     "date": "2026-11-29",
      "heure": "18:30",
      "dom": "Celta Vigo",
      "ext": "Villarreal"
+    },
+    {
+     "date": "2026-11-29",
+     "heure": "21:00",
+     "dom": "Real Sociedad",
+     "ext": "Séville"
+    },
+    {
+     "date": "2026-11-30",
+     "heure": "21:00",
+     "dom": "Espanyol",
+     "ext": "Getafe"
     }
    ],
-   "note": "14e journée : seuls deux horaires ont pu être vérifiés sur laliga.com à ce stade."
+   "note": "Horaires (heure de Paris) relevés sur Futbol24 ; Real Madrid-Alavés, Celta-Villarreal et Espanyol-Getafe confirmés sur laliga.com."
   },
   {
    "id": "serie-a",
    "nom": "Serie A",
-   "journee": "12e journée (fin) puis 13e journée (27-30 novembre)",
+   "journee": "13e journée (27-30 novembre)",
    "matchs": [
-    {
-     "date": "2026-11-23",
-     "heure": "20:45",
-     "dom": "Monza",
-     "ext": "Fiorentina",
-     "tv": "DAZN / Sky (Italie)"
-    },
     {
      "date": "2026-11-27",
      "heure": "20:45",
@@ -488,6 +516,14 @@
   {
    "nom": "LaLiga – Celta-Villarreal (14e journée)",
    "url": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-rc-celta-villarreal-cf-14"
+  },
+  {
+   "nom": "Futbol24 – Calendrier Primera División 2026/27",
+   "url": "https://www.futbol24.com/national/Spain/Primera-Division/2026-2027/fixtures"
+  },
+  {
+   "nom": "LaLiga – Espanyol-Getafe (14e journée)",
+   "url": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-rcd-espanyol-de-barcelona-getafe-cf-14"
   }
  ]
 }

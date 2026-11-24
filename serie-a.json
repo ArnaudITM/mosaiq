@@ -3,7 +3,7 @@
  "nom": "Serie A",
  "pays": "Italie",
  "saison": "2026-27",
- "maj": "12e journée en cours (matchs des 21 et 22 novembre ; Monza-Fiorentina le lundi 23 novembre)",
+ "maj": "après la 12e journée (matchs des 21, 22 et 23 novembre)",
  "classement": [
   {
    "pos": 1,
@@ -163,6 +163,18 @@
   },
   {
    "pos": 14,
+   "club": "Monza",
+   "j": 12,
+   "g": 3,
+   "n": 1,
+   "p": 8,
+   "bp": 20,
+   "bc": 25,
+   "pts": 10,
+   "forme": "DDDDV"
+  },
+  {
+   "pos": 15,
    "club": "Lecce",
    "j": 12,
    "g": 3,
@@ -174,19 +186,19 @@
    "forme": "DDDND"
   },
   {
-   "pos": 15,
+   "pos": 16,
    "club": "Fiorentina",
-   "j": 11,
+   "j": 12,
    "g": 2,
    "n": 3,
-   "p": 6,
+   "p": 7,
    "bp": 17,
-   "bc": 25,
+   "bc": 28,
    "pts": 9,
-   "forme": "DDNVN"
+   "forme": "DNVND"
   },
   {
-   "pos": 16,
+   "pos": 17,
    "club": "Parme",
    "j": 12,
    "g": 2,
@@ -198,7 +210,7 @@
    "forme": "DNVDD"
   },
   {
-   "pos": 17,
+   "pos": 18,
    "club": "Sassuolo",
    "j": 12,
    "g": 2,
@@ -208,18 +220,6 @@
    "bc": 31,
    "pts": 8,
    "forme": "DDDDD"
-  },
-  {
-   "pos": 18,
-   "club": "Monza",
-   "j": 11,
-   "g": 2,
-   "n": 1,
-   "p": 8,
-   "bp": 17,
-   "bc": 25,
-   "pts": 7,
-   "forme": "VDDDD"
   },
   {
    "pos": 19,
@@ -255,7 +255,7 @@
   {
    "joueur": "Gustavo Varela",
    "club": "Monza",
-   "buts": 9
+   "buts": 11
   },
   {
    "joueur": "Antonio Raimondo",
@@ -371,7 +371,7 @@
   }
  ],
  "derniere_journee": {
-  "label": "12e journée (en cours, Monza-Fiorentina lundi 23 novembre)",
+  "label": "12e journée",
   "matchs": [
    {
     "dom": "Côme",
@@ -417,6 +417,11 @@
     "dom": "Atalanta",
     "ext": "Inter",
     "score": "4-4"
+   },
+   {
+    "dom": "Monza",
+    "ext": "Fiorentina",
+    "score": "3-0"
    }
   ]
  },
@@ -504,6 +509,14 @@
   {
    "nom": "Foot Mercato – passeurs Serie A 2026/2027",
    "url": "https://www.footmercato.net/italie/serie-a/passeur"
+  },
+  {
+   "nom": "ESPN – Monza 3-0 Fiorentina (23 nov. 2026)",
+   "url": "https://www.espn.com/soccer/match/_/gameId/401875009"
+  },
+  {
+   "nom": "ANSA Latina – Monza 3-0 Fiorentina (23 nov. 2026)",
+   "url": "https://www.ansalatina.com/americalatina/noticia/deportes/2026/11/23/monza-goleo-a-fiorentina-y-salio-de-la-zona-de-descenso_fa84358d-9ae9-4900-8f92-2ff1926746f8.html"
   }
  ]
 }

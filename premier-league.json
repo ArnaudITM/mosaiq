@@ -3,7 +3,7 @@
  "nom": "Premier League",
  "pays": "Angleterre",
  "saison": "2026-27",
- "maj": "11e journée en cours (matchs des 21 et 22 novembre ; Brentford-Everton lundi 23 novembre)",
+ "maj": "après la 11e journée (matchs des 21, 22 et 23 novembre)",
  "classement": [
   {
    "pos": 1,
@@ -67,6 +67,18 @@
   },
   {
    "pos": 6,
+   "club": "Brentford",
+   "j": 11,
+   "g": 4,
+   "n": 5,
+   "p": 2,
+   "bp": 20,
+   "bc": 11,
+   "pts": 17,
+   "forme": "DNVDV"
+  },
+  {
+   "pos": 7,
    "club": "Leeds",
    "j": 11,
    "g": 4,
@@ -76,18 +88,6 @@
    "bc": 9,
    "pts": 17,
    "forme": "NNDVV"
-  },
-  {
-   "pos": 7,
-   "club": "Everton",
-   "j": 10,
-   "g": 4,
-   "n": 4,
-   "p": 2,
-   "bp": 12,
-   "bc": 10,
-   "pts": 16,
-   "forme": "NDDVV"
   },
   {
    "pos": 8,
@@ -103,6 +103,18 @@
   },
   {
    "pos": 9,
+   "club": "Everton",
+   "j": 11,
+   "g": 4,
+   "n": 4,
+   "p": 3,
+   "bp": 12,
+   "bc": 14,
+   "pts": 16,
+   "forme": "DDVVD"
+  },
+  {
+   "pos": 10,
    "club": "Tottenham",
    "j": 11,
    "g": 4,
@@ -112,18 +124,6 @@
    "bc": 11,
    "pts": 15,
    "forme": "VVVDV"
-  },
-  {
-   "pos": 10,
-   "club": "Brentford",
-   "j": 10,
-   "g": 3,
-   "n": 5,
-   "p": 2,
-   "bp": 16,
-   "bc": 11,
-   "pts": 14,
-   "forme": "NDNVD"
   },
   {
    "pos": 11,
@@ -351,7 +351,7 @@
   }
  ],
  "derniere_journee": {
-  "label": "11e journée (en cours)",
+  "label": "11e journée",
   "matchs": [
    {
     "dom": "Man City",
@@ -397,6 +397,11 @@
     "dom": "Liverpool",
     "ext": "Man United",
     "score": "4-0"
+   },
+   {
+    "dom": "Brentford",
+    "ext": "Everton",
+    "score": "4-0"
    }
   ]
  },
@@ -412,7 +417,8 @@
    7,
    8,
    9,
-   10
+   10,
+   11
   ],
   "clubs": {
    "Arsenal": [
@@ -425,7 +431,8 @@
     18,
     21,
     24,
-    27
+    27,
+    28
    ],
    "Brighton": [
     3,
@@ -437,6 +444,7 @@
     16,
     16,
     19,
+    22,
     22
    ],
    "Man City": [
@@ -449,7 +457,8 @@
     21,
     21,
     21,
-    21
+    21,
+    22
    ],
    "Liverpool": [
     1,
@@ -461,7 +470,8 @@
     12,
     15,
     15,
-    18
+    18,
+    21
    ],
    "Chelsea": [
     3,
@@ -472,6 +482,7 @@
     10,
     13,
     13,
+    16,
     16,
     16
    ],
@@ -485,6 +496,7 @@
     10,
     10,
     13,
+    16,
     16
    ]
   }
@@ -517,6 +529,10 @@
   {
    "nom": "101 Great Goals – résultats de Premier League du 21 nov. 2026",
    "url": "https://www.101greatgoals.com/football/premier-league/premier-league-results-today-reports-scores-highlights-tottenham-vs-ipswich-bournemouth-forest-coventry-palace-villa-sunderland/"
+  },
+  {
+   "nom": "ESPN – Brentford 4-0 Everton (23 nov. 2026)",
+   "url": "https://www.espn.co.uk/football/report/_/gameId/401879237"
   }
  ]
 }

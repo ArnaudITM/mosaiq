@@ -1,43 +1,18 @@
 {
-  "semaine": "23 novembre – 6 décembre 2026",
+  "semaine": "24 novembre – 7 décembre 2026",
   "fuseau": "Heures de Paris (UTC+1). null = heure non confirmée par les sources consultées.",
   "evenements": [
     {
-      "date": "2026-11-23",
+      "date": "2026-11-24",
       "heure": "10:00",
-      "pays": "Zone euro",
+      "pays": "Allemagne",
       "type": "indicateur",
-      "titre": "PMI flash de novembre (France, Allemagne, zone euro, Royaume-Uni, États-Unis)",
-      "enjeu": "Premier aperçu de l'activité de novembre, alors que l'inflation et les taux remontent.",
+      "titre": "Climat des affaires Ifo de novembre",
+      "attendu": "Octobre : 90,2",
+      "enjeu": "Baromètre du moral des entreprises allemandes face à la remontée des taux.",
       "source": {
-        "nom": "LiteFinance – calendrier du 23 au 29 nov. 2026",
-        "url": "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-23112026-29112026/"
-      },
-      "attendu": "Octobre, zone euro : composite 51,7 ; industrie 52,7 ; services 51,4"
-    },
-    {
-      "date": "2026-11-23",
-      "heure": null,
-      "pays": "Nigeria",
-      "type": "banque centrale",
-      "titre": "Comité de politique monétaire de la Banque centrale du Nigeria (CBN), les 23 et 24 novembre",
-      "attendu": "Taux directeur actuel : 23 %",
-      "enjeu": "La CBN a abaissé son taux en septembre ; l'inflation d'octobre guidera la décision.",
-      "source": {
-        "nom": "Sagagist",
-        "url": "https://www.sagagist.com.ng/2026/11/cbn-announces-date-to-decide-on.html"
-      }
-    },
-    {
-      "date": "2026-11-23",
-      "heure": null,
-      "pays": "États-Unis",
-      "type": "entreprises",
-      "titre": "Résultats trimestriels de Hewlett Packard Enterprise, Zoom et Agilent (après la clôture de Wall Street)",
-      "enjeu": "Premiers résultats technologiques après la chute du Nasdaq de 5,3 % le 20 novembre.",
-      "source": {
-        "nom": "StockTitan – calendrier des résultats, semaine du 23 nov. 2026",
-        "url": "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-23-2026"
+        "nom": "FinanceCalendar – indicateurs économiques ; Lamera Capital",
+        "url": "https://www.financecalendar.com/events/category/economic-indicators/2026-12/"
       }
     },
     {
@@ -55,26 +30,14 @@
     {
       "date": "2026-11-24",
       "heure": null,
-      "pays": "Allemagne",
-      "type": "indicateur",
-      "titre": "Climat des affaires Ifo de novembre",
-      "attendu": "Octobre : 90,2",
-      "enjeu": "Baromètre du moral des entreprises allemandes face à la remontée des taux.",
+      "pays": "Nigeria",
+      "type": "banque centrale",
+      "titre": "Décision du Comité de politique monétaire de la Banque centrale du Nigeria (CBN), à l'issue de la réunion des 23 et 24 novembre",
+      "attendu": "Taux directeur actuel : 23 % ; maintien attendu par l'économiste Uche Uwaleke (ThisDay) ; inflation d'octobre : 14,06 %",
+      "enjeu": "Après la baisse de septembre, la CBN doit arbitrer entre le recul de l'inflation et la pression sur le naira (environ 1 389-1 394 nairas pour 1 dollar) avant les élections.",
       "source": {
-        "nom": "Lamera Capital – calendrier économique de novembre 2026",
-        "url": "https://lameracapital.com/market-insights/november-2026-economic-calendar-pound-euro-dollar"
-      }
-    },
-    {
-      "date": "2026-11-24",
-      "heure": null,
-      "pays": "États-Unis",
-      "type": "entreprises",
-      "titre": "Résultats de Dell, HP, Workday et Autodesk (après la clôture) ; Best Buy, Dollar Tree et Medtronic (avant l'ouverture)",
-      "enjeu": "Demande en matériel informatique et en serveurs d'IA, et état de la consommation avant le Black Friday.",
-      "source": {
-        "nom": "StockTitan – calendrier des résultats, semaine du 23 nov. 2026",
-        "url": "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-23-2026"
+        "nom": "ThisDay (24/11/2026)",
+        "url": "https://www.thisdaylive.com/2026/11/24/uwaleke-explains-why-cbn-may-not-change-policy-rates/"
       }
     },
     {
@@ -374,6 +337,14 @@
   ],
   "hors_fenetre": [
     {
+      "date": "2026-12-08",
+      "titre": "PIB japonais du 3e trimestre (révision, 00:50 heure de Paris), décision de la Banque de réserve d'Australie et productivité américaine du 3e trimestre (BLS)",
+      "source": {
+        "nom": "FinanceCalendar – décembre 2026 ; Bureau of Labor Statistics",
+        "url": "https://www.financecalendar.com/events/month/2026-12/"
+      }
+    },
+    {
       "date": "2026-12-09",
       "titre": "Réunion de la Fed (hausse de taux largement anticipée) et comité de politique monétaire de la Banque centrale du Kenya",
       "source": {
@@ -406,5 +377,5 @@
       }
     }
   ],
-  "non_trouve": "Aucun rendez-vous sourcé pour le samedi 28 novembre, le samedi 5 et le dimanche 6 décembre ; la réunion OPEP+ du 29/11 est confirmée par le communiqué de l'OPEP du 1er novembre (heure non précisée). Pour respecter la limite de trois rendez-vous par jour, ont été écartés : inflation australienne d'octobre (25/11, 01:30), PMI flash japonais (24/11), discours de Tiff Macklem (24/11), prix des logements anciens Insee (24/11), PMI manufacturier Caixin chinois (1er/12, 02:45), PMI manufacturiers définitifs mondiaux (1er/12), inscriptions au chômage américaines (3/12), résultats de CrowdStrike, Intuit et NetApp (1er/12, dates estimées par TheStreet). Divergence sur les dates : Dell, HP et Workday publient le 24/11 selon StockTitan, le 1er/12 selon TheStreet ; HPE le 23/11 selon StockTitan, le 3/12 selon TheStreet ; la date de StockTitan a été retenue. Date de l'inflation allemande incertaine : 30/11 selon Lamera Capital, 27/11 selon FinanceCalendar. Heure d'annonce des décisions de la CBN (Nigeria) et de la RBI (Inde) non confirmée. Non vérifiés (quota de recherche épuisé) : issue et jour exact de la décision de la CBN, date de l'Eurogroupe de décembre, date du comité de la BCEAO de décembre (le 3 décembre en 2025), réunions de la Banque de Namibie, du Mozambique, de la Zambie et de l'Angola dans la fenêtre, Perspectives économiques de l'OCDE (début décembre en 2025, date 2026 non trouvée)."
+  "non_trouve": "Aucun rendez-vous sourcé pour le samedi 28 novembre, les samedi 5, dimanche 6 et lundi 7 décembre (FinanceCalendar n'affiche aucun indicateur les 5 et 6/12, TheStreet aucun résultat d'entreprise le 7/12 ; le PIB japonais annoncé le 7/12 au soir à New York tombe le 8/12 à 00:50, heure de Paris). Rendez-vous du 23/11 retirés (passés). Pour respecter la limite de trois rendez-vous par jour, ont été écartés : résultats de Best Buy, Dollar Tree et Medtronic (24/11), inflation australienne d'octobre (25/11, 01:30), PMI flash japonais (24/11), discours de Tiff Macklem (24/11), prix des logements anciens Insee (24/11), PMI manufacturier Caixin/RatingDog chinois (1er/12, 02:45), PMI manufacturiers définitifs mondiaux (1er/12), inscriptions au chômage américaines (3/12), résultats de CrowdStrike, Intuit et NetApp (1er/12, dates estimées par TheStreet). Divergence sur les dates : Dell, HP et Workday publient le 24/11 selon StockTitan, le 1er/12 selon TheStreet (rendez-vous retiré faute de date sûre) ; HPE le 23/11 selon StockTitan, le 3/12 selon TheStreet. Date de l'inflation allemande : 30/11 selon Lamera Capital et FinanceCalendar (page de décembre), 27/11 selon une autre page de FinanceCalendar. Heure d'annonce des décisions de la CBN (Nigeria) et de la RBI (Inde) non confirmée. Non vérifiés (quota de recherche épuisé le 24/11) : date de l'Eurogroupe de décembre, date du comité de la BCEAO de décembre (le 3 décembre en 2025), réunions de la Banque de Namibie, du Mozambique, de la Zambie et de l'Angola dans la fenêtre, Perspectives économiques de l'OCDE (début décembre en 2025, date 2026 non trouvée), heure de la réunion OPEP+ du 29/11."
 }
