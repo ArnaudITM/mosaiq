@@ -1,5 +1,5 @@
 {
-  "maj": "clôture du lundi 23 novembre 2026 (dernière séance avant l'édition du mardi 24 novembre ; EUR/USD : cours de référence BCE du 23 novembre) ; séance du 23/11 vérifiée dans les quatre séries",
+  "maj": "clôture du mardi 24 novembre 2026 (dernière séance avant l'édition du mercredi 25 novembre) pour le CAC 40, le S&P 500 et le Nasdaq Composite ; EUR/USD : dernier cours de référence BCE consulté, celui du 23 novembre (fixing du 24/11 non obtenu)",
   "frequence": "quotidienne",
   "series": [
     {
@@ -7,10 +7,6 @@
       "nom": "CAC 40",
       "unite": "pts",
       "points": [
-        [
-          "2026-10-22",
-          7811.26
-        ],
         [
           "2026-10-23",
           7782.82
@@ -98,6 +94,10 @@
         [
           "2026-11-23",
           8044.84
+        ],
+        [
+          "2026-11-24",
+          8040.49
         ]
       ]
     },
@@ -106,10 +106,6 @@
       "nom": "S&P 500",
       "unite": "pts",
       "points": [
-        [
-          "2026-10-22",
-          7663.43
-        ],
         [
           "2026-10-23",
           7623.68
@@ -197,6 +193,10 @@
         [
           "2026-11-23",
           7237.17
+        ],
+        [
+          "2026-11-24",
+          7201.09
         ]
       ]
     },
@@ -205,10 +205,6 @@
       "nom": "Nasdaq Composite",
       "unite": "pts",
       "points": [
-        [
-          "2026-10-22",
-          26008.86
-        ],
         [
           "2026-10-23",
           25955.34
@@ -296,6 +292,10 @@
         [
           "2026-11-23",
           24089.56
+        ],
+        [
+          "2026-11-24",
+          23733.54
         ]
       ]
     },
@@ -400,7 +400,7 @@
       ]
     }
   ],
-  "absent": "Brent non fourni en série quotidienne : les sources consultées divergent après le 16 octobre (changement d'échéance du contrat). Repère ponctuel : Brent vers 89,5 $ le 23 novembre, plus bas depuis trois mois (reprise de l'oléoduc libyen de Sharara, hausse des flux du Moyen-Orient, excédent d'offre signalé par l'AIE), selon Trading Economics (cours CFD). Rebond du 23/11 : CAC 40 +1,48 %, S&P 500 +4,7 %, Nasdaq Composite +6,5 % (Dow Jones 49 595,31, +3 %), selon Boursorama et AP. Aucune valeur manquante pour les quatre séries au 23 novembre.",
+  "absent": "EUR/USD : le cours de référence BCE du 24 novembre n'a pas pu être consulté (le fichier BCE affichait encore le 23/11) ; série arrêtée au 23/11. Repère : environ 1,096 $ le 24 novembre selon Trading Economics (cours de marché, non BCE). Brent non fourni en série quotidienne (sources divergentes depuis le changement d'échéance d'octobre) ; repère ponctuel : Brent vers 90 $ le 24 novembre, proche de son plus bas depuis le 28 août, selon Trading Economics. Séance du 24/11 : CAC 40 −0,05 % à 8 040,49 points (Trading Economics, Idéal Investisseur) ; S&P 500 −0,5 % à 7 201,09, Nasdaq Composite −1,5 % à 23 733,54, Dow Jones +0,9 % à 50 018,70 (AP via La Nación).",
   "sources": [
     {
       "nom": "Boursorama – historique CAC 40",
@@ -572,6 +572,26 @@
     },
     {
       "nom": "Trading Economics – Brent (23/11/2026)",
+      "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+    },
+    {
+      "nom": "Trading Economics – CAC 40 (clôture du 24/11/2026)",
+      "url": "https://tradingeconomics.com/france/stock-market"
+    },
+    {
+      "nom": "Idéal Investisseur – dernière clôture CAC 40 du 24/11/2026",
+      "url": "https://www.ideal-investisseur.fr/bourse-cryptos/cac-40-lindustrie-tire-la-cote-pendant-que-sanofi-recule-nettement-33952.html"
+    },
+    {
+      "nom": "AP via La Nación – clôtures du 24/11/2026",
+      "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-tuesday-11242026-nid24112026/"
+    },
+    {
+      "nom": "Trading Economics – euro (24/11/2026)",
+      "url": "https://tradingeconomics.com/euro-area/currency"
+    },
+    {
+      "nom": "Trading Economics – Brent (24/11/2026)",
       "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
     }
   ]

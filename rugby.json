@@ -1,6 +1,6 @@
 {
   "top14": {
-    "maj": "après la 9e journée (saison 2026-2027) – pas de journée le week-end des 21-22 novembre (Championnat des nations), reprise le 28 novembre ; données non revérifiées le 24 novembre (aucune journée jouée depuis le 23)",
+    "maj": "après la 9e journée (saison 2026-2027) – pas de journée le week-end des 21-22 novembre (Championnat des nations), reprise le 28 novembre ; classement non revérifié le 25 novembre (aucune journée jouée depuis)",
     "classement": [
       {
         "pos": 1,
@@ -195,6 +195,14 @@
   },
   "infos": [
     {
+      "titre": "42 joueurs pour préparer la finale",
+      "texte": "Fabien Galthié a retenu un groupe de 42 joueurs pour préparer la finale du Championnat des nations face à l'Afrique du Sud, dimanche à Twickenham, selon Rugby-Transferts : Thomas Ramos, revenu de blessure, et Oscar Jegou (côtes) réintègrent le groupe, Grégory Alldritt est absent en raison d'une gêne physique et Jean-Baptiste Gros, forfait contre l'Argentine, est conservé dans l'espoir d'un rétablissement.",
+      "source": {
+        "nom": "Rugby-Transferts – groupe du XV de France pour la finale (23 nov. 2026)",
+        "url": "https://www.rugby-transferts.com/championnat-des-nations-xv-de-france-le-groupe-pour-la-finale-face-aux-springboks-217548/"
+      }
+    },
+    {
       "titre": "Sept essais contre l'Argentine",
       "texte": "Les Bleus se sont imposés 45-17 face aux Pumas, menés 10-7 en première période : essais de Guillard (7e), Mauvaka (34e), Gourgues (48e et 71e), Gailleton (65e), Duguid (69e) et Bielle-Biarrey (78e) ; Gourgues a réussi 5 transformations sur 6, selon Vibrez Rugby. Piccardo et Matera ont marqué pour l'Argentine.",
       "source": {
@@ -208,14 +216,6 @@
       "source": {
         "nom": "Sky Sports – programme du Finals Weekend",
         "url": "https://www.skysports.com/rugby-union/news/13615041/nations-championship-fixtures-france-to-play-south-africa-in-final-as-england-face-new-zealand-rematch-plus-ireland-vs-australia"
-      }
-    },
-    {
-      "titre": "Jalibert et Jelonch de retour avant l'Argentine",
-      "texte": "Selon Sud Radio, Matthieu Jalibert, revenu dans le groupe un mois après une rechute à la cuisse, devrait être titularisé à l'ouverture, en l'absence de Romain Ntamack, Thomas Ramos et Antoine Hastoy, blessés ; Anthony Jelonch, remis d'une blessure à l'épaule, est aussi annoncé. Louis Bielle-Biarrey, Jean-Baptiste Gros et Aaron Grandidier-Nkanang ont été ménagés à l'entraînement. Composition attendue jeudi.",
-      "source": {
-        "nom": "Sud Radio",
-        "url": "https://www.sudradio.fr/sport-rugby/rugby/xv-de-france-apres-deux-matches-les-corps-des-bleus-sous-surveillance"
       }
     },
     {
@@ -244,6 +244,10 @@
     }
   ],
   "sources": [
+    {
+      "nom": "Rugby-Transferts – groupe du XV de France pour la finale (23 nov. 2026)",
+      "url": "https://www.rugby-transferts.com/championnat-des-nations-xv-de-france-le-groupe-pour-la-finale-face-aux-springboks-217548/"
+    },
     {
       "nom": "Vibrez Rugby – France 45-17 Argentine (21 nov. 2026)",
       "url": "https://vibrez-rugby.com/nations-championship-la-france-deroule-face-a-largentine-au-stade-de-france/"

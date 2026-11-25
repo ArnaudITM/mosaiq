@@ -1,5 +1,5 @@
 {
- "maj": "24 novembre 2026",
+ "maj": "25 novembre 2026",
  "competitions": [
   {
    "id": "ligue-1",
@@ -348,62 +348,8 @@
   {
    "id": "ligue-des-champions",
    "nom": "Ligue des champions",
-   "journee": "5e journée (phase de ligue)",
+   "journee": "5e journée (phase de ligue), suite et fin le mercredi 25 novembre",
    "matchs": [
-    {
-     "date": "2026-11-24",
-     "heure": "18:45",
-     "dom": "Bodø/Glimt",
-     "ext": "LASK"
-    },
-    {
-     "date": "2026-11-24",
-     "heure": "18:45",
-     "dom": "Galatasaray",
-     "ext": "Aston Villa"
-    },
-    {
-     "date": "2026-11-24",
-     "heure": "21:00",
-     "dom": "Arsenal",
-     "ext": "Dortmund"
-    },
-    {
-     "date": "2026-11-24",
-     "heure": "21:00",
-     "dom": "Côme",
-     "ext": "AEK Athènes"
-    },
-    {
-     "date": "2026-11-24",
-     "heure": "21:00",
-     "dom": "Feyenoord",
-     "ext": "Porto"
-    },
-    {
-     "date": "2026-11-24",
-     "heure": "21:00",
-     "dom": "Man City",
-     "ext": "Naples"
-    },
-    {
-     "date": "2026-11-24",
-     "heure": "21:00",
-     "dom": "Leipzig",
-     "ext": "Lens"
-    },
-    {
-     "date": "2026-11-24",
-     "heure": "21:00",
-     "dom": "Real Madrid",
-     "ext": "PSV Eindhoven"
-    },
-    {
-     "date": "2026-11-24",
-     "heure": "21:00",
-     "dom": "Slovan Bratislava",
-     "ext": "Betis"
-    },
     {
      "date": "2026-11-25",
      "heure": "18:45",
@@ -524,6 +470,10 @@
   {
    "nom": "LaLiga – Espanyol-Getafe (14e journée)",
    "url": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-rcd-espanyol-de-barcelona-getafe-cf-14"
+  },
+  {
+   "nom": "Maxifoot – Ligue des champions 2026-27, 5e journée (programme)",
+   "url": "https://m.maxifoot.fr/resultat-ligue-des-champions-phase-groupe-journee-5.htm"
   }
  ]
 }

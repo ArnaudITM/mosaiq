@@ -1,5 +1,5 @@
 {
-  "maj": "24 novembre 2026, 5h50 – semaine 11 complète après le Monday Night Football Commanders-Bengals (22-20, nuit du 23 au 24, heure de Paris) selon Bengals.com et Heavy. Scores confirmés depuis l'édition précédente : Jets-Chargers 27-24 pour New York (ESPN), Broncos-Raiders 38-24 (theScore). Égalités non départagées (Broncos-Chiefs, Bears-Lions, Steelers-Browns, Seahawks-Rams). Leaders statistiques arrêtés après la semaine 10 (ESPN ; sacks de Will Anderson Jr. selon NFL.com), non actualisés. Programme de la semaine 12 selon ESPN (heure de Paris = heure de l'Est + 6 h).",
+  "maj": "25 novembre 2026, 5h30 – aucun match depuis le Monday Night Football Commanders-Bengals (22-20) : classements après la semaine 11 inchangés (égalités Broncos-Chiefs, Bears-Lions, Steelers-Browns, Seahawks-Rams non départagées). Leaders statistiques arrêtés après la semaine 10 (ESPN ; sacks de Will Anderson Jr. selon NFL.com), non actualisés. Programme de la semaine 12 revérifié le 25 novembre sur ESPN (16 matchs, dont Packers-Rams mercredi soir et trois matchs le jeudi de Thanksgiving) ; heure de Paris = heure de l'Est + 6 h.",
   "divisions": [
     {
       "nom": "AFC Est",
@@ -578,6 +578,14 @@
     "exempts": []
   },
   "infos": [
+    {
+      "titre": "Semaine 12 : Packers-Rams en ouverture, trois matchs à Thanksgiving",
+      "texte": "La semaine 12 s'ouvre mercredi soir avec Green Bay-Los Angeles Rams au SoFi Stadium (2h, heure de Paris, sur Netflix aux États-Unis), selon le programme d'ESPN. Le jeudi de Thanksgiving, Detroit reçoit Chicago (19h), Dallas accueille Philadelphie (22h30) et Buffalo reçoit Kansas City (2h20 dans la nuit de jeudi à vendredi) ; Pittsburgh-Denver suit vendredi à 21h.",
+      "source": {
+        "nom": "ESPN – Programme semaine 12 2026",
+        "url": "https://www.espn.com/nfl/schedule/_/week/12"
+      }
+    },
     {
       "titre": "Washington renverse Cincinnati au bout de la nuit",
       "texte": "Les Commanders ont battu les Bengals 22-20 lundi soir à Landover, selon Bengals.com : Evan McPherson avait donné l'avantage à Cincinnati (20-19) sur un field goal de 56 yards à 46 secondes de la fin, avant que Jayden Daniels ne remonte 64 yards pour le field goal de la victoire, rapporte Heavy. Joe Burrow a lancé pour 300 yards et 2 touchdowns (Tee Higgins, Colbie Young), Boye Mafe a réussi 3 sacks. Les Bengals (7-3) voient s'arrêter une série de cinq victoires mais restent en tête de l'AFC Nord, devant Pittsburgh et Cleveland (6-4).",

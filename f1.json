@@ -1,5 +1,5 @@
 {
-  "maj": "24 novembre 2026 – classements après le Grand Prix de Las Vegas (manche 21/23, 22 novembre 2026), calculés par Mosaiq à partir du résultat publié par Sky Sports et concordants avec le classement d'ESPN (Antonelli 402, Verstappen 304, Hamilton 267, Russell 264, Norris 264). Russell et Norris sont à égalité de points (264) ; ESPN classe Russell 4e et Norris 5e, sans préciser le critère de départage (non vérifié sur formula1.com). Prochaines manches : Qatar (29 novembre, sans sprint selon Wikipédia) et Abu Dhabi (6 décembre).",
+  "maj": "25 novembre 2026 – aucun Grand Prix depuis Las Vegas : classements inchangés après la manche 21/23 (22 novembre), calculés par Mosaiq à partir du résultat publié par Sky Sports et concordants avec ESPN. Russell et Norris à égalité (264), départage non vérifié sur formula1.com. GP du Qatar (29 novembre) : horaires selon Formula1.com (sans sprint), enjeux selon Speedweek ; puis Abu Dhabi (6 décembre).",
   "pilotes": [
     {
       "pos": 1,
@@ -245,7 +245,7 @@
       "fait": true
     },
     {
-      "date": "29 novembre 2026",
+      "date": "29 novembre 2026 (course 17h, heure de Paris ; qualifications samedi 28 à 19h)",
       "gp": "Grand Prix du Qatar",
       "circuit": "Lusail International Circuit",
       "fait": false
@@ -257,7 +257,7 @@
       "fait": false
     }
   ],
-  "titre": "Max Verstappen (Red Bull) a remporté dimanche le Grand Prix de Las Vegas, sa quatrième victoire en six courses, devant les McLaren de Lando Norris et Oscar Piastri, selon Sky Sports. Avec 304 points, il compte 37 points d'avance sur Lewis Hamilton (267) à deux manches de la fin, ce qui lui assure quasiment la place de vice-champion derrière Kimi Antonelli (Mercedes), sacré depuis Mexico. Chez les constructeurs, McLaren revient à 9 points de Red Bull pour la 3e place, Mercedes étant déjà titrée. Prochaine manche : le Grand Prix du Qatar, dimanche 29 novembre.",
+  "titre": "Prochaine manche : le Grand Prix du Qatar, dimanche 29 novembre à Lusail (57 tours de 5,419 km, départ 17h heure de Paris, sans sprint), selon Formula1.com. Kimi Antonelli et Mercedes étant déjà titrés, l'enjeu porte sur la 2e place : Max Verstappen (304 points), vainqueur à Las Vegas, compte 37 points d'avance sur Lewis Hamilton (267), George Russell et Lando Norris étant à égalité (264), selon Speedweek. Chez les constructeurs, McLaren est à 9 points de Red Bull pour la 3e place.",
   "francais": "Pierre Gasly (Alpine) a pris la 5e place à Las Vegas, devant son coéquipier Franco Colapinto (6e), une récolte de 18 points pour Alpine, selon Sky Sports ; il compte désormais 52 points (10e). Isack Hadjar (Red Bull), 3e après le départ et à la lutte avec Verstappen, a été contraint de s'arrêter au 26e tour sur une rupture d'aileron avant et termine 14e, hors des points, selon Racer ; il reste 8e du championnat (122 pts). Esteban Ocon (Haas) ne court plus cette saison.",
   "evolution": {
     "gps": [
@@ -380,6 +380,14 @@
     "note": "Cumul calculé à partir des résultats course et sprint du tableau Wikipedia (barème 25-18-15-12-10-8-6-4-2-1, sprint 8 à 1) ; les totaux finaux concordent avec le classement officiel."
   },
   "sources": [
+    {
+      "nom": "Formula1.com – horaires du GP du Qatar 2026",
+      "url": "https://www.formula1.com/en/latest/article/formula-1-qatar-airways-qatar-grand-prix-2026.3XJyoYSnpJEcuZovstTdcG"
+    },
+    {
+      "nom": "Speedweek – enjeux du GP du Qatar (24 nov. 2026)",
+      "url": "https://www.speedweek.com/en/a/formula-1/formula-1-qatar-grand-prix-tv-preview"
+    },
     {
       "nom": "Sky Sports – Verstappen remporte le GP de Las Vegas (22 nov. 2026)",
       "url": "https://www.skysports.com/f1/news/13615083/las-vegas-gp-max-verstappen-wins-wild-race-as-ferraris-lewis-hamilton-and-charles-leclerc-collide-again"

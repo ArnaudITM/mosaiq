@@ -1,5 +1,5 @@
 {
-  "maj": "24 novembre 2026 – classement ATP officiel du 23 novembre 2026 relevé sur atptour.com : le top 20 est identique au calcul publié la veille (Zverev 10 350, Sinner 7 950, Alcaraz 7 600) ; Français du top 100 ATP selon le même classement (nationalités non affichées par la page, reprises de l'édition précédente). Top 20 WTA et Françaises : classement du 16 novembre (non revérifié). Tournoi phare : Final 8 de la Coupe Davis à Bologne (24-29 novembre), programme selon Tennis Tour Talk.",
+  "maj": "25 novembre 2026 – Coupe Davis : quart de finale Tchéquie-Canada du 24 novembre (2-0) selon CP24 (La Presse canadienne) et le site officiel de la Coupe Davis. Classement ATP officiel du 23 novembre 2026 (atptour.com), inchangé (prochaine publication après la Coupe Davis, non vérifiée). Top 20 WTA et Françaises : classement du 16 novembre (non revérifié). Programme de la Final 8 selon Tennis Tour Talk (heures de Paris).",
   "atp": {
     "date": "23 novembre 2026 (classement officiel ATP)",
     "top": [
@@ -350,7 +350,7 @@
         ]
       }
     ],
-    "groupes_note": "Phase finale à élimination directe entre huit nations ; demi-finale 1 : vainqueur Italie-Corée du Sud contre vainqueur Tchéquie-Canada ; demi-finale 2 : vainqueur Grande-Bretagne-Allemagne contre vainqueur Autriche-Espagne, selon Tennis Tour Talk. La France n'est pas qualifiée.",
+    "groupes_note": "Phase finale à élimination directe entre huit nations ; demi-finale 1 : Tchéquie contre le vainqueur d'Italie-Corée du Sud ; demi-finale 2 : vainqueur Grande-Bretagne-Allemagne contre vainqueur Autriche-Espagne, selon Tennis Tour Talk. Le Canada est éliminé. La France n'est pas qualifiée.",
     "qualifies": [
       "Tchéquie",
       "Canada",
@@ -366,7 +366,7 @@
       {
         "date": "24 novembre",
         "matchs": [
-          "Quart de finale : Tchéquie-Canada (16h)"
+          "Quart de finale : Tchéquie 2-0 Canada"
         ]
       },
       {
@@ -385,7 +385,7 @@
       {
         "date": "27 novembre",
         "matchs": [
-          "Demi-finale 1 (16h)"
+          "Demi-finale 1 : Tchéquie – vainqueur d'Italie-Corée du Sud (16h)"
         ]
       },
       {
@@ -401,13 +401,15 @@
         ]
       }
     ],
-    "resultats": [],
-    "texte": "La phase finale de la Coupe Davis s'ouvre mardi 24 novembre à Bologne avec Tchéquie-Canada (16h) ; l'Italie, pays hôte, entre en lice mercredi face à la Corée du Sud, et la finale est prévue dimanche 29 novembre à 15h, selon le programme publié par Tennis Tour Talk (heures de Paris). La semaine précédente, Carlos Alcaraz avait remporté les ATP Finals à Turin en battant Alexander Zverev 6-2, 7-6 (7), selon Tennis Majors ; Zverev reste n°1 mondial au classement ATP du 23 novembre (10 350 points), devant Jannik Sinner (7 950) et Alcaraz (7 600)."
+    "resultats": [
+      "24 novembre – Quart de finale : Tchéquie 2-0 Canada (Macháč bat Draxl 6-2, 3-6, 6-2 ; Lehečka bat Auger-Aliassime 7-6 (4), 6-2 ; double non joué)"
+    ],
+    "texte": "La Tchéquie s'est qualifiée mardi pour les demi-finales de la Coupe Davis en battant le Canada 2-0 à Bologne, selon CP24 (La Presse canadienne) : Tomáš Macháč a battu Liam Draxl 6-2, 3-6, 6-2, puis Jiří Lehečka a dominé Félix Auger-Aliassime 7-6 (4), 6-2, rendant le double inutile. Les Tchèques affronteront vendredi 27 novembre (16h) le vainqueur d'Italie-Corée du Sud, qui se joue mercredi à 16h ; la finale est prévue dimanche 29 novembre à 15h, selon Tennis Tour Talk."
   },
   "calendrier": [
     {
       "dates": "24-29 novembre 2026",
-      "nom": "Coupe Davis – Final 8 (quarts : Tchéquie-Canada le 24, Italie-Corée du Sud le 25, Grande-Bretagne-Allemagne et Autriche-Espagne le 26 ; finale le 29 novembre)",
+      "nom": "Coupe Davis – Final 8 (quarts : Tchéquie 2-0 Canada le 24, Italie-Corée du Sud le 25, Grande-Bretagne-Allemagne et Autriche-Espagne le 26 ; finale le 29 novembre)",
       "lieu": "Bologne (Italie)",
       "type": "Coupe Davis"
     },
@@ -425,6 +427,14 @@
     }
   ],
   "infos": [
+    {
+      "titre": "Coupe Davis : la Tchéquie sort le Canada",
+      "texte": "Victorieuse 2-0, la Tchéquie est la première nation qualifiée pour les demi-finales de la Final 8 à Bologne, selon CP24 : Tomáš Macháč a gagné le premier simple face à Liam Draxl (6-2, 3-6, 6-2), Jiří Lehečka le second face à Félix Auger-Aliassime (7-6 (4), 6-2). Le Canada, vainqueur en 2022, est éliminé ; l'Italie, pays hôte, entre en lice mercredi contre la Corée du Sud.",
+      "source": {
+        "nom": "CP24 (La Presse canadienne) – Tchéquie 2-0 Canada (24 nov. 2026)",
+        "url": "https://www.cp24.com/news/sports/2026/11/24/auger-aliassime-draxl-lose-as-czechia-downs-canada-in-davis-cup-final-8-quarterfinal/"
+      }
+    },
     {
       "titre": "Classement ATP : Zverev termine l'année n°1",
       "texte": "Le classement ATP du 23 novembre, publié après les ATP Finals, place Alexander Zverev en tête avec 10 350 points devant Jannik Sinner (7 950) et Carlos Alcaraz (7 600), selon atptour.com ; Arthur Fils est 6e (3 825 points), meilleur Français.",
@@ -455,14 +465,6 @@
       "source": {
         "nom": "Tennis Actu – France-Australie 0-4",
         "url": "https://www.tennisactu.net/news-bjk-cup-mladenovic-et-parry-battues-la-france-eliminee-par-l-australie-0-4-128453.html"
-      }
-    },
-    {
-      "titre": "Coupe Davis : la Final 8 s'ouvre mardi à Bologne",
-      "texte": "La phase finale de la Coupe Davis se dispute du 24 au 29 novembre à Bologne, avec Tchéquie-Canada en ouverture mardi et l'Italie face à la Corée du Sud mercredi ; la France n'est pas qualifiée, selon le programme publié par Tennis Tour Talk.",
-      "source": {
-        "nom": "Tennis Tour Talk – programme de la Final 8",
-        "url": "https://tennistourtalk.com/137708/schedule-confirmed-for-2026-davis-cup-final-8"
       }
     },
     {
@@ -515,6 +517,14 @@
     }
   ],
   "sources": [
+    {
+      "nom": "CP24 (La Presse canadienne) – Tchéquie 2-0 Canada (24 nov. 2026)",
+      "url": "https://www.cp24.com/news/sports/2026/11/24/auger-aliassime-draxl-lose-as-czechia-downs-canada-in-davis-cup-final-8-quarterfinal/"
+    },
+    {
+      "nom": "Coupe Davis (site officiel) – Tchéquie-Canada",
+      "url": "https://www.daviscup.com/en/news/czechia-v-canada-quarterfinal"
+    },
     {
       "nom": "Tennis Majors – Alcaraz bat Zverev en finale (22 nov. 2026)",
       "url": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/breaking-news-alcaraz-beats-zverev-to-win-the-atp-finals-for-the-first-time-867706.html"
