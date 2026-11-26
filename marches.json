@@ -1,5 +1,5 @@
 {
-  "maj": "clôture du mardi 24 novembre 2026 (dernière séance avant l'édition du mercredi 25 novembre) pour le CAC 40, le S&P 500 et le Nasdaq Composite ; EUR/USD : dernier cours de référence BCE consulté, celui du 23 novembre (fixing du 24/11 non obtenu)",
+  "maj": "clôture du mercredi 25 novembre 2026 (dernière séance avant l'édition du jeudi 26 novembre ; Wall Street fermée le 26 pour Thanksgiving) pour le CAC 40, le S&P 500 et le Nasdaq Composite ; EUR/USD : cours de référence BCE du 25 novembre (fixing du 24/11 ajouté, déduit du cours inverse publié par Euro-rates.info)",
   "frequence": "quotidienne",
   "series": [
     {
@@ -7,10 +7,6 @@
       "nom": "CAC 40",
       "unite": "pts",
       "points": [
-        [
-          "2026-10-23",
-          7782.82
-        ],
         [
           "2026-10-26",
           7847.32
@@ -98,6 +94,10 @@
         [
           "2026-11-24",
           8040.49
+        ],
+        [
+          "2026-11-25",
+          7980.57
         ]
       ]
     },
@@ -106,10 +106,6 @@
       "nom": "S&P 500",
       "unite": "pts",
       "points": [
-        [
-          "2026-10-23",
-          7623.68
-        ],
         [
           "2026-10-26",
           7676.77
@@ -197,6 +193,10 @@
         [
           "2026-11-24",
           7201.09
+        ],
+        [
+          "2026-11-25",
+          7182.78
         ]
       ]
     },
@@ -205,10 +205,6 @@
       "nom": "Nasdaq Composite",
       "unite": "pts",
       "points": [
-        [
-          "2026-10-23",
-          25955.34
-        ],
         [
           "2026-10-26",
           26169.38
@@ -296,6 +292,10 @@
         [
           "2026-11-24",
           23733.54
+        ],
+        [
+          "2026-11-25",
+          23585.8
         ]
       ]
     },
@@ -305,14 +305,6 @@
       "unite": "USD pour 1 EUR",
       "note": "Cours de référence quotidien de la BCE (fixing vers 14h15 CET), et non cours de clôture de marché.",
       "points": [
-        [
-          "2026-10-22",
-          1.1205
-        ],
-        [
-          "2026-10-23",
-          1.1193
-        ],
         [
           "2026-10-26",
           1.1188
@@ -396,11 +388,19 @@
         [
           "2026-11-23",
           1.0939
+        ],
+        [
+          "2026-11-24",
+          1.0963
+        ],
+        [
+          "2026-11-25",
+          1.0935
         ]
       ]
     }
   ],
-  "absent": "EUR/USD : le cours de référence BCE du 24 novembre n'a pas pu être consulté (le fichier BCE affichait encore le 23/11) ; série arrêtée au 23/11. Repère : environ 1,096 $ le 24 novembre selon Trading Economics (cours de marché, non BCE). Brent non fourni en série quotidienne (sources divergentes depuis le changement d'échéance d'octobre) ; repère ponctuel : Brent vers 90 $ le 24 novembre, proche de son plus bas depuis le 28 août, selon Trading Economics. Séance du 24/11 : CAC 40 −0,05 % à 8 040,49 points (Trading Economics, Idéal Investisseur) ; S&P 500 −0,5 % à 7 201,09, Nasdaq Composite −1,5 % à 23 733,54, Dow Jones +0,9 % à 50 018,70 (AP via La Nación).",
+  "absent": "EUR/USD du 24/11 : valeur déduite de l'inverse du cours BCE publié par Euro-rates.info (0,9122 euro pour 1 dollar), arrondi à 4 décimales. Brent non fourni en série quotidienne (cotations divergentes chez Trading Economics le 25/11 : « sous 92 $ » puis « au-dessus de 93 $ » ; règlement non confirmé). Séance du 25/11 : CAC 40 −0,75 % à 7 980,57 points (Boursorama, Trading Economics) ; S&P 500 −0,3 % à 7 182,78, Nasdaq Composite −0,6 % à 23 585,80, Dow Jones +0,3 % à 50 182,95 (AP via La Nación) ; Trading Economics donnait pour le Dow une clôture différente (50 250, +0,46 %), le chiffre d'AP est retenu.",
   "sources": [
     {
       "nom": "Boursorama – historique CAC 40",
@@ -409,22 +409,6 @@
     {
       "nom": "Yahoo Finance – historique CAC 40",
       "url": "https://finance.yahoo.com/quote/%5EFCHI/history/"
-    },
-    {
-      "nom": "Yahoo Finance – historique S&P 500 (oct.)",
-      "url": "https://finance.yahoo.com/quote/%5EGSPC/history/"
-    },
-    {
-      "nom": "Yahoo Finance – historique Nasdaq Composite (oct.)",
-      "url": "https://finance.yahoo.com/quote/%5EIXIC/history/"
-    },
-    {
-      "nom": "AP via Yahoo Finance – clôtures du 2/11/2026",
-      "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-212103580.html"
-    },
-    {
-      "nom": "AP via Yahoo Finance – clôtures du 4/11/2026 (3/11 déduit de la variation)",
-      "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-212456789.html"
     },
     {
       "nom": "AP via Yahoo Finance – clôtures du 5/11/2026",
@@ -443,28 +427,8 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/major-us-stock-indexes-fared-211834867.html"
     },
     {
-      "nom": "AP via KRMG – clôtures du 12/11/2026",
-      "url": "https://krmg.com/2026/11/12/how-major-us-stock-indexes-fared-thursday-11-12-2026/"
-    },
-    {
-      "nom": "BFM Bourse – clôture CAC 40 du 12/11/2026",
-      "url": "https://www.tradingsat.com/cac-40-FR0003500008/actualites/cac-40-malgre-le-seisme-du-depart-de-jensen-huang-chez-nvidia-et-trump-qui-affirme-ne-pas-avoir-besoin-d-un-accord-avec-l-iran-le-cac-40-termine-encore-en-hausse-1173691.html"
-    },
-    {
       "nom": "BCE – cours de référence EUR/USD",
       "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html"
-    },
-    {
-      "nom": "AP via KRMG – clôtures du 13/11/2026",
-      "url": "https://krmg.com/2026/11/13/how-major-us-stock-indexes-fared-friday-11-13-2026/"
-    },
-    {
-      "nom": "AP via La Nación – clôtures du 13/11/2026",
-      "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-11132026-nid13112026/"
-    },
-    {
-      "nom": "Trading Economics – CAC 40 (clôture du 13/11/2026)",
-      "url": "https://tradingeconomics.com/france/stock-market"
     },
     {
       "nom": "AP via La Nación – clôtures du 16/11/2026",
@@ -551,48 +515,24 @@
       "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
     },
     {
-      "nom": "Boursorama – historique CAC 40 (clôture du 23/11/2026)",
+      "nom": "Boursorama – historique CAC 40 (clôture du 25/11/2026)",
       "url": "https://www.boursorama.com/bourse/indices/cours/historique/1rPCAC"
     },
     {
-      "nom": "Trading Economics – CAC 40 (clôture du 23/11/2026)",
+      "nom": "Trading Economics – CAC 40 (clôture du 25/11/2026)",
       "url": "https://tradingeconomics.com/france/stock-market"
     },
     {
-      "nom": "AP via La Nación – clôtures du 23/11/2026",
-      "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-monday-11232026-nid23112026/"
+      "nom": "AP via La Nación – clôtures du 25/11/2026",
+      "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-wednesday-11252026-nid25112026/"
     },
     {
-      "nom": "Trading Economics – marché américain (23/11/2026)",
-      "url": "https://tradingeconomics.com/united-states/stock-market"
+      "nom": "Euro-rates.info – cours de référence BCE du 24/11/2026",
+      "url": "https://euro-rates.info/en/home/USD/2026-11-24"
     },
     {
-      "nom": "BCE – cours de référence du 23/11/2026",
+      "nom": "BCE – cours de référence du 25/11/2026",
       "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
-    },
-    {
-      "nom": "Trading Economics – Brent (23/11/2026)",
-      "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
-    },
-    {
-      "nom": "Trading Economics – CAC 40 (clôture du 24/11/2026)",
-      "url": "https://tradingeconomics.com/france/stock-market"
-    },
-    {
-      "nom": "Idéal Investisseur – dernière clôture CAC 40 du 24/11/2026",
-      "url": "https://www.ideal-investisseur.fr/bourse-cryptos/cac-40-lindustrie-tire-la-cote-pendant-que-sanofi-recule-nettement-33952.html"
-    },
-    {
-      "nom": "AP via La Nación – clôtures du 24/11/2026",
-      "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-tuesday-11242026-nid24112026/"
-    },
-    {
-      "nom": "Trading Economics – euro (24/11/2026)",
-      "url": "https://tradingeconomics.com/euro-area/currency"
-    },
-    {
-      "nom": "Trading Economics – Brent (24/11/2026)",
-      "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
     }
   ]
 }

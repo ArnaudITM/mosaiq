@@ -1,5 +1,5 @@
 {
- "maj": "25 novembre 2026",
+ "maj": "26 novembre 2026",
  "competitions": [
   {
    "id": "ligue-1",
@@ -348,63 +348,350 @@
   {
    "id": "ligue-des-champions",
    "nom": "Ligue des champions",
-   "journee": "5e journée (phase de ligue), suite et fin le mercredi 25 novembre",
+   "journee": "6e journée (phase de ligue, 8-9 décembre)",
    "matchs": [
     {
-     "date": "2026-11-25",
+     "date": "2026-12-08",
      "heure": "18:45",
-     "dom": "Sabah",
-     "ext": "Barça"
+     "dom": "Villarreal",
+     "ext": "Sabah"
     },
     {
-     "date": "2026-11-25",
+     "date": "2026-12-08",
      "heure": "18:45",
-     "dom": "Slavia Prague",
-     "ext": "Villarreal"
+     "dom": "Viking",
+     "ext": "Feyenoord"
     },
     {
-     "date": "2026-11-25",
+     "date": "2026-12-08",
      "heure": "21:00",
-     "dom": "Atlético",
-     "ext": "Viking"
+     "dom": "Naples",
+     "ext": "Club Bruges"
     },
     {
-     "date": "2026-11-25",
+     "date": "2026-12-08",
      "heure": "21:00",
-     "dom": "Club Bruges",
-     "ext": "Liverpool"
+     "dom": "Man United",
+     "ext": "Leipzig"
     },
     {
-     "date": "2026-11-25",
+     "date": "2026-12-08",
      "heure": "21:00",
-     "dom": "Inter",
-     "ext": "Stuttgart"
+     "dom": "Aston Villa",
+     "ext": "PSG"
     },
     {
-     "date": "2026-11-25",
+     "date": "2026-12-08",
      "heure": "21:00",
-     "dom": "Shakhtar Donetsk",
+     "dom": "Roma",
+     "ext": "Sporting CP"
+    },
+    {
+     "date": "2026-12-08",
+     "heure": "21:00",
+     "dom": "AEK Athènes",
+     "ext": "Galatasaray"
+    },
+    {
+     "date": "2026-12-08",
+     "heure": "21:00",
+     "dom": "Bayern",
+     "ext": "Slavia Prague"
+    },
+    {
+     "date": "2026-12-08",
+     "heure": "21:00",
+     "dom": "Barça",
+     "ext": "Man City"
+    },
+    {
+     "date": "2026-12-09",
+     "heure": "18:45",
+     "dom": "Betis",
+     "ext": "Côme"
+    },
+    {
+     "date": "2026-12-09",
+     "heure": "18:45",
+     "dom": "Slovan Bratislava",
+     "ext": "Shakhtar Donetsk"
+    },
+    {
+     "date": "2026-12-09",
+     "heure": "21:00",
+     "dom": "Arsenal",
+     "ext": "Real Madrid"
+    },
+    {
+     "date": "2026-12-09",
+     "heure": "21:00",
+     "dom": "Dortmund",
+     "ext": "Inter"
+    },
+    {
+     "date": "2026-12-09",
+     "heure": "21:00",
+     "dom": "LASK",
      "ext": "Fenerbahçe"
     },
     {
-     "date": "2026-11-25",
+     "date": "2026-12-09",
      "heure": "21:00",
-     "dom": "Lille",
-     "ext": "Bayern"
+     "dom": "Liverpool",
+     "ext": "Porto"
     },
     {
-     "date": "2026-11-25",
+     "date": "2026-12-09",
      "heure": "21:00",
-     "dom": "PSG",
-     "ext": "Roma"
+     "dom": "PSV",
+     "ext": "Atlético"
     },
     {
-     "date": "2026-11-25",
+     "date": "2026-12-09",
      "heure": "21:00",
-     "dom": "Sporting CP",
-     "ext": "Man United"
+     "dom": "Lens",
+     "ext": "Bodø/Glimt"
+    },
+    {
+     "date": "2026-12-09",
+     "heure": "21:00",
+     "dom": "Stuttgart",
+     "ext": "Lille"
     }
-   ]
+   ],
+   "note": "Programme et horaires (heure de Paris) relevés sur Maxifoot."
+  },
+  {
+   "id": "ligue-europa",
+   "nom": "Ligue Europa",
+   "journee": "5e journée (phase de ligue, jeudi 26 novembre)",
+   "matchs": [
+    {
+     "date": "2026-11-26",
+     "heure": "18:45",
+     "dom": "Beşiktaş",
+     "ext": "Hapoel Beer Sheva"
+    },
+    {
+     "date": "2026-11-26",
+     "heure": "18:45",
+     "dom": "Celta Vigo",
+     "ext": "Bournemouth"
+    },
+    {
+     "date": "2026-11-26",
+     "heure": "18:45",
+     "dom": "Plzeň",
+     "ext": "Benfica"
+    },
+    {
+     "date": "2026-11-26",
+     "heure": "18:45",
+     "dom": "Dinamo Zagreb",
+     "ext": "Leverkusen"
+    },
+    {
+     "date": "2026-11-26",
+     "heure": "18:45",
+     "dom": "Olympiakos",
+     "ext": "Milan"
+    },
+    {
+     "date": "2026-11-26",
+     "heure": "18:45",
+     "dom": "OM",
+     "ext": "Levski Sofia"
+    },
+    {
+     "date": "2026-11-26",
+     "heure": "18:45",
+     "dom": "Salzbourg",
+     "ext": "Ararat-Armenia"
+    },
+    {
+     "date": "2026-11-26",
+     "heure": "18:45",
+     "dom": "Union Saint-Gilloise",
+     "ext": "Lech Poznań"
+    },
+    {
+     "date": "2026-11-26",
+     "heure": "21:00",
+     "dom": "Sparta Prague",
+     "ext": "AZ Alkmaar"
+    },
+    {
+     "date": "2026-11-26",
+     "heure": "21:00",
+     "dom": "Crystal Palace",
+     "ext": "Real Sociedad"
+    },
+    {
+     "date": "2026-11-26",
+     "heure": "21:00",
+     "dom": "Ferencváros",
+     "ext": "Celje"
+    },
+    {
+     "date": "2026-11-26",
+     "heure": "21:00",
+     "dom": "Juventus",
+     "ext": "Omonia Nicosie"
+    },
+    {
+     "date": "2026-11-26",
+     "heure": "21:00",
+     "dom": "NEC Nimègue",
+     "ext": "Rennes"
+    },
+    {
+     "date": "2026-11-26",
+     "heure": "21:00",
+     "dom": "OFI Crète",
+     "ext": "Anderlecht"
+    },
+    {
+     "date": "2026-11-26",
+     "heure": "21:00",
+     "dom": "OL",
+     "ext": "Lillestrøm"
+    },
+    {
+     "date": "2026-11-26",
+     "heure": "21:00",
+     "dom": "Sunderland",
+     "ext": "Jagiellonia Białystok"
+    },
+    {
+     "date": "2026-11-26",
+     "heure": "21:00",
+     "dom": "Hoffenheim",
+     "ext": "Sturm Graz"
+    },
+    {
+     "date": "2026-11-26",
+     "heure": "21:00",
+     "dom": "Torreense",
+     "ext": "Celtic"
+    }
+   ],
+   "note": "Programme et horaires (heure de Paris) relevés sur Maxifoot ; 6e journée le jeudi 10 décembre."
+  },
+  {
+   "id": "ligue-conference",
+   "nom": "Ligue Conférence",
+   "journee": "4e journée (phase de ligue, jeudi 26 novembre)",
+   "matchs": [
+    {
+     "date": "2026-11-26",
+     "heure": "16:30",
+     "dom": "Kairat Almaty",
+     "ext": "Mjällby"
+    },
+    {
+     "date": "2026-11-26",
+     "heure": "18:45",
+     "dom": "Ajax",
+     "ext": "Thoune"
+    },
+    {
+     "date": "2026-11-26",
+     "heure": "18:45",
+     "dom": "Brighton",
+     "ext": "Universitatea Craiova"
+    },
+    {
+     "date": "2026-11-26",
+     "heure": "18:45",
+     "dom": "Saburtalo",
+     "ext": "Getafe"
+    },
+    {
+     "date": "2026-11-26",
+     "heure": "18:45",
+     "dom": "Jablonec",
+     "ext": "Lugano"
+    },
+    {
+     "date": "2026-11-26",
+     "heure": "18:45",
+     "dom": "Kauno Žalgiris",
+     "ext": "Riga"
+    },
+    {
+     "date": "2026-11-26",
+     "heure": "18:45",
+     "dom": "Hearts",
+     "ext": "Monaco"
+    },
+    {
+     "date": "2026-11-26",
+     "heure": "18:45",
+     "dom": "Egnatia",
+     "ext": "Lincoln Red Imps"
+    },
+    {
+     "date": "2026-11-26",
+     "heure": "18:45",
+     "dom": "Pafos",
+     "ext": "Midtjylland"
+    },
+    {
+     "date": "2026-11-26",
+     "heure": "18:45",
+     "dom": "Brann Bergen",
+     "ext": "AGF Aarhus"
+    },
+    {
+     "date": "2026-11-26",
+     "heure": "21:00",
+     "dom": "CSKA Sofia",
+     "ext": "Trabzonspor"
+    },
+    {
+     "date": "2026-11-26",
+     "heure": "21:00",
+     "dom": "Nordsjælland",
+     "ext": "Panathinaïkos"
+    },
+    {
+     "date": "2026-11-26",
+     "heure": "21:00",
+     "dom": "Borac Banja Luka",
+     "ext": "Atalanta"
+    },
+    {
+     "date": "2026-11-26",
+     "heure": "21:00",
+     "dom": "Hajduk Split",
+     "ext": "Saint-Trond"
+    },
+    {
+     "date": "2026-11-26",
+     "heure": "21:00",
+     "dom": "Escaldes",
+     "ext": "Copenhague"
+    },
+    {
+     "date": "2026-11-26",
+     "heure": "21:00",
+     "dom": "La Gantoise",
+     "ext": "Étoile rouge de Belgrade"
+    },
+    {
+     "date": "2026-11-26",
+     "heure": "21:00",
+     "dom": "Fribourg",
+     "ext": "Twente"
+    },
+    {
+     "date": "2026-11-26",
+     "heure": "21:00",
+     "dom": "Braga",
+     "ext": "Kuopio PS"
+    }
+   ],
+   "note": "Programme et horaires (heure de Paris) relevés sur Maxifoot ; 5e journée le jeudi 10 décembre."
   },
   {
    "id": "selections",
@@ -472,8 +759,16 @@
    "url": "https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-rcd-espanyol-de-barcelona-getafe-cf-14"
   },
   {
-   "nom": "Maxifoot – Ligue des champions 2026-27, 5e journée (programme)",
-   "url": "https://m.maxifoot.fr/resultat-ligue-des-champions-phase-groupe-journee-5.htm"
+   "nom": "Maxifoot – Ligue des champions 2026-27, 6e journée (programme)",
+   "url": "https://m.maxifoot.fr/resultat-ligue-des-champions-phase-groupe-journee-6.htm"
+  },
+  {
+   "nom": "Maxifoot – Ligue Europa 2026-27, 5e journée (programme)",
+   "url": "https://m.maxifoot.fr/resultat-ligue-europa-phase-groupe-journee-5.htm"
+  },
+  {
+   "nom": "Maxifoot – Ligue Conférence 2026-27, 4e journée (programme)",
+   "url": "https://m.maxifoot.fr/resultat-ligue-conference-phase-groupe-journee-4.htm"
   }
  ]
 }

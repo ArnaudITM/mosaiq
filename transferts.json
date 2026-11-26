@@ -1,5 +1,5 @@
 {
- "maj": "25 novembre 2026",
+ "maj": "26 novembre 2026",
  "fenetre": "Mercato d'hiver : ouverture le 1er janvier 2027 (dates selon les pays)",
  "dates_fenetre": [
   {
@@ -33,6 +33,90 @@
  ],
  "items": [
   {
+   "joueur": "Gianluca Prestianni",
+   "de": "Benfica",
+   "vers": "PSG",
+   "championnat": "ligue-1",
+   "type": "transfert",
+   "statut": "rumeur",
+   "texte": "Selon le quotidien portugais Record, cité par Foot Mercato mardi 24 novembre, l'ailier argentin de 20 ans, cité parmi les pistes du PSG pour pallier les blessures de Désiré Doué et Khvicha Kvaratskhelia, ne compte pas quitter Benfica en janvier ; le club lisboète préparerait une prolongation jusqu'en 2031.",
+   "source": {
+    "nom": "Foot Mercato (d'après Record)",
+    "url": "https://www.footmercato.net/a4971219192308395300-psg-un-premier-candidat-dit-non-pour-remplacer-desire-doue"
+   },
+   "date": "2026-11-24"
+  },
+  {
+   "joueur": "Vinícius Júnior",
+   "de": "Real Madrid",
+   "vers": "PSG",
+   "championnat": "liga",
+   "type": "transfert",
+   "statut": "rumeur",
+   "texte": "Selon Fabrizio Romano, s'exprimant sur DAZN et cité par Foot Mercato mardi 24 novembre, le PSG ne poursuivra pas l'ailier du Real Madrid cet hiver, le club préférant cibler un profil plus jeune : « Il n'y aura rien entre Vini et le PSG cet hiver », a-t-il déclaré.",
+   "source": {
+    "nom": "Foot Mercato (d'après Fabrizio Romano / DAZN)",
+    "url": "https://www.footmercato.net/a7712844520408435597-le-psg-a-pris-sa-decision-avec-vinicius-jr"
+   },
+   "date": "2026-11-24"
+  },
+  {
+   "joueur": "Nico Williams",
+   "de": "Athletic Bilbao",
+   "vers": "PSG",
+   "championnat": "liga",
+   "type": "transfert",
+   "statut": "rumeur",
+   "texte": "Associé au PSG dans la presse avec Ibrahim Maza, l'ailier espagnol ne fait pas l'objet d'une démarche confirmée : Luis Enrique a relativisé mardi 24 novembre le besoin de recruter en janvier, déclarant selon Foot Mercato : « On n'a pas l'obligation d'aller au mercato. On ne va pas signer un joueur pour 6 mois, ce n'est pas notre style. »",
+   "source": {
+    "nom": "Foot Mercato",
+    "url": "https://www.footmercato.net/a679448654980328046-psg-luis-enrique-leve-le-voile-sur-le-plan-prevu-au-mercato-dhiver"
+   },
+   "date": "2026-11-24"
+  },
+  {
+   "joueur": "Alejandro Balde",
+   "de": "Barcelone",
+   "vers": "",
+   "championnat": "liga",
+   "type": "transfert",
+   "statut": "rumeur",
+   "texte": "Selon le quotidien SPORT, cité par Foot Mercato mardi 24 novembre, le latéral gauche envisagerait un départ ; Deco a indiqué que le Barça ne le vendrait que s'il le demandait. Une vente pourrait financer l'arrivée d'un défenseur central, piste sur laquelle aucune décision n'a été prise, le club pouvant connaître un mercato d'hiver plus calme que prévu.",
+   "source": {
+    "nom": "Foot Mercato (d'après SPORT)",
+    "url": "https://www.footmercato.net/a8396506292923497317-le-fc-barcelone-a-totalement-change-davis-pour-le-mercato-dhiver"
+   },
+   "date": "2026-11-24"
+  },
+  {
+   "joueur": "Endrick",
+   "de": "Real Madrid",
+   "vers": "Milan",
+   "championnat": "liga",
+   "type": "transfert",
+   "statut": "rumeur",
+   "texte": "Selon la radio espagnole Cadena SER, citée par Foot Mercato lundi 23 novembre, l'AC Milan aurait formulé une offre de 70 millions d'euros pour l'attaquant brésilien, en vue du mercato d'hiver ; la nature exacte de l'opération n'est pas précisée. Aucune décision du Real Madrid n'est connue.",
+   "source": {
+    "nom": "Foot Mercato (d'après Cadena SER)",
+    "url": "https://www.footmercato.net/a6512798716200884980-le-real-madrid-vient-de-recevoir-une-offre-dingue-pour-endrick"
+   },
+   "date": "2026-11-23"
+  },
+  {
+   "joueur": "Nicolò Tresoldi",
+   "de": "Club Bruges",
+   "vers": "Bayern",
+   "championnat": "bundesliga",
+   "type": "transfert",
+   "statut": "rumeur",
+   "texte": "Après la blessure de Harry Kane (syndesmose de la cheville gauche, absent « les prochains mois » selon le Bayern), le club bavarois étudierait sept noms pour le remplacer, dont Nicolò Tresoldi, Ricardo Pepi (PSV), Igor Thiago (Brentford) et Folarin Balogun (Monaco), selon Bild, La Gazzetta dello Sport et Sky Sport Germany, cités par Foot Mercato le 23 novembre.",
+   "source": {
+    "nom": "Foot Mercato (d'après Bild, La Gazzetta dello Sport, Sky Sport Germany)",
+    "url": "https://www.footmercato.net/a8576578705269758783-le-bayern-munich-a-une-shortlist-de-7-noms-pour-remplacer-harry-kane"
+   },
+   "date": "2026-11-23"
+  },
+  {
    "joueur": "Nathan Collins",
    "de": "Brentford",
    "vers": "Man United",
@@ -57,20 +141,6 @@
    "source": {
     "nom": "Sky Sports (d'après The Telegraph)",
     "url": "https://www.skysports.com/football/news/13615837/man-utd-transfer-news-brentford-defender-nathan-collins-emerges-as-january-target-paper-talk"
-   },
-   "date": "2026-11-23"
-  },
-  {
-   "joueur": "Endrick",
-   "de": "Real Madrid",
-   "vers": "Milan",
-   "championnat": "liga",
-   "type": "prêt",
-   "statut": "rumeur",
-   "texte": "Selon Fabrizio Romano, cité par TEAMtalk lundi 23 novembre, l'AC Milan reste très intéressé par l'attaquant brésilien de 20 ans (8 matchs, une titularisation cette saison), tout comme la Roma, tandis que Liverpool et Aston Villa se sont faits discrets. José Mourinho souhaiterait le conserver ; une éventuelle sortie dépendrait de son temps de jeu après décembre. Rien n'est conclu.",
-   "source": {
-    "nom": "TEAMtalk (d'après Fabrizio Romano)",
-    "url": "https://www.teamtalk.com/news/romano-delivers-major-update-liverpool-aston-villa-january-interest-endrick"
    },
    "date": "2026-11-23"
   },
@@ -115,120 +185,6 @@
     "url": "https://news.maxifoot.fr/psg/deux-pistes-ecartees-pour-janvier-foot-468174.htm"
    },
    "date": "2026-11-22"
-  },
-  {
-   "joueur": "Wissam Ben Yedder",
-   "de": "Libre (ex-Wydad Casablanca)",
-   "vers": "Paris 13 Atlético",
-   "championnat": "ligue-3",
-   "type": "transfert",
-   "statut": "officiel",
-   "texte": "L'attaquant de 36 ans, libre depuis son passage au Wydad Casablanca, s'est engagé jusqu'à la fin de la saison avec Paris 13 Atlético (Ligue 3), selon l'annonce du club rapportée par Maxifoot dans son journal des transferts du samedi 21 novembre.",
-   "source": {
-    "nom": "Maxifoot",
-    "url": "https://www.maxifoot.fr/football/article-66630.htm"
-   },
-   "date": "2026-11-21"
-  },
-  {
-   "joueur": "Thibaut Courtois",
-   "de": "Real Madrid",
-   "vers": "Real Madrid",
-   "championnat": "liga",
-   "type": "prolongation",
-   "statut": "officiel",
-   "texte": "Le Real Madrid a annoncé vendredi 20 novembre, par un communiqué officiel, la prolongation du gardien belge de 34 ans jusqu'en juin 2028, rapporte Maxifoot.",
-   "source": {
-    "nom": "Maxifoot",
-    "url": "https://news.maxifoot.fr/real/courtois-a-bien-prolonge-off-foot-468006.htm"
-   },
-   "date": "2026-11-20"
-  },
-  {
-   "joueur": "Xavi Espart",
-   "de": "Barça",
-   "vers": "Barça",
-   "championnat": "liga",
-   "type": "prolongation",
-   "statut": "officiel",
-   "texte": "Le FC Barcelone a officialisé vendredi 20 novembre la prolongation du latéral droit de 19 ans jusqu'en juin 2030, selon Maxifoot ; il compte 8 matchs et 1 but en Liga cette saison.",
-   "source": {
-    "nom": "Maxifoot",
-    "url": "https://news.maxifoot.fr/barca/espart-a-prolonge-officiel-foot-468016.htm"
-   },
-   "date": "2026-11-20"
-  },
-  {
-   "joueur": "Abdelhamid Aït Boudlal",
-   "de": "Rennes",
-   "vers": "Rennes",
-   "championnat": "ligue-1",
-   "type": "prolongation",
-   "statut": "avancé",
-   "texte": "Selon L'Équipe, cité par Maxifoot, le défenseur central de 20 ans a trouvé un accord avec le Stade Rennais pour prolonger jusqu'en juin 2030 ; la signature serait imminente.",
-   "source": {
-    "nom": "Maxifoot (d'après L'Équipe)",
-    "url": "https://news.maxifoot.fr/rennes/ait-boudlal-va-bien-prolonger-foot-468000.htm"
-   },
-   "date": "2026-11-20"
-  },
-  {
-   "joueur": "Federico Valverde",
-   "de": "Real Madrid",
-   "vers": "Real Madrid",
-   "championnat": "liga",
-   "type": "prolongation",
-   "statut": "avancé",
-   "texte": "Selon AS, cité par Maxifoot, le milieu uruguayen de 28 ans aurait un accord total avec le Real Madrid pour prolonger jusqu'en juin 2031 ; son contrat actuel court jusqu'en juin 2029. Aucune annonce officielle à ce stade.",
-   "source": {
-    "nom": "Maxifoot (d'après AS)",
-    "url": "https://news.maxifoot.fr/real/valverde-bientot-blinde-foot-467985.htm"
-   },
-   "date": "2026-11-20"
-  },
-  {
-   "joueur": "Nico Paz",
-   "de": "Côme",
-   "vers": "Real Madrid",
-   "championnat": "serie-a",
-   "type": "transfert",
-   "statut": "rumeur",
-   "montant": "option de rachat estimée à 80 M€ (selon Maxifoot)",
-   "texte": "Selon la Cadena COPE, citée par Maxifoot, le Real Madrid veut faire revenir l'été prochain le milieu argentin de 22 ans (10 matchs, 3 buts en Serie A), dont Côme a acheté 50 % des droits l'été dernier ; le joueur pourrait demander des garanties de temps de jeu.",
-   "source": {
-    "nom": "Maxifoot (d'après la Cadena COPE)",
-    "url": "https://news.maxifoot.fr/come/le-real-a-tranche-pour-paz-foot-467986.htm"
-   },
-   "date": "2026-11-20"
-  },
-  {
-   "joueur": "Pierre-Emile Højbjerg",
-   "de": "OM",
-   "vers": "Juventus",
-   "championnat": "ligue-1",
-   "type": "prêt",
-   "statut": "rumeur",
-   "montant": "environ 15 M€ (option ou obligation d'achat, selon La Gazzetta dello Sport)",
-   "texte": "Selon La Gazzetta dello Sport, citée par Maxifoot vendredi 20 novembre, la Juventus envisage pour janvier un prêt du milieu danois de 31 ans avec option ou obligation d'achat conditionnelle. Bruno Genesio souhaite le garder au moins jusqu'à la fin de la saison et l'accord de l'OM n'est pas acquis.",
-   "source": {
-    "nom": "Maxifoot (d'après La Gazzetta dello Sport)",
-    "url": "https://news.maxifoot.fr/juve/la-formule-envisagee-pour-hojbjerg-foot-468005.htm"
-   },
-   "date": "2026-11-20"
-  },
-  {
-   "joueur": "Aurélien Tchouaméni",
-   "de": "Real Madrid",
-   "vers": "Real Madrid",
-   "championnat": "liga",
-   "type": "prolongation",
-   "statut": "officiel",
-   "texte": "Le Real Madrid a annoncé jeudi 19 novembre, par communiqué, la prolongation du milieu français de 26 ans jusqu'en 2032, rapporte Maxifoot ; son précédent contrat courait jusqu'en juin 2028.",
-   "source": {
-    "nom": "Maxifoot",
-    "url": "https://news.maxifoot.fr/real/tchouameni-a-prolonge-officiel-foot-467959.htm"
-   },
-   "date": "2026-11-19"
   }
  ]
 }

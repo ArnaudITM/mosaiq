@@ -1,15 +1,15 @@
 {
-  "maj": "au 25 novembre 2026, 5h30 (heure de Paris) – bilans selon le classement Sportradar consulté à 5h20, recoupés avec les scores de la nuit du 24 au 25 (Pistons-Magic 104-86, Celtics-Wizards 131-116, selon ESPN, NBA.com et NBC Washington) et les trois matchs de la nuit précédente non comptés hier (Rockets-Clippers 116-104, Lakers-Jazz 109-94, Spurs-Kings 123-107, selon Land of Basketball). Mavericks-Nuggets (4h) était en cours à la rédaction (58-39 pour Dallas à la mi-temps) : non compté, Dallas et Denver restent à leur bilan d'avant-match. Égalités (Spurs-Lakers ; Timberwolves-Rockets-Grizzlies ; Hawks-Knicks-Pistons) non départagées. Leaders selon Basketball-Reference (page révisée le 22 novembre, non revérifiés). Moyennes des Français relevées le 19 novembre (Land of Basketball), sauf Wembanyama (23 novembre). Pas de match NBA le soir de Thanksgiving (jeudi 26) ; programme de la nuit du 27 au 28 partiel. Heure de Paris = heure de l'Est + 6 h.",
+  "maj": "au 26 novembre 2026, 5h45 (heure de Paris) – bilans selon le classement Sportradar consulté à 5h40, recoupés avec les scores de la nuit du 25 au 26 (76ers-Heat 111-104, Bulls-Hornets 107-105, Knicks-Cavaliers 121-102, Timberwolves-Thunder 113-106, Grizzlies-Clippers 115-97, Nets-Bucks 104-97, Rockets-Suns 116-104, selon ESPN, Local 10, VAVEL, NerdSports et Parlae) et Mavericks-Nuggets (120-101) de la nuit précédente, selon Land of Basketball. Trail Blazers-Spurs (60-57 pour Portland) et Warriors-Kings (72-53 pour Golden State) étaient à la mi-temps à la rédaction, selon Sportradar : non comptés, les quatre équipes restent à leur bilan d'avant-match. Égalités (Spurs-Lakers ; Timberwolves-Rockets-Grizzlies ; Celtics-Knicks ; Hawks-Pistons ; Suns-Warriors ; Pacers-Bulls ; Hornets-Nets) non départagées. Leaders selon Basketball-Reference (page révisée le 22 novembre, non revérifiés). Moyennes des Français relevées le 19 novembre (Land of Basketball), sauf Wembanyama (23 novembre), non actualisées. Pas de match NBA le soir de Thanksgiving (jeudi 26) ; programme du vendredi 27 (nuit du 27 au 28) et du samedi 28 selon Sportradar. Heure de Paris = heure de l'Est + 6 h.",
   "est": [
     {
       "pos": 1,
       "equipe": "76ers",
       "ville": "Philadelphie",
-      "v": 14,
+      "v": 15,
       "d": 4,
-      "pct": ".778",
+      "pct": ".789",
       "ecart": "-",
-      "serie": "D1"
+      "serie": "V1"
     },
     {
       "pos": 2,
@@ -18,28 +18,28 @@
       "v": 12,
       "d": 6,
       "pct": ".667",
-      "ecart": "2",
+      "ecart": "2.5",
       "serie": "V1"
     },
     {
       "pos": 3,
+      "equipe": "Knicks",
+      "ville": "New York",
+      "v": 12,
+      "d": 6,
+      "pct": ".667",
+      "ecart": "2.5",
+      "serie": "V6"
+    },
+    {
+      "pos": 4,
       "equipe": "Hawks",
       "ville": "Atlanta",
       "v": 11,
       "d": 6,
       "pct": ".647",
-      "ecart": "2.5",
+      "ecart": "3",
       "serie": "V4"
-    },
-    {
-      "pos": 4,
-      "equipe": "Knicks",
-      "ville": "New York",
-      "v": 11,
-      "d": 6,
-      "pct": ".647",
-      "ecart": "2.5",
-      "serie": "V5"
     },
     {
       "pos": 5,
@@ -48,7 +48,7 @@
       "v": 11,
       "d": 6,
       "pct": ".647",
-      "ecart": "2.5",
+      "ecart": "3",
       "serie": "V1"
     },
     {
@@ -56,20 +56,20 @@
       "equipe": "Heat",
       "ville": "Miami",
       "v": 10,
-      "d": 6,
-      "pct": ".625",
-      "ecart": "3",
-      "serie": "V7"
+      "d": 7,
+      "pct": ".588",
+      "ecart": "4",
+      "serie": "D1"
     },
     {
       "pos": 7,
       "equipe": "Cavaliers",
       "ville": "Cleveland",
       "v": 9,
-      "d": 9,
-      "pct": ".500",
-      "ecart": "5",
-      "serie": "D1"
+      "d": 10,
+      "pct": ".474",
+      "ecart": "6",
+      "serie": "D2"
     },
     {
       "pos": 8,
@@ -78,7 +78,7 @@
       "v": 7,
       "d": 10,
       "pct": ".412",
-      "ecart": "6.5",
+      "ecart": "7",
       "serie": "D2"
     },
     {
@@ -88,7 +88,7 @@
       "v": 7,
       "d": 12,
       "pct": ".368",
-      "ecart": "7.5",
+      "ecart": "8",
       "serie": "D1"
     },
     {
@@ -98,7 +98,7 @@
       "v": 6,
       "d": 11,
       "pct": ".353",
-      "ecart": "7.5",
+      "ecart": "8",
       "serie": "D1"
     },
     {
@@ -108,48 +108,48 @@
       "v": 6,
       "d": 12,
       "pct": ".333",
-      "ecart": "8",
+      "ecart": "8.5",
       "serie": "V1"
     },
     {
       "pos": 12,
       "equipe": "Bulls",
       "ville": "Chicago",
-      "v": 5,
+      "v": 6,
       "d": 12,
-      "pct": ".294",
+      "pct": ".333",
       "ecart": "8.5",
-      "serie": "V1"
+      "serie": "V2"
     },
     {
       "pos": 13,
       "equipe": "Hornets",
       "ville": "Charlotte",
       "v": 4,
-      "d": 12,
-      "pct": ".250",
-      "ecart": "9",
-      "serie": "D5"
+      "d": 13,
+      "pct": ".235",
+      "ecart": "10",
+      "serie": "D6"
     },
     {
       "pos": 14,
       "equipe": "Nets",
       "ville": "Brooklyn",
-      "v": 3,
+      "v": 4,
       "d": 13,
-      "pct": ".188",
+      "pct": ".235",
       "ecart": "10",
-      "serie": "D5"
+      "serie": "V1"
     },
     {
       "pos": 15,
       "equipe": "Bucks",
       "ville": "Milwaukee",
       "v": 2,
-      "d": 16,
-      "pct": ".111",
-      "ecart": "12",
-      "serie": "V1"
+      "d": 17,
+      "pct": ".105",
+      "ecart": "13",
+      "serie": "D1"
     }
   ],
   "ouest": [
@@ -177,44 +177,34 @@
       "pos": 3,
       "equipe": "Timberwolves",
       "ville": "Minnesota",
-      "v": 13,
+      "v": 14,
       "d": 5,
-      "pct": ".722",
-      "ecart": "2",
-      "serie": "V2"
+      "pct": ".737",
+      "ecart": "1.5",
+      "serie": "V3"
     },
     {
       "pos": 4,
       "equipe": "Rockets",
       "ville": "Houston",
-      "v": 13,
+      "v": 14,
       "d": 5,
-      "pct": ".722",
-      "ecart": "2",
-      "serie": "V1"
+      "pct": ".737",
+      "ecart": "1.5",
+      "serie": "V2"
     },
     {
       "pos": 5,
       "equipe": "Grizzlies",
       "ville": "Memphis",
-      "v": 13,
+      "v": 14,
       "d": 5,
-      "pct": ".722",
-      "ecart": "2",
-      "serie": "V1"
+      "pct": ".737",
+      "ecart": "1.5",
+      "serie": "V2"
     },
     {
       "pos": 6,
-      "equipe": "Nuggets",
-      "ville": "Denver",
-      "v": 10,
-      "d": 5,
-      "pct": ".667",
-      "ecart": "3.5",
-      "serie": "V3"
-    },
-    {
-      "pos": 7,
       "equipe": "Trail Blazers",
       "ville": "Portland",
       "v": 11,
@@ -224,37 +214,37 @@
       "serie": "V1"
     },
     {
+      "pos": 7,
+      "equipe": "Nuggets",
+      "ville": "Denver",
+      "v": 10,
+      "d": 6,
+      "pct": ".625",
+      "ecart": "4",
+      "serie": "D1"
+    },
+    {
       "pos": 8,
       "equipe": "Mavericks",
       "ville": "Dallas",
-      "v": 10,
+      "v": 11,
       "d": 7,
-      "pct": ".588",
-      "ecart": "4.5",
-      "serie": "V3"
+      "pct": ".611",
+      "ecart": "4",
+      "serie": "V4"
     },
     {
       "pos": 9,
       "equipe": "Suns",
       "ville": "Phoenix",
       "v": 9,
-      "d": 7,
-      "pct": ".562",
-      "ecart": "5",
-      "serie": "V4"
+      "d": 8,
+      "pct": ".529",
+      "ecart": "5.5",
+      "serie": "D1"
     },
     {
       "pos": 10,
-      "equipe": "Thunder",
-      "ville": "Oklahoma City",
-      "v": 10,
-      "d": 8,
-      "pct": ".556",
-      "ecart": "5",
-      "serie": "D2"
-    },
-    {
-      "pos": 11,
       "equipe": "Warriors",
       "ville": "Golden State",
       "v": 9,
@@ -262,6 +252,16 @@
       "pct": ".529",
       "ecart": "5.5",
       "serie": "V1"
+    },
+    {
+      "pos": 11,
+      "equipe": "Thunder",
+      "ville": "Oklahoma City",
+      "v": 10,
+      "d": 9,
+      "pct": ".526",
+      "ecart": "5.5",
+      "serie": "D3"
     },
     {
       "pos": 12,
@@ -278,10 +278,10 @@
       "equipe": "Clippers",
       "ville": "Los Angeles",
       "v": 4,
-      "d": 12,
-      "pct": ".250",
-      "ecart": "10",
-      "serie": "D4"
+      "d": 13,
+      "pct": ".235",
+      "ecart": "10.5",
+      "serie": "D5"
     },
     {
       "pos": 14,
@@ -407,52 +407,108 @@
       "joueur": "Victor Wembanyama",
       "equipe": "Spurs",
       "stats": "29,9 pts, 12,3 rbd, 3,9 contres (17 matchs)",
-      "texte": "Forfait à Sacramento dans la nuit de lundi à mardi (tensions dans le bas du dos), comme De'Aaron Fox, selon KSAT ; les Spurs se sont tout de même imposés 123-107, avec 28 points, 8 rebonds et 11 passes de Stephon Castle, selon Land of Basketball. San Antonio (15-3) partage la tête de l'Ouest avec les Lakers. ESPN donnait le 25 novembre comme date de retour estimée ; les Spurs jouent à Portland dans la nuit de mercredi à jeudi (4h)."
+      "texte": "De retour après sa blessure au bas du dos, il comptait 19 points, 6 rebonds et 2 contres à la mi-temps à Portland (Spurs menés 57-60) dans la nuit de mercredi à jeudi, selon les statistiques provisoires de Sportradar ; résultat final non connu à la rédaction. San Antonio (15-3) partage la tête de l'Ouest avec les Lakers, qu'il reçoit dans la nuit de vendredi à samedi (3h30)."
     },
     {
       "joueur": "Rudy Gobert",
       "equipe": "Timberwolves",
       "stats": "7,6 pts, 11,1 rbd, 1,0 contre (14 matchs)",
-      "texte": "Minnesota a battu Brooklyn 142-116 dans la nuit de lundi à mardi, selon ESPN ; Gobert a réussi 4 interceptions, selon Land of Basketball. Les Timberwolves (13-5) jouent à Oklahoma City dans la nuit de mercredi à jeudi (1h30). Il est 5e rebondeur de la ligue (10,9) selon Basketball-Reference."
+      "texte": "Minnesota a gagné 113-106 à Oklahoma City en NBA Cup dans la nuit de mercredi à jeudi, selon VAVEL ; Gobert a compté 9 points et 7 rebonds (4 sur 6 au tir), selon la feuille de match Sportradar. Les Timberwolves (14-5) reçoivent Memphis dans la nuit de vendredi à samedi (2h30)."
     },
     {
       "joueur": "Nolan Traoré",
       "equipe": "Nets",
       "stats": "13,6 pts, 1,8 rbd, 2,7 pd (12 matchs)",
-      "texte": "Absent face à Minnesota (défaite 116-142) : ESPN l'inscrit forfait (ischio-jambiers) avec un retour estimé au 27 janvier. Brooklyn (3-13) enchaîne cinq défaites et joue à Milwaukee dans la nuit de mercredi à jeudi."
+      "texte": "Forfait (ischio-jambiers, retour estimé au 27 janvier selon ESPN). Brooklyn a battu Milwaukee 104-97 dans la nuit de mercredi à jeudi, selon Parlae, mettant fin à cinq défaites de suite ; les Nets (4-13) jouent à Toronto dans la nuit de vendredi à samedi."
     },
     {
       "joueur": "Alex Sarr",
       "equipe": "Wizards",
       "stats": "11,2 pts, 7,4 rbd, 0,9 contre (12 matchs)",
-      "texte": "Washington a perdu 116-131 contre Boston en NBA Cup dans la nuit de mardi à mercredi, selon NBC Washington, malgré 33 points et 13 rebonds d'Anthony Davis ; la série de trois victoires des Wizards (7-12) s'arrête. Statistique individuelle de Sarr non relevée."
+      "texte": "Pas de match depuis la défaite 116-131 contre Boston de mardi, selon NBC Washington. Les Wizards (7-12) reçoivent Orlando samedi 28 novembre à 23h (heure de Paris) en NBA Cup."
     },
     {
       "joueur": "Sidy Cissoko",
       "equipe": "Trail Blazers",
       "stats": "7,5 pts, 3,7 rbd, 1,9 pd (14 matchs)",
-      "texte": "Portland a gagné 128-111 à Philadelphie dans la nuit de lundi à mardi, selon NBA.com et VAVEL, mettant fin à une série de cinq victoires des 76ers ; Cissoko est entré en jeu au premier quart-temps. Les Trail Blazers (11-6) reçoivent San Antonio dans la nuit de mercredi à jeudi (4h)."
+      "texte": "Portland menait San Antonio 60-57 à la mi-temps dans la nuit de mercredi à jeudi ; Cissoko comptait 5 points à la pause, selon les statistiques provisoires de Sportradar. Résultat final non connu à la rédaction. Les Trail Blazers (11-6) reçoivent Golden State dans la nuit de vendredi à samedi (3h30)."
     },
     {
       "joueur": "Bilal Coulibaly",
       "equipe": "Wizards",
       "stats": "7,2 pts, 4,1 rbd, 1,1 int (14 matchs)",
-      "texte": "Washington (7-12) a été battu 116-131 par Boston, porté par les 41 points de Jayson Tatum, dans la nuit de mardi à mercredi, selon NBC Washington. Statistique individuelle de Coulibaly non relevée. Les Wizards reçoivent Orlando samedi en NBA Cup."
+      "texte": "Washington (7-12) n'a pas joué depuis sa défaite contre Boston mardi ; les Wizards reçoivent Orlando samedi 28 novembre à 23h (heure de Paris) en NBA Cup."
     },
     {
       "joueur": "Zaccharie Risacher",
       "equipe": "Mavericks",
       "stats": "8,8 pts, 4,8 rbd, 1,3 pd (14 matchs)",
-      "texte": "Dallas menait 58-39 à Denver à la mi-temps du match de NBA Cup de la nuit de mardi à mercredi, selon NBA.com ; le résultat final n'était pas connu à la rédaction. Risacher comptait 2 points et 3 rebonds à la pause (statistiques provisoires Sportradar)."
+      "texte": "Dallas a battu Denver 120-101 dans la nuit de mardi à mercredi en NBA Cup, selon Land of Basketball, quatrième victoire de suite des Mavericks (11-7). Statistique individuelle de Risacher non relevée. Prochain match à Phoenix dans la nuit de vendredi à samedi (3h)."
     },
     {
       "joueur": "Tidjane Salaün",
       "equipe": "Hornets",
       "stats": "5,3 pts, 3,8 rbd (4 matchs)",
-      "texte": "Charlotte (4-12) a perdu 111-117 contre Memphis dans la nuit de lundi à mardi, selon Yahoo Sports, cinquième défaite de suite ; les Hornets reçoivent Chicago dans la nuit de mercredi à jeudi (1h)."
+      "texte": "Charlotte (4-13) a perdu 105-107 contre Chicago dans la nuit de mercredi à jeudi, selon ESPN, sixième défaite de suite ; statistique individuelle de Salaün non relevée. Les Hornets reçoivent Brooklyn dans la nuit de samedi à dimanche."
     }
   ],
   "derniers": [
+    {
+      "date": "2026-11-25",
+      "dom": "76ers",
+      "ext": "Heat",
+      "score_dom": 111,
+      "score_ext": 104
+    },
+    {
+      "date": "2026-11-25",
+      "dom": "Hornets",
+      "ext": "Bulls",
+      "score_dom": 105,
+      "score_ext": 107
+    },
+    {
+      "date": "2026-11-25",
+      "dom": "Knicks",
+      "ext": "Cavaliers",
+      "score_dom": 121,
+      "score_ext": 102
+    },
+    {
+      "date": "2026-11-25",
+      "dom": "Thunder",
+      "ext": "Timberwolves",
+      "score_dom": 106,
+      "score_ext": 113
+    },
+    {
+      "date": "2026-11-25",
+      "dom": "Grizzlies",
+      "ext": "Clippers",
+      "score_dom": 115,
+      "score_ext": 97
+    },
+    {
+      "date": "2026-11-25",
+      "dom": "Bucks",
+      "ext": "Nets",
+      "score_dom": 97,
+      "score_ext": 104
+    },
+    {
+      "date": "2026-11-25",
+      "dom": "Rockets",
+      "ext": "Suns",
+      "score_dom": 116,
+      "score_ext": 104
+    },
+    {
+      "date": "2026-11-24",
+      "dom": "Nuggets",
+      "ext": "Mavericks",
+      "score_dom": 101,
+      "score_ext": 120
+    },
     {
       "date": "2026-11-24",
       "dom": "Magic",
@@ -480,119 +536,9 @@
       "ext": "Jazz",
       "score_dom": 109,
       "score_ext": 94
-    },
-    {
-      "date": "2026-11-23",
-      "dom": "Kings",
-      "ext": "Spurs",
-      "score_dom": 107,
-      "score_ext": 123
-    },
-    {
-      "date": "2026-11-23",
-      "dom": "Hornets",
-      "ext": "Grizzlies",
-      "score_dom": 111,
-      "score_ext": 117
-    },
-    {
-      "date": "2026-11-23",
-      "dom": "76ers",
-      "ext": "Trail Blazers",
-      "score_dom": 111,
-      "score_ext": 128
-    },
-    {
-      "date": "2026-11-23",
-      "dom": "Pacers",
-      "ext": "Thunder",
-      "score_dom": 125,
-      "score_ext": 120
-    },
-    {
-      "date": "2026-11-23",
-      "dom": "Timberwolves",
-      "ext": "Nets",
-      "score_dom": 142,
-      "score_ext": 116
-    },
-    {
-      "date": "2026-11-23",
-      "dom": "Raptors",
-      "ext": "Bucks",
-      "score_dom": 111,
-      "score_ext": 116
-    },
-    {
-      "date": "2026-11-23",
-      "dom": "Bulls",
-      "ext": "Cavaliers",
-      "score_dom": 122,
-      "score_ext": 108
-    },
-    {
-      "date": "2026-11-23",
-      "dom": "Pelicans",
-      "ext": "Suns",
-      "score_dom": 119,
-      "score_ext": 123
     }
   ],
   "a_venir": [
-    {
-      "date": "2026-11-25",
-      "heure_paris": "23:00",
-      "dom": "76ers",
-      "ext": "Heat"
-    },
-    {
-      "date": "2026-11-26",
-      "heure_paris": "01:00",
-      "dom": "Hornets",
-      "ext": "Bulls"
-    },
-    {
-      "date": "2026-11-26",
-      "heure_paris": "01:30",
-      "dom": "Knicks",
-      "ext": "Cavaliers"
-    },
-    {
-      "date": "2026-11-26",
-      "heure_paris": "01:30",
-      "dom": "Thunder",
-      "ext": "Timberwolves"
-    },
-    {
-      "date": "2026-11-26",
-      "heure_paris": "02:00",
-      "dom": "Grizzlies",
-      "ext": "Clippers"
-    },
-    {
-      "date": "2026-11-26",
-      "heure_paris": "02:00",
-      "dom": "Bucks",
-      "ext": "Nets"
-    },
-    {
-      "date": "2026-11-26",
-      "heure_paris": "02:30",
-      "dom": "Rockets",
-      "ext": "Suns"
-    },
-    {
-      "date": "2026-11-26",
-      "heure_paris": "04:00",
-      "dom": "Warriors",
-      "ext": "Kings"
-    },
-    {
-      "date": "2026-11-26",
-      "heure_paris": "04:00",
-      "dom": "Trail Blazers",
-      "ext": "Spurs"
-    },
     {
       "date": "2026-11-28",
       "heure_paris": "01:00",
@@ -628,59 +574,169 @@
       "heure_paris": "02:30",
       "dom": "Timberwolves",
       "ext": "Grizzlies"
+    },
+    {
+      "date": "2026-11-28",
+      "heure_paris": "03:00",
+      "dom": "Suns",
+      "ext": "Mavericks"
+    },
+    {
+      "date": "2026-11-28",
+      "heure_paris": "03:30",
+      "dom": "Jazz",
+      "ext": "Nuggets"
+    },
+    {
+      "date": "2026-11-28",
+      "heure_paris": "03:30",
+      "dom": "Spurs",
+      "ext": "Lakers"
+    },
+    {
+      "date": "2026-11-28",
+      "heure_paris": "03:30",
+      "dom": "Clippers",
+      "ext": "Pelicans"
+    },
+    {
+      "date": "2026-11-28",
+      "heure_paris": "03:30",
+      "dom": "Trail Blazers",
+      "ext": "Warriors"
+    },
+    {
+      "date": "2026-11-28",
+      "heure_paris": "23:00",
+      "dom": "Wizards",
+      "ext": "Magic"
+    },
+    {
+      "date": "2026-11-29",
+      "heure_paris": "00:00",
+      "dom": "Hornets",
+      "ext": "Nets"
+    },
+    {
+      "date": "2026-11-29",
+      "heure_paris": "02:00",
+      "dom": "Bulls",
+      "ext": "Pacers"
+    },
+    {
+      "date": "2026-11-29",
+      "heure_paris": "02:00",
+      "dom": "Bucks",
+      "ext": "Thunder"
     }
   ],
   "infos": [
     {
-      "titre": "Tatum relance Boston",
-      "texte": "Les Celtics ont battu les Wizards 131-116 à Washington en NBA Cup, selon NBC Washington, et mettent fin à une série de quatre défaites. Jayson Tatum a marqué 41 points (dont 28 en première mi-temps), Paul George 28 et Neemias Queta 21 ; Boston menait 80-49 à la pause après un deuxième quart-temps à 46 points. Anthony Davis (33 points, 13 rebonds) et le rookie AJ Dybantsa (20 points, 11 rebonds, 7 passes) n'ont pas suffi. Boston (12-6), invaincu en NBA Cup, reçoit Atlanta vendredi pour la première place du groupe.",
+      "titre": "Premier triple-double de LeBron James avec Philadelphie",
+      "texte": "Les 76ers ont battu le Heat 111-104 mercredi en NBA Cup, selon Local 10 (AP) : LeBron James a réussi son premier triple-double sous le maillot de Philadelphie (25 points, 12 passes, 10 rebonds) et Tyrese Maxey a marqué 30 points. Miami, qui restait sur sept victoires, voit sa série s'arrêter, selon Hot Hot Hoops. Philadelphie (15-4) conforte sa première place à l'Est.",
       "source": {
-        "nom": "NBC Washington – Celtics 131-116 Wizards",
-        "url": "https://www.nbcwashington.com/news/sports/tatum-scores-41-to-help-celtics-snap-4-game-skid-with-a-131-116-win-over-wizards/4187820/"
+        "nom": "Local 10 (AP) – 76ers 111-104 Heat (25 nov. 2026)",
+        "url": "https://www.local10.com/sports/2026/11/25/lebron-james-has-his-1st-triple-double-for-the-76ers-in-a-win-over-the-heat/"
       }
     },
     {
-      "titre": "Detroit gagne à Orlando sans Cunningham",
-      "texte": "Privés de Cade Cunningham (genou droit), déclaré forfait une demi-heure avant le coup d'envoi, les Pistons ont battu le Magic 104-86, selon ESPN et Yahoo Sports. Isaiah Joe, titulaire pour la première fois de la saison, a marqué 21 points ; Daniss Jenkins a ajouté 15 points et 10 passes, Ausar Thompson 10 rebonds et 4 contres. Desmond Bane (21 points) et Franz Wagner (20) ont mené Orlando, qui a perdu 20 ballons. Detroit passe à 11-6.",
+      "titre": "Minnesota gagne à Oklahoma City",
+      "texte": "Les Timberwolves se sont imposés 113-106 chez le Thunder en NBA Cup, selon VAVEL : Jaden McDaniels a marqué 32 points, autant que Shai Gilgeous-Alexander côté Oklahoma City, et Ayo Dosunmu a inscrit 13 points dans le dernier quart-temps ; LaMelo Ball a délivré 8 passes. Selon Yardbarker, Minnesota (14-5) reste invaincu en NBA Cup ; le Thunder (10-9) enchaîne une troisième défaite.",
       "source": {
-        "nom": "Yahoo Sports – Pistons-Magic",
-        "url": "https://sports.yahoo.com/nba/articles/detroit-pistons-dazzle-magic-despite-024107994.html"
+        "nom": "VAVEL – Timberwolves 113-106 Thunder (25 nov. 2026)",
+        "url": "https://www.vavel.com/en-us/nba/2026/11/25/1280765-timberwolves-vs-thunder-live-score-updates-stats-and-nba-cup-play-by-play.html"
       }
     },
     {
-      "titre": "San Antonio s'impose sans Wembanyama ni Fox",
-      "texte": "Les Spurs ont gagné 123-107 à Sacramento dans la nuit de lundi à mardi, selon Land of Basketball : Stephon Castle a réussi un double-double (28 points, 8 rebonds, 11 passes) et Luke Kornet 18 points et 11 rebonds ; Domantas Sabonis a compté 20 points et 12 rebonds pour les Kings (2-15).",
+      "titre": "Triple-double de Sengün, Houston bat Phoenix",
+      "texte": "Les Rockets ont battu les Suns 116-104, selon NerdSports : Alperen Sengün a réussi un triple-double (23 points, 11 rebonds, 11 passes), Kevin Durant a ajouté 20 points et 10 rebonds et Amen Thompson 18 points et 10 rebonds. Devin Booker a marqué 25 points pour Phoenix (9-8). Houston passe à 14-5, à égalité avec Minnesota et Memphis.",
       "source": {
-        "nom": "Land of Basketball – résumé du 23 novembre 2026",
-        "url": "https://www.landofbasketball.com/nba_daily_summary/20261123.htm"
+        "nom": "NerdSports – Rockets 116-104 Suns (25 nov. 2026)",
+        "url": "https://nerdsports.com/2026/11/25/rockets-suns-recap-sengun-triple-double/"
       }
     },
     {
-      "titre": "Les Lakers et Houston gagnent",
-      "texte": "Les Lakers ont battu le Jazz 109-94 et Houston a dominé les Clippers 116-104 avec 32 points de Kevin Durant, selon Land of Basketball. Les Lakers (15-3) restent à hauteur des Spurs en tête de l'Ouest ; les Clippers (4-12) enchaînent une quatrième défaite.",
+      "titre": "New York et Memphis enchaînent",
+      "texte": "Les Knicks ont dominé Cleveland 121-102 grâce notamment à 21 points de Jose Alvarado, selon Parlae et ESPN, et signent une sixième victoire de suite (12-6). Memphis a battu les Clippers 115-97 avec 19 points de Jaylen Wells, selon NerdSports, pour une septième victoire en huit matchs selon Field Level Media ; les Clippers (4-13) concèdent une cinquième défaite consécutive.",
       "source": {
-        "nom": "Land of Basketball – résumé du 23 novembre 2026",
-        "url": "https://www.landofbasketball.com/nba_daily_summary/20261123.htm"
+        "nom": "Parlae – Knicks 121-102 Cavaliers (25 nov. 2026)",
+        "url": "https://parlae.io/news/nba/2026/11/new-york-knicks-beat-cleveland-cavaliers-121-102-november-25"
       }
     },
     {
-      "titre": "Dallas mène à Denver",
-      "texte": "Les Mavericks menaient 58-39 à la mi-temps à Denver, après un 15-0 en fin de deuxième quart-temps, selon NBA.com ; une victoire qualifierait Denver pour les quarts de finale de la NBA Cup. Le résultat final n'était pas connu à la rédaction.",
+      "titre": "Brooklyn gagne à Milwaukee, Chicago à Charlotte",
+      "texte": "Les Nets ont battu les Bucks 104-97 avec 28 points de Julius Randle, selon Parlae et NerdSports, mettant fin à une série de cinq défaites ; Milwaukee (2-17) reste dernier de l'Est. Chicago s'est imposé 107-105 à Charlotte, selon ESPN ; les Hornets (4-13) perdent un sixième match de suite.",
       "source": {
-        "nom": "NBA.com – NBA Cup, direct du 24 novembre",
-        "url": "https://www.nba.com/news/emirates-nba-cup-2026-live-updates-november-24"
+        "nom": "Parlae – Nets 104-97 Bucks (25 nov. 2026)",
+        "url": "https://parlae.io/news/nba/2026/11/brooklyn-nets-beat-milwaukee-bucks-104-97-november-25"
       }
     },
     {
-      "titre": "Milwaukee gagne enfin",
-      "texte": "Les Bucks ont battu les Raptors 116-111 à Toronto dans la nuit de lundi à mardi, selon ESPN et Yahoo Sports, mettant fin à une série de treize défaites ; Myles Turner comptait 18 points et 10 rebonds à la mi-temps, selon Yahoo Sports. Milwaukee (2-16) reste dernier de l'Est.",
+      "titre": "Dallas corrige Denver",
+      "texte": "Les Mavericks ont battu les Nuggets 120-101 à Denver dans la nuit de mardi à mercredi en NBA Cup, selon Land of Basketball, après avoir mené 58-39 à la pause ; Cooper Flagg a délivré 12 passes et Caleb Martin réussi 5 interceptions. Dallas (11-7) enchaîne une quatrième victoire, Denver tombe à 10-6.",
       "source": {
-        "nom": "ESPN – Bucks 116-111 Raptors",
-        "url": "https://www.espn.com/nba/game/_/gameId/401910039/bucks-raptors"
+        "nom": "Land of Basketball – résumé du 24 novembre 2026",
+        "url": "https://www.landofbasketball.com/nba_daily_summary/20261124.htm"
       }
     }
   ],
   "sources": [
+    {
+      "nom": "Local 10 (AP) – 76ers 111-104 Heat (25 nov. 2026)",
+      "url": "https://www.local10.com/sports/2026/11/25/lebron-james-has-his-1st-triple-double-for-the-76ers-in-a-win-over-the-heat/"
+    },
+    {
+      "nom": "Hot Hot Hoops – 76ers 111-104 Heat (25 nov. 2026)",
+      "url": "https://hothothoops.com/2026/11/25/lebron-james-sixers-snap-heats-win-streak-111-104-in-nba-cup-matchup/"
+    },
+    {
+      "nom": "ESPN – 76ers 111-104 Heat (25 nov. 2026)",
+      "url": "https://www.espn.com/nba/recap/_/gameId/401909317"
+    },
+    {
+      "nom": "VAVEL – Timberwolves 113-106 Thunder (25 nov. 2026)",
+      "url": "https://www.vavel.com/en-us/nba/2026/11/25/1280765-timberwolves-vs-thunder-live-score-updates-stats-and-nba-cup-play-by-play.html"
+    },
+    {
+      "nom": "Yardbarker – Timberwolves-Thunder (25 nov. 2026)",
+      "url": "https://www.yardbarker.com/nba/articles/jaden_mcdaniels_wolves_charge_past_thunder_stay_perfect_in_cup_play/s1_17045_44620543"
+    },
+    {
+      "nom": "NerdSports – Rockets 116-104 Suns (25 nov. 2026)",
+      "url": "https://nerdsports.com/2026/11/25/rockets-suns-recap-sengun-triple-double/"
+    },
+    {
+      "nom": "ESPN – Knicks 121-102 Cavaliers (25 nov. 2026)",
+      "url": "https://www.espn.com/nba/recap/_/gameId/401909319"
+    },
+    {
+      "nom": "Parlae – Knicks 121-102 Cavaliers (25 nov. 2026)",
+      "url": "https://parlae.io/news/nba/2026/11/new-york-knicks-beat-cleveland-cavaliers-121-102-november-25"
+    },
+    {
+      "nom": "Parlae – Nets 104-97 Bucks (25 nov. 2026)",
+      "url": "https://parlae.io/news/nba/2026/11/brooklyn-nets-beat-milwaukee-bucks-104-97-november-25"
+    },
+    {
+      "nom": "NerdSports – Nets 104-97 Bucks (25 nov. 2026)",
+      "url": "https://nerdsports.com/2026/11/25/nets-bucks-recap-julius-randle-nba-cup/"
+    },
+    {
+      "nom": "NerdSports – Grizzlies 115-97 Clippers (25 nov. 2026)",
+      "url": "https://nerdsports.com/2026/11/25/grizzlies-clippers-recap-jaylen-wells-nba-cup/"
+    },
+    {
+      "nom": "Field Level Media – Grizzlies-Clippers (25 nov. 2026)",
+      "url": "https://fieldlevelmedia.com/nba/grizzlies-cruise-past-clippers-for-seventh-win-in-eight-games/"
+    },
+    {
+      "nom": "ESPN – Bulls 107-105 Hornets (25 nov. 2026)",
+      "url": "https://africa.espn.com/nba/game?gameId=401909318"
+    },
+    {
+      "nom": "Land of Basketball – résumé du 24 novembre 2026",
+      "url": "https://www.landofbasketball.com/nba_daily_summary/20261124.htm"
+    },
     {
       "nom": "NBC Washington – Celtics 131-116 Wizards (24 nov. 2026)",
       "url": "https://www.nbcwashington.com/news/sports/tatum-scores-41-to-help-celtics-snap-4-game-skid-with-a-131-116-win-over-wizards/4187820/"
@@ -780,46 +836,6 @@
     {
       "nom": "theScore – Warriors 88-87 Celtics",
       "url": "https://beta.thescore.com/nba/event/2462926"
-    },
-    {
-      "nom": "Basketball-Reference – Leaders 2026-27 (22 nov. 2026)",
-      "url": "https://www.basketball-reference.com/leagues/NBA_2027_leaders.html"
-    },
-    {
-      "nom": "Basketball-Reference – Calendrier de novembre 2026",
-      "url": "https://www.basketball-reference.com/leagues/NBA_2027_games-november.html"
-    },
-    {
-      "nom": "Land of Basketball – Stats Wembanyama 2026-27",
-      "url": "https://www.landofbasketball.com/nba_players_season_stats/2027/victor_wembanyama.htm"
-    },
-    {
-      "nom": "Land of Basketball – Stats Cissoko 2026-27",
-      "url": "https://www.landofbasketball.com/nba_players_season_stats/2027/sidy_cissoko.htm"
-    },
-    {
-      "nom": "Land of Basketball – Stats Gobert 2026-27",
-      "url": "https://www.landofbasketball.com/nba_players_season_stats/2027/rudy_gobert.htm"
-    },
-    {
-      "nom": "Land of Basketball – Stats Sarr 2026-27",
-      "url": "https://www.landofbasketball.com/nba_players_season_stats/2027/alex_sarr.htm"
-    },
-    {
-      "nom": "Land of Basketball – Stats Risacher 2026-27",
-      "url": "https://www.landofbasketball.com/nba_players_season_stats/2027/zaccharie_risacher.htm"
-    },
-    {
-      "nom": "Land of Basketball – Stats Coulibaly 2026-27",
-      "url": "https://www.landofbasketball.com/nba_players_season_stats/2027/bilal_coulibaly.htm"
-    },
-    {
-      "nom": "Land of Basketball – Stats Traoré 2026-27",
-      "url": "https://www.landofbasketball.com/nba_players_season_stats/2027/nolan_traore.htm"
-    },
-    {
-      "nom": "Land of Basketball – Stats Salaün 2026-27",
-      "url": "https://www.landofbasketball.com/nba_players_season_stats/2027/tidjane_salaun.htm"
     }
   ]
 }

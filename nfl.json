@@ -1,5 +1,5 @@
 {
-  "maj": "25 novembre 2026, 5h30 – aucun match depuis le Monday Night Football Commanders-Bengals (22-20) : classements après la semaine 11 inchangés (égalités Broncos-Chiefs, Bears-Lions, Steelers-Browns, Seahawks-Rams non départagées). Leaders statistiques arrêtés après la semaine 10 (ESPN ; sacks de Will Anderson Jr. selon NFL.com), non actualisés. Programme de la semaine 12 revérifié le 25 novembre sur ESPN (16 matchs, dont Packers-Rams mercredi soir et trois matchs le jeudi de Thanksgiving) ; heure de Paris = heure de l'Est + 6 h.",
+  "maj": "26 novembre 2026, 5h45 – Packers-Rams (semaine 12, mercredi soir au SoFi Stadium) était en cours à la rédaction : 23-13 pour Los Angeles à 2 minutes de la fin, selon les données Sportradar consultées à 5h40 ; non compté, les deux équipes restent à 6-4. Classements après la semaine 11 (égalités Broncos-Chiefs, Bears-Lions, Steelers-Browns, Seahawks-Rams non départagées). Leaders statistiques arrêtés après la semaine 10 (ESPN ; sacks de Will Anderson Jr. selon NFL.com), non actualisés. Programme de la semaine 12 selon ESPN, recoupé avec Sportradar le 26 novembre (trois matchs le jeudi de Thanksgiving, Pittsburgh-Denver vendredi) ; heure de Paris = heure de l'Est + 6 h.",
   "divisions": [
     {
       "nom": "AFC Est",
@@ -464,13 +464,6 @@
     "matchs": [
       {
         "date": "2026-11-26",
-        "heure_paris": "02:00",
-        "dom": "Rams",
-        "ext": "Packers",
-        "tv_us": "Netflix"
-      },
-      {
-        "date": "2026-11-26",
         "heure_paris": "19:00",
         "dom": "Lions",
         "ext": "Bears",
@@ -579,8 +572,16 @@
   },
   "infos": [
     {
-      "titre": "Semaine 12 : Packers-Rams en ouverture, trois matchs à Thanksgiving",
-      "texte": "La semaine 12 s'ouvre mercredi soir avec Green Bay-Los Angeles Rams au SoFi Stadium (2h, heure de Paris, sur Netflix aux États-Unis), selon le programme d'ESPN. Le jeudi de Thanksgiving, Detroit reçoit Chicago (19h), Dallas accueille Philadelphie (22h30) et Buffalo reçoit Kansas City (2h20 dans la nuit de jeudi à vendredi) ; Pittsburgh-Denver suit vendredi à 21h.",
+      "titre": "Les Rams mènent Green Bay en fin de match",
+      "texte": "Los Angeles menait Green Bay 23-13 à deux minutes de la fin du match d'ouverture de la semaine 12, au SoFi Stadium, selon les données Sportradar consultées à 5h40 (heure de Paris). Kyren Williams (7 yards) et Blake Corum (1 yard, après révision vidéo) ont marqué les touchdowns des Rams, Brandon McManus trois field goals ; Jordan Love a trouvé Christian Watson pour le seul touchdown des Packers et a été intercepté deux fois, dont une par Jaylen McCollough, selon le site des Rams. Résultat final non connu à la rédaction.",
+      "source": {
+        "nom": "Los Angeles Rams (site officiel) – interception de Jaylen McCollough face aux Packers, semaine 12",
+        "url": "https://www.therams.com/video/highlights-jaylen-mccollough-intercepts-packers-qb-jordan-love-pass-in-the-third-quarter-week-12"
+      }
+    },
+    {
+      "titre": "Thanksgiving : Bears-Lions, Eagles-Cowboys et Chiefs-Bills",
+      "texte": "Trois matchs sont au programme du jeudi de Thanksgiving, selon ESPN : Detroit reçoit Chicago à 19h (heure de Paris), dans un duel de leaders de la NFC Nord (8-2 tous les deux), Dallas accueille Philadelphie à 22h30, puis Buffalo (9-1) reçoit Kansas City (8-2) à 2h20 dans la nuit de jeudi à vendredi. Pittsburgh-Denver suit vendredi à 21h.",
       "source": {
         "nom": "ESPN – Programme semaine 12 2026",
         "url": "https://www.espn.com/nfl/schedule/_/week/12"
@@ -652,6 +653,14 @@
     }
   ],
   "sources": [
+    {
+      "nom": "Los Angeles Rams (site officiel) – interception de Jaylen McCollough face aux Packers, semaine 12",
+      "url": "https://www.therams.com/video/highlights-jaylen-mccollough-intercepts-packers-qb-jordan-love-pass-in-the-third-quarter-week-12"
+    },
+    {
+      "nom": "Los Angeles Rams (site officiel) – touchdown de Blake Corum face aux Packers, semaine 12",
+      "url": "https://www.therams.com/video/highlights-rams-rb-blake-corum-rushes-for-touchdown-to-open-the-second-half-vs-packers"
+    },
     {
       "nom": "Bengals.com – Commanders 22-20 Bengals",
       "url": "https://www.bengals.com/news/bengals-commanders-recap-postgame-notes-quotes-stats-week-11-2026-monday-night-football"
