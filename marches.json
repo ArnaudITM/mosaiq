@@ -1,5 +1,5 @@
 {
-  "maj": "clôture du mercredi 25 novembre 2026 (dernière séance avant l'édition du jeudi 26 novembre ; Wall Street fermée le 26 pour Thanksgiving) pour le CAC 40, le S&P 500 et le Nasdaq Composite ; EUR/USD : cours de référence BCE du 25 novembre (fixing du 24/11 ajouté, déduit du cours inverse publié par Euro-rates.info)",
+  "maj": "clôture du jeudi 26 novembre 2026 pour le CAC 40 ; S&P 500 et Nasdaq Composite : clôture du mercredi 25 novembre 2026 (Wall Street fermée le 26 pour Thanksgiving, réouverture en séance écourtée le vendredi 27) ; EUR/USD : cours de référence BCE du 26 novembre",
   "frequence": "quotidienne",
   "series": [
     {
@@ -7,10 +7,6 @@
       "nom": "CAC 40",
       "unite": "pts",
       "points": [
-        [
-          "2026-10-26",
-          7847.32
-        ],
         [
           "2026-10-27",
           7887.14
@@ -98,6 +94,10 @@
         [
           "2026-11-25",
           7980.57
+        ],
+        [
+          "2026-11-26",
+          8108.74
         ]
       ]
     },
@@ -306,10 +306,6 @@
       "note": "Cours de référence quotidien de la BCE (fixing vers 14h15 CET), et non cours de clôture de marché.",
       "points": [
         [
-          "2026-10-26",
-          1.1188
-        ],
-        [
           "2026-10-27",
           1.115
         ],
@@ -396,11 +392,15 @@
         [
           "2026-11-25",
           1.0935
+        ],
+        [
+          "2026-11-26",
+          1.0975
         ]
       ]
     }
   ],
-  "absent": "EUR/USD du 24/11 : valeur déduite de l'inverse du cours BCE publié par Euro-rates.info (0,9122 euro pour 1 dollar), arrondi à 4 décimales. Brent non fourni en série quotidienne (cotations divergentes chez Trading Economics le 25/11 : « sous 92 $ » puis « au-dessus de 93 $ » ; règlement non confirmé). Séance du 25/11 : CAC 40 −0,75 % à 7 980,57 points (Boursorama, Trading Economics) ; S&P 500 −0,3 % à 7 182,78, Nasdaq Composite −0,6 % à 23 585,80, Dow Jones +0,3 % à 50 182,95 (AP via La Nación) ; Trading Economics donnait pour le Dow une clôture différente (50 250, +0,46 %), le chiffre d'AP est retenu.",
+  "absent": "S&P 500 et Nasdaq Composite : aucun point au 26/11 (Wall Street fermée pour Thanksgiving) ; dernière valeur au 25/11 (S&P 500 −0,3 % à 7 182,78, Nasdaq Composite −0,6 % à 23 585,80, Dow Jones +0,3 % à 50 182,95, selon AP via La Nación). Séance du 26/11 : CAC 40 +1,61 % (+128,17 points) à 8 108,74 points (Boursorama, Zonebourse) ; EUR/USD BCE 1,0975 (contre 1,0935 le 25/11). Point du 26/10 retiré des séries CAC 40 et EUR/USD (fenêtre glissante d'environ 23 séances) ; il reste conservé pour S&P 500 et Nasdaq, qui n'ont pas de nouveau point. EUR/USD du 24/11 : valeur déduite de l'inverse du cours BCE publié par Euro-rates.info (0,9122 euro pour 1 dollar), arrondi à 4 décimales. Brent non fourni en série quotidienne : Trading Economics le situait « au-dessus de 95 dollars » le 26/11 (troisième séance de hausse), The Edge à 94,48 dollars en cours de séance à 8 h 30 GMT ; règlement non confirmé.",
   "sources": [
     {
       "nom": "Boursorama – historique CAC 40",
@@ -533,6 +533,26 @@
     {
       "nom": "BCE – cours de référence du 25/11/2026",
       "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+    },
+    {
+      "nom": "Boursorama – historique CAC 40 (clôture du 26/11/2026)",
+      "url": "https://www.boursorama.com/bourse/indices/cours/historique/1rPCAC"
+    },
+    {
+      "nom": "Zonebourse – Paris en forte hausse jeudi (26/11/2026)",
+      "url": "https://www.zonebourse.com/actualite-bourse/paris-en-forte-hausse-jeudi-ce7851d9d889f622"
+    },
+    {
+      "nom": "BCE – cours de référence du 26/11/2026",
+      "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+    },
+    {
+      "nom": "Trading Economics – Brent (26/11/2026)",
+      "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+    },
+    {
+      "nom": "The Edge – point matières premières du 26/11/2026",
+      "url": "https://edgeconsultancykw.com/commodities-wrap-26-november-2026/"
     }
   ]
 }

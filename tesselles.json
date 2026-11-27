@@ -1,87 +1,87 @@
 {
  "titre": "Les Tesselles du week-end",
- "periode": "20-22 novembre 2026",
- "publie": "2026-11-20",
- "intro": "Un film de guerre de Lukas Dhont, une exposition sur les lettrés coréens, le rap de Kneecap au Zénith, le prix Décembre 2026 et un salon du livre en Guadeloupe : cinq sorties pour le week-end du 20 au 22 novembre.",
+ "periode": "27-29 novembre 2026",
+ "publie": "2026-11-27",
+ "intro": "Un premier film centrafricain primé à Cannes, le cinéma français sous l'Occupation à la Fondation Pathé, le Cirque du Soleil à l'Arena Porte de la Chapelle, le prix Goncourt 2026 et la biennale de la photographie de Bamako : cinq sorties pour le week-end du 27 au 29 novembre.",
  "items": [
   {
    "n": 1,
    "discipline": "cinéma",
-   "titre": "Les Braves (Coward)",
-   "qui": "Lukas Dhont",
-   "quoi": "Pendant la Première Guerre mondiale, un jeune soldat qui cherche à faire ses preuves croise un homme chargé de remonter le moral des troupes. Emmanuel Macchia, Valentin Campagne et Jonas Wertz tiennent les rôles principaux.",
+   "titre": "Congo Boy",
+   "qui": "Rafiki Fariala",
+   "quoi": "À Bangui, Robert, réfugié congolais de 17 ans qui rêve de musique, doit s'occuper seul de ses frères et sœurs après l'arrestation de ses parents, entre petits boulots, révisions du baccalauréat et milices. Un concours de musique devient son principal espoir.",
    "ou": "en salles",
-   "quand": "Sorti le mercredi 18 novembre 2026",
+   "quand": "Sorti le mercredi 25 novembre 2026",
    "prix": null,
-   "pourquoi": "Nouveau long métrage de Lukas Dhont, il fait partie des 20 films sortis le 18 novembre recensés par AlloCiné.",
-   "pays": "Belgium",
+   "pourquoi": "Présenté dans la section Un Certain Regard du Festival de Cannes 2026, le film y a reçu le prix du meilleur acteur, selon le site du festival.",
+   "pays": "Central African Rep.",
    "source": {
-    "nom": "AlloCiné (calendrier des sorties)",
-    "url": "https://www.allocine.fr/film/agenda/sem-2026-11-18/"
+    "nom": "Festival de Cannes",
+    "url": "https://www.festival-cannes.com/f/congo-boy/"
    }
   },
   {
    "n": 2,
    "discipline": "arts",
-   "titre": "Corée, le royaume des lettrés",
-   "qui": "Musée Cernuschi",
-   "quoi": "Exposition consacrée aux yangban, les lettrés-fonctionnaires de la Corée au fil des siècles. Elle rassemble des chefs-d'œuvre anciens, du mobilier et des costumes d'époque.",
-   "ou": "Musée Cernuschi, Paris 8e",
-   "quand": "À partir du vendredi 20 novembre 2026",
-   "prix": null,
-   "pourquoi": "Sortiraparis la retient parmi les expositions à voir en novembre 2026 à Paris.",
+   "titre": "Écrans sous contraintes. Le cinéma pendant l'Occupation",
+   "qui": "Fondation Jérôme Seydoux-Pathé",
+   "quoi": "Exposition consacrée au cinéma français de 1940 à 1944, entre censure, politiques d'exclusion antisémites et pénuries. Plus de 300 œuvres, extraits et documents, dont des actualités de propagande, sont présentés sur deux étages.",
+   "ou": "Fondation Jérôme Seydoux-Pathé, 73 avenue des Gobelins, Paris 13e",
+   "quand": "À partir du vendredi 27 novembre 2026, jusqu'au 10 juillet 2027 (sur réservation)",
+   "prix": "De 3 à 5 €",
+   "pourquoi": "Selon la Ville de Paris, l'exposition montre comment l'industrie du cinéma a été contrôlée pendant l'Occupation et comment les cinéastes ont travaillé avec la pénurie.",
    "pays": "France",
    "source": {
-    "nom": "Sortiraparis",
-    "url": "https://www.sortiraparis.com/en/what-to-visit-in-paris/exhibit-museum/guides/322591-the-new-exhibitions-of-november-2026-highlights-to-see-in-paris-and-ile-de-france"
+    "nom": "Paris.fr (agenda de la Ville de Paris)",
+    "url": "https://www.paris.fr/evenements/ecrans-sous-contraintes-le-cinema-pendant-l-occupation-127411"
    }
   },
   {
    "n": 3,
-   "discipline": "musique",
-   "titre": "Kneecap",
-   "qui": "Kneecap",
-   "quoi": "Concert du groupe de rap Kneecap au Zénith de Paris. Début annoncé à 20 heures.",
-   "ou": "Zénith de Paris, Paris 19e",
-   "quand": "Vendredi 20 novembre 2026 à 20h",
-   "prix": null,
-   "pourquoi": "Sortiraparis le compte parmi les concerts à ne pas manquer à Paris en novembre 2026 ; la disponibilité des places n'est pas précisée.",
+   "discipline": "spectacle",
+   "titre": "OVO",
+   "qui": "Cirque du Soleil",
+   "quoi": "Spectacle d'acrobaties qui met en scène une colonie d'insectes, sur une musique inspirée des rythmes brésiliens. Cette version comprend de nouveaux numéros, costumes et une bande-son retravaillée.",
+   "ou": "Arena Porte de la Chapelle (Adidas Arena), Paris 18e",
+   "quand": "Vendredi 27 novembre à 19h, samedi 28 à 11h, 15h et 19h, dimanche 29 novembre 2026 à 13h (horaires indicatifs)",
+   "prix": "À partir de 57,60 €",
+   "pourquoi": "Sortiraparis annonce cette série de représentations parisiennes du 26 au 29 novembre ; la disponibilité des places n'est pas précisée.",
    "pays": "France",
    "source": {
     "nom": "Sortiraparis",
-    "url": "https://www.sortiraparis.com/scenes/concert-musique/guides/199180-concerts-a-paris-en-novembre-2026-ceux-a-ne-pas-manquer"
+    "url": "https://www.sortiraparis.com/scenes/spectacle/articles/342395-ovo-le-spectacle-vibrant-du-cirque-du-soleil-en-novembre-2026-a-l-arena-porte-de-la-chapelle"
    }
   },
   {
    "n": 4,
    "discipline": "livres",
-   "titre": "Nous aussi",
-   "qui": "Anne Godard",
-   "quoi": "Roman paru chez Actes Sud qui dépeint une famille catholique bourgeoise dans un immeuble haussmannien du 5e arrondissement de Paris. La narration est menée au pronom « on ».",
+   "titre": "L'inconnue du quai de Javel",
+   "qui": "Philippe Jaenada",
+   "quoi": "Roman de 528 pages paru chez Flammarion qui revient sur la mort, en 1949, de Louise Cansot, modèle de Montparnasse retrouvée au bord de la Seine. L'affaire avait été classée sans suite et l'auteur propose sa propre résolution.",
    "ou": "en librairie",
    "quand": "Disponible",
    "prix": null,
-   "pourquoi": "Le livre a reçu le prix Décembre 2026 le 27 octobre et s'était vendu à plus de 50 000 exemplaires, selon Livres Hebdo.",
+   "pourquoi": "Le livre a reçu le prix Goncourt 2026 le 3 novembre, par six voix contre trois, et s'était vendu à près de 60 000 exemplaires, selon Livres Hebdo.",
    "pays": "France",
    "source": {
     "nom": "Livres Hebdo",
-    "url": "https://www.livreshebdo.fr/article/anne-godard-remporte-le-prix-decembre-2026"
+    "url": "https://www.livreshebdo.fr/article/philippe-jaenada-remporte-le-prix-goncourt-2026"
    }
   },
   {
    "n": 5,
-   "discipline": "livres",
-   "titre": "Salon régional du livre de Guadeloupe",
-   "qui": "Marguerite Abouet, Jessica Oublié, Michael Roch, Max Rippon et d'autres auteurs",
-   "quoi": "Salon du livre organisé autour du thème « Afrique-Caraïbes : histoires croisées, imaginaires partagés », avec stands d'éditeurs et de libraires, rencontres d'auteurs, ateliers et lectures théâtrales. Il fait suite à des rencontres scolaires et à des étapes à Marie-Galante et Basse-Terre.",
-   "ou": "Village des exposants, marina de Pointe-à-Pitre",
-   "quand": "Du vendredi 20 au dimanche 22 novembre 2026",
-   "prix": "Gratuit",
-   "pourquoi": "Selon l'office de tourisme des Îles de Guadeloupe, l'édition met à l'honneur les liens entre Afrique et Caraïbes.",
-   "pays": "France",
+   "discipline": "arts",
+   "titre": "Rencontres de Bamako, 15e biennale africaine de la photographie",
+   "qui": "Armelle Dakouo (commissaire générale)",
+   "quoi": "Biennale de la photographie organisée par le ministère malien de la Culture autour de la notion de « Refabulation », avec une semaine professionnelle jusqu'au 2 décembre. Elle se tient sur cinq sites, dont le Musée national du Mali et la Maison africaine de la photographie.",
+   "ou": "Bamako (Musée national du Mali, Maison africaine de la photographie, Mémorial Modibo Keïta, Palais de la culture, place OMVS)",
+   "quand": "Du jeudi 26 novembre 2026 au 26 janvier 2027",
+   "prix": null,
+   "pourquoi": "Selon Notre Nation, Armelle Dakouo présente la refabulation comme « une méthode » plutôt qu'un thème.",
+   "pays": "Mali",
    "source": {
-    "nom": "Les Îles de Guadeloupe (office de tourisme)",
-    "url": "https://www.lesilesdeguadeloupe.com/fete-manifestation/salon-regional-du-livre-de-guadeloupe/"
+    "nom": "Notre Nation",
+    "url": "https://notrenation.com/Rencontres-de-Bamako-la-15e-edition-prevue-du-26-novembre-2026-au-26-janvier"
    }
   }
  ]

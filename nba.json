@@ -1,5 +1,5 @@
 {
-  "maj": "au 26 novembre 2026, 5h45 (heure de Paris) – bilans selon le classement Sportradar consulté à 5h40, recoupés avec les scores de la nuit du 25 au 26 (76ers-Heat 111-104, Bulls-Hornets 107-105, Knicks-Cavaliers 121-102, Timberwolves-Thunder 113-106, Grizzlies-Clippers 115-97, Nets-Bucks 104-97, Rockets-Suns 116-104, selon ESPN, Local 10, VAVEL, NerdSports et Parlae) et Mavericks-Nuggets (120-101) de la nuit précédente, selon Land of Basketball. Trail Blazers-Spurs (60-57 pour Portland) et Warriors-Kings (72-53 pour Golden State) étaient à la mi-temps à la rédaction, selon Sportradar : non comptés, les quatre équipes restent à leur bilan d'avant-match. Égalités (Spurs-Lakers ; Timberwolves-Rockets-Grizzlies ; Celtics-Knicks ; Hawks-Pistons ; Suns-Warriors ; Pacers-Bulls ; Hornets-Nets) non départagées. Leaders selon Basketball-Reference (page révisée le 22 novembre, non revérifiés). Moyennes des Français relevées le 19 novembre (Land of Basketball), sauf Wembanyama (23 novembre), non actualisées. Pas de match NBA le soir de Thanksgiving (jeudi 26) ; programme du vendredi 27 (nuit du 27 au 28) et du samedi 28 selon Sportradar. Heure de Paris = heure de l'Est + 6 h.",
+  "maj": "au 27 novembre 2026, 5h30 (heure de Paris) – classements selon FOX Sports, consultés le 27 novembre, intégrant la nuit du 25 au 26 au complet : Trail Blazers-Spurs 116-111 (selon ESPN, VAVEL et The Sports Leader) et Warriors-Kings 129-110 (selon ESPN et Parlae), en plus des sept matchs déjà comptés (76ers-Heat 111-104, Bulls-Hornets 107-105, Knicks-Cavaliers 121-102, Timberwolves-Thunder 113-106, Grizzlies-Clippers 115-97, Nets-Bucks 104-97, Rockets-Suns 116-104). Pas de match NBA le soir de Thanksgiving (jeudi 26), aucun match n'étant listé ce jour-là par CBS Sports. Égalités (Timberwolves-Rockets-Grizzlies ; Celtics-Knicks ; Hawks-Pistons ; Bulls-Pacers ; Hornets-Nets ; Pelicans-Clippers en écart) non départagées. Leaders et moyennes des Français selon Basketball-Reference (page révisée le 26 novembre, matchs du 25 inclus). Programme du vendredi 27 (nuit du 27 au 28, 11 matchs) et du samedi 28 (5 matchs) selon CBS Sports ; heure de Paris = heure de l'Est + 6 h.",
   "est": [
     {
       "pos": 1,
@@ -103,16 +103,6 @@
     },
     {
       "pos": 11,
-      "equipe": "Pacers",
-      "ville": "Indiana",
-      "v": 6,
-      "d": 12,
-      "pct": ".333",
-      "ecart": "8.5",
-      "serie": "V1"
-    },
-    {
-      "pos": 12,
       "equipe": "Bulls",
       "ville": "Chicago",
       "v": 6,
@@ -120,6 +110,16 @@
       "pct": ".333",
       "ecart": "8.5",
       "serie": "V2"
+    },
+    {
+      "pos": 12,
+      "equipe": "Pacers",
+      "ville": "Indiana",
+      "v": 6,
+      "d": 12,
+      "pct": ".333",
+      "ecart": "8.5",
+      "serie": "V1"
     },
     {
       "pos": 13,
@@ -155,16 +155,6 @@
   "ouest": [
     {
       "pos": 1,
-      "equipe": "Spurs",
-      "ville": "San Antonio",
-      "v": 15,
-      "d": 3,
-      "pct": ".833",
-      "ecart": "-",
-      "serie": "V3"
-    },
-    {
-      "pos": 2,
       "equipe": "Lakers",
       "ville": "Los Angeles",
       "v": 15,
@@ -172,6 +162,16 @@
       "pct": ".833",
       "ecart": "-",
       "serie": "V2"
+    },
+    {
+      "pos": 2,
+      "equipe": "Spurs",
+      "ville": "San Antonio",
+      "v": 15,
+      "d": 4,
+      "pct": ".789",
+      "ecart": "0.5",
+      "serie": "D1"
     },
     {
       "pos": 3,
@@ -207,11 +207,11 @@
       "pos": 6,
       "equipe": "Trail Blazers",
       "ville": "Portland",
-      "v": 11,
+      "v": 12,
       "d": 6,
-      "pct": ".647",
-      "ecart": "3.5",
-      "serie": "V1"
+      "pct": ".667",
+      "ecart": "3",
+      "serie": "V2"
     },
     {
       "pos": 7,
@@ -235,6 +235,16 @@
     },
     {
       "pos": 9,
+      "equipe": "Warriors",
+      "ville": "Golden State",
+      "v": 10,
+      "d": 8,
+      "pct": ".556",
+      "ecart": "5",
+      "serie": "V2"
+    },
+    {
+      "pos": 10,
       "equipe": "Suns",
       "ville": "Phoenix",
       "v": 9,
@@ -242,16 +252,6 @@
       "pct": ".529",
       "ecart": "5.5",
       "serie": "D1"
-    },
-    {
-      "pos": 10,
-      "equipe": "Warriors",
-      "ville": "Golden State",
-      "v": 9,
-      "d": 8,
-      "pct": ".529",
-      "ecart": "5.5",
-      "serie": "V1"
     },
     {
       "pos": 11,
@@ -298,10 +298,10 @@
       "equipe": "Kings",
       "ville": "Sacramento",
       "v": 2,
-      "d": 15,
-      "pct": ".118",
-      "ecart": "12.5",
-      "serie": "D1"
+      "d": 16,
+      "pct": ".111",
+      "ecart": "13",
+      "serie": "D2"
     }
   ],
   "leaders": {
@@ -309,32 +309,32 @@
       {
         "joueur": "Luka Dončić",
         "equipe": "Lakers",
-        "valeur": 37.2
+        "valeur": 36.6
       },
       {
         "joueur": "Shai Gilgeous-Alexander",
         "equipe": "Thunder",
-        "valeur": 31.7
+        "valeur": 32.1
       },
       {
         "joueur": "Victor Wembanyama",
         "equipe": "Spurs",
-        "valeur": 29.9
+        "valeur": 30.7
       },
       {
         "joueur": "Giannis Antetokounmpo",
         "equipe": "Heat",
-        "valeur": 28.2
-      },
-      {
-        "joueur": "Jalen Brunson",
-        "equipe": "Knicks",
-        "valeur": 26.8
+        "valeur": 28.4
       },
       {
         "joueur": "Jayson Tatum",
         "equipe": "Celtics",
-        "valeur": 26.4
+        "valeur": 27.3
+      },
+      {
+        "joueur": "Jalen Brunson",
+        "equipe": "Knicks",
+        "valeur": 26.1
       },
       {
         "joueur": "Tyrese Maxey",
@@ -342,63 +342,63 @@
         "valeur": 25.9
       },
       {
-        "joueur": "Cade Cunningham",
-        "equipe": "Pistons",
-        "valeur": 25.6
+        "joueur": "Jamal Murray",
+        "equipe": "Nuggets",
+        "valeur": 25.8
       }
     ],
     "rebonds": [
       {
         "joueur": "Karl-Anthony Towns",
         "equipe": "Knicks",
-        "valeur": 13.9
+        "valeur": 13.6
       },
       {
         "joueur": "Domantas Sabonis",
         "equipe": "Kings",
-        "valeur": 13.6
+        "valeur": 13.3
       },
       {
         "joueur": "Giannis Antetokounmpo",
         "equipe": "Heat",
-        "valeur": 12.6
+        "valeur": 12.7
       },
       {
         "joueur": "Victor Wembanyama",
         "equipe": "Spurs",
-        "valeur": 12.3
+        "valeur": 12.5
       },
       {
-        "joueur": "Rudy Gobert",
-        "equipe": "Timberwolves",
+        "joueur": "Nikola Jokić",
+        "equipe": "Nuggets",
         "valeur": 10.9
       }
     ],
     "passes": [
       {
-        "joueur": "Nikola Jokić",
-        "equipe": "Nuggets",
-        "valeur": 9.1
-      },
-      {
-        "joueur": "Davion Mitchell",
-        "equipe": "Heat",
-        "valeur": 9.0
+        "joueur": "Josh Giddey",
+        "equipe": "Bulls",
+        "valeur": 9.2
       },
       {
         "joueur": "Trae Young",
         "equipe": "Wizards",
-        "valeur": 8.6
+        "valeur": 8.9
       },
       {
-        "joueur": "Josh Giddey",
-        "equipe": "Bulls",
-        "valeur": 8.4
+        "joueur": "Nikola Jokić",
+        "equipe": "Nuggets",
+        "valeur": 8.9
       },
       {
-        "joueur": "Franz Wagner",
-        "equipe": "Magic",
-        "valeur": 8.4
+        "joueur": "Davion Mitchell",
+        "equipe": "Heat",
+        "valeur": 8.7
+      },
+      {
+        "joueur": "Cade Cunningham",
+        "equipe": "Pistons",
+        "valeur": 8.3
       }
     ]
   },
@@ -406,49 +406,49 @@
     {
       "joueur": "Victor Wembanyama",
       "equipe": "Spurs",
-      "stats": "29,9 pts, 12,3 rbd, 3,9 contres (17 matchs)",
-      "texte": "De retour après sa blessure au bas du dos, il comptait 19 points, 6 rebonds et 2 contres à la mi-temps à Portland (Spurs menés 57-60) dans la nuit de mercredi à jeudi, selon les statistiques provisoires de Sportradar ; résultat final non connu à la rédaction. San Antonio (15-3) partage la tête de l'Ouest avec les Lakers, qu'il reçoit dans la nuit de vendredi à samedi (3h30)."
+      "stats": "30,7 pts, 12,5 rbd, 3,8 contres (18 matchs)",
+      "texte": "Auteur de 44 points et 16 rebonds à Portland dans la nuit de mercredi à jeudi, il n'a pas empêché la défaite des Spurs 111-116 en NBA Cup, selon The Sports Leader, qui relève 94 points sur ses deux derniers matchs. San Antonio (15-4) passe deuxième de l'Ouest derrière les Lakers (15-3), qu'il reçoit dans la nuit de vendredi à samedi (3h30)."
     },
     {
       "joueur": "Rudy Gobert",
       "equipe": "Timberwolves",
-      "stats": "7,6 pts, 11,1 rbd, 1,0 contre (14 matchs)",
+      "stats": "7,7 pts, 10,4 rbd, 0,9 contre (18 matchs)",
       "texte": "Minnesota a gagné 113-106 à Oklahoma City en NBA Cup dans la nuit de mercredi à jeudi, selon VAVEL ; Gobert a compté 9 points et 7 rebonds (4 sur 6 au tir), selon la feuille de match Sportradar. Les Timberwolves (14-5) reçoivent Memphis dans la nuit de vendredi à samedi (2h30)."
     },
     {
       "joueur": "Nolan Traoré",
       "equipe": "Nets",
-      "stats": "13,6 pts, 1,8 rbd, 2,7 pd (12 matchs)",
+      "stats": "12,9 pts, 1,6 rbd, 2,7 pd (14 matchs)",
       "texte": "Forfait (ischio-jambiers, retour estimé au 27 janvier selon ESPN). Brooklyn a battu Milwaukee 104-97 dans la nuit de mercredi à jeudi, selon Parlae, mettant fin à cinq défaites de suite ; les Nets (4-13) jouent à Toronto dans la nuit de vendredi à samedi."
     },
     {
       "joueur": "Alex Sarr",
       "equipe": "Wizards",
-      "stats": "11,2 pts, 7,4 rbd, 0,9 contre (12 matchs)",
+      "stats": "11,0 pts, 6,6 rbd, 1,2 contre (18 matchs)",
       "texte": "Pas de match depuis la défaite 116-131 contre Boston de mardi, selon NBC Washington. Les Wizards (7-12) reçoivent Orlando samedi 28 novembre à 23h (heure de Paris) en NBA Cup."
     },
     {
       "joueur": "Sidy Cissoko",
       "equipe": "Trail Blazers",
-      "stats": "7,5 pts, 3,7 rbd, 1,9 pd (14 matchs)",
-      "texte": "Portland menait San Antonio 60-57 à la mi-temps dans la nuit de mercredi à jeudi ; Cissoko comptait 5 points à la pause, selon les statistiques provisoires de Sportradar. Résultat final non connu à la rédaction. Les Trail Blazers (11-6) reçoivent Golden State dans la nuit de vendredi à samedi (3h30)."
+      "stats": "8,3 pts, 3,7 rbd, 1,8 pd (18 matchs)",
+      "texte": "Portland a battu San Antonio 116-111 en NBA Cup dans la nuit de mercredi à jeudi ; Cissoko a marqué 16 points avec 4 paniers à trois points, derrière Deni Avdija (33 points) et Damian Lillard (29), selon The Sports Leader. Les Trail Blazers (12-6) reçoivent Golden State dans la nuit de vendredi à samedi (3h30)."
     },
     {
       "joueur": "Bilal Coulibaly",
       "equipe": "Wizards",
-      "stats": "7,2 pts, 4,1 rbd, 1,1 int (14 matchs)",
+      "stats": "7,1 pts, 4,2 rbd, 0,9 int (18 matchs)",
       "texte": "Washington (7-12) n'a pas joué depuis sa défaite contre Boston mardi ; les Wizards reçoivent Orlando samedi 28 novembre à 23h (heure de Paris) en NBA Cup."
     },
     {
       "joueur": "Zaccharie Risacher",
       "equipe": "Mavericks",
-      "stats": "8,8 pts, 4,8 rbd, 1,3 pd (14 matchs)",
+      "stats": "9,1 pts, 5,1 rbd, 1,2 pd (18 matchs)",
       "texte": "Dallas a battu Denver 120-101 dans la nuit de mardi à mercredi en NBA Cup, selon Land of Basketball, quatrième victoire de suite des Mavericks (11-7). Statistique individuelle de Risacher non relevée. Prochain match à Phoenix dans la nuit de vendredi à samedi (3h)."
     },
     {
       "joueur": "Tidjane Salaün",
       "equipe": "Hornets",
-      "stats": "5,3 pts, 3,8 rbd (4 matchs)",
+      "stats": "4,9 pts, 3,1 rbd (16 matchs)",
       "texte": "Charlotte (4-13) a perdu 105-107 contre Chicago dans la nuit de mercredi à jeudi, selon ESPN, sixième défaite de suite ; statistique individuelle de Salaün non relevée. Les Hornets reçoivent Brooklyn dans la nuit de samedi à dimanche."
     }
   ],
@@ -503,6 +503,20 @@
       "score_ext": 104
     },
     {
+      "date": "2026-11-25",
+      "dom": "Trail Blazers",
+      "ext": "Spurs",
+      "score_dom": 116,
+      "score_ext": 111
+    },
+    {
+      "date": "2026-11-25",
+      "dom": "Warriors",
+      "ext": "Kings",
+      "score_dom": 129,
+      "score_ext": 110
+    },
+    {
       "date": "2026-11-24",
       "dom": "Nuggets",
       "ext": "Mavericks",
@@ -522,20 +536,6 @@
       "ext": "Celtics",
       "score_dom": 116,
       "score_ext": 131
-    },
-    {
-      "date": "2026-11-23",
-      "dom": "Rockets",
-      "ext": "Clippers",
-      "score_dom": 116,
-      "score_ext": 104
-    },
-    {
-      "date": "2026-11-23",
-      "dom": "Lakers",
-      "ext": "Jazz",
-      "score_dom": 109,
-      "score_ext": 94
     }
   ],
   "a_venir": [
@@ -628,9 +628,39 @@
       "heure_paris": "02:00",
       "dom": "Bucks",
       "ext": "Thunder"
+    },
+    {
+      "date": "2026-11-29",
+      "heure_paris": "02:30",
+      "dom": "Rockets",
+      "ext": "76ers"
     }
   ],
   "infos": [
+    {
+      "titre": "Portland résiste à Wembanyama",
+      "texte": "Les Trail Blazers ont battu les Spurs 116-111 en NBA Cup, selon The Sports Leader et ESPN, malgré 44 points et 16 rebonds de Victor Wembanyama. Deni Avdija a compté 33 points, 12 rebonds et 7 passes, Damian Lillard 29 points et 7 passes, Sidy Cissoko 16 points. Selon The Sports Leader, Portland, San Antonio, Golden State et les Lakers sont tous à 2-1 dans le groupe C avant la dernière journée, les Spurs en tête à la différence de points. Les Lakers (15-3) prennent seuls la tête de l'Ouest.",
+      "source": {
+        "nom": "The Sports Leader – Trail Blazers 116-111 Spurs (25 nov. 2026)",
+        "url": "https://www.thesportsleader.com/2026/11/25/blazers-overcome-victor-wembanyamas-44-points-topple-spurs/"
+      }
+    },
+    {
+      "titre": "Golden State domine Sacramento",
+      "texte": "Les Warriors ont battu les Kings 129-110 à San Francisco, selon ESPN : De'Anthony Melton a marqué 24 points avec 8 paniers à trois points, Gui Santos 22 points en sortie de banc ; les remplaçants ont inscrit 61 points, leur meilleur total de la saison. Domantas Sabonis (27 points, 10 rebonds) n'a pas suffi aux Kings, derniers de l'Ouest (2-16). Golden State passe à 10-8.",
+      "source": {
+        "nom": "ESPN – Warriors 129-110 Kings (25 nov. 2026)",
+        "url": "https://www.espn.com/nba/recap/_/gameId/401909324"
+      }
+    },
+    {
+      "titre": "Pas de match à Thanksgiving, onze rencontres vendredi",
+      "texte": "Aucun match n'était programmé le jeudi de Thanksgiving, selon le programme de CBS Sports. La NBA reprend dans la nuit de vendredi à samedi avec onze matchs, dont Lakers-Spurs (3h30, heure de Paris) entre les deux premiers de l'Ouest et Heat-Knicks (1h) ; cinq matchs suivent samedi, dont 76ers-Rockets (2h30 dans la nuit de samedi à dimanche).",
+      "source": {
+        "nom": "CBS Sports – Programme NBA 2026-27",
+        "url": "https://www.cbssports.com/nba/schedule/"
+      }
+    },
     {
       "titre": "Premier triple-double de LeBron James avec Philadelphie",
       "texte": "Les 76ers ont battu le Heat 111-104 mercredi en NBA Cup, selon Local 10 (AP) : LeBron James a réussi son premier triple-double sous le maillot de Philadelphie (25 points, 12 passes, 10 rebonds) et Tyrese Maxey a marqué 30 points. Miami, qui restait sur sept victoires, voit sa série s'arrêter, selon Hot Hot Hoops. Philadelphie (15-4) conforte sa première place à l'Est.",
@@ -670,17 +700,45 @@
         "nom": "Parlae – Nets 104-97 Bucks (25 nov. 2026)",
         "url": "https://parlae.io/news/nba/2026/11/brooklyn-nets-beat-milwaukee-bucks-104-97-november-25"
       }
-    },
-    {
-      "titre": "Dallas corrige Denver",
-      "texte": "Les Mavericks ont battu les Nuggets 120-101 à Denver dans la nuit de mardi à mercredi en NBA Cup, selon Land of Basketball, après avoir mené 58-39 à la pause ; Cooper Flagg a délivré 12 passes et Caleb Martin réussi 5 interceptions. Dallas (11-7) enchaîne une quatrième victoire, Denver tombe à 10-6.",
-      "source": {
-        "nom": "Land of Basketball – résumé du 24 novembre 2026",
-        "url": "https://www.landofbasketball.com/nba_daily_summary/20261124.htm"
-      }
     }
   ],
   "sources": [
+    {
+      "nom": "The Sports Leader – Trail Blazers 116-111 Spurs (25 nov. 2026)",
+      "url": "https://www.thesportsleader.com/2026/11/25/blazers-overcome-victor-wembanyamas-44-points-topple-spurs/"
+    },
+    {
+      "nom": "ESPN – Trail Blazers 116-111 Spurs (25 nov. 2026)",
+      "url": "https://www.espn.com/nba/game/_/gameId/401909325/spurs-trail-blazers"
+    },
+    {
+      "nom": "VAVEL – Spurs 111-116 Trail Blazers (25 nov. 2026)",
+      "url": "https://www.vavel.com/en-us/nba/2026/11/25/1280795-spurs-vs-trail-blazers-live-score-updates-stats-and-nba-cup-play-by-play.html"
+    },
+    {
+      "nom": "ESPN – Warriors 129-110 Kings (25 nov. 2026)",
+      "url": "https://www.espn.com/nba/recap/_/gameId/401909324"
+    },
+    {
+      "nom": "Parlae – Warriors 129-110 Kings (25 nov. 2026)",
+      "url": "https://parlae.io/news/nba/2026/11/golden-state-warriors-beat-sacramento-kings-129-110-november-25"
+    },
+    {
+      "nom": "FOX Sports – Classement NBA 2026-27 par conférence",
+      "url": "https://www.foxsports.com/nba/standings"
+    },
+    {
+      "nom": "CBS Sports – Programme NBA 2026-27",
+      "url": "https://www.cbssports.com/nba/schedule/"
+    },
+    {
+      "nom": "CBS Sports – Programme NBA du 28 novembre 2026",
+      "url": "https://www.cbssports.com/nba/schedule/20261128/"
+    },
+    {
+      "nom": "Basketball-Reference – statistiques par match 2026-27",
+      "url": "https://www.basketball-reference.com/leagues/NBA_2027_per_game.html"
+    },
     {
       "nom": "Local 10 (AP) – 76ers 111-104 Heat (25 nov. 2026)",
       "url": "https://www.local10.com/sports/2026/11/25/lebron-james-has-his-1st-triple-double-for-the-76ers-in-a-win-over-the-heat/"
@@ -736,106 +794,6 @@
     {
       "nom": "Land of Basketball – résumé du 24 novembre 2026",
       "url": "https://www.landofbasketball.com/nba_daily_summary/20261124.htm"
-    },
-    {
-      "nom": "NBC Washington – Celtics 131-116 Wizards (24 nov. 2026)",
-      "url": "https://www.nbcwashington.com/news/sports/tatum-scores-41-to-help-celtics-snap-4-game-skid-with-a-131-116-win-over-wizards/4187820/"
-    },
-    {
-      "nom": "ESPN – Celtics 131-116 Wizards (24 nov. 2026)",
-      "url": "https://www.espn.com/nba/recap?gameId=401909315"
-    },
-    {
-      "nom": "ESPN – Pistons 104-86 Magic (24 nov. 2026)",
-      "url": "https://www.espn.com/nba/boxscore/_/gameId/401909314"
-    },
-    {
-      "nom": "Yahoo Sports – Pistons-Magic, Cunningham forfait",
-      "url": "https://sports.yahoo.com/nba/articles/detroit-pistons-dazzle-magic-despite-024107994.html"
-    },
-    {
-      "nom": "NBA.com – NBA Cup, direct du 24 novembre 2026",
-      "url": "https://www.nba.com/news/emirates-nba-cup-2026-live-updates-november-24"
-    },
-    {
-      "nom": "Land of Basketball – résumé du 23 novembre 2026",
-      "url": "https://www.landofbasketball.com/nba_daily_summary/20261123.htm"
-    },
-    {
-      "nom": "ESPN – Bucks 116-111 Raptors",
-      "url": "https://www.espn.com/nba/game/_/gameId/401910039/bucks-raptors"
-    },
-    {
-      "nom": "Yahoo Sports – Bucks-Raptors",
-      "url": "https://sports.yahoo.com/nba/milwaukee-bucks-toronto-raptors-2026112328/"
-    },
-    {
-      "nom": "NBA.com – Trail Blazers 128-111 76ers",
-      "url": "https://www.nba.com/watch/video/game-recap-trail-blazers-128-76ers-111-nov-23?plsrc=nba&collection=2026-27-game-recaps"
-    },
-    {
-      "nom": "VAVEL – Trail Blazers 128-111 76ers",
-      "url": "https://www.vavel.com/en-us/nba/2026/11/23/1280405-trail-blazers-vs-76ers-live-score-nba.html"
-    },
-    {
-      "nom": "Daily Thunder – Pacers 125-120 Thunder",
-      "url": "https://www.dailythunder.com/scoreboard-0022600289-thunder-pacers/"
-    },
-    {
-      "nom": "VAVEL – Thunder 120-125 Pacers",
-      "url": "https://www.vavel.com/en-us/nba/2026/11/23/1280459-thunder-vs-pacers-live-score-updates-stats-and-nba-regular-season-play-by-play.html"
-    },
-    {
-      "nom": "ESPN – Timberwolves 142-116 Nets",
-      "url": "https://www.espn.co.uk/nba/game?gameId=401910040"
-    },
-    {
-      "nom": "Yahoo Sports – Grizzlies 117-111 Hornets",
-      "url": "https://sports.yahoo.com/articles/final-grizzlies-117-hornets-111-031858004.html"
-    },
-    {
-      "nom": "Yahoo Sports – Bulls 122-108 Cavaliers",
-      "url": "https://sports.yahoo.com/articles/cavs-lose-122-108-bulls-032606188.html"
-    },
-    {
-      "nom": "Crescent City Sports – Suns 123-119 Pelicans (a.p.)",
-      "url": "https://crescentcitysports.com/pelicans-fall-short-to-suns-in-overtime/"
-    },
-    {
-      "nom": "KSAT – Wembanyama et Fox forfaits",
-      "url": "https://www.ksat.com/sports/2026/11/24/spurs-rule-out-wembanyama-fox-for-game-at-kings/"
-    },
-    {
-      "nom": "ESPN – Spurs-Kings (24 nov. 2026)",
-      "url": "https://www.espn.com/nba/game/_/gameId/401910045"
-    },
-    {
-      "nom": "theScore – Hawks 107-97 Pistons",
-      "url": "https://beta.thescore.com/nba/event/2462920"
-    },
-    {
-      "nom": "theScore – Heat 123-113 Thunder",
-      "url": "https://beta.thescore.com/nba/event/2462921"
-    },
-    {
-      "nom": "theScore – Nuggets 151-145 Bulls",
-      "url": "https://beta.thescore.com/nba/event/2462922"
-    },
-    {
-      "nom": "theScore – Mavericks 116-114 Jazz",
-      "url": "https://beta.thescore.com/nba/event/2462923"
-    },
-    {
-      "nom": "theScore – Wizards 116-96 Magic",
-      "url": "https://beta.thescore.com/nba/event/2462924"
-    },
-    {
-      "nom": "theScore – Knicks 113-106 Pacers",
-      "url": "https://beta.thescore.com/nba/event/2462925"
-    },
-    {
-      "nom": "theScore – Warriors 88-87 Celtics",
-      "url": "https://beta.thescore.com/nba/event/2462926"
     }
   ]
 }

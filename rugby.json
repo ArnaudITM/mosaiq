@@ -1,6 +1,6 @@
 {
   "top14": {
-    "maj": "après la 9e journée (saison 2026-2027) – pas de journée le week-end des 21-22 novembre (Championnat des nations), reprise le 28 novembre ; classement inchangé au 26 novembre (aucune journée jouée depuis la 9e), non revérifié en ligne",
+    "maj": "après la 9e journée (7-8 novembre, saison 2026-2027) – aucune journée de Top 14 les week-ends des 14-15 et 21-22 novembre (Championnat des nations) ; classement vérifié le 27 novembre sur RugbyPass (points) ; reprise avec la 10e journée les 28-29 novembre, programme et horaires confirmés par AllRugby (arbitres désignés)",
     "classement": [
       {
         "pos": 1,
@@ -102,7 +102,7 @@
       }
     ],
     "prochaine": {
-      "journee": "10e journée (reprise après le Championnat des nations)",
+      "journee": "10e journée (reprise après le Championnat des nations, 28-29 novembre)",
       "matchs": [
         {
           "date": "samedi 28 novembre, 14h30",
@@ -188,12 +188,28 @@
         "heure_paris": "17h40",
         "dom": "France",
         "ext": "Afrique du Sud",
-        "lieu": "Allianz Stadium, Twickenham (Londres) – finale du Championnat des nations"
+        "lieu": "Allianz Stadium, Twickenham (Londres) – finale du Championnat des nations (TF1)"
       }
     ],
-    "texte": "Le XV de France a battu l'Argentine 45-17 samedi au Stade de France, avec sept essais dont un doublé de Kalvin Gourgues, et le bonus offensif dès la 65e minute, selon Vibrez Rugby et Vavel. Premiers du groupe Nord, les Bleus affronteront l'Afrique du Sud, première du groupe Sud, en finale du Championnat des nations le dimanche 29 novembre à Twickenham (17h40, heure de Paris), selon Sky Sports, après leur victoire 21-19 contre les Springboks le 13 novembre. Samedi, l'Angleterre a battu la Nouvelle-Zélande 37-12 et l'Irlande l'Afrique du Sud 20-17, selon Sky Sports."
+    "texte": "La tournée d'automne n'est pas terminée : le XV de France dispute dimanche 29 novembre à Twickenham (17h40, heure de Paris, sur TF1) la finale du premier Championnat des nations face à l'Afrique du Sud, selon Presse 83, après avoir battu les Springboks 21-19 le 13 novembre au Stade de France. Les Bleus se sont qualifiés en battant l'Argentine 45-17 le 21 novembre, avec sept essais dont un doublé de Kalvin Gourgues et le bonus offensif, selon Vibrez Rugby. Grégory Alldritt est forfait (mollet) tandis que Thomas Ramos et Oscar Jegou font leur retour, selon Presse 83 ; la composition officielle n'était pas annoncée jeudi soir. Le Finals Weekend s'ouvre vendredi avec Italie-Fidji et Irlande-Australie, selon Sky Sports."
   },
   "infos": [
+    {
+      "titre": "Finale : Alldritt forfait, Ramos et Jegou de retour",
+      "texte": "Grégory Alldritt, blessé au mollet, manquera la finale du Championnat des nations face à l'Afrique du Sud dimanche à Twickenham, tandis que Thomas Ramos, éloigné environ deux mois par une blessure aux ischio-jambiers, et Oscar Jegou font leur retour, selon Presse 83. La composition officielle n'était pas connue jeudi soir ; le match compte aussi pour le Challenge des hémisphères.",
+      "source": {
+        "nom": "Presse 83 – France-Afrique du Sud, une finale pour un premier titre (27 nov. 2026)",
+        "url": "https://presse83.fr/2026/11/27/france-afrique-du-sud-une-finale-pour-un-premier-titre/france-monde/nicolas-dupre/"
+      }
+    },
+    {
+      "titre": "Top 14 : reprise samedi avec Lyon-Toulouse",
+      "texte": "Le Top 14 reprend samedi 28 novembre avec la 10e journée, ouverte par Bordeaux-Bègles-Montpellier à 14h30 ; le leader toulousain se déplace à Lyon à 21h (arbitre : Thibault Santamaria) et Clermont-Toulon clôt la journée dimanche à 21h05, selon AllRugby.",
+      "source": {
+        "nom": "AllRugby – arbitres de la 10e journée du Top 14 (28-29 nov. 2026)",
+        "url": "https://www.allrugby.com/news/top-14-2027-j10-arbitres-3914.html"
+      }
+    },
     {
       "titre": "42 joueurs pour préparer la finale",
       "texte": "Fabien Galthié a retenu un groupe de 42 joueurs pour préparer la finale du Championnat des nations face à l'Afrique du Sud, dimanche à Twickenham, selon Rugby-Transferts : Thomas Ramos, revenu de blessure, et Oscar Jegou (côtes) réintègrent le groupe, Grégory Alldritt est absent en raison d'une gêne physique et Jean-Baptiste Gros, forfait contre l'Argentine, est conservé dans l'espoir d'un rétablissement.",
@@ -233,17 +249,21 @@
         "nom": "itsrugby.fr",
         "url": "https://itsrugby.fr/top-14-j9-2026-2027-vannes-bat-ubb-pau-perpignan-resultats-classement/"
       }
-    },
-    {
-      "titre": "Toulouse garde la tête",
-      "texte": "Vainqueur de Clermont (28-18), le Stade Toulousain reste en tête du Top 14 avec 32 points avant la pause internationale ; le championnat reprend le 28 novembre.",
-      "source": {
-        "nom": "itsrugby.fr",
-        "url": "https://itsrugby.fr/top-14-j9-2026-2027-vannes-bat-ubb-pau-perpignan-resultats-classement/"
-      }
     }
   ],
   "sources": [
+    {
+      "nom": "Presse 83 – France-Afrique du Sud, une finale pour un premier titre (27 nov. 2026)",
+      "url": "https://presse83.fr/2026/11/27/france-afrique-du-sud-une-finale-pour-un-premier-titre/france-monde/nicolas-dupre/"
+    },
+    {
+      "nom": "AllRugby – arbitres de la 10e journée du Top 14 (28-29 nov. 2026)",
+      "url": "https://www.allrugby.com/news/top-14-2027-j10-arbitres-3914.html"
+    },
+    {
+      "nom": "RugbyPass – bilan de la 9e journée du Top 14 2026-2027",
+      "url": "https://www.rugbypass.com/fr/news/bilan-journee-9-top-14-2026-2027/"
+    },
     {
       "nom": "Rugby-Transferts – groupe du XV de France pour la finale (23 nov. 2026)",
       "url": "https://www.rugby-transferts.com/championnat-des-nations-xv-de-france-le-groupe-pour-la-finale-face-aux-springboks-217548/"

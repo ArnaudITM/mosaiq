@@ -1,56 +1,7 @@
 {
-  "semaine": "26 novembre – 9 décembre 2026",
+  "semaine": "27 novembre – 10 décembre 2026",
   "fuseau": "Heures de Paris (UTC+1). null = heure non confirmée par les sources consultées.",
   "evenements": [
-    {
-      "date": "2026-11-26",
-      "heure": "11:30",
-      "pays": "Royaume-Uni",
-      "type": "banque centrale",
-      "titre": "Rapport sur la stabilité financière de la Banque d'Angleterre",
-      "enjeu": "Évaluation des risques après la hausse des taux de novembre.",
-      "source": {
-        "nom": "Lamera Capital – calendrier économique de novembre 2026",
-        "url": "https://lameracapital.com/market-insights/november-2026-economic-calendar-pound-euro-dollar"
-      }
-    },
-    {
-      "date": "2026-11-26",
-      "heure": "23:59",
-      "pays": "France",
-      "type": "politique",
-      "titre": "Fin du délai de 50 jours laissé au Parlement pour le PLFSS 2027",
-      "enjeu": "Au-delà, le gouvernement peut mettre en œuvre le budget de la Sécurité sociale par ordonnance.",
-      "source": {
-        "nom": "NosParlementaires ; UNCCAS",
-        "url": "https://nosparlementaires.fr/actualites/gel-pensions-senat-1500-euros-reforme-retraites-plfss-2027"
-      }
-    },
-    {
-      "date": "2026-11-26",
-      "heure": null,
-      "pays": "États-Unis",
-      "type": "marchés",
-      "titre": "Thanksgiving : Bourses américaines fermées",
-      "enjeu": "Faibles volumes attendus sur les marchés mondiaux ; séance écourtée vendredi.",
-      "source": {
-        "nom": "LiteFinance – calendrier du 23 au 29 nov. 2026",
-        "url": "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-23112026-29112026/"
-      }
-    },
-    {
-      "date": "2026-11-27",
-      "heure": "00:30",
-      "pays": "Japon",
-      "type": "indicateur",
-      "titre": "Inflation de Tokyo (novembre)",
-      "attendu": "Précédent : +2,8 % sur un an",
-      "enjeu": "Indicateur avancé de l'inflation japonaise avant la réunion de la Banque du Japon en décembre.",
-      "source": {
-        "nom": "LiteFinance – calendrier du 23 au 29 nov. 2026",
-        "url": "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-23112026-29112026/"
-      }
-    },
     {
       "date": "2026-11-27",
       "heure": "08:45",
@@ -80,12 +31,12 @@
       "heure": null,
       "pays": "Monde",
       "type": "matières premières",
-      "titre": "Réunion des sept pays de l'OPEP+ engagés dans les ajustements volontaires (Arabie saoudite, Russie, Irak, Koweït, Kazakhstan, Algérie, Oman)",
-      "attendu": "Le 1er novembre, ils ont maintenu pour décembre leur production au niveau requis de septembre 2026",
-      "enjeu": "Décision sur la production de janvier, alors que le Brent est passé sous 93 dollars le baril sur fond d'offre abondante ; concerne directement l'Algérie, le Nigeria, l'Angola et la Libye.",
+      "titre": "Réunion en ligne de l'OPEP+ (production de janvier et objectifs 2027)",
+      "attendu": "L'alliance envisage de reconduire ses quotas actuels jusqu'en janvier, selon Wisevoter (d'après la presse spécialisée) ; le 1er novembre, les pays engagés dans les ajustements volontaires avaient maintenu leur production pour décembre",
+      "enjeu": "Point aussi sur l'audit des capacités de production (DeGolyer & MacNaughton), contesté par l'Irak ; le Brent est remonté au-dessus de 95 dollars le 26/11 selon Trading Economics. Concerne directement l'Algérie, le Nigeria, l'Angola et la Libye.",
       "source": {
-        "nom": "OPEP – communiqué du 1er novembre 2026",
-        "url": "https://www.opec.org/pr-detail/2033620-1-november-2026.html"
+        "nom": "Wisevoter (26/11/2026) ; OPEP – communiqué du 1er novembre 2026",
+        "url": "https://wisevoter.com/world/2026/11/26/opec-plus-weighs-rolling-over-oil-quotas-january"
       }
     },
     {
@@ -331,15 +282,59 @@
         "nom": "Business Recorder",
         "url": "https://www.brecorder.com/news/40448406/kenya-central-bank-to-hold-next-interest-rate-setting-meeting-on-december-9"
       }
+    },
+    {
+      "date": "2026-12-10",
+      "heure": "09:30",
+      "pays": "Suisse",
+      "type": "banque centrale",
+      "titre": "Décision de politique monétaire de la Banque nationale suisse (BNS)",
+      "enjeu": "Dernière décision trimestrielle de l'année, au lendemain de celle de la Fed ; conférence de presse à 10 h.",
+      "source": {
+        "nom": "Admiral Markets – décisions des banques centrales en décembre 2026",
+        "url": "https://admiralmarkets.com/analytics/traders-blog/central-bank-decisions-december-2026-dates-times"
+      }
+    },
+    {
+      "date": "2026-12-10",
+      "heure": "14:30",
+      "pays": "États-Unis",
+      "type": "indicateur",
+      "titre": "Indice des prix à la consommation de novembre (BLS)",
+      "enjeu": "Publié au lendemain de la décision de la Fed du 9 décembre.",
+      "source": {
+        "nom": "Bureau of Labor Statistics – calendrier de décembre 2026",
+        "url": "https://www.bls.gov/schedule/2026/12_sched_list.htm"
+      }
+    },
+    {
+      "date": "2026-12-10",
+      "heure": null,
+      "pays": "États-Unis",
+      "type": "entreprises",
+      "titre": "Résultats d'Oracle, Broadcom et Costco (dates estimées)",
+      "enjeu": "Oracle et Broadcom, très exposés aux investissements dans l'IA, après les doutes qui ont fait chuter les valeurs technologiques en novembre.",
+      "source": {
+        "nom": "FinanceCalendar – décembre 2026",
+        "url": "https://www.financecalendar.com/events/month/2026-12/"
+      }
     }
   ],
   "hors_fenetre": [
     {
-      "date": "2026-12-10",
-      "titre": "Indice des prix à la consommation américain de novembre (BLS, 14 h 30 heure de Paris)",
+      "date": "2026-12-14/15",
+      "titre": "Sommet du G20 à Miami (Doral, Floride)",
       "source": {
-        "nom": "Bureau of Labor Statistics – calendrier de décembre 2026",
-        "url": "https://www.bls.gov/schedule/2026/12_sched_list.htm"
+        "nom": "Wikipédia – sommet du G20 de 2026",
+        "url": "https://en.wikipedia.org/wiki/2026_G20_Miami_summit"
+      }
+    },
+    {
+      "date": "2026-12-17",
+      "titre": "Décisions de la BCE (14 h 15) et de la Banque d'Angleterre (13 h) ; Banque du Japon le 18 décembre",
+      "source": {
+        "nom": "Admiral Markets – décisions des banques centrales en décembre 2026",
+        "url": "https://admiralmarkets.com/analytics/traders-blog/central-bank-decisions-december-2026-dates-times"
       }
     },
     {
@@ -367,5 +362,5 @@
       }
     }
   ],
-  "non_trouve": "Aucun rendez-vous sourcé pour le samedi 28 novembre, les samedi 5, dimanche 6 et lundi 7 décembre (FinanceCalendar n'affiche aucun indicateur les 5 et 6/12 ; le PIB japonais listé au 7/12 tombe le 8/12 à 0 h 50, heure de Paris ; TheStreet aucun résultat d'entreprise le 7/12). Rendez-vous du 25/11 retirés (passés). Pour respecter la limite de trois rendez-vous par jour, ont été écartés notamment : PMI manufacturier Caixin/RatingDog chinois (1er/12), PMI manufacturiers définitifs mondiaux (1er/12), inscriptions au chômage américaines (3/12), balance commerciale américaine (8/12), décision de la Banque de réserve de Nouvelle-Zélande et inflation chinoise (9/12 vers 2 h, heure de Paris), ventes de logements anciens et résultats d'Adobe (9/12, date à confirmer)."
+  "non_trouve": "Aucun rendez-vous sourcé pour le samedi 28 novembre et les samedi 5, dimanche 6 et lundi 7 décembre (FinanceCalendar n'affiche aucun indicateur les 5 et 6/12 ; le PIB japonais listé au 7/12 heure de New York tombe le 8/12 à 0 h 50, heure de Paris ; aucune élection répertoriée sur la période). Rendez-vous du 26/11 retirés (passés) ; l'inflation de Tokyo (27/11, 0 h 30) retirée, déjà publiée à l'heure de l'édition. Pour respecter la limite de trois rendez-vous par jour, ont été écartés notamment : PMI manufacturier Caixin/RatingDog chinois (1er/12), PMI manufacturiers définitifs mondiaux (1er/12), inscriptions au chômage américaines (3/12 et 10/12), balance commerciale américaine (8/12), décision de la Banque de réserve de Nouvelle-Zélande et inflation chinoise (9/12 vers 2 h, heure de Paris), ventes de logements anciens et résultats d'Adobe (9/12, date à confirmer). Aucune réunion de la BCE dans la fenêtre (prochaine décision le 17/12)."
 }

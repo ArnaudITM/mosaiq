@@ -1,5 +1,5 @@
 {
-  "maj": "26 novembre 2026 – aucun Grand Prix depuis Las Vegas (prochaine manche le 29 novembre au Qatar) : classements inchangés après la manche 21/23 (22 novembre), calculés par Mosaiq à partir du résultat publié par Sky Sports et concordants avec ESPN. Russell et Norris à égalité (264), départage non vérifié sur formula1.com. GP du Qatar (29 novembre) : horaires selon Formula1.com (sans sprint), enjeux selon Speedweek ; puis Abu Dhabi (6 décembre).",
+  "maj": "27 novembre 2026 – aucun Grand Prix depuis Las Vegas (manche 21/23, 22 novembre) : classements inchangés, calculés par Mosaiq à partir du résultat publié par Sky Sports et concordants avec ESPN. Russell et Norris à égalité (264), départage non vérifié sur formula1.com. GP du Qatar : programme vérifié sur Formula1.com (EL1 vendredi 27 à 14h30, EL2 à 18h, EL3 samedi 28 à 15h30, qualifications à 19h, course dimanche 29 à 17h, heures de Paris, sans sprint) ; conférence de presse du jeudi selon la transcription de la FIA. Puis Abu Dhabi (6 décembre).",
   "pilotes": [
     {
       "pos": 1,
@@ -245,7 +245,7 @@
       "fait": true
     },
     {
-      "date": "29 novembre 2026 (course 17h, heure de Paris ; qualifications samedi 28 à 19h)",
+      "date": "29 novembre 2026 (course 17h, heure de Paris ; essais libres vendredi 27 à 14h30 et 18h, samedi 28 à 15h30 ; qualifications samedi 28 à 19h)",
       "gp": "Grand Prix du Qatar",
       "circuit": "Lusail International Circuit",
       "fait": false
@@ -257,8 +257,8 @@
       "fait": false
     }
   ],
-  "titre": "Prochaine manche : le Grand Prix du Qatar, dimanche 29 novembre à Lusail (57 tours de 5,419 km, départ 17h heure de Paris, sans sprint), selon Formula1.com. Kimi Antonelli et Mercedes étant déjà titrés, l'enjeu porte sur la 2e place : Max Verstappen (304 points), vainqueur à Las Vegas, compte 37 points d'avance sur Lewis Hamilton (267), George Russell et Lando Norris étant à égalité (264), selon Speedweek. Chez les constructeurs, McLaren est à 9 points de Red Bull pour la 3e place.",
-  "francais": "Pierre Gasly (Alpine) a pris la 5e place à Las Vegas, devant son coéquipier Franco Colapinto (6e), une récolte de 18 points pour Alpine, selon Sky Sports ; il compte désormais 52 points (10e). Isack Hadjar (Red Bull), 3e après le départ et à la lutte avec Verstappen, a été contraint de s'arrêter au 26e tour sur une rupture d'aileron avant et termine 14e, hors des points, selon Racer ; il reste 8e du championnat (122 pts). Esteban Ocon (Haas) ne court plus cette saison.",
+  "titre": "Prochaine manche : le Grand Prix du Qatar à Lusail, sans sprint, selon Formula1.com : essais libres ce vendredi 27 novembre à 14h30 et 18h (heure de Paris), troisième séance samedi à 15h30, qualifications samedi à 19h et course dimanche 29 à 17h (57 tours). Kimi Antonelli et Mercedes étant déjà titrés, l'enjeu porte sur la 2e place : Max Verstappen (304 points) compte 37 points d'avance sur Lewis Hamilton (267), George Russell et Lando Norris étant à égalité (264), selon Speedweek. En conférence de presse jeudi, Russell a assumé son accident de Las Vegas : « C'était simplement une erreur de point de freinage », selon la transcription de la FIA.",
+  "francais": "Isack Hadjar (Red Bull), contraint à un arrêt au 26e tour à Las Vegas par une rupture d'aileron avant alors qu'il était 3e, selon Racer (14e à l'arrivée), a expliqué jeudi au Qatar que l'équipe renforçait la pièce : « Je crois vraiment que si j'avais fermé le système deux dixièmes plus tôt, ce ne serait pas arrivé », selon la transcription de la conférence de presse de la FIA ; il est 8e du championnat (122 pts). Pierre Gasly (Alpine), 5e à Las Vegas selon Sky Sports, est 10e avec 52 points. Esteban Ocon (Haas) ne court plus cette saison.",
   "evolution": {
     "gps": [
       "AUS",
@@ -381,7 +381,11 @@
   },
   "sources": [
     {
-      "nom": "Formula1.com – horaires du GP du Qatar 2026",
+      "nom": "FIA – conférence de presse du jeudi, GP du Qatar 2026 (26 nov. 2026)",
+      "url": "https://www.fia.com/news/f1-2026-qatar-grand-prix-thursday-press-conference-transcript"
+    },
+    {
+      "nom": "Formula1.com – horaires du GP du Qatar 2026 (vérifiés le 27 nov.)",
       "url": "https://www.formula1.com/en/latest/article/formula-1-qatar-airways-qatar-grand-prix-2026.3XJyoYSnpJEcuZovstTdcG"
     },
     {

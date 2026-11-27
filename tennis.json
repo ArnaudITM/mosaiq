@@ -1,5 +1,5 @@
 {
-  "maj": "26 novembre 2026 – Coupe Davis : quart de finale Italie-Corée du Sud du 25 novembre (2-1) selon l'ANSA et Il Fogliettone ; Tchéquie-Canada (2-0) du 24 selon CP24 (La Presse canadienne). Classement ATP officiel du 23 novembre 2026 (atptour.com), inchangé (prochaine publication après la Coupe Davis, non vérifiée). Top 20 WTA et Françaises : classement du 16 novembre (non revérifié). Programme de la Final 8 selon Tennis Tour Talk (heures de Paris).",
+  "maj": "27 novembre 2026 – Coupe Davis : quarts de finale du 26 novembre (Grande-Bretagne 2-1 Allemagne, Espagne 2-0 Autriche) selon Tennis Majors et ESPN ; demi-finale Italie-Tchéquie ce vendredi 27 (résultat non connu à la rédaction), Grande-Bretagne-Espagne samedi 28 à 12h selon Tennis Majors. Classement ATP officiel du 23 novembre 2026 (atptour.com), inchangé : pas de nouvelle publication pendant la Coupe Davis. Top 20 WTA et Françaises : classement du 16 novembre (classement de fin d'année, pas de mise à jour trouvée depuis). Programme de la Final 8 selon Tennis Tour Talk et Tennis Majors (heures de Paris).",
   "atp": {
     "date": "23 novembre 2026 (classement officiel ATP)",
     "top": [
@@ -350,7 +350,7 @@
         ]
       }
     ],
-    "groupes_note": "Phase finale à élimination directe entre huit nations ; demi-finale 1 : Tchéquie-Italie (vendredi 27 novembre) ; demi-finale 2 : vainqueur Grande-Bretagne-Allemagne contre vainqueur Autriche-Espagne, selon Tennis Tour Talk. Le Canada et la Corée du Sud sont éliminés. La France n'est pas qualifiée.",
+    "groupes_note": "Phase finale à élimination directe entre huit nations ; demi-finale 1 : Italie-Tchéquie (vendredi 27 novembre, 16h) selon Tennis Tour Talk ; demi-finale 2 : Grande-Bretagne-Espagne (samedi 28 novembre, 12h) selon Tennis Majors. Le Canada, la Corée du Sud, l'Allemagne et l'Autriche sont éliminés. La France n'est pas qualifiée.",
     "qualifies": [
       "Tchéquie",
       "Canada",
@@ -378,20 +378,20 @@
       {
         "date": "26 novembre",
         "matchs": [
-          "Quart de finale : Grande-Bretagne-Allemagne (10h)",
-          "Quart de finale : Autriche-Espagne (pas avant 17h)"
+          "Quart de finale : Grande-Bretagne 2-1 Allemagne",
+          "Quart de finale : Espagne 2-0 Autriche"
         ]
       },
       {
         "date": "27 novembre",
         "matchs": [
-          "Demi-finale 1 : Tchéquie-Italie (16h)"
+          "Demi-finale 1 : Italie-Tchéquie (16h)"
         ]
       },
       {
         "date": "28 novembre",
         "matchs": [
-          "Demi-finale 2 (12h)"
+          "Demi-finale 2 : Grande-Bretagne-Espagne (12h)"
         ]
       },
       {
@@ -402,15 +402,17 @@
       }
     ],
     "resultats": [
+      "26 novembre – Quart de finale : Espagne 2-0 Autriche (Mérida bat Schwärzler 6-4, 6-4 ; Jódar bat Rodionov 2-6, 6-0, 6-1 ; double non joué)",
+      "26 novembre – Quart de finale : Grande-Bretagne 2-1 Allemagne (Norrie bat Struff 6-3, 3-6, 6-2 ; Zverev bat Fery 6-3, 6-2 ; Patten/Skupski battent Krawietz/Pütz 6-2, 7-6 (6))",
       "25 novembre – Quart de finale : Italie 2-1 Corée du Sud (Musetti bat Hong Seong-chan 6-0, 7-6 (5) ; Kwon Soon-woo bat Cobolli 3-6, 7-6 (3), 7-6 (5) ; Berrettini/Vavassori battent Chung Hyeon/Kwon Soon-woo 7-6 (2), 7-6 (11))",
       "24 novembre – Quart de finale : Tchéquie 2-0 Canada (Macháč bat Draxl 6-2, 3-6, 6-2 ; Lehečka bat Auger-Aliassime 7-6 (4), 6-2 ; double non joué)"
     ],
-    "texte": "L'Italie, double tenante du titre, s'est qualifiée mercredi pour les demi-finales de la Coupe Davis en battant la Corée du Sud 2-1 à Bologne, selon l'ANSA : Lorenzo Musetti a battu Hong Seong-chan 6-0, 7-6 (5), Kwon Soon-woo a égalisé face à Flavio Cobolli en trois sets, puis la paire Matteo Berrettini-Andrea Vavassori a remporté le double décisif 7-6 (2), 7-6 (11), selon Il Fogliettone. Les Italiens affronteront la Tchéquie, qui a éliminé le Canada (2-0), vendredi 27 novembre ; Grande-Bretagne-Allemagne et Autriche-Espagne se jouent jeudi, et la finale est prévue dimanche 29 novembre à 15h, selon Tennis Tour Talk."
+    "texte": "La Grande-Bretagne et l'Espagne se sont qualifiées jeudi pour les demi-finales de la Coupe Davis à Bologne, selon Tennis Majors. Les Britanniques ont battu l'Allemagne 2-1 : Cameron Norrie a dominé Jan-Lennard Struff (6-3, 3-6, 6-2), Alexander Zverev a égalisé face à Arthur Fery (6-3, 6-2), puis Henry Patten et Neal Skupski ont remporté le double décisif contre Kevin Krawietz et Tim Pütz (6-2, 7-6 (6)). Sans Carlos Alcaraz, l'Espagne a battu l'Autriche 2-0 grâce à Daniel Mérida (6-4, 6-4 face à Joel Schwärzler) et Rafael Jódar, vainqueur de Jurij Rodionov 2-6, 6-0, 6-1, selon ESPN. L'Italie, double tenante du titre, affronte la Tchéquie ce vendredi à 16h selon Tennis Tour Talk, Grande-Bretagne-Espagne est programmé samedi à 12h selon Tennis Majors, et la finale dimanche 29 novembre à 15h."
   },
   "calendrier": [
     {
       "dates": "24-29 novembre 2026",
-      "nom": "Coupe Davis – Final 8 (quarts : Tchéquie 2-0 Canada le 24, Italie 2-1 Corée du Sud le 25, Grande-Bretagne-Allemagne et Autriche-Espagne le 26 ; demi-finale Tchéquie-Italie le 27 ; finale le 29 novembre)",
+      "nom": "Coupe Davis – Final 8 (quarts : Tchéquie 2-0 Canada, Italie 2-1 Corée du Sud, Grande-Bretagne 2-1 Allemagne, Espagne 2-0 Autriche ; demi-finales Italie-Tchéquie le 27 et Grande-Bretagne-Espagne le 28 ; finale le 29 novembre)",
       "lieu": "Bologne (Italie)",
       "type": "Coupe Davis"
     },
@@ -428,6 +430,22 @@
     }
   ],
   "infos": [
+    {
+      "titre": "Coupe Davis : Jódar et Mérida qualifient l'Espagne sans Alcaraz",
+      "texte": "L'Espagne a battu l'Autriche 2-0 jeudi à Bologne sans faire jouer Carlos Alcaraz, selon ESPN : Daniel Mérida a battu Joel Schwärzler 6-4, 6-4, puis Rafael Jódar s'est imposé face à Jurij Rodionov 2-6, 6-0, 6-1, le double n'étant pas disputé. « Je suis super content d'être dans cette position », a déclaré Jódar, cité par ESPN. Les Espagnols affrontent la Grande-Bretagne samedi à 12h, selon Tennis Majors.",
+      "source": {
+        "nom": "Tennis Majors – Espagne 2-0 Autriche (26 nov. 2026)",
+        "url": "https://www.tennismajors.com/others-news/davis-cup-news/jodar-and-merida-send-spain-into-davis-cup-semi-finals-against-great-britain-867900.html"
+      }
+    },
+    {
+      "titre": "Coupe Davis : la Grande-Bretagne élimine Zverev et l'Allemagne",
+      "texte": "La Grande-Bretagne a battu l'Allemagne 2-1 jeudi en quart de finale, selon Tennis Majors : Cameron Norrie a battu Jan-Lennard Struff 6-3, 3-6, 6-2, Alexander Zverev, n°1 mondial, a égalisé face à Arthur Fery (6-3, 6-2), avant la victoire d'Henry Patten et Neal Skupski en double face à Kevin Krawietz et Tim Pütz (6-2, 7-6 (6)).",
+      "source": {
+        "nom": "Tennis Majors – Grande-Bretagne 2-1 Allemagne (26 nov. 2026)",
+        "url": "https://www.tennismajors.com/others-news/davis-cup-news/jodar-and-merida-send-spain-into-davis-cup-semi-finals-against-great-britain-867900.html"
+      }
+    },
     {
       "titre": "Coupe Davis : l'Italie sauvée par son double",
       "texte": "L'Italie a battu la Corée du Sud 2-1 mercredi à Bologne et retrouvera la Tchéquie vendredi en demi-finale, selon l'ANSA. Lorenzo Musetti a ouvert le score (6-0, 7-6 (5) face à Hong Seong-chan), avant la défaite de Flavio Cobolli contre Kwon Soon-woo en trois sets ; Matteo Berrettini et Andrea Vavassori ont remporté le double décisif contre Chung Hyeon et Kwon 7-6 (2), 7-6 (11), selon Il Fogliettone.",
@@ -491,41 +509,25 @@
         "nom": "ESPN – Medvedev bat Tiafoe",
         "url": "https://www.espn.com/tennis/story/_/id/50544020/daniil-medvedev-defeats-frances-tiafoe-faces-alexander-zverev-atp-finals-semis"
       }
-    },
-    {
-      "titre": "Alcaraz qualifié, Tiafoe élimine Cobolli",
-      "texte": "Carlos Alcaraz a battu Daniil Medvedev 6-2, 6-4 mercredi et reste invaincu à Turin, selon l'ATP. Frances Tiafoe a ensuite battu Flavio Cobolli 7-6 (6), 6-0, sa première victoire dans l'épreuve, éliminant l'Italien devant son public ; selon Tennis Majors, Alcaraz termine 1er du groupe Ivan Lendl et le vainqueur de Medvedev-Tiafoe, vendredi, prendra la 2e place.",
-      "source": {
-        "nom": "Tennis Majors",
-        "url": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/tiafoe-crushes-cobolli-in-front-on-italian-crowd-alcaraz-qualified-as-group-winner-at-the-atp-finals-867257.html"
-      }
-    },
-    {
-      "titre": "Fils éliminé par Zverev",
-      "texte": "Arthur Fils a perdu 6-4, 7-6 (6) face à Alexander Zverev jeudi soir et quitte les ATP Finals avec une victoire et deux défaites ; mené 6-1 dans le jeu décisif, il a sauvé cinq balles de match, selon Tennis Majors. Ben Shelton, qui avait battu Fils dimanche, se qualifie et affrontera Carlos Alcaraz en demi-finale samedi.",
-      "source": {
-        "nom": "Tennis Majors – Fils éliminé, Shelton en demi-finales",
-        "url": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/fils-eliminated-shelton-into-the-atp-finals-semi-finals-after-zverev-takes-the-first-set-867361.html"
-      }
-    },
-    {
-      "titre": "Zverev en demi-finale, Fils relancé",
-      "texte": "Alexander Zverev a battu Ben Shelton 6-2, 7-6 (4) mardi à Turin pour se qualifier pour le dernier carré, en remportant 88 % des points derrière sa première balle, selon Sky Sports ; l'Allemand mène 7-0 dans ses confrontations avec l'Américain. Arthur Fils a battu Rafael Jódar 4-6, 6-2, 6-2 et jouera sa qualification face à Zverev jeudi.",
-      "source": {
-        "nom": "Sky Sports",
-        "url": "https://www.skysports.com/tennis/news/13613313/atp-finals-alexander-zverev-books-place-in-semi-finals-after-brushing-aside-ben-shelton-arthur-fils-beats-rafael-jodar"
-      }
-    },
-    {
-      "titre": "Andreeva 2e mondiale, Zverev toujours n°1",
-      "texte": "Au classement WTA du 16 novembre publié par Tennis Explorer, Mirra Andreeva monte à la 2e place (7 806 points) derrière Elena Rybakina (8 099). À l'ATP, Alexander Zverev (9 320 points) devance Jannik Sinner (7 950), qui a perdu les points de son titre de 2025 à Turin, et Carlos Alcaraz (6 100) ; Arthur Fils reste 7e.",
-      "source": {
-        "nom": "Tennis Explorer – classements du 16.11.2026",
-        "url": "https://www.tennisexplorer.com/ranking/atp-men/"
-      }
     }
   ],
   "sources": [
+    {
+      "nom": "Tennis Majors – Espagne 2-0 Autriche, Grande-Bretagne 2-1 Allemagne (26 nov. 2026)",
+      "url": "https://www.tennismajors.com/others-news/davis-cup-news/jodar-and-merida-send-spain-into-davis-cup-semi-finals-against-great-britain-867900.html"
+    },
+    {
+      "nom": "ESPN – l'Espagne bat l'Autriche sans Alcaraz (26 nov. 2026)",
+      "url": "https://www.espn.com/tennis/story/_/id/50606263/spain-beats-austria-set-davis-cup-semifinal-vs-britain"
+    },
+    {
+      "nom": "The Sports Encounter – Grande-Bretagne 2-1 Allemagne (26 nov. 2026)",
+      "url": "https://thesportsencounter.com/2026/11/26/davis-cup-britain-germany-patten-skupski-norrie-semifinal/"
+    },
+    {
+      "nom": "WTA – bilan des classements de fin d'année 2026",
+      "url": "https://www.wtatennis.com/news/4610892/the-2026-year-end-rankings-wrap-milestones-movers-records-and-more"
+    },
     {
       "nom": "ANSA – Coupe Davis : Italie 2-1 Corée du Sud (25 nov. 2026)",
       "url": "https://www.ansa.it/sito/notizie/sport/2026/11/25/coppa-davis-litalia-soffre-ma-supera-la-corea-e-conquista-la-semifinale_2c31863d-a5dc-40ff-beac-95d4f18be0f3.html"

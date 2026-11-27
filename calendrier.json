@@ -1,5 +1,5 @@
 {
- "maj": "26 novembre 2026",
+ "maj": "27 novembre 2026",
  "competitions": [
   {
    "id": "ligue-1",
@@ -137,12 +137,12 @@
      "ext": "Man City"
     }
    ],
-   "note": "Horaires de la 12e journée convertis en heure de Paris à partir de ceux publiés par legz.com.au (heure britannique)."
+   "note": "Horaires convertis en heure de Paris à partir de ceux publiés par la Premier League (heure britannique)."
   },
   {
    "id": "liga",
    "nom": "Liga",
-   "journee": "14e journée (27-30 novembre)",
+   "journee": "14e journée (27-30 novembre) et match en retard (9 décembre)",
    "matchs": [
     {
      "date": "2026-11-27",
@@ -203,9 +203,15 @@
      "heure": "21:00",
      "dom": "Espanyol",
      "ext": "Getafe"
+    },
+    {
+     "date": "2026-12-09",
+     "heure": "20:00",
+     "dom": "Rayo Vallecano",
+     "ext": "Athletic Bilbao"
     }
    ],
-   "note": "Horaires (heure de Paris) relevés sur Futbol24 ; Real Madrid-Alavés, Celta-Villarreal et Espanyol-Getafe confirmés sur laliga.com."
+   "note": "Horaires (heure de Paris) relevés sur Futbol24 ; Real Madrid-Alavés, Celta-Villarreal et Espanyol-Getafe confirmés sur laliga.com. Rayo-Athletic (8e journée), interrompu à 0-0 à la 25e minute, reprendra le 9 décembre à huis clos à Vallecas pour les 65 minutes restantes, selon Bilbao Hiria."
   },
   {
    "id": "serie-a",
@@ -280,7 +286,7 @@
      "heure": "20:45",
      "dom": "Cagliari",
      "ext": "Milan",
-     "tv": "DAZN / Sky (Italie)"
+     "tv": "DAZN (Italie)"
     }
    ]
   },
@@ -464,234 +470,234 @@
   {
    "id": "ligue-europa",
    "nom": "Ligue Europa",
-   "journee": "5e journée (phase de ligue, jeudi 26 novembre)",
+   "journee": "6e journée (phase de ligue, jeudi 10 décembre)",
    "matchs": [
     {
-     "date": "2026-11-26",
+     "date": "2026-12-10",
      "heure": "18:45",
-     "dom": "Beşiktaş",
-     "ext": "Hapoel Beer Sheva"
-    },
-    {
-     "date": "2026-11-26",
-     "heure": "18:45",
-     "dom": "Celta Vigo",
-     "ext": "Bournemouth"
-    },
-    {
-     "date": "2026-11-26",
-     "heure": "18:45",
-     "dom": "Plzeň",
-     "ext": "Benfica"
-    },
-    {
-     "date": "2026-11-26",
-     "heure": "18:45",
-     "dom": "Dinamo Zagreb",
-     "ext": "Leverkusen"
-    },
-    {
-     "date": "2026-11-26",
-     "heure": "18:45",
-     "dom": "Olympiakos",
-     "ext": "Milan"
-    },
-    {
-     "date": "2026-11-26",
-     "heure": "18:45",
-     "dom": "OM",
-     "ext": "Levski Sofia"
-    },
-    {
-     "date": "2026-11-26",
-     "heure": "18:45",
-     "dom": "Salzbourg",
-     "ext": "Ararat-Armenia"
-    },
-    {
-     "date": "2026-11-26",
-     "heure": "18:45",
-     "dom": "Union Saint-Gilloise",
-     "ext": "Lech Poznań"
-    },
-    {
-     "date": "2026-11-26",
-     "heure": "21:00",
-     "dom": "Sparta Prague",
-     "ext": "AZ Alkmaar"
-    },
-    {
-     "date": "2026-11-26",
-     "heure": "21:00",
-     "dom": "Crystal Palace",
-     "ext": "Real Sociedad"
-    },
-    {
-     "date": "2026-11-26",
-     "heure": "21:00",
-     "dom": "Ferencváros",
-     "ext": "Celje"
-    },
-    {
-     "date": "2026-11-26",
-     "heure": "21:00",
-     "dom": "Juventus",
-     "ext": "Omonia Nicosie"
-    },
-    {
-     "date": "2026-11-26",
-     "heure": "21:00",
-     "dom": "NEC Nimègue",
-     "ext": "Rennes"
-    },
-    {
-     "date": "2026-11-26",
-     "heure": "21:00",
-     "dom": "OFI Crète",
-     "ext": "Anderlecht"
-    },
-    {
-     "date": "2026-11-26",
-     "heure": "21:00",
-     "dom": "OL",
-     "ext": "Lillestrøm"
-    },
-    {
-     "date": "2026-11-26",
-     "heure": "21:00",
-     "dom": "Sunderland",
-     "ext": "Jagiellonia Białystok"
-    },
-    {
-     "date": "2026-11-26",
-     "heure": "21:00",
-     "dom": "Hoffenheim",
+     "dom": "AZ Alkmaar",
      "ext": "Sturm Graz"
     },
     {
-     "date": "2026-11-26",
-     "heure": "21:00",
-     "dom": "Torreense",
+     "date": "2026-12-10",
+     "heure": "18:45",
+     "dom": "Ararat-Armenia",
+     "ext": "NEC Nimègue"
+    },
+    {
+     "date": "2026-12-10",
+     "heure": "18:45",
+     "dom": "Hapoel Beer Sheva",
+     "ext": "Juventus"
+    },
+    {
+     "date": "2026-12-10",
+     "heure": "18:45",
+     "dom": "Jagiellonia Białystok",
+     "ext": "Crystal Palace"
+    },
+    {
+     "date": "2026-12-10",
+     "heure": "18:45",
+     "dom": "OM",
+     "ext": "Celta Vigo"
+    },
+    {
+     "date": "2026-12-10",
+     "heure": "18:45",
+     "dom": "Omonia Nicosie",
      "ext": "Celtic"
+    },
+    {
+     "date": "2026-12-10",
+     "heure": "18:45",
+     "dom": "Anderlecht",
+     "ext": "Hoffenheim"
+    },
+    {
+     "date": "2026-12-10",
+     "heure": "18:45",
+     "dom": "Rennes",
+     "ext": "Dinamo Zagreb"
+    },
+    {
+     "date": "2026-12-10",
+     "heure": "21:00",
+     "dom": "Milan",
+     "ext": "Sunderland"
+    },
+    {
+     "date": "2026-12-10",
+     "heure": "21:00",
+     "dom": "Leverkusen",
+     "ext": "Beşiktaş"
+    },
+    {
+     "date": "2026-12-10",
+     "heure": "21:00",
+     "dom": "Benfica",
+     "ext": "OFI Crète"
+    },
+    {
+     "date": "2026-12-10",
+     "heure": "21:00",
+     "dom": "Bournemouth",
+     "ext": "Plzeň"
+    },
+    {
+     "date": "2026-12-10",
+     "heure": "21:00",
+     "dom": "Lech Poznań",
+     "ext": "Ferencváros"
+    },
+    {
+     "date": "2026-12-10",
+     "heure": "21:00",
+     "dom": "Levski Sofia",
+     "ext": "Lillestrøm"
+    },
+    {
+     "date": "2026-12-10",
+     "heure": "21:00",
+     "dom": "Celje",
+     "ext": "Olympiakos"
+    },
+    {
+     "date": "2026-12-10",
+     "heure": "21:00",
+     "dom": "OL",
+     "ext": "Union Saint-Gilloise"
+    },
+    {
+     "date": "2026-12-10",
+     "heure": "21:00",
+     "dom": "Real Sociedad",
+     "ext": "Torreense"
+    },
+    {
+     "date": "2026-12-10",
+     "heure": "21:00",
+     "dom": "Salzbourg",
+     "ext": "Sparta Prague"
     }
    ],
-   "note": "Programme et horaires (heure de Paris) relevés sur Maxifoot ; 6e journée le jeudi 10 décembre."
+   "note": "Programme et horaires (heure de Paris) relevés sur Maxifoot. 5e journée (26 novembre) : OM-Levski Sofia 1-0, OL-Lillestrøm 0-0, NEC Nimègue-Rennes 3-1."
   },
   {
    "id": "ligue-conference",
    "nom": "Ligue Conférence",
-   "journee": "4e journée (phase de ligue, jeudi 26 novembre)",
+   "journee": "5e journée (phase de ligue, jeudi 10 décembre)",
    "matchs": [
     {
-     "date": "2026-11-26",
+     "date": "2026-12-10",
      "heure": "16:30",
      "dom": "Kairat Almaty",
-     "ext": "Mjällby"
-    },
-    {
-     "date": "2026-11-26",
-     "heure": "18:45",
-     "dom": "Ajax",
-     "ext": "Thoune"
-    },
-    {
-     "date": "2026-11-26",
-     "heure": "18:45",
-     "dom": "Brighton",
      "ext": "Universitatea Craiova"
     },
     {
-     "date": "2026-11-26",
+     "date": "2026-12-10",
      "heure": "18:45",
      "dom": "Saburtalo",
-     "ext": "Getafe"
-    },
-    {
-     "date": "2026-11-26",
-     "heure": "18:45",
-     "dom": "Jablonec",
-     "ext": "Lugano"
-    },
-    {
-     "date": "2026-11-26",
-     "heure": "18:45",
-     "dom": "Kauno Žalgiris",
-     "ext": "Riga"
-    },
-    {
-     "date": "2026-11-26",
-     "heure": "18:45",
-     "dom": "Hearts",
-     "ext": "Monaco"
-    },
-    {
-     "date": "2026-11-26",
-     "heure": "18:45",
-     "dom": "Egnatia",
-     "ext": "Lincoln Red Imps"
-    },
-    {
-     "date": "2026-11-26",
-     "heure": "18:45",
-     "dom": "Pafos",
-     "ext": "Midtjylland"
-    },
-    {
-     "date": "2026-11-26",
-     "heure": "18:45",
-     "dom": "Brann Bergen",
-     "ext": "AGF Aarhus"
-    },
-    {
-     "date": "2026-11-26",
-     "heure": "21:00",
-     "dom": "CSKA Sofia",
-     "ext": "Trabzonspor"
-    },
-    {
-     "date": "2026-11-26",
-     "heure": "21:00",
-     "dom": "Nordsjælland",
-     "ext": "Panathinaïkos"
-    },
-    {
-     "date": "2026-11-26",
-     "heure": "21:00",
-     "dom": "Borac Banja Luka",
-     "ext": "Atalanta"
-    },
-    {
-     "date": "2026-11-26",
-     "heure": "21:00",
-     "dom": "Hajduk Split",
-     "ext": "Saint-Trond"
-    },
-    {
-     "date": "2026-11-26",
-     "heure": "21:00",
-     "dom": "Escaldes",
-     "ext": "Copenhague"
-    },
-    {
-     "date": "2026-11-26",
-     "heure": "21:00",
-     "dom": "La Gantoise",
      "ext": "Étoile rouge de Belgrade"
     },
     {
-     "date": "2026-11-26",
-     "heure": "21:00",
+     "date": "2026-12-10",
+     "heure": "18:45",
+     "dom": "Copenhague",
+     "ext": "Lugano"
+    },
+    {
+     "date": "2026-12-10",
+     "heure": "18:45",
+     "dom": "Getafe",
+     "ext": "Escaldes"
+    },
+    {
+     "date": "2026-12-10",
+     "heure": "18:45",
+     "dom": "Kuopio PS",
+     "ext": "CSKA Sofia"
+    },
+    {
+     "date": "2026-12-10",
+     "heure": "18:45",
+     "dom": "Lincoln Red Imps",
+     "ext": "Midtjylland"
+    },
+    {
+     "date": "2026-12-10",
+     "heure": "18:45",
+     "dom": "Riga",
+     "ext": "Atalanta"
+    },
+    {
+     "date": "2026-12-10",
+     "heure": "18:45",
      "dom": "Fribourg",
+     "ext": "Panathinaïkos"
+    },
+    {
+     "date": "2026-12-10",
+     "heure": "18:45",
+     "dom": "Brann Bergen",
+     "ext": "Braga"
+    },
+    {
+     "date": "2026-12-10",
+     "heure": "18:45",
+     "dom": "Trabzonspor",
+     "ext": "Jablonec"
+    },
+    {
+     "date": "2026-12-10",
+     "heure": "21:00",
+     "dom": "AGF Aarhus",
      "ext": "Twente"
     },
     {
-     "date": "2026-11-26",
+     "date": "2026-12-10",
      "heure": "21:00",
-     "dom": "Braga",
-     "ext": "Kuopio PS"
+     "dom": "Brighton",
+     "ext": "Monaco"
+    },
+    {
+     "date": "2026-12-10",
+     "heure": "21:00",
+     "dom": "Thoune",
+     "ext": "La Gantoise"
+    },
+    {
+     "date": "2026-12-10",
+     "heure": "21:00",
+     "dom": "Hajduk Split",
+     "ext": "Nordsjælland"
+    },
+    {
+     "date": "2026-12-10",
+     "heure": "21:00",
+     "dom": "Hearts",
+     "ext": "Borac Banja Luka"
+    },
+    {
+     "date": "2026-12-10",
+     "heure": "21:00",
+     "dom": "Egnatia",
+     "ext": "Kauno Žalgiris"
+    },
+    {
+     "date": "2026-12-10",
+     "heure": "21:00",
+     "dom": "Mjällby",
+     "ext": "Pafos"
+    },
+    {
+     "date": "2026-12-10",
+     "heure": "21:00",
+     "dom": "Saint-Trond",
+     "ext": "Ajax"
     }
    ],
-   "note": "Programme et horaires (heure de Paris) relevés sur Maxifoot ; 5e journée le jeudi 10 décembre."
+   "note": "Programme et horaires (heure de Paris) relevés sur Maxifoot. 4e journée (26 novembre) : Hearts-Monaco 2-3."
   },
   {
    "id": "selections",
@@ -707,20 +713,12 @@
    "url": "https://www.premierleague.com/en/news/4725574"
   },
   {
-   "nom": "ElDesmarque – Horaires de la 13e journée de Liga (21 oct. 2026)",
-   "url": "https://www.eldesmarque.com/futbol/liga-1a-division/20261021/fechas-horarios-partidos-jornada-13-laliga_18_020499599.html"
-  },
-  {
    "nom": "Fantamaster – Anticipi e posticipi 12ª-19ª giornata (25 sept. 2026)",
    "url": "https://www.fantamaster.it/seriea-anticipi-posticipi-date-orari-programmazione-tv-dalla-12-alla-19-giornata/"
   },
   {
    "nom": "UEFA – Ligue des champions 2026/27 : calendrier de la phase de ligue (4 nov. 2026)",
    "url": "https://fr.uefa.com/uefachampionsleague/news/02a8-217680c70b8d-878c5efa7b92-1000--ligue-des-champions-2026-27-calendrier-et-resultats-de-la/"
-  },
-  {
-   "nom": "FIFPlay – Premier League 2026-27, 11e journée",
-   "url": "https://www.fifplay.com/premier-league-2026-2027-matchday-11/"
   },
   {
    "nom": "FFF – Les grandes dates de l'année 2026 (18 janv. 2026)",
@@ -737,10 +735,6 @@
   {
    "nom": "Ligue 1 – Programmation TV de la 12e journée 2026-2027",
    "url": "https://ligue1.com/fr/articles/l1_article_5843-"
-  },
-  {
-   "nom": "legz.com.au – Premier League 2026-27, 12e journée",
-   "url": "https://www.legz.com.au/epl/fixtures/2026-27/round-12"
   },
   {
    "nom": "LaLiga – Real Madrid-Alavés (14e journée)",
@@ -763,12 +757,16 @@
    "url": "https://m.maxifoot.fr/resultat-ligue-des-champions-phase-groupe-journee-6.htm"
   },
   {
-   "nom": "Maxifoot – Ligue Europa 2026-27, 5e journée (programme)",
-   "url": "https://m.maxifoot.fr/resultat-ligue-europa-phase-groupe-journee-5.htm"
+   "nom": "Maxifoot – Ligue Europa 2026-27, 6e journée (programme)",
+   "url": "https://m.maxifoot.fr/resultat-ligue-europa-phase-groupe-journee-6.htm"
   },
   {
-   "nom": "Maxifoot – Ligue Conférence 2026-27, 4e journée (programme)",
-   "url": "https://m.maxifoot.fr/resultat-ligue-conference-phase-groupe-journee-4.htm"
+   "nom": "Maxifoot – Ligue Conférence 2026-27, 5e journée (programme)",
+   "url": "https://m.maxifoot.fr/resultat-ligue-conference-phase-groupe-journee-5.htm"
+  },
+  {
+   "nom": "Bilbao Hiria – Rayo-Athletic reprendra le 9 décembre à huis clos (29 oct. 2026)",
+   "url": "https://bilbaohiria.com/deportes/rayo-athletic-nueva-fecha-9-diciembre-puerta-cerrada"
   }
  ]
 }
