@@ -1,12 +1,12 @@
 {
-  "maj": "27 novembre 2026, 5h30 – Classements après Packers-Rams (26-13, mercredi), Bears-Lions (39-35) et Eagles-Cowboys (39-38) du jeudi de Thanksgiving, selon Packers.com, ClickOnDetroit et CBS Texas, recoupés avec ESPN. Bills-Chiefs (jeudi soir à Orchard Park) était en cours à la rédaction : 10-10 dans le dernier quart-temps à la dernière mise à jour consultée (WGR 550, 22h56 heure de l'Est) ; non compté, Buffalo reste à 9-1 et Kansas City à 8-2. Égalités (Broncos-Chiefs, Steelers-Browns) non départagées. Leaders statistiques selon ESPN (consultés le 27 novembre), arrêtés après Packers-Rams : les matchs de Thanksgiving n'y sont pas inclus (Jahmyr Gibbs a couru 205 yards jeudi selon ClickOnDetroit). Programme de la fin de la semaine 12 selon ESPN (Pittsburgh-Denver vendredi, puis dimanche et lundi) ; heure de Paris = heure de l'Est + 6 h.",
+  "maj": "28 novembre 2026, 6h – Classements après Bills-Chiefs (13-10, jeudi soir) selon FOX Sports et Steelers-Broncos (27-5, vendredi) selon theScore, en plus de Packers-Rams (26-13, mercredi), Bears-Lions (39-35) et Eagles-Cowboys (39-38) du jeudi de Thanksgiving, selon Packers.com, ClickOnDetroit et CBS Texas, recoupés avec ESPN. Ces matchs relèvent de la semaine 12 de la saison 2026. Égalités (Broncos-Chiefs à 8-3) non départagées. Leaders statistiques selon ESPN (consultés le 27 novembre), arrêtés après Packers-Rams : les matchs de Thanksgiving et de vendredi n'y sont pas inclus. Programme de la fin de la semaine 12 (dimanche et lundi) selon ESPN ; heure de Paris = heure de l'Est + 6 h.",
   "divisions": [
     {
       "nom": "AFC Est",
       "equipes": [
         {
           "equipe": "Bills",
-          "v": 9,
+          "v": 10,
           "d": 1,
           "n": 0
         },
@@ -41,7 +41,7 @@
         },
         {
           "equipe": "Steelers",
-          "v": 6,
+          "v": 7,
           "d": 4,
           "n": 0
         },
@@ -94,13 +94,13 @@
         {
           "equipe": "Broncos",
           "v": 8,
-          "d": 2,
+          "d": 3,
           "n": 0
         },
         {
           "equipe": "Chiefs",
           "v": 8,
-          "d": 2,
+          "d": 3,
           "n": 0
         },
         {
@@ -346,6 +346,20 @@
   },
   "derniers": [
     {
+      "date": "2026-11-27",
+      "dom": "Steelers",
+      "ext": "Broncos",
+      "score_dom": 27,
+      "score_ext": 5
+    },
+    {
+      "date": "2026-11-26",
+      "dom": "Bills",
+      "ext": "Chiefs",
+      "score_dom": 13,
+      "score_ext": 10
+    },
+    {
       "date": "2026-11-26",
       "dom": "Cowboys",
       "ext": "Eagles",
@@ -443,32 +457,11 @@
       "ext": "Cardinals",
       "score_dom": 34,
       "score_ext": 7
-    },
-    {
-      "date": "2026-11-22",
-      "dom": "Eagles",
-      "ext": "Steelers",
-      "score_dom": 19,
-      "score_ext": 16
-    },
-    {
-      "date": "2026-11-19",
-      "dom": "Texans",
-      "ext": "Colts",
-      "score_dom": 26,
-      "score_ext": 3
     }
   ],
   "a_venir": {
-    "semaine": "Semaine 12 (suite : vendredi 27 novembre, dimanche 29 et lundi 30)",
+    "semaine": "Semaine 12 (suite : dimanche 29 et lundi 30 novembre)",
     "matchs": [
-      {
-        "date": "2026-11-27",
-        "heure_paris": "21:00",
-        "dom": "Steelers",
-        "ext": "Broncos",
-        "tv_us": "Prime Video"
-      },
       {
         "date": "2026-11-29",
         "heure_paris": "19:00",
@@ -551,6 +544,22 @@
   },
   "infos": [
     {
+      "titre": "La défense de Pittsburgh écrase Denver",
+      "texte": "Les Steelers ont battu les Broncos 27-5 vendredi à Pittsburgh, selon theScore : T. J. Watt a marqué sur un retour de fumble et Jalen Ramsey sur un retour d'interception, Mason Rudolph a trouvé DK Metcalf pour un touchdown de 22 yards et Chris Boswell a réussi deux field goals. Bo Nix a complété 22 passes sur 40 pour 169 yards et deux interceptions. Pittsburgh passe à 7-4, Denver à 8-3, à égalité avec Kansas City en tête de l'AFC Ouest.",
+      "source": {
+        "nom": "theScore – Steelers 27-5 Broncos (27 nov. 2026)",
+        "url": "https://www.thescore.com/nfl/event/140744"
+      }
+    },
+    {
+      "titre": "Buffalo bat Kansas City sur un field goal de Tyler Bass",
+      "texte": "Les Bills ont battu les Chiefs 13-10 jeudi soir à Orchard Park, selon la feuille de match de FOX Sports, qui attribue la victoire à un field goal de Tyler Bass. James Cook III a couru 117 yards en 32 portées avec un touchdown, Emmett Johnson a inscrit le touchdown de Kansas City. Buffalo, malgré deux pertes de balle et 64 yards à la passe, passe à 10-1 ; Kansas City tombe à 8-3.",
+      "source": {
+        "nom": "FOX Sports – Bills 13-10 Chiefs, feuille de match (26 nov. 2026)",
+        "url": "https://www.foxsports.com/nfl/week-12-kansas-city-chiefs-vs-buffalo-bills-nov-26-2026-game-boxscore-11284"
+      }
+    },
+    {
       "titre": "Chicago s'impose à Detroit dans les dernières secondes",
       "texte": "Les Bears ont battu les Lions 39-35 jeudi à Ford Field, selon ClickOnDetroit : Caleb Williams a trouvé Rome Odunze pour un touchdown de 6 yards à trois secondes de la fin, au terme d'une série de 68 yards. Williams a réussi 30 passes sur 44 pour 345 yards et 2 touchdowns ; Jahmyr Gibbs a couru 205 yards avec trois touchdowns, dont un de 70 yards. Chicago (9-2) prend seul la tête de la NFC Nord devant Detroit (8-3).",
       "source": {
@@ -572,22 +581,6 @@
       "source": {
         "nom": "Packers.com – Rams 26-13 Packers (25 nov. 2026)",
         "url": "https://www.packers.com/news/in-game-updates-week-12-rams-2026"
-      }
-    },
-    {
-      "titre": "Bills-Chiefs sous la pluie verglaçante",
-      "texte": "Buffalo et Kansas City étaient à égalité 10-10 dans le dernier quart-temps jeudi soir à Orchard Park, selon le suivi de WGR 550 mis à jour à 22h56 (heure de l'Est) : James Cook a marqué pour les Bills, Emmett Johnson pour les Chiefs, Tyler Bass a égalisé sur un field goal de 54 yards et Harrison Butker a manqué une tentative de 46 yards. Josh Allen a été intercepté deux fois. Selon NBC Sports, la pluie verglaçante a pesé sur le match. Résultat final non connu à la rédaction.",
-      "source": {
-        "nom": "WGR 550 (Audacy) – Bills-Chiefs, suivi du match (26 nov. 2026)",
-        "url": "https://www.audacy.com/wgr550/sports/bills/bills-chiefs-11-26-2026"
-      }
-    },
-    {
-      "titre": "Pittsburgh reçoit Denver vendredi",
-      "texte": "La semaine 12 se poursuit vendredi à 21h (heure de Paris) avec Steelers-Broncos sur Prime Video, selon ESPN : Denver (8-2) partage la tête de l'AFC Ouest, Pittsburgh (6-4) est deuxième de l'AFC Nord. Treize matchs suivent dimanche et Buccaneers-Panthers lundi soir.",
-      "source": {
-        "nom": "ESPN – Programme et résultats semaine 12 2026",
-        "url": "https://www.espn.com/nfl/schedule/_/week/12"
       }
     },
     {
@@ -625,6 +618,14 @@
   ],
   "sources": [
     {
+      "nom": "theScore – Steelers 27-5 Broncos (27 nov. 2026)",
+      "url": "https://www.thescore.com/nfl/event/140744"
+    },
+    {
+      "nom": "FOX Sports – Bills 13-10 Chiefs, feuille de match (26 nov. 2026)",
+      "url": "https://www.foxsports.com/nfl/week-12-kansas-city-chiefs-vs-buffalo-bills-nov-26-2026-game-boxscore-11284"
+    },
+    {
       "nom": "Packers.com – Rams 26-13 Packers (25 nov. 2026)",
       "url": "https://www.packers.com/news/in-game-updates-week-12-rams-2026"
     },
@@ -643,10 +644,6 @@
     {
       "nom": "Philadelphia Eagles (site officiel) – Eagles 39-38 Cowboys",
       "url": "https://www.philadelphiaeagles.com/news/game-recap-eagles-at-cowboys-thanksgiving-2026-nfl-week-12-saquon-barkley-devonta-smith-joe-milton-dak-prescott"
-    },
-    {
-      "nom": "WGR 550 (Audacy) – Bills-Chiefs, suivi du match (26 nov. 2026)",
-      "url": "https://www.audacy.com/wgr550/sports/bills/bills-chiefs-11-26-2026"
     },
     {
       "nom": "NBC Sports (PFT) – Bills 7-3 Chiefs à la mi-temps",

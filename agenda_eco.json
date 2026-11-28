@@ -1,366 +1,367 @@
 {
-  "semaine": "27 novembre – 10 décembre 2026",
-  "fuseau": "Heures de Paris (UTC+1). null = heure non confirmée par les sources consultées.",
-  "evenements": [
-    {
-      "date": "2026-11-27",
-      "heure": "08:45",
-      "pays": "France",
-      "type": "indicateur",
-      "titre": "Insee : inflation de novembre (estimation provisoire) et comptes nationaux détaillés du 3e trimestre",
-      "enjeu": "Le même jour, l'Insee publie aussi la consommation des ménages en biens d'octobre et l'estimation détaillée de l'emploi salarié du 3e trimestre.",
-      "source": {
-        "nom": "Insee – calendrier des publications",
-        "url": "https://www.insee.fr/fr/information/5235017"
-      }
-    },
-    {
-      "date": "2026-11-27",
-      "heure": "19:00",
-      "pays": "États-Unis",
-      "type": "marchés",
-      "titre": "Black Friday : séance écourtée à Wall Street",
-      "enjeu": "Lancement de la saison des achats de fin d'année.",
-      "source": {
-        "nom": "LiteFinance – calendrier du 23 au 29 nov. 2026",
-        "url": "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-23112026-29112026/"
-      }
-    },
-    {
-      "date": "2026-11-29",
-      "heure": null,
-      "pays": "Monde",
-      "type": "matières premières",
-      "titre": "Réunion en ligne de l'OPEP+ (production de janvier et objectifs 2027)",
-      "attendu": "L'alliance envisage de reconduire ses quotas actuels jusqu'en janvier, selon Wisevoter (d'après la presse spécialisée) ; le 1er novembre, les pays engagés dans les ajustements volontaires avaient maintenu leur production pour décembre",
-      "enjeu": "Point aussi sur l'audit des capacités de production (DeGolyer & MacNaughton), contesté par l'Irak ; le Brent est remonté au-dessus de 95 dollars le 26/11 selon Trading Economics. Concerne directement l'Algérie, le Nigeria, l'Angola et la Libye.",
-      "source": {
-        "nom": "Wisevoter (26/11/2026) ; OPEP – communiqué du 1er novembre 2026",
-        "url": "https://wisevoter.com/world/2026/11/26/opec-plus-weighs-rolling-over-oil-quotas-january"
-      }
-    },
-    {
-      "date": "2026-11-30",
-      "heure": "02:30",
-      "pays": "Chine",
-      "type": "indicateur",
-      "titre": "PMI officiels de novembre (Bureau national des statistiques)",
-      "enjeu": "Mesure de l'activité chinoise, dont la faiblesse pèse sur le cuivre et les métaux exportés par la Zambie et la RD Congo.",
-      "source": {
-        "nom": "FinanceCalendar – calendrier des indicateurs économiques",
-        "url": "https://www.financecalendar.com/events/category/economic-indicators/day/2026-11-28/"
-      }
-    },
-    {
-      "date": "2026-11-30",
-      "heure": null,
-      "pays": "Allemagne",
-      "type": "indicateur",
-      "titre": "Inflation de novembre (estimations régionales et nationale)",
-      "enjeu": "Premier signal sur l'inflation de novembre en zone euro, avant la réunion de la BCE du 17 décembre.",
-      "source": {
-        "nom": "Lamera Capital – calendrier économique de novembre 2026",
-        "url": "https://lameracapital.com/market-insights/november-2026-economic-calendar-pound-euro-dollar"
-      }
-    },
-    {
-      "date": "2026-12-01",
-      "heure": "11:00",
-      "pays": "Zone euro",
-      "type": "indicateur",
-      "titre": "Inflation de novembre, estimation rapide (Eurostat)",
-      "attendu": "Octobre : 4,0 % sur un an (estimation flash)",
-      "enjeu": "Dernier chiffre avant la réunion de la BCE des 16-17 décembre, où une hausse de taux est anticipée.",
-      "source": {
-        "nom": "FinanceCalendar – décembre 2026 ; Lamera Capital",
-        "url": "https://www.financecalendar.com/events/month/2026-12/"
-      }
-    },
-    {
-      "date": "2026-12-01",
-      "heure": "16:00",
-      "pays": "États-Unis",
-      "type": "indicateur",
-      "titre": "Indice ISM manufacturier de novembre et offres d'emploi JOLTS d'octobre",
-      "enjeu": "Premiers indicateurs de décembre sur l'industrie et le marché du travail américains, avant la réunion de la Fed du 9 décembre.",
-      "source": {
-        "nom": "FinanceCalendar – décembre 2026 ; Bureau of Labor Statistics – calendrier de décembre 2026",
-        "url": "https://www.bls.gov/schedule/2026/12_sched_list.htm"
-      }
-    },
-    {
-      "date": "2026-12-01",
-      "heure": null,
-      "pays": "France",
-      "type": "politique",
-      "titre": "Revalorisation du Smic de 1,6 %",
-      "attendu": "12,51 euros brut de l'heure (contre 12,31), soit environ 1 897 euros brut mensuels",
-      "enjeu": "Hausse anticipée décidée face à l'inflation ; elle rattrape le salaire de base de nombreux agents publics.",
-      "source": {
-        "nom": "UNCCAS",
-        "url": "https://www.unccas.org/plf-et-plfss-2027-le-senat-la-manoeuvre-les-ordonnances-se-profilent"
-      }
-    },
-    {
-      "date": "2026-12-02",
-      "heure": "11:00",
-      "pays": "Zone euro",
-      "type": "indicateur",
-      "titre": "Taux de chômage d'octobre (Eurostat)",
-      "enjeu": "État du marché du travail européen avant la réunion de la BCE.",
-      "source": {
-        "nom": "FinanceCalendar – décembre 2026",
-        "url": "https://www.financecalendar.com/events/month/2026-12/"
-      }
-    },
-    {
-      "date": "2026-12-02",
-      "heure": "14:15",
-      "pays": "États-Unis",
-      "type": "indicateur",
-      "titre": "Rapport ADP sur l'emploi privé (novembre)",
-      "enjeu": "Avant-goût du rapport officiel sur l'emploi du vendredi 4 décembre.",
-      "source": {
-        "nom": "FinanceCalendar – décembre 2026",
-        "url": "https://www.financecalendar.com/events/month/2026-12/"
-      }
-    },
-    {
-      "date": "2026-12-02",
-      "heure": null,
-      "pays": "États-Unis",
-      "type": "entreprises",
-      "titre": "Résultats de Salesforce et de Synopsys (dates estimées)",
-      "enjeu": "Logiciels d'entreprise et IA, après les doutes qui ont fait chuter les valeurs technologiques en novembre.",
-      "source": {
-        "nom": "TheStreet – calendrier des résultats, semaine du 30 nov. 2026 (dates estimées)",
-        "url": "https://pro.thestreet.com/earnings/week/2026-11-30"
-      }
-    },
-    {
-      "date": "2026-12-03",
-      "heure": "16:00",
-      "pays": "États-Unis",
-      "type": "indicateur",
-      "titre": "Indice ISM des services de novembre",
-      "enjeu": "Les services représentent l'essentiel de l'activité américaine ; publié la veille du rapport sur l'emploi.",
-      "source": {
-        "nom": "FinanceCalendar – décembre 2026",
-        "url": "https://www.financecalendar.com/events/month/2026-12/"
-      }
-    },
-    {
-      "date": "2026-12-03",
-      "heure": null,
-      "pays": "Botswana",
-      "type": "banque centrale",
-      "titre": "Comité de politique monétaire de la Banque du Botswana, dernière réunion de l'année",
-      "enjeu": "Le pays, dépendant des exportations de diamants, ajuste sa politique après la réunion du 29 octobre.",
-      "source": {
-        "nom": "Banque du Botswana – calendrier du comité de politique monétaire",
-        "url": "https://bankofbotswana.bw/content/monetary-policy-committee"
-      }
-    },
-    {
-      "date": "2026-12-03",
-      "heure": null,
-      "pays": "États-Unis",
-      "type": "entreprises",
-      "titre": "Résultats de Dollar General, Lululemon et Ulta Beauty (dates estimées)",
-      "enjeu": "Premiers retours de la distribution sur la saison des fêtes.",
-      "source": {
-        "nom": "TheStreet – calendrier des résultats, semaine du 30 nov. 2026 (dates estimées)",
-        "url": "https://pro.thestreet.com/earnings/week/2026-11-30"
-      }
-    },
-    {
-      "date": "2026-12-04",
-      "heure": "14:30",
-      "pays": "États-Unis",
-      "type": "indicateur",
-      "titre": "Rapport officiel sur l'emploi de novembre (Employment Situation)",
-      "enjeu": "Dernier rapport sur l'emploi avant la réunion de la Fed du 9 décembre, pour laquelle les marchés anticipent largement une hausse de taux.",
-      "source": {
-        "nom": "Bureau of Labor Statistics – calendrier de décembre 2026",
-        "url": "https://www.bls.gov/schedule/2026/12_sched_list.htm"
-      }
-    },
-    {
-      "date": "2026-12-04",
-      "heure": "14:30",
-      "pays": "Canada",
-      "type": "indicateur",
-      "titre": "Enquête sur la population active de novembre (Statistique Canada)",
-      "enjeu": "Publiée en même temps que le rapport américain sur l'emploi, avant la réunion de la Banque du Canada.",
-      "source": {
-        "nom": "FinanceCalendar – décembre 2026",
-        "url": "https://www.financecalendar.com/events/category/economic-indicators/2026-12/"
-      }
-    },
-    {
-      "date": "2026-12-04",
-      "heure": null,
-      "pays": "Inde",
-      "type": "banque centrale",
-      "titre": "Décision du comité de politique monétaire de la Banque de réserve de l'Inde (réunion des 2, 3 et 4 décembre)",
-      "attendu": "Taux repo actuel : 5,50 % (hausse de 25 pb le 7 octobre)",
-      "enjeu": "Nouvelle étape du resserrement monétaire engagé en octobre par la RBI.",
-      "source": {
-        "nom": "RBI – calendrier des réunions du MPC 2026-27 (23/3/2026) ; 5paisa",
-        "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62422"
-      }
-    },
-    {
-      "date": "2026-12-08",
-      "heure": "00:50",
-      "pays": "Japon",
-      "type": "indicateur",
-      "titre": "PIB du 3e trimestre (estimation révisée)",
-      "enjeu": "Mesure révisée de la croissance japonaise, avant la réunion de la Banque du Japon de décembre.",
-      "source": {
-        "nom": "FinanceCalendar – décembre 2026",
-        "url": "https://www.financecalendar.com/events/month/2026-12/"
-      }
-    },
-    {
-      "date": "2026-12-08",
-      "heure": "04:30",
-      "pays": "Australie",
-      "type": "banque centrale",
-      "titre": "Décision de politique monétaire de la Banque de réserve d'Australie",
-      "enjeu": "Dernière décision de l'année de la banque centrale australienne.",
-      "source": {
-        "nom": "FinanceCalendar – décembre 2026",
-        "url": "https://www.financecalendar.com/events/month/2026-12/"
-      }
-    },
-    {
-      "date": "2026-12-08",
-      "heure": "14:30",
-      "pays": "États-Unis",
-      "type": "indicateur",
-      "titre": "Productivité et coûts unitaires du travail du 3e trimestre (BLS)",
-      "enjeu": "Éclaire la dynamique des salaires, scrutée par la Fed à la veille de sa réunion du 9 décembre.",
-      "source": {
-        "nom": "Bureau of Labor Statistics – calendrier de décembre 2026",
-        "url": "https://www.bls.gov/schedule/2026/12_sched_list.htm"
-      }
-    },
-    {
-      "date": "2026-12-09",
-      "heure": "15:45",
-      "pays": "Canada",
-      "type": "banque centrale",
-      "titre": "Décision de taux de la Banque du Canada",
-      "enjeu": "Dernière décision de l'année de la banque centrale canadienne, quelques heures avant celle de la Fed.",
-      "source": {
-        "nom": "FinanceCalendar – décembre 2026",
-        "url": "https://www.financecalendar.com/events/month/2026-12/"
-      }
-    },
-    {
-      "date": "2026-12-09",
-      "heure": "20:00",
-      "pays": "États-Unis",
-      "type": "banque centrale",
-      "titre": "Décision de politique monétaire de la Réserve fédérale (FOMC)",
-      "enjeu": "Une hausse des taux est largement anticipée, selon Lamera Capital ; dernière réunion de l'année de la Fed.",
-      "source": {
-        "nom": "FinanceCalendar – décembre 2026 ; Lamera Capital",
-        "url": "https://www.financecalendar.com/events/month/2026-12/"
-      }
-    },
-    {
-      "date": "2026-12-09",
-      "heure": null,
-      "pays": "Kenya",
-      "type": "banque centrale",
-      "titre": "Comité de politique monétaire de la Banque centrale du Kenya",
-      "attendu": "Taux directeur actuel : 8,75 % (maintien le 7 octobre)",
-      "enjeu": "Dernière réunion de l'année de la CBK.",
-      "source": {
-        "nom": "Business Recorder",
-        "url": "https://www.brecorder.com/news/40448406/kenya-central-bank-to-hold-next-interest-rate-setting-meeting-on-december-9"
-      }
-    },
-    {
-      "date": "2026-12-10",
-      "heure": "09:30",
-      "pays": "Suisse",
-      "type": "banque centrale",
-      "titre": "Décision de politique monétaire de la Banque nationale suisse (BNS)",
-      "enjeu": "Dernière décision trimestrielle de l'année, au lendemain de celle de la Fed ; conférence de presse à 10 h.",
-      "source": {
-        "nom": "Admiral Markets – décisions des banques centrales en décembre 2026",
-        "url": "https://admiralmarkets.com/analytics/traders-blog/central-bank-decisions-december-2026-dates-times"
-      }
-    },
-    {
-      "date": "2026-12-10",
-      "heure": "14:30",
-      "pays": "États-Unis",
-      "type": "indicateur",
-      "titre": "Indice des prix à la consommation de novembre (BLS)",
-      "enjeu": "Publié au lendemain de la décision de la Fed du 9 décembre.",
-      "source": {
-        "nom": "Bureau of Labor Statistics – calendrier de décembre 2026",
-        "url": "https://www.bls.gov/schedule/2026/12_sched_list.htm"
-      }
-    },
-    {
-      "date": "2026-12-10",
-      "heure": null,
-      "pays": "États-Unis",
-      "type": "entreprises",
-      "titre": "Résultats d'Oracle, Broadcom et Costco (dates estimées)",
-      "enjeu": "Oracle et Broadcom, très exposés aux investissements dans l'IA, après les doutes qui ont fait chuter les valeurs technologiques en novembre.",
-      "source": {
-        "nom": "FinanceCalendar – décembre 2026",
-        "url": "https://www.financecalendar.com/events/month/2026-12/"
-      }
-    }
-  ],
-  "hors_fenetre": [
-    {
-      "date": "2026-12-14/15",
-      "titre": "Sommet du G20 à Miami (Doral, Floride)",
-      "source": {
-        "nom": "Wikipédia – sommet du G20 de 2026",
-        "url": "https://en.wikipedia.org/wiki/2026_G20_Miami_summit"
-      }
-    },
-    {
-      "date": "2026-12-17",
-      "titre": "Décisions de la BCE (14 h 15) et de la Banque d'Angleterre (13 h) ; Banque du Japon le 18 décembre",
-      "source": {
-        "nom": "Admiral Markets – décisions des banques centrales en décembre 2026",
-        "url": "https://admiralmarkets.com/analytics/traders-blog/central-bank-decisions-december-2026-dates-times"
-      }
-    },
-    {
-      "date": "2026-12-16/17",
-      "titre": "Prochaine réunion de politique monétaire de la BCE (décision le 17 décembre) ; aucune réunion en novembre",
-      "source": {
-        "nom": "Eco3min – calendrier des réunions de la BCE",
-        "url": "https://eco3min.fr/en/ecb-meeting-calendar/"
-      }
-    },
-    {
-      "date": "2026-12-17",
-      "titre": "Prochaine réunion de la Banque centrale d'Égypte, après la hausse de 100 points de base du 29 octobre",
-      "source": {
-        "nom": "Enterprise",
-        "url": "https://enterpriseam.com/egypt/2026/11/01/cbe-hikes-for-the-first-time-since-march-2024-raising-rates-100-bps-and-moving-its-inflation-target-to-4q-2027/"
-      }
-    },
-    {
-      "date": "2027-01-28",
-      "titre": "Prochaine décision de la Banque de réserve sud-africaine (SARB), après le maintien du taux à 7,25 % le 19 novembre",
-      "source": {
-        "nom": "SARB – déclaration de politique monétaire de novembre 2026",
-        "url": "https://www.resbank.co.za/en/home/publications/publication-detail-pages/statements/monetary-policy-statements/2026/november"
-      }
-    }
-  ],
-  "non_trouve": "Aucun rendez-vous sourcé pour le samedi 28 novembre et les samedi 5, dimanche 6 et lundi 7 décembre (FinanceCalendar n'affiche aucun indicateur les 5 et 6/12 ; le PIB japonais listé au 7/12 heure de New York tombe le 8/12 à 0 h 50, heure de Paris ; aucune élection répertoriée sur la période). Rendez-vous du 26/11 retirés (passés) ; l'inflation de Tokyo (27/11, 0 h 30) retirée, déjà publiée à l'heure de l'édition. Pour respecter la limite de trois rendez-vous par jour, ont été écartés notamment : PMI manufacturier Caixin/RatingDog chinois (1er/12), PMI manufacturiers définitifs mondiaux (1er/12), inscriptions au chômage américaines (3/12 et 10/12), balance commerciale américaine (8/12), décision de la Banque de réserve de Nouvelle-Zélande et inflation chinoise (9/12 vers 2 h, heure de Paris), ventes de logements anciens et résultats d'Adobe (9/12, date à confirmer). Aucune réunion de la BCE dans la fenêtre (prochaine décision le 17/12)."
+ "semaine": "28 novembre – 11 décembre 2026",
+ "fuseau": "Heures de Paris (UTC+1). null = heure non confirmée par les sources consultées.",
+ "evenements": [
+  {
+   "date": "2026-11-29",
+   "heure": null,
+   "pays": "Monde",
+   "type": "matières premières",
+   "titre": "Réunion en ligne de l'OPEP+ (production de janvier et objectifs 2027)",
+   "attendu": "L'alliance envisage de reconduire ses quotas actuels jusqu'en janvier, selon Wisevoter (d'après la presse spécialisée) ; le 1er novembre, les pays engagés dans les ajustements volontaires avaient maintenu leur production pour décembre",
+   "enjeu": "Point aussi sur l'audit des capacités de production (DeGolyer & MacNaughton), contesté par l'Irak ; le Brent a reculé de 2,74 %, à 93,92 dollars, le 27/11 selon Boursorama (89,95 dollars sur le contrat de janvier selon BFM Bourse). Concerne directement l'Algérie, le Nigeria, l'Angola et la Libye.",
+   "source": {
+    "nom": "Wisevoter (26/11/2026) ; OPEP – communiqué du 1er novembre 2026",
+    "url": "https://wisevoter.com/world/2026/11/26/opec-plus-weighs-rolling-over-oil-quotas-january"
+   }
+  },
+  {
+   "date": "2026-11-30",
+   "heure": "02:30",
+   "pays": "Chine",
+   "type": "indicateur",
+   "titre": "PMI officiels de novembre (Bureau national des statistiques)",
+   "enjeu": "Mesure de l'activité chinoise, dont la faiblesse pèse sur le cuivre et les métaux exportés par la Zambie et la RD Congo.",
+   "source": {
+    "nom": "FinanceCalendar – calendrier des indicateurs économiques",
+    "url": "https://www.financecalendar.com/events/category/economic-indicators/day/2026-11-28/"
+   }
+  },
+  {
+   "date": "2026-11-30",
+   "heure": null,
+   "pays": "Allemagne",
+   "type": "indicateur",
+   "titre": "Inflation de novembre (estimations régionales et nationale)",
+   "enjeu": "Premier signal sur l'inflation de novembre en zone euro, avant la réunion de la BCE du 17 décembre.",
+   "source": {
+    "nom": "Lamera Capital – calendrier économique de novembre 2026",
+    "url": "https://lameracapital.com/market-insights/november-2026-economic-calendar-pound-euro-dollar"
+   }
+  },
+  {
+   "date": "2026-12-01",
+   "heure": "11:00",
+   "pays": "Zone euro",
+   "type": "indicateur",
+   "titre": "Inflation de novembre, estimation rapide (Eurostat)",
+   "attendu": "Octobre : 4,0 % sur un an (estimation flash)",
+   "enjeu": "Dernier chiffre avant la réunion de la BCE des 16-17 décembre, où une hausse de taux est anticipée.",
+   "source": {
+    "nom": "FinanceCalendar – décembre 2026 ; Lamera Capital",
+    "url": "https://www.financecalendar.com/events/month/2026-12/"
+   }
+  },
+  {
+   "date": "2026-12-01",
+   "heure": "16:00",
+   "pays": "États-Unis",
+   "type": "indicateur",
+   "titre": "Indice ISM manufacturier de novembre et offres d'emploi JOLTS d'octobre",
+   "enjeu": "Premiers indicateurs de décembre sur l'industrie et le marché du travail américains, avant la réunion de la Fed du 9 décembre.",
+   "source": {
+    "nom": "FinanceCalendar – décembre 2026 ; Bureau of Labor Statistics – calendrier de décembre 2026",
+    "url": "https://www.bls.gov/schedule/2026/12_sched_list.htm"
+   }
+  },
+  {
+   "date": "2026-12-01",
+   "heure": null,
+   "pays": "France",
+   "type": "politique",
+   "titre": "Revalorisation du Smic de 1,6 %",
+   "attendu": "12,51 euros brut de l'heure (contre 12,31), soit environ 1 897 euros brut mensuels",
+   "enjeu": "Hausse anticipée décidée face à l'inflation ; elle rattrape le salaire de base de nombreux agents publics.",
+   "source": {
+    "nom": "UNCCAS",
+    "url": "https://www.unccas.org/plf-et-plfss-2027-le-senat-la-manoeuvre-les-ordonnances-se-profilent"
+   }
+  },
+  {
+   "date": "2026-12-02",
+   "heure": "11:00",
+   "pays": "Zone euro",
+   "type": "indicateur",
+   "titre": "Taux de chômage d'octobre (Eurostat)",
+   "enjeu": "État du marché du travail européen avant la réunion de la BCE.",
+   "source": {
+    "nom": "FinanceCalendar – décembre 2026",
+    "url": "https://www.financecalendar.com/events/month/2026-12/"
+   }
+  },
+  {
+   "date": "2026-12-02",
+   "heure": "14:15",
+   "pays": "États-Unis",
+   "type": "indicateur",
+   "titre": "Rapport ADP sur l'emploi privé (novembre)",
+   "enjeu": "Avant-goût du rapport officiel sur l'emploi du vendredi 4 décembre.",
+   "source": {
+    "nom": "FinanceCalendar – décembre 2026",
+    "url": "https://www.financecalendar.com/events/month/2026-12/"
+   }
+  },
+  {
+   "date": "2026-12-02",
+   "heure": null,
+   "pays": "États-Unis",
+   "type": "entreprises",
+   "titre": "Résultats de Salesforce et de Synopsys (dates estimées)",
+   "enjeu": "Logiciels d'entreprise et IA, après les doutes qui ont fait chuter les valeurs technologiques en novembre.",
+   "source": {
+    "nom": "TheStreet – calendrier des résultats, semaine du 30 nov. 2026 (dates estimées)",
+    "url": "https://pro.thestreet.com/earnings/week/2026-11-30"
+   }
+  },
+  {
+   "date": "2026-12-03",
+   "heure": "16:00",
+   "pays": "États-Unis",
+   "type": "indicateur",
+   "titre": "Indice ISM des services de novembre",
+   "enjeu": "Les services représentent l'essentiel de l'activité américaine ; publié la veille du rapport sur l'emploi.",
+   "source": {
+    "nom": "FinanceCalendar – décembre 2026",
+    "url": "https://www.financecalendar.com/events/month/2026-12/"
+   }
+  },
+  {
+   "date": "2026-12-03",
+   "heure": null,
+   "pays": "Botswana",
+   "type": "banque centrale",
+   "titre": "Comité de politique monétaire de la Banque du Botswana, dernière réunion de l'année",
+   "enjeu": "Le pays, dépendant des exportations de diamants, ajuste sa politique après la réunion du 29 octobre.",
+   "source": {
+    "nom": "Banque du Botswana – calendrier du comité de politique monétaire",
+    "url": "https://bankofbotswana.bw/content/monetary-policy-committee"
+   }
+  },
+  {
+   "date": "2026-12-03",
+   "heure": null,
+   "pays": "États-Unis",
+   "type": "entreprises",
+   "titre": "Résultats de Dollar General, Lululemon et Ulta Beauty (dates estimées)",
+   "enjeu": "Premiers retours de la distribution sur la saison des fêtes.",
+   "source": {
+    "nom": "TheStreet – calendrier des résultats, semaine du 30 nov. 2026 (dates estimées)",
+    "url": "https://pro.thestreet.com/earnings/week/2026-11-30"
+   }
+  },
+  {
+   "date": "2026-12-04",
+   "heure": "14:30",
+   "pays": "États-Unis",
+   "type": "indicateur",
+   "titre": "Rapport officiel sur l'emploi de novembre (Employment Situation)",
+   "enjeu": "Dernier rapport sur l'emploi avant la réunion de la Fed du 9 décembre, pour laquelle les marchés anticipent largement une hausse de taux.",
+   "source": {
+    "nom": "Bureau of Labor Statistics – calendrier de décembre 2026",
+    "url": "https://www.bls.gov/schedule/2026/12_sched_list.htm"
+   }
+  },
+  {
+   "date": "2026-12-04",
+   "heure": "14:30",
+   "pays": "Canada",
+   "type": "indicateur",
+   "titre": "Enquête sur la population active de novembre (Statistique Canada)",
+   "enjeu": "Publiée en même temps que le rapport américain sur l'emploi, avant la réunion de la Banque du Canada.",
+   "source": {
+    "nom": "FinanceCalendar – décembre 2026",
+    "url": "https://www.financecalendar.com/events/category/economic-indicators/2026-12/"
+   }
+  },
+  {
+   "date": "2026-12-04",
+   "heure": null,
+   "pays": "Inde",
+   "type": "banque centrale",
+   "titre": "Décision du comité de politique monétaire de la Banque de réserve de l'Inde (réunion des 2, 3 et 4 décembre)",
+   "attendu": "Taux repo actuel : 5,50 % (hausse de 25 pb le 7 octobre)",
+   "enjeu": "Nouvelle étape du resserrement monétaire engagé en octobre par la RBI.",
+   "source": {
+    "nom": "RBI – calendrier des réunions du MPC 2026-27 (23/3/2026) ; 5paisa",
+    "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62422"
+   }
+  },
+  {
+   "date": "2026-12-08",
+   "heure": "00:50",
+   "pays": "Japon",
+   "type": "indicateur",
+   "titre": "PIB du 3e trimestre (estimation révisée)",
+   "enjeu": "Mesure révisée de la croissance japonaise, avant la réunion de la Banque du Japon de décembre.",
+   "source": {
+    "nom": "FinanceCalendar – décembre 2026",
+    "url": "https://www.financecalendar.com/events/month/2026-12/"
+   }
+  },
+  {
+   "date": "2026-12-08",
+   "heure": "04:30",
+   "pays": "Australie",
+   "type": "banque centrale",
+   "titre": "Décision de politique monétaire de la Banque de réserve d'Australie",
+   "enjeu": "Dernière décision de l'année de la banque centrale australienne.",
+   "source": {
+    "nom": "FinanceCalendar – décembre 2026",
+    "url": "https://www.financecalendar.com/events/month/2026-12/"
+   }
+  },
+  {
+   "date": "2026-12-08",
+   "heure": "14:30",
+   "pays": "États-Unis",
+   "type": "indicateur",
+   "titre": "Productivité et coûts unitaires du travail du 3e trimestre (BLS)",
+   "enjeu": "Éclaire la dynamique des salaires, scrutée par la Fed à la veille de sa réunion du 9 décembre.",
+   "source": {
+    "nom": "Bureau of Labor Statistics – calendrier de décembre 2026",
+    "url": "https://www.bls.gov/schedule/2026/12_sched_list.htm"
+   }
+  },
+  {
+   "date": "2026-12-09",
+   "heure": "15:45",
+   "pays": "Canada",
+   "type": "banque centrale",
+   "titre": "Décision de taux de la Banque du Canada",
+   "enjeu": "Dernière décision de l'année de la banque centrale canadienne, quelques heures avant celle de la Fed.",
+   "source": {
+    "nom": "FinanceCalendar – décembre 2026",
+    "url": "https://www.financecalendar.com/events/month/2026-12/"
+   }
+  },
+  {
+   "date": "2026-12-09",
+   "heure": "20:00",
+   "pays": "États-Unis",
+   "type": "banque centrale",
+   "titre": "Décision de politique monétaire de la Réserve fédérale (FOMC)",
+   "enjeu": "Une hausse des taux est largement anticipée, selon Lamera Capital ; dernière réunion de l'année de la Fed.",
+   "source": {
+    "nom": "FinanceCalendar – décembre 2026 ; Lamera Capital",
+    "url": "https://www.financecalendar.com/events/month/2026-12/"
+   }
+  },
+  {
+   "date": "2026-12-09",
+   "heure": null,
+   "pays": "Kenya",
+   "type": "banque centrale",
+   "titre": "Comité de politique monétaire de la Banque centrale du Kenya",
+   "attendu": "Taux directeur actuel : 8,75 % (maintien le 7 octobre)",
+   "enjeu": "Dernière réunion de l'année de la CBK.",
+   "source": {
+    "nom": "Business Recorder",
+    "url": "https://www.brecorder.com/news/40448406/kenya-central-bank-to-hold-next-interest-rate-setting-meeting-on-december-9"
+   }
+  },
+  {
+   "date": "2026-12-10",
+   "heure": "09:30",
+   "pays": "Suisse",
+   "type": "banque centrale",
+   "titre": "Décision de politique monétaire de la Banque nationale suisse (BNS)",
+   "enjeu": "Dernière décision trimestrielle de l'année, au lendemain de celle de la Fed ; conférence de presse à 10 h.",
+   "source": {
+    "nom": "Admiral Markets – décisions des banques centrales en décembre 2026",
+    "url": "https://admiralmarkets.com/analytics/traders-blog/central-bank-decisions-december-2026-dates-times"
+   }
+  },
+  {
+   "date": "2026-12-10",
+   "heure": "14:30",
+   "pays": "États-Unis",
+   "type": "indicateur",
+   "titre": "Indice des prix à la consommation de novembre (BLS)",
+   "enjeu": "Publié au lendemain de la décision de la Fed du 9 décembre.",
+   "source": {
+    "nom": "Bureau of Labor Statistics – calendrier de décembre 2026",
+    "url": "https://www.bls.gov/schedule/2026/12_sched_list.htm"
+   }
+  },
+  {
+   "date": "2026-12-10",
+   "heure": null,
+   "pays": "États-Unis",
+   "type": "entreprises",
+   "titre": "Résultats d'Oracle, Broadcom et Costco (dates estimées)",
+   "enjeu": "Oracle et Broadcom, très exposés aux investissements dans l'IA, après les doutes qui ont fait chuter les valeurs technologiques en novembre.",
+   "source": {
+    "nom": "FinanceCalendar – décembre 2026",
+    "url": "https://www.financecalendar.com/events/month/2026-12/"
+   }
+  },
+  {
+   "date": "2026-12-11",
+   "heure": "08:00",
+   "pays": "Royaume-Uni",
+   "type": "indicateur",
+   "titre": "PIB mensuel d'octobre (Office for National Statistics)",
+   "enjeu": "Mesure de l'activité britannique avant la décision de la Banque d'Angleterre du 17 décembre.",
+   "source": {
+    "nom": "FinanceCalendar – décembre 2026",
+    "url": "https://www.financecalendar.com/events/month/2026-12/"
+   }
+  },
+  {
+   "date": "2026-12-11",
+   "heure": "08:45",
+   "pays": "France",
+   "type": "indicateur",
+   "titre": "Insee : inflation de novembre (résultats définitifs)",
+   "attendu": "Estimation provisoire du 27/11 : 2,9 % sur un an (IPCH : 3,2 %), après 3,4 % en octobre",
+   "enjeu": "Confirmation du net ralentissement de l'inflation, lié au recul des produits pétroliers, avant la réunion de la BCE des 16-17 décembre.",
+   "source": {
+    "nom": "Insee – prix à la consommation, novembre 2026 (estimation provisoire)",
+    "url": "https://www.insee.fr/fr/statistiques/9161375"
+   }
+  }
+ ],
+ "hors_fenetre": [
+  {
+   "date": "2026-12-14/15",
+   "titre": "Sommet du G20 à Miami (Doral, Floride)",
+   "source": {
+    "nom": "Wikipédia – sommet du G20 de 2026",
+    "url": "https://en.wikipedia.org/wiki/2026_G20_Miami_summit"
+   }
+  },
+  {
+   "date": "2026-12-17",
+   "titre": "Décisions de la BCE (14 h 15) et de la Banque d'Angleterre (13 h) ; Banque du Japon le 18 décembre",
+   "source": {
+    "nom": "Admiral Markets – décisions des banques centrales en décembre 2026",
+    "url": "https://admiralmarkets.com/analytics/traders-blog/central-bank-decisions-december-2026-dates-times"
+   }
+  },
+  {
+   "date": "2026-12-16/17",
+   "titre": "Prochaine réunion de politique monétaire de la BCE (décision le 17 décembre) ; aucune réunion en novembre",
+   "source": {
+    "nom": "Eco3min – calendrier des réunions de la BCE",
+    "url": "https://eco3min.fr/en/ecb-meeting-calendar/"
+   }
+  },
+  {
+   "date": "2026-12-17",
+   "titre": "Prochaine réunion de la Banque centrale d'Égypte, après la hausse de 100 points de base du 29 octobre",
+   "source": {
+    "nom": "Enterprise",
+    "url": "https://enterpriseam.com/egypt/2026/11/01/cbe-hikes-for-the-first-time-since-march-2024-raising-rates-100-bps-and-moving-its-inflation-target-to-4q-2027/"
+   }
+  },
+  {
+   "date": "2027-01-28",
+   "titre": "Prochaine décision de la Banque de réserve sud-africaine (SARB), après le maintien du taux à 7,25 % le 19 novembre",
+   "source": {
+    "nom": "SARB – déclaration de politique monétaire de novembre 2026",
+    "url": "https://www.resbank.co.za/en/home/publications/publication-detail-pages/statements/monetary-policy-statements/2026/november"
+   }
+  }
+ ],
+ "non_trouve": "Aucun rendez-vous sourcé pour le samedi 28 novembre et les samedi 5, dimanche 6 et lundi 7 décembre (FinanceCalendar n'affiche aucun indicateur les 5 et 6/12 ; le PIB japonais listé au 7/12 heure de New York tombe le 8/12 à 0 h 50, heure de Paris ; aucune élection répertoriée sur la période). Rendez-vous du 27/11 retirés (passés) : l'Insee a publié ce jour-là une inflation provisoire de 2,9 % sur un an en novembre et un PIB du 3e trimestre révisé à −0,2 %. Pour respecter la limite de trois rendez-vous par jour, ont été écartés notamment : PMI manufacturier Caixin/RatingDog chinois (1er/12), PMI manufacturiers définitifs mondiaux (1er/12), inscriptions au chômage américaines (3/12 et 10/12), balance commerciale américaine (8/12), décision de la Banque de réserve de Nouvelle-Zélande et inflation chinoise (9/12 vers 2 h, heure de Paris), ventes de logements anciens et résultats d'Adobe (9/12, date à confirmer). Aucune réunion de la BCE dans la fenêtre (prochaine décision le 17/12). Calendrier du 11/12 incomplet (recherche web épuisée)."
 }

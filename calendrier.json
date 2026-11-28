@@ -1,5 +1,5 @@
 {
- "maj": "27 novembre 2026",
+ "maj": "28 novembre 2026",
  "competitions": [
   {
    "id": "ligue-1",
@@ -69,7 +69,8 @@
      "ext": "Monaco",
      "tv": "Ligue 1+"
     }
-   ]
+   ],
+   "note": "Vendredi 27 novembre : Brest 1-0 Paris FC (Luck Zogbé, 21e), selon Morning Foot."
   },
   {
    "id": "premier-league",
@@ -137,7 +138,7 @@
      "ext": "Man City"
     }
    ],
-   "note": "Horaires convertis en heure de Paris à partir de ceux publiés par la Premier League (heure britannique)."
+   "note": "Vendredi 27 novembre : Nottingham Forest 3-2 Chelsea, selon Sky Sports. Horaires convertis en heure de Paris à partir de ceux publiés par la Premier League (heure britannique)."
   },
   {
    "id": "liga",
@@ -211,7 +212,7 @@
      "ext": "Athletic Bilbao"
     }
    ],
-   "note": "Horaires (heure de Paris) relevés sur Futbol24 ; Real Madrid-Alavés, Celta-Villarreal et Espanyol-Getafe confirmés sur laliga.com. Rayo-Athletic (8e journée), interrompu à 0-0 à la 25e minute, reprendra le 9 décembre à huis clos à Vallecas pour les 65 minutes restantes, selon Bilbao Hiria."
+   "note": "Vendredi 27 novembre : Levante 1-3 Racing Santander, selon VAVEL. Horaires (heure de Paris) relevés sur Futbol24 ; Real Madrid-Alavés, Celta-Villarreal et Espanyol-Getafe confirmés sur laliga.com. Rayo-Athletic (8e journée), interrompu à 0-0 à la 25e minute, reprendra le 9 décembre à huis clos à Vallecas pour les 65 minutes restantes, selon Bilbao Hiria."
   },
   {
    "id": "serie-a",
@@ -288,7 +289,8 @@
      "ext": "Milan",
      "tv": "DAZN (Italie)"
     }
-   ]
+   ],
+   "note": "Vendredi 27 novembre : Venise 0-0 Bologne, selon le Corriere dello Sport."
   },
   {
    "id": "bundesliga",
@@ -349,7 +351,8 @@
      "dom": "Dortmund",
      "ext": "Leverkusen"
     }
-   ]
+   ],
+   "note": "Vendredi 27 novembre : Werder Brême 3-3 Mönchengladbach, selon buten un binnen."
   },
   {
    "id": "ligue-des-champions",
@@ -767,6 +770,26 @@
   {
    "nom": "Bilbao Hiria – Rayo-Athletic reprendra le 9 décembre à huis clos (29 oct. 2026)",
    "url": "https://bilbaohiria.com/deportes/rayo-athletic-nueva-fecha-9-diciembre-puerta-cerrada"
+  },
+  {
+   "nom": "Morning Foot – Brest 1-0 Paris FC (27 nov. 2026)",
+   "url": "https://morning-foot.com/ligue-1/brest/stade-brestois-paris-fc-resultat-resume-statistiques/"
+  },
+  {
+   "nom": "Sky Sports – Nottingham Forest 3-2 Chelsea (27 nov. 2026)",
+   "url": "https://skysports.com/football/nottingham-forest-vs-chelsea/report/559562"
+  },
+  {
+   "nom": "VAVEL – Levante 1-3 Racing Santander (27 nov. 2026)",
+   "url": "https://www.vavel.com/es/futbol/2026/11/27/1281009-levante-vs-racing-santander-en-vivo-resultado-goles-y-minuto-a-minuto-en-la-liga.html"
+  },
+  {
+   "nom": "Corriere dello Sport – Venise 0-0 Bologne (27 nov. 2026)",
+   "url": "https://www.corrieredellosport.it/news/calcio/serie-a/2026/11/27-152885902/il_venezia_frena_il_bologna_di_palladino_0-0_al_penzo_primo_pari_per_nicola"
+  },
+  {
+   "nom": "buten un binnen – Werder Brême 3-3 Mönchengladbach (27 nov. 2026)",
+   "url": "https://www.butenunbinnen.de/sport/werder-borussia-moenchengladbach-bundesliga-spielbericht-102.html"
   }
  ]
 }

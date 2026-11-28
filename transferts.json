@@ -1,5 +1,5 @@
 {
- "maj": "27 novembre 2026",
+ "maj": "28 novembre 2026",
  "fenetre": "Mercato d'hiver : ouverture le 1er janvier 2027 (dates selon les pays)",
  "dates_fenetre": [
   {
@@ -32,6 +32,62 @@
   }
  ],
  "items": [
+  {
+   "joueur": "Nico Paz",
+   "de": "Côme",
+   "vers": "Man United",
+   "championnat": "serie-a",
+   "type": "transfert",
+   "statut": "rumeur",
+   "texte": "Selon The Athletic, cité par la revue de presse de Sky Sports vendredi 27 novembre, Manchester United reste parmi les favoris pour le milieu argentin de Côme, qui ne souhaiterait pas revenir au Real Madrid ; une qualification en Ligue des champions pourrait peser dans sa décision.",
+   "source": {
+    "nom": "Sky Sports (d'après The Athletic)",
+    "url": "https://www.skysports.com/football/transfer-paper-talk"
+   },
+   "date": "2026-11-27"
+  },
+  {
+   "joueur": "Alejandro Garnacho",
+   "de": "Aston Villa",
+   "vers": "",
+   "championnat": "premier-league",
+   "type": "prêt",
+   "statut": "rumeur",
+   "texte": "Selon le Daily Express, cité par la revue de presse de Sky Sports vendredi 27 novembre, Aston Villa serait disposé à mettre fin dès janvier au prêt de l'ailier argentin, appartenant à Chelsea.",
+   "source": {
+    "nom": "Sky Sports (d'après le Daily Express)",
+    "url": "https://www.skysports.com/football/transfer-paper-talk"
+   },
+   "date": "2026-11-27"
+  },
+  {
+   "joueur": "Sidy Barhama Ndiaye",
+   "de": "",
+   "vers": "Liverpool",
+   "championnat": "premier-league",
+   "type": "transfert",
+   "statut": "avancé",
+   "texte": "Liverpool aurait trouvé un accord pour recruter l'attaquant sénégalais, international des moins de 17 ans, rapporte Foot Mercato vendredi 27 novembre ; aucune annonce officielle n'a été consultée.",
+   "source": {
+    "nom": "Foot Mercato",
+    "url": "https://www.footmercato.net/a8368987214884636811-benfica-va-recruter-un-jeune-crack-malien-de-16-ans"
+   },
+   "date": "2026-11-27"
+  },
+  {
+   "joueur": "Yassir Zabiri",
+   "de": "Racing Santander",
+   "vers": "",
+   "championnat": "liga",
+   "type": "prêt",
+   "statut": "rumeur",
+   "texte": "Prêté par le Stade Rennais au Racing Santander et suivi par le FC Barcelone et le Betis selon Foot Mercato, l'attaquant marocain ne devrait pas partir avant le 30 juin : son contrat de prêt ne comporte pas de clause de sortie en cours de saison, rapporte SER Cantabria, cité par Foot Mercato vendredi 27 novembre.",
+   "source": {
+    "nom": "Foot Mercato (d'après SER Cantabria)",
+    "url": "https://www.footmercato.net/a881836498983167198-le-racing-santander-fixe-ses-conditions-pour-un-depart-de-yassir-zabiri"
+   },
+   "date": "2026-11-27"
+  },
   {
    "joueur": "Gianluca Prestianni",
    "de": "Benfica",
@@ -143,48 +199,6 @@
     "url": "https://www.skysports.com/football/news/13615837/man-utd-transfer-news-brentford-defender-nathan-collins-emerges-as-january-target-paper-talk"
    },
    "date": "2026-11-23"
-  },
-  {
-   "joueur": "Camilo Duran",
-   "de": "Celtic",
-   "vers": "Leeds",
-   "championnat": "premier-league",
-   "type": "transfert",
-   "statut": "rumeur",
-   "texte": "Selon The Herald, cité par Sky Sports lundi 23 novembre, Leeds suit l'attaquant du Celtic depuis le début de la saison. Aucune offre n'est évoquée.",
-   "source": {
-    "nom": "Sky Sports (d'après The Herald)",
-    "url": "https://www.skysports.com/football/news/13615837/man-utd-transfer-news-brentford-defender-nathan-collins-emerges-as-january-target-paper-talk"
-   },
-   "date": "2026-11-23"
-  },
-  {
-   "joueur": "Francesco Camarda",
-   "de": "Milan",
-   "vers": "Cagliari",
-   "championnat": "serie-a",
-   "type": "prêt",
-   "statut": "rumeur",
-   "texte": "Selon La Gazzetta dello Sport, citée par Maxifoot dimanche 22 novembre, Milan a décidé de prêter cet hiver l'attaquant de 18 ans (6 matchs toutes compétitions cette saison), et Cagliari, déjà intéressé l'été dernier, tiendrait la corde. Les modalités restent à définir ; Paul Mendy pourrait entrer dans les discussions.",
-   "source": {
-    "nom": "Maxifoot (d'après La Gazzetta dello Sport)",
-    "url": "https://news.maxifoot.fr/milan/camarda-vers-cagliari-foot-468137.htm"
-   },
-   "date": "2026-11-22"
-  },
-  {
-   "joueur": "Eli Junior Kroupi",
-   "de": "Bournemouth",
-   "vers": "PSG",
-   "championnat": "premier-league",
-   "type": "transfert",
-   "statut": "rumeur",
-   "texte": "Selon Le Parisien, cité par Maxifoot dimanche 22 novembre, le PSG a écarté de sa liste pour janvier Eli Junior Kroupi (Bournemouth) et Paris Brunner (Monaco), leurs profils ne correspondant pas à ses besoins pour pallier les absences de Désiré Doué et Khvicha Kvaratskhelia. Aucun recrutement n'est acté.",
-   "source": {
-    "nom": "Maxifoot (d'après Le Parisien)",
-    "url": "https://news.maxifoot.fr/psg/deux-pistes-ecartees-pour-janvier-foot-468174.htm"
-   },
-   "date": "2026-11-22"
   }
  ]
 }

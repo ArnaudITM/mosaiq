@@ -1,558 +1,570 @@
 {
-  "maj": "clôture du jeudi 26 novembre 2026 pour le CAC 40 ; S&P 500 et Nasdaq Composite : clôture du mercredi 25 novembre 2026 (Wall Street fermée le 26 pour Thanksgiving, réouverture en séance écourtée le vendredi 27) ; EUR/USD : cours de référence BCE du 26 novembre",
-  "frequence": "quotidienne",
-  "series": [
-    {
-      "id": "cac40",
-      "nom": "CAC 40",
-      "unite": "pts",
-      "points": [
-        [
-          "2026-10-27",
-          7887.14
-        ],
-        [
-          "2026-10-28",
-          7886.96
-        ],
-        [
-          "2026-10-29",
-          7970.0
-        ],
-        [
-          "2026-10-30",
-          7969.42
-        ],
-        [
-          "2026-11-02",
-          8047.69
-        ],
-        [
-          "2026-11-03",
-          8020.31
-        ],
-        [
-          "2026-11-04",
-          8177.89
-        ],
-        [
-          "2026-11-05",
-          8205.37
-        ],
-        [
-          "2026-11-06",
-          8139.0
-        ],
-        [
-          "2026-11-09",
-          8233.3
-        ],
-        [
-          "2026-11-10",
-          8278.59
-        ],
-        [
-          "2026-11-11",
-          8332.87
-        ],
-        [
-          "2026-11-12",
-          8361.36
-        ],
-        [
-          "2026-11-13",
-          8368.91
-        ],
-        [
-          "2026-11-16",
-          8352.0
-        ],
-        [
-          "2026-11-17",
-          8216.78
-        ],
-        [
-          "2026-11-18",
-          8146.83
-        ],
-        [
-          "2026-11-19",
-          8080.74
-        ],
-        [
-          "2026-11-20",
-          7927.75
-        ],
-        [
-          "2026-11-23",
-          8044.84
-        ],
-        [
-          "2026-11-24",
-          8040.49
-        ],
-        [
-          "2026-11-25",
-          7980.57
-        ],
-        [
-          "2026-11-26",
-          8108.74
-        ]
-      ]
-    },
-    {
-      "id": "sp500",
-      "nom": "S&P 500",
-      "unite": "pts",
-      "points": [
-        [
-          "2026-10-26",
-          7676.77
-        ],
-        [
-          "2026-10-27",
-          7722.6
-        ],
-        [
-          "2026-10-28",
-          7743.98
-        ],
-        [
-          "2026-10-29",
-          7720.39
-        ],
-        [
-          "2026-10-30",
-          7580.07
-        ],
-        [
-          "2026-11-02",
-          7541.4
-        ],
-        [
-          "2026-11-03",
-          7568.92
-        ],
-        [
-          "2026-11-04",
-          7688.62
-        ],
-        [
-          "2026-11-05",
-          7353.73
-        ],
-        [
-          "2026-11-06",
-          7376.86
-        ],
-        [
-          "2026-11-09",
-          7549.94
-        ],
-        [
-          "2026-11-10",
-          7520.93
-        ],
-        [
-          "2026-11-11",
-          7619.38
-        ],
-        [
-          "2026-11-12",
-          7592.4
-        ],
-        [
-          "2026-11-13",
-          7561.67
-        ],
-        [
-          "2026-11-16",
-          7416.59
-        ],
-        [
-          "2026-11-17",
-          7340.53
-        ],
-        [
-          "2026-11-18",
-          7323.63
-        ],
-        [
-          "2026-11-19",
-          7175.83
-        ],
-        [
-          "2026-11-20",
-          6910.39
-        ],
-        [
-          "2026-11-23",
-          7237.17
-        ],
-        [
-          "2026-11-24",
-          7201.09
-        ],
-        [
-          "2026-11-25",
-          7182.78
-        ]
-      ]
-    },
-    {
-      "id": "nasdaq",
-      "nom": "Nasdaq Composite",
-      "unite": "pts",
-      "points": [
-        [
-          "2026-10-26",
-          26169.38
-        ],
-        [
-          "2026-10-27",
-          26477.81
-        ],
-        [
-          "2026-10-28",
-          26549.85
-        ],
-        [
-          "2026-10-29",
-          26184.72
-        ],
-        [
-          "2026-10-30",
-          25437.0
-        ],
-        [
-          "2026-11-02",
-          25164.32
-        ],
-        [
-          "2026-11-03",
-          25372.01
-        ],
-        [
-          "2026-11-04",
-          25736.51
-        ],
-        [
-          "2026-11-05",
-          24314.99
-        ],
-        [
-          "2026-11-06",
-          24579.42
-        ],
-        [
-          "2026-11-09",
-          25253.14
-        ],
-        [
-          "2026-11-10",
-          25065.88
-        ],
-        [
-          "2026-11-11",
-          25466.19
-        ],
-        [
-          "2026-11-12",
-          25366.09
-        ],
-        [
-          "2026-11-13",
-          25136.27
-        ],
-        [
-          "2026-11-16",
-          24509.76
-        ],
-        [
-          "2026-11-17",
-          24328.38
-        ],
-        [
-          "2026-11-18",
-          24429.88
-        ],
-        [
-          "2026-11-19",
-          23879.2
-        ],
-        [
-          "2026-11-20",
-          22617.73
-        ],
-        [
-          "2026-11-23",
-          24089.56
-        ],
-        [
-          "2026-11-24",
-          23733.54
-        ],
-        [
-          "2026-11-25",
-          23585.8
-        ]
-      ]
-    },
-    {
-      "id": "eurusd",
-      "nom": "EUR/USD (cours de référence BCE)",
-      "unite": "USD pour 1 EUR",
-      "note": "Cours de référence quotidien de la BCE (fixing vers 14h15 CET), et non cours de clôture de marché.",
-      "points": [
-        [
-          "2026-10-27",
-          1.115
-        ],
-        [
-          "2026-10-28",
-          1.1133
-        ],
-        [
-          "2026-10-29",
-          1.113
-        ],
-        [
-          "2026-10-30",
-          1.1172
-        ],
-        [
-          "2026-11-02",
-          1.1216
-        ],
-        [
-          "2026-11-03",
-          1.1179
-        ],
-        [
-          "2026-11-04",
-          1.1267
-        ],
-        [
-          "2026-11-05",
-          1.1224
-        ],
-        [
-          "2026-11-06",
-          1.1165
-        ],
-        [
-          "2026-11-09",
-          1.1193
-        ],
-        [
-          "2026-11-10",
-          1.1214
-        ],
-        [
-          "2026-11-11",
-          1.1127
-        ],
-        [
-          "2026-11-12",
-          1.1081
-        ],
-        [
-          "2026-11-13",
-          1.1052
-        ],
-        [
-          "2026-11-16",
-          1.1014
-        ],
-        [
-          "2026-11-17",
-          1.0989
-        ],
-        [
-          "2026-11-18",
-          1.0969
-        ],
-        [
-          "2026-11-19",
-          1.0992
-        ],
-        [
-          "2026-11-20",
-          1.099
-        ],
-        [
-          "2026-11-23",
-          1.0939
-        ],
-        [
-          "2026-11-24",
-          1.0963
-        ],
-        [
-          "2026-11-25",
-          1.0935
-        ],
-        [
-          "2026-11-26",
-          1.0975
-        ]
-      ]
-    }
-  ],
-  "absent": "S&P 500 et Nasdaq Composite : aucun point au 26/11 (Wall Street fermée pour Thanksgiving) ; dernière valeur au 25/11 (S&P 500 −0,3 % à 7 182,78, Nasdaq Composite −0,6 % à 23 585,80, Dow Jones +0,3 % à 50 182,95, selon AP via La Nación). Séance du 26/11 : CAC 40 +1,61 % (+128,17 points) à 8 108,74 points (Boursorama, Zonebourse) ; EUR/USD BCE 1,0975 (contre 1,0935 le 25/11). Point du 26/10 retiré des séries CAC 40 et EUR/USD (fenêtre glissante d'environ 23 séances) ; il reste conservé pour S&P 500 et Nasdaq, qui n'ont pas de nouveau point. EUR/USD du 24/11 : valeur déduite de l'inverse du cours BCE publié par Euro-rates.info (0,9122 euro pour 1 dollar), arrondi à 4 décimales. Brent non fourni en série quotidienne : Trading Economics le situait « au-dessus de 95 dollars » le 26/11 (troisième séance de hausse), The Edge à 94,48 dollars en cours de séance à 8 h 30 GMT ; règlement non confirmé.",
-  "sources": [
-    {
-      "nom": "Boursorama – historique CAC 40",
-      "url": "https://www.boursorama.com/bourse/indices/cours/historique/1rPCAC"
-    },
-    {
-      "nom": "Yahoo Finance – historique CAC 40",
-      "url": "https://finance.yahoo.com/quote/%5EFCHI/history/"
-    },
-    {
-      "nom": "AP via Yahoo Finance – clôtures du 5/11/2026",
-      "url": "https://ca.finance.yahoo.com/news/major-us-stock-indexes-fared-212218583.html"
-    },
-    {
-      "nom": "AP via Yahoo Finance – clôtures du 6/11/2026",
-      "url": "https://au.finance.yahoo.com/news/major-us-stock-indexes-fared-212037857.html"
-    },
-    {
-      "nom": "AP via KRMG – clôtures du 9/11/2026",
-      "url": "https://krmg.com/2026/11/09/how-major-us-stock-indexes-fared-monday-11-9-2026/"
-    },
-    {
-      "nom": "AP via Yahoo Finance – clôtures du 11/11/2026 (10/11 déduit de la variation)",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/major-us-stock-indexes-fared-211834867.html"
-    },
-    {
-      "nom": "BCE – cours de référence EUR/USD",
-      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html"
-    },
-    {
-      "nom": "AP via La Nación – clôtures du 16/11/2026",
-      "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-monday-11162026-nid16112026/"
-    },
-    {
-      "nom": "MarketSpeaker – clôtures américaines du 16/11/2026",
-      "url": "https://marketspeaker.com/nasdaq-sp500-dow-close-nvidia-chip-selloff-november-16-2026/"
-    },
-    {
-      "nom": "AP via Honolulu Star-Advertiser – clôtures du 17/11/2026",
-      "url": "https://www.staradvertiser.com/2026/11/17/breaking-news/dow-drops-849-points-as-wall-street-slides-ahead-of-nvidia-results/"
-    },
-    {
-      "nom": "CappNotes – clôtures du 17/11/2026",
-      "url": "https://cappnotes.substack.com/p/closing-look-tuesday-november-17"
-    },
-    {
-      "nom": "Zonebourse – clôture CAC 40 du 17/11/2026",
-      "url": "https://www.zonebourse.com/actualite-bourse/cac-40-la-bourse-de-paris-chute-l-ecosysteme-ia-inquiete-ce785edcdd88f724"
-    },
-    {
-      "nom": "CappNotes – clôtures du 18/11/2026",
-      "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-18"
-    },
-    {
-      "nom": "StockTitan (d'après CNBC) – clôtures américaines du 18/11/2026",
-      "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"
-    },
-    {
-      "nom": "Zonebourse – clôture CAC 40 du 18/11/2026",
-      "url": "https://www.zonebourse.com/actualite-bourse/cac-40-la-bourse-de-paris-prolonge-son-repli-nvidia-pese-sur-la-tendance-ce785edddd8af625"
-    },
-    {
-      "nom": "Euro-rates.info – cours de référence BCE du 18/11/2026",
-      "url": "https://euro-rates.info/en/home/USD/2026-11-18"
-    },
-    {
-      "nom": "Kitco – rapport de clôture du 18/11/2026 (Brent, or)",
-      "url": "https://www.kitco.com/news/article/2026-11-18/gold-plunges-below-3750-silver-tumbles-hawkish-fed-minutes-pressure-metals"
-    },
-    {
-      "nom": "Boursorama – historique CAC 40 (clôture du 19/11/2026)",
-      "url": "https://www.boursorama.com/bourse/indices/cours/historique/1rPCAC"
-    },
-    {
-      "nom": "Yahoo Finance – historique S&P 500 (clôture du 19/11/2026)",
-      "url": "https://finance.yahoo.com/quote/%5EGSPC/history/"
-    },
-    {
-      "nom": "Trading Economics – CAC 40 (clôture du 19/11/2026)",
-      "url": "https://tradingeconomics.com/france/stock-market"
-    },
-    {
-      "nom": "BCE – cours de référence EUR/USD du 19/11/2026",
-      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html"
-    },
-    {
-      "nom": "Boursorama – historique CAC 40 (clôture du 20/11/2026)",
-      "url": "https://www.boursorama.com/bourse/indices/cours/historique/1rPCAC"
-    },
-    {
-      "nom": "Trading Economics – CAC 40 (clôture du 20/11/2026)",
-      "url": "https://tradingeconomics.com/france/stock-market"
-    },
-    {
-      "nom": "AP via La Nación – clôtures du 19/11/2026 (dont Nasdaq Composite)",
-      "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-thursday-11192026-nid19112026/"
-    },
-    {
-      "nom": "AP via La Nación – clôtures du 20/11/2026",
-      "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-11202026-nid20112026/"
-    },
-    {
-      "nom": "Trading Economics – marché américain (20/11/2026)",
-      "url": "https://tradingeconomics.com/united-states/stock-market"
-    },
-    {
-      "nom": "BCE – cours de référence du 20/11/2026",
-      "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
-    },
-    {
-      "nom": "Trading Economics – Brent (20/11/2026)",
-      "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
-    },
-    {
-      "nom": "Boursorama – historique CAC 40 (clôture du 25/11/2026)",
-      "url": "https://www.boursorama.com/bourse/indices/cours/historique/1rPCAC"
-    },
-    {
-      "nom": "Trading Economics – CAC 40 (clôture du 25/11/2026)",
-      "url": "https://tradingeconomics.com/france/stock-market"
-    },
-    {
-      "nom": "AP via La Nación – clôtures du 25/11/2026",
-      "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-wednesday-11252026-nid25112026/"
-    },
-    {
-      "nom": "Euro-rates.info – cours de référence BCE du 24/11/2026",
-      "url": "https://euro-rates.info/en/home/USD/2026-11-24"
-    },
-    {
-      "nom": "BCE – cours de référence du 25/11/2026",
-      "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
-    },
-    {
-      "nom": "Boursorama – historique CAC 40 (clôture du 26/11/2026)",
-      "url": "https://www.boursorama.com/bourse/indices/cours/historique/1rPCAC"
-    },
-    {
-      "nom": "Zonebourse – Paris en forte hausse jeudi (26/11/2026)",
-      "url": "https://www.zonebourse.com/actualite-bourse/paris-en-forte-hausse-jeudi-ce7851d9d889f622"
-    },
-    {
-      "nom": "BCE – cours de référence du 26/11/2026",
-      "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
-    },
-    {
-      "nom": "Trading Economics – Brent (26/11/2026)",
-      "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
-    },
-    {
-      "nom": "The Edge – point matières premières du 26/11/2026",
-      "url": "https://edgeconsultancykw.com/commodities-wrap-26-november-2026/"
-    }
-  ]
+ "maj": "clôture du vendredi 27 novembre 2026 pour le CAC 40, le S&P 500 et le Nasdaq Composite (Wall Street en séance écourtée, fermeture à 13 h, heure de New York, après Thanksgiving) ; EUR/USD : cours de référence BCE du 27 novembre",
+ "frequence": "quotidienne",
+ "series": [
+  {
+   "id": "cac40",
+   "nom": "CAC 40",
+   "unite": "pts",
+   "points": [
+    [
+     "2026-10-28",
+     7886.96
+    ],
+    [
+     "2026-10-29",
+     7970.0
+    ],
+    [
+     "2026-10-30",
+     7969.42
+    ],
+    [
+     "2026-11-02",
+     8047.69
+    ],
+    [
+     "2026-11-03",
+     8020.31
+    ],
+    [
+     "2026-11-04",
+     8177.89
+    ],
+    [
+     "2026-11-05",
+     8205.37
+    ],
+    [
+     "2026-11-06",
+     8139.0
+    ],
+    [
+     "2026-11-09",
+     8233.3
+    ],
+    [
+     "2026-11-10",
+     8278.59
+    ],
+    [
+     "2026-11-11",
+     8332.87
+    ],
+    [
+     "2026-11-12",
+     8361.36
+    ],
+    [
+     "2026-11-13",
+     8368.91
+    ],
+    [
+     "2026-11-16",
+     8352.0
+    ],
+    [
+     "2026-11-17",
+     8216.78
+    ],
+    [
+     "2026-11-18",
+     8146.83
+    ],
+    [
+     "2026-11-19",
+     8080.74
+    ],
+    [
+     "2026-11-20",
+     7927.75
+    ],
+    [
+     "2026-11-23",
+     8044.84
+    ],
+    [
+     "2026-11-24",
+     8040.49
+    ],
+    [
+     "2026-11-25",
+     7980.57
+    ],
+    [
+     "2026-11-26",
+     8108.74
+    ],
+    [
+     "2026-11-27",
+     8156.09
+    ]
+   ]
+  },
+  {
+   "id": "sp500",
+   "nom": "S&P 500",
+   "unite": "pts",
+   "points": [
+    [
+     "2026-10-27",
+     7722.6
+    ],
+    [
+     "2026-10-28",
+     7743.98
+    ],
+    [
+     "2026-10-29",
+     7720.39
+    ],
+    [
+     "2026-10-30",
+     7580.07
+    ],
+    [
+     "2026-11-02",
+     7541.4
+    ],
+    [
+     "2026-11-03",
+     7568.92
+    ],
+    [
+     "2026-11-04",
+     7688.62
+    ],
+    [
+     "2026-11-05",
+     7353.73
+    ],
+    [
+     "2026-11-06",
+     7376.86
+    ],
+    [
+     "2026-11-09",
+     7549.94
+    ],
+    [
+     "2026-11-10",
+     7520.93
+    ],
+    [
+     "2026-11-11",
+     7619.38
+    ],
+    [
+     "2026-11-12",
+     7592.4
+    ],
+    [
+     "2026-11-13",
+     7561.67
+    ],
+    [
+     "2026-11-16",
+     7416.59
+    ],
+    [
+     "2026-11-17",
+     7340.53
+    ],
+    [
+     "2026-11-18",
+     7323.63
+    ],
+    [
+     "2026-11-19",
+     7175.83
+    ],
+    [
+     "2026-11-20",
+     6910.39
+    ],
+    [
+     "2026-11-23",
+     7237.17
+    ],
+    [
+     "2026-11-24",
+     7201.09
+    ],
+    [
+     "2026-11-25",
+     7182.78
+    ],
+    [
+     "2026-11-27",
+     7297.49
+    ]
+   ]
+  },
+  {
+   "id": "nasdaq",
+   "nom": "Nasdaq Composite",
+   "unite": "pts",
+   "points": [
+    [
+     "2026-10-27",
+     26477.81
+    ],
+    [
+     "2026-10-28",
+     26549.85
+    ],
+    [
+     "2026-10-29",
+     26184.72
+    ],
+    [
+     "2026-10-30",
+     25437.0
+    ],
+    [
+     "2026-11-02",
+     25164.32
+    ],
+    [
+     "2026-11-03",
+     25372.01
+    ],
+    [
+     "2026-11-04",
+     25736.51
+    ],
+    [
+     "2026-11-05",
+     24314.99
+    ],
+    [
+     "2026-11-06",
+     24579.42
+    ],
+    [
+     "2026-11-09",
+     25253.14
+    ],
+    [
+     "2026-11-10",
+     25065.88
+    ],
+    [
+     "2026-11-11",
+     25466.19
+    ],
+    [
+     "2026-11-12",
+     25366.09
+    ],
+    [
+     "2026-11-13",
+     25136.27
+    ],
+    [
+     "2026-11-16",
+     24509.76
+    ],
+    [
+     "2026-11-17",
+     24328.38
+    ],
+    [
+     "2026-11-18",
+     24429.88
+    ],
+    [
+     "2026-11-19",
+     23879.2
+    ],
+    [
+     "2026-11-20",
+     22617.73
+    ],
+    [
+     "2026-11-23",
+     24089.56
+    ],
+    [
+     "2026-11-24",
+     23733.54
+    ],
+    [
+     "2026-11-25",
+     23585.8
+    ],
+    [
+     "2026-11-27",
+     24129.5
+    ]
+   ]
+  },
+  {
+   "id": "eurusd",
+   "nom": "EUR/USD (cours de référence BCE)",
+   "unite": "USD pour 1 EUR",
+   "note": "Cours de référence quotidien de la BCE (fixing vers 14h15 CET), et non cours de clôture de marché.",
+   "points": [
+    [
+     "2026-10-28",
+     1.1133
+    ],
+    [
+     "2026-10-29",
+     1.113
+    ],
+    [
+     "2026-10-30",
+     1.1172
+    ],
+    [
+     "2026-11-02",
+     1.1216
+    ],
+    [
+     "2026-11-03",
+     1.1179
+    ],
+    [
+     "2026-11-04",
+     1.1267
+    ],
+    [
+     "2026-11-05",
+     1.1224
+    ],
+    [
+     "2026-11-06",
+     1.1165
+    ],
+    [
+     "2026-11-09",
+     1.1193
+    ],
+    [
+     "2026-11-10",
+     1.1214
+    ],
+    [
+     "2026-11-11",
+     1.1127
+    ],
+    [
+     "2026-11-12",
+     1.1081
+    ],
+    [
+     "2026-11-13",
+     1.1052
+    ],
+    [
+     "2026-11-16",
+     1.1014
+    ],
+    [
+     "2026-11-17",
+     1.0989
+    ],
+    [
+     "2026-11-18",
+     1.0969
+    ],
+    [
+     "2026-11-19",
+     1.0992
+    ],
+    [
+     "2026-11-20",
+     1.099
+    ],
+    [
+     "2026-11-23",
+     1.0939
+    ],
+    [
+     "2026-11-24",
+     1.0963
+    ],
+    [
+     "2026-11-25",
+     1.0935
+    ],
+    [
+     "2026-11-26",
+     1.0975
+    ],
+    [
+     "2026-11-27",
+     1.0957
+    ]
+   ]
+  }
+ ],
+ "absent": "Séance du 27/11 : CAC 40 +0,58 % à 8 156,09 points (+2,88 % sur la semaine, BFM Bourse ; Boursorama) ; S&P 500 +1,60 % à 7 297,49, Nasdaq Composite +2,31 % à 24 129,50, Dow Jones +1,18 % à 50 774,94 (Yahoo Finance) ; EUR/USD BCE 1,0957 (contre 1,0975 le 26/11). Points les plus anciens retirés pour conserver une fenêtre glissante de 23 séances (CAC 40 et EUR/USD depuis le 28/10, S&P 500 et Nasdaq depuis le 27/10, faute de séance le 26/11). Brent non fourni en série quotidienne : cotations divergentes le 27/11 (93,92 dollars, −2,74 %, sur le contrat le plus proche selon Boursorama ; 89,95 dollars, −1,9 %, sur le contrat de janvier selon BFM Bourse) ; règlement non confirmé.",
+ "sources": [
+  {
+   "nom": "Boursorama – historique CAC 40",
+   "url": "https://www.boursorama.com/bourse/indices/cours/historique/1rPCAC"
+  },
+  {
+   "nom": "Yahoo Finance – historique CAC 40",
+   "url": "https://finance.yahoo.com/quote/%5EFCHI/history/"
+  },
+  {
+   "nom": "AP via Yahoo Finance – clôtures du 5/11/2026",
+   "url": "https://ca.finance.yahoo.com/news/major-us-stock-indexes-fared-212218583.html"
+  },
+  {
+   "nom": "AP via Yahoo Finance – clôtures du 6/11/2026",
+   "url": "https://au.finance.yahoo.com/news/major-us-stock-indexes-fared-212037857.html"
+  },
+  {
+   "nom": "AP via KRMG – clôtures du 9/11/2026",
+   "url": "https://krmg.com/2026/11/09/how-major-us-stock-indexes-fared-monday-11-9-2026/"
+  },
+  {
+   "nom": "AP via Yahoo Finance – clôtures du 11/11/2026 (10/11 déduit de la variation)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/major-us-stock-indexes-fared-211834867.html"
+  },
+  {
+   "nom": "BCE – cours de référence EUR/USD",
+   "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html"
+  },
+  {
+   "nom": "AP via La Nación – clôtures du 16/11/2026",
+   "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-monday-11162026-nid16112026/"
+  },
+  {
+   "nom": "MarketSpeaker – clôtures américaines du 16/11/2026",
+   "url": "https://marketspeaker.com/nasdaq-sp500-dow-close-nvidia-chip-selloff-november-16-2026/"
+  },
+  {
+   "nom": "AP via Honolulu Star-Advertiser – clôtures du 17/11/2026",
+   "url": "https://www.staradvertiser.com/2026/11/17/breaking-news/dow-drops-849-points-as-wall-street-slides-ahead-of-nvidia-results/"
+  },
+  {
+   "nom": "CappNotes – clôtures du 17/11/2026",
+   "url": "https://cappnotes.substack.com/p/closing-look-tuesday-november-17"
+  },
+  {
+   "nom": "Zonebourse – clôture CAC 40 du 17/11/2026",
+   "url": "https://www.zonebourse.com/actualite-bourse/cac-40-la-bourse-de-paris-chute-l-ecosysteme-ia-inquiete-ce785edcdd88f724"
+  },
+  {
+   "nom": "CappNotes – clôtures du 18/11/2026",
+   "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-18"
+  },
+  {
+   "nom": "StockTitan (d'après CNBC) – clôtures américaines du 18/11/2026",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"
+  },
+  {
+   "nom": "Zonebourse – clôture CAC 40 du 18/11/2026",
+   "url": "https://www.zonebourse.com/actualite-bourse/cac-40-la-bourse-de-paris-prolonge-son-repli-nvidia-pese-sur-la-tendance-ce785edddd8af625"
+  },
+  {
+   "nom": "Euro-rates.info – cours de référence BCE du 18/11/2026",
+   "url": "https://euro-rates.info/en/home/USD/2026-11-18"
+  },
+  {
+   "nom": "Kitco – rapport de clôture du 18/11/2026 (Brent, or)",
+   "url": "https://www.kitco.com/news/article/2026-11-18/gold-plunges-below-3750-silver-tumbles-hawkish-fed-minutes-pressure-metals"
+  },
+  {
+   "nom": "Boursorama – historique CAC 40 (clôture du 19/11/2026)",
+   "url": "https://www.boursorama.com/bourse/indices/cours/historique/1rPCAC"
+  },
+  {
+   "nom": "Yahoo Finance – historique S&P 500 (clôture du 19/11/2026)",
+   "url": "https://finance.yahoo.com/quote/%5EGSPC/history/"
+  },
+  {
+   "nom": "Trading Economics – CAC 40 (clôture du 19/11/2026)",
+   "url": "https://tradingeconomics.com/france/stock-market"
+  },
+  {
+   "nom": "BCE – cours de référence EUR/USD du 19/11/2026",
+   "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html"
+  },
+  {
+   "nom": "Boursorama – historique CAC 40 (clôture du 20/11/2026)",
+   "url": "https://www.boursorama.com/bourse/indices/cours/historique/1rPCAC"
+  },
+  {
+   "nom": "Trading Economics – CAC 40 (clôture du 20/11/2026)",
+   "url": "https://tradingeconomics.com/france/stock-market"
+  },
+  {
+   "nom": "AP via La Nación – clôtures du 19/11/2026 (dont Nasdaq Composite)",
+   "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-thursday-11192026-nid19112026/"
+  },
+  {
+   "nom": "AP via La Nación – clôtures du 20/11/2026",
+   "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-11202026-nid20112026/"
+  },
+  {
+   "nom": "Trading Economics – marché américain (20/11/2026)",
+   "url": "https://tradingeconomics.com/united-states/stock-market"
+  },
+  {
+   "nom": "BCE – cours de référence du 20/11/2026",
+   "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+  },
+  {
+   "nom": "Trading Economics – Brent (20/11/2026)",
+   "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+  },
+  {
+   "nom": "Boursorama – historique CAC 40 (clôture du 25/11/2026)",
+   "url": "https://www.boursorama.com/bourse/indices/cours/historique/1rPCAC"
+  },
+  {
+   "nom": "Trading Economics – CAC 40 (clôture du 25/11/2026)",
+   "url": "https://tradingeconomics.com/france/stock-market"
+  },
+  {
+   "nom": "AP via La Nación – clôtures du 25/11/2026",
+   "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-wednesday-11252026-nid25112026/"
+  },
+  {
+   "nom": "Euro-rates.info – cours de référence BCE du 24/11/2026",
+   "url": "https://euro-rates.info/en/home/USD/2026-11-24"
+  },
+  {
+   "nom": "BCE – cours de référence du 25/11/2026",
+   "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+  },
+  {
+   "nom": "Boursorama – historique CAC 40 (clôture du 26/11/2026)",
+   "url": "https://www.boursorama.com/bourse/indices/cours/historique/1rPCAC"
+  },
+  {
+   "nom": "Zonebourse – Paris en forte hausse jeudi (26/11/2026)",
+   "url": "https://www.zonebourse.com/actualite-bourse/paris-en-forte-hausse-jeudi-ce7851d9d889f622"
+  },
+  {
+   "nom": "BCE – cours de référence du 26/11/2026",
+   "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+  },
+  {
+   "nom": "Trading Economics – Brent (26/11/2026)",
+   "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+  },
+  {
+   "nom": "The Edge – point matières premières du 26/11/2026",
+   "url": "https://edgeconsultancykw.com/commodities-wrap-26-november-2026/"
+  },
+  {
+   "nom": "BFM Bourse – le CAC 40 termine en hausse ce vendredi (27/11/2026)",
+   "url": "https://www.tradingsat.com/cac-40-FR0003500008/actualites/cac-40-en-attendant-la-decision-de-sp-sur-la-note-de-credit-de-la-france-le-cac-40-termine-en-hausse-ce-vendredi-et-reprend-pres-de-3-sur-la-semaine-1174568.html"
+  },
+  {
+   "nom": "Boursorama – l'Europe finit dans le vert (27/11/2026)",
+   "url": "https://www.boursorama.com/bourse/actualites/l-europe-finit-dans-le-vert-se-redresse-apres-des-jours-agites-7a90b76fa80051ac5f520514c134a130"
+  },
+  {
+   "nom": "Yahoo Finance – Stock market today, Friday November 27",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-firday-november-27-dow-sp-500-nasdaq-black-friday-holiday-091152065.html"
+  }
+ ]
 }
